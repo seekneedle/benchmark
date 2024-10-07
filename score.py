@@ -14,21 +14,21 @@ def calculate_f1_score(golden_json, predict_json):
     golden_flat = flatten_json(golden_json)
     predict_flat = flatten_json(predict_json)
 
-    common_keys = set(golden_flat.keys()).union(predict_flat.keys())
+    common_keys = golden_flat.keys()
 
-    golden_labels = [golden_flat.get(key, 'None') for key in common_keys]
-    predict_labels = [predict_flat.get(key, 'None') for key in common_keys]
+    golden_labels = [golden_flat.get(key, '') for key in common_keys]
+    predict_labels = [predict_flat.get(key, '') for key in common_keys]
 
     f1 = f1_score(golden_labels, predict_labels, average='weighted')
 
     error_predictions = []
     for key in common_keys:
         if key in common_keys:
-            if golden_flat.get(key, 'None') != predict_flat.get(key, 'None'):
+            if golden_flat.get(key, '') != predict_flat.get(key, ''):
                 error_predictions.append({
                     'key': key,
-                    'golden_label': golden_flat.get(key, 'None'),
-                    'predict_label': predict_flat.get(key, 'None')
+                    'golden_label': golden_flat.get(key, ''),
+                    'predict_label': predict_flat.get(key, '')
                 })
 
     return f1, common_keys, golden_labels, predict_labels, error_predictions
