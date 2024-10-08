@@ -35,12 +35,15 @@ def send_request(pdf_url):
     except requests.exceptions.RequestException as e:
         return {}
 
-def download(pdf_url):
+def download(pdf_url, rename: str=''):
     json_resp = send_request(pdf_url)
-    parsed_url = urlparse(pdf_url)
-    path = parsed_url.path
-    filename_with_extension = path.split('/')[-1]
-    filename = filename_with_extension.split('.')[0] + '.json'
+    if rename == '':
+        parsed_url = urlparse(pdf_url)
+        path = parsed_url.path
+        filename_with_extension = path.split('/')[-1]
+        filename = filename_with_extension.split('.')[0] + '.json'
+    else:
+        filename = rename + '.json'
     filepath = os.path.join('res', 'predict', filename)
     try:
         with open(filepath, 'w', encoding='utf-8') as json_file:

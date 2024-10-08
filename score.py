@@ -1,4 +1,8 @@
 from sklearn.metrics import f1_score
+import requests
+from security import decrypt_config
+from config import config
+import json
 
 def flatten_json(json_obj, parent_key='', sep='_'):
     flattened_dict = {}
@@ -22,9 +26,53 @@ def flatten_json(json_obj, parent_key='', sep='_'):
             flattened_dict[new_key] = value
     return flattened_dict
 
+
+# HTTPS接口的URL
+url = 'https://api.coze.cn/v1/workflow/run'
+workflow_id = "7423313180841197622"
+
+def send_request(golden, predict):
+    data = {
+        "workflow_id": workflow_id,
+        "parameters": {
+            "golden": golden,
+            "predict": predict
+        }
+    }
+
+    # 请求头（如果需要的话）
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': decrypt_config(config['predict_key'])
+    }
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        content = response.text
+        try:
+            json_data = json.loads(content)
+            inner_data = json.loads(json_data["data"])
+            data = json.loads(inner_data["data"])
+            return data
+        except json.JSONDecodeError:
+            return False
+    except requests.exceptions.RequestException as e:
+        return False
+
+
+def align_predict(golden_flat, predict_flat):
+    for key in golden_flat.keys():
+        golden = golden_flat[key]
+        predict = predict_flat.get(key, '')
+        if golden != '' and predict != '' and golden != predict:
+            is_same = send_request(golden, predict)
+            if is_same:
+                predict_flat[key] = golden
+    return predict_flat
+
 def calculate_f1_score(golden_json, predict_json):
     golden_flat = flatten_json(golden_json)
     predict_flat = flatten_json(predict_json)
+    predict_flat = align_predict(golden_flat, predict_flat)
 
     common_keys = golden_flat.keys()
 
