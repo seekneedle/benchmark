@@ -3,9 +3,21 @@ from sklearn.metrics import f1_score
 def flatten_json(json_obj, parent_key='', sep='_'):
     flattened_dict = {}
     for key, value in json_obj.items():
-        new_key = parent_key + sep + key if parent_key else key
+        new_key = f"{parent_key}{sep}{key}" if parent_key else key
         if isinstance(value, dict):
+            # 如果是字典，递归调用
             flattened_dict.update(flatten_json(value, new_key, sep=sep))
+        elif isinstance(value, list):
+            # 如果是列表，迭代每个元素
+            for i, item in enumerate(value):
+                # 使用索引来区分列表中的不同元素
+                list_item_key = f"{new_key}{sep}{i}"
+                if isinstance(item, dict):
+                    # 如果列表中的元素是字典，递归调用
+                    flattened_dict.update(flatten_json(item, list_item_key, sep=sep))
+                else:
+                    # 否则直接添加到结果字典中
+                    flattened_dict[list_item_key] = item
         else:
             flattened_dict[new_key] = value
     return flattened_dict

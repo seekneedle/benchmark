@@ -2,6 +2,7 @@ import json
 import os
 import glob
 from score import calculate_f1_score
+from tabulate import tabulate
 
 
 def load_json_files(directory):
@@ -50,15 +51,19 @@ def score(keys=None):
         golden_json = golden_data.get(json_key, {})
         f1_score, common_keys, golden_labels, predict_labels, error_predictions = calculate_f1_score(golden_json,
                                                                                                      predict_json)
-        print(f"---{json_key}---")
+        print(f"---{json_key}.json---")
         print("F1 Score:", f1_score)
-        print("Common Keys:", common_keys)
-        print("Golden Labels:", golden_labels)
-        print("Predict Labels:", predict_labels)
-        print("Error Predictions:")
-        for error_pred in error_predictions:
-            print(
-                f"Key: {error_pred['key']}, Golden Label: {error_pred['golden_label']}, Predicted Label: {error_pred['predict_label']}")
+
+        if error_predictions:
+            # 定义表头
+            headers = ["Keys", "Golden Labels", "Predict Labels"]
+
+            table_data = []
+            for error_pred in error_predictions:
+                table_data.append((error_pred['key'], error_pred['golden_label'], error_pred[
+                    'predict_label']))
+            # 使用tabulate打印表格
+            print(tabulate(table_data, headers=headers, tablefmt="grid"))
 
 if __name__ == "__main__":
-    score()
+    score(['U167051'])
