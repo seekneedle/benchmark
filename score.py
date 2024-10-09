@@ -76,8 +76,8 @@ def calculate_f1_score(golden_json, predict_json):
 
     common_keys = golden_flat.keys()
 
-    golden_labels = [golden_flat.get(key, '') for key in common_keys]
-    predict_labels = [predict_flat.get(key, '') for key in common_keys]
+    golden_labels = [str(golden_flat.get(key, '')) for key in common_keys]
+    predict_labels = [str(predict_flat.get(key, '')) for key in common_keys]
 
     f1 = f1_score(golden_labels, predict_labels, average='weighted')
 
