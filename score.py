@@ -72,7 +72,8 @@ def align_predict(golden_flat, predict_flat):
 def calculate_f1_score(golden_json, predict_json):
     golden_flat = flatten_json(golden_json)
     predict_flat = flatten_json(predict_json)
-    predict_flat = align_predict(golden_flat, predict_flat)
+    if config['align_predict']:
+        predict_flat = align_predict(golden_flat, predict_flat)
 
     common_keys = golden_flat.keys()
 
