@@ -43,7 +43,7 @@ def encrypt(plaintext, password):
     return encoded_ciphertext
 
 
-def decrypt(ciphertext, password):
+def decrypt(ciphertext, password=PASSWORD):
     # 密钥长度必须为16字节（128位），这里简单地取前16个字节
     key = pad_to_16_bytes(password)
 
@@ -68,8 +68,6 @@ def decrypt(ciphertext, password):
 
     return plaintext.decode('utf-8')
 
-def decrypt_config(config):
-    return decrypt(config, PASSWORD)
 
 if __name__ == "__main__":
     plaintext = "Hello World!"

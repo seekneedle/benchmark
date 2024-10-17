@@ -1,0 +1,688 @@
+{
+    "product": {
+        "childAgeBegin": 15,
+        "childAgeEnd": 99,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "澳大利亚",
+                "destCityName": "悉尼",
+                "destProvinceName": "维多利亚州"
+            },
+            {
+                "countryName": "澳大利亚",
+                "destCityName": "布里斯班",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "澳大利亚",
+                "destCityName": "黄金海岸",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "新西兰",
+                "destCityName": "奥克兰",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "新西兰",
+                "destCityName": "罗托鲁瓦",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "",
+            "name": "",
+            "typeName": ""
+        },
+        "insuranceIncluded": 1,
+        "markets": [],
+        "productSubtitle": "杰维斯湾观海豚游船+天堂农庄+鱼市场+邦迪海滩+酒庄品酒+醉美大洋路+海港大桥漫步+悉尼大学+牧场参观+怀欧塔普地热世界",
+        "productTitle": "恋恋海豚湾优享澳新12日游",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "自然风光"
+            },
+            {
+                "name": "文化体验"
+            },
+            {
+                "name": "美食探索"
+            },
+            {
+                "name": "休闲放松"
+            }
+        ],
+        "themes": [
+            {
+                "name": "自然风光"
+            },
+            {
+                "name": "文化体验"
+            },
+            {
+                "name": "美食探索"
+            },
+            {
+                "name": "休闲放松"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [],
+        "backTransportName": "飞机",
+        "goAirports": [],
+        "goTransportName": "飞机",
+        "hotelStarName": "-1",
+        "lineFeature": "杰维斯湾观海豚游船、天堂农庄、悉尼鱼市场、邦迪海滩、库伦加塔酒庄品酒、大洋路十二使徒岩、海港大桥漫步、悉尼大学参观、爱歌顿牧场、怀欧塔普地热世界等",
+        "lineSimpleTitle": "澳新12日游",
+        "lineSortTitle": "AUS-NZ12D",
+        "lineTitle": "恋恋海豚湾优享澳新12日游",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "悉尼",
+                "countryName": "澳大利亚",
+                "provinceName": "新南威尔士州"
+            },
+            {
+                "cityName": "维多利亚州",
+                "countryName": "澳大利亚",
+                "provinceName": ""
+            },
+            {
+                "cityName": "布里斯班",
+                "countryName": "澳大利亚",
+                "provinceName": "昆士兰州"
+            },
+            {
+                "cityName": "黄金海岸",
+                "countryName": "澳大利亚",
+                "provinceName": "昆士兰州"
+            },
+            {
+                "cityName": "奥克兰",
+                "countryName": "新西兰",
+                "provinceName": ""
+            },
+            {
+                "cityName": "罗托鲁瓦",
+                "countryName": "新西兰",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "12",
+        "tripNight": "11",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "澳大利亚",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                },
+                {
+                    "content": "",
+                    "country": "新西兰",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "护照费用；酒店内电话、传真、洗熨、收费电视、饮料等费用；洗衣、理发、电话、饮料、烟酒、付费电视、行李搬运等私人费用；服务项目未提到的其他一切费用；签证相关的未成年人公证书等相关费用及 75 岁以上（含 75 岁）老年人身体健康体检证明书；单人房差；旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失",
+        "costInclude": "澳大利亚和新西兰 ADS 团体另纸签证费用；北京/澳大利亚（新西兰）往返国际机票及澳大利亚新西兰间及境内段机票，团体经济舱，含机场建设税；网评 4 星级酒店或度假村或公寓双人间；境外车型标准根据成团人数调整；行程中所列餐食；行程中所列景点门票；旅行社责任险；中文司兼导服务费；赠送旅游人身意外保险",
+        "lineReturns": [
+            {
+                "begin": "45",
+                "cost": "每位需支付 5000 元/人",
+                "end": "31"
+            },
+            {
+                "begin": "30",
+                "cost": "每位需支付 6000 元/人",
+                "end": "15"
+            },
+            {
+                "begin": "14",
+                "cost": "每位需支付团费的 50%",
+                "end": "0"
+            },
+            {
+                "begin": "7",
+                "cost": "每位需支付团费全款损失（可退国际段机票税款）",
+                "end": "0"
+            }
+        ],
+        "otherRule": "",
+        "returnContent": "在出发前 45-31 日取消行程，每位需支付 5000 元/人；在出发前 30-15 日取消行程，每位需支付 6000 元/人；在出发前 14 日取消行程，每位需支付团费的 50%；在出发前 7 日取消行程，每位需支付团费全款损失（可退国际段机票税款）",
+        "selfCostContent": "悉尼游览（悉尼水族馆，约 3 小时，10 人以上成行，澳币 149/人）；黄金海岸游艇观光（约 1 小时，10 人以上成行，澳币 149/人）；罗托鲁瓦波利尼西亚温泉（约 1 小时，纽币约 85/人）",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "澳币 149/人",
+                "name": "悉尼游览",
+                "remark": "约 3 小时，10 人以上成行",
+                "stay": "180"
+            },
+            {
+                "address": "",
+                "fee": "澳币 149/人",
+                "name": "黄金海岸游艇观光",
+                "remark": "约 1 小时，10 人以上成行",
+                "stay": "60"
+            },
+            {
+                "address": "",
+                "fee": "纽币约 85/人",
+                "name": "罗托鲁瓦波利尼西亚温泉",
+                "remark": "约 1 小时",
+                "stay": "60"
+            }
+        ],
+        "shopContent": "",
+        "shops": [
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "悉尼土特产店",
+                "shopProduct": "澳大利亚的土特产及旅游纪念品等",
+                "stay": "60"
+            },
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "黄金海岸土特产店",
+                "shopProduct": "澳大利亚的土特产及羊毛被制品",
+                "stay": "60"
+            },
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "奥克兰的土特产店",
+                "shopProduct": "新西兰的土特产及旅游纪念品",
+                "stay": "60"
+            },
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "被子加工厂",
+                "shopProduct": "羊毛被及驼羊皮等制品",
+                "stay": "60"
+            }
+        ],
+        "tipsContent": ""
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "各地联运前往北京，傍晚于首都机场集合，办理登机手续，乘国际航班飞往澳大利亚。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "飞机上",
+                    "star": "无"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "无",
+                    "departure": "各地",
+                    "departureTime": "无",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "前往澳大利亚的出发之旅",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "乘坐国际航班从北京（首都机场）飞往维多利亚州，飞行约 11.5 小时，抵达后导游接机。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "15:45",
+                    "departure": "北京（首都机场）",
+                    "departureTime": "00:55",
+                    "destination": "维多利亚州",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京至维多利亚州之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "乘车前往大洋路的著名景点十二使徒岩，游览不少于 40 分钟。今天车程较长，比较辛苦，请您做好准备！！温差较大，请注意保暖！！",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "不少于40分钟",
+                    "description": "大洋路位于墨尔本西南部约200多公里处，是以十二使徒岩为中心的风景线，自20世纪80年代即被定为国家公园，并对来自世界的游客开放。这里展现在您眼前的是经过几百万年风化和海水侵蚀而形成的12座巨型断壁岩石，他们雄伟屹立，形态各异，犹如人面，被形象地称为“十二使徒”由于海水的侵蚀，部分岩体已有松动倒塌，正在消逝中的自然奇迹。驱车走一段沿海公路，眼前宏大的景色，能让您真正体会到大自然鬼斧神工的震撼。",
+                    "name": "大洋路·十二使徒岩"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "维多利亚州大洋路之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "乘机飞往布里斯班或黄金海岸，抵达后，前往游览南岸公园、袋鼠角、故事桥（车览），后前往黄金海岸游览天堂农庄。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "20分钟",
+                    "description": "位于昆士兰州首府布里斯班的布里斯班河南岸，是1988年澳洲举办世博会的旧址，园中还留有一座尼泊尔木塔。园内有水质清澈的人造海滩和青葱的林荫草地，尽显秀美的水岸风光。",
+                    "name": "南岸公园"
+                },
+                {
+                    "consumingTime": "15分钟",
+                    "description": "位于布里斯班河南岸的河套上，由于布里斯班河在这里形成一个大的“U”字形，其本身又处于一个高地上，可以俯瞰美丽的布里斯班河和对岸的建筑群。",
+                    "name": "袋鼠角"
+                },
+                {
+                    "consumingTime": "车览",
+                    "description": "建造于1940年6月6日，桥身的96%建筑材料都是取自澳洲当地。是布里斯班较出名的一座大桥，连接着南岸与布里斯班，也是游客“到此一游”必去的景点之一。",
+                    "name": "故事桥"
+                },
+                {
+                    "consumingTime": "60分钟",
+                    "description": "与考拉袋鼠等萌宠面对面，给袋鼠喂食，可自费抱考拉照相。体验真实澳式农庄生活。园内有丰富的每日不同的表演项目，如：牧羊犬赶羊、澳洲飞镖，投掷回力标和甩马鞭等。",
+                    "name": "天堂农庄"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "维多利亚州",
+                    "departureTime": "",
+                    "destination": "布里斯班或黄金海岸",
+                    "trafficType": "飞机、汽车"
+                }
+            ],
+            "title": "布里斯班或黄金海岸之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "今日前往游览【冲浪者天堂海滩】和【塘鹅湾】。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "这里有明媚的阳光、连绵70英里的白色沙滩、湛蓝透明的海水、浪漫的棕榈林，您可以在这片洁白的沙滩上赤足蹦跳，在海边俯拾贝壳，尽享世界闻名的“冲浪者天堂”的独特魅力！岸边更有各色咖啡厅及特色小店琳琅满目。（温馨提示，风浪大严禁游泳！）",
+                    "name": "冲浪者天堂海滩"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "塘鹅是世界上最大的飞鸟，以嘴大而闻名，是西方人眼里的“送子鸟”，塘鹅湾景色优美，环境优良，成群的野生塘鹅与居民和谐相处。幸运的话，还能看到成群的塘鹅汇集在这里。等待附近的居民喂食，成了一道独特的风景，所以人们把这里称作塘鹅湾。",
+                    "name": "塘鹅湾"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "布里斯班或黄金海岸游览",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "乘机飞往新西兰第一大的城市和港口、具有“帆船之都”美誉的奥克兰。抵达后导游接机，之后游览奥克兰帆船俱乐部外观、工党纪念碑、伊甸山、奥克兰大学。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "奥克兰帆船俱乐部，所在地为一片水泽环绕，当地人爱这片水域，在水上玩耍、游泳、冲浪、扬帆、滑行，或潜入水中捉鱼。人们把奥克兰人称为成天只想着三个“B”，即海滩、船只、烤肉。",
+                    "name": "奥克兰帆船俱乐部外观"
+                },
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "这是一处地处市区、风景优美的园林公园，公园坐落在一座小山丘上，背山而面向豪拉基海湾湛蓝的大海，对面就是奥克兰的地理标志物朗伊托托火山。这是俯瞰千帆之都的好地方。",
+                    "name": "工党纪念碑"
+                },
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "伊甸山的顶部是奥克兰市区自然地貌的高点，可以在这里领略奥克兰市区的全景。这座休眠火山的毛利名称为芒格法奥，高达196米，拥有三个主火山口，掩映于郁郁葱葱的绿地之中。",
+                    "name": "伊甸山"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "建于1883年，位于新西兰奥克兰市，是一所享誉世界的综合研究型大学。奥克兰大学已发展成为新西兰最大的高等教育机构，树立了世界级的卓越声誉和学术影响力。",
+                    "name": "奥克兰大学"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "布里斯班或黄金海岸",
+                    "departureTime": "",
+                    "destination": "奥克兰",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "奥克兰之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后，乘车前往罗托鲁瓦，游览怀奥塔普地热世界、政府花园、红木森林、罗托鲁瓦湖边。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "网评4 星级酒店或者公寓",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约１小时",
+                    "description": "包括全球知名的香槟池——天然的彩色温泉、气泡翻滚的泥浆池、蒸汽腾腾的地面、广阔的全景风光、巨大的火山口以及矿物沉淀的五彩台地。怀奥塔普地热世界由火山活动而成，经过数千年的变化，形成被认为是新西兰丰富多彩的地热观光景点。您将领略独特的自然景观——如您所见关键在于地表以下——这是新西兰广泛的地热系统之一，面积超过18 平方公里。",
+                    "name": "怀奥塔普地热世界"
+                },
+                {
+                    "consumingTime": "外观停留约15分钟",
+                    "description": "一座英国伊利莎白式的橘红色顶的群楼，在绿树、草地和水池的衬映下格外显眼花园的每一个角落都能看见“万绿丛中一抹红”的色彩搭配。",
+                    "name": "政府花园"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "热爱步行和跑步的人们就可以在步道上自得其乐，可谓“皆大欢喜”，因为每个人都能以自己最喜爱的方式享受这片森林。林中最有名的地区当属高大的海岸加州红木森林。这片森林十分壮观，令人印象深刻，以至于公园常常被称作“红木森林”。",
+                    "name": "红木森林"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "它是罗托鲁瓦市区著名的景点，是由远古时期的火山活动中形成，多数成为毛利传说与历史的一部分，比如幽灵战舟飘泊于迷雾之中和情人悄悄游过湖泊到隐秘处幽会就是一个经久流传的动人传说。",
+                    "name": "罗托鲁瓦湖边"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "奥克兰",
+                    "departureTime": "早餐后",
+                    "destination": "罗托鲁瓦",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "奥克兰至罗托鲁瓦之旅",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后，继续游览爱歌顿牧场、库瑞地热公园，后返回奥克兰后游览邮轮大厦。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "您将登上全天候，全地形的牧场观光车进行一次纯净的新西兰牧场之旅，与各种可爱的动物为伍，近距离接触，并能亲手喂食。让久居都市的人们大开眼界。",
+                    "name": "爱歌顿牧场"
+                },
+                {
+                    "consumingTime": "约 30 分钟",
+                    "description": "库瑞地热公园温泉泡脚一洗旅途疲惫，这里强烈的气味为它赢得了'硫磺城'的绰号。公园、人行道和街道上笼罩着神秘的雾气，偶尔你会闻到硫磺的味道--这就是这个地方的特殊之处。",
+                    "name": "库瑞地热公园"
+                },
+                {
+                    "consumingTime": "约 40 分钟",
+                    "description": "渡轮大厦是新西兰最雄伟的港口建筑之一，证明了二十世纪初奥克兰水运的重要性。这座华丽的建筑由奥克兰港务局于 1909-1912 年建造，旨在成为进出城市的广泛渡轮网络的焦点。",
+                    "name": "邮轮大厦"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "罗托鲁瓦",
+                    "departureTime": "",
+                    "destination": "奥克兰",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "罗托鲁瓦至奥克兰之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "乘机飞往澳大利亚第一大城市-悉尼，抵达后导游接机，之后市区游览悉尼歌剧院（外观约 30 分钟）、海港大桥漫步（约 15 分钟）、皇家植物园及麦考丽夫人椅（约 20 分钟）、悉尼鱼市场（午餐自理，停留约 1 小时）。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "网评 4 星级酒店或者公寓",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约 30 分钟",
+                    "description": "悉尼歌剧院作为向全社会开放的伟大艺术杰作列入了《世界遗产名录》。它已成为悉尼重要的地标，20 世纪的伟大建筑工程之一，无论是在建筑形式上还是在结构设计上，都是各种艺术创新的结晶。在迷人海景映衬下，一组壮丽的城市雕塑巍然屹立，顶端呈半岛状，翘首直指悉尼港。",
+                    "name": "悉尼歌剧院"
+                },
+                {
+                    "consumingTime": "约 15 分钟",
+                    "description": "近距离感受歌剧院及海港大桥之美",
+                    "name": "海港大桥漫步"
+                },
+                {
+                    "consumingTime": "约 20 分钟",
+                    "description": "受游客欢迎的著名的景点，在这里可以看到悉尼大剧院、悉尼港湾大桥以及海平面的壮观景色，视野良好。",
+                    "name": "皇家植物园及麦考丽夫人椅"
+                },
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "这里是澳洲供应新鲜鱼类的世界级市场，提供澳洲、南太平洋和亚洲一百种以上的海鲜种类。走进悉尼鱼市场，林林总总的海鲜便会尽现眼前，左边的是鲜活生蚝，右边的是深海大龙虾，迎面看到的是整条肥美的三文鱼刺身，转过头来又见到皇帝蟹，十分地新鲜，叫人垂涎。这种情景对海鲜迷来说，简直就是梦想成真地方。",
+                    "name": "悉尼鱼市场"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "待告",
+                    "departure": "奥克兰",
+                    "departureTime": "待告",
+                    "destination": "悉尼",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "悉尼市区游览",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "今日游览赫斯基森小镇、杰维斯湾海豚游船、库伦加塔酒庄品酒，随后返回悉尼并游览悉尼塔。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "网评 4 星级酒店或者公寓",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 15 分钟",
+                    "description": "赫斯基森地处杰维斯湾的核心位置，有着传统澳洲风情，是整个杰维斯湾游客中心所在地，也是杰维斯湾游轮巡游和潜水等活动的主要出发地，商业设施齐备，风景优美，生活悠闲.",
+                    "name": "赫斯基森小镇"
+                },
+                {
+                    "consumingTime": "约 1.5 小时",
+                    "description": "乘游轮观赏海豚。乘坐双层游船，在杰维斯湾观赏海豚已成为了必游项目。当地常驻的海豚数量已经超过了 80 头，还可以看到很多的海豚宝宝。出海后，你会看到碧蓝的海水下，可爱的海豚精灵在你身边嬉戏玩闹。航路中还能看到海姆斯海滩，因为白得如此耀眼所以被列入了“吉尼斯世界纪录”。",
+                    "name": "杰维斯湾海豚游船"
+                },
+                {
+                    "consumingTime": "约 15 分钟",
+                    "description": "这个知名的精品酒庄获得了超过 2000 个葡萄酒奖项。在古老美丽的酒庄悠闲的品酒消遣。",
+                    "name": "库伦加塔酒庄品酒"
+                },
+                {
+                    "consumingTime": "约 30 分钟",
+                    "description": "悉尼中心商务区中最高建筑，该塔高度为 305 米。位于澳大利亚悉尼海德公园和维多利亚女王大厦之间的马基特街上，是纵观悉尼市区全景的最佳观赏点。",
+                    "name": "悉尼塔"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "悉尼",
+                    "departureTime": "",
+                    "destination": "杰维斯湾",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "杰维斯湾",
+                    "departureTime": "",
+                    "destination": "悉尼",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "悉尼与杰维斯湾之旅",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后，游览邦迪海滩（约1小时）、海德公园（约15分钟）、圣玛利亚大教堂（外观，约15分钟）、悉尼大学（约30分钟），下午乘车前往悉尼国际机场，搭乘国际航班飞往北京。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "距离悉尼市中心只有20分钟车程，是悉尼有名的海滩，这里是日光浴和冲浪的绝佳地点，很多都市人和游客每想前往海滩游泳、晒太阳、滑浪或纯粹欣赏沙滩景色的话，都自然会来到这里；当然邦迪海滩本身也非常出色，呈新月型的海滩，环境优美之余，水色亦格外碧蓝。",
+                    "name": "邦迪海滩"
+                },
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "海德公园是菲利普总督于1792年宣布开放给公众使用，公园南端矗立了澳大利亚、新西兰军人纪念碑，Macquarie街对面，则有为了纪念一战的法澳联盟而建的亚奇伯德喷水池。",
+                    "name": "海德公园"
+                },
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "是澳洲规模非常大、非常古老的宗教建筑，它是悉尼大主教的所在地。大教堂是由当地的砂岩建成，哥特式的建筑风格是欧洲中世纪大教堂的建筑遗风。",
+                    "name": "圣玛利亚大教堂"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "始建于1850年，是坐落于澳洲金融之都悉尼市中心的一所历史名校，作为整个澳洲乃至南半球的第一所大学，悉尼大学同时也是环太平洋大学联盟、澳洲八校联盟、亚太国际贸易教育暨研究联盟的核心成员。主要院系：悉尼大学法学院，悉尼大学商学院，悉尼大学医学院等。",
+                    "name": "悉尼大学"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "悉尼",
+                    "departureTime": "下午",
+                    "destination": "悉尼国际机场",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "05:00+1",
+                    "departure": "悉尼",
+                    "departureTime": "20:40",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "悉尼游览与返程",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 0,
+            "content": "抵达北京后，各自乘坐联运航班返回各地，结束澳大利亚新西兰愉快的旅程。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "北京",
+                    "departureTime": "",
+                    "destination": "各地",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "返程",
+            "tripDay": 12
+        }
+    ]
+}

@@ -1,0 +1,413 @@
+{
+    "product": {
+        "childAgeBegin": 4,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 1,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "4 岁以上儿童可参加，需与成人同行，不单独占床",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "巴哈马",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "洪都拉斯",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "墨西哥",
+                "destCityName": "",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "",
+            "name": "旅行社责任险及境外旅游意外伤害保险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "豪华邮轮体验"
+            },
+            {
+                "name": "多元文化探索"
+            },
+            {
+                "name": "自然景观观赏"
+            },
+            {
+                "name": "特色岸上活动"
+            }
+        ],
+        "productSubtitle": "由 MSC 海岸线号提供的经典加勒比西岸 4 国 13 天邮轮之旅",
+        "productTitle": "航海记 情迷加勒比西岸",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "豪华邮轮"
+            },
+            {
+                "name": "加勒比海"
+            },
+            {
+                "name": "历史文化"
+            },
+            {
+                "name": "自然探险"
+            }
+        ],
+        "themes": [
+            {
+                "name": "豪华邮轮"
+            },
+            {
+                "name": "加勒比海"
+            },
+            {
+                "name": "历史文化"
+            },
+            {
+                "name": "自然探险"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [],
+        "backTransportName": "飞机",
+        "goAirports": [],
+        "goTransportName": "飞机",
+        "hotelStarName": "-1",
+        "lineFeature": "MSC 海岸线号提供的经典加勒比西岸 4 国 13 天邮轮之旅",
+        "lineSimpleTitle": "加勒比西岸4国",
+        "lineSortTitle": "C4",
+        "lineTitle": "航海记 情迷加勒比西岸",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "洛杉矶",
+                "countryName": "美国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "迈阿密",
+                "countryName": "美国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "科斯塔玛雅",
+                "countryName": "墨西哥",
+                "provinceName": ""
+            },
+            {
+                "cityName": "科苏梅尔",
+                "countryName": "墨西哥",
+                "provinceName": ""
+            },
+            {
+                "cityName": "罗阿坦岛",
+                "countryName": "洪都拉斯",
+                "provinceName": ""
+            },
+            {
+                "cityName": "Ocean Cay",
+                "countryName": "巴哈马",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "13",
+        "tripNight": "12",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": []
+        }
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "建议准备随身携带的旅行背包、泳衣和太阳镜。登船时需提供国际信用卡预授权或 250 欧元现金押金。建议男士携带至少一套正装，女士携带至少一套晚礼服。",
+        "costExclude": "美国签证费、护照费、申请签证中准备相关材料所需的制作、手续费、美国 EVUS 费用、境外段航班行李托运费及任何一件超出免费托运行李标准的费用、个人原因产生的费用、恶劣天气引起的交通延误或故障造成的经济损失、邮轮上自主购物、收费餐厅、收费娱乐设施等相关费用、酒店和邮轮中内电话、传真、洗熨、收费电视、饮料、美容沙龙、水疗按摩、行李搬运等费用、旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失",
+        "costInclude": "国际段及内路段机票（团队经济舱，含机场建设税）、MSC 海岸线号 8 天 7 夜船票（双人间住宿）、邮轮船票中所包含的免费用餐、健身、娱乐等设施、专业中文领队、境外旅游巴士及外籍司机、旅行社责任险及境外旅游意外伤害保险、行程中标明包含的游览行程、三星酒店住宿及中式团队餐（十人一桌八菜一汤）、邮轮服务费",
+        "lineReturns": [],
+        "otherRule": "酒店星级与餐食标准因地区差异而有所不同，建议出行前确保自身身体条件能够完成旅游活动，建议额外购买旅行意外伤害保险或旅行境外救援保险。",
+        "returnContent": "退改规则详见取消政策。",
+        "selfCostContent": "岸上观光的额外费用。",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "",
+                "name": "岸上观光",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "",
+        "shops": [
+            {
+                "address": "科斯塔玛雅",
+                "remark": "",
+                "shopName": "科洪利奇考古遗址",
+                "shopProduct": "",
+                "stay": ""
+            },
+            {
+                "address": "科苏梅尔",
+                "remark": "",
+                "shopName": "圣杰尔瓦西奥遗址和玛雅蜜蜂保护区",
+                "shopProduct": "",
+                "stay": ""
+            },
+            {
+                "address": "罗阿坦岛",
+                "remark": "",
+                "shopName": "加里富纳村蓬塔戈尔达",
+                "shopProduct": "",
+                "stay": ""
+            }
+        ],
+        "tipsContent": ""
+    },
+    "trips": [
+        {
+            "breakfast": 1,
+            "content": "温馨提示：还记得第一天在船上记忆深刻的地方么？赶紧去耍吧。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "邮轮之旅",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "今天下午抵达首都北京，结束难忘的加勒比邮轮之旅。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "下午",
+                    "departure": "洛杉矶",
+                    "departureTime": "",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "抵达北京",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，游览珊瑚阁区和哈瓦那 Little Havana。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "当地舒适三星酒店",
+                    "star": "3"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "30 分钟",
+                    "description": "Coral Gables(30 分钟)号称“万国住宅建筑博物馆”，郁郁葱葱的林荫道两旁尽是异国情调的豪华宅邸以及地标建筑欣赏“比尔提默酒店”，以全十八洞高尔夫球场以及古罗马建筑风格的美丽游泳池而著称。",
+                    "name": "珊瑚阁区"
+                },
+                {
+                    "consumingTime": "30 分钟",
+                    "description": "这里是古巴等中南美洲移民聚居中心，大部人讲西班牙语。参观古巴雪茄手工作坊，品尝",
+                    "name": "哈瓦那 Little Havana"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "迈阿密之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "今日您将抵达科斯塔玛雅，Costa Maya 是墨西哥金塔纳罗奥州 Othón P. Blanco 市的一个小型旅游区，该州是其东部与加勒比海接壤的唯一州。该市靠近与伯利兹交界的切图马尔。该地区总体上尚未开发，但自建造大型码头以容纳游轮以来，该地区已迅速增长。玛雅海岸（Costa Maya）也是 Mahahual 村附近的一个分区的名称。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "邮轮",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "科斯塔玛雅（墨西哥）",
+                    "trafficType": "邮轮"
+                }
+            ],
+            "title": "墨西哥科斯塔玛雅之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "今日您将抵达科斯塔玛雅，Costa Maya 是墨西哥金塔纳罗奥州 OthónP. Blanco 市的一个小型旅游区，该州是其东部与加勒比海接壤的唯一州。该市靠近与伯利兹交界的切图马尔。该地区总体上尚未开发，但自建造大型码头以容纳游轮以来，该地区已迅速增长。玛雅海岸（Costa Maya）也是 Mahahual 村附近的一个分区的名称。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "邮轮",
+                    "star": "5"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "科斯塔玛雅（墨西哥）",
+                    "trafficType": "邮轮"
+                }
+            ],
+            "title": "墨西哥科斯塔玛雅之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "今日将游览墨西哥的科苏梅尔岛，靠岸后可跟随导游进行城市观光，探索玛雅文化和了解该岛历史。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "邮轮",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "今日您将游览到墨西哥的科苏梅尔岛，它是普拉亚德尔卡门海岸附近一个40公里长的岛屿，是著名的游轮停靠港口。游轮靠岸后，您可以选择跟随导游进行城市观光：穿越时空，探索岛上的玛雅文化，了解该岛的历史。",
+                    "name": "科苏梅尔岛"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "邮轮"
+                }
+            ],
+            "title": "墨西哥科苏梅尔岛之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "今日我们的邮轮将行驶罗阿坦岛，作为洪都拉斯北部海湾群岛中的一座岛屿，为海湾群岛中最大的岛屿。岛形成长条形，东西长约60公里，南北最宽处不足8公里。旧时曾为加勒比海地区海盗的。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "邮轮",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "罗阿坦岛（洪都拉斯）",
+                    "trafficType": "邮轮"
+                }
+            ],
+            "title": "洪都拉斯罗阿坦岛之旅",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 12
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 13
+        }
+    ]
+}

@@ -1,0 +1,453 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 6,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "6 岁以上儿童按成人价收费，含大交通及床位；6 岁以下儿童不占床，不含大交通",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "巴西",
+                "destCityName": "圣保罗",
+                "destProvinceName": "圣保罗"
+            },
+            {
+                "countryName": "巴西",
+                "destCityName": "玛瑙斯",
+                "destProvinceName": "亚马逊州"
+            },
+            {
+                "countryName": "巴西",
+                "destCityName": "里约热内卢",
+                "destProvinceName": "里约热内卢州"
+            },
+            {
+                "countryName": "巴西",
+                "destCityName": "伊瓜苏",
+                "destProvinceName": "巴拉那州"
+            },
+            {
+                "countryName": "阿根廷",
+                "destCityName": "布宜诺斯艾利斯",
+                "destProvinceName": "布宜诺斯艾利斯省"
+            },
+            {
+                "countryName": "阿根廷",
+                "destCityName": "乌斯怀亚",
+                "destProvinceName": "火地岛省"
+            },
+            {
+                "countryName": "阿根廷",
+                "destCityName": "卡拉法特",
+                "destProvinceName": "圣克鲁斯省"
+            },
+            {
+                "countryName": "乌拉圭",
+                "destCityName": "科洛尼亚",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "",
+            "name": "全程境外旅游意外伤害保险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "全方位探索亚马逊雨林"
+            },
+            {
+                "name": "观赏伊瓜苏大瀑布"
+            },
+            {
+                "name": "探访世界最南端的乌斯怀亚"
+            },
+            {
+                "name": "游览布宜诺斯艾利斯的名胜古迹"
+            }
+        ],
+        "productSubtitle": "",
+        "productTitle": "巴西阿根廷乌拉圭 16 天深度游",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "南美经典"
+            },
+            {
+                "name": "深度游"
+            },
+            {
+                "name": "自然探险"
+            },
+            {
+                "name": "历史文化"
+            }
+        ],
+        "themes": [
+            {
+                "name": "南美经典"
+            },
+            {
+                "name": "深度游"
+            },
+            {
+                "name": "自然探险"
+            },
+            {
+                "name": "历史文化"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "ET",
+                "airlineName": "埃塞俄比亚航空",
+                "arriveAirportName": "北京",
+                "arriveTime": "",
+                "days": 0,
+                "flightNo": "ET604",
+                "flightSort": "",
+                "startAirportName": "亚的斯亚贝巴",
+                "startTime": ""
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "ET",
+                "airlineName": "埃塞俄比亚航空",
+                "arriveAirportName": "圣保罗",
+                "arriveTime": "",
+                "days": 0,
+                "flightNo": "ET605/ET506",
+                "flightSort": "",
+                "startAirportName": "北京",
+                "startTime": ""
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "-1",
+        "lineFeature": "行程涵盖了南美的主要自然景观和文化景点，包括圣保罗的伊比拉布埃拉公园、玛瑙斯的亚马逊雨林、里约热内卢的耶稣山、伊瓜苏大瀑布、布宜诺斯艾利斯的五月广场、乌斯怀亚的火地岛国家公园等。行程天数为 16 天 15 夜，交通方式包括飞机、汽车、游船。",
+        "lineSimpleTitle": "南美 16 天",
+        "lineSortTitle": "BAU16D",
+        "lineTitle": "巴西阿根廷乌拉圭 16 天深度游",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "圣保罗",
+                "countryName": "巴西",
+                "provinceName": ""
+            },
+            {
+                "cityName": "玛瑙斯",
+                "countryName": "巴西",
+                "provinceName": ""
+            },
+            {
+                "cityName": "里约热内卢",
+                "countryName": "巴西",
+                "provinceName": ""
+            },
+            {
+                "cityName": "伊瓜苏",
+                "countryName": "巴西",
+                "provinceName": ""
+            },
+            {
+                "cityName": "布宜诺斯艾利斯",
+                "countryName": "阿根廷",
+                "provinceName": ""
+            },
+            {
+                "cityName": "乌斯怀亚",
+                "countryName": "阿根廷",
+                "provinceName": ""
+            },
+            {
+                "cityName": "卡拉法特",
+                "countryName": "阿根廷",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "16",
+        "tripNight": "15",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "美国",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                },
+                {
+                    "content": "",
+                    "country": "巴西",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                },
+                {
+                    "content": "阿根廷可申请电子签证，但需准备常规团队签证材料",
+                    "country": "阿根廷",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "详见取消政策",
+        "costExclude": "美国签证费1600/人；全程单间差费用：RMB8200元/人；当地司机和导游的小费10美金/天/人（共计160美金/人），境外统一交给领队；办理护照及准备签证材料所产生的费用；若使馆要求面试而产生的其他任何附加费用由客人自行承担，如签证公示的费用以外的费用，往返交通费、个人住宿费等；出入境的行李海关课税，超重行李的托运费、管理费等；境外司机导游超时服务费；酒店内电话、传真、洗熨、收费电视、饮料等个人消费；因班机延误所产生的额外费用及各种不可抗力因素所产生的费用；其他包含项目中未提及的费用",
+        "costInclude": "巴西、阿根廷团队旅游签证费；北京起止全程团队经济舱机票及税金；当地空调旅游巴士；全程领队及当地导游服务；当地4星级舒适酒店住宿（双人标准间），伊基托斯为当地特色酒店；自助早餐，中式团队午晚餐或当地特色餐；行程中常规景点的首道门票；每人每天1瓶矿泉水；境外旅游意外伤害保险",
+        "lineReturns": [],
+        "otherRule": "南美各国属于重税国家，对于退税一般不予退税，行程中只有阿根廷可以有退税政策，但整个退税手续及流程均由阿根廷国家控制，可能会出现退税不成功、税单邮递过程中丢失导致无法退税等问题，我们会负责协调处理，但无法承担任何赔偿。",
+        "returnContent": "详见取消政策",
+        "selfCostContent": "伊瓜苏瀑布观光飞机（USD180/人，10分钟）、伊瓜苏瀑布汽艇（USD125/人，20分钟）、伊瓜苏三国歌舞表演秀（USD95/人，1小时）、布宜诺斯艾利斯探戈舞表演及西餐（USD120/人，2小时）、圣地亚哥市最高建筑Gran Torre Santiago登顶（USD45/人，1小时）、圣地亚哥夜间歌舞表演（USD75/人，2小时）",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "USD180/人",
+                "name": "伊瓜苏瀑布观光飞机",
+                "remark": "",
+                "stay": "10分钟"
+            },
+            {
+                "address": "",
+                "fee": "USD125/人",
+                "name": "伊瓜苏瀑布汽艇",
+                "remark": "",
+                "stay": "20分钟"
+            },
+            {
+                "address": "",
+                "fee": "USD95/人",
+                "name": "伊瓜苏三国歌舞表演秀",
+                "remark": "",
+                "stay": "1小时"
+            },
+            {
+                "address": "",
+                "fee": "USD120/人",
+                "name": "布宜诺斯艾利斯探戈舞表演及西餐",
+                "remark": "",
+                "stay": "2小时"
+            },
+            {
+                "address": "",
+                "fee": "USD45/人",
+                "name": "圣地亚哥市最高建筑Gran Torre Santiago登顶",
+                "remark": "",
+                "stay": "1小时"
+            },
+            {
+                "address": "",
+                "fee": "USD75/人",
+                "name": "圣地亚哥夜间歌舞表演",
+                "remark": "",
+                "stay": "2小时"
+            }
+        ],
+        "shopContent": "具体购物店信息将在出团通知中详细说明。",
+        "shops": [],
+        "tipsContent": ""
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 12
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 13
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 14
+        },
+        {
+            "breakfast": 0,
+            "content": "晚上抵达亚的斯亚贝巴，之后转机返回北京。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "抵达亚的斯亚贝巴并转机",
+            "tripDay": 15
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 16
+        }
+    ]
+}

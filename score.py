@@ -1,6 +1,6 @@
 from sklearn.metrics import f1_score
 import requests
-from security import decrypt_config
+from security import decrypt
 from config import config
 import json
 
@@ -43,7 +43,7 @@ def send_request(golden, predict):
     # 请求头（如果需要的话）
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': decrypt_config(config['predict_key'])
+        'Authorization': decrypt(config['predict_key'])
     }
     try:
         response = requests.post(url, headers=headers, json=data)

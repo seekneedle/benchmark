@@ -1,0 +1,366 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "南非",
+                "destCityName": "",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "",
+            "name": "境外意外伤害保险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [],
+        "productSubtitle": "克鲁格国家公园敞篷车safari+布莱德河峡谷+齐齐卡马国家公园+赫曼努斯观鲸",
+        "productTitle": "南非双骄",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "野生动物"
+            },
+            {
+                "name": "自然奇观"
+            },
+            {
+                "name": "探险之旅"
+            }
+        ],
+        "themes": [
+            {
+                "name": "深入探索南非的自然奇观与野生动物"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "",
+                "airlineName": "",
+                "arriveAirportName": "PEK",
+                "arriveTime": "10:00+1",
+                "days": 1,
+                "flightNo": "CA868",
+                "flightSort": "",
+                "startAirportName": "JNB",
+                "startTime": "10:10"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "",
+                "airlineName": "",
+                "arriveAirportName": "JNB",
+                "arriveTime": "08:20+1",
+                "days": 1,
+                "flightNo": "CA867",
+                "flightSort": "",
+                "startAirportName": "PEK",
+                "startTime": "18:55"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "-1",
+        "lineFeature": "克鲁格国家公园敞篷车 safari、布莱德河峡谷、齐齐卡马国家公园、赫曼努斯观鲸",
+        "lineSimpleTitle": "",
+        "lineSortTitle": "",
+        "lineTitle": "【南非双骄】南非+克鲁格+花园大道 12 日",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "约翰内斯堡",
+                "countryName": "南非",
+                "provinceName": ""
+            },
+            {
+                "cityName": "比勒陀利亚",
+                "countryName": "南非",
+                "provinceName": ""
+            },
+            {
+                "cityName": "太阳城",
+                "countryName": "南非",
+                "provinceName": ""
+            },
+            {
+                "cityName": "克鲁格国家公园",
+                "countryName": "南非",
+                "provinceName": ""
+            },
+            {
+                "cityName": "乔治/伊丽莎白港",
+                "countryName": "南非",
+                "provinceName": ""
+            },
+            {
+                "cityName": "奈斯纳",
+                "countryName": "南非",
+                "provinceName": ""
+            },
+            {
+                "cityName": "莫塞湾",
+                "countryName": "南非",
+                "provinceName": ""
+            },
+            {
+                "cityName": "赫曼努斯",
+                "countryName": "南非",
+                "provinceName": ""
+            },
+            {
+                "cityName": "开普敦",
+                "countryName": "南非",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "12",
+        "tripNight": "11",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "南非团队旅游签证费用包含内容",
+                    "country": "南非",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "无",
+        "costExclude": "护照费用；境外服务费 1200 元/人；行程中所列酒店单间差；签证相关的例如未成年人公证，认证等相关费用；酒店内电话、传真、洗熨、收费电视、饮料等费用；洗衣，理发，电话，饮料，烟酒，付费电视，行李搬运等私人费用；转候机/火车/船只时用餐；行李在航班托运期间的造成损坏的经济损失和责任；因气候或飞机、车辆、船只等交通工具发生故障导致时间延误或行程更改引起的经济损失和责任；因个人原因滞留产生的一切费用；行程列明以外的景点或活动所引起的任何费用；旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失；服务项目未提到的其他一切费用，例如特种门票（缆车等）；其他行程中以及上述“报价包含”条款中未列明的一切额外费用",
+        "costInclude": "北京/南非往返国际机票及内陆段交通，团队经济舱，含机场建设税；行程中所列酒店（双人标准间及早餐）；境外旅游巴士及外籍司机；中文导游服务；中式午晚餐或当地餐；行程中所列入内参观首道景点门票；南非团队旅游签证费用",
+        "lineReturns": [],
+        "otherRule": "无",
+        "returnContent": "无",
+        "selfCostContent": "无",
+        "selfCosts": [],
+        "shopContent": "无",
+        "shops": [],
+        "tipsContent": "无"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "今日乘坐中国国际航空公司航班经停深圳飞往南非的约翰内斯堡。被称为“彩虹之国”的南非，拥有厚重的历史，也充满勃勃的生机，是非洲大陆上经济规模最大，最发达的国家之一。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "飞机上",
+                    "star": "0"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "08:20+1",
+                    "departure": "北京",
+                    "departureTime": "18:55",
+                    "destination": "约翰内斯堡",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "飞往约翰内斯堡",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "导游接机然后前往比勒陀利亚市区观光，参观教堂中心广场（车观）、市政厅（车观）、联合大厦（外观，约 20 分钟）、先民博物馆（外观），之后乘车前往南半球的娱乐中心太阳城（入内游览约 2 小时），外观气度非凡的六星酒店—王宫饭店、地震桥",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "飞机上",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "车观",
+                    "name": "教堂中心广场"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "车观",
+                    "name": "市政厅"
+                },
+                {
+                    "consumingTime": "约 20 分钟",
+                    "description": "外观，约 20 分钟",
+                    "name": "联合大厦"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "外观，为了纪念早期冒险进入南部非洲内陆的先驱们所建立的纪念馆，一个个辛酸的历史故事，让您由此清楚了解南非历史，全方面的认识南非这一彩虹国度。",
+                    "name": "先民博物馆"
+                },
+                {
+                    "consumingTime": "约 2 小时",
+                    "description": "入内游览约 2 小时，在南非，太阳城就是娱乐、美食、舒适、浪漫加上惊奇的同义字，很少人能摆脱他的迷人魅力。抵达后外观气度非凡的六星酒店—【王宫饭店】(外观) 、根据神话传说兴建的【地震桥】",
+                    "name": "太阳城"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "08:20+1",
+                    "departure": "深圳",
+                    "departureTime": "",
+                    "destination": "约翰内斯堡",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "约翰内斯堡-比勒陀利亚-太阳城之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "开普敦当地四星酒店",
+                    "star": "4"
+                },
+                {
+                    "name": "约翰内斯堡当地四星酒店",
+                    "star": "4"
+                },
+                {
+                    "name": "克鲁格国家公园外特色酒店",
+                    "star": "4"
+                },
+                {
+                    "name": "花园大道小镇特色酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "南非之旅",
+            "tripDay": 12
+        }
+    ]
+}

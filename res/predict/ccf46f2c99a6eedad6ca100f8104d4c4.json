@@ -1,0 +1,493 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 12,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "1.2 米",
+        "childHeightEnd": "",
+        "childRule": "1.2 米以下儿童不占床，1.2 米以上儿童需占床并支付相应费用",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "阿联酋",
+                "destCityName": "阿布扎比",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "阿联酋",
+                "destCityName": "迪拜",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "",
+            "name": "",
+            "typeName": ""
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "总统府"
+            },
+            {
+                "name": "卢浮宫"
+            },
+            {
+                "name": "豪森宫殿"
+            },
+            {
+                "name": "八星下午茶"
+            },
+            {
+                "name": "七星帆船入内参观"
+            },
+            {
+                "name": "六星亚特自助晚餐"
+            },
+            {
+                "name": "沙漠冲沙"
+            },
+            {
+                "name": "Marina 夜海游船"
+            },
+            {
+                "name": "登哈利法塔"
+            }
+        ],
+        "productSubtitle": "零自费、零购物、一价全含的高端旅游产品",
+        "productTitle": "阿联酋迪拜·漫步丽思卡尔顿 4 晚 6 日游",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "豪华酒店"
+            },
+            {
+                "name": "超级体验"
+            },
+            {
+                "name": "文化探索"
+            },
+            {
+                "name": "玩乐升级"
+            }
+        ],
+        "themes": [
+            {
+                "name": "豪华酒店"
+            },
+            {
+                "name": "超级体验"
+            },
+            {
+                "name": "文化探索"
+            },
+            {
+                "name": "玩乐升级"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "EK",
+                "airlineName": "阿联酋航空",
+                "arriveAirportName": "北京",
+                "arriveTime": "15:25",
+                "days": 0,
+                "flightNo": "EK306",
+                "flightSort": "回程",
+                "startAirportName": "迪拜",
+                "startTime": "03:50"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "EK",
+                "airlineName": "阿联酋航空",
+                "arriveAirportName": "迪拜",
+                "arriveTime": "11:35",
+                "days": 0,
+                "flightNo": "EK309",
+                "flightSort": "去程",
+                "startAirportName": "北京",
+                "startTime": "07:25"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "-1",
+        "lineFeature": "零自费、零购物、金牌领队服务、豪华酒店、超级体验、文化探索、玩乐升级",
+        "lineSimpleTitle": "迪拜安心游",
+        "lineSortTitle": "DXBA",
+        "lineTitle": "【安心游】阿联酋迪拜·漫步丽思卡尔顿 4 晚 6 日游",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "迪拜",
+                "countryName": "阿联酋",
+                "provinceName": ""
+            },
+            {
+                "cityName": "阿布扎比",
+                "countryName": "阿联酋",
+                "provinceName": ""
+            },
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "6",
+        "tripNight": "5",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "具体签证申请流程和所需材料将在出团前提供详细说明",
+                    "country": "阿联酋",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "1. 旅游者需在规定的签证资料截止日期前递交符合使馆要求的签证资料；2. 如因旅游者迟延递交导致不能送签或提供虚假资料，旅行社有权拒绝为旅游者递送签证，所发生的机票及其他已实际产生费用由旅游者本人承担；3. 旅行社已建议旅游者购买境外意外伤害保险；4. 自备签证旅游者参团，请务必自行确认签证的有效性；5. 参团的旅游者必须如实告知旅行社是否有孕妇及残障人士。",
+        "costExclude": "1. 护照费用、签证费用及相关公证费用；2. 酒店内电话、传真、洗熨、收费电视、饮料等费用；3. 洗衣、理发、电话、饮料、烟酒、付费电视、行李搬运等私人费用；4. 转候机/火车/船只时用餐；5. 行李在航班托运期间的损坏赔偿；6. 因气候或交通工具故障导致的时间延误或行程更改引起的经济损失；7. 因个人原因滞留产生的一切费用；8. 行程列明以外的景点或活动引起的费用；9. 服务项目未提到的其他一切额外费用。",
+        "costInclude": "1. 北京至迪拜往返经济舱团体机票及相关税费；2. 行程中所列酒店或同类别酒店双人住宿；3. 境外旅游车，保证每人一个正座；4. 当地餐或中式团餐；5. 行程中所列景点门票；6. 领队或导游服务；7. 旅行社责任保险；8. 境外旅游意外伤害保险。",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "",
+                "end": "0"
+            }
+        ],
+        "otherRule": "",
+        "returnContent": "1. 行程确认后取消，损失费按上述取消政策收取；2. 如遇天气、战争、罢工、地震等人力不可抗力因素无法游览，旅行社将按照协议退还未游览景点门票费用，但赠送项目费用不退；3. 游客因个人原因临时自愿放弃游览，酒店住宿、餐、车等费用均不退还。",
+        "selfCostContent": "本次行程不包含自费项目，确保游客的旅行体验更加透明和安心。",
+        "selfCosts": [],
+        "shopContent": "本次行程不包含购物店，确保游客的旅行体验更加轻松愉快。",
+        "shops": [],
+        "tipsContent": ""
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "北京首都机场集合，办理登机手续，搭乘国际航班飞往土豪国阿联酋迪拜。抵达迪拜机场，导游于机场接机。乘坐传统的阿拉伯木船—水上的士，穿越波斯湾海沟，欣赏两岸风光。参观黄金与香料市场，途经迪拜现存最古老的建筑阿法迪城堡，前往伊朗小镇参观。打卡迪拜相框（外观），打卡迪拜未来博物馆（外观），特别安排乘坐 marina 湾夜海游船。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "迪拜国际五星酒店",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 5 分钟",
+                    "description": "穿越波斯湾海沟，欣赏两岸风光",
+                    "name": "水上的士(Abra)"
+                },
+                {
+                    "consumingTime": "约 10 分钟",
+                    "description": "最具有中东情的街区，香料市场琳琅满目，黄金饰品金光闪烁，令您目不暇接",
+                    "name": "黄金与香料市场"
+                },
+                {
+                    "consumingTime": "约 30 分钟",
+                    "description": "在这里您可感受神秘中东的古老与神秘",
+                    "name": "伊朗小镇"
+                },
+                {
+                    "consumingTime": "无",
+                    "description": "高度约 150 米，宽 93 米。外表将全部贴金，总造价高达约合 3 亿人民币",
+                    "name": "迪拜相框（外观）"
+                },
+                {
+                    "consumingTime": "无",
+                    "description": "曾被《国家地理》杂志评选为全球最美博物馆之一",
+                    "name": "迪拜未来博物馆（外观）"
+                },
+                {
+                    "consumingTime": "无",
+                    "description": "欣赏 Marina 湾两岸的美丽风景，也可以边享受自助晚餐边欣赏船内的特色表演",
+                    "name": "marina 湾夜海游船"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "11:35",
+                    "departure": "北京",
+                    "departureTime": "07:25",
+                    "destination": "迪拜",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "无",
+                    "departure": "迪拜",
+                    "departureTime": "无",
+                    "destination": "无",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "迪拜精彩之旅",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，前往阿布扎比，依次入内参观阿布扎比卢浮宫、总统府、豪森宫殿和八星皇宫酒店，在八星皇宫酒店品尝著名金箔咖啡下午茶。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "阿布扎比卢浮宫于2017年开幕，诞生于法国与阿拉伯联合酋长国一次史无前例的文化合作，既是法国在海外最大的文化项目，也是阿拉伯世界首家国际性综合博物馆。阿布扎比卢浮宫的成功建立在三大基石之上：令人叹为观止的建筑设计；在卢浮宫及其他法国博物馆大力支持下形成的丰富多彩的永久性藏品；以及高品质的临时展。您可以漫步于巨大的海上穹顶下，穿梭于光影与文化艺术珍品之中。",
+                    "name": "阿布扎比卢浮宫"
+                },
+                {
+                    "consumingTime": "约60分钟",
+                    "description": "阿布扎比总统府是当今阿联酋内阁和阿联酋高权力机构联邦高委员会的官方会议场所，也是正式国事访问和各国首脑活动的举办地。这座“国家宫殿”不仅仅是一座传统的宫殿，游客还可以在宫殿之旅中得到丰富的体验，对阿联酋的政权制度和价值理念进行深入的了解，探究保存完好的文化传统遗产。",
+                    "name": "总统府"
+                },
+                {
+                    "consumingTime": "约60分钟",
+                    "description": "建于18世纪90年代，曾是本国统治家族的居所。这座建筑也是国家顾问委员会的所在地。来到这里，首先映入您眼帘的标志性建筑就是建于1795年的内堡和1939年到1945年间建成的外宫。漫步穿行艾赫森宫殿的各个区域是一段令人流连忘返的美妙体验。参观者会情不自禁地沉浸在阿联酋首都的迷人历史中，或痴迷于6000年前遗留下来的手工制品及档案材料，不知不觉间一看就是几个小时。孩子们则可以探索这座古建筑的各个隐秘角落，体验冒险的乐趣，这段经历会成为孩子们津津乐道的好故事！",
+                    "name": "豪森宫殿"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "它是采纳传统阿拉伯皇家典范与西方贵族风格完美地结合设计理念犹如皇宫一般更显〝皇者气派”，品尝著名金箔咖啡下午茶。",
+                    "name": "八星皇宫酒店"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "约2小时后",
+                    "departure": "迪拜",
+                    "departureTime": "早餐后",
+                    "destination": "阿布扎比",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "阿布扎比文化宫殿之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，参观谢赫扎伊德清真寺，前往人工岛参观民俗村，途径货车公园停留，返回迪拜，途径迪拜眼车观，登上棕榈岛外观亚特兰蒂斯酒店，在迪拜棕榈亚特兰蒂斯酒店内享用自助晚餐。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "迪拜国际五星酒店",
+                    "star": "5"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "入内参观约45分钟，周末及祷告日和特殊节假日举行仪式时外观20分钟",
+                    "description": "阿联酋最大的清真寺，耗资55亿美元，历时13年，是纪念阿联酋第一任总统谢赫扎伊德而兴建的。特别说明：为保护世界级地毯，谢赫扎伊德大清真寺主殿已不再允许入内。小贴士：阿布扎比清真寺特殊规定，女士不得穿吊带背心、超短裙或暴露的衣服进入，无论男女当日均须着长衣长裤，女士自备纱巾包裹头发，才可被允许进入清真寺。清真寺免费对公众开放，需提前预约，而此地为举办宗教仪式及平日信徒做礼拜之场所，不受旅游管理部门控制，故如遇特殊情况不接受预约时，只能外观无退费，望周知！",
+                    "name": "谢赫扎伊德清真寺"
+                },
+                {
+                    "consumingTime": "入内参观约30分钟",
+                    "description": "这里浓缩反射了旧时部落的集体生活状态。",
+                    "name": "人工岛（又名小香港）"
+                },
+                {
+                    "consumingTime": "停留约20分钟",
+                    "description": "从迪拜前往阿布扎比的必经之路，一座小型主题美食广场，它的灵感来源于美国五十年代的公路文化，穿梭在各种复古货车中，别有一番风味。",
+                    "name": "货车公园"
+                },
+                {
+                    "consumingTime": "车观",
+                    "description": "是迪拜众多世界纪录景点中的最新地标，这座巨大的观景摩天轮高达250米，是世界上最高和最大的摩天轮。",
+                    "name": "迪拜眼"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "再度体会人工的奇迹。",
+                    "name": "棕榈岛"
+                },
+                {
+                    "consumingTime": "外观约15分钟",
+                    "description": "外观约15分钟",
+                    "name": "亚特兰蒂斯酒店"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "阿布扎比",
+                    "departureTime": "",
+                    "destination": "迪拜",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "阿布扎比与迪拜之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，乘车前往阿治曼酋长国，参观阿治曼海滨（车观）。前往沙迦酋长国，参观考古博物馆、沙迦统治纪念碑、文化广场（外观约10分钟）、费萨尔国王清真寺（外观约10分钟），车览酋长皇宫。乘车前往朱美拉海滨天然浴场（外观约10分钟），朱美拉清真寺（外观约10分钟），酋长皇宫（途经），参观卓美亚古堡市集（游览约20分钟）。外观世界著名的七星酒店-阿拉伯塔酒店（外观约20分钟），参观帆船酒店皇家套房（入内参观约30分钟）。特别安排【沙漠冲沙】乘坐越野吉普车进行冒险家游戏冲沙。欣赏沙漠落日，进入沙漠营帐，骑骆驼，观赏中东肚皮舞，享用丰富的阿拉伯晚餐，穿阿拉伯民族服饰拍照，品尝阿拉伯特色的水烟，绘制阿拉伯民族手绘。（若遇到斋月或临时调整的特殊情况，舞蹈表演等可能取消，请以实际情况为准！）",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "迪拜国际五星酒店",
+                    "star": "5"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "车观",
+                    "name": "阿治曼海滨"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "考古博物馆"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "沙迦统治纪念碑"
+                },
+                {
+                    "consumingTime": "10分钟",
+                    "description": "外观约10分钟",
+                    "name": "文化广场"
+                },
+                {
+                    "consumingTime": "10分钟",
+                    "description": "外观约10分钟",
+                    "name": "费萨尔国王清真寺"
+                },
+                {
+                    "consumingTime": "10分钟",
+                    "description": "外观约10分钟",
+                    "name": "朱美拉海滨天然浴场"
+                },
+                {
+                    "consumingTime": "10分钟",
+                    "description": "外观约10分钟",
+                    "name": "朱美拉清真寺"
+                },
+                {
+                    "consumingTime": "20分钟",
+                    "description": "游览约20分钟，完美传承了阿拉伯传统文化，同时结合了各种现代技术。市集包括超过25家餐饮店、商店、画廊，还拥有优美水景。市集位于风景迷人的卓美亚古堡酒店度假村，拥有不计其数的街巷可供休闲漫步",
+                    "name": "卓美亚古堡市集"
+                },
+                {
+                    "consumingTime": "20分钟",
+                    "description": "外观约20分钟",
+                    "name": "阿拉伯塔酒店"
+                },
+                {
+                    "consumingTime": "30分钟",
+                    "description": "入内参观约30分钟",
+                    "name": "帆船酒店皇家套房"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "约40分钟后",
+                    "departure": "迪拜",
+                    "departureTime": "早餐后",
+                    "destination": "阿治曼",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "阿治曼",
+                    "departureTime": "",
+                    "destination": "沙迦",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "迪拜、阿治曼、沙迦之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，特别安排登哈利法塔，登上124层（入内参观约30分钟）。之后前往全世界最大的迪拜购物中心（Dubai Mall）（自由活动不少于3小时），见证世界最高的音乐喷泉迪拜喷泉。根据航班时间集合前往机场。 小贴士：自由活动期间，不含汽车、导游服务及正餐，请自理。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "飞机上",
+                    "star": "空"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "哈利法塔高828米，楼层总数162层，造价15亿美元，大厦本身的修建耗资至少10亿美元，还不包括其内部大型购物中心、湖泊和稍矮的塔楼群的修筑费用。从哈利法塔可以俯瞰整个迪拜的城区，站在宏伟的塔顶，体验刺激感受！",
+                    "name": "哈利法塔"
+                },
+                {
+                    "consumingTime": "不少于3小时",
+                    "description": "这是迪拜最大的免税商场，足足有50个足球场那么大，各种商铺，应有尽有。见证世界最高的音乐喷泉迪拜喷泉，让你有千载难逢的机会沉浸在一场迷人的喷泉、音乐和灯光秀中。",
+                    "name": "迪拜购物中心（Dubai Mall）"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "空",
+                    "departure": "酒店",
+                    "departureTime": "早餐后",
+                    "destination": "哈利法塔",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "空",
+                    "departure": "哈利法塔",
+                    "departureTime": "空",
+                    "destination": "迪拜购物中心（Dubai Mall）",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "空",
+                    "departure": "迪拜购物中心（Dubai Mall）",
+                    "departureTime": "空",
+                    "destination": "机场",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "迪拜之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 0,
+            "content": "乘坐国际航班返程，结束愉快的旅程。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "15:25",
+                    "departure": "迪拜",
+                    "departureTime": "03:50",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "返程",
+            "tripDay": 6
+        }
+    ]
+}

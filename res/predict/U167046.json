@@ -1,0 +1,406 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 12,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "2 岁以下婴儿不占床且不占船票，2-12 岁儿童可占床或不占床，65-69 岁老人需家属陪同，70 岁以上不适宜出海",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "新加坡",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "印度尼西亚",
+                "destCityName": "民丹岛",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "包括紧急救援、医疗费用、意外伤害等，但不包括战争、罢工等不可抗力因素造成的损失。具体说明请参阅合同条款。",
+            "name": "全程境外旅游人身意外险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "探寻萤火虫"
+            },
+            {
+                "name": "出海浮潜"
+            },
+            {
+                "name": "印尼 SPA"
+            },
+            {
+                "name": "参观观音山梅峰寺"
+            },
+            {
+                "name": "红树林生态之旅"
+            },
+            {
+                "name": "黄金沙丘探险"
+            }
+        ],
+        "productSubtitle": "北京起止5晚6天",
+        "productTitle": "小资新民丹",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "海岛度假"
+            },
+            {
+                "name": "亲子游"
+            },
+            {
+                "name": "自然探险"
+            },
+            {
+                "name": "文化体验"
+            }
+        ],
+        "themes": [
+            {
+                "name": "探索民丹岛的自然风光与文化遗迹"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空",
+                "arriveAirportName": "北京",
+                "arriveTime": "",
+                "days": 0,
+                "flightNo": "776",
+                "flightSort": "",
+                "startAirportName": "新加坡",
+                "startTime": ""
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空",
+                "arriveAirportName": "新加坡",
+                "arriveTime": "",
+                "days": 0,
+                "flightNo": "775",
+                "flightSort": "",
+                "startAirportName": "北京",
+                "startTime": ""
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "-1",
+        "lineFeature": "探索新加坡与民丹岛的自然美景与文化遗迹",
+        "lineSimpleTitle": "小资新民丹",
+        "lineSortTitle": "XZXM",
+        "lineTitle": "小资新民丹",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "新加坡",
+                "countryName": "新加坡",
+                "provinceName": ""
+            },
+            {
+                "cityName": "民丹岛",
+                "countryName": "印度尼西亚",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "6",
+        "tripNight": "5",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "新加坡落地签，费用为 50 新币/人或 50 万印尼盾/人或 40 美金/人，具体签证流程请参阅合同条款。",
+                    "country": "新加坡",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "散拼产品报名时需支付 3000 元/人的订金，取消与改期规划详见合同条款",
+        "costExclude": "个人护照办理费用、印尼落地签费用、民丹岛船票费用、酒店内电话、传真、洗熨、收费电视、饮料、行李搬运等费用、单房差费用、旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失、因个人原因滞留产生的费用、因气候或交通工具故障导致时间延误或行程变更引起的经济损失和责任、行李在航班托运期间造成损坏的经济损失和责任、服务包含项目未提及的其他一切费用",
+        "costInclude": "机票费用、行程所列酒店住宿、当地空调旅游巴士、行程中所列餐食、中文导游服务、境外旅游人身意外险、行程所含景点门票",
+        "lineReturns": [],
+        "otherRule": "",
+        "returnContent": "退改规则详见合同条款",
+        "selfCostContent": "自费项目列表包括：豪华海鲜大餐（420 元/人）等",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "420",
+                "name": "豪华海鲜大餐",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "",
+        "shops": [
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "新加坡珠宝药油",
+                "shopProduct": "珠宝、药油",
+                "stay": "90"
+            },
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "民丹珍宝馆",
+                "shopProduct": "宝石，珍珠，钻石等各类珍宝",
+                "stay": "90"
+            }
+        ],
+        "tipsContent": ""
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "机场集合搭乘班机飞往狮城-新加坡，抵达后乘车送至码头乘船前往民丹岛。进行探寻萤火虫活动。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "民丹岛携程四钻酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "不少于 60 分钟",
+                    "description": "夜晚的红树林更加寂静，只有萤火虫在身边飞舞。点点萤火虫划出美妙的弧线，点缀着婆娑的树丛，像仙界的仙灵，造访人间，带来点既神秘又别有一种浪漫的气氛，令人着迷。",
+                    "name": "探寻萤火虫"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "15:30",
+                    "departure": "北京",
+                    "departureTime": "09:00",
+                    "destination": "新加坡",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "待定",
+                    "departure": "新加坡",
+                    "departureTime": "待定",
+                    "destination": "民丹岛",
+                    "trafficType": "船"
+                }
+            ],
+            "title": "新加坡民丹岛之旅",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "出海浮潜，体验浮潜和各种水上或沙滩娱乐项目（自费）。前往东海湾休闲活动中心，享受印尼 SPA。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "民丹岛携程四钻酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "不少于120分钟",
+                    "description": "民丹岛周边有很多未经开发的原生态岛屿，碧海蓝天海天一线，翡翠的海水，周围绿树环抱，漫步在细白如丝的沙滩上，静静聆听大海的声音，后体验【浮潜】一次------穿上穿着救生衣，带着面镜和呼吸管，进行浮潜。置身在湛蓝清澈见底的海水中，海底各种奇妙景象，小鱼环绕在你周围，海胆随处可见，等您一睹来它的惊艳。在此您也可自费参与其他水上或沙滩娱乐项目：香蕉船、飞鱼、甜甜圈、摩托艇、玻璃船、沙滩ATV、射箭等，让您尽情享受细白沙滩、火热骄阳的慵懒度假生活。备注：小童2岁以下不能坐船上岛及浮潜，2-12岁以及65周岁-69周岁老人可以坐船上岛，须家属陪同在岛上活动，但不能参加浮潜。70周岁以上不适宜出海（改为赠送脚底按摩），其它年龄段具体能否出海，以海军指示为准，浮潜请视个人身体情况决定。马坡岛受天气影响较大，若天气原因无法上岛，改为其他海岛浮潜。",
+                    "name": "出海浮潜"
+                },
+                {
+                    "consumingTime": "不少于60分钟",
+                    "description": "东海湾是民丹岛南部最大的风景秀丽的沙滩，沙滩如银，海浪似雪，极目之处，水天相接。时有渔帆远影，渐渐钻出海平线，进入你的视野，将人的思绪，牵向远方，遥望大海听着海浪感受着海风给你带来的惬意。在这里可以体验【印尼SPA】，在印尼，最令人享受的就是SPA了。面朝大海吹着海风，享受着芳香理疗师那双温柔的双手，以娴熟的按摩手法，配合精油和香熏来促进身体的新陈代谢，为内心囤积的压力、疲惫、惶惑找到一个出口，身、心、灵皆美是现代身处亚健康状态的都市人的梦想。怡人芳香，给人以关怀和抚慰，令您的身、心、灵达到和谐与平衡的享受，让你由内至外充满生机、神采飞扬。（因身体因素，未满12周岁小童不建议参加此项目，由导游或领队带领在东海湾自由活动！）",
+                    "name": "东海湾休闲活动中心"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "民丹岛海岛休闲之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "游览观音山梅峰寺、珍珠馆、享受海边下午茶+无边泳池、进行红树林生态之旅、参观黄金沙丘",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "民丹岛携程四钻酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "不少于30 分钟",
+                    "description": "占地面积大，您可以在此礼佛，或许愿，了解华人的信仰，据当地华人讲遇天气好，可以怀着心愿求上一签，有求必应。",
+                    "name": "观音山梅峰寺"
+                },
+                {
+                    "consumingTime": "约90 分钟",
+                    "description": "了解印尼龙目岛金珍珠以及印尼红珊瑚，砗磲等海洋珍宝制品。",
+                    "name": "珍珠馆"
+                },
+                {
+                    "consumingTime": "不少于30 分钟",
+                    "description": "面朝大海，在泳池边打卡拍照，漫步于沙滩上，轻叩一杯清茶，品一口风味小点，岛上的生活就是这么惬意！",
+                    "name": "海边下午茶+无边泳池"
+                },
+                {
+                    "consumingTime": "不少于45 分钟",
+                    "description": "生态之旅带您回归自然，探索民丹岛度假胜地中的红树林。乘坐快艇顺着河道漫游，可以看到红树林错综密集的根系壮观景象。除了可以在此观赏到各种罕见的野生植物外，还可以近距离观看银叶猴、蜥蜴、翠鸟等珍稀动物让您充分感受原生态自然的魅力。",
+                    "name": "红树林生态之旅"
+                },
+                {
+                    "consumingTime": "约120 分钟",
+                    "description": "相传南洋时期，人们在采金矿的时候，没有把挖出来的沙子处理好，长年累月，日晒雨淋形成了大大小小的形状各异的沙丘，最奇特的是沙丘会随着阳光的折射而变化颜色，放眼望去好似一片金黄色的沙漠，雨水沉积形成了一片片Tiffany 蓝的小湖泊，许多慕名而来的游客都喜欢在此留影。你可以说是探秘民丹的特殊的'沙漠与海洋' ，也可以说是寻觅南洋遍地是黄金的踪迹'黄金沙丘' ，甚至被国人称为'民丹岛的小九寨'。神秘之处等你来探索。",
+                    "name": "黄金沙丘"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "民丹岛精彩之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "民丹岛全天自由活动，这是一个没有 morning call 的早上，享用早餐后开始一天的悠闲之旅。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "民丹岛携程四钻酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "民丹岛自由活动",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "参观粉红清真寺（外观），指定时间乘船返回新加坡，游览圣淘沙岛",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "新加坡携程四钻酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "待定",
+                    "description": "本地网红景点，全岛唯一一处粉红色装饰的清真寺；外觀全塗上粉紅色，從遠眺望已經相當吸睛。而寺內同樣為圓項設計，用了不少粉色系的幾何圖案，呼應清真寺的外觀。而這所清真寺最特別的則是寺內花窗，花窗上用了回教符號的設計，有別於平時教堂所見的，更有另一番風味！",
+                    "name": "粉红清真寺"
+                },
+                {
+                    "consumingTime": "约45-60 分钟",
+                    "description": "圣淘沙岛的【名胜世界】和【节庆大道】作为亚洲顶级一站式综合娱乐城和独一无二的家庭度假胜地，名胜世界集吃喝玩乐、购物住宿于一身，让时尚年轻一族、全家大小、企业会奖等都可于此欢度悠闲假期。名胜世界是云顶新加集团坡耗资65.9 亿新元兴建发展的项目，占地49 公顷，使新加坡晋升为全球主要的休闲胜地之一。岛内汇集多家连锁酒店、餐厅于一起，以及名胜世界。",
+                    "name": "圣淘沙岛"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "待定",
+                    "departure": "民丹岛",
+                    "departureTime": "待定",
+                    "destination": "新加坡",
+                    "trafficType": "船"
+                }
+            ],
+            "title": "新加坡与民丹岛之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "游览鱼尾狮公园、滨海湾花园擎天大树，在珠宝店购物，指定时间乘车前往机场。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "新加坡海佳大酒店",
+                    "star": "4"
+                },
+                {
+                    "name": "新加坡城东乐怡渡假村",
+                    "star": "4"
+                },
+                {
+                    "name": "新加坡华星酒店",
+                    "star": "4"
+                },
+                {
+                    "name": "新加坡庄家大酒店",
+                    "star": "4"
+                },
+                {
+                    "name": "新加坡柏薇樟宜酒店",
+                    "star": "4"
+                },
+                {
+                    "name": "新加坡悦乐樟宜酒店",
+                    "star": "4"
+                },
+                {
+                    "name": "新加坡京华酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 30 分钟",
+                    "description": "坐落于市内新加坡河畔，是新加坡的标志和象征。鱼身，象征着新加坡从小渔村谦卑起步。狮头，则代表了新加坡最早期的名称，“Singapura” （新加坡拉），马来语中，意指“狮城”。在这里，请您充分发挥您的想象力摆出各种不同造型的POSE 与鱼尾狮亲密合影吧！",
+                    "name": "鱼尾狮公园"
+                },
+                {
+                    "consumingTime": "约 30 分钟",
+                    "description": "位于滨海南花园内，设计灵感是来源于热带雨林中的优势树种，结合了成年树的外形和功能，不仅可支持植物的生长，还能通过环境可持续性的特征，模拟树木的生态功能。这些擎天大树就好像是垂直的花园，它垂直展示了热带攀缘植物、附生植物和蕨类植物，制造出令人惊叹的元素。擎天大树的树冠白天可以为游人遮荫，晚上可以为游人照明。树冠上安装了光伏电池，白天时吸收太阳能，到晚上就可以供电照明了。夜幕降临之后，五彩的灯光和投射多媒体，将这座垂直花园打扮得妖娆多姿。",
+                    "name": "滨海湾花园擎天大树"
+                },
+                {
+                    "consumingTime": "约 60 - 90 分钟",
+                    "description": "选购精美天然钻石，天然红宝石，天然蓝宝石，天然祖母绿，坦桑石、时来运转等饰品。",
+                    "name": "珠宝店"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "23:25",
+                    "departure": "新加坡",
+                    "departureTime": "16:30",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "新加坡特色景点游览与返程",
+            "tripDay": 6
+        }
+    ]
+}
