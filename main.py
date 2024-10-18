@@ -5,6 +5,12 @@ from score import calculate_f1_score
 from tabulate import tabulate
 
 
+def wrap_text(text, max_length):
+    """Wrap text to ensure it does not exceed the maximum length."""
+    text = str(text)
+    return '\n'.join(text[i:i+max_length] for i in range(0, len(text), max_length))
+
+
 def load_json_files(directory):
     # 创建一个空字典来存储结果
     json_data = {}
@@ -33,16 +39,16 @@ def score(keys=None):
     # 加载所有JSON文件的数据
     predict_data = load_json_files(predict_path)
     # 输出结果
-    print('---predict---')
-    print(predict_data)
+    # print('---predict---')
+    # print(predict_data)
 
     # 设置要读取的目录路径
     golden_path = 'res/golden'  # 替换为你的目录路径
     # 加载所有JSON文件的数据
     golden_data = load_json_files(golden_path)
     # 输出结果
-    print('---golden---')
-    print(golden_data)
+    # print('---golden---')
+    # print(golden_data)
 
     if not keys:
         keys = golden_data.keys()
@@ -60,10 +66,10 @@ def score(keys=None):
 
             table_data = []
             for error_pred in error_predictions:
-                table_data.append((error_pred['key'], error_pred['golden_label'], error_pred[
-                    'predict_label']))
+                table_data.append((error_pred['key'], wrap_text(error_pred['golden_label'], 10), wrap_text(error_pred[
+                    'predict_label'], 10)))
             # 使用tabulate打印表格
             print(tabulate(table_data, headers=headers, tablefmt="grid"))
 
 if __name__ == "__main__":
-    score(['U167051'])
+    score(['U167051', '9a6fc493a4b2f802ef39ef3c0dd8c328'])
