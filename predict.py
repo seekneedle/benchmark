@@ -58,7 +58,7 @@ def download(pdf_url, rename: str=''):
         parsed_url = urlparse(pdf_url)
         path = parsed_url.path
         filename_with_extension = path.split('/')[-1]
-        filename = filename_with_extension.split('.')[0] + '.json'
+        filename = filename_with_extension.split('.pdf')[0] + '.json'
         filename = unquote(filename)
     else:
         filename = rename + '.json'
