@@ -9,6 +9,7 @@ from urllib.parse import urlparse, unquote
 url = 'https://api.coze.cn/v1/workflow/run'
 workflow_id = "7409550376623751195"
 
+
 def send_request(pdf_url):
     data = {
         "workflow_id": workflow_id,
@@ -64,6 +65,8 @@ def download(pdf_url, rename: str=''):
         filename = rename + '.json'
     filepath = os.path.join('res', 'predict', filename)
     try:
+        if 'role' in json_resp.keys():
+            print(f"Error predict: {pdf_url}")
         with open(filepath, 'w', encoding='utf-8') as json_file:
             json.dump(json_resp, json_file, ensure_ascii=False, indent=4)
         print(f"Data was successfully written to {filepath}")
@@ -85,7 +88,6 @@ if __name__ == "__main__":
     download('https://ncstatic-file.clewm.net/rsrc/2024/0715/15/c0452f6a46a4c686b80bde4699ed0626.pdf')
     download('https://ncstatic-file.clewm.net/rsrc/2024/0718/15/9c31733a4562a5bc5dadb1477706c562.pdf')
     download('https://ncstatic-file.clewm.net/rsrc/2024/0921/10/9a6fc493a4b2f802ef39ef3c0dd8c328.pdf')
-    download('https://ncstatic-file.clewm.net/rsrc/2024/0523/11/e01a4b0909760c4b7a926a75a2433703.pdf')
     download('https://ncstatic-file.clewm.net/rsrc/2024/0523/11/e01a4b0909760c4b7a926a75a2433703.pdf')
     download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/08%E6%9C%8806%E6%97%A5%E6%B5%B7%E6%B4%8B%E5%85%89%E8%B0%B1%E5%8F%B7%E6%97%A5%E6%9C%AC4%E6%99%9A5%E5%A4%A9%20%20%20%E4%B8%8A%E6%B5%B7--%E9%95%BF%E5%B4%8E--%E4%B8%8A%E6%B5%B7%E4%B9%8B%E6%97%85601%E7%89%88%281%29.pdf')
     download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/1.19%20%E5%8C%97%E4%BA%AC%E8%B5%B7%E6%AD%A2%20%E7%9B%88%E5%B0%9A%E7%B3%BB%E5%88%97%20%20%E5%8D%97%E8%88%AACZ%20%E8%8B%B1%E5%9B%BD%E4%B8%80%E5%9C%B09%E5%A4%A9%20%E6%B9%96%E5%8C%BA%2B%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%2B%E4%BC%A6%E6%95%A6%E4%B8%A4%E5%A4%A9%E8%87%AA%E7%94%B1%E6%B4%BB%E5%8A%A8.pdf')
@@ -113,9 +115,6 @@ if __name__ == "__main__":
     download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/601%E7%89%8820240727%E7%9A%87%E5%AE%B6%E5%8A%A0%E5%8B%92%E6%AF%94%E6%B5%B7%E6%B4%8B%E5%A5%A5%E5%BE%B7%E8%B5%9B%E5%8F%B7%20%E5%B7%A1%E6%B8%B8%E4%B8%9C%E5%9C%B0%E4%B8%AD%E6%B5%B78%E6%99%9A10%E5%A4%A9%EF%BC%88%E6%84%8F%E7%AD%BE%EF%BC%89%281%29.pdf')
     download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/CA775-776%205%E6%99%9A6%E5%A4%A9%20.pdf')
     download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/SQ%20801-806%20%E8%BD%AC5%E6%99%9A7%E5%A4%A9.pdf')
-    download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/U167030.pdf')
-    download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/U167046.pdf')
-    download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/U167051.pdf')
     download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/%E3%80%90%E8%A1%8C%E6%91%84%E9%9C%9E%E6%B5%A6%E4%B8%80%E5%AE%B6%E4%B8%80%E5%9B%A2%E3%80%91%E7%A6%8F%E5%B7%9E%E3%80%81%E9%9C%9E%E6%B5%A6%E3%80%81%E5%B9%B3%E6%BD%AD6%E5%A4%A9%281%29.pdf')
     download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/%E4%B8%AD%E4%BA%9A%E4%BA%94%E5%9B%BD%E6%B7%B1%E5%BA%A6.pdf')
     download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/%E4%BB%99%E6%9C%AC%E9%82%A3%E6%B2%99%E5%B7%B45%E6%99%9A7%E6%97%A5.pdf')
@@ -168,4 +167,12 @@ if __name__ == "__main__":
     download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/%E9%83%BD%E5%96%9C%E5%A4%A9%E9%98%99%E8%A1%8C%E7%A8%8B%281%29.pdf')
     download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/%E9%87%91%E9%92%BB%E7%B3%BB%E5%88%97%201.23%20CA%E5%9B%BD%E8%88%AA%20%E4%B8%80%E4%BB%B7%E5%85%A8%E5%90%AB%20%E5%BE%B7%E6%B3%95%E6%84%8F%E7%91%9E13%E5%A4%A9%20%E5%B7%B4%E9%BB%8E%E5%B8%82%E4%B8%AD%E5%BF%83%E4%BA%94%E6%98%9F%E9%85%92%E5%BA%97%2B%E6%98%9F%E7%BA%A7%E5%A1%9E%E7%BA%B3%E6%B2%B3%E6%B8%B8%E8%88%B9%E6%99%9A%E9%A4%90%2B%E5%9F%83%E8%8F%B2%E5%B0%94%E9%93%81%E5%A1%94%E5%8D%88%E9%A4%90%2B%E4%BC%AF%E5%B0%94%E5%B0%BC%E9%82%A3%E5%BF%AB%E8%BD%A6%2BTGV%2B%E5%B0%91%E5%A5%B3%E5%B3%B0%EF%BC%88FCO-CDG%EF%BC%89%E6%84%8F%E7%AD%BE.pdf')
     download('https://uux-public.oss-cn-beijing.aliyuncs.com/ai/doubao/%E9%87%91%E9%92%BB%E7%B3%BB%E5%88%97%201.23%20CA%E5%9B%BD%E8%88%AA%20%E4%B8%80%E4%BB%B7%E5%85%A8%E5%90%AB%20%E6%B3%95%E6%84%8F%E7%91%9E%203%E5%9B%BD13%E5%A4%A9%20%E5%B7%B4%E9%BB%8E%E5%B8%82%E4%B8%AD%E5%BF%83%E4%BA%94%E6%98%9F%E9%85%92%E5%BA%97%2B%E6%98%9F%E7%BA%A7%E5%A1%9E%E7%BA%B3%E6%B2%B3%E6%B8%B8%E8%88%B9%E6%99%9A%E9%A4%90%2B%E9%A9%AC%E7%89%B9%E6%B4%AA%E5%B3%B0%2B%E5%86%B0%E5%B7%9D%E5%88%97%E8%BD%A6%EF%BC%88FCO-CDG%EF%BC%89%E6%84%8F%E7%AD%BE.pdf')
+
+
+
+
+
+
+
+
 
