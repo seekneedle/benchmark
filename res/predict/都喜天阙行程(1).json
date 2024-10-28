@@ -1,0 +1,299 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京市",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "中国",
+        "dests": [
+            {
+                "countryName": "马尔代夫",
+                "destCityName": "",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "",
+            "name": "",
+            "typeName": ""
+        },
+        "insuranceIncluded": 0,
+        "markets": [],
+        "productSubtitle": "都喜天阙奢华体验",
+        "productTitle": "马尔代夫 5 晚 7 天自由行",
+        "returnCityName": "北京市",
+        "tags": [
+            {
+                "name": "自由行"
+            },
+            {
+                "name": "海岛"
+            },
+            {
+                "name": "奢华"
+            },
+            {
+                "name": "水飞"
+            }
+        ],
+        "themes": [
+            {
+                "name": "海岛休闲度假"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "国际航班",
+        "goTransportName": "国际航班+水飞",
+        "hotelStarName": "own",
+        "lineFeature": "此行程为自由行，提供豪华住宿和丰富的娱乐活动，适合追求高品质度假体验的旅客。",
+        "lineSimpleTitle": "马尔代夫自由行",
+        "lineSortTitle": "MDV-FZ",
+        "lineTitle": "马尔代夫都喜天阙5晚7天自由行",
+        "needVisa": 0,
+        "passCities": [
+            {
+                "cityName": "马累",
+                "countryName": "马尔代夫",
+                "provinceName": ""
+            },
+            {
+                "cityName": "北京大兴国际机场",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "都喜天阙酒店",
+                "countryName": "马尔代夫",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "7",
+        "tripNight": "5",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": []
+        },
+        "backAirports": [
+            {
+                "airlineCode": "JD",
+                "airlineName": "",
+                "arriveAirportName": "北京大兴国际机场",
+                "arriveTime": "00:55+1",
+                "days": 0,
+                "flightNo": "456",
+                "flightSort": "",
+                "startAirportName": "马累",
+                "startTime": "14:45"
+            }
+        ],
+        "goAirports": []
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "1. 报名前，请确保自身护照有效期在6个月以上（以出团日算）和3页护照空白页；2. 如新办护照必须向我司及时如实反馈办证情况；3. 如临时发现护照过期或不足有效期者，我司有权按实际产生费用扣费。",
+        "costExclude": "1. 旅游意外险；2. 以上“费用包含”中未注明的项目费用；3. 其他私人消费；4. 酒店服务小费，酒水费（注明的除外）；5. 度假村内的自费项目；6. 因不可抗力产生的一切损失费用。",
+        "costInclude": "1. 经济舱机票及税（不含国内联运）；2. 都喜天阙住宿3晚泳池沙屋beachvillawithpool + 2晚泳池水屋watervillawithpool；3. 机场至都喜天阙酒店往返水飞接送；4. 一价全包内容PureIndulgence，包括别墅内办理入住、三餐、酒水、日落巡游、摄影服务、娱乐活动等。",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "0",
+                "end": "30"
+            },
+            {
+                "begin": "15",
+                "cost": "30",
+                "end": "29"
+            },
+            {
+                "begin": "8",
+                "cost": "50",
+                "end": "14"
+            },
+            {
+                "begin": "1",
+                "cost": "80",
+                "end": "7"
+            },
+            {
+                "begin": "0",
+                "cost": "100",
+                "end": "0"
+            }
+        ],
+        "otherRule": "1. 水上飞机和内陆飞机的时间由酒店和水上飞机公司决定，国内旅行社无任何责任；2. 如果不预定马累酒店，客人请尽早自行去水飞柜台查询水飞时间；3. 为了防止钱、贵重财物失窃，出去游玩时，请将钱、贵重财物随身携带。",
+        "returnContent": "因不可抗力导致的行程变更或取消，我司将尽力协调，但不承担由此产生的额外费用。",
+        "selfCostContent": "以上自费项目需提前预约，费用自理，具体价格请咨询当地工作人员。",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "",
+                "name": "海上运动（潜水、冲浪等）",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "",
+                "name": "私人导游服务",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "",
+                "name": "特色SPA护理",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "",
+                "name": "私人游艇租赁",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "无",
+        "shops": [],
+        "tipsContent": "1. 服装：休闲便服是常见的服装，最适宜的莫过于T恤衬衫和棉质服装。对于那些容易晒黑或晒伤皮肤的人，宽阔边沿的大草帽及墨镜是必备之物；2. 逛街购物：马尔代夫严禁出口任何种类的珊瑚。游客不可擅自收集沙滩或海中的贝壳，购买贝壳要去当地受承认的商店里买；3. 语言：一般度假酒店通行英语；4. 货币：马尔代夫货币为Rufiya（RF），亦称马尔代夫卢比。1美元可兑换10-11RF（视汇率变化而定）。一般酒店使用美金为主，大部分度假小岛均接受通行的信用卡；5. 时差与气候：首都马累比北京慢3小时。马尔代夫靠近赤道，属热带，气候温和，四季相宜。年平均气温35度；6. 饮用水：酒店自来水不宜饮用，需要购买矿泉水，约为3-4美元。客人不能自带饮品进入餐厅，否则可能被收取若干费用；7. 入境规则：旅客入境所携带的私人物品不用付税，另可携带香烟200支。军火、武器、色情刊物、毒品及酒类都严禁入境；8. 电力：220V，插头规格不一，可以自备多用途插头，如没有，也可问酒店前台借，离开时请不要忘记归还；9. 其他注意事项：A. 严禁私人自在岛上钓鱼，采摘或践踏珊瑚，违者罚款可达美金5000元；B. 严禁在酒店房间内煮食，违者罚款可达5000美金；C. 勿在岛上喧哗，吵闹，切勿随地扔垃圾，以确保大自然环境的优美，宁静；D. 酒店内的电话及部分电视频道是要收费的，请询问清楚后使用，以免结账时发生误会；E. 酒店房间内可直拨国际电话（每分钟约5美元）；如打回中国：0086-地区号+电话号码，费用在酒店前台现付。开通过中国移动国际漫游的客人可以手机的，在香港地区入网的手机可以使用；F. 当地有付小费的习惯，每次每件行李1美元；床头小费；每间每天1美元；餐桌小费；每天每人1美元；G. 请勿游泳游得太远，尤其是岛的尽头请注意有强烈暗流；H. 进入海滩时请着鞋，以免被碎珊瑚扎到脚；I. 请注意长时间待在游泳池里，池中的化学物质可能会改变您头发的颜色；J. 您可能会受附近岛屿的渔人之邀，请注意！他们并不在酒店管理之下；K. 近期马代回来的一些客人反映，他们将钱，贵重财物放在房间的保险柜里，发生了失窃事件，因此，为了防止您的钱，贵重财物失窃，出去游玩时，请将钱，贵重财物随身携带；L. 因去马尔代夫旅游多属于自由行，并且水面活动较多（游泳，浮潜等），客人尤其要把安全放在首位。凡下水都要制定确保安全的预案，别单独下水，不要做超过能力范围的活动。建议客人上意外保险，否则，出现生命安全等问题，客人自负！"
+    },
+    "trips": [
+        {
+            "breakfast": 1,
+            "content": "请各位贵宾于航班起飞前3小时，自行前往北京大兴国际机场办理登机手续，乘坐国际航班飞机前往马累。抵达后，根据接机人员指引前往酒店。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "都喜天阙",
+                    "star": "5"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "未知",
+                    "departure": "北京大兴国际机场",
+                    "departureTime": "自行安排",
+                    "destination": "马累",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "马尔代夫之旅启程",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "岛上自由活动，畅享马尔代夫美景，悠闲度假时光",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "都喜天阙",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "马尔代夫悠闲度假",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "岛上自由活动，畅享马尔代夫美景，悠闲度假时光。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "都喜天阙",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "马尔代夫悠闲度假",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "岛上自由活动",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "都喜天阙",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "马尔代夫悠闲度假",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "岛上自由活动，畅享马尔代夫美景，悠闲度假时光。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "都喜天阙",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "马尔代夫自由活动悠闲度假",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "乘坐参考航班 JD456 从马累返回北京。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "00:55+1",
+                    "departure": "马累",
+                    "departureTime": "14:45",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "返程",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 0,
+            "content": "乘坐航班从马累返回北京。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "00:55+1",
+                    "departure": "马累",
+                    "departureTime": "",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "返程",
+            "tripDay": 7
+        }
+    ]
+}

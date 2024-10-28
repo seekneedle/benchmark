@@ -1,0 +1,515 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "无特定儿童政策",
+        "departureCityName": "北京市",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "北京市",
+        "dests": [
+            {
+                "countryName": "意大利",
+                "destCityName": "罗马",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "土耳其",
+                "destCityName": "库萨达斯",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "希腊",
+                "destCityName": "米克诺斯",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "希腊",
+                "destCityName": "圣托里尼",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "意大利",
+                "destCityName": "那不勒斯",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "包含申根旅游签证费及旅游意外保险费",
+            "name": "申根旅游意外保险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "宾至如归的五星级客房及皇家优质服务"
+            },
+            {
+                "name": "十余种免费及特色国际美食体验"
+            },
+            {
+                "name": "超量子系列标志性设施：北极星、南极球、甲板冲浪、iFly 甲板飞行等"
+            },
+            {
+                "name": "海上多功能运动馆（SeaPlex）"
+            },
+            {
+                "name": "270 景观厅，白天全景视角欣赏无敌海景，夜晚精彩演出"
+            },
+            {
+                "name": "特别安排宫崎骏笔下《天空之城》的原型——白露里治奥古城"
+            }
+        ],
+        "productSubtitle": "意大利、希腊、土耳其",
+        "productTitle": "皇家加勒比海洋奥德赛号巡游东地中海",
+        "returnCityName": "北京市",
+        "tags": [
+            {
+                "name": "皇家加勒比"
+            },
+            {
+                "name": "超量子系列"
+            },
+            {
+                "name": "东地中海"
+            },
+            {
+                "name": "五星级服务"
+            },
+            {
+                "name": "国际美食"
+            },
+            {
+                "name": "多种娱乐设施"
+            },
+            {
+                "name": "历史文化"
+            }
+        ],
+        "themes": [
+            {
+                "name": "游轮巡游"
+            },
+            {
+                "name": "皇家加勒比超量子系列游轮带来的非凡游轮假期"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "国航直飞北京",
+        "goTransportName": "国航直飞罗马",
+        "hotelStarName": "-1",
+        "lineFeature": "乘坐 16.8 万吨的皇家加勒比海洋奥德赛号，体验超量子系列游轮的非凡假期；从永恒之城罗马启航，巡航东地中海，停靠土耳其库萨达斯、希腊米克诺斯岛、圣托里尼岛、意大利那不勒斯；丰富的船上娱乐设施和美食体验；特别安排参观白露里治奥古城",
+        "lineSimpleTitle": "东地中海 8 晚 10 天",
+        "lineSortTitle": "EM8N10D",
+        "lineTitle": "皇家加勒比海洋奥德赛号巡游东地中海 8 晚 10 天",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "罗马",
+                "countryName": "意大利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "库萨达斯",
+                "countryName": "土耳其",
+                "provinceName": ""
+            },
+            {
+                "cityName": "米克诺斯",
+                "countryName": "希腊",
+                "provinceName": ""
+            },
+            {
+                "cityName": "圣托里尼",
+                "countryName": "希腊",
+                "provinceName": ""
+            },
+            {
+                "cityName": "那不勒斯",
+                "countryName": "意大利",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "10",
+        "tripNight": "8",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "申根国家",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        },
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空",
+                "arriveAirportName": "北京",
+                "arriveTime": "12:55",
+                "days": 1,
+                "flightNo": "CA940",
+                "flightSort": "回程",
+                "startAirportName": "罗马",
+                "startTime": "20:55"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空",
+                "arriveAirportName": "罗马",
+                "arriveTime": "18:55",
+                "days": 0,
+                "flightNo": "CA939",
+                "flightSort": "去程",
+                "startAirportName": "北京",
+                "startTime": "13:45"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "因游轮产品特殊性：旅行社向游轮公司所支付的船票费、港务费及燃油附加费等实际发生的费用游轮公司不予退还；旅游者需在预定产品时付清全额船票款；旅游者在启程前90天以上解除合同的，按5000元/人收取罚金；旅游者在启程前89-45天解除合同的，按旅游费总额的30%；旅游者在启程前44-15天解除合同的，按旅游费总额的50%；旅游者在启程前14天以内解除合同的，按旅游费总额的100%",
+        "costExclude": "游轮停靠各站岸上观光（自愿购买）；游轮服务费（船上支付，参考标准：内舱房、海景房、阳台房、海际套房为18美元/人/晚；星际及天际套房20.5美金/人/晚）；办理护照等证件及准备签证资料过程中发生的费用；全程单间差费用及邮轮升舱差价；行程中发生的旅游者个人费用，包括但不限于邮轮及酒店所提供的各项付费服务（如升级岸上观光、付费酒水咖啡、干洗、卫星电话等）、及自由活动期间发生的各项费用等；旅游者自愿支付给导游、领队、司机、酒店服务生等服务人员的小费；旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失，及因自然天气等不可抗力原因所致的额外费用；合同及旅游行程未约定由旅行社支付的费用",
+        "costInclude": "北京往返罗马经济舱机票含税；皇家海洋奥德赛号7晚游轮船票，含港口税；指定船上餐厅免费餐食、指定的游轮上设施及娱乐节目和活动；申根旅游签证费及旅游意外保险费；欧洲当地网评四星酒店住宿，双人标间，共1晚；酒店内早餐1次，中式桌餐6菜1汤，共2次；境外旅游巴士及司机，含司机服务费；全程中文领队，含服务费；旅行社责任险",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "100",
+                "end": "0"
+            },
+            {
+                "begin": "90",
+                "cost": "5000",
+                "end": "89"
+            },
+            {
+                "begin": "45",
+                "cost": "30",
+                "end": "44"
+            },
+            {
+                "begin": "15",
+                "cost": "50",
+                "end": "14"
+            },
+            {
+                "begin": "0",
+                "cost": "100",
+                "end": "0"
+            }
+        ],
+        "otherRule": "意大利夏令时时间晚于北京时间6小时，希腊、土耳其夏令时时间晚于北京时间5小时；行程中所列航班及邮轮时间，为航空公司及邮轮公司发布的参考时间，具体时间以最终安排为准；请不要将贵重物品及自用应急药品放在托运行李中，以免丢失。旅游过程中，也请妥善保存；如客人系港澳人士，或持外籍护照，请于出发前确认是否有再次进入中国之有效证件；客人在境外指定商店购物，请一定要问商家拿好发票及相关证书，如产生质量问题，我社负责积极协助退换货，如客人无法提供发票及相关证书，我社则无法协助办理任何退换手续；船上消费只收取美金，船上提供货币兑换服务，汇率可能略高于国家对外公布的当日汇率。船上不能使用银联卡关联账户消费，只能使用可刷取美金的信用卡，如VISA维萨卡、MASTER万事达卡、AMEX美国运通卡等；船上的用餐及娱乐项目绝大部分免费。收费的项目有：咖啡厅、酒吧、娱乐厅、大剧院等单独出售的所有饮料；特殊咖啡（如卡布基诺、特浓咖啡等）、含酒精类饮料、酒类、可乐、汽水等；私人开销：如卫星电话费、美容美发、按摩、商店购物等；上网费用；娱乐场的筹码；船舱内的瓶装矿泉水；就诊挂号费用、治疗费及药费；客人不得携带酒精饮料上船，可以携带由医院开出的药品或小型针剂。船上提供免费的晕船药；船上配备医生和护士，就诊挂号费用、治疗费及药费需额外收取；游轮上大部分区域为非吸烟区，客人可在指定的吸烟区域吸烟。如果违反规定，将被处以罚款；行程中所列启航及抵达时间仅供参考，游轮公司将根据实际情况做出适当的调整，恕不另行通知；此行程为参考行程，我司将根据人数、航次、签证及目的地之变化，保留调整之权利",
+        "returnContent": "旅游者需在预定产品时付清全额船票款；旅游者在启程前90天以上解除合同的，按5000元/人收取罚金；旅游者在启程前89-45天解除合同的，按旅游费总额的30%；旅游者在启程前44-15天解除合同的，按旅游费总额的50%；旅游者在启程前14天以内解除合同的，按旅游费总额的100%",
+        "selfCostContent": "所有自费项目均为自愿参加，最低10人成团，低于10人将取消发团或根据实际人数重新核算价格；岸上观光具体行程和时间可能因邮轮航线等因素发生变动，以当天实际情况为准；如遇不可抗力因素，造成无法登陆游览，我社将扣除已发生的费用，其余费用退还给您；游览顺序根据当时的交通、天气等情况，以实际为准",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "1099 元/人",
+                "name": "07月30日圣托里尼预计抵港时间13:00，预计离港时间23:00",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "1499 元/人",
+                "name": "07月31日库萨达斯预计抵港时间09:00，预计离港时间18:00",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "1099 元/人",
+                "name": "08月01日米克诺斯预计抵港时间06:00，预计离港时间18:00",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "1599 元/人",
+                "name": "08月03日那不勒斯预计抵港时间07:00预计离港时间18:00",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "",
+        "shops": [],
+        "tipsContent": "本产品散客拼团，最低10人起发团，从北京集合出发；行程中所注明的服务项目仅适用于10人以上团队，若团队人数不足10人，则需另行报价。报价仅适用于内舱及阳台舱房，若需其他房型（迷你套房、套房等）价格及罚则另议；新疆签发的护照需本人到使馆面签；申根地区流通货币为欧元，土耳其流通里拉或美金。旅行社及其工作人员不提供货币兑换服务，请至官方指定场所自行兑换"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "今日搭乘航班飞往意大利首都罗马。抵达后，前往酒店休息，调整时差。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "18:55",
+                    "departure": "北京",
+                    "departureTime": "13:45",
+                    "destination": "罗马",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "罗马",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "北京前往罗马",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后集合，前往白露里治奥古城游览。游览结束后，乘车前往奇维塔韦基亚港口办理登船手续，皇家加勒比海洋奥德赛号预计于当晚 17 点离港，开启爱琴海之旅。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "以“天空之城”而著称于世。古城始建于伊特鲁里亚文明时期（公元前 12 世纪至前 1 世纪），长不足 300 米，宽仅 200 米，位于易碎的火山凝灰岩顶上，俯瞰台伯河河谷。由于持续的侵蚀，古城悬崖周边的岩石不断脱落，经过多次地震、地陷之后，到了 19 世纪渐渐由一座贸易通道上的繁华都市蜕变成一个孤岛。",
+                    "name": "白露里治奥古城"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "罗马",
+                    "departureTime": "",
+                    "destination": "白露里治奥",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "白露里治奥",
+                    "departureTime": "",
+                    "destination": "奇维塔韦基亚",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "罗马前往奇维塔韦基亚登船之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "邮轮航行于风光明媚的海上，豪华邮轮上有各式各样为您精心设计的活动，如皇家赌场、宾果游戏等。您可参考'每日活动表'选择喜爱的节目，晚上可在餐厅品尝香槟，在剧院欣赏艺术表演，或者以自己喜爱的方式度过精彩的一天。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "海上巡游之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "游轮停靠在希腊的圣托里尼岛。您不妨离船登岸亲身体验这座希腊天堂。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "未知",
+                    "description": "圣托里尼洁白的房屋、盛开的鲜花、碧蓝的海水是对希腊的最好的诠释，这里的日落也是全世界最美的。菲拉是圣托里尼的首府，与另一座主要村镇伊亚的魅力不相上下。两地均临崖而建。在菲拉您能找到各式商店、咖啡馆和酒吧。您一定不能错过由当地白葡萄酿制而成的葡萄酒。伊亚规模稍小但同样迷人，那里的黑沙滩是喜爱阳光游客的不二之选。",
+                    "name": "圣托里尼岛"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "圣托里尼岛之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 0,
+            "content": "邮轮停靠在土耳其美丽的库萨达斯港，库萨达斯有以弗所这一重要城市。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "以弗所古典早期最重要的城市之一，在古代安纳托利亚（Anatolia）是一座爱奥尼亚（Ionian）希腊城市，在公元前10世纪由雅典殖民者建立。该城坐落于爱奥尼亚，基士特河口从这里流向爱琴海（AegeanSea），也是帕尼欧尼亚同盟的一部分。（以上仅为目的地介绍，请另行报名参加岸上观光活动）",
+                    "name": "以弗所"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "09:00",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "库萨达斯，土耳其",
+                    "trafficType": "邮轮"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "库萨达斯，土耳其",
+                    "departureTime": "18:00",
+                    "destination": "",
+                    "trafficType": "邮轮"
+                }
+            ],
+            "title": "土耳其库萨达斯之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 0,
+            "content": "邮轮缓缓停靠在米克诺斯岛。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "希腊号称拥有世界上最美的岛屿群，而米克诺斯岛，则以其独特的梦幻气质在爱琴海的岛屿中首屈一指，被称为“最接近天堂的小岛”。在古老的希腊神话中，米克诺斯岛是宙斯和泰坦族发生圣战的地方，战败的泰坦巨人的骸骨落在爱琴海中，就形成了米克诺斯岛。以花岗岩或片麻岩所筑的小屋和基克拉泽斯式风车，年年均以石灰重新涂刷，成为此地的特色。狭窄交错的市区街道里有逛不完的商店，在不起眼的小店里却能淘到当地艺术家精心制作的手工艺品，岛上人潮永不缺少的红男绿女，在蓝天艳阳的交织下，构筑成缤纷亮丽的风景。",
+                    "name": "米克诺斯岛"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "06:00",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "米克诺斯岛",
+                    "trafficType": "邮轮"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "米克诺斯岛",
+                    "departureTime": "18:00",
+                    "destination": "",
+                    "trafficType": "邮轮"
+                }
+            ],
+            "title": "米克诺斯岛之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "邮轮航行于风光明媚的海上，豪华邮轮上有各式各样为您精心设计的活动，您可参考'每日活动表'选择喜爱的节目，如皇家赌场、宾果游戏、免税商店街、日光浴、美容院、SPA等地。晚上您可以在豪华的餐厅里悠然品尝香槟，然后在剧院欣赏优雅的艺术表演，或者以自己喜爱的方式度过精彩的一天。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "海上巡游",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 0,
+            "content": "游轮停靠在意大利的那不勒斯码头，那不勒斯是一个充满魅力的城市，是意大利优良的港口，有迷人的风光和特色，但需要另行报名参加岸上观光活动。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "那不勒斯是一个洋溢着南国魅力的城市，是意大利最美丽优良的港口。在那不勒斯的街道，随处可听到充满感情的意大利民谣，碧蓝的大海，万里无云的蓝天，雄伟的维苏威火山，迷住了很多来到这里的游客，该城风光绮丽，是地中海最著名的风景胜地之一。",
+                    "name": "那不勒斯"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "那不勒斯之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "清晨游轮返回奇维塔韦基亚港口，早餐在船上享用，之后按顺序离船。下船后乘车前往首都罗马，开始游览永恒之都罗马。参观君士坦丁凯旋门、古罗马废墟（外观）、斗兽场（外观），前往纳沃纳广场，继续前往万神殿，然后前往许愿池。下午乘车前往罗马机场，办理退税、登机等手续，返回国内。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "建于公元 315 年罗马最大的凯旋门",
+                    "name": "君士坦丁凯旋门"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "外观",
+                    "name": "古罗马废墟"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "外观",
+                    "name": "斗兽场"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "广场不是非常大，但是广场上面三个喷泉：海神喷泉、四河喷泉和摩尔喷泉，都相当著名且出自大师之手",
+                    "name": "纳沃纳广场"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "古罗马时期的宗教建筑，后改建成一座教堂。主体呈圆形，顶部覆盖着一个直径达 43.3 米的穹顶，是自建成后到 1436 年间最大的穹顶",
+                    "name": "万神殿"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "喷泉依波利侯爵宫殿而建，历时 30 年于 1762 年完工。主题是海神尼普顿胜利归来",
+                    "name": "许愿池"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "奇维塔韦基亚",
+                    "departureTime": "05:00",
+                    "destination": "罗马",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "12:55",
+                    "departure": "罗马",
+                    "departureTime": "",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "罗马离船日之旅",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 0,
+            "content": "今天抵达北京，结束温馨愉快的邮轮之旅。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "结束邮轮之旅抵达北京",
+            "tripDay": 10
+        }
+    ]
+}

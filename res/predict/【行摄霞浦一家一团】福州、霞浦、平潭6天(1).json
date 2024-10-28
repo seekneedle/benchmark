@@ -1,0 +1,318 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 18,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "含当地车位、儿童餐费（不占床不含早餐），其余当地自理",
+        "departureCityName": "福州市",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "福建省",
+        "dests": [
+            {
+                "countryName": "中国",
+                "destCityName": "福州",
+                "destProvinceName": "福建"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "霞浦",
+                "destProvinceName": "福建"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "平潭",
+                "destProvinceName": "福建"
+            }
+        ],
+        "insurance": {
+            "content": "含旅行社责任险，但建议旅游者自行购买旅游人身意外险和航空意外险",
+            "name": "旅行社责任险",
+            "typeName": "境内旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "首批“中国历史文化名街区”三坊七巷"
+            },
+            {
+                "name": "舒适型酒店标准住宿"
+            },
+            {
+                "name": "司机兼职向导，不进景区"
+            },
+            {
+                "name": "5 早正餐自理"
+            }
+        ],
+        "productSubtitle": "福州、霞浦、平潭深度游",
+        "productTitle": "行摄霞浦一家一团",
+        "returnCityName": "福州市",
+        "tags": [
+            {
+                "name": "家庭游"
+            },
+            {
+                "name": "摄影之旅"
+            },
+            {
+                "name": "历史文化"
+            }
+        ],
+        "themes": [
+            {
+                "name": "摄影"
+            },
+            {
+                "name": "文化"
+            },
+            {
+                "name": "自然风光"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "根据航班/火车时刻送机/送站",
+        "goTransportName": "车辆接送",
+        "hotelStarName": "-1",
+        "lineFeature": "本线路涵盖了福州的历史文化名街区三坊七巷，以及霞浦和平潭的自然风光，适合家庭游和摄影爱好者。",
+        "lineSimpleTitle": "行摄霞浦",
+        "lineSortTitle": "XSP",
+        "lineTitle": "行摄霞浦一家一团",
+        "needVisa": 0,
+        "passCities": [
+            {
+                "cityName": "福州",
+                "countryName": "中国",
+                "provinceName": "福建"
+            },
+            {
+                "cityName": "霞浦",
+                "countryName": "中国",
+                "provinceName": "福建"
+            },
+            {
+                "cityName": "平潭",
+                "countryName": "中国",
+                "provinceName": "福建"
+            }
+        ],
+        "tripDays": "6",
+        "tripNight": "5",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": []
+        },
+        "backAirports": [],
+        "goAirports": []
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "请提前至少10天预订，以便安排相关事宜。如需取消或更改行程，请提前7天通知，否则将收取相应费用。",
+        "costExclude": "单房差：全程入住酒店产生的单房差及加床费用；旅游意外保险及航空保险（建议旅游者购买）；因交通延误等不可抗力原因导致的额外费用；因自身违约、自身过错、自身疾病等自身原因导致的人身财产损失而额外支付的费用；不占床位游客不含早餐；“旅游费用包含”内容以外的所有费用",
+        "costInclude": "住宿：全程舒适型酒店标准，不提供自然单间，产生单房差客人自理；用餐：5早正餐自理；门票：景点首道大门票；导游：司机兼职向导，不进景区；用车：2人5坐车、4人7坐车、6人9-14坐车（司机兼向导，不进景区）；儿童：含当地车位、儿童餐费（不占床不含早餐）、其余当地自理；保险：含旅行社责任险，不含旅游人身意外险和航空意外险",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "0",
+                "end": "10"
+            },
+            {
+                "begin": "0",
+                "cost": "10",
+                "end": "7"
+            },
+            {
+                "begin": "0",
+                "cost": "30",
+                "end": "4"
+            },
+            {
+                "begin": "0",
+                "cost": "50",
+                "end": "1"
+            },
+            {
+                "begin": "0",
+                "cost": "100",
+                "end": "0"
+            }
+        ],
+        "otherRule": "请在预订时确认具体日期和价格。如有特殊需求，请提前告知。",
+        "returnContent": "如因不可抗力因素（如自然灾害、政府政策等）导致行程取消，将根据实际情况协商解决。",
+        "selfCostContent": "本行程不包含任何自费项目。",
+        "selfCosts": [],
+        "shopContent": "本行程不包含任何强制购物点。",
+        "shops": [],
+        "tipsContent": "请携带有效身份证件。请穿着舒适的鞋子和衣物。请随身携带雨具和防晒用品。"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "各地乘机前往福州，抵达后接机，乘车前往霞浦（约170公里，行车约2.5小时）游览小皓海滩，入住酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "是摄影者来到霞浦一定要前往的一站，潮水的涨落、季节的变换、月落日升，小皓也在每天以崭新的姿态呈现。同样的潮水，不同样的光影，同样的劳动，不同样的心情，摄影者总能创作出精美的作品。以滩涂风光著称的霞浦，单单小皓保留着一片沙滩，很多有关霞浦的佳作都是在这里诞生的．小皓其实不是严格意义上的滩涂，而是以沙质为主的沙滩，没有确定的水道，从山上流下的淡水的水道每次潮汐过后就变出新的曲折水道，在各色光线的折射下远远看去仿佛道道亮丽的霓虹。小皓任何季节早晚都能进行拍摄创作，只要有光线，这里就有永不枯竭的创作源泉。",
+                    "name": "小皓海滩"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "各地",
+                    "departureTime": "",
+                    "destination": "福州",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "福州",
+                    "departureTime": "",
+                    "destination": "霞浦",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "福州-霞浦之旅",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘前往榕枫公园，之后前往杨家溪，最后前往半月里。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "拥有纬度较北的古榕树群和江南较大的纯枫叶林。其中值得一提的是一株“榕树王”，它的树龄已有800多年，树干周长12.6米，冠幅直径51米，高30米，树干中空，有7个洞口，洞内可容数人。每当早晨的阳光斜斜地洒进树林，斑驳的树影在光影的晃动下展示着它的魔法，营造了一种如梦似幻的感觉。",
+                    "name": "榕枫公园"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "位于霞浦县牙城镇境内。拥有纬度较北的古榕树群和江南较大的纯枫叶林。",
+                    "name": "杨家溪"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "位于福建省霞浦县溪南镇白露坑行政村，是畲族聚居的村庄。村庄东望玉兔山，与白露坑村有一山之隔，背靠状如弯月的弥勒山山麓，南临双福桥水库。半月里被誉为“畲族历史文化名村”，有近3百年历史的龙溪宫是省级文物保护单位。",
+                    "name": "半月里"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "霞浦景点之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往平潭（行车约 4 小时），游览海坛古城，后前往坛南湾田美澳，尽情享受沙滩风光，后入住酒店休息。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "中国首座海岛旅游古城，项目总占地 1047 亩，总投资约 86 亿元，以“闽越海洋文化、海上丝绸文化”等为根基，实福建省重点文化产业项目，特色仿古建筑，仿佛是一次穿越之旅。以“闽越海洋文化、海防文化、海上丝绸文化、福文化”等为根基，以明清古建筑为载体，以古城演艺、互动娱乐和节庆活动为表现形式，集“吃、住、行、游、购、娱”各个元素，按照国家 5A 级旅游景区标准，倾心打造的海峡两岸旅游集散地。",
+                    "name": "海坛古城"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "享有东方马尔代夫美誉之称，这里的沙滩广阔平缓，海沙洁净细致，海水清澈澄碧，波光晶莹潮声如乐，可以抓螃蟹、拾贝壳、或是来一场沙滩足球或沙滩排球。尽情享受阳光、沙滩、海水、蓝天的无限风光，让人流连忘返。到了放风筝的季节，追逐风筝，嬉戏春风，放飞心情，放飞梦想。",
+                    "name": "坛南湾田美澳"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "约 4 小时后",
+                    "departure": "霞浦",
+                    "departureTime": "早餐后",
+                    "destination": "平潭",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "平潭之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后前往将军山，之后前往猴研岛。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "原名老虎山，为纪念1996年初春三军联合演习期间，一百多名将军登山观战之盛况，平潭县委、县政府于同年4月1日决定更改山名，使该区的旅游开发主题更为突出。",
+                    "name": "将军山"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "一座与台湾隔海相望的小海岛，一个距台湾新竹南寮渔港仅68海里，相当于126公里。名叫猴研岛，平潭猴研山建了一座高3米、宽5米的祖国大陆距台湾岛最近点标志石碑，上书“祖国大陆—台湾岛最近距离68海里中国·平潭”的朱红大字，并雕刻了海峡两岸位置图。",
+                    "name": "猴研岛"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "平潭将军山与猴研岛之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往福州，依次游览上下杭、烟台山、福道。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "福州台江上杭路、下杭路的街区，又称“双杭”。具有浓厚的福州中西合璧建筑文化特色和典型闽商文化特色的传统街区，有南台十景、三桥渔火等景观。",
+                    "name": "上下杭"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "整个风貌区及周边现存近现代优秀历史建筑163处，除了众多外国领事馆、教堂、洋行、别墅等西洋老建筑外，还有数十座中式园林古厝。其中，爱国路2号是福州曾经的十七个外国领事馆中最具代表性的西式建筑之一。",
+                    "name": "烟台山"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "即为福州城市森林步道，它采用钢架镂空设计，主轴线长6.3公里，环线总长约十九公里，福道东北接左海公园，西南连闽江廊线，中间沿金牛山山脊线贯穿左海公园、梅峰山地公园、国光公园以及金牛山公园。",
+                    "name": "福道"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "福州特色景点游",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后前往参观首批“中国历史文化名街区”—【三坊七巷】（游览时间约 1 小时，自由参观），后根据航班/火车时刻送机/送站，结束愉快旅程！",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "福州历史文化的标志，被建筑界喻为一座规模庞大的“明清古建筑博物馆”。",
+                    "name": "三坊七巷"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "福州返程之旅",
+            "tripDay": 6
+        }
+    ]
+}

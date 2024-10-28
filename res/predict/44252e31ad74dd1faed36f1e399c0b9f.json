@@ -18,114 +18,48 @@
             }
         ],
         "insurance": {
-            "content": "",
+            "content": "旅行社已建议旅游者购买境外意外伤害保险",
             "name": "境外意外伤害保险",
             "typeName": "境外旅游险"
         },
         "insuranceIncluded": 1,
         "markets": [],
-        "productSubtitle": "克鲁格国家公园敞篷车safari+布莱德河峡谷+齐齐卡马国家公园+赫曼努斯观鲸",
-        "productTitle": "南非双骄",
+        "productSubtitle": "",
+        "productTitle": "【南非双骄】南非+克鲁格+花园大道 12 日",
         "returnCityName": "北京",
         "tags": [
             {
-                "name": "野生动物"
+                "name": "克鲁格国家公园"
             },
             {
-                "name": "自然奇观"
+                "name": "布莱德河峡谷"
             },
             {
-                "name": "探险之旅"
+                "name": "齐齐卡马国家公园"
+            },
+            {
+                "name": "赫曼努斯"
+            },
+            {
+                "name": "花园大道"
             }
         ],
         "themes": [
             {
-                "name": "深入探索南非的自然奇观与野生动物"
+                "name": "探索南非自然奇观与动物世界"
             }
         ]
     },
     "line": {
-        "backAirports": [
-            {
-                "airlineCode": "",
-                "airlineName": "",
-                "arriveAirportName": "PEK",
-                "arriveTime": "10:00+1",
-                "days": 1,
-                "flightNo": "CA868",
-                "flightSort": "",
-                "startAirportName": "JNB",
-                "startTime": "10:10"
-            }
-        ],
         "backTransportName": "飞机",
-        "goAirports": [
-            {
-                "airlineCode": "",
-                "airlineName": "",
-                "arriveAirportName": "JNB",
-                "arriveTime": "08:20+1",
-                "days": 1,
-                "flightNo": "CA867",
-                "flightSort": "",
-                "startAirportName": "PEK",
-                "startTime": "18:55"
-            }
-        ],
         "goTransportName": "飞机",
         "hotelStarName": "-1",
-        "lineFeature": "克鲁格国家公园敞篷车 safari、布莱德河峡谷、齐齐卡马国家公园、赫曼努斯观鲸",
-        "lineSimpleTitle": "",
-        "lineSortTitle": "",
-        "lineTitle": "【南非双骄】南非+克鲁格+花园大道 12 日",
+        "lineFeature": "克鲁格国家公园敞篷车safari、布莱德河峡谷、齐齐卡马国家公园、南非花园大道、赫曼努斯出海观鲸",
+        "lineSimpleTitle": "南非双骄",
+        "lineSortTitle": "无",
+        "lineTitle": "【南非双骄】南非+克鲁格+花园大道12日",
         "needVisa": 1,
-        "passCities": [
-            {
-                "cityName": "约翰内斯堡",
-                "countryName": "南非",
-                "provinceName": ""
-            },
-            {
-                "cityName": "比勒陀利亚",
-                "countryName": "南非",
-                "provinceName": ""
-            },
-            {
-                "cityName": "太阳城",
-                "countryName": "南非",
-                "provinceName": ""
-            },
-            {
-                "cityName": "克鲁格国家公园",
-                "countryName": "南非",
-                "provinceName": ""
-            },
-            {
-                "cityName": "乔治/伊丽莎白港",
-                "countryName": "南非",
-                "provinceName": ""
-            },
-            {
-                "cityName": "奈斯纳",
-                "countryName": "南非",
-                "provinceName": ""
-            },
-            {
-                "cityName": "莫塞湾",
-                "countryName": "南非",
-                "provinceName": ""
-            },
-            {
-                "cityName": "赫曼努斯",
-                "countryName": "南非",
-                "provinceName": ""
-            },
-            {
-                "cityName": "开普敦",
-                "countryName": "南非",
-                "provinceName": ""
-            }
-        ],
+        "passCities": [],
         "tripDays": "12",
         "tripNight": "11",
         "visaBasic": {
@@ -134,41 +68,67 @@
             "postPhone": "",
             "visas": [
                 {
-                    "content": "南非团队旅游签证费用包含内容",
+                    "content": "",
                     "country": "南非",
                     "district": "",
                     "freeVisa": 2,
                     "signPlace": ""
                 }
             ]
-        }
+        },
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "北京",
+                "arriveTime": "10:00+1",
+                "days": 1,
+                "flightNo": "CA868",
+                "flightSort": "回程",
+                "startAirportName": "约翰内斯堡",
+                "startTime": "10:10"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "约翰内斯堡",
+                "arriveTime": "08:20+1",
+                "days": 1,
+                "flightNo": "CA867",
+                "flightSort": "去程",
+                "startAirportName": "北京",
+                "startTime": "18:55"
+            }
+        ]
     },
     "cal": {
         "channelPut": null,
         "departDate": []
     },
     "cost": {
-        "bookRule": "无",
-        "costExclude": "护照费用；境外服务费 1200 元/人；行程中所列酒店单间差；签证相关的例如未成年人公证，认证等相关费用；酒店内电话、传真、洗熨、收费电视、饮料等费用；洗衣，理发，电话，饮料，烟酒，付费电视，行李搬运等私人费用；转候机/火车/船只时用餐；行李在航班托运期间的造成损坏的经济损失和责任；因气候或飞机、车辆、船只等交通工具发生故障导致时间延误或行程更改引起的经济损失和责任；因个人原因滞留产生的一切费用；行程列明以外的景点或活动所引起的任何费用；旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失；服务项目未提到的其他一切费用，例如特种门票（缆车等）；其他行程中以及上述“报价包含”条款中未列明的一切额外费用",
-        "costInclude": "北京/南非往返国际机票及内陆段交通，团队经济舱，含机场建设税；行程中所列酒店（双人标准间及早餐）；境外旅游巴士及外籍司机；中文导游服务；中式午晚餐或当地餐；行程中所列入内参观首道景点门票；南非团队旅游签证费用",
+        "bookRule": "出境旅游合同补充约定与出境旅游合同同样具有法律效力；旅游者需按时递交签证资料，否则后果自负；旅行社已建议旅游者购买境外意外伤害保险；自备签证旅游者需确认签证有效性；中东非洲国家内段航班出票后无法退款；参团的旅游者必须如实告知旅行社特殊情况，否则损失自负",
+        "costExclude": "护照费用、境外服务费、行程中所列酒店单间差、签证相关费用、酒店内收费项目、私人费用、转候机/火车/船只时用餐、行李托运损失、因各种原因导致的经济损失、行程外的费用、旅游者自身原因导致的损失、服务项目未提到的费用",
+        "costInclude": "北京/南非往返国际机票及内陆段交通、行程中所列酒店、境外旅游巴士、中文导游服务、中式午晚餐、行程中所列入内参观首道景点门票、南非团队旅游签证费用",
         "lineReturns": [],
         "otherRule": "无",
-        "returnContent": "无",
+        "returnContent": "如遇不可抗力因素无法游览，退还未游览景点门票费用，游客因个人原因临时自愿放弃游览，酒店住宿、餐、车等费用均不退还。如遇航空公司政策性调整机票价格、旅游目的地国家政策性调整门票或其他相关价格，请按规定补交差价",
         "selfCostContent": "无",
         "selfCosts": [],
-        "shopContent": "无",
+        "shopContent": "旅行社不指定具体购物场所，购物属于客人个人行为，旅行社建议理性消费，保留消费凭证，退税可能存在问题",
         "shops": [],
-        "tipsContent": "无"
+        "tipsContent": "注意离境章、航班时间参考、时差、城市间距离、导游和司机工作时间、境外酒店禁止吸烟等"
     },
     "trips": [
         {
             "breakfast": 0,
-            "content": "今日乘坐中国国际航空公司航班经停深圳飞往南非的约翰内斯堡。被称为“彩虹之国”的南非，拥有厚重的历史，也充满勃勃的生机，是非洲大陆上经济规模最大，最发达的国家之一。",
+            "content": "今日乘坐中国国际航空公司航班经停深圳飞往‘彩虹之国’南非的约翰内斯堡。被称为‘彩虹之国’的南非，拥有厚重的历史，也充满勃勃的生机，是非洲大陆上经济规模最大，最发达的国家之一。",
             "dinner": 0,
             "hotels": [
                 {
                     "name": "飞机上",
-                    "star": "0"
+                    "star": ""
                 }
             ],
             "lunch": 0,
@@ -186,16 +146,16 @@
             "tripDay": 1
         },
         {
-            "breakfast": 0,
-            "content": "导游接机然后前往比勒陀利亚市区观光，参观教堂中心广场（车观）、市政厅（车观）、联合大厦（外观，约 20 分钟）、先民博物馆（外观），之后乘车前往南半球的娱乐中心太阳城（入内游览约 2 小时），外观气度非凡的六星酒店—王宫饭店、地震桥",
-            "dinner": 0,
+            "breakfast": 1,
+            "content": "导游接机后前往比勒陀利亚市区观光，参观教堂中心广场（车观）、市政厅（车观）、联合大厦（外观，约 20 分钟）、先民博物馆（外观），之后乘车前往南半球的娱乐中心太阳城（入内游览约 2 小时），外观王宫饭店、地震桥，感受失落城的神秘氛围，之后返回约翰内斯堡，晚餐后入住酒店休息。",
+            "dinner": 1,
             "hotels": [
                 {
-                    "name": "飞机上",
-                    "star": ""
+                    "name": "当地四星酒店",
+                    "star": "4"
                 }
             ],
-            "lunch": 0,
+            "lunch": 1,
             "scenes": [
                 {
                     "consumingTime": "",
@@ -219,147 +179,360 @@
                 },
                 {
                     "consumingTime": "约 2 小时",
-                    "description": "入内游览约 2 小时，在南非，太阳城就是娱乐、美食、舒适、浪漫加上惊奇的同义字，很少人能摆脱他的迷人魅力。抵达后外观气度非凡的六星酒店—【王宫饭店】(外观) 、根据神话传说兴建的【地震桥】",
+                    "description": "入内游览约 2 小时，在南非，太阳城就是娱乐、美食、舒适、浪漫加上惊奇的同义字，很少人能摆脱他的迷人魅力。抵达后外观气度非凡的六星酒店—【王宫饭店】(外观)、根据神话传说兴建的【地震桥】，地震桥是一座约 100 公尺长的人行桥，每隔 1 小时会发出“轰隆轰隆”的巨响，给人一种山崩地裂的恐怖地震、火山爆发的感觉。尤其是太阳城内的【失落城】，这个区域有着神秘而古老的氛围，让你仿佛置身于失落的文明中。这里有清幽的湖光山色，游人可漫步其中享受休闲时光。",
                     "name": "太阳城"
                 }
             ],
             "scheduleTraffics": [
                 {
-                    "arrivalTime": "08:20+1",
-                    "departure": "深圳",
+                    "arrivalTime": "",
+                    "departure": "约翰内斯堡",
+                    "departureTime": "早上",
+                    "destination": "比勒陀利亚",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "比勒陀利亚",
+                    "departureTime": "",
+                    "destination": "太阳城",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "太阳城",
                     "departureTime": "",
                     "destination": "约翰内斯堡",
-                    "trafficType": "飞机"
+                    "trafficType": "汽车"
                 }
             ],
-            "title": "约翰内斯堡-比勒陀利亚-太阳城之旅",
+            "title": "约翰内斯堡、比勒陀利亚、太阳城之旅",
             "tripDay": 2
         },
         {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
-            "tripDay": 3
-        },
-        {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
-            "tripDay": 4
-        },
-        {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
-            "tripDay": 5
-        },
-        {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
-            "tripDay": 6
-        },
-        {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
-            "tripDay": 7
-        },
-        {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
-            "tripDay": 8
-        },
-        {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
-            "tripDay": 9
-        },
-        {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
-            "tripDay": 10
-        },
-        {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
-            "tripDay": 11
-        },
-        {
             "breakfast": 1,
-            "content": "",
+            "content": "早餐后乘车前往克鲁格国家公园，途经普玛兰加风景大道。午餐后前往上帝之窗及布莱德河峡谷。晚餐后入住酒店休息。",
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "开普敦当地四星酒店",
-                    "star": "4"
+                    "name": "保护区外特色酒店",
+                    "star": "无"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "午餐前",
+                    "description": "此区乃南非天然风景保护区，风景如画一般优美，宁静如置身室外桃源。",
+                    "name": "克鲁格国家公园"
                 },
                 {
-                    "name": "约翰内斯堡当地四星酒店",
-                    "star": "4"
+                    "consumingTime": "午餐后",
+                    "description": "",
+                    "name": "上帝之窗"
                 },
                 {
-                    "name": "克鲁格国家公园外特色酒店",
-                    "star": "4"
-                },
+                    "consumingTime": "午餐后",
+                    "description": "位于南非克鲁格国家公园西边的布莱德河峡谷自然保护区，仅次于美国的科罗拉多大峡谷和纳米比亚的鱼河大峡谷，是唯一的一个绿色峡谷。",
+                    "name": "布莱德河峡谷"
+                }
+            ],
+            "scheduleTraffics": [
                 {
-                    "name": "花园大道小镇特色酒店",
+                    "arrivalTime": "",
+                    "departure": "约翰内斯堡",
+                    "departureTime": "早餐后",
+                    "destination": "克鲁格国家公园",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "约翰内斯堡-克鲁格国家公园之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后，搭乘敞篷车探秘克鲁格国家公园，今日游览不少于 6 小时。野生动物受自然因素和季节限制，因此旅行社不能保证一定能观看到，请您知晓并理解。晚餐后入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "保护区外特色酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "不少于 6 小时",
+                    "description": "克鲁格国家公园位于姆普马兰加省、北方省和莫桑比克交界的地带，是南非最大的野生动物保护区。园中一望无际的旷野上，分布着众多的大象，狮子，犀牛，羚羊，长颈鹿，野水牛，斑马，鳄鱼，河马，豹，猎豹，牛铃，黑斑羚，鸟类等异兽珍禽。植物方面有非洲独特的、高大的猴面包树。",
+                    "name": "克鲁格国家公园"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "克鲁格国家公园之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，于指定时间乘车返回约翰内斯堡，前往 kaos 钻石工厂参观。晚餐后入住酒店休息。克鲁格国家公园-约翰内斯堡正常行车时间约 5.5 小时车程（单程）。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "当地四星酒店",
                     "star": "4"
                 }
             ],
             "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 2.5 小时",
+                    "description": "了解著名的南非钻石开采、打磨、镶嵌等全过程",
+                    "name": "kaos 钻石工厂"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "约 5.5 小时后",
+                    "departure": "克鲁格国家公园",
+                    "departureTime": "酒店早餐后指定时间",
+                    "destination": "约翰内斯堡",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "克鲁格国家公园返回约翰内斯堡并参观钻石工厂",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 0,
+            "content": "今日乘机飞往伊丽莎白港或乔治。随后驱车前往齐齐卡马国家公园游览，之后前往由乔治三世之子-乔治克雷斯创建的度假胜地奈斯纳，晚餐后入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "小镇特色酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约60分钟",
+                    "description": "公园以齐齐卡马山为中心，有约80km长的海岸线。岸边原始的荒野、奇特岩石的悬崖峭壁和狭长孤立的美丽海滩、茂密的原始森林沿着河谷生长的独特景观。",
+                    "name": "齐齐卡马国家公园"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "约翰内斯堡",
+                    "departureTime": "",
+                    "destination": "伊丽莎白港/乔治",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "伊丽莎白港/乔治",
+                    "departureTime": "",
+                    "destination": "奈斯纳",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "约翰内斯堡至奈斯纳之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后，乘车前往码头乘观光船到珊瑚湖，欣赏著名的奈斯纳岬角之风景。之后前往印度洋滨海风景优美的莫塞湾，参观古时航海者传递书信的邮政树。随后可前往海边悬崖建成的长13.5公里的步行游览道，风景秀丽。晚餐后入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "小镇特色酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约40分钟",
+                    "description": "此地是南非富有人士度假之胜地，风景优美，沿途经过曲折山峦，一睹湖水与印度洋所冲激成的海天一色之自然美景。",
+                    "name": "奈斯纳岬角"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "此地为航海家狄亚士及达迦玛在南非最初登陆之地，若干年前，一名指挥官经过这里，将一封信塞在长筒马靴里并放在树下。次年，一位东印度的指挥官发现了这封信，作了传递。这棵大树就成为了南非第一个邮政局。",
+                    "name": "邮政树"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "奈斯纳和莫塞湾之旅",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后，前往南非著名的观鲸小镇—赫曼努斯，乘坐游船出海观鲸（约 2 小时）；之后乘车前往开普敦，晚餐后办理入住。温馨提示：今日行程内有出海观鲸项目，建议您视个人情况提前准备好晕车药，穿着轻便运动鞋并携带一件外套，乘船时请您遵守船方各项规定。莫塞湾-赫曼努斯的正常行车时间约 3.5 小时左右（单程），赫曼努斯-开普敦的正常行车时间约 2 小时左右（单程）",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "小镇特色酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 2 小时",
+                    "description": "南非著名的观鲸小镇，乘坐游船出海观鲸（约2小时）（特别说明：每年的 6-11 月为观鲸季，可以看到鲸鱼的概率较高，但是动物具有不确定性，无法 100%确保，游船为赠 送项目，如遇风浪或不可抗力游船不开放，此项目无法更换其他项目或退费，敬请理解）",
+                    "name": "赫曼努斯"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "莫塞湾",
+                    "departureTime": "",
+                    "destination": "赫曼努斯",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "赫曼努斯",
+                    "departureTime": "",
+                    "destination": "开普敦",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "莫塞湾、赫曼努斯、开普敦之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往豪特湾，乘船前往海豹岛，之后乘车前往企鹅滩，途径西蒙小镇，然后前往查普曼大洋公路，接着前往好望角，最后前往SeaPoint区域远观十二门徒峰。晚餐后入住酒店休息。温馨提示：今日海豹岛游船，船上不配备救生衣，乘船时请您遵守船方各项规定，如遇天气恶劣情况当天无法开船，则导游根据时间合理调整行程顺序，建议您视个人情况提前准备好晕车药，穿着轻便运动鞋并携带一件外套。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "当地四星酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约45分钟",
+                    "description": "乘船出海，可看到海中央光秃秃礁石上，聚居着成千只软毛海豹。岛边的海里，水清见底，也是海豹的世界，它们或跃出海面，或翘起尾巴摆水，或两头在一起嬉戏，或相互追逐，千姿百态，惹人喜爱。",
+                    "name": "海豹岛"
+                },
+                {
+                    "consumingTime": "约45分钟",
+                    "description": "可以看到成群的企鹅在海水中冲浪、戏水、觅食或是在沙滩上享受阳光。",
+                    "name": "企鹅滩"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "在历史上，该地区曾作为捕鲸站和英布战争时期的战俘营。1982年西蒙镇的渔民在这里发现了较早的两对企鹅，于是当地的居民开始将他们自发的保护起来。时光荏苒，20多年的繁衍生息，这里成为南非历史较长的企鹅栖息保护地。",
+                    "name": "西蒙小镇"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "这条连接着豪特湾与诺德和克的10余公里长公路，拥有114个弯道，以180度的广角来全景展示大西洋，被公认为是世界上最壮美的海景公路。这条公路是从悬崖边上凿出来的，一侧是垂直的山体；另一侧则是濒临大西洋的悬崖，可以清楚地听到海水怒吼着拍打岩壁。",
+                    "name": "查普曼大洋公路"
+                },
+                {
+                    "consumingTime": "约1小时",
+                    "description": "乘坐小型缆车（缆车为单程）登上238米高的开普角山顶，纵观印度洋、大西洋交汇，水天一色，烟波浩渺的壮观景象。",
+                    "name": "好望角"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "远观感叹自然造物的神奇。",
+                    "name": "十二门徒峰"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "开普敦之旅",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后，前往桌山游览，之后乘车前往开普敦酒庄区品尝红酒。今日乘坐内陆航班前往约翰内斯堡，抵达后入住酒店休息。温馨提示：今日行程内有登山项目，建议您视个人情况着轻便运动鞋并携带一件外套。温馨提示：因天气原因，桌山缆车可能有临时关闭的风险，如遇到缆车关闭，则改为信号山游览，门票价格恕无法退还。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "当地四星酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "不少于 1 小时",
+                    "description": "南非自然奇景，乘坐 360 度旋转缆车直上山顶，俯瞰繁华都市，开普敦美景尽收眼底（如遇大雾等恶劣天气，则改为信号山参观，桌山项目取消，门票费用恕不退还）",
+                    "name": "桌山"
+                },
+                {
+                    "consumingTime": "未提及",
+                    "description": "法国小镇为众多的酒庄组成，占地面积大，可在最著名的酒庄内在专业品酒师的带领下，品尝南非当地的美味红酒（不少于 3 种），悠闲的开启酒庄度假模式。",
+                    "name": "开普敦酒庄区"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "未提及",
+                    "departure": "开普敦",
+                    "departureTime": "未提及",
+                    "destination": "约翰内斯堡",
+                    "trafficType": "飞机、汽车"
+                }
+            ],
+            "title": "开普敦和约翰内斯堡之旅",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后前往机场，搭乘国际航班经深圳经停飞回北京。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "飞机上",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "10:00+1",
+                    "departure": "约翰内斯堡",
+                    "departureTime": "10:10",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "从约翰内斯堡返程",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 1,
+            "content": "抵达北京结束愉快的行程。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
             "scenes": [],
             "scheduleTraffics": [],
-            "title": "南非之旅",
+            "title": "返程抵达北京",
             "tripDay": 12
         }
     ]

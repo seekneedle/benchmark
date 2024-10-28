@@ -1,0 +1,786 @@
+{
+    "product": {
+        "childAgeBegin": 2,
+        "childAgeEnd": 12,
+        "childHasBed": 0,
+        "childHasTraffic": 1,
+        "childHeightBegin": "0",
+        "childHeightEnd": "1.2",
+        "childRule": "儿童年龄在 2-12 岁（不含 12 岁），身高不超过 1.2 米，含大交通，不占床位",
+        "departureCityName": "北京市",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "中国",
+        "dests": [
+            {
+                "countryName": "意大利",
+                "destCityName": "威尼斯",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "意大利",
+                "destCityName": "佛罗伦萨",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "法国",
+                "destCityName": "巴黎",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "德国",
+                "destCityName": "富森",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "奥地利",
+                "destCityName": "因斯布鲁克",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "保障游客在境外旅行期间的人身安全",
+            "name": "境外旅行责任险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "深度游览欧洲经典城市，感受浓厚的文化氛围"
+            },
+            {
+                "name": "体验世界级的博物馆和艺术殿堂"
+            },
+            {
+                "name": "探访阿尔卑斯山的壮丽风光"
+            },
+            {
+                "name": "品尝地道的欧洲美食"
+            },
+            {
+                "name": "购物天堂，畅享欧洲名品"
+            }
+        ],
+        "productSubtitle": "深度体验欧洲文化与自然美景",
+        "productTitle": "欧洲经典 12 日游",
+        "returnCityName": "北京市",
+        "tags": [
+            {
+                "name": "深度游"
+            },
+            {
+                "name": "文化体验"
+            },
+            {
+                "name": "自然风光"
+            }
+        ],
+        "themes": [
+            {
+                "name": "欧洲文化与自然探索"
+            },
+            {
+                "name": "欧洲经典线路"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "国际航班",
+        "goTransportName": "国际航班",
+        "hotelStarName": "-1",
+        "lineFeature": "本线路深度游览欧洲经典城市，包括意大利的威尼斯和佛罗伦萨、法国的巴黎、德国的富森和奥地利的因斯布鲁克。行程中包含多个世界著名景点，如红磨坊、凡尔赛宫、阿尔卑斯山、新天鹅堡等，让您全方位体验欧洲的文化与自然之美。",
+        "lineSimpleTitle": "欧洲经典",
+        "lineSortTitle": "EC12D",
+        "lineTitle": "欧洲经典12日游",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "威尼斯",
+                "countryName": "意大利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "佛罗伦萨",
+                "countryName": "意大利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "巴黎",
+                "countryName": "法国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "富森",
+                "countryName": "德国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "因斯布鲁克",
+                "countryName": "奥地利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "12",
+        "tripNight": "11",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "需提前准备相关材料并提交申请，具体要求以领馆为准。",
+                    "country": "欧洲",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        },
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空",
+                "arriveAirportName": "北京首都机场",
+                "arriveTime": "12:55",
+                "days": 0,
+                "flightNo": "CA940",
+                "flightSort": "回程",
+                "startAirportName": "罗马",
+                "startTime": "20:55"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空",
+                "arriveAirportName": "巴黎",
+                "arriveTime": "07:25",
+                "days": 0,
+                "flightNo": "CA875",
+                "flightSort": "去程",
+                "startAirportName": "北京首都机场",
+                "startTime": "02:10"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "1. 请务必提前 45 天报名并支付定金，逾期报名需视座位情况而定；2. 报名时需提供有效的护照信息及签证材料；3. 如因个人原因无法出行，需提前 30 天通知旅行社，否则将扣除相应费用；4. 请严格遵守团队集合时间，以免影响全团行程安排。",
+        "costExclude": "1. 护照费；2. 申请签证中准备相关材料所需的制作、手续费，如未成年人所需的公证书、认证费；3. 洗衣、电话、饮料、烟酒、付费电视、行李搬运等私人费用；4. 出入境的行李海关课税，超重行李的托运费、管理费等；5. 行程中未提到的其它费用：如特殊门、游船（轮）、缆车、地铁票等费用；6. 公务活动及专业翻译费，转机/火车时用餐；7. 旅游费用不包括旅游者因违游览约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失；8. 此团单间差为 60 欧/人/晚。",
+        "costInclude": "1. 欧洲国家邀请和签证费；2. 行程中所标明的欧洲星级标准酒店及早餐；3. 全程每日午、晚餐以中式餐食为主（用餐标准为 5 菜 1 汤），如遇退餐 5 欧元/每人每餐；4. 全程提供豪华巴士（车行按人数而定），专业司机；5. 行程中带的景点含门票费；6. 国际间往返机票（经济舱）及欧洲境内段机票（含机场税）；7. 境外旅行责任险。",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "扣除定金",
+                "end": "30"
+            },
+            {
+                "begin": "15",
+                "cost": "扣除团费的 30%",
+                "end": "30"
+            },
+            {
+                "begin": "7",
+                "cost": "扣除团费的 50%",
+                "end": "14"
+            },
+            {
+                "begin": "3",
+                "cost": "扣除团费的 70%",
+                "end": "6"
+            },
+            {
+                "begin": "1",
+                "cost": "扣除团费的 100%",
+                "end": "2"
+            },
+            {
+                "begin": "0",
+                "cost": "出发后因个人原因退团，不予退款。",
+                "end": "0"
+            }
+        ],
+        "otherRule": "1. 以上行程时间表仅供您参考，如遇特殊情况（如堵车、恶劣天气、景点关门、突发事件等），领队将予以前后调整，用餐餐厅将予以同等级别调换，请以境外最终安排为准；2. 以上项目我社需提前预定购买，若因不可抗力等原因无法安排，我社会安排同等价位项目替换；若客人自身原因不参加，我社视客人自动放弃项目，不予退费！3. 特别注意事项欧盟规定:旅欧期间最少每人每天带够 150 欧元！",
+        "returnContent": "1. 出发前 30 天以上取消，扣除定金；2. 出发前 15-30 天取消，扣除团费的 30%；3. 出发前 7-14 天取消，扣除团费的 50%；4. 出发前 3-6 天取消，扣除团费的 70%；5. 出发前 1-2 天取消，扣除团费的 100%；6. 出发后因个人原因退团，不予退款。",
+        "selfCostContent": "包含多种自费项目，如红磨坊、巴黎深度游、塞纳河游船等，具体费用和项目说明见详情。",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "215 欧",
+                "name": "红磨坊",
+                "remark": "1889 年红磨坊歌舞厅在康康舞的乐声中正式诞生，演出几乎从未间断，世界众多政要名流都曾欣赏过红磨坊的歌舞表演。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "90 欧",
+                "name": "巴黎深度游",
+                "remark": "深度体验巴黎这座城市，感受这场流动的盛宴，古老而神秘的巴黎圣母院、俯瞰巴黎全景的蒙马特高地等。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "55 欧",
+                "name": "塞纳河游船",
+                "remark": "横贯整个巴黎的塞纳河，是巴黎不折不扣的母亲河！沿岸坐落着巴黎极多的绝美建筑。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "90 欧",
+                "name": "凡尔赛宫（不含后花园）",
+                "remark": "法国鼎盛时期太阳王路易十四下令修建的宫殿，被公认为世界五大宫殿之首。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "50 欧",
+                "name": "卢浮宫专业讲解",
+                "remark": "卢浮宫，坐落于塞纳河畔北岸，其博物馆地位位居世界四大博物馆之首，专业讲解将带您领略最精华的部分。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "60 欧",
+                "name": "巴黎歌剧院",
+                "remark": "巴黎歌剧院是世界四大歌剧院之一，其内外部的巴洛克式装修及建筑风格冠绝群伦。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "45 欧",
+                "name": "巴黎花宫娜香水",
+                "remark": "体验法国香水的魅力。",
+                "stay": "约 45 分钟"
+            },
+            {
+                "address": "",
+                "fee": "145 欧",
+                "name": "阿尔卑斯山",
+                "remark": "登上阿尔斯山顶，俯瞰如诗如画的山村小镇、俊俏的山川风光。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "240 欧",
+                "name": "少女峰",
+                "remark": "乘坐登山小火车，可以直达少女峰之巅，领略冰川带来的震撼。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "90 欧",
+                "name": "罗马深度游",
+                "remark": "参观威尼斯广场、祖国祭坛，罗马废墟、许愿池喷泉，万神殿、纳沃纳广场等。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "80 欧",
+                "name": "黄金大运河或贡多拉",
+                "remark": "乘坐电影 007 场景中的游艇，穿越震撼的黄金大运河，途径 280 多个贵族宫殿。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "70 欧",
+                "name": "五渔村",
+                "remark": "五个依山傍海的小村庄，俯瞰着地中海的北岸。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "60 欧",
+                "name": "圣吉米尼亚诺小镇",
+                "remark": "1990 年列入世界文化遗产目录的中世纪小城。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "60 欧",
+                "name": "锡耶纳小镇",
+                "remark": "美妙的托斯卡纳田园风光之旅，城市内历史中心地区保留有大量历史建筑。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "60 欧",
+                "name": "天空之城",
+                "remark": "宫崎骏的《天空之城》原型，白露里治奥 12 世纪时已经是教区了。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "80 欧",
+                "name": "T 骨牛排",
+                "remark": "佛罗伦萨地区特产的 Chianina 种牛，口感丰富，色泽腥红。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "50 欧",
+                "name": "加达湖锡尔苗内古镇",
+                "remark": "欧洲著名的度假胜地，被誉为世界上 100 个必去的古镇之一。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "50 欧",
+                "name": "意大利风味餐",
+                "remark": "品尝地道的意大利美食。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "70 欧",
+                "name": "新天鹅堡",
+                "remark": "巴伐利亚国王鲁道夫二世为实现其一生理想表现出中古世纪骑士精神所建的梦幻城堡。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "70 欧",
+                "name": "高天鹅堡",
+                "remark": "德国浪漫主义时期的一块瑰宝。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "60 欧",
+                "name": "因斯布鲁克老城",
+                "remark": "因斯布鲁克老城区街道两旁的建筑五颜六色，古老却不失活泼。",
+                "stay": ""
+            }
+        ],
+        "shopContent": "1. 欧洲各国对商品定价都有严格管理，同一国家内同样商品不会有较大价差，但各国之间会存在差别；2. 欧洲法律规定：购物金额低于 1000 欧元以内可支付现金,超出 1000 欧元以上金额需用信用卡或旅行支票等支付。",
+        "shops": [
+            {
+                "address": "意大利",
+                "remark": "提供多种意大利品牌商品，适合购买纪念品和奢侈品。",
+                "shopName": "威尼斯 DFS",
+                "shopProduct": "百货公司、各式欧洲名品（主打意大利品牌）",
+                "stay": "150"
+            },
+            {
+                "address": "意大利",
+                "remark": "以皮具和服装为主，品质优良，价格合理。",
+                "shopName": "佛罗伦萨 PERUZZI",
+                "shopProduct": "意大利著名皮具制作销售店，意大利名品皮衣，皮具以及意大利品牌服饰等",
+                "stay": "60"
+            },
+            {
+                "address": "法国",
+                "remark": "提供各类免税商品，适合购买化妆品和手表。",
+                "shopName": "巴黎 BENLUX",
+                "shopProduct": "化妆品、手表、免税商品",
+                "stay": "60"
+            },
+            {
+                "address": "法国",
+                "remark": "大型购物中心，提供多种品牌商品。",
+                "shopName": "巴黎老佛爷或 DFS",
+                "shopProduct": "百货公司、各式欧洲名品",
+                "stay": "150"
+            },
+            {
+                "address": "法国",
+                "remark": "专业名表店，提供多种高端手表。",
+                "shopName": "巴黎 BURCHERE 或 OMEGA",
+                "shopProduct": "精品名表",
+                "stay": "150"
+            },
+            {
+                "address": "德国",
+                "remark": "提供多种欧洲品牌商品，适合购买纪念品和奢侈品。",
+                "shopName": "富森 APOLLO",
+                "shopProduct": "欧洲名品",
+                "stay": "60"
+            }
+        ],
+        "tipsContent": "1. 请务必注意自身人身安全及财产安全；2. 注意饮食卫生及身体健康；3. 随身携带手机，以便有迟到、塞车、转机等意外状况联络不上时及时联系旅行社工作人员；4. 带好应季衣物，以免天气变化较大，容易着凉、感冒；5. 请尽量准备好防日晒、防雨、游泳时所必备的遮阳伞、太阳镜、防晒霜、泳装等等；6. 鞋子以平底轻便的运动鞋为宜，女士请尽量不要穿高跟鞋。"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "22:00 北京首都机场集合，专业送团人开出团说明会。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "北京出发准备",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "02:10 搭乘国际航班 CA875 从北京出发飞往巴黎，07:25 抵达巴黎，专车接机。10:00 参观卢浮宫，12:00 午餐，五菜一汤。19:00 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "当地酒店",
+                    "star": "3"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "2 小时",
+                    "description": "如今博物馆收藏的艺术品已达40万件，其中包括雕塑，绘画，美术工艺及古代东方，古代埃及和古希腊罗马等7个门类。在此可欣赏镇馆三宝-蒙娜莉莎的微笑，米罗的维纳斯雕像和胜利女神像，让你一窥艺术殿堂的奥妙;周二闭馆",
+                    "name": "卢浮宫"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "07:25",
+                    "departure": "北京",
+                    "departureTime": "02:10",
+                    "destination": "巴黎",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "巴黎之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "在巴黎，07:00 酒店内享用西式早餐，08:00 开始一整天自由活动，午晚餐敬请自理。温馨提示：自由活动期间请保护好人身及财物安全，最好不要单独行动，结伴而行。凡自由活动期间，若自行参加非本社组织的游览活动期间所出现的盗抢、财物丢失、交通安全、商品质量、退税等一切问题，本社将不承担其后果责任，请您谅解。（此天，全天含车，大巴车指定位置接送）",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "巴黎自由活动日",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店内享用早餐；08:00 巴黎市区游览，外观凯旋门约 20 分钟，协和广场约 15 分钟，艾菲尔铁塔约 20 分钟。12:00 午餐，五菜一汤。13:00 乘车前往法国小镇，晚餐自理。19:00 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 20 分钟",
+                    "description": "地处宽阔的戴高乐广场，是香榭里舍大街的尽头，从戴高乐广场向四面八方延伸，有 12 条大道，宏伟、壮丽的凯旋门就耸立在广场中央的环岛上面",
+                    "name": "凯旋门"
+                },
+                {
+                    "consumingTime": "约 15 分钟",
+                    "description": "上有绿铜色的雕像及美丽的喷泉，中央是来自古埃及太阳神殿的方尖碑，这片宏伟壮丽的广场被法国人称为“世界最美丽的广场”",
+                    "name": "协和广场"
+                },
+                {
+                    "consumingTime": "约 20 分钟",
+                    "description": "闻名世界的艾菲尔铁塔",
+                    "name": "艾菲尔铁塔"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "19:00",
+                    "departure": "巴黎",
+                    "departureTime": "08:00",
+                    "destination": "法国小镇",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "巴黎至法国小镇之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "早上7点在酒店内享用早餐，8点乘车前往琉森。13点参观狮子纪念碑和卡贝尔桥。18点晚餐，五菜一汤，19点前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "由丹麦雕刻家特尔巴尔森设计，是雕刻在整块崖壁上的石像",
+                    "name": "狮子纪念碑"
+                },
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "风格独特",
+                    "name": "卡贝尔桥"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "08:00",
+                    "destination": "琉森",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "法国小镇至琉森之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店内享用早餐；08:00乘车前往富森，12:00午餐，五菜一汤，13:00外参观童话城堡－新天鹅堡，14:00乘车前往上阿莫高壁画村，16:00乘车前往奥地利小镇因斯布鲁克，晚餐敬请自理，19:00前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "1小时",
+                    "description": "它是巴伐利亚国王鲁道夫二世为实现其一生理想表现出中古世纪骑士精神所建的梦幻城堡，城堡的最初草稿为剧院画家与舞台设计者所创造，故使其保有如梦如幻的不真实感，让人怦然心动白色大理石建筑，尖塔高耸，风格独特，迪斯尼乐园即仿此建造",
+                    "name": "新天鹅堡"
+                },
+                {
+                    "consumingTime": "2小时",
+                    "description": "德国南部小镇，以其耶稣受难剧、木雕艺人，以及丰富的彩绘小屋闻名世界，最大的特色就是房舍外墙七彩缤纷的绘画。宗教、童话是其两大主题，和阿尔卑斯山、妆点于窗台的花卉、七彩的壁画、清新的空气柔和在一起，营造出一个非常可爱的村庄",
+                    "name": "上阿莫高壁画村"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "琉森",
+                    "departureTime": "08:00",
+                    "destination": "富森",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "富森",
+                    "departureTime": "13:00",
+                    "destination": "上阿莫高壁画村",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "上阿莫高壁画村",
+                    "departureTime": "16:00",
+                    "destination": "因斯布鲁克",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "琉森至因斯布鲁克之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店内享用早餐；08:00 乘车前往威尼斯，威尼斯主建于离岸 4 公里的海边浅水滩上，由 118 个小岛组成，400 多座桥梁连成一体，以舟相通，有“水上都市”、“百岛城”、“桥城”之称。12:00 午餐，五菜一汤；13:00 搭乘公共摆渡船（往返约 1 小时）前往逐渐颓毁沉没的水上古都参观（1 小时），徒步参观有『黄金教堂』之称的圣马可大教堂、圣马可广场（约 20 分钟），游览连接道奇宫及其附属监狱的叹息桥。晚餐，敬请自理；19:00 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "徒步参观有『黄金教堂』之称的圣马可大教堂、圣马可广场",
+                    "name": "圣马可大教堂、圣马可广场"
+                },
+                {
+                    "consumingTime": "1小时",
+                    "description": "搭乘公共摆渡船前往逐渐颓毁沉没的水上古都参观",
+                    "name": "逐渐颓毁沉没的水上古都"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "因斯布鲁克",
+                    "departureTime": "08:00",
+                    "destination": "威尼斯",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "因斯布鲁克到威尼斯之旅",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店内享用早餐；08:00乘车前往佛罗伦萨；12:00午餐，五菜一汤；13:00佛罗伦萨市区观光，包括圣母百花大教堂和市政厅广场；晚餐，敬请自理；19:00前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "红色圆顶，由十块浮雕组成，内容以叙述旧游览约圣经题材为主",
+                    "name": "圣母百花大教堂"
+                },
+                {
+                    "consumingTime": "约25分钟",
+                    "description": "这里有一座建于十三世纪的碉堡式旧宫（现为市政厅），连同整个广场成为了一座露天雕塑博物馆，各种石雕和铜像作品栩栩如生，如人们所熟悉的米开朗琪罗的《大卫像》复制品。",
+                    "name": "市政厅广场"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "威尼斯",
+                    "departureTime": "08:00",
+                    "destination": "佛罗伦萨",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "威尼斯至佛罗伦萨之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店内享用早餐；08:00 乘车前往游览比萨斜塔（含路上约 1 小时）（外观不登塔）；12:00 午餐，五菜一汤；13:00 乘车前往意大利小镇；19:00 前往酒店，入住休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "世界七大奇景之一，让您惊讶此倾斜而不坠之奇景，誉为工程力学奇迹的比萨斜塔之所以闻名，是因它本身的斜度超过了力学上离中心点最大角度而仍能屹立不坠。",
+                    "name": "比萨斜塔"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "佛罗伦萨",
+                    "departureTime": "08:00",
+                    "destination": "比萨",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "比萨",
+                    "departureTime": "13:00",
+                    "destination": "意大利小镇",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "佛罗伦萨-比萨-蒙特卡蒂尼之旅",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店内享用早餐；08:00 乘车前往罗马，午餐敬请自理。13:00 罗马市区游览，包括斗兽场和君士坦丁凯旋门。18:00 午餐，五菜一汤。19:00 前往酒店休息",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "罗马市区游览（约1小时）：斗兽场（约30分钟）是古罗马时期最大的圆形角斗场，威严而壮观（不入内参观）；旁边是公元315年修建的君士坦丁凯旋门（约15分钟）",
+                    "name": "罗马市区"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "蒙特卡蒂尼",
+                    "departureTime": "08:00",
+                    "destination": "罗马",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "蒙特卡蒂尼至罗马之旅",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店内享用早餐后游览罗马市区的古罗马市集废墟，午餐后前往机场办理退税及登记手续，搭乘国际航班飞往北京。温馨提示:请您保留好往返登机牌连同护照一起交给领队拿回销签，也有可能请您前往使馆面试销签，在使馆为您留下良好的记录便于您再次出国。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "古罗马市集不仅是古罗马的发源地及市中心，也是罗马七座小山丘的共同交集。",
+                    "name": "古罗马市集废墟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "12:55",
+                    "departure": "罗马",
+                    "departureTime": "20:55",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "罗马市区之旅",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 0,
+            "content": "12:55 安抵北京首都机场，结束愉快的旅程。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "12:55",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "结束旅程",
+            "tripDay": 12
+        }
+    ]
+}

@@ -1,0 +1,513 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 1,
+        "childHeightBegin": "1.2",
+        "childHeightEnd": "1.2",
+        "childRule": "1.2 米以下不占床的儿童游客团费，只含机票、当地旅游车费、导服费和半价正餐费，若产生其他费用需游客当地现付。小孩请携带户口本本人页原件。儿童可同成人标准操作，门票根据景区实际政策优惠现退。",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "中国",
+                "destCityName": "乌鲁木齐",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "天山天池",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "可可托海",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "布尔津",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "喀纳斯",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "禾木",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "五彩滩",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "魔鬼城",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "奎屯",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "赛里木湖",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "薰衣草庄园",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "伊宁",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "那拉提",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "巴音布鲁克",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "独库公路",
+                "destProvinceName": "新疆维吾尔自治区"
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "吐鲁番",
+                "destProvinceName": "新疆维吾尔自治区"
+            }
+        ],
+        "insurance": {
+            "content": "旅行社责任险，建议客人单独购买旅游人身意外险。",
+            "name": "旅行社责任险",
+            "typeName": "境内旅游险"
+        },
+        "insuranceIncluded": 0,
+        "markets": [
+            {
+                "name": "网红打卡天山天池、阿尔泰山、戈壁、草原、绿洲、湖泊、沙漠盆地经典景点"
+            },
+            {
+                "name": "4-12 人团 4 人起发，北疆阿勒泰+伊犁河谷草原+独库公路+吐鲁番大美北疆一网打尽"
+            },
+            {
+                "name": "换乘 5/7 座小车穿越独库公路+赠送赛里木湖帆船体验"
+            },
+            {
+                "name": "臻选网评 4 钻酒店+1 晚禾木住宿"
+            },
+            {
+                "name": "一路向西，追寻大漠之上的美食，让你的舌尖翻转停不下来"
+            }
+        ],
+        "productSubtitle": "可可托海+喀纳斯+禾木+五彩滩+魔鬼城+伊犁+赛里木湖+薰衣草庄园+那拉提+巴音布鲁克+独库公路北段+天山天池+吐鲁番",
+        "productTitle": "2024 众信新疆【天山至尊 PLUS】双飞 12 天",
+        "returnCityName": "乌鲁木齐",
+        "tags": [
+            {
+                "name": "精华景点"
+            },
+            {
+                "name": "深度体验"
+            },
+            {
+                "name": "小团出行"
+            }
+        ],
+        "themes": [
+            {
+                "name": "人文与自然风光相互交融，推荐精华景点，最合理的线路安排，最深度的旅行体验"
+            },
+            {
+                "name": "新疆深度游"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "飞机",
+        "goTransportName": "飞机",
+        "hotelStarName": "4",
+        "lineFeature": "人文与自然风光相互交融，推荐精华景点；最合理的线路安排，最深度的旅行体验；带给您难忘的新疆之旅",
+        "lineSimpleTitle": "天山至尊 PLUS",
+        "lineSortTitle": "T27",
+        "lineTitle": "2024 众信新疆【天山至尊 PLUS】双飞 12 天",
+        "needVisa": 0,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": "北京"
+            },
+            {
+                "cityName": "乌鲁木齐",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "天山天池",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "富蕴",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "可可托海",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "布尔津",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "喀纳斯",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "禾木",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "五彩滩",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "魔鬼城",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "奎屯",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "赛里木湖",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "薰衣草庄园",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "伊宁",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "那拉提",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "巴音布鲁克",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "独库公路",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            },
+            {
+                "cityName": "吐鲁番",
+                "countryName": "中国",
+                "provinceName": "新疆"
+            }
+        ],
+        "tripDays": "12",
+        "tripNight": "11",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": []
+        },
+        "backAirports": [],
+        "goAirports": []
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "报名后，如我社已经出票，客人单方退团，损失费为相应实际地接损失和违约金；旅游者违约、自身过错、自身疾病导致的人身财产损失而额外支付的费用，以及因景区价格调整产生的门票差价，均由客人自行承担；如遇人力不可抗拒因素（天气、政治、火车、航班等）造成行程时间延误或变更，我社不承担赔偿责任，所产生的费用由客人自理；出团通知最晚于出团前 1 天发送，若能提前确定，我们将会第一时间通知您；意见反馈请配合导游如实填写当地的意见单，不填或虚填者归来后投诉将无法受理",
+        "costExclude": "单房差或加床；小交通、行程中注明需要另行支付的自费景点；因交通延阻、罢工、天气、飞机机器故障、航班取消或更改时间等不可抗力原因所引致的额外费用；酒店押金、酒店内洗衣、理发、电话、传真、收费电视、饮品、烟酒等个人消费；当地参加的自费项目；航空险、旅游人身意外保险，请自行购买；地面服务费（如出发机场接送服务、行李物品保管费、托运行李超重费等）；自由活动期间的餐食费和交通费",
+        "costInclude": "往返交通：北京-乌鲁木齐往返飞机经济舱机票；酒店住宿：10 晚网评 4 钻酒店+1 晚禾木住宿；景点门票：巴音布鲁克、那拉提草原、赛里木湖、薰衣草庄园、魔鬼城、五彩滩、喀纳斯、禾木、天山天池景点首道大门票及赠送项目；旅游用餐：全程含 11 早 10 正餐，正餐标准 50 元/人/餐；导游服务：4-12 人团 4 人起发，8 人以上配专职导游，8 人以下司机兼向导；旅游保险：旅行社责任险，建议客人单独购买旅游人身意外险",
+        "lineReturns": [],
+        "otherRule": "旅行途中请携带有效期内的身份证件原件；不可抗力因素（如飞机、火车晚点）造成的参观景点时间压缩，旅行社不承担相应连带责任；入住酒店检查房间设施，如有问题请立即告知酒店服务人员，遵守入住酒店规定；新疆与北京等内地城市虽有 2 小时时差，但执行北京时间；当天未安排餐食，请远道而来的朋友们提前准备些零食，抵达后可自行品尝当地美食；新疆地区早晚温差较大，温差最大可达 20 度左右，晚上睡觉时应将空调开到适度，不要过凉或不要过热，或睡觉时不盖棉被，造成身体不适；新疆日照强烈，气候尤其干燥，防晒霜、墨镜、润唇膏、帽子等必不可少；新疆地区受宗教影响，风俗习惯与我们不同，游览时请谨记地陪宣布有关旅游注意事项，入乡随俗，在任何场合下都不要提及有关少数民族的政治问题，配合好导游工作；新疆地区由于地域辽阔，和东部地区存在一定的时差（约相差 2 小时），景点之间车程较长，请游客在来西北旅游时注意休息调配好时间，以充足的体力参加旅游活动；在新疆旅游，因行程较长，气候差别较大，旅游者一时难以适应，可能会出现水土不服症状，旅游者应携带有关药物及一些常备药物，如创可贴、感冒药或治疗肠胃不适药物等",
+        "returnContent": "报名后，如我社已经出票，客人单方退团，损失费为相应实际地接损失和违约金；旅游者违约、自身过错、自身疾病导致的人身财产损失而额外支付的费用，以及因景区价格调整产生的门票差价，均由客人自行承担；如遇人力不可抗拒因素（天气、政治、火车、航班等）造成行程时间延误或变更，我社不承担赔偿责任，所产生的费用由客人自理；出团通知最晚于出团前 1 天发送，若能提前确定，我们将会第一时间通知您；意见反馈请配合导游如实填写当地的意见单，不填或虚填者归来后投诉将无法受理",
+        "selfCostContent": "0 购物（不含景区内及公路服务区内自设商店）；大巴扎内的售卖店铺与行程安排无关，如需购买，请慎重",
+        "selfCosts": [],
+        "shopContent": "无购物店，大巴扎内的售卖店铺与行程安排无关，如需购买，请慎重",
+        "shops": [],
+        "tipsContent": "旅行途中请携带有效期内的身份证件原件；不可抗力因素（如飞机、火车晚点）造成的参观景点时间压缩，旅行社不承担相应连带责任；入住酒店检查房间设施，如有问题请立即告知酒店服务人员，遵守入住酒店规定；新疆与北京等内地城市虽有 2 小时时差，但执行北京时间；当天未安排餐食，请远道而来的朋友们提前准备些零食，抵达后可自行品尝当地美食；新疆地区早晚温差较大，温差最大可达 20 度左右，晚上睡觉时应将空调开到适度，不要过凉或不要过热，或睡觉时不盖棉被，造成身体不适；新疆日照强烈，气候尤其干燥，防晒霜、墨镜、润唇膏、帽子等必不可少；新疆地区受宗教影响，风俗习惯与我们不同，游览时请谨记地陪宣布有关旅游注意事项，入乡随俗，在任何场合下都不要提及有关少数民族的政治问题，配合好导游工作；新疆地区由于地域辽阔，和东部地区存在一定的时差（约相差 2 小时），景点之间车程较长，请游客在来西北旅游时注意休息调配好时间，以充足的体力参加旅游活动；在新疆旅游，因行程较长，气候差别较大，旅游者一时难以适应，可能会出现水土不服症状，旅游者应携带有关药物及一些常备药物，如创可贴、感冒药或治疗肠胃不适药物等"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "前往世界闻名的歌舞之乡，丝绸之路的第一站⸺乌鲁木齐",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "前往乌鲁木齐",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "从乌鲁木齐出发前往天山天池，之后前往富蕴",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "天山天池"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "乌鲁木齐至富蕴之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 0,
+            "content": "从富蕴前往可可托海，再前往布尔津",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "可可托海"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "布尔津"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "富蕴至布尔津之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 0,
+            "content": "从布尔津前往喀纳斯，再前往禾木",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "喀纳斯"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "禾木"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "布尔津至禾木之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 0,
+            "content": "游览禾木、五彩滩，前往布尔津",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "禾木"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "五彩滩"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "布尔津"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "禾木、五彩滩与布尔津之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 0,
+            "content": "从布尔津前往乌尔魔鬼城，然后前往奎屯。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "乌尔魔鬼城"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "布尔津",
+                    "departureTime": "",
+                    "destination": "乌尔魔鬼城",
+                    "trafficType": ""
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "乌尔魔鬼城",
+                    "departureTime": "",
+                    "destination": "奎屯",
+                    "trafficType": ""
+                }
+            ],
+            "title": "布尔津至奎屯之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 0,
+            "content": "从奎屯出发，依次游览赛里木湖、薰衣草庄园，最后到达伊宁。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "赛里木湖"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "薰衣草庄园"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "伊宁"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "奎屯至伊宁之旅",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 0,
+            "content": "伊宁＞那拉提草原＞那拉提",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "那拉提草原"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "那拉提草原之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 0,
+            "content": "那拉提＞巴音布鲁克草原＞那拉提",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "那拉提"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "巴音布鲁克草原"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "那拉提与巴音布鲁克草原之旅",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 0,
+            "content": "因景区价格调整产生的门票差价。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "行程特别说明",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 0,
+            "content": "意见反馈请配合导游如实填写当地的意见单，不填或虚填者归来后投诉将无法受理。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "反馈与注意事项",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 0,
+            "content": "12:00 吃中餐，游览赛里木湖（含门票+区间车，赠送赛里木湖游船体验，游览时间约 1 小时），18:00 左右游览薰衣草庄园。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "1 小时",
+                    "description": "是新疆海拔最高、面积最大、风光秀丽的高山湖泊，又是大西洋暖湿气流最后眷顾的地方，因此有'大西洋最后一滴眼泪'的说法。您也可沿湖漫步，从西海草原，到天鹅沼泽栖息地，脚下是大片的花海，黄的，紫的，牛羊马群旁若无人的从身边踱过，天鹅从水面掠过，一切宁静怡然。",
+                    "name": "赛里木湖"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "薰衣草庄园"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "赛里木湖与薰衣草庄园之旅",
+            "tripDay": 12
+        }
+    ]
+}

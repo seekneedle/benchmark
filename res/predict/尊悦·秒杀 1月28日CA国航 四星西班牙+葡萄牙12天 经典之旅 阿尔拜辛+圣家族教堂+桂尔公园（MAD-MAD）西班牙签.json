@@ -1,0 +1,820 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "无特别说明",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "中国",
+        "dests": [
+            {
+                "countryName": "西班牙",
+                "destCityName": "巴塞罗那",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "西班牙",
+                "destCityName": "马德里",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "西班牙",
+                "destCityName": "格拉纳达",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "西班牙",
+                "destCityName": "塞维利亚",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "西班牙",
+                "destCityName": "瓦伦西亚",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "葡萄牙",
+                "destCityName": "里斯本",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "安道尔",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "直布罗陀",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "摩洛哥",
+                "destCityName": "丹吉尔",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "本公司已为参团旅客购买价值30万之人身意外保险。本公司已强烈要求旅客自行购买旅游意外保险，以更全面保障旅客利益。",
+            "name": "人身意外保险",
+            "typeName": "境内外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "精选中国国航往返双直飞"
+            },
+            {
+                "name": "全程四星酒店"
+            },
+            {
+                "name": "西式自助早餐"
+            },
+            {
+                "name": "中式桌餐"
+            },
+            {
+                "name": "特色美食升级"
+            },
+            {
+                "name": "免费WiFi租赁设备"
+            },
+            {
+                "name": "专业导游陪同"
+            },
+            {
+                "name": "三大景点入内含官导"
+            }
+        ],
+        "productSubtitle": "西班牙、葡萄牙、安道尔、直布罗陀、摩洛哥深度游",
+        "productTitle": "欧洲经典之旅",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "优选航司"
+            },
+            {
+                "name": "舒心住宿"
+            },
+            {
+                "name": "安心用餐"
+            },
+            {
+                "name": "特色餐升级"
+            },
+            {
+                "name": "增值服务"
+            }
+        ],
+        "themes": [
+            {
+                "name": "文化探索"
+            },
+            {
+                "name": "历史遗迹"
+            },
+            {
+                "name": "美食体验"
+            },
+            {
+                "name": "欧洲经典文化之旅"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "豪华巴士",
+        "goTransportName": "豪华巴士",
+        "hotelStarName": "4",
+        "lineFeature": "精选中国国航往返双直飞，全程四星酒店，西式自助早餐，中式桌餐，特色美食升级，免费WiFi租赁设备，专业导游陪同，三大景点入内含官导",
+        "lineSimpleTitle": "欧洲经典",
+        "lineSortTitle": "ECCT",
+        "lineTitle": "欧洲经典文化之旅",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "巴塞罗那",
+                "countryName": "西班牙",
+                "provinceName": ""
+            },
+            {
+                "cityName": "马德里",
+                "countryName": "西班牙",
+                "provinceName": ""
+            },
+            {
+                "cityName": "格拉纳达",
+                "countryName": "西班牙",
+                "provinceName": ""
+            },
+            {
+                "cityName": "塞维利亚",
+                "countryName": "西班牙",
+                "provinceName": ""
+            },
+            {
+                "cityName": "瓦伦西亚",
+                "countryName": "西班牙",
+                "provinceName": ""
+            },
+            {
+                "cityName": "里斯本",
+                "countryName": "葡萄牙",
+                "provinceName": ""
+            },
+            {
+                "cityName": "安道尔",
+                "countryName": "安道尔",
+                "provinceName": ""
+            },
+            {
+                "cityName": "直布罗陀",
+                "countryName": "英国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "丹吉尔",
+                "countryName": "摩洛哥",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "12",
+        "tripNight": "11",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": []
+        },
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "北京首都机场",
+                "arriveTime": "06:10+1",
+                "days": 0,
+                "flightNo": "CA908",
+                "flightSort": "回程",
+                "startAirportName": "西班牙马德里机场",
+                "startTime": "12:20"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "西班牙马德里机场",
+                "arriveTime": "08:00",
+                "days": 0,
+                "flightNo": "CA907",
+                "flightSort": "去程",
+                "startAirportName": "北京首都机场",
+                "startTime": "01:55"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "出发当天请严守团队集合时间抵达集合地点，若因故无法准时抵达，务必马上联络旅行社工作人员；请随身携带手机，以免有迟到、塞车、转机等意外状况联络不上；为了方便出游客人，我社送机时会准备有打包带以及插头转换器，如有需要的游客，可联系送团负责人购买",
+        "costExclude": "护照费、申请签证中准备相关材料所需的制作、手续费，如未成年人所需的公证书、认证费；洗衣、电话、饮料、烟酒、付费电视、行李搬运等私人费用；出入境的行李海关课税，超重行李的托运费、管理费等；行程中未提到的其它费用：如特殊门、游船（轮）、缆车、地铁票等费用；公务活动及专业翻译费，转机/火车时用餐；旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失；单间差：70 欧元/间/晚；境外司机、导游、酒店、餐厅等服务费 1500 元人民币",
+        "costInclude": "欧洲国家邀请和签证费；行程中所标明的全程 4 星级标准酒店及早餐；每日午、晚餐以中式餐食为主（用餐标准为六菜一汤），如遇退餐 6 欧元/每人每餐；全程提供豪华巴士（车行按人数而定），专业司机；行程中带标记的景点含门票费；国际间往返机票（经济舱）及欧洲境内段机票（含机场税）；境外旅行责任险",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "0%",
+                "end": "30"
+            },
+            {
+                "begin": "0",
+                "cost": "10%",
+                "end": "15"
+            },
+            {
+                "begin": "0",
+                "cost": "50%",
+                "end": "7"
+            },
+            {
+                "begin": "0",
+                "cost": "80%",
+                "end": "3"
+            },
+            {
+                "begin": "0",
+                "cost": "100%",
+                "end": "2"
+            }
+        ],
+        "otherRule": "欧盟规定：旅欧期间最少每人每天带够 150 欧元；行程中未标注“入内参观”的景点均为游览外观；入内参观景点均含首道门票；旅游期间，尽量避免到偏僻的地方。出行时尽量结伴而行，以便相互照顾",
+        "returnContent": "如因不可抗力（如战争、政治动荡、天灾、恶劣天气、交通工具发生技术问题、罢工及工业行动等）导致行程取消或变更，本公司将尽力协调，但不承担额外费用；自费项目参加与否，由旅游者根据自身需要和个人意志，自愿、自主决定，旅行社全程绝不强制参加自费项目",
+        "selfCostContent": "所有自费项目均为自愿参加，不强迫；如因行程安排、天气、景区临时关闭等原因无法安排，请您理解；自费项目参加与否，由旅游者根据自身需要和个人意志，自愿、自主决定，旅行社全程绝不强制参加自费项目；如旅游者不参加自费项目，将根据行程安排的内容进行活动；旅行社不会售卖此自费项目表以外的任何其他项目",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "65 欧元/人",
+                "name": "西班牙弗朗门戈舞表演",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "60 欧元/人",
+                "name": "佩尼斯科拉",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "80 欧元/人",
+                "name": "蒙塞拉山及山间修道院",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "75 欧元/人",
+                "name": "塞戈维亚游览",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "55 欧元/人",
+                "name": "塞戈维亚烤乳猪餐",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "50 欧元/人",
+                "name": "普拉多美术馆",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "110 欧元/人",
+                "name": "斗牛",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "45 欧元/人",
+                "name": "风车小镇",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "80 欧元/人",
+                "name": "巴塞罗那深度游",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "70 欧元/人",
+                "name": "托莱多古城",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "70 欧元/人",
+                "name": "私奔之城-龙达",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "50 欧元/人",
+                "name": "西班牙美食 TAPAS",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "50 欧元/人",
+                "name": "西班牙牛尾餐",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "65 欧元/人",
+                "name": "葡萄牙特色餐",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "120 欧元/人",
+                "name": "里斯本深度游",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "160 欧元/人",
+                "name": "安道尔",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "190 欧元/人",
+                "name": "直布罗陀",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "320 欧元/人",
+                "name": "摩洛哥一日游",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "请在导游提醒下办理退税事宜，并遵循旅行社的提示理性消费、注意保留购物单据、注意自身人身财产安全；如不能获得当地的退税，将自行承担相关的损失",
+        "shops": [
+            {
+                "address": "巴塞罗那或马德里",
+                "remark": "拥有 19 世纪后期的卡特蓝建筑风貌，汇聚了 50 多个国际或西班牙顶级品牌",
+                "shopName": "奥特莱斯购物村",
+                "shopProduct": "西班牙经典及国际著名品牌",
+                "stay": "60"
+            }
+        ],
+        "tipsContent": "请严格遵守导游告知的自由活动时间，以免延误行程；请务必注意自身人身安全及财产安全；防止意外事故的发生；注意饮食卫生及身体健康；请带好应季衣物，以免天气变化较大，容易着凉、感冒；请尽量准备好防日晒、防雨、游泳时所必备的遮阳伞、太阳镜、防晒霜、泳装等等；鞋子以平底轻便的运动鞋为宜，女士请尽量不要穿高跟鞋；请将贵重物品或易碎物品或随时要取用物品放在手提行李箱内；护照、机票、现金等贵重物品请务必随身携带"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "21:30 北京首都机场集合，公司专业送团人召开出团前旅游说明会。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "北京出发准备",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "01:55 搭乘国际航班飞往西班牙首都马德里，08:00 抵达后专车接机，前往市区游览，参观唐吉克德铜像、马约尔广场、太阳门广场。11:00 午餐，六菜一汤。12:00 前往参观马德里皇宫。15:00 乘车前往西班牙小镇，18:00 晚餐自理，19:00 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "未提及",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "未提及",
+                    "description": "位于马德里市区，是马德里的著名景点。",
+                    "name": "唐吉克德铜像"
+                },
+                {
+                    "consumingTime": "未提及",
+                    "description": "独特风格的四方形广场，是马德里市区的景点。",
+                    "name": "马约尔广场"
+                },
+                {
+                    "consumingTime": "未提及",
+                    "description": "马德里最热闹的广场，其中一个熊雕像便是广场的标志。",
+                    "name": "太阳门广场"
+                },
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "欧洲第三大皇宫，建于十八世纪中叶加尔罗斯三世，是波尔梦王朝代表性的文化遗迹，其豪华壮丽程度在欧洲各国皇宫中堪称数一数二。如遇国事会议，皇宫关闭将按照 12 欧/人退门票费。",
+                    "name": "马德里皇宫"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "08:00",
+                    "departure": "北京",
+                    "departureTime": "01:55",
+                    "destination": "马德里",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "未提及",
+                    "departure": "马德里",
+                    "departureTime": "15:00",
+                    "destination": "西班牙小镇",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "马德里和西班牙小镇之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 在酒店享用西式早餐，09:00 乘车前往巴塞罗那，12:00 午餐，六菜一汤。13:00 开始市区游览，在巴塞罗纳国家宫前合影留念，之后参观 1992 年奥林匹克会址，驱车前往地中海边，参观巴塞罗纳旧港和高耸的哥伦布广场纪念碑，漫步奥林匹克新港。19:00 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "四星级酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 13:00 - 13:30",
+                    "description": "在此处合影留念",
+                    "name": "巴塞罗纳国家宫"
+                },
+                {
+                    "consumingTime": "约 13:30 - 14:30",
+                    "description": "参观",
+                    "name": "1992 年奥林匹克会址"
+                },
+                {
+                    "consumingTime": "约 14:30 - 15:30",
+                    "description": "参观",
+                    "name": "巴塞罗纳旧港"
+                },
+                {
+                    "consumingTime": "约 15:30 - 16:00",
+                    "description": "参观",
+                    "name": "哥伦布广场纪念碑"
+                },
+                {
+                    "consumingTime": "约 16:00 - 17:00",
+                    "description": "漫步",
+                    "name": "奥林匹克新港"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "12:00",
+                    "departure": "酒店",
+                    "departureTime": "09:00",
+                    "destination": "巴塞罗那",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "巴塞罗那之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 在酒店享用西式早餐，08:00 市区游览圣家教堂和桂尔公园，12:00 特别安排西班牙海鲜饭，13:00 乘车前往瓦伦西亚，18:00 晚餐自理，19:00 前往酒店休息",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "08:00-12:00",
+                    "description": "是西班牙最伟大的建筑设计师高迪未能完成的作品，而后由著名建筑设计师安东尼奥·高迪用毕生心血筑建。描绘出基督诞生、受难死亡，整个建筑华美异常，令人叹为观止，是建筑史上的奇迹。它是站在巴塞罗那市中心的标志性建筑",
+                    "name": "圣家教堂"
+                },
+                {
+                    "consumingTime": "12:00-13:00",
+                    "description": "这里是富商桂尔先生出资请高迪设计建造的，其中最著名的是巴塞罗纳市的标致-蜥蜴，还有最初做为市场使用的百柱厅。公园所有建筑造型大胆奇异色彩丰富构思巧妙，可以说是惊世之做。",
+                    "name": "桂尔公园"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "巴塞罗那",
+                    "departureTime": "13:00",
+                    "destination": "瓦伦西亚",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "巴塞罗那至瓦伦西亚之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "早上在酒店享用西式早餐，然后参观瓦伦西亚老城区、大教堂、圣母广场、丝绸市场和科学艺术城（外观），之后享用午餐。午餐后乘车前往格拉纳达，游览阿尔拜辛老城，之后前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "09:00-11:00",
+                    "description": "瓦伦西亚是西班牙第三大城市，号称是欧洲的“阳光之城”。在这座公元138年建立的古城里，既有15世纪哥特风格的拱顶与浮雕，也有令人惊叹的21世纪建筑杰作。参观老城区依然保持着古香古色的风貌。",
+                    "name": "瓦伦西亚老城区"
+                },
+                {
+                    "consumingTime": "09:00-11:00",
+                    "description": "",
+                    "name": "瓦伦西亚大教堂"
+                },
+                {
+                    "consumingTime": "09:00-11:00",
+                    "description": "",
+                    "name": "圣母广场"
+                },
+                {
+                    "consumingTime": "09:00-11:00",
+                    "description": "城中的丝绸市场被选为世界文化遗产。",
+                    "name": "丝绸市场"
+                },
+                {
+                    "consumingTime": "09:00-11:00",
+                    "description": "感受西班牙现代建筑艺术（外观）。",
+                    "name": "科学艺术城"
+                },
+                {
+                    "consumingTime": "17:00-19:00",
+                    "description": "这里是格拉纳达最古老的街区，虽然古老的清真寺被改建成了教堂，但这里仍然保持着摩尔时代的风貌，也因此被列为世界文化遗产。",
+                    "name": "阿尔拜辛老城"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "瓦伦西亚",
+                    "departureTime": "12:00",
+                    "destination": "格拉纳达",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "瓦伦西亚与格拉纳达之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用西式早餐，08:00 乘车前往西班牙小镇，09:00 参观白色山城米哈斯，11:00 午餐自理，12:00 之后前往前往北非之门—阿尔赫西拉斯港口，18:00 晚餐，六菜一汤，19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "09:00-11:00",
+                    "description": "这是一座美丽的白色山城，位于西班牙安达鲁西雅南部的马拉加与卡地斯两省里，交通便利，一边是金灿灿的海水，背身是纯色的村庄，这里独特的风格吸引全世界的摄影爱好者。米哈斯纯白无瑕的浪漫景色，吸引着人们来此蜜月旅行，希望爱情也可以因为这里洁净的气氛，回归到最无瑕的美。",
+                    "name": "米哈斯"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "09:00",
+                    "departure": "格拉纳达",
+                    "departureTime": "08:00",
+                    "destination": "西班牙小镇",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "西班牙小镇",
+                    "departureTime": "12:00",
+                    "destination": "阿尔赫西拉斯港口",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "格拉纳达至阿尔赫西拉斯之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 酒店享用西式早餐；09:00 前往北非之门—阿尔赫西拉斯港口。12:00 午餐，六菜一汤。13:00 游览卡门的故乡－塞维利亚，外观塞维利亚大教堂等。漫步于卡尔约翰步行街。晚餐自理。20:30 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "3 小时",
+                    "description": "西班牙南部的一个港口城市,位于安达鲁西亚自治区加的斯省，公元711-1344年间曾为摩尔人所占，多遗迹。并有古罗马城镇废址，地处大西洋与地中海之间的要冲，地理位置十分重要，有铁路与西班牙内地相连接，还与摩洛哥之间有轮渡往来。",
+                    "name": "阿尔赫西拉斯港口"
+                },
+                {
+                    "consumingTime": "1.5 小时",
+                    "description": "外观塞维利亚大教堂，伟大的航海家哥伦布曾藏于此地；之后游览美丽的西班牙广场、黄金塔，领略传统与现代建筑艺术的完美融合；漫步于卡尔约翰步行街，感受塞维利亚热情的佛拉门戈舞和优美的吉普赛音乐。塞维利亚在 1929 年及 1992 年两度举办过万国博览会，是一个因为航海和贸易发展而形成的繁华都会。",
+                    "name": "塞维利亚"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "阿尔赫西拉斯",
+                    "departureTime": "09:00",
+                    "destination": "塞维利亚",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "阿尔赫西拉斯和塞维利亚之旅",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00酒店享用西式早餐，09:00乘车前往里斯本，13:00午餐自理，14:00前往里斯本市区观光，参观贝伦塔、发现者纪念碑、外观哲罗姆派修道院、游览贸易广场（赠送葡萄牙著名葡式蛋挞1个/人），18:00晚餐特别升级中餐自助，19:00前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "既是葡萄牙光荣航海历史的见证，同时也是里斯本的著名地标。这座塔建于1500年，其实外形更像一座古堡，全用白色大理石建造",
+                    "name": "贝伦塔"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "建于1960年，为纪念航海王子亨利逝世500年而建，纪念碑的地上有一幅世界地图，上面刻有发现新大陆的日期",
+                    "name": "发现者纪念碑"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "始建于1502年，它是葡萄牙艺术颠峰时期的最好例证",
+                    "name": "哲罗姆派修道院"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "16世纪曾是皇宫的所在地，在1775年的大地震中被夷为平地，广场中间是约瑟一世的铜像",
+                    "name": "贸易广场"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "塞维利亚",
+                    "departureTime": "09:00",
+                    "destination": "里斯本",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "塞维利亚到里斯本之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 酒店享用西式早餐，09:00 乘车前往西班牙古城，12:00 午餐自理，13:00 卡塞雷斯市区观光，18:00 晚餐自理，19:00 前往酒店休息",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "1 小时",
+                    "description": "这里是西班牙的埃斯特雷马杜拉自治区的卡塞雷斯省省府，人口约 7 万，昔日为西班牙的首都。这里的整个地貌处于开放的状态。它的历史可以追溯到公元前 20000 年的旧石器时代，参观曲折迂回地穿过以白色基调为主的美洲新大陆艺术风格的旧城区老街巷，其中心圆点便是由一圈石头古城墙围起来的世界人类文化遗产—卡塞雷斯老城",
+                    "name": "卡塞雷斯市区"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "Lisbon",
+                    "departureTime": "09:00",
+                    "destination": "Caceres",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "里斯本至西班牙小镇之旅",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 酒店享用西式早餐，09:00 乘车前往马德里，抵达后自由活动，建议前往马德里奥特莱斯自由购物，19:00 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "它是世界上最繁华的购物天堂之一，这里不仅有闻名于世的高档购物大街，洋溢着西班牙民族风情的时尚购物商场，还有既爱名牌又在意实惠的潮人们钟情的，被誉为欧洲十大购物村之一，马德里奥特莱斯购物中心汇集了世界上顶级品牌和奢侈品牌，以及西班牙本土品牌和洋溢着才华横溢的设计师们的专属私人品牌，奢华购物之旅的最大诱惑是折扣，奥特莱斯购物村常年四折的折扣惯例，使它成为世界各地购物潮人备受追捧的最大因素。",
+                    "name": "马德里奥特莱斯"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "09:00",
+                    "destination": "马德里",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "马德里自由购物之旅",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 在酒店内享用西式早餐，08:00 收拾行李，乘车前往马德里国际机场办理登机手续。12:20 搭乘国际航班 CA908 从马德里返回北京。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "马德里",
+                    "departureTime": "08:00",
+                    "destination": "马德里国际机场",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "06:10+1",
+                    "departure": "马德里",
+                    "departureTime": "12:20",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "从马德里返回北京",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 1,
+            "content": "安抵北京，结束愉快的旅行",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "返程",
+            "tripDay": 12
+        }
+    ]
+}

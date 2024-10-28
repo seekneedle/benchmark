@@ -1,0 +1,693 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "郑州市",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "英国",
+                "destCityName": "伦敦",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "英国",
+                "destCityName": "巴斯",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "英国",
+                "destCityName": "剑桥",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "英国",
+                "destCityName": "爱丁堡",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "英国",
+                "destCityName": "温得米尔湖",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "英国",
+                "destCityName": "格雷纳特格林",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "英国",
+                "destCityName": "温莎",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "英国",
+                "destCityName": "牛津",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "英国",
+                "destCityName": "坎特伯雷",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "英国",
+                "destCityName": "多佛",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "包含境外旅行责任险，不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失。",
+            "name": "境外旅行责任险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "全程四星级标准酒店及早餐"
+            },
+            {
+                "name": "豪华巴士"
+            },
+            {
+                "name": "专业司机"
+            },
+            {
+                "name": "英国 ADS 签证费用"
+            },
+            {
+                "name": "行程中含门票费的景点"
+            }
+        ],
+        "productSubtitle": "探索英伦风情",
+        "productTitle": "英国深度游",
+        "returnCityName": "郑州市",
+        "tags": [
+            {
+                "name": "深度游"
+            },
+            {
+                "name": "文化体验"
+            },
+            {
+                "name": "自然风光"
+            }
+        ],
+        "themes": [
+            {
+                "name": "文化"
+            },
+            {
+                "name": "历史"
+            },
+            {
+                "name": "自然"
+            },
+            {
+                "name": "英伦文化与自然之旅"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "国际航班",
+        "goTransportName": "国际航班",
+        "hotelStarName": "4",
+        "lineFeature": "深度探访英国历史文化名城，体验自然风光与现代都市的完美结合",
+        "lineSimpleTitle": "英国游",
+        "lineSortTitle": "UKD",
+        "lineTitle": "英国深度游",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "郑州",
+                "countryName": "中国",
+                "provinceName": "河南"
+            },
+            {
+                "cityName": "伦敦",
+                "countryName": "英国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "巴斯",
+                "countryName": "英国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "剑桥",
+                "countryName": "英国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "爱丁堡",
+                "countryName": "英国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "温得米尔湖",
+                "countryName": "英国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "格雷纳特格林",
+                "countryName": "英国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "温莎",
+                "countryName": "英国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "牛津",
+                "countryName": "英国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "坎特伯雷",
+                "countryName": "英国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "多佛",
+                "countryName": "英国",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "10",
+        "tripNight": "9",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "英国",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        },
+        "backAirports": [
+            {
+                "airlineCode": "CZ",
+                "airlineName": "中国南方国际航空公司",
+                "arriveAirportName": "郑州",
+                "arriveTime": "15:00+1",
+                "days": 1,
+                "flightNo": "CZ654",
+                "flightSort": "回程",
+                "startAirportName": "伦敦",
+                "startTime": "20:20"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "CZ",
+                "airlineName": "中国南方国际航空公司",
+                "arriveAirportName": "伦敦",
+                "arriveTime": "17:20",
+                "days": 0,
+                "flightNo": "CZ653",
+                "flightSort": "去程",
+                "startAirportName": "郑州新郑国际机场",
+                "startTime": "14:00"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "请提前预订，以确保行程顺利；请携带有效护照和签证；请遵守行程安排，如有特殊情况请提前告知导游",
+        "costExclude": "境外司机、酒店、餐厅服务费全程 150 英镑/人；护照费、申请签证中准备相关材料所需的制作、手续费，如未成年人所需的公证书、认证费；洗衣、电话、饮料、烟酒、付费电视、行李搬运等私人费用；出入境的行李海关课税，超重行李的托运费、管理费等；行程中未提到的其它费用：如特殊门、游船（轮）、缆车、地铁票等费用；公务活动及专业翻译费，转机/火车时用餐；旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失；此团单间差为 80 英镑/人/晚",
+        "costInclude": "全程国际机票费用、燃油附加税；行程中所标明的四星级标准酒店及早餐；行程标注的每日午、晚餐以中式餐食为主（用餐标准为 5 菜 1 汤），如遇退餐 5 英镑/每人每餐；提供行程标注的豪华巴士（车行按人数而定），专业司机；行程中带的景点含门票费；英国 ADS 签证费用；境外旅行责任险",
+        "lineReturns": [],
+        "otherRule": "如遇拒签，将收取拒签费用—英国￥1500 元/人",
+        "returnContent": "退改规则待定",
+        "selfCostContent": "所有自费项目绝不强迫，如因行程安排、天气、景区临时关闭等原因无法安排，请您理解；自费项目参加与否，由旅游者根据自身需要和个人意志，自愿、自主决定；自费项目为统一标价，简要内容参见本补充协议的自费项目介绍；如旅游者不参加自费项目，将根据行程安排的内容进行活动；旅行社不会售卖此自费项目表以外的任何其他项目；如旅游者不参加自费项目，将根据行程安排的内容进行活动；旅行社不会售卖此自费项目表以外的任何其他项目",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "50 英镑/人",
+                "name": "大英博物馆",
+                "remark": "",
+                "stay": "90 分钟"
+            },
+            {
+                "address": "",
+                "fee": "200 英镑/人",
+                "name": "英国遗迹遗产深度游",
+                "remark": "",
+                "stay": "全天"
+            },
+            {
+                "address": "",
+                "fee": "150 英镑/人",
+                "name": "伦敦精华深度游",
+                "remark": "",
+                "stay": "半天"
+            },
+            {
+                "address": "",
+                "fee": "60 英镑/人",
+                "name": "剑桥撑篙船",
+                "remark": "",
+                "stay": "约 40 分钟"
+            },
+            {
+                "address": "",
+                "fee": "160 英镑/人",
+                "name": "爱丁堡深度游",
+                "remark": "",
+                "stay": "半天"
+            },
+            {
+                "address": "",
+                "fee": "60 英镑/人",
+                "name": "温得米尔湖游船+炸鱼薯条餐",
+                "remark": "",
+                "stay": "约 1.5 小时"
+            },
+            {
+                "address": "",
+                "fee": "40 英镑/人",
+                "name": "温德米尔湖环湖火车",
+                "remark": "",
+                "stay": "约 1 小时"
+            },
+            {
+                "address": "",
+                "fee": "30 英镑/人",
+                "name": "逃婚小镇",
+                "remark": "",
+                "stay": "约 1 小时"
+            },
+            {
+                "address": "",
+                "fee": "200 英镑/人",
+                "name": "皇家古堡与贵族庄园深度游",
+                "remark": "",
+                "stay": "半天"
+            },
+            {
+                "address": "",
+                "fee": "100 英镑/人",
+                "name": "网红打卡地霍华德城堡",
+                "remark": "",
+                "stay": "约 1 小时"
+            },
+            {
+                "address": "",
+                "fee": "200 英镑/人",
+                "name": "坎特伯雷+多佛白崖",
+                "remark": "",
+                "stay": "半天"
+            },
+            {
+                "address": "",
+                "fee": "80 英镑/人",
+                "name": "牛津大学深度游",
+                "remark": "",
+                "stay": "1.5 小时"
+            }
+        ],
+        "shopContent": "购物完全自愿，旅行社无强迫",
+        "shops": [],
+        "tipsContent": "请注意个人财物安全；请尊重当地文化和习俗；请保持环境卫生"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "11:00在郑州新郑国际机场集合，专业送团人召开出团前旅游说明会；14:00搭乘中国南方国际航空公司客机从郑州直飞伦敦；17:20抵达伦敦，专车接机随后前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "17:20",
+                    "departure": "郑州",
+                    "departureTime": "14:00",
+                    "destination": "伦敦",
+                    "trafficType": "飞机/巴士"
+                }
+            ],
+            "title": "从郑州到伦敦",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐，08:00 乘车前往剑桥，10:30 外观国王学院和三一学院，13:00 乘车前往约克，15:00 抵达约克后市区参观，18:00 晚餐，19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "08:00-13:00",
+                    "description": "与牛津一样，这里不但是一座令人神往的传统大学城，也是英国剑桥郡首府、剑桥大学所在地。其名字来源于剑河之桥，也称康桥，浪漫诗人徐志摩笔下的《再别康桥》便是创作于此。",
+                    "name": "剑桥"
+                },
+                {
+                    "consumingTime": "15:00-18:00",
+                    "description": "抵达后市区参观：外观约克大教堂；是欧洲现存最大的中世纪时期的教堂，也是世界上设计和建筑艺术最精湛的教堂之一；游览康斯坦丁大帝座像，古罗马石柱。",
+                    "name": "约克"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "10:30",
+                    "departure": "伦敦",
+                    "departureTime": "08:00",
+                    "destination": "剑桥",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "15:00",
+                    "departure": "剑桥",
+                    "departureTime": "13:00",
+                    "destination": "约克",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "伦敦-剑桥-约克-利兹之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐；08:00 乘车前往苏格兰首府—爱丁堡，充满了苏格兰独特的魅力。11:00 抵达后远观爱丁堡城堡，随后前往著名的王子大街，之后外观荷里路德皇宫。午餐敬请自理；16:00 乘车前往格拉斯哥（或英国小镇）；晚餐敬请自理；19:00 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "11:00-16:00",
+                    "description": "矗立于嶙峋花岗岩上的爱丁堡城堡是爱丁堡现存最古老的建筑；而宫殿里有不少苏格兰宝物，如1540年设计的苏格兰皇冠，及其他的权杖、宝剑等文物",
+                    "name": "爱丁堡城堡"
+                },
+                {
+                    "consumingTime": "11:00-16:00",
+                    "description": "爱丁堡最繁华的街道。王子街把爱丁堡分为新旧二城，北面分为新城，南面为旧城。新，旧两城之间有一座长条山丘，天然壁垒分明，王子街素有“全球景色最佳的马路”之称",
+                    "name": "王子大街"
+                },
+                {
+                    "consumingTime": "11:00-16:00",
+                    "description": "外观",
+                    "name": "荷里路德皇宫"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "11:00",
+                    "departure": "酒店",
+                    "departureTime": "08:00",
+                    "destination": "爱丁堡",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "爱丁堡",
+                    "departureTime": "16:00",
+                    "destination": "格拉斯哥（或英国小镇）",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "爱丁堡和格拉斯哥（或英国小镇）之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 在酒店享用早餐；08:00 乘车前往温德米尔湖区，11:30 游览温德米尔湖区，午餐敬请自理；14:30 乘车前往曼彻斯特，随后唐人街漫步，远观老特拉福德球场，晚餐敬请自理；19:00 前往酒店休息。推荐自费：逃婚小镇+温德米尔湖区游船（包含炸鱼薯条）",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "11:30-14:30",
+                    "description": "游览湖区周边美景。崇尚自然的诗人威廉华兹华斯曾说过:『我不知道有任何地方能在如此狭小的范畴中，揉合光影的变化，展现如此壮观优美的景色』，您可身历其境体验英格兰湖光山色,湖区迷人的风景，增添美好的回忆。",
+                    "name": "温德米尔湖区"
+                },
+                {
+                    "consumingTime": "14:30-19:00",
+                    "description": "英格兰工业重镇、足球劲旅曼联球乡，这里也是英国的第二大城市仅次于伦敦，是城市重建的一个典范，人们可以从这里看到英国工业的发展历史；随后唐人街漫步，远观老特拉福德球场，曼联的主场，世界上最著名的足球场之一。这里见证过无数可以写入历史的经典瞬间，无数知名球星在这里表演过，因此人们也将这里冠以“梦剧场”的称号。",
+                    "name": "曼彻斯特"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "格拉斯哥",
+                    "departureTime": "08:00",
+                    "destination": "温德米尔湖区",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "温德米尔湖区",
+                    "departureTime": "14:30",
+                    "destination": "曼彻斯特",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "格拉斯哥、温德米尔湖区、曼彻斯特之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店享用早餐；08:00前往莎士比亚故居-斯特拉特福镇；11:00外观莎士比亚故居；13:00前往牛津大学城游览；16:00乘车前往比斯特购物村；19:00前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "3小时",
+                    "description": "与莎士比亚家庭有关的房屋大多保存至今并保留着它们的原样",
+                    "name": "莎士比亚故居-斯特拉特福镇"
+                },
+                {
+                    "consumingTime": "3小时",
+                    "description": "因闻名于它的世界一流学府的地位和遍布各地的古迹，使它成为人们极度梦想的城市。距今1100多年的牛津城是英国皇族和学者的摇篮。外观基督教堂学院",
+                    "name": "牛津大学城"
+                },
+                {
+                    "consumingTime": "2小时",
+                    "description": "英国人气最旺的Outlet，90多个世界名牌价格基本是正价的对折甚至更少",
+                    "name": "比斯特购物村"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "曼彻斯特",
+                    "departureTime": "08:00",
+                    "destination": "斯特拉特福镇",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "斯特拉特福镇",
+                    "departureTime": "13:00",
+                    "destination": "牛津大学城",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "牛津大学城",
+                    "departureTime": "16:00",
+                    "destination": "比斯特购物村",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "比斯特购物村",
+                    "departureTime": "19:00",
+                    "destination": "英国小镇酒店",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "曼彻斯特-斯特拉特福-牛津-英国小镇游",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "早上在酒店享用早餐，13:00之后乘巴士前往伦敦，抵达后参观大英博物馆、外观大本钟、伦敦眼、英国国会、西敏寺教堂、白金汉宫、伦敦塔桥、伦敦塔，午餐和晚餐敬请自理，19:00前往酒店休息。推荐自费：温莎城堡+大英博物馆精品入内讲解1.5小时。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "13:00-16:00",
+                    "description": "又名不列颠博物馆，位于英国伦敦新牛津大街北面的大罗素广场，博物馆收藏了世界各地的许多文物和图书珍品，藏品之丰富、种类之繁多，为全世界博物馆所罕见。",
+                    "name": "大英博物馆"
+                },
+                {
+                    "consumingTime": "16:00之后",
+                    "description": "坐落在英国伦敦泰晤士河畔的一座钟楼，是伦敦的标志性建筑之一。",
+                    "name": "大本钟"
+                },
+                {
+                    "consumingTime": "16:00之后",
+                    "description": "又称千禧之轮，坐落在伦敦泰晤士河畔，是世界第四大摩天轮，是伦敦的地标之一，也是伦敦最吸引游人的观光点之一。",
+                    "name": "伦敦眼"
+                },
+                {
+                    "consumingTime": "16:00之后",
+                    "description": "世界议会制度的起源地。",
+                    "name": "英国国会"
+                },
+                {
+                    "consumingTime": "16:00之后",
+                    "description": "这里是威廉王子婚礼的举办地，西敏寺代表了国家与教会的联系，英国历代国王加冕以及重大典礼都在此举行。",
+                    "name": "西敏寺教堂"
+                },
+                {
+                    "consumingTime": "16:00之后",
+                    "description": "位于伦敦威斯敏斯特城内，是英国王室的王宫和居所。",
+                    "name": "白金汉宫"
+                },
+                {
+                    "consumingTime": "16:00之后",
+                    "description": "是伦敦的象征，有“伦敦正门”之称。",
+                    "name": "伦敦塔桥"
+                },
+                {
+                    "consumingTime": "16:00之后",
+                    "description": "作为一个防卫森严的堡垒和宫殿，英国数代国王都在此居住，国王加冕前住伦敦塔便成了一种惯例。伦敦塔还是一座著名的监狱，英国历史上不少王公贵族和政界名人都曾被关押在这里。",
+                    "name": "伦敦塔"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "Reading",
+                    "departureTime": "13:00",
+                    "destination": "London",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "伦敦景点参观之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "伦敦全天自由活动，圆自己的一个英国梦！（午晚餐自理） 推荐自费：坎特伯雷+多佛白崖（含餐）",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "坎特伯雷是位于伦敦东南区域肯特郡的文化重镇，是英国最美中世纪小镇。坎特伯雷是罗马天主教在英国最早的落脚地，地标建筑坎特伯雷大教堂被列入世界文化遗产，是世界基督教徒的朝圣地。",
+                    "name": "坎特伯雷"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "多佛白崖是英国南部多塞特郡的一处自然奇观，它以壮丽的白色峭壁，悠久的历史和丰富多彩的地理生态而闻名于世。多佛白崖高耸的白垩悬崖俯瞰着英吉利海峡，可以看到法国海岸的远景。",
+                    "name": "多佛白崖"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "伦敦自由活动",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐，08:00 乘车前往参观 V&A 博物馆，11:00 乘车前往考文特花园，午餐敬请自理，16:00 乘车前往机场，办理登机手续，20:20 搭乘客机返回郑州。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "08:00 - 11:00",
+                    "description": "这座博物馆被称为‘工艺品博物馆’，这是艾伯特亲王留给这个国家的宝贵财富，这里拥有世界上规模最大的装饰艺术藏品。",
+                    "name": "V&A 博物馆"
+                },
+                {
+                    "consumingTime": "11:00 - 16:00",
+                    "description": "是伦敦最古老的市场之一，可追溯到 17 世纪。这里的商店琳琅满目，从高端品牌到设计师店铺，总有一家能戳中你的购物欲。还可以找到许多手工艺品和古董。",
+                    "name": "考文特花园"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "11:00",
+                    "departure": "酒店",
+                    "departureTime": "08:00",
+                    "destination": "V&A 博物馆",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "16:00",
+                    "departure": "V&A 博物馆",
+                    "departureTime": "11:00",
+                    "destination": "考文特花园",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "15:00 + 1",
+                    "departure": "伦敦",
+                    "departureTime": "20:20",
+                    "destination": "郑州",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "伦敦返程之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "安抵郑州机场，结束愉快的旅程！",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "返程抵达郑州",
+            "tripDay": 9
+        }
+    ]
+}

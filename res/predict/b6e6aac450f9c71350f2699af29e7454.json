@@ -1,89 +1,70 @@
 {
     "product": {
         "childAgeBegin": 0,
-        "childAgeEnd": 6,
+        "childAgeEnd": 0,
         "childHasBed": 0,
         "childHasTraffic": 0,
         "childHeightBegin": "",
         "childHeightEnd": "",
-        "childRule": "6 岁以上儿童按成人价收费，含大交通及床位；6 岁以下儿童不占床，不含大交通",
-        "departureCityName": "北京",
+        "childRule": "无特别说明",
+        "departureCityName": "北京、成都、上海",
         "departureCountryName": "中国",
-        "departureProvinceNam": "",
+        "departureProvinceNam": "中国",
         "dests": [
             {
                 "countryName": "巴西",
-                "destCityName": "圣保罗",
-                "destProvinceName": "圣保罗"
-            },
-            {
-                "countryName": "巴西",
-                "destCityName": "玛瑙斯",
-                "destProvinceName": "亚马逊州"
-            },
-            {
-                "countryName": "巴西",
-                "destCityName": "里约热内卢",
-                "destProvinceName": "里约热内卢州"
-            },
-            {
-                "countryName": "巴西",
-                "destCityName": "伊瓜苏",
-                "destProvinceName": "巴拉那州"
+                "destCityName": "",
+                "destProvinceName": ""
             },
             {
                 "countryName": "阿根廷",
-                "destCityName": "布宜诺斯艾利斯",
-                "destProvinceName": "布宜诺斯艾利斯省"
-            },
-            {
-                "countryName": "阿根廷",
-                "destCityName": "乌斯怀亚",
-                "destProvinceName": "火地岛省"
-            },
-            {
-                "countryName": "阿根廷",
-                "destCityName": "卡拉法特",
-                "destProvinceName": "圣克鲁斯省"
+                "destCityName": "",
+                "destProvinceName": ""
             },
             {
                 "countryName": "乌拉圭",
-                "destCityName": "科洛尼亚",
+                "destCityName": "",
                 "destProvinceName": ""
             }
         ],
         "insurance": {
-            "content": "",
-            "name": "全程境外旅游意外伤害保险",
+            "content": "包含境外旅游意外伤害保险",
+            "name": "境外旅游意外伤害保险",
             "typeName": "境外旅游险"
         },
         "insuranceIncluded": 1,
         "markets": [
             {
-                "name": "全方位探索亚马逊雨林"
+                "name": "全程 4 星级酒店住宿，伊基托斯特色酒店体验"
             },
             {
-                "name": "观赏伊瓜苏大瀑布"
+                "name": "包含巴西、阿根廷团队旅游签证费"
             },
             {
-                "name": "探访世界最南端的乌斯怀亚"
+                "name": "提供当地空调旅游巴士，全程领队及导游服务"
             },
             {
-                "name": "游览布宜诺斯艾利斯的名胜古迹"
+                "name": "每人每天 1 瓶矿泉水"
+            },
+            {
+                "name": "行程中常规景点的首道门票"
             }
         ],
-        "productSubtitle": "",
-        "productTitle": "巴西阿根廷乌拉圭 16 天深度游",
+        "productSubtitle": "南美经典之旅",
+        "productTitle": "巴西阿根廷乌拉圭 16 天",
         "returnCityName": "北京",
         "tags": [
             {
-                "name": "南美经典"
+                "name": "南美"
             },
             {
-                "name": "深度游"
+                "name": "经典"
             },
             {
-                "name": "自然探险"
+                "name": "深度体验"
+            },
+            {
+                "name": "自然风光"
             },
             {
                 "name": "历史文化"
@@ -91,93 +72,41 @@
         ],
         "themes": [
             {
-                "name": "南美经典"
+                "name": "南美风情深度体验"
             },
             {
-                "name": "深度游"
-            },
-            {
-                "name": "自然探险"
-            },
-            {
-                "name": "历史文化"
+                "name": "南美经典风情之旅"
             }
         ]
     },
     "line": {
-        "backAirports": [
-            {
-                "airlineCode": "ET",
-                "airlineName": "埃塞俄比亚航空",
-                "arriveAirportName": "北京",
-                "arriveTime": "",
-                "days": 0,
-                "flightNo": "ET604",
-                "flightSort": "",
-                "startAirportName": "亚的斯亚贝巴",
-                "startTime": ""
-            }
-        ],
         "backTransportName": "飞机",
-        "goAirports": [
-            {
-                "airlineCode": "ET",
-                "airlineName": "埃塞俄比亚航空",
-                "arriveAirportName": "圣保罗",
-                "arriveTime": "",
-                "days": 0,
-                "flightNo": "ET605/ET506",
-                "flightSort": "",
-                "startAirportName": "北京",
-                "startTime": ""
-            }
-        ],
         "goTransportName": "飞机",
         "hotelStarName": "-1",
-        "lineFeature": "行程涵盖了南美的主要自然景观和文化景点，包括圣保罗的伊比拉布埃拉公园、玛瑙斯的亚马逊雨林、里约热内卢的耶稣山、伊瓜苏大瀑布、布宜诺斯艾利斯的五月广场、乌斯怀亚的火地岛国家公园等。行程天数为 16 天 15 夜，交通方式包括飞机、汽车、游船。",
-        "lineSimpleTitle": "南美 16 天",
-        "lineSortTitle": "BAU16D",
-        "lineTitle": "巴西阿根廷乌拉圭 16 天深度游",
+        "lineFeature": "此行程涵盖了巴西、阿根廷、乌拉圭三个国家的主要景点，包括伊瓜苏瀑布、布宜诺斯艾利斯探戈舞表演、乌拉圭海滨风光等。行程中提供舒适的住宿、专业的导游服务和丰富的餐饮体验。",
+        "lineSimpleTitle": "南美经典16天",
+        "lineSortTitle": "BAU16",
+        "lineTitle": "巴西阿根廷乌拉圭16天经典之旅",
         "needVisa": 1,
         "passCities": [
             {
-                "cityName": "北京",
-                "countryName": "中国",
-                "provinceName": ""
-            },
-            {
-                "cityName": "圣保罗",
-                "countryName": "巴西",
-                "provinceName": ""
-            },
-            {
-                "cityName": "玛瑙斯",
-                "countryName": "巴西",
-                "provinceName": ""
-            },
-            {
-                "cityName": "里约热内卢",
-                "countryName": "巴西",
+                "cityName": "亚的斯亚贝巴",
+                "countryName": "",
                 "provinceName": ""
             },
             {
                 "cityName": "伊瓜苏",
-                "countryName": "巴西",
+                "countryName": "",
                 "provinceName": ""
             },
             {
                 "cityName": "布宜诺斯艾利斯",
-                "countryName": "阿根廷",
+                "countryName": "",
                 "provinceName": ""
             },
             {
-                "cityName": "乌斯怀亚",
-                "countryName": "阿根廷",
-                "provinceName": ""
-            },
-            {
-                "cityName": "卡拉法特",
-                "countryName": "阿根廷",
+                "cityName": "蒙得维的亚",
+                "countryName": "",
                 "provinceName": ""
             }
         ],
@@ -189,41 +118,104 @@
             "postPhone": "",
             "visas": [
                 {
-                    "content": "",
+                    "content": "巴西、阿根廷签证材料需于出发前60天前提交，建议于出发前30天取得美国签证，并将护照及签证材料交于旅行社。",
                     "country": "美国",
                     "district": "",
                     "freeVisa": 2,
                     "signPlace": ""
                 },
                 {
-                    "content": "",
+                    "content": "巴西、阿根廷签证材料需于出发前60天前提交，建议于出发前30天取得美国签证，并将护照及签证材料交于旅行社。",
                     "country": "巴西",
                     "district": "",
                     "freeVisa": 2,
                     "signPlace": ""
                 },
                 {
-                    "content": "阿根廷可申请电子签证，但需准备常规团队签证材料",
+                    "content": "巴西、阿根廷签证材料需于出发前60天前提交，建议于出发前30天取得美国签证，并将护照及签证材料交于旅行社。",
                     "country": "阿根廷",
                     "district": "",
                     "freeVisa": 2,
                     "signPlace": ""
                 }
             ]
-        }
+        },
+        "backAirports": [
+            {
+                "airlineCode": "ET",
+                "airlineName": "埃塞俄比亚航空",
+                "arriveAirportName": "北京",
+                "arriveTime": "17:20",
+                "days": 0,
+                "flightNo": "ET604",
+                "flightSort": "回程",
+                "startAirportName": "亚的斯亚贝巴",
+                "startTime": "01:50"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "ET",
+                "airlineName": "埃塞俄比亚航空",
+                "arriveAirportName": "亚的斯亚贝巴",
+                "arriveTime": "07:15",
+                "days": 0,
+                "flightNo": "ET605",
+                "flightSort": "第一段去程",
+                "startAirportName": "北京首都国际机场",
+                "startTime": "00:10"
+            },
+            {
+                "airlineCode": "ET",
+                "airlineName": "埃塞俄比亚航空",
+                "arriveAirportName": "圣保罗",
+                "arriveTime": "16:00",
+                "days": 0,
+                "flightNo": "ET506",
+                "flightSort": "第二段去程",
+                "startAirportName": "亚的斯亚贝巴",
+                "startTime": "09:50"
+            }
+        ]
     },
     "cal": {
         "channelPut": null,
         "departDate": []
     },
     "cost": {
-        "bookRule": "详见取消政策",
-        "costExclude": "美国签证费1600/人；全程单间差费用：RMB8200元/人；当地司机和导游的小费10美金/天/人（共计160美金/人），境外统一交给领队；办理护照及准备签证材料所产生的费用；若使馆要求面试而产生的其他任何附加费用由客人自行承担，如签证公示的费用以外的费用，往返交通费、个人住宿费等；出入境的行李海关课税，超重行李的托运费、管理费等；境外司机导游超时服务费；酒店内电话、传真、洗熨、收费电视、饮料等个人消费；因班机延误所产生的额外费用及各种不可抗力因素所产生的费用；其他包含项目中未提及的费用",
-        "costInclude": "巴西、阿根廷团队旅游签证费；北京起止全程团队经济舱机票及税金；当地空调旅游巴士；全程领队及当地导游服务；当地4星级舒适酒店住宿（双人标准间），伊基托斯为当地特色酒店；自助早餐，中式团队午晚餐或当地特色餐；行程中常规景点的首道门票；每人每天1瓶矿泉水；境外旅游意外伤害保险",
-        "lineReturns": [],
-        "otherRule": "南美各国属于重税国家，对于退税一般不予退税，行程中只有阿根廷可以有退税政策，但整个退税手续及流程均由阿根廷国家控制，可能会出现退税不成功、税单邮递过程中丢失导致无法退税等问题，我们会负责协调处理，但无法承担任何赔偿。",
-        "returnContent": "详见取消政策",
-        "selfCostContent": "伊瓜苏瀑布观光飞机（USD180/人，10分钟）、伊瓜苏瀑布汽艇（USD125/人，20分钟）、伊瓜苏三国歌舞表演秀（USD95/人，1小时）、布宜诺斯艾利斯探戈舞表演及西餐（USD120/人，2小时）、圣地亚哥市最高建筑Gran Torre Santiago登顶（USD45/人，1小时）、圣地亚哥夜间歌舞表演（USD75/人，2小时）",
+        "bookRule": "1. 最低成团人数：10人即成团，10人以上派领队。2. 团队集合时间地点为北京，成都、上海的客人与北京出发的团队在亚的斯亚贝巴集合。3. 若客人报名，收取定金20000元/人，尾款需在出发前30天付清。4. 取消政策：出发前120天取消行程，退还全款；出发前120天（含120天）至出发前60天取消行程，扣除定金20000/人；出发前60天（含60天）至出发前30天取消行程，扣除总费用的80%；出发前30天（含30天）内取消行程，扣除全部费用。若因南美签证拒签（必须是通过旅行社办理的）取消行程，扣除4000/人。若因为客人不配合提供或补充签证材料而拒签的，旅行社按正常取消政策收取损失。",
+        "costExclude": "1. 美国签证费1600/人。2. 全程单间差费用：RMB8200元/人（如入住单间或不能拼房则另外付单间差费用）。3. 当地司机和导游的小费10美金/天/人(共计160美金/人)，境外统一交给领队。4. 办理护照及准备签证材料所产生的费用。5. 若使馆要求面试而产生的其他任何附加费用由客人自行承担，如签证公示的费用以外的费用，往返交通费、个人住宿费等。6. 出入境的行李海关课税，超重行李的托运费、管理费等。7. 境外司机导游超时服务费。8. 酒店内电话、传真、洗熨、收费电视、饮料等个人消费。9. 因班机延误所产生的额外费用，及各种不可抗力因素所产生的费用。10. 其他未提及的费用。",
+        "costInclude": "1. 巴西、阿根廷团队旅游签证费。2. 北京起止全程团队经济舱机票及税金。3. 当地空调旅游巴士。4. 全程领队及当地导游服务。5. 当地4星级舒适酒店住宿(双人标准间)，伊基托斯为当地特色酒店。6. 自助早餐，中式团队午晚餐或当地特色餐（用餐时间在飞机上，根据实际情况提供简餐）。7. 行程中常规景点的首道门票。8. 每人每天1瓶矿泉水。9. 境外旅游意外伤害保险。",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "100",
+                "end": "120"
+            },
+            {
+                "begin": "120",
+                "cost": "20000",
+                "end": "60"
+            },
+            {
+                "begin": "60",
+                "cost": "80",
+                "end": "30"
+            },
+            {
+                "begin": "30",
+                "cost": "100",
+                "end": "0"
+            },
+            {
+                "begin": "0",
+                "cost": "4000",
+                "end": "0"
+            }
+        ],
+        "otherRule": "1. 航班可能因不可抗力因素变更，客人需配合航空公司安排。2. 南美团队飞行段数较多，行李箱在托运过程中容易损坏，建议不要携带名牌或贵重行李箱。3. 中南美洲的酒店标准与国内存在差异，酒店入住时间为下午15:00以后，退房需在中午12:00之前。4. 中南美的中餐厅大多是改良后的中餐，口味偏淡。5. 亚马逊伊基托斯在10月底-12月份为旱季，水位不允许乘小船进入支流探险，将安排徒步行程。6. 秘鲁纳斯卡小飞机机票为赠送项目，如遇天气情况或机场原因不能起飞，机票不退。7. 乌拉圭国家行程当天如海面风浪较大，不能乘船前往乌拉圭，将改为布宜诺斯艾利斯古农庄一日游览，费用不退。8. 如游客因自身原因未能游览参观，则视为自动放弃，旅行社无法退还费用。9. 建议客人自行购买保险，尤其是60岁以上老人建议在有家人陪伴的前提下报名参团。10. 巴西预防针：预防黄热病，建议客人于出团前20天前往当地检验检疫中心或防疫站打黄热病疫苗，并办理黄皮书(国际预防接种证书-黄热病疫苗)。11. 南美政府规定公共场合及房间内禁止吸烟，违者将受重罚。12. 境外游览时游客应注意人身安全和财产安全。13. 南美各国属于重税国家，行程中只有阿根廷可以有退税政策，但可能会出现退税不成功等问题，旅行社不承担任何责任。",
+        "returnContent": "1. 由于团队行程中所有机票、住宿、用车、景点门票、餐食等均为旅行社打包整体销售，因此如果游客因自身原因未能游览参观的则视为自动放弃，旅行社将无法退还费用。2. 如果因为贵宾个人问题（如没有按照流程操作、没有按照流程邮寄税单）或者客观原因（如遇到海关退税部门临时休息，海关临时更改流程，税单在邮寄过程中发生问题商家没有收到税单等）在退税过程中出现错误，导致您被扣款、无法退钱、退税金额有所出入等情况，旅行社和导游仅能协助您积极处理，并不能承担您的损失。",
+        "selfCostContent": "1. 所有自费项目均为6人成行，低于6人将不予安排或另行安排，价格另议。2. 请提前与旅行社预定自费项目。",
         "selfCosts": [
             {
                 "address": "",
@@ -242,14 +234,14 @@
             {
                 "address": "",
                 "fee": "USD95/人",
-                "name": "伊瓜苏三国歌舞表演秀",
-                "remark": "",
+                "name": "三国歌舞表演秀",
+                "remark": "每周日休息，不开门营业",
                 "stay": "1小时"
             },
             {
                 "address": "",
                 "fee": "USD120/人",
-                "name": "布宜诺斯艾利斯探戈舞表演及西餐",
+                "name": "探戈舞表演及西餐",
                 "remark": "",
                 "stay": "2小时"
             },
@@ -263,168 +255,579 @@
             {
                 "address": "",
                 "fee": "USD75/人",
-                "name": "圣地亚哥夜间歌舞表演",
+                "name": "智利夜间歌舞表演",
                 "remark": "",
                 "stay": "2小时"
             }
         ],
-        "shopContent": "具体购物店信息将在出团通知中详细说明。",
+        "shopContent": "无特别说明",
         "shops": [],
-        "tipsContent": ""
+        "tipsContent": "1. 由于中南美的路途时间较长，距离较远，建议客人自行购买保险，尤其是60岁以上老人建议在有家人陪伴的前提下报名参团。2. 巴西预防针：预防黄热病，建议客人于出团前20天前往当地检验检疫中心或防疫站打黄热病疫苗，并办理黄皮书(国际预防接种证书-黄热病疫苗)。3. 南美政府规定公共场合及房间内禁止吸烟，违者将受重罚。4. 境外游览时游客应注意人身安全和财产安全。5. 南美各国属于重税国家，行程中只有阿根廷可以有退税政策，但可能会出现退税不成功等问题，旅行社不承担任何责任。"
     },
     "trips": [
         {
             "breakfast": 0,
-            "content": "",
+            "content": "于指定时间抵达北京首都国际机场集合，随后在领队的带领下办理出关、登机手续，我们将满怀期待和愉悦的心情乘坐国际航班转机前往巴西政治中心圣保罗。",
             "dinner": 0,
-            "hotels": [],
+            "hotels": [
+                {
+                    "name": "飞机上",
+                    "star": ""
+                }
+            ],
             "lunch": 0,
             "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京转机前往圣保罗",
             "tripDay": 1
         },
         {
             "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
+            "content": "乘坐航班 ET605 从北京出发于 00:10 起飞，07:15 抵达亚的斯亚贝巴，然后换乘航班 ET506 于 09:50 起飞，16:00 抵达巴西圣保罗。抵达后导游接机，入驻圣保罗当地酒店。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "圣保罗当地酒店",
+                    "star": "4"
+                }
+            ],
             "lunch": 0,
             "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "07:15",
+                    "departure": "北京",
+                    "departureTime": "00:10",
+                    "destination": "亚的斯亚贝巴",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "16:00",
+                    "departure": "亚的斯亚贝巴",
+                    "departureTime": "09:50",
+                    "destination": "圣保罗",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京前往圣保罗之旅",
             "tripDay": 2
         },
         {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "breakfast": 1,
+            "content": "早餐后游览伊比拉布埃拉公园，之后游览东方街、游走在拉美议会大厦（外观）、拉美民俗馆（外观）建筑群中，还游览蝙蝠侠胡同。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "圣保罗当地酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "它原是印第安人村落，后慢慢演变为公园，园内有人工湖、群雕以及众多博物馆，充满了自然的气息。",
+                    "name": "伊比拉布埃拉公园"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "被东方人改造的街道，街道的尽头是一座坐落在老城的二十世纪70年代的建筑—圣保罗大教堂（车览）",
+                    "name": "东方街"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "外观游览",
+                    "name": "拉美议会大厦"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "外观游览",
+                    "name": "拉美民俗馆"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "这是藏在维拉马达莱纳区深处的一条数百米的小巷，巷子从地面到墙上的每一寸都被涂满五颜六色的涂鸦。",
+                    "name": "蝙蝠侠胡同"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "飞机汽车"
+                }
+            ],
+            "title": "圣保罗之旅",
             "tripDay": 3
         },
         {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "breakfast": 1,
+            "content": "早餐后乘机飞往巴西亚马逊的首府之城玛瑙斯。午餐之后进行 3 个小时的游览，先沿着浮动码头看到一个市场，然后绕过市政广场前往印第安人博物馆参观，最后一站是亚马逊（Amazonstately 剧院剧场）。伴随着落日余晖进入晚餐时间，之后返回房间准备第二天游河的物品。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "玛瑙斯当地酒店",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "未知",
+                    "description": "能看到当地的各种水果和蔬菜甚至手工制作的服装和用品",
+                    "name": "浮动码头市场"
+                },
+                {
+                    "consumingTime": "未知",
+                    "description": "能看到展馆内陈列着的不同的土著手工艺品",
+                    "name": "印第安人博物馆"
+                },
+                {
+                    "consumingTime": "未知",
+                    "description": "马瑙斯著名的歌剧院，一百多年来这座剧院依然在使用",
+                    "name": "亚马逊（Amazonstately 剧院剧场）"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "未知",
+                    "departure": "圣保罗",
+                    "departureTime": "早餐后",
+                    "destination": "玛瑙斯",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "玛瑙斯之旅",
             "tripDay": 4
         },
         {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "breakfast": 1,
+            "content": "早餐后登船航行在亚马逊河上，欣赏被誉为“大河婚礼”的独特景观，之后继续航行进入亚马逊雨林，在雨林中用过午餐后继续行驶，傍晚参观亚马逊河上的落日后返回市区晚餐、休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "玛瑙斯当地五星级酒店",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "亚马逊河上游由黑河和索利芒斯河组成，索河河水为黄色，黑河河水为浓咖啡色，因比重、流速不同，两种河水在交汇处长达数十公里的河面上黑黄分别，互不相犯，成为一大奇景。",
+                    "name": "大河婚礼景观"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "可以看到巨大的帝王莲艺术般的平铺在宽阔的河面上，丛林中的土著人依然保留着原始的生活习惯。",
+                    "name": "亚马逊雨林"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "亚马逊河落日"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "游船"
+                }
+            ],
+            "title": "亚马逊河及雨林之旅",
             "tripDay": 5
         },
         {
-            "breakfast": 0,
-            "content": "",
+            "breakfast": 1,
+            "content": "早上前往玛瑙斯的集市感受当地人的日常生活，之后飞往里约",
             "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "hotels": [
+                {
+                    "name": "里约当地四星级酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "感受当地人的日常生活",
+                    "name": "玛瑙斯的集市"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "玛瑙斯",
+                    "departureTime": "",
+                    "destination": "里约",
+                    "trafficType": "汽车飞机"
+                }
+            ],
+            "title": "玛瑙斯与里约之旅",
             "tripDay": 6
         },
         {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "breakfast": 1,
+            "content": "早餐后乘车前往耶稣山，下山后前往塞拉隆台阶、天梯大教堂游览。下午乘坐缆车登上面包山，感受里约夕阳西下时整个海湾波光粼粼宛如仙境。晚餐品尝巴西烤肉，之后返回酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "里约当地四星级酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "上午",
+                    "description": "在里约市区任何一个地方抬头都能看到的圣山，站在耶稣山上向下俯瞰整个海湾，那银子般的波光不停地闪烁与蓝色的海水相呼应，连绵不断的大大小小的山丘，宛若腾空看到了千岛湖一般，远处那绵长的跨海大桥，将两座城市连接起来，造物之神是上帝还是巴西人自己，已经不重要了。",
+                    "name": "耶稣山"
+                },
+                {
+                    "consumingTime": "上午",
+                    "description": "",
+                    "name": "塞拉隆台阶"
+                },
+                {
+                    "consumingTime": "上午",
+                    "description": "",
+                    "name": "天梯大教堂"
+                },
+                {
+                    "consumingTime": "下午",
+                    "description": "下午乘坐缆车登上，感受里约夕阳西下时整个海湾波光粼粼宛如仙境。",
+                    "name": "面包山"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "缆车"
+                }
+            ],
+            "title": "里约之旅",
             "tripDay": 7
         },
         {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "breakfast": 1,
+            "content": "早餐后飞往“大水”之城伊瓜苏，参观伊瓜苏大瀑布和鸟园。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "里约当地四星级酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "上午",
+                    "description": "这座气势磅礴的瀑布隐藏在密林之中，我们将穿过小丛林去解开她的神秘面纱。深入瀑布之余也别忽视了身边的各种小生灵，“8字”蝴蝶也许会降落在你的身上。",
+                    "name": "伊瓜苏大瀑布"
+                },
+                {
+                    "consumingTime": "下午",
+                    "description": "巴西的鸟类众多，五颜六色，您还可以参观到巴西大嘴鸟。",
+                    "name": "鸟园"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "未知",
+                    "departure": "里约",
+                    "departureTime": "早餐后",
+                    "destination": "伊瓜苏",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "里约至伊瓜苏之旅",
             "tripDay": 8
         },
         {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "breakfast": 1,
+            "content": "早餐之后过境前往阿根廷一侧的大瀑布，之后飞往阿根廷首都布宜诺斯艾利斯，抵达后导游接机，晚餐后入住当地酒店。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "布宜当地四星级酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "阿根廷的伊瓜苏国家公园在茂密多样的亚热带阔叶林背景下，一个游众多瀑布和激流组成的宽近3公里的瀑布群系统，从瀑布行程的永久水云形成了一个令人印象深刻的场景，围绕着森林和岛屿和河岸，形成了一个视觉上惊叹的和不断变化的陆地和水域之间的界面。",
+                    "name": "阿根廷一侧的大瀑布"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "飞机汽车"
+                }
+            ],
+            "title": "伊瓜苏/布宜诺斯艾利斯之旅",
             "tripDay": 9
         },
         {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "breakfast": 1,
+            "content": "早上搭乘航班飞往世界最南端的城市乌斯怀亚，抵达后游览火地岛国家公园，还可以在边陲小镇寻找相关场所。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "乌斯怀亚当地特色酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "这里是世界最南部的一个自然保护区，雪峰、山脉、湖泊、森林点缀其间，古印第安人的草棚隐约可见，还有多种野生动物和珍稀鸟类，极地风光无限，景色十分迷人。你还可以在边陲小镇，找到最南端的银行，邮局以及各种玲琅满目纪念品的小商店。",
+                    "name": "火地岛国家公园"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "布宜诺斯艾利斯",
+                    "departureTime": "早上",
+                    "destination": "乌斯怀亚",
+                    "trafficType": "飞机汽车"
+                }
+            ],
+            "title": "乌斯怀亚之旅",
             "tripDay": 10
         },
         {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "breakfast": 1,
+            "content": "早餐后乘机飞往卡拉法特，抵达后入住卡拉法特酒店，随后游览卡拉法特小镇，晚餐后入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "卡拉法特当地四星级酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "饱览边陲小镇的秀丽风景，呼吸清新的空气，漫步在独特的商业街区。",
+                    "name": "卡拉法特小镇"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "乌斯怀亚",
+                    "departureTime": "早餐后",
+                    "destination": "卡拉法特",
+                    "trafficType": "飞机汽车"
+                }
+            ],
+            "title": "乌斯怀亚到卡拉法特之旅",
             "tripDay": 11
         },
         {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "breakfast": 1,
+            "content": "早餐后前往参观著名的冰川国家公园，晚上搭乘航班前往阿根廷首都布宜诺斯艾利斯。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "布宜四星级酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "1 小时",
+                    "description": "在这座以冰川著称的国家公园中，莫雷诺是世界上最易观赏而且最壮观的大冰川，因为它是世界上唯一的经常“大崩塌”的大冰川（由于冰川山崖尖角顶住冰川中部，使两面的湖水形成压差而至），大崩塌的场面十分壮观，但如能一睹大崩塌，就需要有极好的运气。由于几万年冰山大川的强力挤压，崩裂入湖的冰山体积大、数量多，千姿百态，形状各异，有的像城堡，有的像巨艇，有的像火车，有的像鲸鱼……使人目不睱接，叹为观止(赠送1小时冰川游船)",
+                    "name": "冰川国家公园"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "卡拉法特",
+                    "departureTime": "早餐后",
+                    "destination": "冰川国家公园",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "卡拉法特",
+                    "departureTime": "晚上",
+                    "destination": "布宜诺斯艾利斯",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "卡拉法特至布宜诺斯艾利斯之旅",
             "tripDay": 12
         },
         {
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "breakfast": 1,
+            "content": "早餐后前往港口，搭乘游轮前往拉普拉塔河对岸的乌拉圭古镇-【科洛尼亚】，穿越拉普拉塔河（乘船约1小时15分），登陆后办理出境手续，步行前往圣卡洛斯古城区游览。下午搭乘游轮返回布宜，晚餐后入住酒店休息。（如遇当天海面风浪较大，不能乘船前往乌拉圭，我社将改为布宜诺斯艾利斯古农庄一日游行程，所发生费用不退还）",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "布宜当地酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "一天",
+                    "description": "您将穿越世界上最宽的内河—【拉普拉塔河】（乘船约1小时15分），登陆对岸码头后办理出境手续，之后步行前往【圣卡洛斯古城区】游览，这座古城是殖民者葡萄牙人在1680年建于拉普拉塔河上的，具有重要的军事战略意义。古镇处处可见残断的城墙和林立的炮筒，百年前城市终究被遗弃，许多历史遗迹景观才得以良好保存至今。",
+                    "name": "科洛尼亚"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "约1小时15分后",
+                    "departure": "布宜诺斯艾利斯港口",
+                    "departureTime": "早餐后",
+                    "destination": "乌拉圭科洛尼亚",
+                    "trafficType": "游轮"
+                },
+                {
+                    "arrivalTime": "未知",
+                    "departure": "乌拉圭科洛尼亚",
+                    "departureTime": "下午",
+                    "destination": "布宜诺斯艾利斯",
+                    "trafficType": "游轮"
+                }
+            ],
+            "title": "布宜诺斯艾利斯与科洛尼亚之旅",
             "tripDay": 13
         },
         {
-            "breakfast": 0,
-            "content": "",
+            "breakfast": 1,
+            "content": "早餐后游览五月广场、布宜诺斯艾利斯大教堂、总统府、七九大道、方尖碑、国会广场、圣马丁广场、科隆剧院（外观）。下午前往博卡区及探戈的发源地-CAMINITO 小道，之后前往雅典人书店，博卡青年的主场球场糖果盒。游览结束后前往机场，离开美丽的阿根廷。",
             "dinner": 0,
-            "hotels": [],
-            "lunch": 0,
-            "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "hotels": [
+                {
+                    "name": "飞机",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "不仅是布宜诺斯艾利斯城市发展的历史见证，也是阿根廷共和国独立的纪念地",
+                    "name": "五月广场"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "布宜诺斯艾利斯大教堂"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "不仅是布宜诺斯艾利斯城市发展的历史见证，也是阿根廷共和国独立的纪念地",
+                    "name": "总统府"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "七九大道"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "方尖碑"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "国会广场"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "圣马丁广场"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "科隆剧院（外观）"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "街道两旁绚烂多彩的楼房和墙壁上，阿根廷艺人的浮雕作品散发着浓郁的拉丁风情",
+                    "name": "博卡区"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "探戈的发源地，街道两旁绚烂多彩的楼房和墙壁上，阿根廷艺人的浮雕作品散发着浓郁的拉丁风情",
+                    "name": "CAMINITO 小道"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "雅典人书店"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "博卡青年的主场球场",
+                    "name": "糖果盒"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "19:30",
+                    "departure": "布宜诺斯艾利斯",
+                    "departureTime": "21:30",
+                    "destination": "亚的斯亚贝巴",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "布宜诺斯艾利斯之旅",
             "tripDay": 14
         },
         {
@@ -435,18 +838,26 @@
             "lunch": 0,
             "scenes": [],
             "scheduleTraffics": [],
-            "title": "抵达亚的斯亚贝巴并转机",
+            "title": "返程之旅",
             "tripDay": 15
         },
         {
             "breakfast": 0,
-            "content": "",
+            "content": "下午抵达北京，结束愉快的南美之旅。",
             "dinner": 0,
             "hotels": [],
             "lunch": 0,
             "scenes": [],
-            "scheduleTraffics": [],
-            "title": "",
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "17:20",
+                    "departure": "亚的斯亚贝巴",
+                    "departureTime": "01:50",
+                    "destination": "北京",
+                    "trafficType": "航班"
+                }
+            ],
+            "title": "返程回北京",
             "tripDay": 16
         }
     ]

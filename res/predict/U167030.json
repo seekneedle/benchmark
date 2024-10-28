@@ -1,234 +1,107 @@
 {
     "product": {
-        "childAgeBegin": 6,
-        "childAgeEnd": 999,
-        "childHasBed": 1,
-        "childHasTraffic": 1,
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
         "childHeightBegin": "",
         "childHeightEnd": "",
         "childRule": "",
-        "departureCityName": "乌鲁木齐",
+        "departureCityName": "乌鲁木齐市",
         "departureCountryName": "中国",
         "departureProvinceNam": "",
         "dests": [
             {
+                "countryName": "乌兹别克斯坦",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
                 "countryName": "塔吉克斯坦",
-                "destCityName": "杜尚别",
-                "destProvinceName": ""
-            },
-            {
-                "countryName": "塔吉克斯坦",
-                "destCityName": "彭吉肯特",
-                "destProvinceName": ""
-            },
-            {
-                "countryName": "乌兹别克斯坦",
-                "destCityName": "撒马尔罕",
-                "destProvinceName": ""
-            },
-            {
-                "countryName": "乌兹别克斯坦",
-                "destCityName": "布哈拉",
-                "destProvinceName": ""
-            },
-            {
-                "countryName": "乌兹别克斯坦",
-                "destCityName": "梅尔夫",
-                "destProvinceName": ""
-            },
-            {
-                "countryName": "土库曼斯坦",
-                "destCityName": "马雷",
-                "destProvinceName": ""
-            },
-            {
-                "countryName": "土库曼斯坦",
-                "destCityName": "阿什哈巴德",
-                "destProvinceName": ""
-            },
-            {
-                "countryName": "土库曼斯坦",
-                "destCityName": "达瓦札",
-                "destProvinceName": ""
-            },
-            {
-                "countryName": "土库曼斯坦",
-                "destCityName": "达绍古兹",
-                "destProvinceName": ""
-            },
-            {
-                "countryName": "乌兹别克斯坦",
-                "destCityName": "希瓦",
-                "destProvinceName": ""
-            },
-            {
-                "countryName": "乌兹别克斯坦",
-                "destCityName": "塔什干",
+                "destCityName": "",
                 "destProvinceName": ""
             },
             {
                 "countryName": "吉尔吉斯斯坦",
-                "destCityName": "比什凯克",
+                "destCityName": "",
                 "destProvinceName": ""
             },
             {
-                "countryName": "吉尔吉斯斯坦",
-                "destCityName": "托克马克",
+                "countryName": "土库曼斯坦",
+                "destCityName": "",
                 "destProvinceName": ""
-            },
-            {
-                "countryName": "吉尔吉斯斯坦",
-                "destCityName": "伊塞克湖",
-                "destProvinceName": ""
-            },
-            {
-                "countryName": "哈萨克斯坦",
-                "destCityName": "阿拉木图",
-                "destProvinceName": ""
-            },
-            {
-                "countryName": "中国",
-                "destCityName": "乌鲁木齐",
-                "destProvinceName": "新疆"
             }
         ],
         "insurance": {
-            "content": "我社推荐客人根据自身情况，额外补上医疗50万或70万的大额保险；年龄在70岁以上，请咨询旅行社代您投保适用于您的险种。",
+            "content": "我社推荐客人根据自身情况，额外补上医疗 50 万或 70 万的大额保险。年龄在 70 岁以上，请咨询旅行社代您投保适用于您的险种。",
             "name": "",
             "typeName": ""
         },
         "insuranceIncluded": 0,
         "markets": [
             {
-                "name": "深入中亚四国，探访千年古城，体验独特民族文化，感受丝绸之路的历史魅力"
+                "name": "全程四星酒店或特色酒店双人标间"
+            },
+            {
+                "name": "当地旅游巴士（保证一人一正座）"
+            },
+            {
+                "name": "行程所列景点首道门票"
+            },
+            {
+                "name": "每人每天 1 瓶矿泉水"
             }
         ],
-        "productSubtitle": "穿越历史的尘埃，感受中亚的多元文化",
-        "productTitle": "中亚四国深度探索",
-        "returnCityName": "乌鲁木齐",
+        "productSubtitle": "乌兹别克斯坦、塔吉克斯坦、吉尔吉斯斯坦、土库曼斯坦",
+        "productTitle": "中亚四国深度游",
+        "returnCityName": "乌鲁木齐市",
         "tags": [
             {
-                "name": "历史文化"
+                "name": "深度游"
             },
             {
-                "name": "自然景观"
+                "name": "文化探索"
             },
             {
-                "name": "丝绸之路"
+                "name": "自然风光"
             },
             {
-                "name": "中亚风情"
-            },
-            {
-                "name": "国际旅行"
+                "name": "历史遗迹"
             }
         ],
         "themes": [
             {
-                "name": "历史与文化探索"
+                "name": "历史文化"
             },
             {
-                "name": "自然风光体验"
+                "name": "自然风光"
             },
             {
-                "name": "民俗风情感受"
+                "name": "民俗体验"
+            },
+            {
+                "name": "中亚四国历史文化与自然风光之旅"
             }
         ]
     },
     "line": {
-        "backAirports": [
-            {
-                "airlineCode": "CZ",
-                "airlineName": "南方航空",
-                "arriveAirportName": "乌鲁木齐",
-                "arriveTime": "00:30+1",
-                "days": 0,
-                "flightNo": "6012",
-                "flightSort": "回程",
-                "startAirportName": "阿什哈巴德",
-                "startTime": "20:50"
-            }
-        ],
-        "backTransportName": "飞机、火车、汽车",
-        "goAirports": [
-            {
-                "airlineCode": "CZ",
-                "airlineName": "南方航空",
-                "arriveAirportName": "杜尚别",
-                "arriveTime": "23:35",
-                "days": 0,
-                "flightNo": "5083",
-                "flightSort": "去程",
-                "startAirportName": "乌鲁木齐",
-                "startTime": "23:30"
-            }
-        ],
-        "goTransportName": "飞机、火车、汽车",
+        "backTransportName": "飞机",
+        "goTransportName": "飞机",
         "hotelStarName": "-1",
-        "lineFeature": "本次旅程将带领您穿越中亚四国，从塔吉克斯坦的杜尚别到乌兹别克斯坦的撒马尔罕和布哈拉，再到土库曼斯坦的阿什哈巴德和达瓦札，最后抵达吉尔吉斯斯坦的比什凯克和哈萨克斯坦的阿拉木图。您将探访众多世界文化遗产，体验独特的中亚文化和自然风光。",
+        "lineFeature": "深度探访中亚四国的历史文化与自然风光，体验当地特色美食与民俗风情，参观著名历史遗迹与自然景观",
         "lineSimpleTitle": "中亚四国",
         "lineSortTitle": "CAGT",
-        "lineTitle": "中亚四国深度探索",
+        "lineTitle": "中亚四国深度游",
         "needVisa": 1,
         "passCities": [
             {
                 "cityName": "乌鲁木齐",
                 "countryName": "中国",
-                "provinceName": ""
+                "provinceName": "新疆"
             },
             {
-                "cityName": "杜尚别",
-                "countryName": "塔吉克斯坦",
-                "provinceName": ""
-            },
-            {
-                "cityName": "彭吉肯特",
-                "countryName": "塔吉克斯坦",
-                "provinceName": ""
-            },
-            {
-                "cityName": "撒马尔罕",
-                "countryName": "乌兹别克斯坦",
-                "provinceName": ""
-            },
-            {
-                "cityName": "布哈拉",
-                "countryName": "乌兹别克斯坦",
-                "provinceName": ""
-            },
-            {
-                "cityName": "梅尔夫",
-                "countryName": "土库曼斯坦",
-                "provinceName": ""
-            },
-            {
-                "cityName": "马雷",
-                "countryName": "土库曼斯坦",
-                "provinceName": ""
-            },
-            {
-                "cityName": "阿什哈巴德",
-                "countryName": "土库曼斯坦",
-                "provinceName": ""
-            },
-            {
-                "cityName": "达瓦札",
-                "countryName": "土库曼斯坦",
-                "provinceName": ""
-            },
-            {
-                "cityName": "达绍古兹",
-                "countryName": "土库曼斯坦",
-                "provinceName": ""
-            },
-            {
-                "cityName": "希瓦",
-                "countryName": "乌兹别克斯坦",
-                "provinceName": ""
-            },
-            {
-                "cityName": "塔什干",
-                "countryName": "乌兹别克斯坦",
+                "cityName": "阿拉木图",
+                "countryName": "哈萨克斯坦",
                 "provinceName": ""
             },
             {
@@ -237,75 +110,107 @@
                 "provinceName": ""
             },
             {
-                "cityName": "托克马克",
-                "countryName": "吉尔吉斯斯坦",
+                "cityName": "杜尚别",
+                "countryName": "塔吉克斯坦",
                 "provinceName": ""
             },
             {
-                "cityName": "伊塞克湖",
-                "countryName": "吉尔吉斯斯坦",
+                "cityName": "阿什哈巴德",
+                "countryName": "土库曼斯坦",
                 "provinceName": ""
             },
             {
-                "cityName": "阿拉木图",
-                "countryName": "哈萨克斯坦",
+                "cityName": "塔什干",
+                "countryName": "乌兹别克斯坦",
                 "provinceName": ""
             }
         ],
-        "tripDays": "18",
-        "tripNight": "17",
+        "tripDays": "15",
+        "tripNight": "14",
         "visaBasic": {
             "postAddress": "",
             "postContact": "",
             "postPhone": "",
             "visas": [
                 {
-                    "content": "",
+                    "content": "四国签证费用（乌、吉、塔、土）及土库曼邀请函费用，护照首页彩色扫描件（复印机彩色扫描，手机拍照不可以），有效期在签证之前 6 个月以上的因私护照，护照亲笔签名，至少三张签证空白页，客人手机联系方式，2 寸白底电子版照片（电子版分辨率 472*610，扫描版尺寸为 4*129px,分辨率 1000DPI），详细填写个人资料表",
                     "country": "乌兹别克斯坦",
                     "district": "",
                     "freeVisa": 2,
                     "signPlace": ""
                 },
                 {
-                    "content": "",
+                    "content": "四国签证费用（乌、吉、塔、土）及土库曼邀请函费用，护照首页彩色扫描件（复印机彩色扫描，手机拍照不可以），有效期在签证之前 6 个月以上的因私护照，护照亲笔签名，至少三张签证空白页，客人手机联系方式，2 寸白底电子版照片（电子版分辨率 472*610，扫描版尺寸为 4*129px,分辨率 1000DPI），详细填写个人资料表",
                     "country": "吉尔吉斯斯坦",
                     "district": "",
                     "freeVisa": 2,
                     "signPlace": ""
                 },
                 {
-                    "content": "",
+                    "content": "四国签证费用（乌、吉、塔、土）及土库曼邀请函费用，护照首页彩色扫描件（复印机彩色扫描，手机拍照不可以），有效期在签证之前 6 个月以上的因私护照，护照亲笔签名，至少三张签证空白页，客人手机联系方式，2 寸白底电子版照片（电子版分辨率 472*610，扫描版尺寸为 4*129px,分辨率 1000DPI），详细填写个人资料表",
                     "country": "塔吉克斯坦",
                     "district": "",
                     "freeVisa": 2,
                     "signPlace": ""
                 },
                 {
-                    "content": "还需提供邀请函",
+                    "content": "四国签证费用（乌、吉、塔、土）及土库曼邀请函费用，护照首页彩色扫描件（复印机彩色扫描，手机拍照不可以），有效期在签证之前 6 个月以上的因私护照，护照亲笔签名，至少三张签证空白页，客人手机联系方式，2 寸白底电子版照片（电子版分辨率 472*610，扫描版尺寸为 4*129px,分辨率 1000DPI），详细填写个人资料表",
                     "country": "土库曼斯坦",
                     "district": "",
                     "freeVisa": 2,
                     "signPlace": ""
                 }
             ]
-        }
+        },
+        "backAirports": [
+            {
+                "airlineCode": "CZ",
+                "airlineName": "中国南方航空",
+                "arriveAirportName": "乌鲁木齐",
+                "arriveTime": "00:30+1",
+                "days": 0,
+                "flightNo": "6012",
+                "flightSort": "回程",
+                "startAirportName": "阿拉木图",
+                "startTime": "20:50"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "CZ",
+                "airlineName": "中国南方航空",
+                "arriveAirportName": "杜尚别",
+                "arriveTime": "23:35",
+                "days": 0,
+                "flightNo": "5083",
+                "flightSort": "去程",
+                "startAirportName": "乌鲁木齐",
+                "startTime": "23:30"
+            }
+        ]
     },
     "cal": {
         "channelPut": null,
         "departDate": []
     },
     "cost": {
-        "bookRule": "1. 航班时间仅供参考，具体以出团通知为准。2. 如遇景点关闭，本社有权调整游览顺序；如确实无法安排，将根据实际情况进行调整。3. 景点实际游览时间以行程中标注时间为准，承诺不少于标注时间。4. 根据国际航班团队搭乘要求，团队通常须提前 3-3.5 小时到达机场办理登机手续。5. 酒店标准以当地酒店评定标准为准，酒店办理入住手续速度较慢，请耐心等候。6. 酒店无线网络信号有强弱，床位通常较窄。7. 我社推荐客人根据自身情况，额外补上医疗 50 万或 70 万的大额保险；70 岁以上游客需咨询旅行社代购适用险种。8. 请如实填写《客人评议表》，我社将以您填写的内容作为处理客诉的依据。9. 出境时如有贵重物品请及时申报，购买物品请按相关规定及时申报。10. 行程中所列航班号及时间仅供参考，将根据实际情况做出合理的调整。11. 全程机票为团队票，任意一段放弃，后续段将自动取消，不退还任何费用；全程任意一段机票均不可退、改、签；全程任意一段机票都无法提前确认座位号。12. 由于航空公司原因或不可抗力导致航班临时出现调整，我社将不承担任何责任。13. 行程中所注明的城市间距离，仅供参考，视当地交通状况进行调整。14. 根据国际惯例，导游和司机每天工作时间不得超过 10 小时（如超出服务时间，则应付给司机和导游相应的加班费）。15. 由于每个国家国情所致，当地旅游车较为不同，舒适度远不如发达国家，请见谅！16. 行李在航空公司托运期间造成的损坏或遗失，我社不承担任何责任，但我社可协助游客与航空公司进行交涉，处理结果一律按照航空公司相关规定办理。17. 请在境外期间遵守当地的法律法规，以及注意自己的人身及财务安全。18. 此参考行程和旅游费用，我公司将根据参团人数、航班、签证及目的地国家临时变化保留调整的权利。19. 依照旅游业现行作业规定，本公司有权依据最终出团人数情况，调整房间分配情况。20. 境外酒店内禁止吸烟（包括阳台），如违反罚款由客人自行承担。21. 哈萨克斯坦同北京时间时差：-2 小时；吉尔吉斯斯坦同北京时间时差：-2 小时；土库曼斯坦同北京时间时差：-3 小时；塔吉克斯坦同北京时间时差：-2 小时；乌兹别克斯坦同北京时间时差：-3 小时。22. 请在境外旅游时除了准备信用卡（芯片）以外，尽量准备一些美金现金（小面值，如 1 美金、2 美金等），以备不时之需。23. 如果您携带信用卡（芯片卡），请在国内确认好已经激活才可以在境外使用。24. 哈萨克斯坦货币为坚戈，人民币可以在境外直接兑换。乌兹别克斯坦货币为苏姆，塔吉克斯坦货币为索莫尼；土库曼斯坦货币为马纳特，吉尔吉斯斯坦货币为索姆，以上四国货币，人民币不可直接兑换，需使用美金或者欧元兑换。",
-        "costExclude": "单间差 4600 元/人，行李物品的保管费及超重费，土库曼入境核酸费用（约 35 美金左右/人），因拒签而需二次送签的签证费用，行程外一切私人费用，包括陆路过关行李搬运费用等，土库曼离境税，游客因自身过错、自由活动期间造成人身和财产损失，服务项目未提到的其他一切费用，司导超时工作费用及用车超公里费用",
-        "costInclude": "全程团队经济舱机票及税金，四星酒店或特色酒店双人标间，行程所列用餐（早餐为酒店自助早餐或打包餐，午晚餐为中式团餐或当地特色风味餐），当地旅游巴士(保证一人一正座)，行程所列景点首道门票，服务费 1000 元/人，每人每天 1 瓶矿泉水",
-        "lineReturns": [],
-        "otherRule": "",
-        "returnContent": "1. 如遇天气、战争、罢工、地震等人力不可抗力因素无法游览，我社将按照旅行社协议，退还未游览可退还的景点门票费用（赠送项目费用不退），其他费用因为提前预付已经发生无法退还。2. 游客因个人原因临时自愿放弃游览，酒店住宿、餐、车等费用均不退还。",
-        "selfCostContent": "",
+        "bookRule": "旅游者需在规定的签证资料截至日期前递交符合使馆要求的签证资料，旅行社已建议旅游者购买境外意外伤害保险，自备签证旅游者参团，请务必自行确认签证的有效性，如旅游者因签证不符合入境国要求未能入境，损失由旅游者自行承担，旅游者需如实告知旅行社，参团旅游者是否有孕妇及残障人士，若旅游者未能在签订合约时告知旅行社，旅行社有权根据实际风险情况拒绝旅游者参团，已经发生的损失由旅游者承担，依照旅游业现行作业规定，本公司有权依据最终出团人数情况，调整房间分房情况",
+        "costExclude": "早餐、午餐、晚餐，单间差：4600 元/人，行李物品的保管费及超重费，因拒签而需二次送签的签证费用，土库曼离境税，游客因自身过错、自由活动期间造成的人身和财产损失，行程外一切私人费用，包括陆路过关行李搬运费用等，服务项目未提到的其他一切费用，司导超时工作费用及用车超公里费用",
+        "costInclude": "全程团队经济舱机票及税金，四星酒店或特色酒店双人标间，当地旅游巴士（保证一人一正座），行程所列景点首道门票，每人每天 1 瓶矿泉水，服务费 1000 元/人，四国签证费用（乌、吉、塔、土）及土库曼邀请函费用",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "100",
+                "end": "0"
+            }
+        ],
+        "otherRule": "由于航空公司原因或不可抗力导致航班临时出现调整，我社将不承担任何责任，根据国际航班团队搭乘要求，团队通常须提前 3-3.5 小时到达机场办理登机手续，如遇天气、战争、罢工、地震等人力不可抗力因素无法游览，我社将按照旅行社协议，退还未游览可退还的景点门票费用（赠送项目费用不退），其他费用因为提前预付已经发生无法退还",
+        "returnContent": "由于不可抗拒的原因，如政变、罢工、水灾地震、交通意外等所引起的旅游天数和费用的增加，本公司将按实际情况向旅客予以收费",
+        "selfCostContent": "无",
         "selfCosts": [],
-        "shopContent": "",
+        "shopContent": "无",
         "shops": [],
-        "tipsContent": ""
+        "tipsContent": "境外需多次陆路口岸出关入关，需自行推拉行李，敬请使用结实耐磨，轮子灵活结实的行李箱出行，行程中请避免前往没有正式开发开放、缺乏安全保障的区域旅游，若发生旅行社已尽合理义务但仍不能避免的事件或者不可抗力因素导致合同解除的，旅行社或者旅游者皆无责。若由此造成旅游者滞留的，旅行社应采取相应安置措施，增加的食宿费用由旅游者承担；增加的返程费用，由旅行社和旅游者协商分担，当您从境外离境时，一定检查海关是否给您的护照盖了清晰的离境章，它是您已经回到中国的唯一凭证，由此造成不必要的损失，非常抱歉只能由本人承担！请您自己务必仔细留意，出境时如有贵重物品请及时申报（请咨询申报处何种物品需要申报）。在境外购买物品请按相关规定及时申报，所产生的相应费用需自行承担，行程中所列航班号及时间仅供参考，将根据实际情况做出合理的调整，全程机票为团队票，任意一段放弃，后续段将自动取消，不退还任何费用；全程任意一段机票均不可退、改、签；全程任意一段机票都无法提前确认座位号，由于航空公司原因或不可抗力导致航班临时出现调整，我社将不承担任何责任，行程中所注明的城市间距离，参照境外地图，仅供参考，视当地交通状况进行调整，根据国际惯例，导游和司机每天工作时间不得超过 10 小时（如超出服务时间，则应付给司机和导游相应的加班费），由于每个国家国情所致，当地旅游车较为不同，舒适度远不如发达国家，请见谅！行李在航空公司托运期间造成的损坏或遗失，我社不承担任何责任，但我社可协助游客与航空公司进行交涉，处理结果一律按照航空公司相关规定办理，请您在境外期间遵守当地的法律法规，以及注意自己的人身及财务安全，此参考行程和旅游费用，我公司将根据参团人数、航班、签证及目的地国家临时变化保留调整的权利，依照旅游业现行作业规定，本公司有权依据最终出团人数情况，调整房间分房情况，境外酒店内禁止吸烟（包括阳台），如违反罚款由客人自行承担，哈萨克斯坦同北京时间时差：-2 小时；吉尔吉斯斯坦同北京时间时差：-2 小时；土库曼斯坦同北京时间时差：-3 小时；塔吉克斯坦同北京时间时差：-2 小时；乌兹别克斯坦同北京时间时差：-3 小时，您在境外旅游时除了准备信用卡（芯片）以外，请尽量准备一些美金现金（小面值，如 1 美金、2 美金等），以备不时之需，如果您携带信用卡（芯片卡），请在国内确认好已经激活才可以在境外使用，哈萨克斯坦货币为坚戈，人民币可以在境外直接兑换。乌兹别克斯坦货币为苏姆，塔吉克斯坦货币为索莫尼；土库曼斯坦货币为马纳特，吉尔吉斯斯坦货币为索姆，以上四国货币，人民币不可直接兑换，需使用美金或者欧元兑换"
     },
     "trips": [
         {
@@ -325,7 +230,7 @@
                     "arrivalTime": "23:35",
                     "departure": "乌鲁木齐",
                     "departureTime": "23:30",
-                    "destination": "杜尚别",
+                    "destination": "杜尚别（塔吉克斯坦）",
                     "trafficType": "飞机"
                 }
             ],
@@ -334,24 +239,24 @@
         },
         {
             "breakfast": 1,
-            "content": "早餐后，参观索莫尼广场及鲁达基公园，下午参观希萨堡垒遗迹。晚餐后，入住酒店休息。",
+            "content": "酒店早餐后，参观索莫尼广场、鲁达基公园、塔吉克斯坦国家博物馆。下午参观希萨堡垒遗迹。晚餐后，入住酒店休息。",
             "dinner": 1,
             "hotels": [
                 {
                     "name": "RUMI HOTEL 或同级",
-                    "star": "未知"
+                    "star": "空"
                 }
             ],
             "lunch": 1,
             "scenes": [
                 {
                     "consumingTime": "上午",
-                    "description": "在这里您可以看到被誉为“波斯语诗歌之父”的阿卜杜拉.鲁达基的雕像、塔吉克斯坦国徽塔及中亚撒马尼德王朝创始人、有“塔吉克民族之父”美称的索莫尼雕像、塔吉克斯坦总统府、Haji Yakoub 清真寺、塔吉克斯坦国家博物馆",
+                    "description": "可以看到被誉为“波斯语诗歌之父”的阿卜杜拉.鲁达基的雕像、塔吉克斯坦国徽塔及中亚撒马尼德王朝创始人、有“塔吉克民族之父”美称的索莫尼雕像、塔吉克斯坦总统府、HajiYakoub 清真寺、塔吉克斯坦国家博物馆",
                     "name": "索莫尼广场"
                 },
                 {
                     "consumingTime": "上午",
-                    "description": "在这里您可以看到被誉为“波斯语诗歌之父”的阿卜杜拉.鲁达基的雕像、塔吉克斯坦国徽塔及中亚撒马尼德王朝创始人、有“塔吉克民族之父”美称的索莫尼雕像、塔吉克斯坦总统府、Haji Yakoub 清真寺、塔吉克斯坦国家博物馆",
+                    "description": "可以看到被誉为“波斯语诗歌之父”的阿卜杜拉.鲁达基的雕像",
                     "name": "鲁达基公园"
                 },
                 {
@@ -371,11 +276,11 @@
         },
         {
             "breakfast": 1,
-            "content": "早餐后，乘车前往塔吉克斯坦的彭吉肯特市，参观彭吉肯特博物馆、Devastich 雕像。结束后继续乘车前往塔乌边境，后前往撒马尔罕。抵达后享用晚餐，后入住酒店休息。温馨提示：今日乘车时间较长，请提前做好准备。",
+            "content": "早餐后乘车前往塔吉克斯坦的彭吉肯特市，参观彭吉肯特博物馆、Devastich雕像。结束后继续乘车前往塔乌边境，后前往撒马尔罕。抵达后享用晚餐，后入住酒店休息。今日乘车时间较长，请提前做好准备。",
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "MEDINA HOTEL",
+                    "name": "MEDINAHOTEL",
                     "star": ""
                 }
             ],
@@ -383,13 +288,33 @@
             "scenes": [
                 {
                     "consumingTime": "",
-                    "description": "位于塔吉克斯坦的彭吉肯特市，5-8 世纪时，这里曾经是丝绸之路上最国际化的城市之一。",
+                    "description": "位于塔吉克斯坦的彭吉肯特市，5-8世纪时这里曾是丝绸之路上最国际化的城市之一。",
                     "name": "彭吉肯特博物馆"
                 },
                 {
                     "consumingTime": "",
-                    "description": "位于塔吉克斯坦的彭吉肯特市，5-8 世纪时，这里曾经是丝绸之路上最国际化的城市之一。",
-                    "name": "Devastich 雕像"
+                    "description": "位于塔吉克斯坦的彭吉肯特市，5-8世纪时这里曾是丝绸之路上最国际化的城市之一。",
+                    "name": "Devastich雕像"
+                },
+                {
+                    "consumingTime": "Day4",
+                    "description": "帖木儿及其后嗣的陵墓，具有浓厚的东方建筑特色，是世界著名的中亚建筑瑰宝。",
+                    "name": "古里·阿米尔陵"
+                },
+                {
+                    "consumingTime": "Day4",
+                    "description": "安静的庭院以及被岁月模糊了的雕刻诉说着往日的辉煌。",
+                    "name": "比比哈努姆清真寺"
+                },
+                {
+                    "consumingTime": "Day4",
+                    "description": "建于14世纪和15世纪，由13座陵墓和一座清真寺组成，意为永生之王，是撒马尔罕的执政者及其家属的坟墓。整座陵园的特色体现在其采用的精美装饰设计上，精美的陶雕、具有几何图形和花草图形的铭文彩陶、华丽的装饰图案以及优美的壁画，巧妙的搭配使建筑物更赋予美感，更显得富丽堂皇，却又呈现出各自不同的风貌，参观者对此赞赏不已。",
+                    "name": "沙赫静达陵墓群"
+                },
+                {
+                    "consumingTime": "Day4",
+                    "description": "撒马尔罕最主要的广场。",
+                    "name": "雷吉斯坦广场"
                 }
             ],
             "scheduleTraffics": [
@@ -397,34 +322,34 @@
                     "arrivalTime": "",
                     "departure": "杜尚别",
                     "departureTime": "早餐后",
-                    "destination": "彭吉肯特市",
-                    "trafficType": "车"
+                    "destination": "彭吉肯特",
+                    "trafficType": "汽车"
                 },
                 {
                     "arrivalTime": "",
-                    "departure": "彭吉肯特市",
-                    "departureTime": "参观结束后",
+                    "departure": "彭吉肯特",
+                    "departureTime": "",
                     "destination": "塔乌边境",
-                    "trafficType": "车"
+                    "trafficType": "汽车"
                 },
                 {
                     "arrivalTime": "",
                     "departure": "塔乌边境",
                     "departureTime": "",
                     "destination": "撒马尔罕",
-                    "trafficType": "车"
+                    "trafficType": "汽车"
                 }
             ],
-            "title": "从杜尚别到撒马尔罕的旅程",
+            "title": "塔吉克斯坦与乌兹别克斯坦之旅",
             "tripDay": 3
         },
         {
             "breakfast": 1,
-            "content": "酒店早餐后，游览撒马尔罕，参观古里·阿米尔陵、比比哈努姆清真寺、沙赫静达陵墓群、雷吉斯坦广场、乌鲁贝克天文台遗址。晚餐后，再次来到雷吉斯坦广场观看灯光秀，后入住酒店休息。",
+            "content": "酒店早餐后，游览一千零一夜神话中的城市---撒马尔罕，参观古里·阿米尔陵、比比哈努姆清真寺、沙赫静达陵墓群、雷吉斯坦广场、乌鲁贝克天文台遗址。晚餐后，再次来到雷吉斯坦广场观看灯光秀，后入住酒店休息。",
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "MEDINA HOTEL",
+                    "name": "MEDINAHOTEL",
                     "star": ""
                 }
             ],
@@ -447,7 +372,7 @@
                 },
                 {
                     "consumingTime": "",
-                    "description": "撒马尔罕最主要的广场，包含3座经学院：帖木儿孙子曾经教授数学并以其名字命名的乌卢格别克经学院、以怒吼的猫科动物作为装饰的Sher Dor经学院（这种装饰方式与传统的伊斯兰教不允许描绘活着的动物的规定不相符），Tilla-Kari经学院（意为“顶部用黄金覆盖”），其在顶棚、墙壁等地方精美的装饰超越了很多中亚有名的建筑，被称为“撒马尔罕之心”",
+                    "description": "撒马尔罕最主要的广场，包含3座经学院：帖木儿孙子曾经教授数学并以其名字命名的乌卢格别克经学院、以怒吼的猫科动物作为装饰的SherDor经学院（这种装饰方式与传统的伊斯兰教不允许描绘活着的动物的规定不相符），Tilla-Kari经学院（意为“顶部用黄金覆盖”），其在顶棚、墙壁等地方精美的装饰超越了很多中亚有名的建筑，被称为“撒马尔罕之心”",
                     "name": "雷吉斯坦广场"
                 },
                 {
@@ -457,16 +382,16 @@
                 }
             ],
             "scheduleTraffics": [],
-            "title": "撒马尔罕一日游",
+            "title": "撒马尔罕之旅",
             "tripDay": 4
         },
         {
             "breakfast": 1,
-            "content": "早餐后，乘坐火车从撒马尔罕前往布哈拉。抵达后参观众多著名景点，包括 Chashma Ayub 陵、Kalon 建筑群、Kalon 清真寺、Mir-i-Arab 经学院、卡扬宣礼塔、萨曼陵墓、乌卢格别克经学院、Abdul Aziz Khan 经学院、Lyabi-Hauz 广场、Kukeldash 经学院、Chor-Bakr 陵城、夏宫、雅克城堡。晚餐后，入住酒店休息。",
+            "content": "早餐后，乘坐火车从撒马尔罕前往布哈拉。抵达后参观多个著名景点，包括 ChashmaAyub 陵、Kalon 建筑群、Kalon 清真寺、Mir-i-Arab 经学院、卡扬宣礼塔、萨曼陵墓、乌卢格别克经学院、AbdulAzizKhan 经学院、Lyabi-Hauz 广场、Kukeldash 经学院、Chor-Bakr 陵城、夏宫和雅克城堡。晚餐后，入住酒店休息。温馨提示：今日游览景点较多，敬请提前做好准备。",
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "SAHID ZARAFSHON HOTEL",
+                    "name": "SAHIDZARAFSHONHOTEL",
                     "star": ""
                 }
             ],
@@ -475,7 +400,7 @@
                 {
                     "consumingTime": "",
                     "description": "世界文化遗产，建于 12 - 16 世纪之间，下面有一眼泉水，其事迹记载于《约伯记》中，传说约伯（圣经里的一个人物）用它的杖击打地面后出现了一眼泉，遗憾的是现在这样泉水被新建的阿訇纪念馆挡住",
-                    "name": "Chashma Ayub 陵"
+                    "name": "ChashmaAyub 陵"
                 },
                 {
                     "consumingTime": "",
@@ -510,7 +435,7 @@
                 {
                     "consumingTime": "",
                     "description": "",
-                    "name": "Abdul Aziz Khan 经学院"
+                    "name": "AbdulAzizKhan 经学院"
                 },
                 {
                     "consumingTime": "",
@@ -547,16 +472,16 @@
                     "trafficType": "火车"
                 }
             ],
-            "title": "撒马尔罕-布哈拉之旅",
+            "title": "撒马尔罕 - 布哈拉之旅",
             "tripDay": 5
         },
         {
             "breakfast": 1,
-            "content": "酒店早餐后，乘车前往梅尔夫，参观梅尔夫古城、贾乌尔.卡拉要塞、桑加苏丹陵、木鹿城。后乘车前往马雷。晚餐后，入住酒店休息。温馨提示：今日乘车时间较长，敬请提前做好准备。",
+            "content": "酒店早餐后，乘车前往梅尔夫，参观梅尔夫古城、贾乌尔.卡拉要塞、桑加苏丹陵、木鹿城，后乘车前往马雷。晚餐后，入住酒店休息。今日乘车时间较长，敬请提前做好准备。",
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "MARY HOTEL 或同级",
+                    "name": "MARYHOTEL 或同级",
                     "star": ""
                 }
             ],
@@ -604,11 +529,11 @@
         },
         {
             "breakfast": 1,
-            "content": "早晨，乘车前往土库曼斯坦首都阿什哈巴德，抵达后参观国立博物馆、中立门、独立广场、地震纪念碑、苏联战争纪念碑、总统行政楼（外观）、阿什哈巴德国立大学（外观）、文化广场。探访土库曼斯坦最大的清真寺——吉普恰克清真寺（外观），游览结束后入住酒店休息。温馨提示：土库曼斯坦国所有入内景点如需拍照，需自行支付拍照费用。",
+            "content": "早晨乘车前往土库曼斯坦首都阿什哈巴德，抵达后参观国立博物馆、中立门、独立广场、地震纪念碑、苏联战争纪念碑、总统行政楼（外观）、阿什哈巴德国立大学（外观）、文化广场。探访土库曼斯坦最大的清真寺——吉普恰克清真寺（外观），游览结束后入住酒店休息。温馨提示：土库曼斯坦国所有入内景点如需拍照，需自行支付拍照费用。",
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "SPORT HOTEL",
+                    "name": "SPORTHOTEL",
                     "star": ""
                 }
             ],
@@ -664,17 +589,17 @@
                 {
                     "arrivalTime": "",
                     "departure": "马雷",
-                    "departureTime": "早晨",
+                    "departureTime": "2024年9月15日早晨",
                     "destination": "阿什哈巴德",
-                    "trafficType": "车"
+                    "trafficType": "汽车"
                 }
             ],
-            "title": "阿什哈巴德之旅",
+            "title": "土库曼斯坦首都阿什哈巴德之旅",
             "tripDay": 7
         },
         {
             "breakfast": 1,
-            "content": "酒店早餐后参观尼萨遗址，之后前往盖奥克泰佩看汗血宝马，游览结束后乘车前往达瓦扎，抵达后入住帐篷营地休息，晚上仰望苍穹，看璀璨星空（天气晴朗，条件允许下）。",
+            "content": "酒店早餐后参观尼萨遗址，然后前往盖奥克泰佩看阿克哈塔克马。游览结束后乘车前往达瓦扎，抵达后入住帐篷营地休息，晚上仰望苍穹，看璀璨星空。（天气晴朗，条件允许下）。温馨提示：1.今日入住营地帐篷，因地处沙漠地带，住宿条件原生态，较简陋，敬请谅解。2.今日路况欠佳且乘车时间较长，道路颠簸，请提前做好相应准备。",
             "dinner": 1,
             "hotels": [
                 {
@@ -686,7 +611,7 @@
             "scenes": [
                 {
                     "consumingTime": "",
-                    "description": "古代安息王国时期所建立的城市，被认为是安息最初的首都，也是阿萨息斯王朝皇家墓园的所在地。在安息国王米特里达梯一世时，尼萨改名为米特里达梯基特。",
+                    "description": "古代安息王国时期所建立的城市，并被认为是安息最初的首都，也是阿萨息斯王朝皇家墓园的所在地。在安息国王米特里达梯一世时，尼萨改名为米特里达梯基特。",
                     "name": "尼萨遗址"
                 },
                 {
@@ -702,28 +627,14 @@
             ],
             "scheduleTraffics": [
                 {
-                    "arrivalTime": "",
+                    "arrivalTime": "当天",
                     "departure": "阿什哈巴德",
-                    "departureTime": "早餐后",
-                    "destination": "尼萨遗址",
-                    "trafficType": "汽车"
-                },
-                {
-                    "arrivalTime": "",
-                    "departure": "尼萨遗址",
-                    "departureTime": "",
-                    "destination": "盖奥克泰佩",
-                    "trafficType": "汽车"
-                },
-                {
-                    "arrivalTime": "",
-                    "departure": "盖奥克泰佩",
-                    "departureTime": "",
+                    "departureTime": "2024年9月16日早餐后",
                     "destination": "达瓦扎",
                     "trafficType": "汽车"
                 }
             ],
-            "title": "阿什哈巴德至达瓦扎的探索之旅",
+            "title": "土库曼斯坦阿什哈巴德至达瓦扎之旅",
             "tripDay": 8
         },
         {
@@ -732,7 +643,7 @@
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "DASHOGUZ HOTEL 或同级",
+                    "name": "DASHOGUZHOTEL 或同级",
                     "star": ""
                 }
             ],
@@ -740,7 +651,7 @@
             "scenes": [
                 {
                     "consumingTime": "",
-                    "description": "古称玉龙杰赤，是古代花剌子模王国的首都，丝绸之路在中亚地区的重要交易都市之一。1220 年，玉龙杰赤遭成吉思汗率领的蒙古军队侵略，当地人民进行顽强抵抗后最终于 1221 年沦陷，惨遭屠城。后在金帐汗国的统治下重建，但于 14 世纪末又被帖木儿帝国所摧毁，自此该地区的繁华便日渐没落。包括：Turabek Hanum 陵墓、Sultan Tekesh 陵-Tekesh 是 12 世纪花拉子模国国王，他将花拉子模的领土扩张到南方的呼罗珊（即今天的伊朗北部和阿富汗北部）；MamunII 宣礼塔（建于 1011 年，被蒙古人夷为平地之后于 14 世纪重建，但再度毁于 1895 年的地震）；II-Arslan 陵（IIArslan 是 Tekesh 的父亲）；Kyrk Molla（40 毛拉山），它是库尼亚乌尔根奇居民与蒙古人进行最后决战的圣地。",
+                    "description": "古称玉龙杰赤，是古代花剌子模王国的首都，丝绸之路在中亚地区的重要交易都市之一。1220 年，玉龙杰赤遭成吉思汗率领的蒙古军队侵略，当地人民进行顽强抵抗后最终于 1221 年沦陷，惨遭屠城。后在金帐汗国的统治下重建，但于 14 世纪末又被帖木儿帝国所摧毁，自此该地区的繁华便日渐没落。包括：TurabekHanum 陵墓、SultanTekesh 陵-Tekesh 是 12 世纪花拉子模国国王，他将花拉子模的领土扩张到南方的呼罗珊（即今天的伊朗北部和阿富汗北部）；MamunII 宣礼塔（建于 1011 年，被蒙古人夷为平地之后于 14 世纪重建，但再度毁于 1895 年的地震）；II-Arslan 陵（IIArslan 是 Tekesh 的父亲）；KyrkMolla（40 毛拉山），它是库尼亚乌尔根奇居民与蒙古人进行最后决战的圣地。",
                     "name": "库尼亚乌尔根齐"
                 }
             ],
@@ -758,11 +669,11 @@
         },
         {
             "breakfast": 1,
-            "content": "酒店早餐后，乘车过土乌边境，后前往乌尔根奇，抵达希瓦。参观多个景点，包括希瓦古城、朱玛清真寺、ISLAM KHOJA 宣礼塔、KUHNA ARK、阿洛求汗经学院、Tosh-Hovli 宫、Pahlavon Mahmud 陵、夏季清真寺、Qq shihbobo 堡垒、Mohammed Rakhim khan 经学院、Kalta Minor 宣礼塔。晚餐后，入住酒店休息。",
+            "content": "酒店早餐后，乘车过土乌边境，后前往乌尔根奇，抵达希瓦。参观希瓦古城内的多个景点，包括伊钦•卡拉内城、朱玛清真寺、ISLAMKHOJA 宣礼塔、KUHNA ARK、阿洛求汗经学院、Tosh-Hovli 宫、Pahlavon Mahmud 陵、夏季清真寺、Qqshihbobo 堡垒、Mohammed Rakhimkhan 经学院、Kalta Minor 宣礼塔。晚餐后，入住酒店休息。",
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "ASIA KHIVAL HOTEL",
+                    "name": "ASIAKHIVALHOTEL 或同级",
                     "star": ""
                 }
             ],
@@ -781,7 +692,7 @@
                 {
                     "consumingTime": "",
                     "description": "塔高 47 米，全城最高点",
-                    "name": "ISLAM KHOJA 宣礼塔"
+                    "name": "ISLAMKHOJA 宣礼塔"
                 },
                 {
                     "consumingTime": "",
@@ -811,12 +722,12 @@
                 {
                     "consumingTime": "",
                     "description": "",
-                    "name": "Qq shihbobo 堡垒"
+                    "name": "Qqshihbobo 堡垒"
                 },
                 {
                     "consumingTime": "",
                     "description": "1873 年向俄国投降的可汗命名的",
-                    "name": "Mohammed Rakhim khan 经学院"
+                    "name": "Mohammed Rakhimkhan 经学院"
                 },
                 {
                     "consumingTime": "",
@@ -833,7 +744,7 @@
                     "trafficType": "汽车"
                 }
             ],
-            "title": "土库曼斯坦-乌兹别克斯坦希瓦之旅",
+            "title": "达绍古兹-乌尔根奇-希瓦之旅",
             "tripDay": 10
         },
         {
@@ -842,7 +753,7 @@
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "REGAL STAY HOTEL",
+                    "name": "REGALSTAYHOTEL",
                     "star": ""
                 }
             ],
@@ -867,13 +778,13 @@
             "scheduleTraffics": [
                 {
                     "arrivalTime": "10:55",
-                    "departure": "Khiva",
+                    "departure": "希瓦",
                     "departureTime": "09:35",
-                    "destination": "Tashkent",
+                    "destination": "塔什干",
                     "trafficType": "飞机"
                 }
             ],
-            "title": "乌兹别克斯坦首都塔什干之旅",
+            "title": "希瓦-乌尔根奇-塔什干之旅",
             "tripDay": 11
         },
         {
@@ -882,7 +793,7 @@
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "REGAL STAY HOTEL",
+                    "name": "REGALSTAYHOTEL",
                     "star": ""
                 }
             ],
@@ -890,7 +801,7 @@
             "scenes": [
                 {
                     "consumingTime": "",
-                    "description": "以圆顶市集为中心，拥有巨大绿色圆顶的市集，中贩卖各种杂货、干果与香料，构成了塔什干市民日常生活的片段。",
+                    "description": "以圆顶市集为中心，拥有巨大绿色圆顶的市集中贩卖各种杂货、干果与香料，构成了塔什干市民日常生活的片段。",
                     "name": "塔什干老城区"
                 },
                 {
@@ -945,11 +856,11 @@
         },
         {
             "breakfast": 1,
-            "content": "酒店早餐后，乘车前往机场乘坐国际航班前往吉尔吉斯的首都-比什凯克。抵达后导游接机。游览比什凯克市中心的阿拉套广场、胜利广场、国家历史博物馆、Oak 公园等。",
+            "content": "酒店早餐后，乘车前往机场乘坐国际航班前往吉尔吉斯的首都-比什凯克。抵达后导游接机。游览比什凯克市中心的多个广场及相关建筑，晚餐后，入住酒店休息。温馨提示：今日由于航班时刻原因，午餐改为打包午餐，敬请谅解。",
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "PLAZA HOTEL",
+                    "name": "PLAZAHOTEL",
                     "star": ""
                 }
             ],
@@ -957,23 +868,43 @@
             "scenes": [
                 {
                     "consumingTime": "",
-                    "description": "广场北侧是国家历史博物馆，这里陈列着帐篷、干尸、地毯甚至还有露天的土耳其图腾式的墓碑以及纪念革命的各种壁画等。议会大厦（外观）、国家音乐厅（外观）",
+                    "description": "广场北侧是国家历史博物馆，这里陈列着帐篷、干尸、地毯甚至还有露天的土耳其图腾式的墓碑以及纪念革命的各种壁画等。议会大厦（外观）、国家音乐厅（外观）。",
                     "name": "阿拉套广场"
                 },
                 {
                     "consumingTime": "",
-                    "description": "纪念二战结束 40 周年，有石头雕塑和百年树龄橡树的 Oak 公园；老广场、白宫（外观）、市政厅（外观）、玛纳斯英雄广场，整个城市汇集了老派苏联式建筑与新古典主义风格建筑",
+                    "description": "有石头雕塑和百年树龄橡树。",
                     "name": "胜利广场"
                 },
                 {
                     "consumingTime": "",
                     "description": "",
-                    "name": "国家历史博物馆"
+                    "name": "Oak 公园"
                 },
                 {
                     "consumingTime": "",
                     "description": "",
-                    "name": "Oak 公园"
+                    "name": "老广场"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "外观",
+                    "name": "白宫"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "外观",
+                    "name": "市政厅"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "玛纳斯英雄广场"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "这里陈列着帐篷、干尸、地毯甚至还有露天的土耳其图腾式的墓碑以及纪念革命的各种壁画等。",
+                    "name": "国家历史博物馆"
                 }
             ],
             "scheduleTraffics": [
@@ -990,11 +921,11 @@
         },
         {
             "breakfast": 1,
-            "content": "酒店早餐后，乘车前往距离比什凯克60公里的托克马克，参观碎叶城和布拉纳塔。随后继续行驶前往伊塞克湖，乘船游览此人间仙境的高山湖泊，尽赏伊赛克湖美景。晚餐后，入住酒店休息。",
+            "content": "酒店早餐后，乘车前往距离比什凯克 60 公里的托克马克，参观碎叶城和布拉纳塔。随后继续行驶前往伊塞克湖，乘船游览此人间仙境的高山湖泊，尽赏伊赛克湖美景。晚餐后，入住酒店休息。",
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "KAPRIZ HOTEL",
+                    "name": "KAPRIZHOTEL",
                     "star": ""
                 }
             ],
@@ -1002,12 +933,12 @@
             "scenes": [
                 {
                     "consumingTime": "",
-                    "description": "今阿克·贝希姆遗址，亦称托克马克古代突厥遗址。中国唐朝高宗调露元年（679 年）于西域所设之重镇。中国历代以来在西部地区设防最远的一座边陲城市。碎叶（有时是焉耆）与龟兹、疏勒、于阗并称为唐代“安西四镇”。贞观三年，玄奘在碎叶见西突厥叶护可汗。玄奘在《大唐西域记》记述：“自凌山行四百余里至大清池……清池西北行五百余里至素叶水城，城周六七里，诸国商胡杂居也。",
+                    "description": "今阿克·贝希姆遗址，亦称托克马克古代突厥遗址。中国唐朝高宗调露元年（679年），于西域所设之重镇。中国历代以来在西部地区设防最远的一座边陲城市。碎叶（有时是焉耆）与龟兹、疏勒、于阗并称为唐代“安西四镇”。贞观三年，玄奘在碎叶见西突厥叶护可汗。玄奘在《大唐西域记》记述：“自凌山行四百余里至大清池……清池西北行五百余里至素叶水城，城周六七里，诸国商胡杂居也。",
                     "name": "碎叶城"
                 },
                 {
                     "consumingTime": "",
-                    "description": "建于11世纪的世界文化遗产",
+                    "description": "建于 11 世纪的世界文化遗产",
                     "name": "布拉纳塔"
                 },
                 {
@@ -1032,7 +963,7 @@
                     "trafficType": "汽车"
                 }
             ],
-            "title": "比什凯克-托克马克-伊塞克湖之旅",
+            "title": "吉尔吉斯斯坦托克马克与伊塞克湖之旅",
             "tripDay": 14
         },
         {
@@ -1041,7 +972,7 @@
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "PLAZA HOTEL 或同级",
+                    "name": "PLAZAHOTEL 或同级",
                     "star": "未提及"
                 }
             ],
@@ -1067,33 +998,33 @@
         },
         {
             "breakfast": 1,
-            "content": "早餐后乘车前往吉哈边境，前往哈萨克斯坦苹果之城——阿拉木图。抵达后游览阔克托别山（登顶），乘缆车前往全景台，在这里可俯瞰阿拉木图市全景；观看惊险刺激的具有哈萨克斯坦独特风格的“猎鹰表演秀”，哈萨克斯坦第一总统公园（入内）；晚餐后，入住酒店休息。",
+            "content": "早餐后乘车前往吉哈边境，抵达阿拉木图后游览阔克托别山（登顶），观看猎鹰表演秀，游览哈萨克斯坦第一总统公园。晚餐后入住酒店休息。",
             "dinner": 1,
             "hotels": [
                 {
-                    "name": "SADU HOTEL 或同级",
-                    "star": ""
+                    "name": "SADUHOTEL 或同级",
+                    "star": "未知"
                 }
             ],
             "lunch": 1,
             "scenes": [
                 {
-                    "consumingTime": "",
+                    "consumingTime": "较长",
                     "description": "乘缆车前往全景台，在这里可俯瞰阿拉木图市全景；观看惊险刺激的具有哈萨克斯坦独特风格的“猎鹰表演秀”",
                     "name": "阔克托别山"
                 },
                 {
-                    "consumingTime": "",
+                    "consumingTime": "适中",
                     "description": "入内游览",
                     "name": "哈萨克斯坦第一总统公园"
                 }
             ],
             "scheduleTraffics": [
                 {
-                    "arrivalTime": "",
-                    "departure": "",
-                    "departureTime": "",
-                    "destination": "",
+                    "arrivalTime": "未知",
+                    "departure": "比什凯克",
+                    "departureTime": "早餐后",
+                    "destination": "阿拉木图",
                     "trafficType": "汽车"
                 }
             ],
@@ -1108,12 +1039,12 @@
             "lunch": 1,
             "scenes": [
                 {
-                    "consumingTime": "",
+                    "consumingTime": "早餐后",
                     "description": "亚洲最大的高山滑雪场，尽览天山山脉之壮丽景色。在缆车行驶中可俯瞰到全世界海拔最高的体育场-麦迪奥体育场。",
                     "name": "琴布拉克"
                 },
                 {
-                    "consumingTime": "",
+                    "consumingTime": "午餐后",
                     "description": "",
                     "name": "28 勇士潘菲洛夫公园"
                 }
@@ -1127,18 +1058,18 @@
                     "trafficType": "飞机"
                 }
             ],
-            "title": "阿拉木图之旅",
+            "title": "阿拉木图游览之旅",
             "tripDay": 17
         },
         {
             "breakfast": 0,
-            "content": "抵达后，结束美好的中亚之旅，回到温馨的家！",
+            "content": "抵达乌鲁木齐后，结束美好的中亚之旅，回到温馨的家！",
             "dinner": 0,
             "hotels": [],
             "lunch": 0,
             "scenes": [],
             "scheduleTraffics": [],
-            "title": "结束中亚之旅，回到温馨的家",
+            "title": "中亚之旅结束，返程回家",
             "tripDay": 18
         }
     ]

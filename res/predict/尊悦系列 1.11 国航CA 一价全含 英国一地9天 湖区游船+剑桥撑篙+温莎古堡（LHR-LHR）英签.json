@@ -1,0 +1,519 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京市",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "欧洲",
+                "destCityName": "",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "本公司已为每位参团旅客购买价值 30 万之人身意外保险。强烈建议旅客自行购买旅游意外保险，以更全面保障旅客利益。",
+            "name": "人身意外保险",
+            "typeName": "境内外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "深度文化体验"
+            },
+            {
+                "name": "专业导游陪同"
+            },
+            {
+                "name": "精选酒店住宿"
+            },
+            {
+                "name": "安全保障措施"
+            }
+        ],
+        "productSubtitle": "享受欧洲的古典与现代",
+        "productTitle": "北京至欧洲往返旅游产品",
+        "returnCityName": "北京市",
+        "tags": [
+            {
+                "name": "文化之旅"
+            },
+            {
+                "name": "历史探索"
+            },
+            {
+                "name": "自然景观"
+            },
+            {
+                "name": "休闲度假"
+            }
+        ],
+        "themes": [
+            {
+                "name": "文化探索"
+            },
+            {
+                "name": "历史遗迹"
+            },
+            {
+                "name": "自然风光"
+            },
+            {
+                "name": "深度体验欧洲文化与自然"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "国际航班",
+        "goTransportName": "国际航班",
+        "hotelStarName": "-1",
+        "lineFeature": "本线路涵盖了欧洲多个国家的文化遗产、历史遗迹和自然风光，让您深度体验欧洲的魅力。行程中包含专业导游陪同、精选酒店住宿、安全的交通安排以及丰富的文化活动。",
+        "lineSimpleTitle": "欧洲文化探索之旅",
+        "lineSortTitle": "ECE",
+        "lineTitle": "北京至欧洲往返旅游线路",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "欧洲各大城市",
+                "countryName": "欧洲",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "14",
+        "tripNight": "13",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": []
+        },
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "北京",
+                "arriveTime": "13:15+1",
+                "days": 0,
+                "flightNo": "CA938",
+                "flightSort": "回程",
+                "startAirportName": "伦敦",
+                "startTime": "20:25"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "伦敦",
+                "arriveTime": "17:45",
+                "days": 0,
+                "flightNo": "CA937",
+                "flightSort": "去程",
+                "startAirportName": "北京首都国际机场",
+                "startTime": "14:15"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "请务必携带有效的护照和签证。请严格遵守团队出发当日的集中时间、境外行程安排中及返回的各个集合时间。请携带足够的现金和信用卡，以应对突发情况。请携带必要的药品和个人用品。",
+        "costExclude": "护照及签证费用、单房差、个人消费（如电话费、洗衣费等）、酒店内的迷你吧消费、航班上的额外服务费用（如托运行李超重费）、自费项目",
+        "costInclude": "国际往返机票、欧洲境内交通、全程精选酒店住宿、行程中所列景点首道门票、专业导游陪同、旅游保险",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "100%",
+                "end": "30"
+            },
+            {
+                "begin": "0",
+                "cost": "50%",
+                "end": "15"
+            },
+            {
+                "begin": "0",
+                "cost": "0%",
+                "end": "14"
+            }
+        ],
+        "otherRule": "本公司保留对上述行程的最终解释权。如因游客自身原因未能游览参观的则视为自动放弃，旅行社将无法退费用。本公司有权根据实际情况对行程次序、景点、航班及住宿地点作临时修改、变动或更换。",
+        "returnContent": "出发前30天以上取消，退还全额费用。出发前15-29天取消，退还50%费用。出发前14天内取消，不退还任何费用。如因不可抗力因素导致行程取消，本公司将尽力协调，但不承担赔偿责任。",
+        "selfCostContent": "乘坐游船游览泰晤士河，欣赏伦敦塔桥和沿岸风景。乘坐游船游览塞纳河，欣赏埃菲尔铁塔和巴黎市区美景。",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "成人£20，儿童£15",
+                "name": "伦敦塔桥游船",
+                "remark": "乘坐游船游览泰晤士河，欣赏伦敦塔桥和沿岸风景。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "成人€25，儿童€18",
+                "name": "巴黎塞纳河游船",
+                "remark": "乘坐游船游览塞纳河，欣赏埃菲尔铁塔和巴黎市区美景。",
+                "stay": ""
+            }
+        ],
+        "shopContent": "购物为自愿行为，不强制消费。",
+        "shops": [
+            {
+                "address": "87-135 Brompton Rd, Knightsbridge, London SW1X 7LZ, UK",
+                "remark": "哈罗德百货是世界上最著名的百货公司之一，拥有丰富的奢侈品和时尚品牌。",
+                "shopName": "伦敦哈罗德百货",
+                "shopProduct": "奢侈品、时尚服饰、化妆品",
+                "stay": "120"
+            }
+        ],
+        "tipsContent": "带好应季衣物，以免天气变化较大，容易着凉、感冒。请尽量准备好防日晒、防雨、游泳时所必备的遮阳伞、太阳镜、防晒霜、泳装等等。鞋子以平底轻便的运动鞋为宜，女士请尽量不要穿高跟鞋。"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "11:00北京首都国际机场集合，专业送团人召开出团前旅游说明会。14:15搭乘中国国际航空公司客机直飞伦敦。17:45抵达伦敦，专车接机随后前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "17:45",
+                    "departure": "北京",
+                    "departureTime": "14:15",
+                    "destination": "伦敦",
+                    "trafficType": "飞机/巴士"
+                }
+            ],
+            "title": "北京至伦敦",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "早上 07:00 酒店享用早餐，08:00 乘车前往剑桥，10:00 游览剑桥的国王学院、三一学院等，特别安排剑桥撑篙游船。12:30 午餐自理，13:30 乘车前往约克，17:00 抵达后外观约克大教堂，18:00 晚餐，19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约 4 小时",
+                    "description": "在漫长的历史洪流中，康河两岸增建了许多美丽的大学校舍，外观国王学院和牛顿的母校“最牛的学院”三一学院，它是剑桥大学最有名，财力最雄厚，风景最美的学院，学院的庭园里栽种着砸过牛顿脑袋的“苹果树”。特别安排剑桥撑篙游船，沿着康河游览剑桥大学城最美的学院后草坪。",
+                    "name": "剑桥"
+                },
+                {
+                    "consumingTime": "约 4 小时",
+                    "description": "造访这座拥有中古纪至乔治王时代等历史瑰宝的城市；抵达后外观约克大教堂，它是欧洲现存最大的中世纪时期哥特式教堂，是世界上设计和建筑艺术最精湛的教堂之一，十分的宏伟庄严，耗费了 200 多年的时间才建成。教堂东南的一整片彩色玻璃是全世界最大的中世纪彩绘玻璃窗，大厅是《哈利波特》中的霍格沃茨大厅拍摄地。",
+                    "name": "约克"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "10:00",
+                    "departure": "",
+                    "departureTime": "08:00",
+                    "destination": "剑桥",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "17:00",
+                    "departure": "剑桥",
+                    "departureTime": "13:30",
+                    "destination": "约克",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "伦敦、剑桥、约克之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店享用早餐；08:00乘车前往苏格兰首府—爱丁堡，充满了苏格兰独特的魅力。11:00抵达后参观爱丁堡城堡，后漫步中古石铺大道皇家英里大道，随后前往著名的王子街。12:30午餐，七菜一汤；16:00乘车前往格拉斯哥（或英国小镇），17:30晚餐自理；19:00前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "11:00-12:30",
+                    "description": "爱丁堡现存最古老的建筑；而宫殿里有不少苏格兰宝物，如1540年设计的苏格兰皇冠，及其他的权杖、宝剑等文物",
+                    "name": "爱丁堡城堡"
+                },
+                {
+                    "consumingTime": "12:30之后",
+                    "description": "每年八月份爱丁堡的军乐队游行便在此举行。",
+                    "name": "皇家英里大道"
+                },
+                {
+                    "consumingTime": "12:30之后",
+                    "description": "爱丁堡最繁华的街道。王子街把爱丁堡分为新旧二城，北面分为新城，南面为旧城。新，旧两城之间有一座长条山丘，天然壁垒分明，王子街素有“全球景色最佳的马路”之称。",
+                    "name": "王子街"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "11:00",
+                    "departure": "",
+                    "departureTime": "08:00",
+                    "destination": "爱丁堡",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "爱丁堡",
+                    "departureTime": "16:00",
+                    "destination": "格拉斯哥（或英国小镇）",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "约克-爱丁堡-格拉斯哥（或英国小镇）之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐；08:00 乘车前往温德米尔湖区；11:30 午餐安排英国特色餐 Fish&Chips（炸鱼薯条餐）；12:30 游览温德米尔湖区；14:30 乘车前往曼彻斯特；17:00 抵达后外观曼联队体育馆—老特拉福德球场，游览曼彻斯特唐人街；18:00 晚餐；19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "12:30-14:30",
+                    "description": "特别安排湖区游船，游览湖区周边美景。崇尚自然的诗人威廉华兹华斯曾说过：『我不知道有任何地方能在如此狭小的范畴中，揉合光影的变化，展现如此壮观优美的景色』，您可身历其境体验英格兰湖光山色，湖区迷人的风景，增添美好的回忆。",
+                    "name": "温德米尔湖区"
+                },
+                {
+                    "consumingTime": "14:30-19:00",
+                    "description": "英格兰工业重镇、足球劲旅曼联球乡，这里也是英国的第二大城市仅次于伦敦，是城市重建的一个典范，人们可以从这里看到英国工业的发展历史。外观曼联队体育馆—老特拉福德球场，游览曼彻斯特唐人街。",
+                    "name": "曼彻斯特"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "11:30",
+                    "departure": "格拉斯哥",
+                    "departureTime": "08:00",
+                    "destination": "温德米尔湖区",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "17:00",
+                    "departure": "温德米尔湖区",
+                    "departureTime": "14:30",
+                    "destination": "曼彻斯特",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "格拉斯哥 - 温德米尔湖区 - 曼彻斯特之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐；08:00 前往莎士比亚故居-斯特拉特福镇，10:00 外观莎士比亚故居；12:00 午餐，七菜一汤；13:00 乘车前往比斯特购物村，17:00 晚餐自理；19:00 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "2 小时",
+                    "description": "外观莎士比亚故居，与莎士比亚家庭有关的房屋大多保存至今并保留着它们的原样",
+                    "name": "莎士比亚故居-斯特拉特福镇"
+                },
+                {
+                    "consumingTime": "4 小时",
+                    "description": "英国人气最旺的Outlet，据统计是非欧盟游客在伦敦城外的购物首选。比斯特购物村内 90 多个世界名牌价格基本是正价的对折甚至更少",
+                    "name": "比斯特购物村"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "曼彻斯特-斯特拉特福-比斯特购物村-英国小镇之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "早上07:00在酒店享用早餐，08:00乘车前往牛津，了解其悠久的历史和丰富的文化。12:00午餐自理，13:00前往伦敦自由活动，18:00晚餐，七菜一汤，19:00前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约5小时",
+                    "description": "牛津因闻名于它的世界一流学府的地位和遍布各地的古迹，使它成为人们极度梦想的城市。距今1100多年的牛津城是英国皇族和学者的摇篮，包括撒切尔夫人在内的20多位英国首相以及克林顿等外国首脑，诗人雪莱、作家格林等一批知名学者都曾求学牛津，在其800多年的校史中，牛津拥有40多位诺贝尔奖得主。外观基督教堂学院。",
+                    "name": "牛津"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "08:00",
+                    "destination": "牛津",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "牛津",
+                    "departureTime": "13:00",
+                    "destination": "伦敦",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "英国小镇、牛津、伦敦之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店享用早餐；08:00乘车前往参观大英博物馆（含讲解）；12:00午餐，七菜一汤；13:00市区游览，外观大本钟、伦敦眼、英国国会、西敏寺教堂、白金汉宫、伦敦塔桥、伦敦塔；18:00晚餐自理；19:00前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "又名大不列颠博物馆，成立于1753年，1759年1月15日起正式对公众开放，是世界上历史最悠久、规模最宏伟的综合性博物馆，也是世界上规模最大、最著名的博物馆之一",
+                    "name": "大英博物馆"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "坐落在英国伦敦泰晤士河畔的一座钟楼，是伦敦的标志性建筑之一",
+                    "name": "大本钟"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "又称千禧之轮，坐落在伦敦泰晤士河畔，是世界第四大摩天轮，是伦敦的地标之一，也是伦敦最吸引游人的观光点之一",
+                    "name": "伦敦眼"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "世界议会制度的起源地",
+                    "name": "英国国会"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "这里是威廉王子婚礼的举办地，西敏寺代表了国家与教会的联系，英国历代国王加冕以及重大典礼都在此举行",
+                    "name": "西敏寺教堂"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "位于伦敦威斯敏斯特城内，是英国王室的王宫和居所",
+                    "name": "白金汉宫"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "是伦敦的象征，有“伦敦正门”之称",
+                    "name": "伦敦塔桥"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "它在英国王宫中的意义非常重大，作为一个防卫森严的堡垒和宫殿，英国数代国王都在此居住，国王加冕前住伦敦塔便成了一种惯例。伦敦塔还是一座著名的监狱，英国历史上不少王公贵族和政界名人都曾被关押在这里",
+                    "name": "伦敦塔"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "伦敦一日游",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 酒店享用早餐；09:00 乘车前往温莎游览温莎堡，午餐敬请自理；15:00 乘车前往机场，办理登机手续。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "09:00 - 15:00",
+                    "description": "它是世界上现存王室古堡中规模最大的一座古代城堡，当年爱德华八世为能迎娶心上人辛普森太太为妻，不惜逊位，降为温莎公爵，其“爱美人不爱江山”的浪漫爱情故事至今令人感动",
+                    "name": "温莎堡"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "13:15+1",
+                    "departure": "伦敦",
+                    "departureTime": "15:00",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "伦敦返程之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 0,
+            "content": "安抵北京机场，结束愉快的旅程！领取行李时如发生行李遗失或损坏的情况，请及时告知导游，由导游协助向航空公司办理相关手续或申请相关索赔。介绍了海关与出入境、气候与穿着、行程须知等相关内容。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "返程结束旅程",
+            "tripDay": 9
+        }
+    ]
+}

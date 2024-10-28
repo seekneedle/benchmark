@@ -1,0 +1,397 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 12,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "12 岁以下儿童不占床，12 岁以上儿童按成人收费",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "北京",
+        "dests": [
+            {
+                "countryName": "马来西亚",
+                "destCityName": "亚庇",
+                "destProvinceName": "沙巴"
+            },
+            {
+                "countryName": "马来西亚",
+                "destCityName": "斗湖",
+                "destProvinceName": "沙巴"
+            },
+            {
+                "countryName": "马来西亚",
+                "destCityName": "仙本那",
+                "destProvinceName": "沙巴"
+            },
+            {
+                "countryName": "马来西亚",
+                "destCityName": "马达京岛",
+                "destProvinceName": "沙巴"
+            },
+            {
+                "countryName": "马来西亚",
+                "destCityName": "邦邦岛",
+                "destProvinceName": "沙巴"
+            },
+            {
+                "countryName": "马来西亚",
+                "destCityName": "马布岛",
+                "destProvinceName": "沙巴"
+            },
+            {
+                "countryName": "马来西亚",
+                "destCityName": "卡帕莱岛",
+                "destProvinceName": "沙巴"
+            },
+            {
+                "countryName": "马来西亚",
+                "destCityName": "沙巴大学",
+                "destProvinceName": "沙巴"
+            },
+            {
+                "countryName": "马来西亚",
+                "destCityName": "沙巴粉红清真寺",
+                "destProvinceName": "沙巴"
+            },
+            {
+                "countryName": "马来西亚",
+                "destCityName": "沙巴基金会大厦",
+                "destProvinceName": "沙巴"
+            },
+            {
+                "countryName": "马来西亚",
+                "destCityName": "水上清真寺",
+                "destProvinceName": "沙巴"
+            },
+            {
+                "countryName": "马来西亚",
+                "destCityName": "KAWA 红树林",
+                "destProvinceName": "沙巴"
+            }
+        ],
+        "insurance": {
+            "content": "赠送普通境外旅游人身意外险，有以下项目不属于保险理赔范围：战争、武装冲突、罢工、投保前已存在的疾病、高风险活动如潜水、攀岩、蹦极等",
+            "name": "普通境外旅游人身意外险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "独家安排仙本那跳岛游，3 次浮潜，网红透明玻璃船，1 对 6 小黑浮潜照料"
+            },
+            {
+                "name": "沙巴大学参观，体验世界最美丽大学的魅力"
+            },
+            {
+                "name": "探访网红沙巴粉红清真寺，感受梦幻的粉色建筑"
+            },
+            {
+                "name": "KAWA 红树林寻找长鼻猴和萤火虫，体验独特的生态之旅"
+            }
+        ],
+        "productSubtitle": "探索仙本那与沙巴的自然美景",
+        "productTitle": "极·致仙本那+沙巴 5 晚 7 日",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "海岛度假"
+            },
+            {
+                "name": "潜水胜地"
+            },
+            {
+                "name": "自然风光"
+            },
+            {
+                "name": "文化体验"
+            }
+        ],
+        "themes": [
+            {
+                "name": "海岛度假"
+            },
+            {
+                "name": "潜水体验"
+            },
+            {
+                "name": "自然探索"
+            },
+            {
+                "name": "海岛休闲"
+            },
+            {
+                "name": "自然探险"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "本地航班 + 国际航班",
+        "goTransportName": "国际航班 + 本地航班",
+        "hotelStarName": "-1",
+        "lineFeature": "仙本那跳岛游：探访汀巴汀巴岛、马达京岛、邦邦岛、马布岛、卡帕莱岛，体验3次浮潜和网红透明玻璃船；沙巴文化体验：参观沙巴大学、沙巴粉红清真寺、沙巴基金会大厦、水上清真寺；生态之旅：KAWA红树林寻找长鼻猴和萤火虫，体验独特的自然风光",
+        "lineSimpleTitle": "仙本那+沙巴",
+        "lineSortTitle": "SB5D7N",
+        "lineTitle": "极·致仙本那+沙巴5晚7日",
+        "needVisa": 0,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": "北京"
+            },
+            {
+                "cityName": "沙巴亚庇",
+                "countryName": "马来西亚",
+                "provinceName": ""
+            },
+            {
+                "cityName": "斗湖",
+                "countryName": "马来西亚",
+                "provinceName": ""
+            },
+            {
+                "cityName": "仙本那",
+                "countryName": "马来西亚",
+                "provinceName": ""
+            },
+            {
+                "cityName": "亚庇",
+                "countryName": "马来西亚",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "7",
+        "tripNight": "5",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "马来西亚",
+                    "district": "",
+                    "freeVisa": 1,
+                    "signPlace": ""
+                }
+            ]
+        },
+        "backAirports": [
+            {
+                "airlineCode": "AK",
+                "airlineName": "亚航",
+                "arriveAirportName": "亚庇国际机场",
+                "arriveTime": "14:15",
+                "days": 0,
+                "flightNo": "6267",
+                "flightSort": "回程",
+                "startAirportName": "斗湖机场",
+                "startTime": "13:25"
+            }
+        ],
+        "goAirports": []
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "请提前至少30天预订，以确保航班和酒店的安排，请提供准确的护照信息，以便办理相关手续，如需定制行程，请提前联系客服",
+        "costExclude": "个人护照办理费用，酒店内电话、传真、洗熨、收费电视、饮料、行李搬运等费用，单房差费用，旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失，因个人原因滞留产生的费用，因气候或飞机、车辆、船只等交通工具发生故障导致时间延误或行程变更引起的经济损失和责任，行李在航班托运期间造成损坏的经济损失和责任，马来西亚酒店旅游税10马币/间晚，服务包含项目未提及的其他一切费用",
+        "costInclude": "行程所列酒店住宿，当地空调旅游巴士（1人1正座），中文导游服务，行程中所列餐食，行程所含景点（区）门票，往返机票（经济舱）",
+        "lineReturns": [],
+        "otherRule": "马达京线和卡帕莱线出海顺序境外可根据实际情况调整，非包船出海，境外可能会拼船，马达京岛/邦邦岛仅1岛登岛，随机安排，下午所有出海船只需在16点禁海之前返回码头",
+        "returnContent": "团队机票不得改签和退票，联程机票需要按顺序使用，如果出现上一段机票未用情况，后面机票也将会作废无法使用，若因个人原因取消行程，需提前30天通知，否则将扣除全额费用，如因不可抗力因素（如战争、政治动荡、天灾、恶劣天气、交通工具发生技术问题、罢工及工业行动等）导致行程取消或变更，本社将按实际情况进行处理，费用按实际发生情况结算",
+        "selfCostContent": "",
+        "selfCosts": [],
+        "shopContent": "",
+        "shops": [],
+        "tipsContent": "请提前于航班时间3小时抵达机场，办理出境手续及换登机牌，酒店入住时间：15:00以后，离店时间：12:00之前，请自备5000人民币现金或等值货币入境以防海关抽查，请携带防晒霜、防晒服、太阳眼镜、拖鞋、泳裤、泳衣、胃肠药、防蚊虫叮咬药等，享受美味的海鲜之后，不要吃榴梿椰子等热性水果，否则将引起腹泻，沙巴的行车方向与中国相反，旅客在过马路时要注意安全，自觉遵守交通法规，请勿将榴莲、山竹、菠萝蜜带入酒店。勿在走廊上大声喧闹，中国旅客需提高警惕，保管好个人手提包、背包、证件和其他贵重物品，尽量避免独自出行，提防骑行摩托抢包，请带小孩出游的客人照看好身边的小孩以免出现走丢或受伤等意外情况，参加水上活动时，请务必穿好救生衣，接受工作人员的讲解，并于船上练习呼吸面具的使用方法，请不要踩踏珊瑚，采摘或损坏珊瑚。禁止触摸任何海洋生物（海星、海龟、鱼等）"
+    },
+    "trips": [
+        {
+            "breakfast": 1,
+            "content": "上午游览马布岛和卡帕莱岛（卡帕莱不登岛），享受跳岛游特色：2 次浮潜，1 对 6 小黑浮潜照料。下午所有出海船只需在 16 点禁海之前返回码头。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "海丰",
+                    "star": ""
+                },
+                {
+                    "name": "卡帕莱（非水屋）",
+                    "star": ""
+                },
+                {
+                    "name": "永达",
+                    "star": ""
+                },
+                {
+                    "name": "Grace",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "一个拥有着“小马尔代夫”的仙本那，旅游业开始至今最火热的一个海岛，路线，每一天都吸引着众多的游客前来拍照打卡。是一个潜水宝地也是一个度假宝地，潜水中能看见一幢幢的建筑物是建造在海底的，就好比网络上疯传的“上帝的水族馆”一样。无论男女老少都非常热爱马布岛，因为它不只是潜水的地方，它还是个拍大片的地方，随手一拍就是大片，随手一拍也是明信片。",
+                    "name": "马布岛"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "一个拥有着“小马尔代夫”的仙本那，旅游业开始至今最火热的一个海岛，路线，每一天都吸引着众多的游客前来拍照打卡。是一个潜水宝地也是一个度假宝地，潜水中能看见一幢幢的建筑物是建造在海底的，就好比网络上疯传的“上帝的水族馆”一样。无论男女老少都非常热爱卡帕莱岛，因为它不只是潜水的地方，它还是个拍大片的地方，随手一拍就是大片，随手一拍也是明信片。",
+                    "name": "卡帕莱岛"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "仙本那海岛之旅",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "进行马布岛和卡帕莱岛的跳岛游，特色为 2 次浮潜，1 对 6 小黑浮潜照料。马达京线和卡帕莱线出海顺序境外可根据实际情况调整，非包船出海，境外可能会拼船。马达京岛/邦邦岛仅 1 岛登岛，随机安排。下午所有出海船只需在 16 点禁海之前返回码头。退房后之后，根据航班时间，前往斗湖机场搭乘本地航班前往亚庇国际机场。斗湖-亚庇参考航班：AK6267  13:25-14:15",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "海丰",
+                    "star": ""
+                },
+                {
+                    "name": "卡帕莱（非水屋）",
+                    "star": ""
+                },
+                {
+                    "name": "永达",
+                    "star": ""
+                },
+                {
+                    "name": "Grace",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "一个拥有着“小马尔代夫”的仙本那，旅游业开始至今最火热的一个海岛，是一个潜水宝地也是一个度假宝地，潜水中能看见一幢幢的建筑物是建造在海底的，就好比网络上疯传的“上帝的水族馆”一样。无论男女老少都非常热爱马布岛，因为它不只是潜水的地方，它还是个拍大片的地方，随手一拍就是大片，随手一拍也是明信片。",
+                    "name": "马布岛"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "卡帕莱不登岛，一个拥有着“小马尔代夫”的仙本那，旅游业开始至今最火热的一个海岛，是一个潜水宝地也是一个度假宝地，潜水中能看见一幢幢的建筑物是建造在海底的，就好比网络上疯传的“上帝的水族馆”一样。无论男女老少都非常热爱卡帕莱岛，因为它不只是潜水的地方，它还是个拍大片的地方，随手一拍就是大片，随手一拍也是明信片。",
+                    "name": "卡帕莱岛"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "14:15",
+                    "departure": "斗湖",
+                    "departureTime": "13:25",
+                    "destination": "亚庇",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "仙本那跳岛游与航班行程",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "退房后，根据航班时间，前往斗湖机场搭乘本地航班前往亚庇国际机场。斗湖-亚庇参考航班：AK6267 13:25-14:15",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "14:15",
+                    "departure": "斗湖机场",
+                    "departureTime": "13:25",
+                    "destination": "亚庇国际机场",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "从斗湖前往亚庇",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "退房后，根据航班时间，前往斗湖机场搭乘本地航班前往亚庇国际机场。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "14:15",
+                    "departure": "斗湖机场",
+                    "departureTime": "13:25",
+                    "destination": "亚庇国际机场",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "从斗湖前往亚庇",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "退房后，根据航班时间，前往斗湖机场搭乘本地航班 AK6267 前往亚庇国际机场。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "14:15",
+                    "departure": "斗湖",
+                    "departureTime": "13:25",
+                    "destination": "亚庇",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "从斗湖前往亚庇",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "退房后，根据航班时间，前往斗湖机场搭乘本地航班前往亚庇国际机场。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "14:15",
+                    "departure": "斗湖机场",
+                    "departureTime": "13:25",
+                    "destination": "亚庇国际机场",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "从斗湖前往亚庇",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "退房后，根据航班时间，前往斗湖机场搭乘本地航班前往亚庇国际机场。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "14:15",
+                    "departure": "斗湖机场",
+                    "departureTime": "13:25",
+                    "destination": "亚庇国际机场",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "从斗湖前往亚庇",
+            "tripDay": 7
+        }
+    ]
+}

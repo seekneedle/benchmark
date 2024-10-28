@@ -1,0 +1,591 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京市",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "俄罗斯",
+                "destCityName": "莫斯科",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "俄罗斯",
+                "destCityName": "圣彼得堡",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "推荐客人根据自身情况，额外补上医疗50万或70万的大额保险；年龄在65岁及以上的老年人，请咨询旅行社代您投保适用于您的险种",
+            "name": "",
+            "typeName": ""
+        },
+        "insuranceIncluded": 0,
+        "markets": [
+            {
+                "name": "国际往返机票，团队经济舱"
+            },
+            {
+                "name": "俄罗斯免签团队"
+            },
+            {
+                "name": "莫斯科和圣彼得堡五星级酒店"
+            },
+            {
+                "name": "中式早餐及正餐，俄式特色餐"
+            },
+            {
+                "name": "专业导游及领队服务"
+            },
+            {
+                "name": "入内景点首道门票"
+            },
+            {
+                "name": "外籍司机及旅游空调巴士"
+            }
+        ],
+        "productSubtitle": "莫斯科 & 圣彼得堡五星级酒店体验",
+        "productTitle": "俄罗斯免签团体游",
+        "returnCityName": "北京市",
+        "tags": [
+            {
+                "name": "免签"
+            },
+            {
+                "name": "五星酒店"
+            },
+            {
+                "name": "文化体验"
+            },
+            {
+                "name": "历史遗迹"
+            }
+        ],
+        "themes": [
+            {
+                "name": "文化探索"
+            },
+            {
+                "name": "历史遗迹"
+            },
+            {
+                "name": "深入俄罗斯文化，体验五星级酒店奢华"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "国际航班",
+        "goTransportName": "国际航班",
+        "hotelStarName": "5",
+        "lineFeature": "体验莫斯科和圣彼得堡的五星级酒店；欣赏红场、克林姆林宫、列宁墓、夏宫、冬宫等著名景点；享受中式早餐及正餐，俄式特色餐；专业导游及领队服务，外籍司机及旅游空调巴士",
+        "lineSimpleTitle": "俄罗斯免签游",
+        "lineSortTitle": "RU 免签",
+        "lineTitle": "俄罗斯免签团体游",
+        "needVisa": 0,
+        "passCities": [
+            {
+                "cityName": "莫斯科",
+                "countryName": "俄罗斯",
+                "provinceName": ""
+            },
+            {
+                "cityName": "圣彼得堡",
+                "countryName": "俄罗斯",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "未提供",
+        "tripNight": "未提供",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "俄罗斯免签团队，提供清晰护照首页照片，有效期在团队结束之日之后 6 个月以上的因私护照，护照最后一页用签字笔签名，两张签证空白页",
+                    "country": "俄罗斯",
+                    "district": "",
+                    "freeVisa": 1,
+                    "signPlace": ""
+                }
+            ]
+        },
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空",
+                "arriveAirportName": "北京",
+                "arriveTime": "07:15+1",
+                "days": 0,
+                "flightNo": "CA910",
+                "flightSort": "回程",
+                "startAirportName": "莫斯科",
+                "startTime": "18:45"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空",
+                "arriveAirportName": "莫斯科",
+                "arriveTime": "16:55",
+                "days": 0,
+                "flightNo": "CA909",
+                "flightSort": "去程",
+                "startAirportName": "北京",
+                "startTime": "13:45"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": {
+            "adultSalePrice": "具体价格未提供",
+            "childSalePrice": "具体价格未提供",
+            "sellRemark": "预订需提供有效护照信息；65岁及以上老年人需购买高额保险；如需单间需支付单间差费用；护照费用自理；服务中不含的景点门票费用自理；酒店内个人消费自理；65岁老年人建议购买高额保险，70岁及以上老年人需购买高额保险；出入境超重行李的托运费、保管费自理；以上服务内容中未提及的其他费用自理"
+        },
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "预订需提供有效护照信息；65 岁及以上老年人需购买高额保险；如需单间需支付单间差费用；护照费用自理；服务中不含的景点门票费用自理；酒店内个人消费自理；65 岁老年人建议购买高额保险，70 岁及以上老年人需购买高额保险；出入境超重行李的托运费、保管费自理；以上服务内容中未提及的其他费用自理",
+        "costExclude": "酒店单间差费用；护照费用；服务中不含的景点门票费用；酒店内个人消费；65 岁老年人建议购买高额保险，70 岁及以上老年人需购买高额保险；出入境超重行李的托运费、保管费；以上服务内容中未提及的其他费用",
+        "costInclude": "国际间往返机票，团队经济舱，包含机场建设税；俄罗斯免签团队；莫斯科和圣彼得堡五星级酒店；中式早餐及正餐，俄式特色餐；专业导游及领队服务；入内景点首道门票；外籍司机及旅游空调巴士",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "0",
+                "end": "0"
+            }
+        ],
+        "otherRule": "行程中所列航班号及时间仅供参考，请以出团通知标注航班号及时间为准；如遇客观因素景点关门，本社有权调整游览顺序；如确实无法安排，将根据实际情况进行调整；景点实际游览时间以行程中标注时间为准，承诺不少于标注时间；根据国际航班团队搭乘要求，团队通常须提前 3-3.5 小时到达机场办理登机手续",
+        "returnContent": "如遇天气、战争、罢工、地震等人力不可抗力因素无法游览，我社将按照旅行社协议，退还未游览景点门票费用（赠送项目费用不退），其他费用因为提前预付已经发生无法退还；游客因个人原因临时自愿放弃游览，酒店住宿、餐、车等费用均不退还；退餐标准：15 美金/人/餐",
+        "selfCostContent": "无",
+        "selfCosts": [],
+        "shopContent": "无",
+        "shops": [
+            {
+                "address": "未提供",
+                "remark": "未提供",
+                "shopName": "未提供",
+                "shopProduct": "未提供",
+                "stay": "未提供"
+            }
+        ],
+        "tipsContent": "增强安全意识，平安健康出游；行程中请避免前往没有正式开发开放、缺乏安全保障的区域旅游；若发生旅行社已尽合理义务但仍不能避免的事件或者不可抗力因素导致合同解除的，旅行社或者旅游者皆无责；若由此造成旅游者滞留的，旅行社应采取相应安置措施，增加的食宿费用由旅游者承担；增加的返程费用，由旅行社和旅游者协商分担；行程中所列航班号及时间仅供参考，将根据实际情况做出合理的调整；莫斯科、圣彼得堡和北京时差：-5 小时；行程中所注明的城市间距离，参照境外地图，仅供参考，视当地交通状况进行调整；请您在境外期间遵守当地的法律法规，以及注意自己的人身及财产安全；此参考行程和旅游费用，我公司将根据参团人数、航班、签证及目的地国家临时变化保留调整的权利；依照旅游业现行作业规定，本公司有权依据最终出团人数情况，调整房间分房情况；您境外旅游时除了准备带有银联标识的信用卡以外，可以准备一些现金，有些商店不能刷卡只接受现金支付；您出国前兑换好一切购物所需货币，俄罗斯法定货币是卢布（1 人民币约等于 10 卢布，汇率随时波动）。如果您携带信用卡，请在国内确认好已经激活才可以在境外使用；《中国公民出境旅游文明公约》：中国公民，出境旅游，注重礼仪，保持尊严。讲究卫生，爱护环境；衣着得体，请勿喧哗。尊老爱幼，助人为乐；女士优先，礼貌谦让。出行办事，遵守时间；排队有序，不越黄线。文明住宿，不损用品；安静用餐，请勿浪费。健康娱乐，有益身心；赌博色情，坚决拒绝。参观游览，遵守规定；习俗禁忌，切勿冒犯。遇有疑难，咨询领馆；文明出行，一路平安。"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "今日机场集合，美好的旅程即将实现，甜美的梦境，引领你走向古典主义的梦幻俄罗斯。抵达后，导游接机，随后入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "HiltonMoscowLeningradskaya",
+                    "star": "5"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "16:55",
+                    "departure": "北京",
+                    "departureTime": "13:45",
+                    "destination": "莫斯科",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京至莫斯科之旅",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，乘车前往金环-谢尔盖耶夫镇，探寻俄国东正教发源地。午餐特别安排修道士日常素食，午餐后，搭乘 25 路有轨电车。晚餐后，观赏俄罗斯马戏。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "Hilton Moscow Leningradskaya",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "是俄罗斯最著名、最古老的、最富有的大修道院之一，亦译特罗伊察修道院",
+                    "name": "谢尔盖圣三一修道院"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "莫斯科",
+                    "departureTime": "酒店早餐后",
+                    "destination": "谢尔盖耶夫镇",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "谢尔盖耶夫镇",
+                    "departureTime": "午餐后",
+                    "destination": "莫斯科",
+                    "trafficType": "25 路有轨电车"
+                }
+            ],
+            "title": "莫斯科谢尔盖耶夫镇一日游",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，参观红场、圣瓦西里大教堂（外观，约30分钟）、列宁墓（外观，约10分钟），随后自由活动（约30分钟）；您可以自行前往红场东侧世界知名的十大百货商场之一的古姆百货公司；参观亚历山大花园(外观，约10分钟)、无名烈士墓(外观，约10分钟)，这里有著名的国家一号岗；*克里姆林宫（入内，约1.5小时，不含珍宝馆和兵器博物馆，周四关闭）。在亚尔餐厅享用一顿俄式午餐。午餐后，参观*新圣女公墓（入内，约30分钟），随后前往莫斯科的“列宁格勒”火车站，搭乘*SAPSAN高速列车（二等座，约4小时），前往俄罗斯现任总统的家乡-圣彼得堡；抵达后，导游接站享用晚餐，随后返回酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "CorinthiaHotelStPetersburg",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "位于俄罗斯首都莫斯科市中心，是一座具有丰富历史底蕴的建筑群，始建于12世纪，俄罗斯政治、文化和宗教的象征；墙体高大坚固，塔楼巍峨壮观，内部拥有众多教堂、宫殿和博物馆，展示了俄罗斯历史、文化和艺术的珍贵文物和艺术品",
+                    "name": "红场"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "外观",
+                    "name": "圣瓦西里大教堂"
+                },
+                {
+                    "consumingTime": "约10分钟",
+                    "description": "外观",
+                    "name": "列宁墓"
+                },
+                {
+                    "consumingTime": "约10分钟",
+                    "description": "外观",
+                    "name": "亚历山大花园"
+                },
+                {
+                    "consumingTime": "约10分钟",
+                    "description": "外观，这里有著名的国家一号岗",
+                    "name": "无名烈士墓"
+                },
+                {
+                    "consumingTime": "约1.5小时",
+                    "description": "位于俄罗斯首都莫斯科市中心，是一座具有丰富历史底蕴的建筑群，始建于12世纪，俄罗斯政治、文化和宗教的象征；墙体高大坚固，塔楼巍峨壮观，内部拥有众多教堂、宫殿和博物馆，展示了俄罗斯历史、文化和艺术的珍贵文物和艺术品；不含珍宝馆和兵器博物馆，周四关闭",
+                    "name": "克里姆林宫"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "欧洲三大公墓之一，安葬着曾经对俄罗斯历史发展，起到巨大推动作用的世纪伟人，且每个人都通过自己独特的墓碑，向世人讲述着他们的不同生命故事",
+                    "name": "新圣女公墓"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "莫斯科",
+                    "departureTime": "2024年8月10日",
+                    "destination": "圣彼得堡",
+                    "trafficType": "高铁二等座"
+                }
+            ],
+            "title": "莫斯科-圣彼得堡之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "在圣彼得堡的晨光中，乘坐 06:15 城际快轨 Lastochka 抵达索尔塔瓦拉火车站，10:50 乘坐俄罗斯复古蒸汽火车 RuskealExpress，车厢内可感受奢华氛围与温馨情调，窗外风景如流动诗篇。我们独家安排宫廷换装，让您沉浸式感受古典浪漫，在一小时的怀旧旅程中尽情打卡拍照。傍晚时分，乘坐 Lastochka 返回圣彼得堡，预计 22:43 抵达。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "CorinthiaHotelStPetersburg",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "11:55 左右 - 傍晚",
+                    "description": "充满历史魅力，可探索矿山的奥秘，参观 Akhvenkoski 瀑布群，体验木制生态步道、瀑布吊桥，感受沸腾之流；还可前往生动再现维京人历史文化的历史博物馆和民族园，了解古代人民的生活、军事艺术和手工艺，沉浸在古老的俄罗斯传奇之中。",
+                    "name": "矿山公园"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "10:50",
+                    "departure": "圣彼得堡",
+                    "departureTime": "06:15",
+                    "destination": "索尔塔瓦拉",
+                    "trafficType": "城际快轨 Lastochka"
+                },
+                {
+                    "arrivalTime": "11:55 左右",
+                    "departure": "索尔塔瓦拉",
+                    "departureTime": "10:50",
+                    "destination": "矿山公园",
+                    "trafficType": "俄罗斯复古蒸汽火车 RuskealExpress"
+                },
+                {
+                    "arrivalTime": "22:43",
+                    "departure": "索尔塔瓦拉",
+                    "departureTime": "傍晚",
+                    "destination": "圣彼得堡",
+                    "trafficType": "Lastochka"
+                }
+            ],
+            "title": "圣彼得堡至索尔塔瓦拉一日探险之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，前往斯莫尔尼宫外观约15分钟，后前往彼得保罗要塞外观。接着参观阿芙乐尔号巡洋舰外观约15分钟、瓦西里长滩和瓦西里灯塔外观约30分钟。午餐后，参观冬宫广场约10分钟、亚历山大纪念柱约10分钟、入内参观冬宫约1.5小时，后前往参观滴血大教堂入内约20分钟、涅瓦河游船含船票约1小时。今晚特别安排红菜汤大师班，DIY经典红菜汤，沉浸式感受俄式美味。晚餐后，返回酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "CorinthiaHotelStPetersburg",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "圣彼得堡市政府所在地，外观",
+                    "name": "斯莫尔尼宫"
+                },
+                {
+                    "consumingTime": "无",
+                    "description": "圣彼得堡的发源地，外观",
+                    "name": "彼得保罗要塞"
+                },
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "外观",
+                    "name": "阿芙乐尔号巡洋舰"
+                },
+                {
+                    "consumingTime": "无",
+                    "description": "外观",
+                    "name": "瓦西里长滩"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "外观",
+                    "name": "瓦西里灯塔"
+                },
+                {
+                    "consumingTime": "约10分钟",
+                    "description": "无",
+                    "name": "冬宫广场"
+                },
+                {
+                    "consumingTime": "约10分钟",
+                    "description": "无",
+                    "name": "亚历山大纪念柱"
+                },
+                {
+                    "consumingTime": "约1.5小时",
+                    "description": "入内，如果说圣彼得堡是彼得大帝打开的“通往欧洲的窗口“，那么冬宫就是叶卡捷琳娜二世女皇开创的”通往世界艺术的大门“。从皇宫到艺术圣殿，浩瀚珍藏令人叹为观止。世界最长艺术画廊，俄罗斯最耀眼的明珠，欣赏冬宫精美绝伦的建筑艺术，感受世界文化艺术的最高成就！",
+                    "name": "冬宫"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "入内，目睹俄罗斯建筑的辉煌，感受宗教与艺术的结合",
+                    "name": "滴血大教堂"
+                },
+                {
+                    "consumingTime": "约1小时",
+                    "description": "含船票，俄罗斯最重要的交通网，保存至今成为城中最美的取景角度。乘着徐徐丽日微风，冉冉畅游在童话般的18世纪古城中，拍下一张张油画般的景致",
+                    "name": "涅瓦河游船"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "圣彼得堡一日游",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，参观叶卡捷琳娜花园和宫殿。随后在瓦西里岛市场自由活动选购午餐。午餐后，参观伊萨基辅大教堂、尼古拉一世纪念碑、十二月党人广场、彼得大帝青铜骑士像。晚餐后，观赏俄罗斯芭蕾舞。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "CorinthiaHotelStPetersburg",
+                    "star": "5"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约1.5小时",
+                    "description": "叶卡捷琳娜花园与宫殿，俄罗斯历史瑰宝，典雅浪漫，绿树成荫，喷泉如诗。宫殿金碧辉煌，宏伟壮观，收藏着无数艺术珍宝。叶卡捷琳娜女皇的智慧和品味在这里得到了充分的体现。这座宫殿见证了俄罗斯帝国的辉煌历史，也融合了古典与现代元素，给人带来无尽的遐想。走在花园中，你可以感受到浪漫的气息，仿佛置身于历史的长河之中。",
+                    "name": "叶卡捷琳娜花园和宫殿"
+                },
+                {
+                    "consumingTime": "入内、登顶",
+                    "description": "与梵蒂冈的圣彼得大教堂、伦敦的圣保罗大教堂和佛罗伦萨的花之圣母大教堂并称为世界四大圆顶教堂，石头之城内最耀眼的一颗明珠，俄罗斯晚期古典主义建筑的精华",
+                    "name": "伊萨基辅大教堂"
+                },
+                {
+                    "consumingTime": "外观，约10分钟",
+                    "description": "",
+                    "name": "尼古拉一世纪念碑"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "十二月党人广场"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "",
+                    "name": "彼得大帝青铜骑士像"
+                },
+                {
+                    "consumingTime": "约1.5小时",
+                    "description": "甄选《天鹅湖》、《睡美人》和《胡桃夹子》俄罗斯芭蕾舞三大经典之一，这些作品不仅因其精致的舞蹈语言、深邃的剧情内涵和悠扬的旋律而备受推崇，也因其代表俄罗斯芭蕾舞艺术的卓越成就和独特风格而闻名于世，在世界文化艺术史上占据着举足轻重的地位",
+                    "name": "俄罗斯芭蕾舞"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "圣彼得堡之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，乘车前往夏宫花园及宫殿，午餐后参观法贝热彩蛋博物馆，随后安排普希金文学咖啡馆品下午茶。用完下午茶后，参观喀山大教堂，随后在涅瓦大街自由活动。晚餐后，前往圣彼得堡的“莫斯科”火车站，搭乘 SAPSAN 高速列车返回莫斯科。抵达后导游接站，返回酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "Hilton Moscow Leningradskaya",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "是王权时代的象征，彼得大帝的最爱，法式宫廷建筑的典范，绚丽的顶级宫廷建筑，值得您跟随专业导览员走访一遍，赞叹它不灭的光辉。上花园的浪漫，下花园的奢华，穿梭于法式宫廷花园与俄式奢靡喷泉组之间，不禁感叹俄罗斯工匠的巧夺天工。",
+                    "name": "夏宫花园及宫殿"
+                },
+                {
+                    "consumingTime": "40 分钟",
+                    "description": "它是世界绝无仅有的博物馆，展示由著名珠宝匠彼得·卡尔·法贝热制作的华丽彩蛋，这些彩蛋曾是沙皇家族的复活节礼物，融合了精湛工艺与皇家传统。每一颗彩蛋都是独一无二的艺术珍品，蕴含着丰富的历史和文化价值。",
+                    "name": "法贝热彩蛋博物馆"
+                },
+                {
+                    "consumingTime": "约 20 分钟",
+                    "description": "圣彼得堡最灵验的教堂之一",
+                    "name": "喀山大教堂"
+                },
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "圣彼得堡最热闹最繁华的商业街",
+                    "name": "涅瓦大街"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "约 4 小时后",
+                    "departure": "圣彼得堡",
+                    "departureTime": "晚餐后",
+                    "destination": "莫斯科",
+                    "trafficType": "SAPSAN 高速列车（二等座）"
+                }
+            ],
+            "title": "圣彼得堡一日游",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后乘坐麻雀山观光缆车抵达观景台。参观莫斯科大学外观；参观莫斯科*360空中景观。参观莫斯科地铁。午餐后，参观特列季亚科夫美术馆。傍晚，乘坐Radisson游船，品尝美食。晚饭后，返回酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "HiltonMoscowLeningradskaya",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "乘坐约20分钟，抵达观景台",
+                    "name": "麻雀山观光缆车"
+                },
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "外观，约15分钟",
+                    "name": "莫斯科大学"
+                },
+                {
+                    "consumingTime": "约40分钟",
+                    "description": "含门票，约40分钟，大胆的记录生活，每天都是你回不去的昨天。在莫斯科的半空中，以最甜的方式，向这座历史名称许下“最高”的诺言",
+                    "name": "莫斯科*360空中景观"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "入内，不乘坐，约30分钟，随机站",
+                    "name": "莫斯科地铁"
+                },
+                {
+                    "consumingTime": "约1.5小时",
+                    "description": "入内，约1.5小时，周一关闭，1918年改为国立，并将鲁曼采夫等三个博物馆并入。规模宏大，收藏丰富，伊凡诺夫、克拉姆斯柯依、列宾、苏里科夫、谢罗夫等的作品多陈列于此；俄国十八世纪绘画大师的精湛技艺、十九世纪巡回画派的辉煌成就、二十世纪初的多面探索以及苏联时期现实主义画派的写实风骨；与圣彼得堡的俄罗斯博物馆、莫斯科的俄罗斯历史博物馆并列为俄罗斯三大博物馆",
+                    "name": "特列季亚科夫美术馆"
+                },
+                {
+                    "consumingTime": "约2.5小时",
+                    "description": "含晚餐，约2.5小时，宛如蓝色丝带的莫斯科河，缓缓流过莫斯科城，在波光粼粼的河面上，欣赏莫斯科浪漫主义的瑰丽，品尝美食最是享受",
+                    "name": "Radisson游船"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "莫斯科一日游",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，游览老阿尔巴特大街，之后前往 Депо 市场自由活动选购午餐，乘车前往机场，搭乘国际航班返回北京。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "莫斯科市中心的一条著名步行街，紧邻莫斯科河，是莫斯科的象征之一。阿尔巴特街曾是艺人和画家荟萃的天堂，保存有许多古色古香的建筑，街头作画的艺人是阿尔巴特街上一道不灭的风景",
+                    "name": "老阿尔巴特大街"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "07:15+1",
+                    "departure": "莫斯科",
+                    "departureTime": "18:45",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "莫斯科返程之旅",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 0,
+            "content": "今日抵达北京，欢迎您与我们分享旅途中感动的时刻、甜蜜的氛围和购物的秘籍......",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "抵达北京",
+            "tripDay": 10
+        }
+    ]
+}

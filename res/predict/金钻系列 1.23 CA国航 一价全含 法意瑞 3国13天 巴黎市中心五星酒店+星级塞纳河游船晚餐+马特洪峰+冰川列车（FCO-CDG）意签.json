@@ -1,0 +1,763 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "意大利",
+                "destCityName": "罗马",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "意大利",
+                "destCityName": "佛罗伦萨",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "意大利",
+                "destCityName": "帕多瓦",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "意大利",
+                "destCityName": "热那亚",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "法国",
+                "destCityName": "尼斯",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "瑞士",
+                "destCityName": "日内瓦",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "瑞士",
+                "destCityName": "采尔马特",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "瑞士",
+                "destCityName": "琉森",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "法国",
+                "destCityName": "巴黎",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "本公司已强烈要求旅客自行购买旅游意外保险，以更全面保障旅客利益。",
+            "name": "人身意外保险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "欧洲 4-5 星标准酒店及早餐"
+            },
+            {
+                "name": "全程每日午、晚餐以中式餐食为主，用餐标准为八菜一汤"
+            },
+            {
+                "name": "法国、意大利、瑞士特色餐"
+            },
+            {
+                "name": "瑞士火车+TGV 火车票"
+            },
+            {
+                "name": "全程提供豪华巴士，专业司机"
+            },
+            {
+                "name": "国际间往返机票（经济舱）"
+            },
+            {
+                "name": "境外旅行责任险"
+            }
+        ],
+        "productSubtitle": "从罗马到巴黎的完美之旅",
+        "productTitle": "欧洲深度游",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "欧洲游"
+            },
+            {
+                "name": "历史文化"
+            },
+            {
+                "name": "自然景观"
+            },
+            {
+                "name": "美食体验"
+            },
+            {
+                "name": "豪华住宿"
+            }
+        ],
+        "themes": [
+            {
+                "name": "文化探索与自然风光"
+            },
+            {
+                "name": "深度体验欧洲的历史文化与自然美景"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "国际航班",
+        "goTransportName": "国际航班+豪华巴士+瑞士火车+TGV火车",
+        "hotelStarName": "4,5",
+        "lineFeature": "本线路涵盖了意大利、法国、瑞士的主要城市，深度体验欧洲的历史文化与自然风光。行程中包括多个著名景点的参观，如罗马的历史遗迹、佛罗伦萨的艺术博物馆、尼斯的海滨风光、日内瓦的湖光山色、采尔马特的雪山美景、琉森的湖畔小镇，以及巴黎的时尚都市。全程入住 4-5 星标准酒店，享受豪华舒适的住宿体验。",
+        "lineSimpleTitle": "欧洲深度游",
+        "lineSortTitle": "EU-Depth",
+        "lineTitle": "欧洲深度游 - 从罗马到巴黎的完美之旅",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "罗马",
+                "countryName": "意大利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "佛罗伦萨",
+                "countryName": "意大利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "帕多瓦",
+                "countryName": "意大利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "热那亚",
+                "countryName": "意大利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "尼斯",
+                "countryName": "法国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "日内瓦",
+                "countryName": "瑞士",
+                "provinceName": ""
+            },
+            {
+                "cityName": "采尔马特",
+                "countryName": "瑞士",
+                "provinceName": ""
+            },
+            {
+                "cityName": "琉森",
+                "countryName": "瑞士",
+                "provinceName": ""
+            },
+            {
+                "cityName": "巴黎",
+                "countryName": "法国",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "10",
+        "tripNight": "9",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": []
+        },
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "北京首都机场（PEK）",
+                "arriveTime": "12:30",
+                "days": 1,
+                "flightNo": "CA934",
+                "flightSort": "回程",
+                "startAirportName": "巴黎机场（CDG）",
+                "startTime": "19:30"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "罗马机场（FCO）",
+                "arriveTime": "17:50",
+                "days": 0,
+                "flightNo": "CA939",
+                "flightSort": "去程",
+                "startAirportName": "北京首都机场（PEK）",
+                "startTime": "13:30"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "请严格遵守团队出发当日的集中时间、境外行程安排中及返回的各个集合时间",
+        "costExclude": "境外司机、餐厅服务费、意大利当地地陪服务费及酒店税，护照费、申请签证中准备相关材料所需的制作、手续费，洗衣、电话、饮料、烟酒、付费电视、行李搬运等私人费用，出入境的行李海关课税，超重行李的托运费、管理费等，行程中未提到的其它费用，如特殊门、游船（轮）、缆车、地铁票等费用，公务活动及专业翻译费，转机/火车时用餐，旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失，此团单间差为 120 欧/人/晚",
+        "costInclude": "欧洲国家邀请和签证费，行程中所标明的欧洲 4-5 星标准酒店及早餐，全程每日午、晚餐以中式餐食为主，用餐标准为八菜一汤，法国、意大利、瑞士特色餐，行程中带门票的景点，瑞士火车+TGV 火车票，全程提供豪华巴士，专业司机，国际间往返机票（经济舱），境外旅行责任险",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "0",
+                "end": "30"
+            },
+            {
+                "begin": "15",
+                "cost": "20",
+                "end": "30"
+            },
+            {
+                "begin": "8",
+                "cost": "50",
+                "end": "14"
+            },
+            {
+                "begin": "0",
+                "cost": "80",
+                "end": "7"
+            },
+            {
+                "begin": "0",
+                "cost": "100",
+                "end": "0"
+            }
+        ],
+        "otherRule": "行程中所有住宿、用车、景点门票等均为旅行社打包整体销售，若游客因自身原因未能游览参观的则视为自动放弃，旅行社将无法退费用，本公司有权根据景点节假日休息（关门）调整行程游览先后顺序，但游览内容不会减少，标准不会降低",
+        "returnContent": "出发前 30 天以上取消，全额退款，出发前 15-30 天取消，扣除 20%团费，出发前 8-14 天取消，扣除 50%团费，出发前 7 天内取消，扣除 80%团费，出发当天取消，扣除 100%团费，因游客自身原因或因提供材料存在问题不能及时办理签证而影响行程的，以及被有关机关拒发签证或不准出入境的，相关责任和费用由游客自行承担",
+        "selfCostContent": "特殊门、游船（轮）、缆车、地铁票等费用，公务活动及专业翻译费，转机/火车时用餐",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "",
+                "name": "特殊门、游船（轮）、缆车、地铁票等费用",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "",
+                "name": "公务活动及专业翻译费，转机/火车时用餐",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "欧洲各国对商品定价都有严格管理，同一国家内同样商品不会有较大价差。但各国之间会存在差别，请您仔细做好攻略后谨慎购买，购物金额低于 1000 欧元以内可支付现金,超出 1000 欧元以上金额需用信用卡或旅行支票等支付，游客在本补充协议约定的购物场所购买的商品，非商品质量问题，旅行社不协助退换，如遇不可抗力或其他旅行社已尽合理注意义务仍不能避免的事件，为保证景点正常游览，旅行社可能根据实际需要减少本补充协议约定的购物场所",
+        "shops": [
+            {
+                "address": "意大利威尼斯",
+                "remark": "",
+                "shopName": "DFS 百货公司",
+                "shopProduct": "主打意大利品牌",
+                "stay": "150"
+            },
+            {
+                "address": "意大利佛罗伦萨",
+                "remark": "",
+                "shopName": "PERUZZI",
+                "shopProduct": "意大利名品皮衣，皮具以及意大利品牌服饰等",
+                "stay": "60"
+            },
+            {
+                "address": "法国巴黎",
+                "remark": "",
+                "shopName": "BENLUX 老佛爷或 DFS 巴黎 BURCHERE 或 OMEGA",
+                "shopProduct": "免税商品百货公司化妆品、精品名表",
+                "stay": "120"
+            }
+        ],
+        "tipsContent": "旅游期间，尽量避免到偏僻的地方。出行时尽量结伴而行，以便相互照顾，请注意下榻饭店的名称和地址，最好向前台索取一张饭店名片，随身携带，以便外出后能够顺利回到酒店，观光时，大件行李可放在旅游车上，贵重物品一定随身携带，以免丢失，请带好应季衣物，以免天气变化较大，容易着凉、感冒，请尽量准备好防日晒、防雨、游泳时所必备的遮阳伞、太阳镜、防晒霜、泳装等，鞋子以平底轻便的运动鞋为宜，女士请尽量不要穿高跟鞋，外出长途旅游，可能会因水土不服而令身体感到不适。故应准备些常备药物，以备不时之需，患有心脏病、糖尿病等慢性疾病者应随身携带药物，并听从医生指示服用，不随便吃别人的药。且应提前到医院索取附有英文说明的诊断书备用"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "10:30首都机场集合，专业送团人召开出团前旅游说明；13:30搭乘国际航空公司航班CA939从北京出发前往意大利首都罗马；17:50抵达罗马后，专车接机，随后前往酒店休息调整时差，准备迎接精彩的旅程。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "罗马特色酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "17:50",
+                    "departure": "北京",
+                    "departureTime": "13:30",
+                    "destination": "罗马",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京至罗马之旅",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店内享用西式热早餐；08:00 酒店出发，开始游览拥有悠久历史和辉煌古代文明的城市 - 罗马，外观斗兽场、君士坦丁凯旋门、古罗马市集废墟。12:00 午餐，罗马圣彼得餐厅（独立贵宾餐厅），八菜一汤。13:00 乘车前往文艺复兴运动发源地－佛罗伦萨。18:00 晚餐，佛罗伦萨华侨餐厅，八菜一汤。19:30 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "是古罗马时期最大的圆形角斗场，威严而壮观",
+                    "name": "罗马斗兽场"
+                },
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "公元315年修建，经历了2000年的风风雨雨，仍保存了当初的完美造型",
+                    "name": "君士坦丁凯旋门"
+                },
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "不仅是古罗马的发源地及市中心，也是罗马七座小山丘的共同交集",
+                    "name": "古罗马市集废墟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "19:30",
+                    "departure": "罗马",
+                    "departureTime": "08:00",
+                    "destination": "佛罗伦萨",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "罗马与佛罗伦萨之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店内享用西式热早餐；08:00 佛罗伦萨市区观光；12:00 午餐，佛罗伦萨王朝餐厅，特别安排 T 骨牛排餐；13:00 乘车前往帕多瓦；18:00 晚餐，帕多瓦大上海酒楼，八菜一汤；19:30 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 2.5 小时",
+                    "description": "红色圆顶，由十块浮雕组成，内容以叙述旧约圣经题材为主的天堂之门",
+                    "name": "圣母百花大教堂"
+                },
+                {
+                    "consumingTime": "约 2.5 小时",
+                    "description": "这里有一座建于十三世纪的碉堡式旧宫（现为市政厅），连同整个广场成为了一座露天雕塑博物馆，各种石雕和铜像作品栩栩如生，如人们所熟悉的米开朗琪罗的《大卫像》复制品",
+                    "name": "市政厅广场"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "13:00",
+                    "departure": "佛罗伦萨",
+                    "departureTime": "08:00",
+                    "destination": "帕多瓦",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "佛罗伦萨到帕多瓦之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店内享用西式热早餐；08:00乘车前往游览威尼斯，搭乘摆渡船前往逐渐颓毁沉没的水上古都参观，徒步参观圣马可大教堂、圣马可广场，游览叹息桥，特别安排乘坐贡多拉游船。12:00午餐，特别安排意大利海鲜面；13:00乘车前往意大利小镇；18:00晚餐，热那亚餐厅，八菜一汤；19:00前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约4小时15分钟",
+                    "description": "位于意大利东北部，是亚得里亚海威尼斯湾西北岸重要港口，主建于离岸4公里的海边浅水滩上，由118个小岛组成，400多座桥梁连成一体，以舟相通，有“水上都市”、“百岛城”、“桥城”之称。",
+                    "name": "威尼斯"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "有『黄金教堂』之称",
+                    "name": "圣马可大教堂"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "",
+                    "name": "圣马可广场"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "连接道奇宫及其附属监狱",
+                    "name": "叹息桥"
+                },
+                {
+                    "consumingTime": "约25分钟",
+                    "description": "在有限的时间里，游览威尼斯水城之精华的唯一方式，感受茜茜公主的浪漫，意大利船夫熟练的技巧带您漫游在水道胡同之间。",
+                    "name": "贡多拉游船"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "帕多瓦",
+                    "departureTime": "08:00",
+                    "destination": "威尼斯",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "威尼斯",
+                    "departureTime": "13:00",
+                    "destination": "意大利小镇",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "意大利帕多瓦、威尼斯、热那亚之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店内享用西式热早餐；08:00乘车前往地中海最美的港湾—摩纳哥，10:30游览摩纳哥。午餐敬请自理。13:00乘车前往埃兹，16:00前往尼斯游览，18:00晚餐。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "2小时30分钟",
+                    "description": "这里既有中世纪风格的街道和皇宫，也有著名的大赌场及其周边豪华酒店向您尽情展示“美好时代”的悠久传统和奢华。游览王宫广场（约15分钟）俯瞰摩纳哥湾全景。",
+                    "name": "摩纳哥"
+                },
+                {
+                    "consumingTime": "3小时",
+                    "description": "也叫“鹫巢村”，坐落在尼斯和摩纳哥之间海岸附近的山峦上，许多精致的古老建筑依照陡峭的山势建立，中间夹杂着曲折的道路，极富画面感。小镇充满了浓郁的艺术气息，遍布迷人的画廊和艺术品店铺。",
+                    "name": "埃兹"
+                },
+                {
+                    "consumingTime": "45分钟",
+                    "description": "“世界富豪聚集的中心”海边豪华别墅、比比皆是的昂贵商店和艺术气息的交织使尼斯形成富丽堂皇与典雅优美的独特美,漫步盎格鲁街，法国东南部城市尼斯一条沿着地中海蔚蓝海岸的著名的海滨步行道。街上还布置了蓝色的靠椅和精美的小屋供游人歇息，享受地中海沿岸的闲散生活，观赏天使湾蔚蓝色的海水。",
+                    "name": "尼斯"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "10:30",
+                    "departure": "热那亚",
+                    "departureTime": "08:00",
+                    "destination": "摩纳哥",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "摩纳哥",
+                    "departureTime": "13:00",
+                    "destination": "埃兹",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "埃兹",
+                    "departureTime": "16:00",
+                    "destination": "尼斯",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "热那亚至尼斯之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店内享用西式热早餐；08:00酒店出发，前往法国小镇安纳西。午餐敬请自理。15:00游览安纳西。17:00晚餐，顺路方向自助餐；18:00乘车前往日内瓦；19:00前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "四星级酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "法国阿尔卑斯山区最美丽的小镇，人称“阿尔卑斯山的阳台”。安纳西湖的水来自阿尔卑斯山的冰雪，被认为是全欧最干净的湖。湖水来自阿尔卑斯的高山雪水和雨水，绵延15公里，如翡翠般碧蓝耀眼。阿尔卑斯山融雪形成的湖泊、穿城而过的运河、青黛色的远山，以及近处的绿树繁花，构成了一幅世外桃源般的美景",
+                    "name": "安纳西"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "15:00",
+                    "departure": "酒店",
+                    "departureTime": "08:00",
+                    "destination": "法国小镇安纳西",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "18:00",
+                    "departure": "安纳西",
+                    "departureTime": "17:00",
+                    "destination": "日内瓦",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "尼斯-安纳西-日内瓦之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 在酒店内享用西式热早餐；07:30 乘车前往马特洪峰脚下纯净之城—采尔马特，午餐自理；12:00 从采尔马特前往搭乘瑞士第一条也是海拔最高的露天电气齿轨火车，经罗胜博登到达戈尔纳格拉特观景平台；18:00 晚餐，酒店内享用地道西餐三道式；19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "木屋酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约2小时",
+                    "description": "此处是观赏马特宏峰全景的最佳地点。戈尔纳格拉特被群山环绕，包括二十九座海拔四千米的山峰以及阿尔卑斯第三大冰河-高纳冰河。如果天气晴朗还可以前往国家级自然风景区在举世闻名的利菲尔湖欣赏马特宏峰倒影",
+                    "name": "戈尔纳格拉特观景平台"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "12:00",
+                    "departure": "日内瓦",
+                    "departureTime": "07:30",
+                    "destination": "采尔马特",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "日内瓦到采尔马特之旅",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 在酒店内享用西式热早餐；08:00 乘车前往火车站；08:52 乘坐世界十大顶级豪华列车之一瑞士冰川列车前往安德玛特，车厢内宽敞明亮，高大的玻璃窗几乎通顶，窗外景色尽收眼底，冰川列车经过森林、草地、花朵和溪流，留下难忘回忆（备注：如遇冰川列车满位，将更改其他瑞士火车作为替代，最终以出团通知为准，敬请谅解）；午餐自理；13:30 乘车前往琉森，抵达后游览狮子纪念碑和卡贝尔桥，游览结束后市区自由活动；18:00 在琉森亚洲楼餐厅享用晚餐（炸鱼片、四季豆虾、番茄炒蛋、肉碎炒笋、蒜蓉白菜、蠔油生菜、豉汁排骨、清汤牛腩、紫菜鸡蛋汤、米饭+水果+水）；20:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "琉森特色酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "丹麦雕刻家特尔巴尔森设计",
+                    "name": "狮子纪念碑"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "风格独特",
+                    "name": "卡贝尔桥"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "11:46",
+                    "departure": "采尔马特",
+                    "departureTime": "08:52",
+                    "destination": "安德马特",
+                    "trafficType": "冰川列车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "安德马特",
+                    "departureTime": "13:30",
+                    "destination": "琉森",
+                    "trafficType": "巴士/火车"
+                }
+            ],
+            "title": "采尔马特至琉森之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店内享用西式热早餐；08:00乘车前往楚格小镇，抵达后楚格市区游览。10:30乘车前往法国米卢斯火车站,11:30午餐，长江餐厅，八菜一汤。14:56乘坐TGV列车（一等座参考时间14:56-17:37）前往巴黎。18:00晚餐自理；随后前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "NESTLA DEFENSE",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "楚格市是由基堡人所建立，以低税率和众多企业而闻名于世。钟楼是这座城市的地标；旧城里还有1505年建成的晚期哥特式的市政厅和同一时代竣工的圣奥斯瓦尔德大教堂；楚格以盛产樱桃著名，楚格最著名的特产之一—樱桃酒，是楚格地区的樱桃和白兰地蒸馏而来。特别安排参观楚格樱桃酒厂（含中文解说+品酒，约1小时）。",
+                    "name": "楚格小镇"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "琉森",
+                    "departureTime": "",
+                    "destination": "米卢斯",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "17:37",
+                    "departure": "米卢斯",
+                    "departureTime": "14:56",
+                    "destination": "巴黎",
+                    "trafficType": "高铁（TGV）"
+                }
+            ],
+            "title": "琉森至巴黎之旅",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店内享用西式热早餐；08:00 游览时尚之都巴黎市区，参观凯旋门、协和广场、艾菲尔铁塔外观，特别安排塞纳河左岸咖啡馆享受咖啡；12:00 外观闻名世界的艾菲尔铁塔，特别安排艾尔菲铁塔二层餐厅享用午餐；13:00 乘车前往凡尔赛宫",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "NESTLADEFENSE",
+                    "star": "未知"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 1.5 小时",
+                    "description": "地处宽阔的戴高乐广场，这里是香榭里舍大街的尽头，从戴高乐广场向四面八方延伸，有 12 条大道，宏伟、壮丽的凯旋门就耸立在广场中央的环岛上面",
+                    "name": "凯旋门"
+                },
+                {
+                    "consumingTime": "约 1.5 小时",
+                    "description": "上有绿铜色的雕像及美丽的喷泉，中央是来自古埃及太阳神殿的方尖碑，这片宏伟壮丽的广场被法国人称为“世界最美丽的广场”",
+                    "name": "协和广场"
+                },
+                {
+                    "consumingTime": "约 1.5 小时",
+                    "description": "外观",
+                    "name": "艾菲尔铁塔"
+                },
+                {
+                    "consumingTime": "约 30 分钟",
+                    "description": "在富有文化气息的塞纳河左岸，坐下来享受一杯咖啡，感受巴黎小资情调",
+                    "name": "塞纳河左岸咖啡馆"
+                },
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "宏伟、壮观，它的内部陈设和装潢富于艺术魅力。五百多间大殿小厅处处金碧辉煌，豪华非凡。内部装饰，以雕刻、巨幅",
+                    "name": "凡尔赛宫"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "未知",
+                    "departure": "未知",
+                    "departureTime": "未知",
+                    "destination": "未知",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "巴黎市区游览",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店内享用西式热早餐；08:00 睡到自然醒。特别安排体验巴黎地铁，前往世界三大博物馆之一的卢浮宫（含官方持牌讲解约 1 小时）。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "NESTLADEFENSE",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "世界三大博物馆之一，如今博物馆收藏的艺术品已达40万件，其中包括雕塑，绘画，美术工艺及古代东方，古代埃及和古希腊罗马等7个门类。在此可欣赏镇馆三宝-蒙娜莉莎的微笑，米罗的维纳斯雕像和胜利女神像，让你一窥艺术殿堂的奥妙",
+                    "name": "卢浮宫"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "巴黎之旅",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店内享用西式热早餐；08:00 睡到自然醒，巴黎可自由活动一整天。午餐敬请自理；17:00 乘车前往机场，办理退税及登机手续。19:30 搭乘国际航班返回北京。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "一天",
+                    "description": "自由探索巴黎",
+                    "name": "巴黎自由活动"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "12:30 +1",
+                    "departure": "巴黎",
+                    "departureTime": "17:00",
+                    "destination": "北京",
+                    "trafficType": "巴士/飞机"
+                }
+            ],
+            "title": "从巴黎返回北京",
+            "tripDay": 12
+        },
+        {
+            "breakfast": 0,
+            "content": "12:30 安抵北京，结束愉快的旅行！",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "返程回京",
+            "tripDay": 13
+        }
+    ]
+}

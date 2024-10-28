@@ -1,0 +1,248 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 17,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "18周岁以下游客必须与18周岁以上游客同住一间客舱，若非与父母同行，需提供监护人的授权书、委托书及出生证明。",
+        "departureCityName": "上海",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "上海",
+        "dests": [
+            {
+                "countryName": "中国",
+                "destCityName": "上海",
+                "destProvinceName": "上海"
+            },
+            {
+                "countryName": "日本",
+                "destCityName": "长崎",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "旅行社责任保险涵盖游轮旅行期间的意外事故赔偿。",
+            "name": "旅行社责任保险",
+            "typeName": ""
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "海洋光谱号豪华游轮体验"
+            },
+            {
+                "name": "免费岸上行程"
+            },
+            {
+                "name": "丰富的船上娱乐活动"
+            },
+            {
+                "name": "豪华客房选择"
+            }
+        ],
+        "productSubtitle": "浪漫游轮4晚5天",
+        "productTitle": "上海至长崎游轮之旅",
+        "returnCityName": "上海",
+        "tags": [
+            {
+                "name": "游轮"
+            },
+            {
+                "name": "度假"
+            },
+            {
+                "name": "亲子"
+            },
+            {
+                "name": "文化体验"
+            }
+        ],
+        "themes": [
+            {
+                "name": "游轮度假"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "游轮",
+        "goTransportName": "游轮",
+        "hotelStarName": "-1",
+        "lineFeature": "乘坐豪华游轮海洋光谱号，享受4晚5天的海上度假，游览长崎著名景点，体验丰富的船上娱乐活动。",
+        "lineSimpleTitle": "上海长崎游轮",
+        "lineSortTitle": "SC20240806",
+        "lineTitle": "上海至长崎4晚5天游轮之旅",
+        "needVisa": 0,
+        "passCities": [
+            {
+                "cityName": "上海",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "长崎",
+                "countryName": "日本",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "5",
+        "tripNight": "4",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": []
+        },
+        "backAirports": [],
+        "goAirports": []
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "报名时请提供准确的名字（汉字及拼音）、出生日期、性别信息及分房名单。游轮公司不接受不满 6 个月的婴儿、怀孕 24 周以上的孕妇登船。18 周岁以下游客必须与 18 周岁以上游客同住一间客舱，若非与父母同行，需提供监护人的授权书、委托书及出生证明。70 周岁及以上、80 周岁以下游客需提供 3 个月内三甲医院开具的健康证明。80 周岁以上游客需同时有家属陪同。持非中国人民共和国护照的游客请务必自行确认证件在旅行结束后能再次入境中国。游客报名后，若遇游轮公司船票、燃油税等调价，我公司根据实际差额向游客多退少补。",
+        "costExclude": "各地到上海往返交通；海洋光谱号邮轮服务费：星际及天际套房(StarClass&SkyClass):20.50 美金/人/晚，海际套房(SeaClass)及以下(普通舱房):18.00 美金/人/晚；收费岸上行程请报名同时选择并支付(自费)；旅游意外险（建议旅游者购买）；个人所有其他消费（如：电话、付费电话、洗衣、酒店及餐厅酒水、上网等旅游费用包含之外的）；游轮单人房差价：所有舱等加收 100%",
+        "costInclude": "海洋光谱号船票：游轮 4 晚住宿、港务费及燃油附加费；游轮上提供的所有免费餐食，游轮上派对，主题晚会，表演，游戏，比赛等活动（特别注明收费的除外）；游轮上提供的所有免费娱乐设施；旅行社责任保险；免费岸上行程【不参加我社岸上观光需支付岸上管理费 300 元/人/站】",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "1000",
+                "end": "60"
+            },
+            {
+                "begin": "46",
+                "cost": "50%",
+                "end": "60"
+            },
+            {
+                "begin": "45",
+                "cost": "70%",
+                "end": "30"
+            },
+            {
+                "begin": "29",
+                "cost": "100%",
+                "end": "0"
+            }
+        ],
+        "otherRule": "舱位确定后，一旦取消预订，将根据以下规则产生罚金。预定之日起至启航前 60 天：1000 元/人；启航前 46-60 天取消行程：全款 50%；启航前 45-30 天取消行程：全款 70%；启航前 29 天内取消行程：全款 100%；所有罚责日期如遇周末及国家假日自动提前至可工作日",
+        "returnContent": "预定之日起至启航前 60 天：1000 元/人；启航前 46-60 天取消行程：全款 50%；启航前 45-30 天取消行程：全款 70%；启航前 29 天内取消行程：全款 100%；所有罚责日期如遇周末及国家假日自动提前至可工作日",
+        "selfCostContent": "以上线路最低成团人数 35 人，如未成团将取消该线路。以上线路为目前暂定线路，仅供参考，所包含的景点和线路中景点参观的顺序可能会根据实际情况进行调整。地接保留行程调整及变更的权利。会根据靠港时间、天气等不可抗力等因素进行调整。行程及价格仅供参考，我们将根据各航次港口停留时长的不同安排不同的行程。所有产品的座位有限，请尽早预订。",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "399",
+                "name": "B 套餐【399 元/人】",
+                "remark": "线路名称：经典线路，行程简介：哥拉巴园+长崎原爆馆+和平公园+日式定食套餐+综合免税店，日式定食套餐，综合免税店",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "599",
+                "name": "C 套餐【599 元/人】",
+                "remark": "线路名称：精品线路，行程简介：哥拉巴园-诹访神社-中华美食街自理用餐，自理用餐",
+                "stay": ""
+            }
+        ],
+        "shopContent": "无",
+        "shops": [
+            {
+                "address": "长崎市",
+                "remark": "主要经营有化妆品、饰品、健康食品、药、酒类、生活杂货、家电制品、民艺品、各大名牌商品等商品。在观光的同时为游客提供日本国内各种人气商品，是国内外游客购物的天堂。",
+                "shopName": "综合免税店",
+                "shopProduct": "化妆品、饰品、健康食品、药、酒类、生活杂货、家电制品、民艺品、各大名牌商品等",
+                "stay": "60"
+            }
+        ],
+        "tipsContent": "请穿轻便服装，舒适的休闲鞋，涂抹防晒霜，驱蚊剂。冬季部分室外景点可能较为寒冷，请注意防寒保暖。"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "您将于指定时间抵达上海宝山码头，办理登船手续。登船后享用丰盛的午餐，参观豪华游轮的各项设施并参加游轮常规演习，随后开始豪华游轮畅游之旅。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "上海出发乘坐豪华游轮之旅",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "今日展开海上巡游。蓝色的大海向您敞开温暖的胸怀，欢迎您的来访。您会在豪华巨轮上轻松愉快的发现人生喜悦，为您精心安排的节目，更让您不虚此行。盛大的宴会将在海上举行，从早晨到午夜连续不断供应的各式美味大菜，让您享尽口福，船上除了酒、烟要自行购买，其它的食物、大菜、自助餐、及正餐时的大部分非酒精饮料都免费供应。您永远不会忘记这次海上游的精美膳食，也不会忘记那清莹透彻的海水，这乃人生又一个新体验。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "海上巡游",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 0,
+            "content": "游轮 07:00 抵达日本长崎。长崎是全日本最具都会气息的先进之都。西方文化与当地历史、建筑、餐饮、喜庆节日传统水乳交融，交织出独特的城市气质。如果您选择了参加【长崎岸上观光路线】，您可在导游陪同下前往游览当地景点。（请您提前 1 小时返回到游轮，以免误船！）",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "日本长崎之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "您可以睡懒觉，在餐厅吃早餐后，沐浴阳光在甲板漫步，在健身房运动，在游泳池或 SPA 美容馆准备，参考“COMPASS 每日指南”选择喜爱节目参加。晚上在豪华餐厅用餐并在剧院欣赏艺术表演。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "全天",
+                    "description": "您可以睡懒觉，在餐厅吃早餐后，沐浴阳光在甲板漫步，在健身房运动，在游泳池或 SPA 美容馆准备，参考“COMPASS 每日指南”选择喜爱节目参加。晚上在豪华餐厅用餐并在剧院欣赏艺术表演。",
+                    "name": "海上巡游"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "游轮上的舒适时光",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "游轮于早上抵达上海宝山码头，下船后各自返回温馨的家，结束浪漫的游轮旅行！",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "游轮之旅结束",
+            "tripDay": 5
+        }
+    ]
+}

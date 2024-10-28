@@ -1,0 +1,818 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "中国",
+        "dests": [
+            {
+                "countryName": "德国",
+                "destCityName": "柏林",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "德国",
+                "destCityName": "维尔茨堡",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "德国",
+                "destCityName": "罗腾堡",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "德国",
+                "destCityName": "奥格茨堡",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "德国",
+                "destCityName": "富森",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "奥地利",
+                "destCityName": "维也纳",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "奥地利",
+                "destCityName": "萨尔斯堡",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "奥地利",
+                "destCityName": "哈尔施塔特湖区",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "奥地利",
+                "destCityName": "瓦豪河谷",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "捷克",
+                "destCityName": "布拉格",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "捷克",
+                "destCityName": "克鲁姆洛夫",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "捷克",
+                "destCityName": "卡罗维发力",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "本公司已为参团旅客购买价值30万之人身意外保险。建议游客自行购买旅游意外保险，以更全面保障旅客利益。",
+            "name": "境外旅行责任险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "海航直飞"
+            },
+            {
+                "name": "一价无忧"
+            },
+            {
+                "name": "含签证含小费"
+            },
+            {
+                "name": "签证无忧"
+            },
+            {
+                "name": "承诺拒签退全款"
+            },
+            {
+                "name": "住宿无忧"
+            },
+            {
+                "name": "东欧精华城市连住两晚"
+            },
+            {
+                "name": "德国浪漫之路"
+            },
+            {
+                "name": "奥地利深度之旅"
+            },
+            {
+                "name": "捷克自由之行"
+            },
+            {
+                "name": "最美欧洲小镇"
+            },
+            {
+                "name": "中式六菜一汤"
+            },
+            {
+                "name": "维也纳骑士餐厅猪排餐"
+            }
+        ],
+        "productSubtitle": "海航直飞，一价无忧",
+        "productTitle": "奥捷+德国浪漫之路12天",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "东欧精华"
+            },
+            {
+                "name": "德国浪漫之路"
+            },
+            {
+                "name": "签证无忧"
+            },
+            {
+                "name": "承诺拒签退全款"
+            },
+            {
+                "name": "住宿无忧"
+            }
+        ],
+        "themes": [
+            {
+                "name": "东欧精华城市深度游"
+            },
+            {
+                "name": "德国浪漫之路"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "飞机，巴士",
+        "goTransportName": "飞机，巴士",
+        "hotelStarName": "-1",
+        "lineFeature": "本线路覆盖东欧精华城市，包括维也纳、布拉格等，以及德国浪漫之路的维尔茨堡、罗腾堡、奥格茨堡、富森新天鹅堡。行程还包括奥地利深度之旅，如美泉宫、萨尔斯堡、哈尔施塔特湖区、瓦豪河谷，以及捷克自由之行，如布拉格连住两晚和一整天自由活动。此外，还包括最美欧洲小镇如克鲁姆洛夫、哈尔施塔特、卡罗维发力。",
+        "lineSimpleTitle": "东欧精华+德国浪漫之路",
+        "lineSortTitle": "OJDL12",
+        "lineTitle": "奥捷+德国浪漫之路12天",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "柏林",
+                "countryName": "德国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "维尔茨堡",
+                "countryName": "德国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "罗腾堡",
+                "countryName": "德国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "奥格茨堡",
+                "countryName": "德国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "富森",
+                "countryName": "德国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "维也纳",
+                "countryName": "奥地利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "美泉宫",
+                "countryName": "奥地利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "萨尔斯堡",
+                "countryName": "奥地利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "哈尔施塔特湖区",
+                "countryName": "奥地利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "瓦豪河谷",
+                "countryName": "奥地利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "布拉格",
+                "countryName": "捷克",
+                "provinceName": ""
+            },
+            {
+                "cityName": "克鲁姆洛夫",
+                "countryName": "捷克",
+                "provinceName": ""
+            },
+            {
+                "cityName": "卡罗维发力",
+                "countryName": "捷克",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "12",
+        "tripNight": "11",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "含签证费用，承诺拒签退全款。游客需提供必要的签证材料，如护照、照片等。签证申请过程中，游客需配合旅行社提供所需材料。",
+                    "country": "",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        },
+        "backAirports": [
+            {
+                "airlineCode": "HU",
+                "airlineName": "海南航空公司",
+                "arriveAirportName": "北京",
+                "arriveTime": "04:55+1",
+                "days": 1,
+                "flightNo": "HU490",
+                "flightSort": "柏林-北京",
+                "startAirportName": "柏林",
+                "startTime": "12:55"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "HU",
+                "airlineName": "海南航空公司",
+                "arriveAirportName": "布拉格",
+                "arriveTime": "05:50",
+                "days": 0,
+                "flightNo": "HU7937",
+                "flightSort": "北京-布拉格",
+                "startAirportName": "北京首都机场T2航站楼",
+                "startTime": "02:30"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": {
+            "adultSalePrice": "",
+            "childSalePrice": "",
+            "sellRemark": ""
+        },
+        "departDate": [
+            "2023-11-14",
+            "2023-12-26",
+            "2024-01-23",
+            "2024-02-06",
+            "2024-03-13"
+        ]
+    },
+    "cost": {
+        "bookRule": "1. 报名时需支付全额团费。\n2. 团费包含签证费用，承诺拒签退全款。\n3. 行程中的住宿均为欧洲星级标准酒店，含早餐。\n4. 行程中的餐食为中式六菜一汤，部分特色餐如维也纳骑士餐厅猪排餐。\n5. 行程中包含专业司机和导游服务，全程豪华巴士。\n6. 本社有权根据实际情况对行程进行调整，但游览内容不会减少，标准不会降低。",
+        "costExclude": "1. 护照费、申请签证中准备相关材料所需的制作、手续费，如未成年人所需的公证书、认证费\n2. 洗衣、电话、饮料、烟酒、付费电视、行李搬运等私人费用\n3. 出入境的行李海关课税，超重行李的托运费、管理费等\n4. 行程中未提到的其它费用：如特殊门、游船（轮）、缆车、地铁票等费用\n5. 公务活动及专业翻译费，转机/火车时用餐\n6. 旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失\n7. 此团单间差为65欧元/人/晚",
+        "costInclude": "1. 欧洲国家邀请和签证费\n2. 行程中所标明的欧洲星级标准酒店及早餐\n3. 每日午、晚餐以中式餐食为主（用餐标准为六菜一汤），如遇退餐8欧元/每人每餐\n4. 全程提供豪华巴士（车行按人数而定），专业司机\n5. 行程中带★的景点含门票费\n6. 国际间往返机票（经济舱）及欧洲境内段机票（含机场税）\n7. 境外旅行责任险\n8. 司机、导游小费",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "0",
+                "end": "0"
+            }
+        ],
+        "otherRule": "1. 本公司保留对上述行程的最终解释权，请以出发前确认行程为准。\n2. 由于团队行程中所有住宿、用车、景点门票等均为旅行社打包整体销售，因此若游客因自身原因未能游览参观的则视为自动放弃，旅行社将无法退费用。\n3. 本社有权根据景点节假日休息（关门）调整行程游览先后顺序，但游览内容不会减少，标准不会降低。\n4. 旅游期间，尽量避免到偏僻的地方。出行时尽量结伴而行，以便相互照顾。留意下榻饭店的名称和地址，最好向前台索取一张饭店名片，随身携带，以便外出后能够顺利回到酒店。\n5. 请严格遵守团队出发当日的集中时间、境外行程安排中及返回的各个集合时间。",
+        "returnContent": "1. 一旦确认参加并付费后将无法退款。\n2. 如因游客自身原因取消或因旅行社不能控制因素无法安排的，对旅行社予以理解。",
+        "selfCostContent": "包含多个自费项目，如奥地利的维也纳深度游、梅尔克修道院、维也纳音乐会等，以及捷克、德国、匈牙利的多个特色项目。",
+        "selfCosts": [
+            {
+                "address": "奥地利",
+                "fee": "120 欧元",
+                "name": "维也纳深度游",
+                "remark": "",
+                "stay": "3 小时"
+            },
+            {
+                "address": "奥地利",
+                "fee": "50 欧元",
+                "name": "梅尔克修道院",
+                "remark": "",
+                "stay": "30 分钟"
+            },
+            {
+                "address": "奥地利",
+                "fee": "90 欧元起",
+                "name": "维也纳音乐会",
+                "remark": "",
+                "stay": "1.5 小时"
+            },
+            {
+                "address": "奥地利",
+                "fee": "55 欧元",
+                "name": "金色大厅参观",
+                "remark": "",
+                "stay": "45 分钟"
+            },
+            {
+                "address": "奥地利",
+                "fee": "110 欧元",
+                "name": "哈尔施塔特",
+                "remark": "",
+                "stay": "2 小时"
+            },
+            {
+                "address": "奥地利",
+                "fee": "45 欧元",
+                "name": "莫扎特故居",
+                "remark": "",
+                "stay": "45 分钟"
+            },
+            {
+                "address": "捷克",
+                "fee": "80 欧元",
+                "name": "百威小镇+百威啤酒酿造厂",
+                "remark": "",
+                "stay": "2 小时"
+            },
+            {
+                "address": "捷克",
+                "fee": "55 欧元",
+                "name": "布拉格游船",
+                "remark": "",
+                "stay": "1 小时"
+            },
+            {
+                "address": "捷克",
+                "fee": "80 欧元",
+                "name": "库特钠霍拉半日游",
+                "remark": "",
+                "stay": "3 小时"
+            },
+            {
+                "address": "捷克",
+                "fee": "50 欧元",
+                "name": "白堡（胡波卡堡）",
+                "remark": "",
+                "stay": "1.5 小时"
+            },
+            {
+                "address": "捷克",
+                "fee": "120 欧元",
+                "name": "布拉格深度游",
+                "remark": "",
+                "stay": "3 小时"
+            },
+            {
+                "address": "德国",
+                "fee": "40 欧元",
+                "name": "德国猪脚餐",
+                "remark": "",
+                "stay": "1.5 小时"
+            },
+            {
+                "address": "德国",
+                "fee": "65 欧元",
+                "name": "新天鹅堡",
+                "remark": "",
+                "stay": "1 小时"
+            },
+            {
+                "address": "匈牙利",
+                "fee": "65 欧元",
+                "name": "布达佩斯多瑙河游船",
+                "remark": "",
+                "stay": "1 小时"
+            }
+        ],
+        "shopContent": "1. 欧洲各国对商品定价都有严格管理，同一国家内同样商品不会有较大价差。但各国之间会存在差别，请您仔细做好攻略后谨慎购买。\n2. 如遇不可抗力（天气、罢工、政府行为等）或其他旅行社已尽合理注意义务仍不能避免的事件，为保证景点正常游览，旅行社可能根据实际需要减少本补充协议约定的购物场所，敬请游客谅解。\n3. 退税说明：退税是欧盟对非欧盟游客在欧洲购物的优惠政策，整个退税手续及流程均由欧洲国家控制，经常会出现退税不成功、税单邮递过程中丢失导致无法退税等问题，我们会负责协调处理，但无法承担任何赔偿。",
+        "shops": [
+            {
+                "address": "德国",
+                "remark": "",
+                "shopName": "刀具店",
+                "shopProduct": "德国双立人等品牌",
+                "stay": "45"
+            },
+            {
+                "address": "奥地利",
+                "remark": "",
+                "shopName": "礼品店",
+                "shopProduct": "SWAROVSKI水晶、手表、欧洲名品",
+                "stay": "45"
+            }
+        ],
+        "tipsContent": "1. 本旅行社提醒游客特别注意：在随团旅游期间，无论是在自由活动期间还是团队旅游过程中，请务必注意自身人身安全及财产安全；防止意外事故的发生；注意饮食卫生及身体健康!\n2. 以上行程时间表仅供您参考，如遇特殊情况（如堵车、恶劣天气、景点关门、突发事件等），领队将予以前后调整，请以境外最终安排为准；请严格遵守领队告知的自由活动时间，以免延误行程，敬请理解与配合！\n3. 特别注意事项欧盟规定:旅欧期间最少每人每天带够150欧元。"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "23:30 北京首都机场 T2 航站楼集合，领队召开出团说明会。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "北京出发准备",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "02:30 搭乘海南航空公司国际航班直飞布拉格，05:50 抵达捷克首都布拉格，乘车前往布拉格老城。12:00 午餐，六菜一汤；13:00 下午继续游览查理大桥。17:00 晚餐，六菜一汤；18:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3-4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "上午",
+                    "description": "在早晨游客最少的时候拍下布拉格美景；老城广场绝对不能错过的生气蓬勃又饶富古意的老城广场，是捷克最著名最有代表性的广场，被称为“布拉格心脏”。整个广场被巴洛克、洛可可、哥特式和罗马式的各式建筑物包围，中世纪的教堂、钟楼交相辉映，令人赞叹！",
+                    "name": "布拉格老城"
+                },
+                {
+                    "consumingTime": "下午",
+                    "description": "“音乐才子”周杰伦也曾选择在此拍摄美美的婚纱照，桥上 30 尊巴洛克式雕塑把平凡的一道石桥变成了一件吸引无数游客的艺术品。游客又吸引了很多卖纪念品的小贩和卖艺人，使得桥上热闹非凡。无论是白天还是夜晚，这里的景色都非常迷人。",
+                    "name": "查理大桥"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "05:50",
+                    "departure": "北京",
+                    "departureTime": "02:30",
+                    "destination": "布拉格",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "布拉格之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "特别留有一整天自由活动时间，尽情享受布拉格的浪漫与自由。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3-4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "布拉格自由活动",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00酒店内西式早餐；09:00乘车前往欧洲著名的温泉小镇——卡罗维发利，游览公园温泉回廊、磨坊温泉回廊，品尝当地温泉水。13:00午餐，六菜一汤；14:00乘车前往捷克小镇，入住酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3-4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约60分钟",
+                    "description": "欧洲著名的温泉小镇，位于捷克西部波希米亚地区1370年建立城市。在历史上便以温泉著称，共有13个主要温泉，大约300个较小温泉。这里的温泉除了可以浸泡疗养外，还可以直接饮用，沿着泰培拉河两岸行走，小城随处有可以饮用的温泉。",
+                    "name": "卡罗维发利"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "",
+                    "name": "公园温泉回廊"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "",
+                    "name": "磨坊温泉回廊"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "布拉格",
+                    "departureTime": "09:00",
+                    "destination": "卡罗维发利",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "卡罗维发利",
+                    "departureTime": "14:00",
+                    "destination": "捷克小镇",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "布拉格-卡罗维发利-捷克小镇之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00酒店内西式早餐；09:00早餐后乘车前往被称为捷克最美小镇的克鲁姆洛夫，远观克鲁姆洛夫古堡和外观克鲁姆洛夫老市政厅，乘车前往维也纳。18:00晚餐，六菜一汤。19:00前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3-4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "一天",
+                    "description": "被称为捷克最美小镇，被宽阔蜿蜒的伏尔塔瓦河环抱着，至今依然保存着中古世纪的风采，走进这座城市，时光仿佛停留在十八世纪。远观克鲁姆洛夫古堡，兴建于1240年的中世纪城堡，捷克除布拉格城堡之外最大的一个古堡，城堡中有一个完好保存至今的巴洛克式剧场以及一些原始的布景和道具。外观克鲁姆洛夫老市政厅，市政大厅采用原始的14世纪哥特式建筑结构，后来在1597年加入了毗邻式结构，使得整个大厅变得更宽广，过去富裕家庭居住在这，现在是市政当局，市政警察局，报刊经销商的办公地址。",
+                    "name": "克鲁姆洛夫"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "09:00",
+                    "destination": "维也纳",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "捷克小镇克鲁姆洛夫与维也纳之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 在酒店内享用西式早餐。09:00 乘车赴匈牙利首都布达佩斯。12:00 享用午餐，六菜一汤。13:00 登上布达城堡山上的渔夫堡，游览安德拉什大街。18:00 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3-4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "13:00-18:00",
+                    "description": "位于布达一侧的城堡山上，为纪念昔日防御多瑙河渔夫而命名的城塞，它与匈牙利国会大厦、国家歌剧院一起被誉为匈牙利令人震撼的三大建筑，也是俯瞰多瑙河，眺望佩斯区景致的最佳地点",
+                    "name": "渔夫堡"
+                },
+                {
+                    "consumingTime": "13:00-18:00",
+                    "description": "原名共和国大道，是布达佩斯的一条美丽的街道、标志性的林荫大道，可以追溯到1872年，2002年被列为世界文化遗产",
+                    "name": "安德拉什大街"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "维也纳",
+                    "departureTime": "09:00",
+                    "destination": "布达佩斯",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "维也纳至布达佩斯之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00酒店内西式早餐。09:00乘车返回维也纳。14:00参观美泉宫（含耳机讲解）。18:00维也纳骑士餐厅特色炸猪排餐。19:00前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3-4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "它曾是神圣罗马帝国、奥地利帝国、奥匈帝国和哈布斯堡王朝家族的皇宫，美泉宫及其花园在1996年被联合国教科文组织列入《世界文化遗产名录》",
+                    "name": "美泉宫"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "布达佩斯",
+                    "departureTime": "09:00",
+                    "destination": "维也纳",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "布达佩斯至维也纳之旅",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00酒店内西式早餐，09：00乘车前往位于克雷姆斯和梅尔克之间的瓦豪河谷，随后前往梅尔克。今日可选择自费前往被称为世界最美的小镇之一的哈尔施塔特，19:00前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "未提及",
+                    "star": "3-4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "未提及",
+                    "description": "它是多瑙河中最美丽迷人的一段，是生命和精神愉悦的河谷。令人印象深刻的修道院坐落于陡峭山岩之上，郁郁葱葱的葡萄园、城堡和村落点缀于波光粼粼的多瑙河两岸。这段36公里长的多瑙河河段已成为联合国教科文组织的世界文化遗产。",
+                    "name": "瓦豪河谷风景区"
+                },
+                {
+                    "consumingTime": "未提及",
+                    "description": "一千多年以来，该镇是国家的精神和文化中心，以一座始建于1089年的圣本译会修道院而闻名于世。",
+                    "name": "梅尔克"
+                },
+                {
+                    "consumingTime": "未提及",
+                    "description": "这座在险峻的斜坡和宝石般碧绿的湖泊间伫立的湖畔小镇，到处可见童话般的房屋，山峰和湖泊，把这里变成了人间仙境。",
+                    "name": "哈尔施塔特"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "未提及",
+                    "departure": "维也纳",
+                    "departureTime": "09:00",
+                    "destination": "瓦豪河谷风景区",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "未提及",
+                    "departure": "瓦豪河谷风景区",
+                    "departureTime": "未提及",
+                    "destination": "梅尔克",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "19:00",
+                    "departure": "梅尔克",
+                    "departureTime": "未提及",
+                    "destination": "奥地利小镇",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "维也纳至奥地利小镇之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00酒店内西式早餐。09:00乘车前往被誉为“世界舞台”的萨尔斯堡，参观挂满特色牌匾的粮食大街。12:00午餐敬请自理。13:00参观米拉贝尔公园，后乘车前往德国富森。18:00晚餐，六菜一汤。19:00前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3-4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "挂满特色牌匾",
+                    "name": "粮食大街"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "电影《音乐之声》的拍摄地",
+                    "name": "米拉贝尔公园"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "奥地利小镇、萨尔茨堡、富森之旅",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 酒店内西式早餐；09:00 乘车前往奥格斯堡，途中可参加自费项目：童话城堡－新天鹅堡。12:00 午餐，六菜一汤；13:00 游览奥格斯堡，沿着浪漫之路前往陶伯河上游罗滕堡，感受其古典浪漫气息。之后前往维尔茨堡，感受这座古城的艺术浪漫。19:00 前往酒店休息",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "13:00 - 19:00",
+                    "description": "这座城市位于菲森莱希河与韦尔塔赫河之间。这里有数不清的豪华建筑（外观）：如埃利斯·霍尔的文艺复兴式市政厅、佩拉赫塔、富格尔福利院、12 世纪的大教堂",
+                    "name": "奥格斯堡"
+                },
+                {
+                    "consumingTime": "13:00 - 19:00",
+                    "description": "这里是德国历史悠久的贸易古城，有“中世纪之宝”的美誉。全城的房子均以红色为顶，故称“陶伯河上的红色城堡”。城墙外恬静的田园风光和城墙内的红色屋脊相映成画，花园古堡的魅力尽显。普伦莱茵广场周围是小镇的精华，洋娃娃商店、玩具博物馆等林立其中，每一件小生活用品都被设计成童话世界的模样，处处透露浪漫的气氛。这里的一砖一瓦都散发着古典浪漫气息，穿梭其间，让人仿如童话中的主人翁",
+                    "name": "罗滕堡"
+                },
+                {
+                    "consumingTime": "13:00 - 19:00",
+                    "description": "这座融合文化、艺术和弗兰肯葡萄酒的古城充满浪漫的艺术气息。城市由郁郁葱葱的葡萄园所包围，秀丽的莱茵河贯穿其中，成片的红色“盒子房”中镶嵌着几座尖顶的哥特式教堂，整座城市的建筑风格充满着巴洛克时期的色彩",
+                    "name": "维尔茨堡"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "12:00",
+                    "departure": "酒店",
+                    "departureTime": "09:00",
+                    "destination": "奥格斯堡",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "19:00",
+                    "departure": "奥格斯堡",
+                    "departureTime": "13:00",
+                    "destination": "罗滕堡",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "富森、奥格茨堡、罗滕堡、维尔茨堡之旅",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店内西式早餐；08:00 乘车前往德国首都柏林，抵达柏林后，市区游览：参观勃兰登堡门（外观约 20 分钟），国会大厦(外观约 30 分钟)，亚历山大广场（约 20 分钟），柏林墙（约 20 分钟）。18:00 晚餐，六菜一汤。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3-4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "它是德国复杂多变的历史见证人。",
+                    "name": "勃兰登堡门"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "现在是联邦议会的所在地，穹形圆顶已成为柏林城的新标志，也是最受欢迎的游览圣地。",
+                    "name": "国会大厦"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "原东柏林的政治中心，是城市东部地区重要的商业及交通中心。1961 年，柏林墙建起之后，它成了分裂的标志。1989 年墙倒之后，它即成为德国统一的象征。",
+                    "name": "亚历山大广场"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "",
+                    "name": "柏林墙"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "维尔茨堡",
+                    "departureTime": "08:00",
+                    "destination": "柏林",
+                    "trafficType": "巴士/火车"
+                }
+            ],
+            "title": "德国柏林之旅",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 在酒店内享用西式早餐，12:55 乘机从柏林回国，结束愉快的欧洲之行。温馨提示：请保留好往返登机牌连同护照一起交给领队拿回销签，也可能需前往使馆面试销签。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "04:55+1",
+                    "departure": "TXL",
+                    "departureTime": "12:55",
+                    "destination": "PEK",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "回国行程",
+            "tripDay": 12
+        }
+    ]
+}

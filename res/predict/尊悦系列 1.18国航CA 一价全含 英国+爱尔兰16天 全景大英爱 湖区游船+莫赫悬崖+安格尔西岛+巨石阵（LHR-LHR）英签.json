@@ -1,0 +1,878 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "北京",
+        "dests": [
+            {
+                "countryName": "英国",
+                "destCityName": "各大主要城市及景点",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "",
+            "name": "",
+            "typeName": ""
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "全程 4 星级酒店住宿"
+            },
+            {
+                "name": "专业导游陪同"
+            },
+            {
+                "name": "特色中餐"
+            },
+            {
+                "name": "丰富的景点游览"
+            }
+        ],
+        "productSubtitle": "享受英伦风情，探索历史遗迹",
+        "productTitle": "英国经典之旅",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "文化"
+            },
+            {
+                "name": "历史"
+            },
+            {
+                "name": "城市"
+            },
+            {
+                "name": "休闲"
+            }
+        ],
+        "themes": [
+            {
+                "name": "文化探索"
+            },
+            {
+                "name": "城市观光"
+            },
+            {
+                "name": "体验英国的文化底蕴与现代魅力"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "国际航班",
+        "goTransportName": "国际航班",
+        "hotelStarName": "-1",
+        "lineFeature": "此行程涵盖了英国的主要城市和著名景点，包括伦敦、爱丁堡、牛津等，游客可以深入了解英国的历史文化和现代风貌。",
+        "lineSimpleTitle": "英国游",
+        "lineSortTitle": "UKT",
+        "lineTitle": "英国经典之旅",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": "未明确"
+            },
+            {
+                "cityName": "伦敦",
+                "countryName": "英国",
+                "provinceName": "未明确"
+            },
+            {
+                "cityName": "爱丁堡",
+                "countryName": "英国",
+                "provinceName": "未明确"
+            },
+            {
+                "cityName": "牛津",
+                "countryName": "英国",
+                "provinceName": "未明确"
+            }
+        ],
+        "tripDays": "未明确",
+        "tripNight": "未明确",
+        "visaBasic": {
+            "postAddress": "未明确",
+            "postContact": "未明确",
+            "postPhone": "未明确",
+            "visas": [
+                {
+                    "content": "需办理英国 ADS 签证，费用已包含在团费中",
+                    "country": "英国",
+                    "district": "未明确",
+                    "freeVisa": 2,
+                    "signPlace": "未明确"
+                }
+            ]
+        },
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "北京",
+                "arriveTime": "未知",
+                "days": 0,
+                "flightNo": "CA937",
+                "flightSort": "回程",
+                "startAirportName": "伦敦",
+                "startTime": "20:25"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "伦敦",
+                "arriveTime": "17:55",
+                "days": 0,
+                "flightNo": "CA937",
+                "flightSort": "去程",
+                "startAirportName": "北京首都机场",
+                "startTime": "14:50"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "请严格遵守导游告知的自由活动时间，以免延误行程，请务必带齐个人旅行用品，特别是保暖衣物、常用药品等，请携带足够的英镑现金，以方便使用，请确保携带信用卡，并在国内提前向发卡银行确认激活，开通信用卡境外使用服务",
+        "costExclude": "护照费、申请签证中准备相关材料所需的制作、手续费，洗衣、电话、饮料、烟酒、付费电视、行李搬运等私人费用，出入境的行李海关课税，超重行李的托运费、管理费等，行程中未提到的其它费用：如特殊门、游船（轮）、缆车、地铁票等费用，公务活动及专业翻译费，转机/火车时用餐，旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失，此团单间差为 80 英镑/人/晚",
+        "costInclude": "全程国际机票费用、燃油附加税，行程中所标明的 4 星级标准酒店及早餐，全程每日午、晚餐以中式餐食为主（用餐标准为 7 菜 1 汤），如遇退餐 7 英镑/人/餐，全程提供豪华巴士（车行按人数而定），专业司机，行程中带标记的景点含门票费，英国 ADS 签证费用，境外旅行责任险，境外司机、酒店、餐厅服务费",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "未提供",
+                "end": "0"
+            }
+        ],
+        "otherRule": "如遇拒签，将收取拒签费用—英国￥1500 元/人，由于此行程涉及内陆船班，如果因为天气原因导致船公司调整船班，影响游轮无法按照原定时间出发或者取消，旅行社有权视具体情况安排其他替换观光项目或为了保证后续行程，建议客人改乘其他交通方式，例如：飞机。旅行社将退还原定船票费用，差价部分请客人自理",
+        "returnContent": "本公司所不能控制之特殊情况下，如战争、政治动荡、天灾、恶劣天气、交通工具发生技术问题、罢工及工业行动等，本公司有权在启程前或出发后取消或替换任何一个旅游项目，亦有权缩短或延长旅程。而所引发之额外支出或损失，概与本公司无涉，团员不得借故反对或退出",
+        "selfCostContent": "未提供",
+        "selfCosts": [],
+        "shopContent": "未提供",
+        "shops": [
+            {
+                "address": "未提供",
+                "remark": "未提供",
+                "shopName": "未提供",
+                "shopProduct": "未提供",
+                "stay": "未提供"
+            }
+        ],
+        "tipsContent": "请严格遵守团队出发当日的集中时间、境外行程安排中及返回的各个集合时间，注意保管好行李及个人财物，特别是贵重物品，请尊重当地文化和习俗，遵守公共秩序，如有任何身体不适，立即告知导游或同行人员"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "11:00 北京首都机场集合，专业送团人召开出团前旅游说明会；14:50 搭乘中国国际航空公司客机飞往英国首都—伦敦；17:55 抵达伦敦，专车接机随后前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "17:55",
+                    "departure": "北京",
+                    "departureTime": "14:50",
+                    "destination": "伦敦",
+                    "trafficType": "飞机/巴士"
+                }
+            ],
+            "title": "北京到伦敦之旅",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 在酒店享用早餐；08:00 乘车前往参观大英博物馆（含讲解，约 2 小时）；12:00 午餐，七菜一汤；13:00 乘车前往伦敦市区，外观大本钟、英国国会、伦敦眼、西敏寺教堂、白金汉宫、唐宁街 10 号、伦敦塔桥、伦敦塔；18:00 晚餐敬请自理；19:00 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约2小时",
+                    "description": "又名大不列颠博物馆，成立于1753年，1759年1月15日起正式对公众开放，是世界上历史最悠久、规模最宏伟的综合性博物馆，也是世界上规模最大、最著名的博物馆之一",
+                    "name": "大英博物馆"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "伦敦市区的标志性建筑",
+                    "name": "大本钟"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "世界议会制度的起源地",
+                    "name": "英国国会"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "伦敦地标",
+                    "name": "伦敦眼"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "威廉王子婚礼的举办地，代表了国家与教会的联系，英国历代国王加冕以及重大典礼都在此举行",
+                    "name": "西敏寺教堂"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "英国皇室的居所",
+                    "name": "白金汉宫"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "位于英国首都伦敦威斯敏斯特，传统上是第一财政大臣的官邸，今日普遍认为的英国首相官邸",
+                    "name": "唐宁街10号"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "伦敦的象征，有“伦敦正门”之称",
+                    "name": "伦敦塔桥"
+                },
+                {
+                    "consumingTime": "外观",
+                    "description": "在英国王宫中的意义非常重大，作为一个防卫森严的堡垒和宫殿，英国数代国王都在此居住，国王加冕前住伦敦塔便成了一种惯例",
+                    "name": "伦敦塔"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "08:00",
+                    "destination": "",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "13:00",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "伦敦市区景点参观",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐；08:00 乘车前往剑桥，外观国王学院和三一学院，安排剑桥撑篙游船；12:00 午餐；13:00 乘车前往约克；16:30 抵达约克，参观约克大教堂；17:30 乘车前往利兹；18:00 晚餐；19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "08:00 - 12:00",
+                    "description": "闻名世界的大学城，是英国剑桥郡首府、剑桥大学所在地，名字来源于剑河之桥，也称康桥，浪漫诗人徐志摩笔下的《再别康桥》创作于此。在漫长的历史洪流中，康河两岸增建了许多美丽的大学校舍，外观国王学院和牛顿的母校“最牛的学院”三一学院，它是剑桥大学最有名，财力最雄厚，风景最美的学院，学院的庭园里栽种着砸过牛顿脑袋的“苹果树”。特别安排剑桥撑篙游船，沿着康河游览剑桥大学城最美的学院后草坪。",
+                    "name": "剑桥"
+                },
+                {
+                    "consumingTime": "16:30 - 17:30",
+                    "description": "抵达后市区参观：外观约克大教堂，是欧洲现存最大的中世纪时期的教堂，也是世界上设计和建筑艺术最精湛的教堂之一。",
+                    "name": "约克"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "10:30",
+                    "departure": "伦敦",
+                    "departureTime": "08:00",
+                    "destination": "剑桥",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "16:30",
+                    "departure": "剑桥",
+                    "departureTime": "13:00",
+                    "destination": "约克",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "约克",
+                    "departureTime": "17:30",
+                    "destination": "利兹",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "伦敦-剑桥-约克-利兹之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐；08:00 乘车前往温德米尔湖区；10:30 游览温德米尔湖区，特别安排湖区游船；12:30 午餐特别安排英国传统快餐炸鱼和薯条；14:00 乘车前往格拉斯哥；18:00 特别安排英式下午茶；19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "10:30-12:30",
+                    "description": "有着“有史以来最美的风景”之称，崇尚自然的诗人威廉华兹华斯曾说过: 『我不知道有任何地方能在如此狭小的范畴中，揉合光影的变化，展现如此壮观优美的景色』，您可身历其境体验英格兰湖光山色，增添美好的回忆。",
+                    "name": "温德米尔湖区"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "10:30",
+                    "departure": "利兹",
+                    "departureTime": "08:00",
+                    "destination": "温德米尔湖区",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "温德米尔湖区",
+                    "departureTime": "14:00",
+                    "destination": "格拉斯哥",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "利兹-温德米尔湖区-格拉斯哥之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐；08:00 前往参观爱丁堡城堡；12:00 午餐特别安排海鲜自助火锅；13:00 爱丁堡市区游览；沿着中古石铺大道皇家一英里，前往郁郁葱葱的卡尔顿山。15:00 乘车前往“高尔夫故乡”—圣安德鲁斯，16:30 抵达后市区游览，18:00 晚餐自理，之后乘车前往酒店休息。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "08:00-13:00",
+                    "description": "爱丁堡是苏格兰精神的象征，耸立在死火山岩顶上，在市中心的各个位置都可以看到。爱丁堡是以城堡为中心而发展成的城市，人约 50 万，城名'Edinburgh'意指在斜坡上的城塞，夏秋两季绿树成荫，鲜花盛开，古代宫殿、教堂和城堡点缀其间，文化遗产丰富，是英国最美丽的城市之一，素有“北方雅典”之称。",
+                    "name": "爱丁堡城堡"
+                },
+                {
+                    "consumingTime": "15:00-18:00",
+                    "description": "它是苏格兰历史上非常著名的城镇，也是中世纪时苏格兰王国的宗教首都，因在高尔夫运动发展中做出的诸多贡献被称为“高尔夫故乡”。外观被誉为苏格兰中世纪最伟大的建筑圣安德鲁斯大教堂。后参观苏格兰历史最悠久的大学-圣安德鲁斯大学，这座大学有太多威廉王子和凯特王妃恋爱时期的回忆。后外观建于 12 世纪末的圣安德鲁斯城堡遗迹。外观有 600 年的历史的世界著名老高尔夫球场，它以浓郁的苏格兰风情和美丽的海边风景久负盛名。",
+                    "name": "圣安德鲁斯"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "格拉斯哥",
+                    "departureTime": "08:00",
+                    "destination": "爱丁堡",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "16:30",
+                    "departure": "爱丁堡",
+                    "departureTime": "15:00",
+                    "destination": "圣安德鲁斯",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "圣安德鲁斯",
+                    "departureTime": "18:00",
+                    "destination": "苏格兰小镇",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "格拉斯哥 - 爱丁堡 - 圣安德鲁斯 - 苏格兰小镇之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店享用早餐，08:00乘车前往尼斯湖，11:30抵达后探索尼斯湖，午餐自理，13:00前往威廉堡，14:30乘车返回格拉斯哥，18:00晚餐，19:00前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "11:30 - 13:00",
+                    "description": "有着高地特色的美丽风光，更因“水怪”传闻而闻名于世。湖长39公里，宽2.4公里，湖水深不见底，据说平均深度大于200米，最深处更达300多米，足可以淹没一幢40多层的大楼，其地处气候寒冷的苏格兰高地却能够终年不冻。在如此特别的环境下，尼斯湖“水怪”传闻千年来从未中断...",
+                    "name": "尼斯湖"
+                },
+                {
+                    "consumingTime": "13:00 - 14:30",
+                    "description": "这里是电影《勇敢的心》主要拍摄地之一，紧邻尼维斯大峡谷，背靠英国最高峰—本内维斯山，山顶常年云雾缭绕。徜徉在威廉堡波光粼粼的湖畔，欣赏着静谧的码头、童话般的树林、古老的小石桥、和各具特色的乡间别墅，流连忘返。",
+                    "name": "威廉堡"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "11:30",
+                    "departure": "",
+                    "departureTime": "08:00",
+                    "destination": "尼斯湖",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "尼斯湖",
+                    "departureTime": "13:00",
+                    "destination": "威廉堡",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "威廉堡",
+                    "departureTime": "14:30",
+                    "destination": "格拉斯哥",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "苏格兰小镇、尼斯湖和格拉斯哥之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "早上 07:00 酒店享用早餐，08:00 乘车前往凯恩莱恩码头，10:00 抵达后办理登船手续，11:30 乘坐渡轮横穿北海峡到达英国北爱尔兰的贝尔法斯特。午餐自理。13:45 乘车前往巨人堤游览，15:30 抵达后游览，16:30 乘车返回贝尔法斯特，18:00 晚餐，七菜一汤，19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "15:30-16:30",
+                    "description": "气势恢弘的巨人堤是一个形成于一万五千年前的玄武岩柱，堪称一个非凡的奇迹，现已列入联合国教科文组织世界遗址名录。巨人堤其实是由于火山运动后的产物，但在传说中它则由传奇英雄巨人芬恩•麦克库尔创造",
+                    "name": "巨人堤"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "10:00",
+                    "departure": "格拉斯哥",
+                    "departureTime": "08:00",
+                    "destination": "凯恩莱恩码头",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "13:45",
+                    "departure": "凯恩莱恩",
+                    "departureTime": "11:30",
+                    "destination": "贝尔法斯特",
+                    "trafficType": "渡轮"
+                },
+                {
+                    "arrivalTime": "15:30",
+                    "departure": "贝尔法斯特",
+                    "departureTime": "13:45",
+                    "destination": "巨人堤",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "巨人堤",
+                    "departureTime": "16:30",
+                    "destination": "贝尔法斯特",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "格拉斯哥、凯恩莱恩、贝尔法斯特、巨人堤之旅",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店享用早餐；09:00乘车前往贝尔法斯特市区游览；10:00乘车前往爱尔兰首都都柏林；12:00午餐，七菜一汤；13:00前往都柏林市区游览，参观圣三一学院、老图书馆、利菲河畔、欧康奈尔大街、健力士黑啤展览馆；18:00晚餐，七菜一汤；19:00前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "09:00-10:00",
+                    "description": "今天的贝尔法斯特是一座现代的繁华城市，著名的政治壁画、和平墙让你对历史上的北爱问题有全面了解。",
+                    "name": "贝尔法斯特市区"
+                },
+                {
+                    "consumingTime": "13:00-19:00",
+                    "description": "参观圣三一学院，入内参观老图书馆，随后游览利菲河畔，漫步欧康奈尔大街，随后参观爱尔兰游客人数最多的健力士黑啤展览馆。",
+                    "name": "都柏林市区"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "10:00",
+                    "departure": "贝尔法斯特",
+                    "departureTime": "09:00",
+                    "destination": "都柏林",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "贝尔法斯特与都柏林之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐；08:00 乘车前往戈尔韦；11:00 午餐；12:00 游览戈尔韦港；13:00 乘车前往莫赫悬崖；14:30 抵达后参观莫赫悬崖；16:30 乘车前往利默里克；18:00 晚餐；19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "12:00-13:00",
+                    "description": "位于爱尔兰西海岸，是一座富有艺术气息的港口小城；这里有绚丽多彩的酒馆、悦耳动听的音乐和奇特的鹅卵石步道；海港背后的河流入海口东岸一排美丽的彩色房子，它们是这座城镇一道亮丽的风景",
+                    "name": "戈尔韦"
+                },
+                {
+                    "consumingTime": "14:30-16:30",
+                    "description": "位于爱尔兰岛西海岸克莱尔郡境内，是欧洲落差最大的悬崖，最高点比大西洋海平面高214米，悬崖沿着爱尔兰西部的海岸绵延8公里。莫赫悬崖周边一带是爱尔兰最重要的海鸟栖息地，每年有超过30000只海鸟在那里繁殖后代，悬崖上生长着很多珍稀植物。电影《哈利·波特与混血王子》曾在这里取景；奥布莱恩塔是莫赫悬崖上著名的观景点，占据了悬崖上的最高点。它由当地领主奥布莱恩爵士主持修建于1835年，据说他修建这座塔是为了打动一位女人并向她求婚。天气好的时候，站在这里可以遥望到远处的阿伦群岛",
+                    "name": "莫赫悬崖"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "11:00",
+                    "departure": "酒店",
+                    "departureTime": "08:00",
+                    "destination": "戈尔韦",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "14:30",
+                    "departure": "戈尔韦",
+                    "departureTime": "13:00",
+                    "destination": "莫赫悬崖",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "莫赫悬崖",
+                    "departureTime": "16:30",
+                    "destination": "利默里克",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "都柏林、戈尔韦、莫赫悬崖、利默里克之旅",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐；08:00 乘车前往 Kildare Village；12:00 午餐，赠送代金券自理午餐；13:00 前往宝尔势格庄园；17:00 乘车前往都柏林；18:00 晚餐，七菜一汤；19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "4 小时",
+                    "description": "爱尔兰唯一的奢侈品购物村，汇集了 60 家不同的豪华精品店，折扣幅度高达 60%。",
+                    "name": "Kildare Village"
+                },
+                {
+                    "consumingTime": "2 小时",
+                    "description": "以其开阔怡人的风景，精心设计的雕塑、梯田和水池而闻名于世。在水池的周围，工艺精湛的铁器随处可见，意大利的雕塑和意大利式的坡道错落有致，内有欧洲最多的装饰园艺树木和花朵。",
+                    "name": "宝尔势格庄园"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "利默里克",
+                    "departureTime": "08:00",
+                    "destination": "Kildare Village",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "Kildare Village",
+                    "departureTime": "13:00",
+                    "destination": "宝尔势格庄园",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "宝尔势格庄园",
+                    "departureTime": "17:00",
+                    "destination": "都柏林",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "利默里克、Kildare Village、宝尔势格庄园、都柏林之旅",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "06:30早餐打包，乘车前往码头；08:20乘坐渡轮前往霍利黑德；11:50抵达后乘车前往神圣的情侣天堂-安格尔西岛，外观南栈灯塔；16:00乘车前往曼彻斯特；18:00晚餐，七菜一汤；19:00前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "5小时",
+                    "description": "是英国的蜜月天堂，因威廉王子夫妇曾在这里度蜜月而名声大振！其横跨海岸线的安格尔西岛海岸步道全长125英里，95%的海岸线被认定为“杰出自然风景区“沿途风光美丽，地貌多样，有农田、沿海石楠树丛、沙丘、盐沼地和悬崖等。外观南栈灯塔，这是威尔士最受欢迎且最壮观的灯塔之一。它位于霍利黑德以西约2-3英里处，坐落在安格尔西西北端圣岛附近的一个小岛上。自200多年前建成以来，南栈灯塔一直是经过船只的警示灯，提醒它们注意下面致命的礁石。该灯塔帮助引导驶入梅西河的繁忙航道的船只，同时也是本地海员的航标，并为穿越爱尔兰海往返于霍利黑德、都柏林和邓莱里港口的沿海交通提供指引。",
+                    "name": "安格尔西岛"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "11:50",
+                    "departure": "都柏林",
+                    "departureTime": "08:20",
+                    "destination": "霍利黑德",
+                    "trafficType": "轮渡"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "霍利黑德",
+                    "departureTime": "11:50",
+                    "destination": "安格尔西岛",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "安格尔西岛",
+                    "departureTime": "16:00",
+                    "destination": "曼彻斯特",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "都柏林经霍利黑德至曼彻斯特之旅",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 1,
+            "content": "早上 07:00 酒店享用早餐，08:00 前往外观老特拉福德球场，10:30 乘车前往斯特拉福德小镇，12:30 午餐，14:30 乘车前往比斯特购物村，18:30 前往酒店休息，晚餐自理。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "08:00-10:30",
+                    "description": "曼联的主场，世界上最著名的足球场之一。这里见证过无数可以写入历史的经典瞬间，无数知名球星在这里表演过，因此人们也将这里冠以“梦剧场”的称号。",
+                    "name": "老特拉福德球场"
+                },
+                {
+                    "consumingTime": "10:30-12:30",
+                    "description": "大文豪莎士比亚出生地，外观莎士比亚故居，外观他妻子的故居安妮之家、外观皇家莎士比亚剧院，漫步在雅芳 Avon 河边，处处充满莎士比亚文学的气息。",
+                    "name": "斯特拉福德小镇"
+                },
+                {
+                    "consumingTime": "14:30-18:30",
+                    "description": "英国人气最旺的 Outlet，据统计是非欧盟游客在伦敦城外的购物首选。比斯特购物村 Bicester Village 内 90 多个世界名牌既有 Burberry,Mulberry，Guggi 等英伦经典品牌；当然也包括 Polo Ralph Lauren,Dior 等世界名牌，价格基本是正价的对折甚至更少。",
+                    "name": "比斯特购物村"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "08:00",
+                    "destination": "斯特拉福德小镇",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "斯特拉福德小镇",
+                    "departureTime": "14:30",
+                    "destination": "比斯特购物村",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "比斯特购物村",
+                    "departureTime": "18:30",
+                    "destination": "酒店",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "曼彻斯特、斯特拉福德小镇、比斯特购物村之旅",
+            "tripDay": 12
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐；08:00 前往牛津大学城游览；10:00 乘车前往丘吉尔庄园游览，午餐自理；13:00 乘车前往巨石阵；14:30 抵达后参观巨石阵；16:00 乘车前往伦敦；18:00 晚餐，七菜一汤；19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "08:00-10:00",
+                    "description": "牛津因闻名于它的世界一流学府的地位和遍布各地的古迹,使它成为人们极度梦想的城市。距今1100多年的牛津城是英国皇族和学者的摇篮。外观基督教堂学院",
+                    "name": "牛津大学城"
+                },
+                {
+                    "consumingTime": "10:00-13:00",
+                    "description": "如果你喜欢英式庄园，对英国的历史、文化及建筑感兴趣，去英国，一定不能错过丘吉尔庄园，堪称与法国凡尔赛宫齐名的英国最大、最豪华的私人邸宅。不同于罗马人的奢华、法国人的浪漫，英国人更喜欢回国自然，享受天然的宁静与舒适，因此英国的很多私家庄园都坐落在远离喧嚣的乡村地带，周围有大片的青草地和精美的园林建筑，令人叹为观止",
+                    "name": "丘吉尔庄园"
+                },
+                {
+                    "consumingTime": "14:30-16:00",
+                    "description": "巨石阵由巨大的石头组成，每块约重50吨。它的主轴线、通往石柱的古道和夏至日早晨初升的太阳，在同一条线上；另外，其中还有两块石头的连线指向冬至日落的方向。约建于公元前4000～2000年，是欧洲著名的史前时代文化神庙遗址，位于英格兰威尔特郡索尔兹伯里平原。2008年3月至4月，英国考古学家研究发现，巨石阵的准确建造年代距今已经有4300年，即建于公元前2300年左右",
+                    "name": "巨石阵"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "10:00",
+                    "departure": "酒店",
+                    "departureTime": "08:00",
+                    "destination": "牛津大学城",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "13:00",
+                    "departure": "牛津大学城",
+                    "departureTime": "10:00",
+                    "destination": "丘吉尔庄园",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "14:30",
+                    "departure": "丘吉尔庄园",
+                    "departureTime": "13:00",
+                    "destination": "巨石阵",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "18:00",
+                    "departure": "巨石阵",
+                    "departureTime": "16:00",
+                    "destination": "伦敦",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "牛津、丘吉尔庄园、巨石阵、伦敦之旅",
+            "tripDay": 13
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐；08:00 乘车前往伦敦后花园坎特伯雷，09:30 抵达后外观坎特伯雷大教堂，游览韦斯特盖特花园，午餐敬请自理；13:00 乘车前往英格兰的象征-七姐妹白崖；15:00 抵达后游览七姐妹白崖，18:00 晚餐，19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "从 08:00 至 13:00",
+                    "description": "它是英国最古老的小城之一，也是英国著名诗集《坎特伯雷故事集》的朝圣之地。外观坎特伯雷大教堂，它是英国最古老的一座大教堂之一，宗教地位仅次于英国君王，教堂本身被列为世界文化遗产；之后游览藏在英国的油画世界韦斯特盖特花园，走在花园的步道上，仿佛漫步在梦境里。",
+                    "name": "坎特伯雷"
+                },
+                {
+                    "consumingTime": "从 15:00 至 18:00",
+                    "description": "由七座主要的白垩断崖相连，紧临英吉利海峡，故名为“七姐妹”，175 米高的悬崖峭壁令人敬畏万分，和海滩几乎成 90°夹角。而纯白色的崖体及崖上翠绿的草地更令人叹为观止。",
+                    "name": "七姐妹白崖"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "09:30",
+                    "departure": "伦敦",
+                    "departureTime": "08:00",
+                    "destination": "坎特伯雷",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "15:00",
+                    "departure": "坎特伯雷",
+                    "departureTime": "13:00",
+                    "destination": "七姐妹白崖",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "19:00",
+                    "departure": "七姐妹白崖",
+                    "departureTime": "18:00",
+                    "destination": "伦敦",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "伦敦周边游览",
+            "tripDay": 14
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 酒店享用早餐；10:00 前往温莎堡；12:00 午餐，七菜一汤；13:00 自由活动，晚餐自理；15:00 乘车前往机场，办理登机手续；20:25 搭乘中国国际航空公司客机返回北京。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "10:00 - 12:00",
+                    "description": "位于泰晤士河南岸小山丘上，距伦敦近郊约40公里，是一组花岗石建筑群，气势雄伟，挺拔壮观，最初由威廉一世营建，目的在于保护泰晤士河上来往的船只和王室的安全，自12世纪以来一直是英王的行宫；当年爱德华八世为能迎娶心上人辛普森太太为妻，不惜逊位，降为温莎公爵，其“爱美人不爱江山”的浪漫爱情故事至今令人感动。",
+                    "name": "温莎堡"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "12:00",
+                    "departure": "酒店",
+                    "departureTime": "10:00",
+                    "destination": "温莎堡",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "酒店",
+                    "departureTime": "15:00",
+                    "destination": "机场",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "伦敦",
+                    "departureTime": "20:25",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "英国之旅返程日",
+            "tripDay": 15
+        },
+        {
+            "breakfast": 1,
+            "content": "安抵北京，结束愉快旅行！",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "结束行程",
+            "tripDay": 16
+        }
+    ]
+}

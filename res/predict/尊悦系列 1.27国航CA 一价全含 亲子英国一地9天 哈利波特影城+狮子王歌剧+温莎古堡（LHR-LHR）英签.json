@@ -1,0 +1,549 @@
+{
+    "product": {
+        "childAgeBegin": 2,
+        "childAgeEnd": 12,
+        "childHasBed": 1,
+        "childHasTraffic": 1,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "儿童年龄限制为 2-12 岁，身高不限，含大交通及床位",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "中国",
+        "dests": [
+            {
+                "countryName": "中国",
+                "destCityName": "北京",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "欧洲",
+                "destCityName": "各大城市",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "本公司已为参团旅客购买价值 30 万之人身意外保险。本公司已强烈要求旅客自行购买旅游意外保险，以更全面保障旅客利益。",
+            "name": "人身意外保险",
+            "typeName": "境内外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "专业的导游服务，确保旅途愉快"
+            },
+            {
+                "name": "丰富的行程安排，涵盖欧洲主要景点"
+            },
+            {
+                "name": "高品质的住宿安排，确保旅途舒适"
+            },
+            {
+                "name": "详细的旅行须知，确保旅客安全"
+            }
+        ],
+        "productSubtitle": "愉快旅程，安全无忧",
+        "productTitle": "北京往返欧洲精品游",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "安全保障"
+            },
+            {
+                "name": "舒适住宿"
+            },
+            {
+                "name": "精彩行程"
+            }
+        ],
+        "themes": [
+            {
+                "name": "欧洲文化与自然风光探索"
+            },
+            {
+                "name": "欧洲经典游"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "飞机",
+        "goTransportName": "飞机",
+        "hotelStarName": "-1",
+        "lineFeature": "本线路涵盖欧洲多个著名城市，包括巴黎、罗马、伦敦等，游客将欣赏到欧洲的历史文化和自然风光。行程中包含多个著名景点的入内参观，如埃菲尔铁塔、罗马斗兽场、大本钟等。此外，还提供专业的导游服务，确保游客的旅途愉快。",
+        "lineSimpleTitle": "欧洲精品游",
+        "lineSortTitle": "EPY",
+        "lineTitle": "北京往返欧洲精品游",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "巴黎",
+                "countryName": "法国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "罗马",
+                "countryName": "意大利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "伦敦",
+                "countryName": "英国",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "12",
+        "tripNight": "11",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": []
+        },
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "英国国际航空公司",
+                "arriveAirportName": "北京",
+                "arriveTime": "14:45+1",
+                "days": 0,
+                "flightNo": "CA938",
+                "flightSort": "返程",
+                "startAirportName": "伦敦",
+                "startTime": "20:25"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "英国国际航空公司",
+                "arriveAirportName": "伦敦",
+                "arriveTime": "17:50",
+                "days": 0,
+                "flightNo": "CA937",
+                "flightSort": "去程",
+                "startAirportName": "北京首都国际机场",
+                "startTime": "14:30"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "1. 报名时需提供准确的个人信息，包括姓名、性别、出生日期、护照号码等。2. 请务必携带有效的护照及签证。3. 出发前请仔细阅读旅行须知，遵守相关规定。",
+        "costExclude": "1. 个人护照及签证费用。2. 个人消费，如洗衣、电话、饮料等。3. 行李超重费用。4. 自费项目费用。5. 单间差费用。",
+        "costInclude": "1. 往返国际机票及税费。2. 行程中所列酒店住宿。3. 行程中所列景点首道门票。4. 专业导游服务。5. 全程旅游巴士接送。6. 旅游期间的餐饮安排。7. 旅游保险。",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "扣除定金",
+                "end": "30"
+            },
+            {
+                "begin": "15",
+                "cost": "扣除 50%团费",
+                "end": "30"
+            },
+            {
+                "begin": "7",
+                "cost": "扣除 80%团费",
+                "end": "15"
+            },
+            {
+                "begin": "0",
+                "cost": "扣除 100%团费",
+                "end": "7"
+            }
+        ],
+        "otherRule": "1. 如遇航空公司、酒店等第三方供应商的价格调整，本公司保留调整报价的权利。2. 如因不可抗力因素导致行程变更，本公司不承担赔偿责任。",
+        "returnContent": "1. 如因不可抗力因素导致行程取消，本公司将退还全额团费。2. 退团申请需以书面形式提交，经本公司确认后生效。",
+        "selfCostContent": "1. 自费项目需提前预订，名额有限。2. 自费项目的费用不含在团费内，需额外支付。",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "50 欧元",
+                "name": "巴黎塞纳河游船",
+                "remark": "乘坐游船游览塞纳河，欣赏巴黎沿岸美景。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "80 欧元",
+                "name": "罗马梵蒂冈博物馆",
+                "remark": "参观梵蒂冈博物馆，欣赏世界级艺术品。",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "60 欧元",
+                "name": "伦敦泰晤士河游船",
+                "remark": "乘坐游船游览泰晤士河，感受伦敦的魅力。",
+                "stay": ""
+            }
+        ],
+        "shopContent": "1. 请根据个人喜好和需求选择购买商品。2. 购物时请索要发票，以便日后退换货。",
+        "shops": [
+            {
+                "address": "40 Bd Haussmann, 75009 Paris, France",
+                "remark": "巴黎最著名的购物商场之一，汇集了众多国际知名品牌。",
+                "shopName": "巴黎老佛爷百货",
+                "shopProduct": "奢侈品、时尚服饰",
+                "stay": "120"
+            },
+            {
+                "address": "Piazza della Repubblica, 00184 Roma RM, Italy",
+                "remark": "罗马市中心的著名广场，周边有许多特色小店。",
+                "shopName": "罗马文艺复兴广场",
+                "shopProduct": "纪念品、手工艺品",
+                "stay": "60"
+            },
+            {
+                "address": "87-135 Brompton Rd, Knightsbridge, London SW1X 7XL, UK",
+                "remark": "伦敦最豪华的购物商场之一，提供高品质的购物体验。",
+                "shopName": "伦敦哈罗德百货",
+                "shopProduct": "奢侈品、时尚服饰",
+                "stay": "120"
+            }
+        ],
+        "tipsContent": "1. 请随身携带手机，以便联系。2. 请携带足够的现金和信用卡。3. 请携带必要的个人用品，如洗漱用品、换洗衣物等。4. 请注意个人安全，避免单独行动。"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "11:00 北京首都国际机场集合，专业送团人召开出团前旅游说明会。14:30 搭乘英国国际航空公司客机直飞伦敦，17:50 抵达伦敦，专车接机随后前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "17:50",
+                    "departure": "北京",
+                    "departureTime": "14:30",
+                    "destination": "伦敦",
+                    "trafficType": "飞机/巴士"
+                }
+            ],
+            "title": "北京到伦敦之旅",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00酒店享用早餐，09:00乘车前往剑桥，10:30游览剑桥大学城，13:00午餐，13:30乘车前往约克，17:00抵达约克后外观约克大教堂，19:00前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "3小时30分钟",
+                    "description": "在漫长的历史洪流中，康河两岸增建了许多美丽的大学校舍，外观国王学院和牛顿的母校“最牛的学院”三一学院，它是剑桥大学最有名，财力最雄厚，风景最美的学院，学院的庭园里栽种着砸过牛顿脑袋的“苹果树”。特别安排剑桥撑篙游船，沿着康河游览剑桥大学城最美的学院后草坪。",
+                    "name": "剑桥大学城"
+                },
+                {
+                    "consumingTime": "2小时",
+                    "description": "造访这座拥有中古纪至乔治王时代等历史瑰宝的城市，外观约克大教堂，它是欧洲现存最大的中世纪时期哥特式教堂，是世界上设计和建筑艺术最精湛的教堂之一，十分的宏伟庄严，耗费了200多年的时间才建成。教堂东南的一整片彩色玻璃是全世界最大的中世纪彩绘玻璃窗，大厅是《哈利波特》中的霍格沃茨大厅拍摄地。",
+                    "name": "约克"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "10:30",
+                    "departure": "",
+                    "departureTime": "09:00",
+                    "destination": "剑桥",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "17:00",
+                    "departure": "剑桥",
+                    "departureTime": "13:30",
+                    "destination": "约克",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "伦敦、剑桥、约克之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐，08:00 乘车前往苏格兰首府—爱丁堡，11:00 抵达后参观爱丁堡城堡，随后漫步中古石铺大道皇家英里大道，12:30 午餐，16:00 乘车前往格拉斯哥（或英国小镇），17:30 晚餐自理，19:00 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "11:00-12:30",
+                    "description": "爱丁堡现存最古老的建筑；而宫殿里有不少苏格兰宝物，如 1540 年设计的苏格兰皇冠，及其他的权杖、宝剑等文物",
+                    "name": "爱丁堡城堡"
+                },
+                {
+                    "consumingTime": "12:30-16:00",
+                    "description": "每年八月份爱丁堡的军乐队游行便在此举行。随后前往著名的王子街，爱丁堡最繁华的街道。王子街把爱丁堡分为新旧二城，北面分为新城，南面为旧城。新，旧两城之间有一座长条山丘，天然壁垒分明，王子街素有“全球景色最佳的马路”之称。",
+                    "name": "皇家英里大道"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "11:00",
+                    "departure": "",
+                    "departureTime": "08:00",
+                    "destination": "爱丁堡",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "爱丁堡",
+                    "departureTime": "16:00",
+                    "destination": "格拉斯哥（或英国小镇）",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "爱丁堡与格拉斯哥之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00 酒店享用早餐，08:00 乘车前往温德米尔湖区，11:30 午餐安排英国特色餐 Fish&Chips（炸鱼薯条餐），12:30 抵达后游览温德米尔湖区，14:30 乘车前往曼彻斯特，17:00 抵达后外观曼联队体育馆—老特拉福德球场，18:00 晚餐，19:00 前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "12:30 - 14:30",
+                    "description": "特别安排温德米尔湖区游船，游览湖区周边美景。崇尚自然的诗人威廉华兹华斯曾说过：‘我不知道有任何地方能在如此狭小的范畴中，揉合光影的变化，展现如此壮观优美的景色’。您可身历其境体验英格兰湖光山色，湖区迷人的风景，增添美好的回忆；参观著名的童话世界彼得兔童画馆，碧翠克丝·波特创作的彼得兔是英国家喻户晓的卡通明星，博物馆分三大主要部分，除了展览本身，还有花园和茶室，童画馆还原了故事里的田园世界，轻松活泼，充满童趣。",
+                    "name": "温德米尔湖区"
+                },
+                {
+                    "consumingTime": "14:30 - 19:00",
+                    "description": "英格兰工业重镇、足球劲旅曼联球乡，这里也是英国的第二大城市仅次于伦敦，是城市重建的一个典范，人们可以从这里看到英国工业的发展历史。外观曼联队体育馆—老特拉福德球场。",
+                    "name": "曼彻斯特"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "12:30",
+                    "departure": "格拉斯哥",
+                    "departureTime": "08:00",
+                    "destination": "温德米尔湖区",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "17:00",
+                    "departure": "温德米尔湖区",
+                    "departureTime": "14:30",
+                    "destination": "曼彻斯特",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "格拉斯哥 - 温德米尔湖区 - 曼彻斯特之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 酒店享用早餐，09:00 前往莎士比亚故居-斯特拉特福镇，11:00 参观莎士比亚故居，12:00 午餐，七菜一汤，13:00 乘车前往比斯特购物村，17:00 晚餐自理，19:00 前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "11:00-12:00",
+                    "description": "英国伟大的戏剧家威廉·莎士 比亚的诞生地和逝世的地方。是一座带阁楼的二层楼 房。木结构的房屋框架、斜坡瓦顶、泥土原色的外墙、 凸出墙外的窗户和门廓使这座16世纪的老房在周围 的建筑群中十分显眼。莎士比亚故居里的家具和其他 物件构成了莎士比亚出生地管委会下属博物馆的收藏 品的一部分。",
+                    "name": "莎士比亚故居"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "曼彻斯特 - 斯特拉特福 - 比斯特购物村 - 英国小镇之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00酒店享用早餐，09:00乘车前往牛津大学城游览，12:00午餐，13:00参观哈利波特影城，16:00乘车前往伦敦，19:00前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "在这里，文雅的学术氛围以及其长期享有的特权会让人感受到极大的冲击。威严的建筑，安静的大学校园。在39个学院中，最大和最有名的是基督教会学院，是电影《哈利·波特》的拍摄外景地。古老的牛津大学图书馆以及富有的万灵学院，也都是不容错过的景点。特别安排牛津大学专业人工讲解，带您深入透彻的了解牛津大学的历史与现实世事。",
+                    "name": "牛津大学城"
+                },
+                {
+                    "consumingTime": "约4小时左右",
+                    "description": "当时拍摄哈利波特系列所使用的片厂，在拍摄《死神的圣物》期间，华纳将片厂买下，因此，游客可以参观到所有哈利波特的场景，包括邓不利多办公室、葛莱分多宝剑、分类帽等所有在电影院能看到的电影场景皆一一呈现在游客面前。哈利波特影城每个布景中摆上演员们的蜡像，穿着电影中的服装，巫师袍、隐形斗篷，配上魔杖、飞天扫帚等道具，彷佛下一刻哈利就会骑着火闪电从你面前呼啸而过追寻金探子的踪影一样。这里还会向游客展现电影里那些魔法的拍摄方式，快置身于魔法世界吧!",
+                    "name": "哈利波特影城"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "09:00",
+                    "destination": "牛津大学城",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "牛津大学城",
+                    "departureTime": "13:00",
+                    "destination": "哈利波特影城",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "哈利波特影城",
+                    "departureTime": "16:00",
+                    "destination": "伦敦",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "英国小镇、牛津、哈利波特影城之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 酒店享用早餐，09:00 开始市区游览，外观大本钟、伦敦眼、英国国会、西敏寺教堂、白金汉宫、伦敦塔桥、伦敦塔。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "坐落在英国伦敦泰晤士河畔的一座钟楼，是伦敦的标志性建筑之一",
+                    "name": "大本钟"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "又称千禧之轮，坐落在伦敦泰晤士河畔，是世界第四大摩天轮，是伦敦的地标之一，也是伦敦最吸引游人的观光点之一",
+                    "name": "伦敦眼"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "世界议会制度的起源地",
+                    "name": "英国国会"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "威廉王子婚礼的举办地，代表了国家与教会的联系，英国历代国王加冕以及重大典礼都在此举行",
+                    "name": "西敏寺教堂"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "位于伦敦威斯敏斯特城内，是英国王室的王宫和居所",
+                    "name": "白金汉宫"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "是伦敦的象征，有“伦敦正门”之称",
+                    "name": "伦敦塔桥"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "在英国王宫中的意义非常重大，作为一个防卫森严的堡垒和宫殿，英国数代国王都在此居住，国王加冕前住伦敦塔便成了一种惯例。还是一座著名的监狱，英国历史上不少王公贵族和政界名人都曾被关押在这里",
+                    "name": "伦敦塔"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "伦敦市区游览",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 在酒店享用早餐，09:00 乘车前往游览温莎堡，16:00 乘车前往机场办理登机手续，20:25 搭乘客机返回北京。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "09:00 - 16:00",
+                    "description": "温莎堡是现今世界上有人居住的城堡中最大最古老的一个，位于泰晤士河南岸，气势雄伟，挺拔壮观，最初由威廉一世营建，目前是英国王室温莎王朝的家族城堡，女王的官方居所之一。",
+                    "name": "温莎堡"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "14:45 + 1",
+                    "departure": "伦敦",
+                    "departureTime": "20:25",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "酒店",
+                    "departureTime": "09:00",
+                    "destination": "温莎堡",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "温莎堡",
+                    "departureTime": "16:00",
+                    "destination": "机场",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "伦敦 - 北京返程之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 0,
+            "content": "安抵北京机场，结束愉快的旅程！",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "结束旅程",
+            "tripDay": 9
+        }
+    ]
+}

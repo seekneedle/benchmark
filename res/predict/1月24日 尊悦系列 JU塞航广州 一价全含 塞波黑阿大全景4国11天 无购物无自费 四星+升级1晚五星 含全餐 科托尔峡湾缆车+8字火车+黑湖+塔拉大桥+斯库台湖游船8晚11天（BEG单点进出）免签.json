@@ -1,0 +1,571 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "广州市",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "广东省",
+        "dests": [
+            {
+                "countryName": "塞尔维亚",
+                "destCityName": "贝尔格莱德",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "中国",
+                "destCityName": "广州",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "",
+            "name": "",
+            "typeName": ""
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "欧洲 4-5 星级标准酒店及早餐"
+            },
+            {
+                "name": "升级 1 晚五星级酒店"
+            },
+            {
+                "name": "全程中式餐食"
+            },
+            {
+                "name": "专业中文陪同"
+            },
+            {
+                "name": "境外旅行责任险"
+            }
+        ],
+        "productSubtitle": "欧洲深度体验之旅",
+        "productTitle": "贝尔格莱德至广州往返游",
+        "returnCityName": "广州市",
+        "tags": [
+            {
+                "name": "文化探索"
+            },
+            {
+                "name": "历史遗迹"
+            },
+            {
+                "name": "舒适旅行"
+            }
+        ],
+        "themes": [
+            {
+                "name": "欧洲文化与历史深度体验"
+            },
+            {
+                "name": "欧洲文化与历史探索"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "",
+        "goTransportName": "飞机",
+        "hotelStarName": "-1",
+        "lineFeature": "深度体验欧洲文化与历史，享受高品质住宿与餐饮服务，专业中文陪同，确保旅途顺畅",
+        "lineSimpleTitle": "贝尔格莱德-广州",
+        "lineSortTitle": "BGD-GZ",
+        "lineTitle": "贝尔格莱德至广州往返游",
+        "needVisa": 0,
+        "passCities": [
+            {
+                "cityName": "贝尔格莱德",
+                "countryName": "塞尔维亚",
+                "provinceName": ""
+            },
+            {
+                "cityName": "广州",
+                "countryName": "中国",
+                "provinceName": "广东"
+            }
+        ],
+        "tripDays": "1",
+        "tripNight": "0",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": []
+        },
+        "backAirports": [
+            {
+                "airlineCode": "JU",
+                "airlineName": "塞尔维亚航空公司",
+                "arriveAirportName": "广州白云国际机场",
+                "arriveTime": "17:10",
+                "days": 1,
+                "flightNo": "JU988",
+                "flightSort": "回程",
+                "startAirportName": "贝尔格莱德",
+                "startTime": "00:50"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "JU",
+                "airlineName": "塞尔维亚航空公司",
+                "arriveAirportName": "贝尔格莱德",
+                "arriveTime": "04:30+1",
+                "days": 1,
+                "flightNo": "JU989",
+                "flightSort": "去程",
+                "startAirportName": "广州白云国际机场",
+                "startTime": "22:10"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "护照费；未成年人所需的公证书、认证费等其他客人自行准备材料所需费用；洗衣、电话、饮料、烟酒、付费电视、行李搬运等私人费用；出入境的行李海关课税，超重行李的托运费、管理费等；行程中未提到的其它费用：如特殊门、游船（轮）、缆车、地铁票等费用；公务活动及专业翻译费，转机/火车时用餐；旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失；此团单间差为 96 欧元/人/晚",
+        "costInclude": "欧洲国家邀请和免签名单费；行程中所标明的欧洲 4-5 星级标准酒店及早餐，其中升级 1 晚五星级酒店；全程每日午、晚餐以中式餐食为主（用餐标准为 10 菜一汤），如遇退餐 15 欧元/每人每餐；全程提供豪华巴士（车行按人数而定），专业司机；欧洲境内中文陪同；行程中带的景点含门票费；境外司机、酒店、餐厅服务费；国际间往返机票（经济舱，含机场税）；境外旅行责任险",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "无",
+                "end": "0"
+            }
+        ],
+        "otherRule": "本公司保留对上述行程的最终解释权，请以出发前确认行程为准。由于团队行程中所有住宿、用车、景点门票等均为旅行社打包整体销售，因此若游客因自身原因未能游览参观的则视为自动放弃，旅行社将无法退费用。本公司有权根据景点节假日休息（关门）调整行程游览先后顺序，但游览内容不会减少，标准不会降低。如遇展会导致酒店房间紧张，有些酒店会距离市中心较远，并可能临时调整住宿城市。本公司已为参团旅客购买价值 30 万之人身意外保险。强烈建议旅客自行购买旅游意外保险，以更全面保障旅客利益。",
+        "returnContent": "",
+        "selfCostContent": "无",
+        "selfCosts": [],
+        "shopContent": "无",
+        "shops": [],
+        "tipsContent": "旅游期间，尽量避免到偏僻的地方。出行时尽量结伴而行，以便相互照顾。注意保管好个人财物，特别是护照、机票、现金等贵重物品。酒店房间中迷你吧中的食品以及饮料是需要客人付费的。房间内打电话都会由电脑记入帐户，等办理离店手续时，前台会通知客人交费（客人自付）。欧洲不同国家有不同的酒店星级评判标准，许多欧洲特色小镇的酒店不参加该国政府的星级评定，但具备等同于行程中指定同星级的设施标准和接待能力。外出长途旅游，可能会因水土不服而令身体感到不适。故应准备些常备药物，以备不时之需。患有心脏病、糖尿病等慢性疾病者应随身携带药物，并听从医生指示服用，不随便吃别人的药。如果携带信用卡，请在国内提前向发卡银行确认激活，开通信用卡境外使用服务。"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "19:00广州白云国际机场集合，领队召开出团说明会。22:10乘坐塞尔维亚航空公司航班前往塞尔维亚首都贝尔格莱德。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "04:30+1",
+                    "departure": "广州",
+                    "departureTime": "22:10",
+                    "destination": "贝尔格莱德",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "从广州前往贝尔格莱德",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "04:30 抵达后专车接机前往中餐厅休息，用早餐。08:30 驱车前往泽蒙小镇游览，之后乘车返回贝尔格莱德。12:00 午餐，中式十菜一汤。13:00 前往花房-铁托墓、圣萨瓦大教堂、中国驻前南斯拉夫使馆遗址。18:00 晚餐，中式十菜一汤。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4-5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "典型的巴洛克风格小镇，河边喂天鹅，感受当地集市。",
+                    "name": "泽蒙小镇"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "约瑟普·布罗兹·铁托，1892年5月25日生于克罗地亚库姆罗韦茨村的贫苦农民家庭，1980年5月4日铁托在斯洛文尼亚卢布尔雅那逝世，享年88岁。",
+                    "name": "花房-铁托墓"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "世界上迄今为止最大的东正教教堂，入内参观可真切感受东正教堂马赛克与金箔画的壮观，身临其境，叹为观止。",
+                    "name": "圣萨瓦大教堂"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "缅怀烈士。",
+                    "name": "中国驻前南斯拉夫使馆遗址"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "贝尔格莱德及周边游览",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后前往兹拉蒂博尔，午餐在火车景观餐厅享用当地西餐，之后乘坐小火车游览兹拉蒂博尔山区，参观木头村，之后前往兹拉蒂博尔。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "世界上仅此一条的窄轨距铁路，从天空往下看，窄轨距铁路行走的路线像是数字 8，蜿蜒曲折。乘坐小火车（约 1 小时）可以游览兹拉蒂博尔山区，整个运行线路要穿越 10 座桥，22 条隧道。可以尽情呼吸新鲜的空气，优美宁静的兹拉蒂博尔山区景色尽收眼底，抛掉世俗的烦忧，感受大自然的纯净。",
+                    "name": "Sargan 8（萨尔干 8 号）"
+                },
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "塞尔维亚导演埃米尔·库斯图里卡，他在 MokraGora 山区建立了梦想中的城市——Drvengrad 木头村，完全遵照塞尔维亚传统式样，大小木屋围绕典型斯拉夫山区式样的木教堂排列。所有的木屋都是货真价实的山民废弃老屋，库斯图里卡将它们从各村搜罗到一起，《生命是奇迹》就在这里拍摄。",
+                    "name": "木头村"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "贝尔格莱德、木头村、兹拉蒂博尔之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店享用西式自助早餐，08:00前往黑山杜米托尔国家公园，游览塔拉大桥。12:00午餐，塔拉大桥景观餐厅羊肉餐。13:00前往杜米托尔国家公园黑湖，之后乘车前往黑山首都波德戈里察；抵达后参观基督复活主教座堂。17:00晚餐：中式十菜一汤。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4-5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "这里风景优美，有巴尔干的小瑞士之称。",
+                    "name": "杜米托尔国家公园"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "这里是前南斯拉夫电影《桥》的拍摄地，塔拉河谷大桥连通了桥两头的小村庄，方便了人们的出行。大桥非常壮观，远观或是从空中观看或是从桥上向下看，就会深切的体会到其宏伟之势。站在桥上眺望远处风光也是一种不错的选择，向下可以看见流势凶猛的塔拉河，向上看是白云悠悠，向四周环望，可以看见青山和躲在青山下的小小村庄。青山、绿水、白云、大桥组成了一幅和谐、美丽的画面。",
+                    "name": "塔拉大桥"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": "黑湖"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "是波德戈里察市的一座塞尔维亚东正教教堂。教堂于1993年开始开工建设，2014年10月7日竣工，前后共耗时11年。是巴尔干半岛最大的东正教教堂之一。这座教堂内部装饰十分华丽，金碧辉煌，其中以宗教内容为题材的壁画格外漂亮，别具一格。",
+                    "name": "基督复活主教座堂"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "兹拉蒂博尔",
+                    "departureTime": "",
+                    "destination": "杜米托尔国家公园",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "杜米托尔国家公园",
+                    "departureTime": "",
+                    "destination": "波德格里察",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "黑山兹拉蒂博尔至波德格里察之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 酒店享用西式自助早餐；09:00 乘车前往斯库台湖，乘船游斯库台湖。后前往地拉那。12:00 午餐，当地西餐。13:00 抵达后，地拉那市区游览：斯坎德培广场、斯坎德培骑马雕像、哈奇•艾特海姆•培清真寺(外观)、达巴克桥、Reja-TheCloud 标志性建筑。18:00 晚餐，中式十菜一汤",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "4-5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 45 分钟",
+                    "description": "乘船游斯库台湖",
+                    "name": "斯库台湖"
+                },
+                {
+                    "consumingTime": "约 10 分钟",
+                    "description": "体验当地日常生活的最好去处",
+                    "name": "斯坎德培广场"
+                },
+                {
+                    "consumingTime": "约 15 分钟",
+                    "description": "该城最古老的建筑之一",
+                    "name": "斯坎德培骑马雕像"
+                },
+                {
+                    "consumingTime": "约 10 分钟",
+                    "description": "清真寺后面是一座高大的钟楼",
+                    "name": "哈奇•艾特海姆•培清真寺(外观)"
+                },
+                {
+                    "consumingTime": "约 10 分钟",
+                    "description": "地拉那最著名的古迹",
+                    "name": "达巴克桥"
+                },
+                {
+                    "consumingTime": "拍照打卡",
+                    "description": "以其独特的设计和壮观的外观而闻名，这是一个开放式的艺术和文化空间，建筑物的外观由一系列钢制框架和透明的聚碳酸酯板组成，形成了一个轻盈而透明“云”的外观",
+                    "name": "Reja-TheCloud 标志性建筑"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "13:00",
+                    "departure": "波德格里察",
+                    "departureTime": "09:00",
+                    "destination": "地拉那",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "波德格里察至地拉那之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 酒店享用西式自助早餐；09:00 乘车前往圣斯特凡岛（远观拍照），之后乘车前往布德瓦古城。12:00 午餐，当地西餐。13:00 观光布德瓦古城（游览约 2 小时）。18:00 晚餐，中式十菜一汤。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "09:00-12:00",
+                    "description": "坐落在布德瓦东南约6公里、亚得里亚海旁，是黑山共和国沿海地区最最灿烂的明珠。它原本只是一座历史可以追溯到15世纪的渔村，后来因景色秀丽、海水澄澈逐渐发展成为度假之地。这是一个陆连岛，通过大概100米长的狭长浅滩与陆地相连。整个圣斯特凡岛属于联合国世界文化遗产。",
+                    "name": "圣斯特凡岛"
+                },
+                {
+                    "consumingTime": "13:00-18:00",
+                    "description": "布德瓦曾长期被威尼斯所控制，城中各处的细节无一不透露出威尼斯式的奢华。蔚蓝的海水，城中精致的花园，海滩边为数众多的豪华餐厅和酒吧，吸引了大量的各国名流富豪每年来此度假。这里还有朴素的老城区小街，外观布德瓦老城中三个主要的教堂——建于公元7世纪的StTvan教堂、建于公元840的Punta的StMarys教堂、建于1804年的Holytrinity教堂，布德瓦老城威尼斯风格的城墙是游人向往的地方，黑山共和国国旗高高飘扬在古城墙上。",
+                    "name": "布德瓦古城"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "12:00",
+                    "departure": "地拉那",
+                    "departureTime": "09:00",
+                    "destination": "圣斯特凡岛",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "13:00",
+                    "departure": "圣斯特凡岛",
+                    "departureTime": "12:00",
+                    "destination": "布德瓦古城",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "地拉那至布德瓦之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 在酒店享用西式自助早餐，09:00 乘车前往科托尔古城，体验乘坐科托尔峡湾缆车，俯瞰最美的科托尔峡湾美景。之后乘车前往黑山小镇佩拉斯特，特别安排乘坐游船前往岩上圣母岛。12:00 午餐，特色海鲜餐。18:00 晚餐，特色风味烤鳟鱼。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "09:00-12:00",
+                    "description": "是亚得里亚海沿岸保存中世纪古城原貌最完整的城市之一，并被列入联合国教科文组织世界遗产名录；有三个大门，主城门在南边面向大海，被称为“海门”，这是进出古城的主通道。城门建于 500 年前，顶部本是威尼斯狮子造型的雕塑，后改成象征哈布斯堡王室的双头鹰，现在则是前南斯拉夫铁托时代的标志。下面的石匾刻着 1944 年 11 月 21 日的字样，这是铁托领导的军队打败纳粹占领军解放古城的日子",
+                    "name": "科托尔古城"
+                },
+                {
+                    "consumingTime": "12:00-18:00",
+                    "description": "黑山小镇，特别安排乘坐游船前往岩上圣母岛，传说在 1452 年，当地一位渔民在一次船难中险些丧生，获救时在海上发现一块有圣母像的岩石，自此每次有船经过渔民就会投石致意祈求平安，日积月累终于成为了一座小岛，后来便建立了教堂纪念。",
+                    "name": "佩拉斯特"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "布德瓦",
+                    "departureTime": "09:00",
+                    "destination": "科托尔",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "科托尔",
+                    "departureTime": "",
+                    "destination": "佩拉斯特",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "佩拉斯特",
+                    "departureTime": "",
+                    "destination": "莫斯塔尔（波黑）",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "黑山科托尔等地之旅",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "08:00 酒店享用西式自助早餐，09:00 莫斯塔尔观光，12:00 午餐，巴尔干烤羊肉餐，13:00 乘车前往波黑首都萨拉热窝，进行萨拉热窝相关景点游览，18:00 晚餐，中式十菜一汤。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "四-五星级酒店",
+                    "star": "4-5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 2 小时",
+                    "description": "风光旖旎的波黑中世纪小城。参观莫斯塔尔古桥，位于莫斯塔尔市中心，横跨在内雷特瓦河上，这座桥已被联合国教科文组织列为世界文化遗产，是莫斯塔尔的标志性建筑，和平与民族和解的象征。老桥的两侧延伸开来随处可见出售地毯、珠宝首饰、传统服装、领带和烟斗的小店。城内有很多中世纪土耳其风格的建筑和老桥梁，古老清真寺和奥斯曼时期留下来的老房子，还有石板拱桥、监狱、制伞坊、菜馆等古迹。",
+                    "name": "莫斯塔尔"
+                },
+                {
+                    "consumingTime": "未提及",
+                    "description": "游览塞比利广场，是萨拉热窝的经典地标建筑；打卡第一次世界大战的导火索拉丁桥，1914 年奥匈帝国王储弗朗茨·斐迪南大公和妻子在这里被塞尔维亚青年普林西普刺杀；寻觅电影“瓦尔特保卫萨拉热窝”的电影场景：登上黄堡俯瞰萨拉热窝，全城美景尽收眼底，这里是电影中德国军盖世太保俯瞰全城的最后镜头拍摄地；外观贝格清真寺和钟楼，游击队员谢德与敌人激战，倒在清真寺前，一群鸽子冲天而飞的场面令人过目难忘、印象深刻；打卡铜匠街，萨拉热窝最古老最具魅力的街道之一，老匠人们掩护瓦尔特撤退的经典镜头；萨拉热窝老城广场品尝一杯咖啡，回味历史的烙印，触摸战争的痕迹。",
+                    "name": "萨拉热窝"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "未提及",
+                    "departure": "莫斯塔尔",
+                    "departureTime": "13:00",
+                    "destination": "萨拉热窝",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "波黑中世纪小城与萨拉热窝之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "早上在酒店享用西式自助早餐，09:00乘车返回贝尔格莱德，11:00午餐在维舍格勒河边餐厅特色餐，16:00参观米哈伊洛大公街和卡莱梅格丹堡垒，18:00晚餐中式十菜一汤。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "未提及",
+                    "star": "4-5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "未提及",
+                    "description": "这里是贝尔格莱德很负盛名的商业步行街，虽然只有短短一公里长，但是却因两侧19世纪70年代的建筑而名声大噪，也被列为国家保护历史名街。",
+                    "name": "米哈伊洛大公街"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "卡莱梅格丹堡是世界现存最完整的城市堡垒之一，多瑙河与萨瓦河两条大河在此交汇，自凯尔特人统治时代就是重要的军事重地，兵家必争之地，各大帝国在此轮番上演大戏，是集人文历史自然风光为一体的必到景点。",
+                    "name": "卡莱梅格丹堡垒"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "未提及",
+                    "departure": "萨拉热窝",
+                    "departureTime": "09:00",
+                    "destination": "贝尔格莱德",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "萨拉热窝至贝尔格莱德之旅",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "07:00酒店享用西式自助早餐，08:00前往塞尔维亚第二大城市诺维萨德，市区游览。12:00午餐，塞尔维亚烤肉餐。13:00乘车前往塞尔维亚著名的红酒小镇斯雷姆斯基，参观Zivanovic酒庄，品尝Bermet红酒。之后乘车返回贝尔格莱德。18:00晚餐，中式十菜一汤。19:00乘车前往机场，办理登机手续。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约60分钟",
+                    "description": "作为伏伊伏丁娜自治省的首府，十九世纪后期成为塞尔维亚文化艺术和教育中心，素有'塞尔维亚的雅典'的美誉。2019年诺维萨德受评'欧洲青年之都'，更是2021年'欧洲文化之都'得主。多瑙河穿城而过，漫步城市的中心，外观国家大剧院、市政厅，自由广场，圣玛丽亚天主教堂及东正教牧首行宫。",
+                    "name": "诺维萨德"
+                },
+                {
+                    "consumingTime": "约60分钟",
+                    "description": "位于多瑙河对岸，被称为'多瑙河上的直布罗陀'。",
+                    "name": "彼得罗瓦拉丁要塞"
+                },
+                {
+                    "consumingTime": "未知",
+                    "description": "这座多瑙河畔的小镇不仅盛产上好的红酒，是塞尔维亚最著名的红酒产地之一，小镇本身也很值得游览，这里保留了巴洛克风格的建筑。红酒小镇最著名的酒莫过于Bermet。Bermet酒从数百年前就蜚声海外，曾被选作泰坦尼克号的特供酒。参观Zivanovic酒庄，品尝Bermet红酒。",
+                    "name": "红酒小镇斯雷姆斯基"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "未知",
+                    "departure": "贝尔格莱德",
+                    "departureTime": "08:00",
+                    "destination": "诺维萨德",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "未知",
+                    "departure": "诺维萨德",
+                    "departureTime": "13:00",
+                    "destination": "红酒小镇斯雷姆斯基",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "未知",
+                    "departure": "红酒小镇斯雷姆斯基",
+                    "departureTime": "未知",
+                    "destination": "贝尔格莱德",
+                    "trafficType": "巴士"
+                },
+                {
+                    "arrivalTime": "未知",
+                    "departure": "贝尔格莱德",
+                    "departureTime": "19:00",
+                    "destination": "机场",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "贝尔格莱德、诺维萨德和红酒小镇之旅",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 0,
+            "content": "00:50乘坐塞尔维亚航空公司航班JU988从贝尔格莱德返回广州，飞行时间约10小时20分钟。抵达广州后，结束愉快的旅程！",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "17:10",
+                    "departure": "贝尔格莱德",
+                    "departureTime": "00:50",
+                    "destination": "广州",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "返程",
+            "tripDay": 11
+        }
+    ]
+}

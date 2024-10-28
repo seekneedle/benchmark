@@ -1,0 +1,463 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 12,
+        "childHasBed": 0,
+        "childHasTraffic": 1,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "12岁以下儿童不占床，含大交通",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "印度尼西亚",
+                "destCityName": "巴厘岛",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "赠送普通境外旅游人身意外险，但不包括战争、武装冲突、罢工、高风险活动等特殊情况",
+            "name": "普通境外旅游人身意外险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "享受海边四星级酒店的舒适体验"
+            },
+            {
+                "name": "丰富的海滩活动和自由活动时间"
+            },
+            {
+                "name": "精选当地特色餐食"
+            }
+        ],
+        "productSubtitle": "5晚7天",
+        "productTitle": "自在巴厘-海边四星版",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "四星级酒店"
+            },
+            {
+                "name": "海滩休闲"
+            },
+            {
+                "name": "亲子游"
+            },
+            {
+                "name": "自由活动"
+            }
+        ],
+        "themes": [
+            {
+                "name": "海滩度假"
+            },
+            {
+                "name": "休闲娱乐"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "飞机",
+        "goTransportName": "飞机",
+        "hotelStarName": "4",
+        "lineFeature": "本行程安排了5晚7天的巴厘岛海滩度假，入住四星级酒店，享受海滩休闲、自由活动时间，以及丰富的当地特色餐食。",
+        "lineSimpleTitle": "自在巴厘",
+        "lineSortTitle": "ZZBL",
+        "lineTitle": "自在巴厘-海边四星版 5晚7天",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "巴厘岛",
+                "countryName": "印尼",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "7",
+        "tripNight": "5",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "印尼落地签，费用35美金/人或50万印尼盾/人（不找零），旅游税15万印尼盾/人",
+                    "country": "印尼",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        },
+        "backAirports": [
+            {
+                "airlineCode": "SQ",
+                "airlineName": "新加坡航空",
+                "arriveAirportName": "新加坡",
+                "arriveTime": "14:55",
+                "days": 0,
+                "flightNo": "SQ937",
+                "flightSort": "1",
+                "startAirportName": "巴厘岛",
+                "startTime": "12:10"
+            },
+            {
+                "airlineCode": "SQ",
+                "airlineName": "新加坡航空",
+                "arriveAirportName": "北京",
+                "arriveTime": "23:00",
+                "days": 0,
+                "flightNo": "SQ806",
+                "flightSort": "2",
+                "startAirportName": "新加坡",
+                "startTime": "16:50"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "SQ",
+                "airlineName": "新加坡航空",
+                "arriveAirportName": "新加坡",
+                "arriveTime": "06:20",
+                "days": 0,
+                "flightNo": "SQ801",
+                "flightSort": "1",
+                "startAirportName": "北京首都机场",
+                "startTime": "00:05"
+            },
+            {
+                "airlineCode": "SQ",
+                "airlineName": "新加坡航空",
+                "arriveAirportName": "巴厘岛",
+                "arriveTime": "11:00",
+                "days": 0,
+                "flightNo": "SQ936",
+                "flightSort": "2",
+                "startAirportName": "新加坡",
+                "startTime": "08:20"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "请在出发前确认所有证件齐全有效、请遵守当地风俗习惯和法律法规、请尊重服务人员，适当给予小费、请听从导游和工作人员的安排，注意安全",
+        "costExclude": "个人护照办理费用、印尼落地签费用35美金/人或50万印尼盾/人（不找零），旅游税15万印尼盾/人、酒店内电话、传真、洗熨、收费电视、饮料、行李搬运等费用、单房差费用、旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失、因个人原因滞留产生的费用、因气候或飞机、车辆、船只等交通工具发生故障导致时间延误或行程变更引起的经济损失和责任、行李在航班托运期间造成损坏的经济损失和责任、小费（1-2万印尼盾不等）、服务包含项目未提及的其他一切费用",
+        "costInclude": "行程所列酒店住宿、当地空调旅游巴士（1人1正座）、行程中所列餐食、行程所含景点（区）门票、往返机票（经济舱）、赠送普通境外旅游人身意外险",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "0",
+                "end": "30"
+            },
+            {
+                "begin": "15",
+                "cost": "5",
+                "end": "29"
+            },
+            {
+                "begin": "7",
+                "cost": "20",
+                "end": "14"
+            },
+            {
+                "begin": "4",
+                "cost": "50",
+                "end": "6"
+            },
+            {
+                "begin": "1",
+                "cost": "60",
+                "end": "3"
+            },
+            {
+                "begin": "0",
+                "cost": "70",
+                "end": "1"
+            }
+        ],
+        "otherRule": "东南亚酒店床型以大床房为主，可能出现两位同性同住一间大床房的情况、请带备一些惯用的平安药物及紧急医疗用品，长期服用药物者需准备足够份量、巴厘岛生水不可直接饮用，请买矿泉水代替、巴厘岛饮食以酸甜辣为主，海鲜请勿生食、请自备一次性洗漱用品及拖鞋、请备妥防蚊液、蚊虫咬药膏",
+        "returnContent": "机票已开/房间已下定，因自身原因放弃旅游，原先收取的损失费不足以支付实际损失时，需按照实际损失收取、团队机票一经开出，不得更改，不得签转，不得退票",
+        "selfCostContent": "所有自费项目均为建议性项目，客人本着“自愿自费”的原则选择参加、如您自愿参加，需在行程中另行签署书面协议、当部分项目参加人数不足时，则可能无法成行或费用做相应调整",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "1350 元/人",
+                "name": "网红ATV越野摩托车-网红森林泳池俱樂部-中式海鲜餐庁",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "1350 元/人",
+                "name": "圣泉庙-网红秋千-热石疗法 2 小时-金巴兰晚餐",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "1350 元/人",
+                "name": "阿勇河漂流+猪排饭+ATV 越野车+海鲜自助火锅",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "1350 元/人",
+                "name": "私人沙滩俱乐部+中餐+洋洋断崖下午茶+悬崖酒吧看日落+龙虾海鲜餐",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "1350 元/人",
+                "name": "罗威纳出海追海豚+火山自助餐+火山温泉+晚餐",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "购物时务必记得杀价、多数国家都有购物退税，具体退税标准请咨询购物商店",
+        "shops": [
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "木雕村",
+                "shopProduct": "木雕工艺品",
+                "stay": "60"
+            },
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "银器中心",
+                "shopProduct": "银饰品",
+                "stay": "60"
+            },
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "蜡染中心",
+                "shopProduct": "蜡染布艺",
+                "stay": "60"
+            },
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "土产店",
+                "shopProduct": "当地土特产",
+                "stay": "60"
+            },
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "咖啡工厂",
+                "shopProduct": "咖啡产品",
+                "stay": "60"
+            }
+        ],
+        "tipsContent": "出境期间尽量不要携带大量现金和贵重物品、不要把现金和贵重物品放在托运行李内、入住酒店时请保管好房间钥匙和贵重物品、注意酒店的安全通道和紧急出口、夜间或自由活动时间外出，请告知导游领队，并三五成行、到酒店的健身房和游泳池锻炼时，要注意自我保护、参加水上活动时，请务必穿好救生衣、搭乘快艇或长尾船时，请一定要穿好救生衣、在巴厘岛，沙滩游玩一定要注意安全，听从导游或救生员指示"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "在北京首都机场集合，指定时间于机场集合，办理登机手续飞往巴厘岛。温馨提示：请提前于航班时间3小时抵达机场，办理出境手续及换登机牌；酒店入住时间：14:00以后，离店时间：12:00以前。住宿在飞机上。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "飞机",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "北京首都机场",
+                    "departureTime": "",
+                    "destination": "巴厘岛",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "出发前往巴厘岛",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "乘坐航班从北京出发，经新加坡转机前往巴厘岛，抵达后游览情人崖、库塔海滩和洋人街。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "巴厘岛海边四星酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "又称乌鲁瓦图断崖、望夫崖，位于巴厘岛西南海岸。情人崖一名源于一个浪漫的爱情故事：传说很久以前一对青年男女相爱，却受到父母的阻挠，为了追求爱情的自由双双在此跳崖。从此到巴厘岛的青年男女都怀着对自由爱情的憧憬到此游览遐思，情侣们必定会在此进行合照，以期待爱情的美好长久。乌鲁瓦图为西南海岸的一座断崖，在这里可以享受的独一无二的断崖海景。另外，乌鲁瓦图当地还有许多可爱的猴子，非常机灵调皮，但游客需注意佩戴的饰品以及包和相机的安全。",
+                    "name": "情人崖"
+                },
+                {
+                    "consumingTime": "约1小时",
+                    "description": "被誉为巴厘岛最美丽的海岸，离登巴萨约10公里，离国际机场约15分钟车程，是巴厘岛游客集聚最多的热闹地区。库塔的海滩平坦、沙粒洁白、细腻。",
+                    "name": "库塔海滩"
+                },
+                {
+                    "consumingTime": "约1小时",
+                    "description": "尽管街道并不宽，却张弛有道，热潮涌动，却不喧闹，夜色中的洋人街，充斥着暧昧的气息。穿梭在一个又一个的店铺中，精油的芬香、琉璃的饰品、鬼魅的头像、异国情调。与繁华的闹区相比，独有一家店门外静得只剩下幽暗，徐徐微风吹过面颊，恍若隔世的朦胧，像似一部电影。这是巴厘岛的不夜城，一个商业密集、热闹繁华的地方，是巴厘岛屿的商业中心——巴厘岛著名的洋人街。徜徉在太阳百货(MatahariMall)、Discovery Shopping Mall、酒吧街，这里也有我们熟悉的肯德基、麦当劳、星巴克以及BreadTalk。",
+                    "name": "洋人街"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "06:20",
+                    "departure": "北京",
+                    "departureTime": "00:05",
+                    "destination": "新加坡",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "11:00",
+                    "departure": "新加坡",
+                    "departureTime": "08:20",
+                    "destination": "巴厘岛",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "巴厘岛之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "先进行约6小时的蓝梦岛+贝尼达岛双岛出海，之后观赏约1小时的金巴兰落日。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "巴厘岛海边四星酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约6小时",
+                    "description": "（约6小时）蓝梦岛是位于巴厘岛东南边的离岛，正如他的名字一样，这里的蓝非常纯粹。这里没有巴厘岛的浮华和喧嚣，只有遗世独立的美丽海湾和路不拾遗、夜不闭户的宁静乡村。柔软幼白的沙滩，玻璃般透明的海水，郁郁葱葱的椰林。人间一趟，灿日碧洋，不过如此。贝尼达岛拥有清澈透底的海水，海湾里的沙子细腻，海水呈现出浅绿、深绿、浅蓝、深蓝等渐变色，人迹罕至而又绝美壮阔，是INS网红们深爱的拍照私藏地！特别赠送：贝尼达浮潜、俱乐部、蓝梦岛环岛游、恶魔的眼泪。温馨提示：出海日期仅供参考，具体请以境外导游安排为准。印度尼西亚政府公告：从2019年7月1日开始，每位登上蓝梦岛/贝尼达岛的客人，将会有当岛管理人员跟客人收取“环境维护捐款费”成人25000印度尼西亚盾（约13元人民币）；儿童15000印度尼西亚盾（约8元人民币），敬请提早提醒客人准备携带现金。",
+                    "name": "蓝梦岛+贝尼达岛双岛出海"
+                },
+                {
+                    "consumingTime": "约1小时",
+                    "description": "（约1小时）以其壮观的海上日落美景而闻名，曾被评为全救最美的十大日落之一，狭长的海滩似乎没有终点，面对着无尽的海鲜，脚踏软绵绵的沙，如漫步在天堂一般，每当夕阳西下，落日就像沉入大海一样，短暂却无比美妙和壮观，天色暗下行人如剪影，又是另一幅风景画。",
+                    "name": "金巴兰落日"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "蓝梦岛与金巴兰之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "全天自由活动，这是一个没有 morningcall 的早上，享用早餐后开始一天的悠闲之旅，或与导游报名参加自费活动。【详情可参考推荐自费升级包】",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "巴厘岛海边四星酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "巴厘岛自由活动",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "全天自由活动，这是一个没有 morningcall 的早上，享用早餐后开始一天的悠闲之旅，或与导游报名参加自费活动。【详情可参考推荐自费升级包】",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "巴厘岛海边四星酒店",
+                    "star": "4"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "自由活动",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "参观海神庙、乌布皇宫、乌布小镇和德格拉朗梯田，领略巴厘岛的宗教文化、艺术风情和自然风光。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "巴厘岛沃特马克Spa酒店/WatermarkHotel&SpaBali",
+                    "star": "4"
+                },
+                {
+                    "name": "贝诺亚利伯塔酒店/IKOSHaroldHotelBenoa（原名TijiliBenoa）",
+                    "star": "4"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "座落于海边的一块巨岩上，是巴厘岛最著名的寺庙之一，海水碧蓝，水波中闪耀着金黄的光彩，此情此景，是许多摄影家的最爱。每当潮涨之时，岩石被水包围，整座寺庙与陆地隔绝，激起的水花冲向庙顶，场景极为壮丽。",
+                    "name": "海神庙TanahLot"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "坐落在素有“巴厘岛艺术重镇”之称的乌布，这栋在16世纪建成的宫殿气势恢宏，尤其是外观精美的石刻艺术，堪称一绝。当时政府规定所有建筑的高度不得高于椰子树，皇宫也不例外，因此这座建筑并不高。远远看去，宫殿的大门像一座塔形的牌坊，虽称不上华丽，但足以让人过目不忘。这座宫殿是乌布王朝请了当时著名的艺术家设计而成的，光是殿内精致细腻的手工雕刻就值得仔细欣赏一番。随处可见的金箔装饰贵气逼人，让整个气氛更显辉煌。如此精致的皇室建筑，吸引了许多艺术爱好者慕名前来参观。",
+                    "name": "乌布皇宫"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "是巴厘岛中部山区的一个乡村小镇，是巴厘岛的文化艺术中心，曾有这样一句话“没来过乌布，就不算真正去过巴厘岛”，由此可见其非凡的影响力。这里集中展现了巴厘岛的历史踪迹、宗教灵魂、文化精髓和乡村艺术魅力。这里也是欧美游客非常喜欢的地方，有餐厅、咖啡厅和各种特色的巴厘岛小店，您可在此自由闲逛选购您心仪的巴厘岛服装或礼品。",
+                    "name": "乌布小镇"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "探索巴厘新晋网红新地标和自然瑰宝圣地！走访名列世界文化遗产之一的德哥拉朗梯田，近距离欣赏田园风光，感受热带风情，大片梯田错落有致，沿着山势绵延而下，水流从上缓缓至稻田；一片郁郁葱葱、绿水青山的景象，让人沉醉于大自然的鬼斧神工。",
+                    "name": "德格拉朗"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "巴厘岛宗教文化与自然风光之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 0,
+            "content": "根据航班时间乘机返回国内行程结束。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "14:55",
+                    "departure": "巴厘岛",
+                    "departureTime": "12:10",
+                    "destination": "新加坡",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "23:00",
+                    "departure": "新加坡",
+                    "departureTime": "16:50",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "回国行程",
+            "tripDay": 7
+        }
+    ]
+}

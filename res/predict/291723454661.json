@@ -1,0 +1,66 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "",
+        "departureCountryName": "",
+        "departureProvinceNam": "",
+        "dests": [],
+        "insurance": {
+            "content": "",
+            "name": "",
+            "typeName": ""
+        },
+        "insuranceIncluded": 0,
+        "markets": [],
+        "productSubtitle": "",
+        "productTitle": "",
+        "returnCityName": "",
+        "tags": [],
+        "themes": []
+    },
+    "line": {
+        "backTransportName": "",
+        "goTransportName": "",
+        "hotelStarName": "",
+        "lineFeature": "",
+        "lineSimpleTitle": "",
+        "lineSortTitle": "",
+        "lineTitle": "",
+        "needVisa": 0,
+        "passCities": [],
+        "tripDays": "",
+        "tripNight": "",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": []
+        },
+        "backAirports": [],
+        "goAirports": []
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "",
+        "costInclude": "",
+        "lineReturns": [],
+        "otherRule": "",
+        "returnContent": "",
+        "selfCostContent": "",
+        "selfCosts": [],
+        "shopContent": "",
+        "shops": [],
+        "tipsContent": ""
+    },
+    "trips": []
+}

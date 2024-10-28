@@ -1,12 +1,12 @@
 {
     "product": {
         "childAgeBegin": 0,
-        "childAgeEnd": 12,
+        "childAgeEnd": 0,
         "childHasBed": 0,
-        "childHasTraffic": 1,
+        "childHasTraffic": 0,
         "childHeightBegin": "",
         "childHeightEnd": "",
-        "childRule": "6 岁以下儿童免大交通费用，不占床位；6-12 岁儿童需支付大交通费用，不占床位",
+        "childRule": "",
         "departureCityName": "北京",
         "departureCountryName": "中国",
         "departureProvinceNam": "",
@@ -14,22 +14,12 @@
             {
                 "countryName": "阿联酋",
                 "destCityName": "迪拜",
-                "destProvinceName": "迪拜"
+                "destProvinceName": ""
             },
             {
                 "countryName": "阿联酋",
                 "destCityName": "阿布扎比",
-                "destProvinceName": "阿布扎比"
-            },
-            {
-                "countryName": "阿联酋",
-                "destCityName": "沙迦",
-                "destProvinceName": "沙迦"
-            },
-            {
-                "countryName": "阿联酋",
-                "destCityName": "阿治曼",
-                "destProvinceName": "阿治曼"
+                "destProvinceName": ""
             }
         ],
         "insurance": {
@@ -38,109 +28,37 @@
             "typeName": ""
         },
         "insuranceIncluded": 1,
-        "markets": [
-            {
-                "name": "体验亚斯岛四大主题乐园"
-            },
-            {
-                "name": "豪车市游"
-            },
-            {
-                "name": "沙漠冲沙"
-            },
-            {
-                "name": "参观三大博物馆"
-            }
-        ],
-        "productSubtitle": "舒享迪拜 阿联酋双乐园纯玩5 晚7 日",
-        "productTitle": "嗨玩迪拜·双乐园",
+        "markets": [],
+        "productSubtitle": "",
+        "productTitle": "【嗨玩迪拜·双乐园】舒享迪拜阿联酋双乐园纯玩 5 晚 7 日",
         "returnCityName": "北京",
         "tags": [
             {
-                "name": "亲子游"
+                "name": "纯玩"
             },
             {
-                "name": "豪华游"
+                "name": "舒适五星酒店"
             },
             {
-                "name": "文化体验"
-            },
-            {
-                "name": "主题乐园"
+                "name": "十大玩乐体验"
             }
         ],
         "themes": [
             {
-                "name": "亲子游"
-            },
-            {
-                "name": "豪华游"
-            },
-            {
-                "name": "文化体验"
-            },
-            {
-                "name": "主题乐园"
+                "name": "双乐园纯玩之旅"
             }
         ]
     },
     "line": {
-        "backAirports": [
-            {
-                "airlineCode": "EK",
-                "airlineName": "阿联酋航空",
-                "arriveAirportName": "北京首都国际机场",
-                "arriveTime": "22:20",
-                "days": 0,
-                "flightNo": "EK308",
-                "flightSort": "回程",
-                "startAirportName": "迪拜国际机场",
-                "startTime": "10:40"
-            }
-        ],
         "backTransportName": "飞机",
-        "goAirports": [
-            {
-                "airlineCode": "EK",
-                "airlineName": "阿联酋航空",
-                "arriveAirportName": "迪拜国际机场",
-                "arriveTime": "05:00",
-                "days": 0,
-                "flightNo": "EK307",
-                "flightSort": "去程",
-                "startAirportName": "北京首都国际机场",
-                "startTime": "00:40"
-            }
-        ],
         "goTransportName": "飞机",
         "hotelStarName": "-1",
-        "lineFeature": "包括亚斯岛四大主题乐园（法拉利主题乐园、华纳兄弟世界、海洋世界、亚斯水世界）四选二，豪车市游，沙漠冲沙，参观三大博物馆等",
-        "lineSimpleTitle": "迪拜双乐园5晚7日游",
-        "lineSortTitle": "迪拜双乐园",
+        "lineFeature": "亚斯岛四大主题乐园四选二、陆地双雄、三大博物馆、登顶迪拜金相框、探索沙迦水族馆、入内国家宫殿清真寺、尽情购物、金牌领队服务升级、经典行程、特色美食",
+        "lineSimpleTitle": "",
+        "lineSortTitle": "",
         "lineTitle": "嗨玩迪拜·双乐园",
         "needVisa": 1,
-        "passCities": [
-            {
-                "cityName": "迪拜",
-                "countryName": "阿联酋",
-                "provinceName": ""
-            },
-            {
-                "cityName": "阿布扎比",
-                "countryName": "阿联酋",
-                "provinceName": ""
-            },
-            {
-                "cityName": "沙迦",
-                "countryName": "阿联酋",
-                "provinceName": ""
-            },
-            {
-                "cityName": "阿治曼",
-                "countryName": "阿联酋",
-                "provinceName": ""
-            }
-        ],
+        "passCities": [],
         "tripDays": "7",
         "tripNight": "5",
         "visaBasic": {
@@ -148,133 +66,138 @@
             "postContact": "",
             "postPhone": "",
             "visas": []
-        }
+        },
+        "backAirports": [
+            {
+                "airlineCode": "EK",
+                "airlineName": "阿联酋航空",
+                "arriveAirportName": "北京首都机场",
+                "arriveTime": "22:20",
+                "days": 0,
+                "flightNo": "EK308",
+                "flightSort": "返程",
+                "startAirportName": "迪拜机场",
+                "startTime": "10:40"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "EK",
+                "airlineName": "阿联酋航空",
+                "arriveAirportName": "迪拜机场",
+                "arriveTime": "05:00",
+                "days": 0,
+                "flightNo": "EK307",
+                "flightSort": "去程",
+                "startAirportName": "北京首都机场",
+                "startTime": "00:40"
+            }
+        ]
     },
     "cal": {
         "channelPut": null,
         "departDate": []
     },
     "cost": {
-        "bookRule": "",
-        "costExclude": "护照费用、签证费用；境外服务费（1000 元/人）；签证相关的例如未成年人公证、认证等相关费用；单间差；酒店内电话、传真、洗熨、收费电视、饮料等费用；洗衣、理发、电话、饮料、烟酒、付费电视、行李搬运等私人费用；转候机/火车/船只时用餐；行李在航班托运期间的造成损坏的经济损失和责任；因气候或飞机、车辆、船只等交通工具发生故障导致时间延误或行程更改引起的经济损失和责任；因个人原因滞留产生的一切费用；行程列明以外的景点或活动所引起的任何费用；旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失；服务项目未提到的其他一切额外费用",
-        "costInclude": "行程中所列航班经济舱团体机票及相关税费；行程中所列酒店或同类别酒店双人住宿；境外旅游车，保证每人一个正座；当地餐或中式团餐；行程中所列景点门票；领队或导游服务；旅行社责任保险；境外旅游意外伤害保险",
+        "bookRule": "无",
+        "costExclude": "护照费用、签证费用；境外服务费；签证相关的例如未成年人公证，认证等相关费用；分房时产生的单间差；酒店内的额外费用；私人费用；转候机/火车/船只时用餐；行李托运损坏的经济损失和责任；因交通工具故障导致时间延误或行程更改引起的经济损失和责任；因个人原因滞留产生的一切费用；行程列明以外的景点或活动所引起的任何费用；旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失；服务项目未提到的其他一切费用，例如特种门票（缆车等）；其他行程中以及上述“报价包含”条款中未列明的一切额外费用",
+        "costInclude": "行程中所列航班经济舱团体机票及相关税费；行程中所列酒店或同类别酒店双人住宿；境外旅游车；当地餐或中式团餐；行程中所列景点门票；领队或导游服务；旅行社责任保险；境外旅游意外伤害保险",
         "lineReturns": [],
-        "otherRule": "",
-        "returnContent": "如遇天气、战争、罢工、地震等人力不可抗力因素无法游览，将按照旅行社协议退还未游览景点门票费用，但赠送项目费用不退。",
-        "selfCostContent": "豪华游艇畅游迪拜（120 USD/人）、帆船酒店入内参观（140 USD/人）、帆船酒店自助餐（午餐 180 USD/人，晚餐 190 USD/人）、棕榈岛观景平台（普通时段 70 USD/人，黄金时段 85 USD/人）、登迪拜塔（普通时段 100 USD/人，黄金时段 130 USD/人）、水舞间表演秀（130 USD/人）、直升机观光（300 USD/人）、亚特兰蒂斯自助晚餐（130 USD/人）、皇家亚特兰蒂斯自助晚餐（140 USD/人）、阿布扎比总统府（80 USD/人）、八星酒店下午茶（90 USD/人）",
+        "otherRule": "无",
+        "returnContent": "行程确认后不同时间取消行程的损失费规定",
+        "selfCostContent": "包含豪华游艇、帆船酒店入内参观、帆船酒店自助餐、棕榈岛观景平台、登迪拜塔、水舞间表演秀、直升机观光、棕榈岛亚特兰蒂斯自助晚餐、皇家亚特兰蒂斯自助晚餐、总统府、八星酒店下午茶等项目及相关价格和服务内容",
         "selfCosts": [
             {
                 "address": "",
-                "fee": "120 USD/人",
-                "name": "豪华游艇畅游迪拜",
+                "fee": "",
+                "name": "豪华游艇",
                 "remark": "",
                 "stay": ""
             },
             {
                 "address": "",
-                "fee": "140 USD/人",
+                "fee": "",
                 "name": "帆船酒店入内参观",
                 "remark": "",
                 "stay": ""
             },
             {
                 "address": "",
-                "fee": "180 USD/人",
-                "name": "帆船酒店自助餐（午餐）",
+                "fee": "",
+                "name": "帆船酒店自助餐",
                 "remark": "",
                 "stay": ""
             },
             {
                 "address": "",
-                "fee": "190 USD/人",
-                "name": "帆船酒店自助餐（晚餐）",
+                "fee": "",
+                "name": "棕榈岛观景平台",
                 "remark": "",
                 "stay": ""
             },
             {
                 "address": "",
-                "fee": "70 USD/人",
-                "name": "棕榈岛观景平台（普通时段）",
+                "fee": "",
+                "name": "登迪拜塔",
                 "remark": "",
                 "stay": ""
             },
             {
                 "address": "",
-                "fee": "85 USD/人",
-                "name": "棕榈岛观景平台（黄金时段）",
-                "remark": "",
-                "stay": ""
-            },
-            {
-                "address": "",
-                "fee": "100 USD/人",
-                "name": "登迪拜塔（普通时段）",
-                "remark": "",
-                "stay": ""
-            },
-            {
-                "address": "",
-                "fee": "130 USD/人",
-                "name": "登迪拜塔（黄金时段）",
-                "remark": "",
-                "stay": ""
-            },
-            {
-                "address": "",
-                "fee": "130 USD/人",
+                "fee": "",
                 "name": "水舞间表演秀",
                 "remark": "",
                 "stay": ""
             },
             {
                 "address": "",
-                "fee": "300 USD/人",
+                "fee": "",
                 "name": "直升机观光",
                 "remark": "",
                 "stay": ""
             },
             {
                 "address": "",
-                "fee": "130 USD/人",
-                "name": "亚特兰蒂斯自助晚餐",
+                "fee": "",
+                "name": "棕榈岛亚特兰蒂斯自助晚餐",
                 "remark": "",
                 "stay": ""
             },
             {
                 "address": "",
-                "fee": "140 USD/人",
+                "fee": "",
                 "name": "皇家亚特兰蒂斯自助晚餐",
                 "remark": "",
                 "stay": ""
             },
             {
                 "address": "",
-                "fee": "80 USD/人",
-                "name": "阿布扎比总统府",
+                "fee": "",
+                "name": "总统府",
                 "remark": "",
                 "stay": ""
             },
             {
                 "address": "",
-                "fee": "90 USD/人",
+                "fee": "",
                 "name": "八星酒店下午茶",
                 "remark": "",
                 "stay": ""
             }
         ],
-        "shopContent": "",
+        "shopContent": "无",
         "shops": [],
-        "tipsContent": ""
+        "tipsContent": "包含众多关于行程、时差、交通、签证、购物、海关等方面的提示"
     },
     "trips": [
         {
             "breakfast": 0,
-            "content": "北京首都机场集合，办理登机手续。",
+            "content": "在北京首都机场集合，办理登机手续，乘坐飞机。",
             "dinner": 0,
             "hotels": [
                 {
                     "name": "飞机",
-                    "star": ""
+                    "star": "0"
                 }
             ],
             "lunch": 0,
@@ -288,12 +211,12 @@
                     "trafficType": "飞机"
                 }
             ],
-            "title": "北京出发",
+            "title": "北京出发前往迪拜",
             "tripDay": 1
         },
         {
             "breakfast": 0,
-            "content": "搭乘国际航班飞往迪拜，抵达后接机。游览阿法迪历史街区、Al Seef 文化区、辛达加博物馆，乘坐水上的士，参观黄金与香料市场。",
+            "content": "搭乘国际航班飞往土豪国阿联酋迪拜，抵达后接机。游览阿法迪历史街区、AlSeef文化区、辛达加博物馆，乘坐传统的阿拉伯木船—水上的士，穿越波斯湾海沟，欣赏两岸风光。参观黄金与香料市场。",
             "dinner": 0,
             "hotels": [
                 {
@@ -305,23 +228,18 @@
             "scenes": [
                 {
                     "consumingTime": "不少于20分钟",
-                    "description": "俗称伊朗小镇，领略19世纪中期迪拜老城区的生活风貌。这个街区是一处重要文化遗址，每一条巷道、弯曲的小路和每一座透着阵阵微风的高塔，都向游人讲述着七个酋长国联合建国之前的故事。",
+                    "description": "俗称伊朗小镇，每一条巷道、弯曲的小路和每一座透着阵阵微风的高塔，都向游人讲述着七个酋长国联合建国之前的故事。",
                     "name": "阿法迪历史街区"
                 },
                 {
                     "consumingTime": "不少于20分钟",
-                    "description": "融合了现代魅力和当地文化，同时可以欣赏迪拜湾的秀丽风光。Al Seef文化区拥有70多家餐厅和咖啡馆及休闲小吃店，您可以置身迪拜湾如画般的美景中，惬意地品尝当地美食。",
-                    "name": "Al Seef文化区"
+                    "description": "融合了现代魅力和当地文化，同时可以欣赏迪拜湾的秀丽风光。拥有70多家餐厅和咖啡馆及休闲小吃店，您可以置身迪拜湾如画般的美景中，惬意地品尝当地美食。",
+                    "name": "AlSeef文化区"
                 },
                 {
                     "consumingTime": "约30分钟",
                     "description": "位于迪拜湾历史悠久的水域一侧，讲述着这个国家神圣而令人自豪的过往故事。精心策划的博物馆展览以互动视频、触摸屏、照片和手工艺品为特色，让游客深入了解从前的阿联酋人依水而居的场景，以及海上贸易如何对他们的生计产生影响。",
                     "name": "辛达加博物馆"
-                },
-                {
-                    "consumingTime": "约5分钟",
-                    "description": "穿越波斯湾海沟，欣赏两岸风光。",
-                    "name": "乘坐传统的阿拉伯木船—水上的士(Abra)"
                 },
                 {
                     "consumingTime": "约20分钟",
@@ -338,12 +256,12 @@
                     "trafficType": "飞机"
                 }
             ],
-            "title": "迪拜之旅",
+            "title": "阿联酋迪拜之旅",
             "tripDay": 2
         },
         {
             "breakfast": 1,
-            "content": "酒店早餐后，前往阿治曼酋长国，参观阿治曼海滨（车观）。之后前往参观沙迦统治纪念碑、文化广场（外观约10分钟）、费萨尔国王清真寺（外观约10分钟），车览酋长皇宫，火车头市场（外观），之后游览沙迦水族馆（入内约20分钟），参观沙迦伊斯兰文明博物馆。之后返回迪拜。前往朱美拉海滨天然浴场（外观约10分钟），朱美拉清真寺（外观约10分钟），酋长皇宫（途经），外观世界著名的七星酒店-阿拉伯塔酒店（外观约20分钟）。参观卓美亚古堡市集（游览约20分钟）。特别安排【加长豪车】（车游约40分钟）豪车市游，乘车前往”世界第八大奇迹”-【棕榈岛】，再度体会人工的奇迹，外观【亚特兰蒂斯酒店】（外观约15分钟）。特别安排【沙漠冲沙】：乘坐越野吉普车进行冒险家游戏冲沙。欣赏沙漠落日，进入沙漠营帐，骑骆驼，观赏中东肚皮舞，享用丰富的阿拉伯晚餐，穿阿拉伯民族服饰拍照，品尝阿拉伯特色的水烟，绘制阿拉伯民族手绘。",
+            "content": "酒店早餐后，前往阿治曼酋长国参观阿治曼海滨（车观）。之后前往沙迦，参观沙迦统治纪念碑、文化广场（外观约10分钟）、费萨尔国王清真寺（外观约10分钟），车览酋长皇宫，火车头市场（外观），游览沙迦水族馆（入内约20分钟），参观沙迦伊斯兰文明博物馆。之后返回迪拜，前往朱美拉海滨天然浴场（外观约10分钟）、朱美拉清真寺（外观约10分钟）、酋长皇宫（途经），外观世界著名的七星酒店-阿拉伯塔酒店（外观约20分钟），参观卓美亚古堡市集（游览约20分钟）。特别安排【加长豪车】（车游约40分钟）豪车市游，乘车前往”世界第八大奇迹”-【棕榈岛】，外观【亚特兰蒂斯酒店】（外观约15分钟）。特别安排【沙漠冲沙】：乘坐越野吉普车进行冒险家游戏冲沙。欣赏沙漠落日，进入沙漠营帐，骑骆驼，观赏中东肚皮舞，享用丰富的阿拉伯晚餐，穿阿拉伯民族服饰拍照，品尝阿拉伯特色的水烟，绘制阿拉伯民族手绘。",
             "dinner": 1,
             "hotels": [
                 {
@@ -390,43 +308,38 @@
                 },
                 {
                     "consumingTime": "外观约10分钟",
-                    "description": "外观",
+                    "description": "",
                     "name": "朱美拉海滨天然浴场"
                 },
                 {
                     "consumingTime": "外观约10分钟",
-                    "description": "外观",
+                    "description": "",
                     "name": "朱美拉清真寺"
-                },
-                {
-                    "consumingTime": "",
-                    "description": "途经、外观",
-                    "name": "酋长皇宫"
                 },
                 {
                     "consumingTime": "外观约20分钟",
                     "description": "因外形酷似船帆，又称迪拜帆船酒店",
-                    "name": "七星酒店-阿拉伯塔酒店"
+                    "name": "阿拉伯塔酒店"
                 },
                 {
                     "consumingTime": "游览约20分钟",
-                    "description": "完美传承了阿拉伯传统文化，同时结合了各种现代技术。市集包括超过25家餐饮店、商店、画廊，还拥有优美水景。市集位于风景迷人的卓美亚古堡酒店度假村，拥有不计其数的街巷可供休闲漫步。",
+                    "description": "完美传承了阿拉伯传统文化，同时结合了各种现代技术。市集包括超过25家餐饮店、商店、画廊，还拥有优美水景。市集位于风景迷人的卓美亚古堡酒店度假村，拥有不计其数的街巷可供休闲漫步",
                     "name": "卓美亚古堡市集"
                 },
                 {
-                    "consumingTime": "",
-                    "description": "外观",
+                    "consumingTime": "外观",
+                    "description": "",
                     "name": "棕榈岛"
                 },
                 {
                     "consumingTime": "外观约15分钟",
-                    "description": "外观",
+                    "description": "",
                     "name": "亚特兰蒂斯酒店"
                 }
             ],
             "scheduleTraffics": [
                 {
-                    "arrivalTime": "行程时间约40分钟",
+                    "arrivalTime": "约40分钟",
                     "departure": "迪拜",
                     "departureTime": "",
                     "destination": "沙迦",
@@ -445,7 +358,7 @@
         },
         {
             "breakfast": 1,
-            "content": "酒店早餐后，途径货车公园停留约 20 分钟，前往首都阿布扎比，前往亚斯岛，畅玩亚斯岛乐园四选二（游玩时间约 3 小时）。",
+            "content": "酒店早餐后，途径货车公园停留约 20 分钟，前往首都阿布扎比，前往亚斯岛，畅玩亚斯岛乐园四选二，游玩时间约 3 小时。",
             "dinner": 0,
             "hotels": [
                 {
@@ -456,14 +369,14 @@
             "lunch": 0,
             "scenes": [
                 {
-                    "consumingTime": "20 分钟",
+                    "consumingTime": "20分钟",
                     "description": "这里是从迪拜前往阿布扎比的必经之路，一座小型主题美食广场，它的灵感来源于美国五十年代的公路文化，穿梭在各种复古货车中，别有一番风味。",
                     "name": "货车公园"
                 },
                 {
-                    "consumingTime": "3 小时",
-                    "description": "亚斯岛四大主题乐园（四选二）：法拉利主题乐园（Ferrari World Abu Dhabi），华纳兄弟主题公园（Warner Bros. World Abu Dhabi ），海洋世界(sea world Abu Dhabi)，亚斯水世界（Yas Waterworld Abu Dhabi），为你带来与众不同的刺激体验。",
-                    "name": "亚斯岛乐园 四选二"
+                    "consumingTime": "3小时",
+                    "description": "亚斯岛四大主题乐园（四选二）：法拉利主题乐园（FerrariWorldAbuDhabi），华纳兄弟主题公园（Warner Bros.WorldAbuDhabi），海洋世界(seaworldAbuDhabi)，亚斯水世界（YasWaterworldAbuDhabi），为你带来与众不同的刺激体验。",
+                    "name": "亚斯岛乐园（四选二）"
                 }
             ],
             "scheduleTraffics": [
@@ -475,12 +388,12 @@
                     "trafficType": "汽车"
                 }
             ],
-            "title": "迪拜至阿布扎比之旅",
+            "title": "阿布扎比之旅",
             "tripDay": 4
         },
         {
             "breakfast": 1,
-            "content": "酒店早餐后，入内参观阿布扎比卢浮宫，途径国会大厦（车观），游览文化广场（车观），途径八星皇宫酒店（外观），前往人工岛参观民俗村（入内参观），参观谢赫扎伊德清真寺。推荐自费项目【入内参观总统府】。",
+            "content": "酒店早餐后，入内参观阿布扎比卢浮宫，途径国会大厦（车观），游览文化广场（车观），途径八星皇宫酒店（外观），前往人工岛参观民俗村，参观谢赫扎伊德清真寺。推荐自费项目【入内参观总统府】。注意阿布扎比清真寺的特殊着装规定。",
             "dinner": 0,
             "hotels": [
                 {
@@ -492,32 +405,32 @@
             "scenes": [
                 {
                     "consumingTime": "约1小时",
-                    "description": "这座博物馆从建筑师上就声名显赫，他是建筑学最高荣誉奖项普利兹克将得主让•努埃尔（Jean Nouvel）。等待10 年，让•努埃尔也不负众望，他为阿布扎比造出了一座漂浮在海上的博物馆城市。",
+                    "description": "这座博物馆从建筑师上就声名显赫，他是建筑学最高荣誉奖项普利兹克将得主让•努埃尔（JeanNouvel）。等待10年，让•努埃尔也不负众望，他为阿布扎比造出了一座漂浮在海上的博物馆城市。入内参观约1小时",
                     "name": "阿布扎比卢浮宫"
                 },
                 {
-                    "consumingTime": "",
+                    "consumingTime": "车观",
                     "description": "车观",
                     "name": "国会大厦"
                 },
                 {
-                    "consumingTime": "",
+                    "consumingTime": "车观",
                     "description": "摆放具有独特阿拉伯风格茶壶、大炮等造型的雕塑广场，车观",
                     "name": "文化广场"
                 },
                 {
-                    "consumingTime": "",
+                    "consumingTime": "外观",
                     "description": "外观，它是采纳传统阿拉伯皇家典范与西方贵族风格完美地结合设计理念犹如皇宫一般更显〝皇者气派〞",
                     "name": "八星皇宫酒店"
                 },
                 {
                     "consumingTime": "约30分钟",
-                    "description": "参观岛上的民俗村，这里浓缩反射了旧时部落的集体生活状态。",
-                    "name": "人工岛（小香港）"
+                    "description": "这里浓缩反射了旧时部落的集体生活状态。入内参观约30分钟",
+                    "name": "人工岛（又名小香港）民俗村"
                 },
                 {
                     "consumingTime": "约45分钟，周末及祷告日和特殊节假日举行仪式时外观20分钟",
-                    "description": "寺内有数以万计的宝石镶嵌，水晶珠宝吊灯，手工地毯等，整个建筑群使用希腊的玉石包裹着，白色典雅格外庄严肃穆。",
+                    "description": "寺内有数以万计的宝石镶嵌，水晶珠宝吊灯，手工地毯等，整个建筑群使用希腊的玉石包裹着，白色典雅格外庄严肃穆。入内参观约45分钟，周末及祷告日和特殊节假日举行仪式时外观20分钟",
                     "name": "谢赫扎伊德清真寺"
                 }
             ],
@@ -530,12 +443,12 @@
                     "trafficType": "汽车"
                 }
             ],
-            "title": "阿布扎比之旅",
+            "title": "阿布扎比一日游",
             "tripDay": 5
         },
         {
             "breakfast": 1,
-            "content": "酒店早餐后，乘车返回迪拜。特别安排登【迪拜金相框】，在极具未来感的城市迪拜，打卡“奇迹般的建筑”迪拜未来博物馆（外观），随后前往迪拜塔（外观），前往全世界最大的迪拜购物中心（Dubai Mall）（自由活动不少于2小时）。自由活动期间，不含汽车、导游服务及正餐，请自理。推荐自费项目【登哈利法塔参观124层】。",
+            "content": "酒店早餐后，乘车返回迪拜。特别安排登【迪拜金相框】，在极具未来感的城市迪拜，打卡“奇迹般的建筑”迪拜未来博物馆（外观），随后前往迪拜塔（外观），前往全世界最大的迪拜购物中心（DubaiMall）（自由活动不少于2小时）。推荐自费项目【登哈利法塔参观124层】。小贴士：自由活动期间，不含汽车、导游服务及正餐，请自理。",
             "dinner": 0,
             "hotels": [
                 {
@@ -552,7 +465,7 @@
                 },
                 {
                     "consumingTime": "无",
-                    "description": "这就是曾被《国家地理》杂志评选为全球最美博物馆之一",
+                    "description": "曾被《国家地理》杂志评选为全球最美博物馆之一",
                     "name": "迪拜未来博物馆（外观）"
                 },
                 {
@@ -561,16 +474,16 @@
                     "name": "迪拜塔（外观）"
                 },
                 {
-                    "consumingTime": "不少于2小时",
-                    "description": "这是迪拜最大的免税商场，他足足有50个足球场那么大，各种商铺，应有尽有。",
-                    "name": "迪拜购物中心（Dubai Mall）"
+                    "consumingTime": "自由活动不少于2小时",
+                    "description": "迪拜最大的免税商场，足足有50个足球场那么大，各种商铺，应有尽有。",
+                    "name": "迪拜购物中心（DubaiMall）"
                 }
             ],
             "scheduleTraffics": [
                 {
-                    "arrivalTime": "约2小时后",
+                    "arrivalTime": "行程时间约2小时",
                     "departure": "阿布扎比",
-                    "departureTime": "早餐后",
+                    "departureTime": "酒店早餐后",
                     "destination": "迪拜",
                     "trafficType": "汽车"
                 }
@@ -580,7 +493,7 @@
         },
         {
             "breakfast": 0,
-            "content": "乘坐国际航班 EK308 从迪拜返程，飞行时间约 7.5 小时，抵达北京，结束愉快的旅程。",
+            "content": "乘坐国际航班 EK308（10:40 从迪拜出发，22:20 到达北京）返程，结束愉快的旅程。",
             "dinner": 0,
             "hotels": [],
             "lunch": 0,
