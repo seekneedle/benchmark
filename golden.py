@@ -6,6 +6,18 @@ st.set_page_config(
     layout="wide",  # 设置页面布局为宽模式
 )
 
+st.markdown("""
+    <style>
+        .reportview-container {
+            margin-top: -2em;
+        }
+        #MainMenu {visibility: hidden;}
+        .stDeployButton {display:none;}
+        footer {visibility: hidden;}
+        #stDecoration {display:none;}
+    </style>
+""", unsafe_allow_html=True)
+
 # 初始化 session state 中的多级字典
 if 'multi_level_dict' not in st.session_state:
     st.session_state.multi_level_dict = {
