@@ -212,6 +212,29 @@ with tabs[0]:
     st.session_state.multi_level_dict["product"]["productSubtitle"] = st.text_input("产品副标题", st.session_state.multi_level_dict["product"]["productSubtitle"])
     st.session_state.multi_level_dict["product"]["departureCityName"] = st.text_input("出发城市", st.session_state.multi_level_dict["product"]["departureCityName"])
     st.session_state.multi_level_dict["product"]["returnCityName"] = st.text_input("返回城市", st.session_state.multi_level_dict["product"]["returnCityName"])
+    # 动态添加和删除列表输入框
+    st.subheader("目的地")
+    dests = st.session_state.multi_level_dict["product"]["dests"]
+
+    for i, dest in enumerate(dests):
+        col1, col2, col3, col4 = st.columns([3, 3, 1, 1])
+        with col1:
+            dest["countryName"] = st.text_input(f"国家 {i + 1}", dest["countryName"])
+        with col2:
+            dest["destCityName"] = st.text_input(f"城市 {i + 1}", dest["destCityName"])
+        with col3:
+            dest["destProvinceName"] = st.text_input(f"省份 {i + 1}", dest["destProvinceName"])
+        with col4:
+            if st.button(f"删除 {i + 1}"):
+                if len(dests) > 1:
+                    del dests[i]
+                else:
+                    st.warning("至少需要一个目的地。")
+                st.experimental_rerun()
+
+    if st.button("添加目的地"):
+        dests.append({"countryName": "", "destCityName": "", "destProvinceName": ""})
+        st.experimental_rerun()
 
 # 线路信息
 with tabs[1]:
