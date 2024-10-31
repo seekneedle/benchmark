@@ -1,86 +1,236 @@
 import streamlit as st
-import json
-import os
 
 # 设置页面配置
-st.set_page_config(layout="wide")
+st.set_page_config(
+    page_title="填写产品信息",
+    layout="wide",  # 设置页面布局为宽模式
+)
 
-# 设置页面标题
-st.title("旅行产品行程信息表单")
+# 初始化 session state 中的多级字典
+if 'multi_level_dict' not in st.session_state:
+    st.session_state.multi_level_dict = {
+        "product": {
+            "childAgeBegin": 0,
+            "childAgeEnd": 0,
+            "childHasBed": 0,
+            "childHasTraffic": 0,
+            "childHeightBegin": "",
+            "childHeightEnd": "",
+            "childRule": "",
+            "departureCityName": "",
+            "departureCountryName": "",
+            "departureProvinceNam": "",
+            "dests": [
+                {
+                    "countryName": "",
+                    "destCityName": "",
+                    "destProvinceName": ""
+                }
+            ],
+            "insurance": {
+                "content": "",
+                "name": "",
+                "typeName": ""
+            },
+            "insuranceIncluded": 0,
+            "markets": [
+                {
+                    "name": ""
+                }
+            ],
+            "productSubtitle": "",
+            "productTitle": "",
+            "returnCityName": "",
+            "tags": [
+                {
+                    "name": ""
+                }
+            ],
+            "themes": [
+                {
+                    "name": ""
+                }
+            ]
+        },
+        "line": {
+            "backAirports": [
+                {
+                    "airlineCode": "",
+                    "airlineName": "",
+                    "arriveAirportName": "",
+                    "arriveTime": "",
+                    "days": 0,
+                    "flightNo": "",
+                    "flightSort": "",
+                    "startAirportName": "",
+                    "startTime": ""
+                }
+            ],
+            "backTransportName": "",
+            "goAirports": [
+                {
+                    "airlineCode": "",
+                    "airlineName": "",
+                    "arriveAirportName": "",
+                    "arriveTime": "",
+                    "days": 0,
+                    "flightNo": "",
+                    "flightSort": "",
+                    "startAirportName": "",
+                    "startTime": ""
+                }
+            ],
+            "goTransportName": "",
+            "hotelStarName": "",
+            "lineFeature": "",
+            "lineSimpleTitle": "",
+            "lineSortTitle": "",
+            "lineTitle": "",
+            "needVisa": 1,
+            "passCities": [
+                {
+                    "cityName": "",
+                    "countryName": "",
+                    "provinceName": ""
+                }
+            ],
+            "tripDays": "",
+            "tripNight": "",
+            "visaBasic": {
+                "postAddress": "",
+                "postContact": "",
+                "postPhone": "",
+                "visas": [
+                    {
+                        "content": "",
+                        "country": "",
+                        "district": "",
+                        "freeVisa": 0,
+                        "signPlace": ""
+                    }
+                ]
+            }
+        },
+        "cal": {
+            "channelPut": {
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            },
+            "departDate": [
+                ""
+            ]
+        },
+        "cost": {
+            "bookRule": "",
+            "costExclude": "",
+            "costInclude": "",
+            "lineReturns": [
+                {
+                    "begin": "",
+                    "cost": "",
+                    "end": ""
+                },
+            ],
+            "otherRule": "",
+            "returnContent": "",
+            "selfCostContent": "",
+            "selfCosts": [
+                {
+                    "address": "",
+                    "fee": "",
+                    "name": "",
+                    "remark": "",
+                    "stay": ""
+                }
+            ],
+            "shopContent": "",
+            "shops": [
+                {
+                    "address": "",
+                    "remark": "",
+                    "shopName": "",
+                    "shopProduct": "",
+                    "stay": ""
+                }
+            ],
+            "tipsContent": ""
+        },
+        "trips": [
+            {
+                "breakfast": 0,
+                "content": "",
+                "dinner": 0,
+                "hotels": [
+                    {
+                        "name": "",
+                        "star": ""
+                    }
+                ],
+                "lunch": 0,
+                "scenes": [
+                    {
+                        "consumingTime": "",
+                        "description": "",
+                        "name": ""
+                    }
+                ],
+                "scheduleTraffics": [
+                    {
+                        "arrivalTime": "",
+                        "departure": "",
+                        "departureTime": "",
+                        "destination": "",
+                        "trafficType": ""
+                    }
+                ],
+                "title": "",
+                "tripDay": 1
+            }
+        ]
+    }
 
-# 初始化行程天数
-if 'num_days' not in st.session_state:
-    st.session_state.num_days = 1
+# 右侧选项卡
+tabs = st.tabs(["产品详情", "线路信息", "成团信息", "消费信息", "旅行信息"])
 
-# 初始化景点数量
-if 'num_attractions' not in st.session_state:
-    st.session_state.num_attractions = 1
+# 产品详情
+with tabs[0]:
+    st.subheader("产品详情")
+    st.session_state.multi_level_dict["product"]["productTitle"] = st.text_input("产品标题", st.session_state.multi_level_dict["product"]["productTitle"])
+    st.session_state.multi_level_dict["product"]["productSubtitle"] = st.text_input("产品副标题", st.session_state.multi_level_dict["product"]["productSubtitle"])
+    st.session_state.multi_level_dict["product"]["departureCityName"] = st.text_input("出发城市", st.session_state.multi_level_dict["product"]["departureCityName"])
+    st.session_state.multi_level_dict["product"]["returnCityName"] = st.text_input("返回城市", st.session_state.multi_level_dict["product"]["returnCityName"])
 
+# 线路信息
+with tabs[1]:
+    st.subheader("线路信息")
+    st.session_state.multi_level_dict["line"]["lineTitle"] = st.text_input("线路标题", st.session_state.multi_level_dict["line"]["lineTitle"])
+    st.session_state.multi_level_dict["line"]["lineSimpleTitle"] = st.text_input("线路简标题", st.session_state.multi_level_dict["line"]["lineSimpleTitle"])
+    st.session_state.multi_level_dict["line"]["tripDays"] = st.text_input("行程天数", st.session_state.multi_level_dict["line"]["tripDays"])
+    st.session_state.multi_level_dict["line"]["tripNight"] = st.text_input("行程夜数", st.session_state.multi_level_dict["line"]["tripNight"])
 
-# 创建一个函数来处理增加/减少天数
-def update_num_days(delta):
-    st.session_state.num_days += delta
-    if st.session_state.num_days < 1:
-        st.session_state.num_days = 1
+# 成团信息
+with tabs[2]:
+    st.subheader("成团信息")
+    st.session_state.multi_level_dict["cal"]["channelPut"]["adultSalePrice"] = st.text_input("成人销售价格", st.session_state.multi_level_dict["cal"]["channelPut"]["adultSalePrice"])
+    st.session_state.multi_level_dict["cal"]["channelPut"]["childSalePrice"] = st.text_input("儿童销售价格", st.session_state.multi_level_dict["cal"]["channelPut"]["childSalePrice"])
+    st.session_state.multi_level_dict["cal"]["departDate"] = st.text_input("出发日期", st.session_state.multi_level_dict["cal"]["departDate"])
 
+# 消费信息
+with tabs[3]:
+    st.subheader("消费信息")
+    st.session_state.multi_level_dict["cost"]["costInclude"] = st.text_area("费用包含", st.session_state.multi_level_dict["cost"]["costInclude"])
+    st.session_state.multi_level_dict["cost"]["costExclude"] = st.text_area("费用不包含", st.session_state.multi_level_dict["cost"]["costExclude"])
+    st.session_state.multi_level_dict["cost"]["bookRule"] = st.text_area("预订规则", st.session_state.multi_level_dict["cost"]["bookRule"])
 
-# 创建一个函数来处理增加/减少景点数量
-def update_num_attractions(delta):
-    st.session_state.num_attractions += delta
-    if st.session_state.num_attractions < 1:
-        st.session_state.num_attractions = 1
+# 旅行信息
+with tabs[4]:
+    st.subheader("旅行信息")
+    st.session_state.multi_level_dict["trips"][0]["title"] = st.text_input("行程标题", st.session_state.multi_level_dict["trips"][0]["title"])
+    st.session_state.multi_level_dict["trips"][0]["content"] = st.text_area("行程内容", st.session_state.multi_level_dict["trips"][0]["content"])
+    st.session_state.multi_level_dict["trips"][0]["breakfast"] = st.checkbox("包含早餐", st.session_state.multi_level_dict["trips"][0]["breakfast"])
+    st.session_state.multi_level_dict["trips"][0]["lunch"] = st.checkbox("包含午餐", st.session_state.multi_level_dict["trips"][0]["lunch"])
+    st.session_state.multi_level_dict["trips"][0]["dinner"] = st.checkbox("包含晚餐", st.session_state.multi_level_dict["trips"][0]["dinner"])
 
-
-# 显示天数控制按钮
-col1, col2 = st.columns(2)
-with col1:
-    st.button('减少天数', on_click=update_num_days, args=(-1,))
-with col2:
-    st.button('增加天数', on_click=update_num_days, args=(1,))
-
-# 主行程信息输入
-itinerary = {}
-for day in range(1, st.session_state.num_days + 1):
-    itinerary[f'Day {day}'] = {}
-    st.subheader(f"第{day}天 行程")
-
-    # 显示景点数量控制按钮
-    col1, col2 = st.columns(2)
-    with col1:
-        st.button(f'减少第{day}天的景点', on_click=update_num_attractions, args=(-1,))
-    with col2:
-        st.button(f'增加第{day}天的景点', on_click=update_num_attractions, args=(1,))
-
-    # 输入每一天的行程内容
-    itinerary[f'Day {day}']['行程内容'] = st.text_area(f"请输入第{day}天的行程内容", key=f'day_{day}_content')
-
-    # 输入酒店餐饮情况
-    meals = ['早餐', '午餐', '晚餐']
-    meal_options = {}
-    for meal in meals:
-        meal_options[meal] = st.checkbox(f"{meal}", key=f'day_{day}_{meal}', value=False)
-    itinerary[f'Day {day}']['餐饮'] = meal_options
-
-    # 景点名称输入
-    attractions = []
-    for attraction in range(st.session_state.num_attractions):
-        attractions.append(st.text_input(f"请输入第{attraction + 1}个景点名称",
-                                         key=f'day_{day}_attraction_{attraction + 1}'))
-    itinerary[f'Day {day}']['景点'] = attractions
-
-# 提交按钮
-file_name = st.text_input("请输入JSON文件名（含.json扩展名）", "itinerary.json")
-if st.button('提交'):
-    # 构建完整的文件路径
-    file_path = os.path.join("res", "golden", file_name)
-
-    # 确保目录存在
-    os.makedirs(os.path.dirname(file_path), exist_ok=True)
-
-    # 将数据写入JSON文件
-    try:
-        with open(file_path, 'w') as f:
-            json.dump(itinerary, f, ensure_ascii=False, indent=4)
-        st.success(f"行程信息已成功保存至 {file_path}")
-    except Exception as e:
-        st.error(f"保存文件时发生错误：{e}")
+# 左侧显示 JSON 数据
+st.sidebar.json(st.session_state.multi_level_dict)
