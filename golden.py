@@ -18,6 +18,12 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+if "refresh_event" not in st.session_state:
+    st.session_state.refresh_event = False
+
+if "current_tab" not in st.session_state:
+    st.session_state.current_tab = 0
+
 # 初始化 session state 中的多级字典
 if 'multi_level_dict' not in st.session_state:
     st.session_state.multi_level_dict = {
@@ -202,70 +208,226 @@ if 'multi_level_dict' not in st.session_state:
         ]
     }
 
-# 右侧选项卡
-tabs = st.tabs(["产品详情", "线路信息", "成团信息", "消费信息", "旅行信息"])
+
+def refresh():
+    st.session_state.refresh_event = True
+    st.rerun()
+
+
+def get_default(cache, key, need_refresh=False):
+    if need_refresh and st.session_state.refresh_event:
+        value = cache
+    else:
+        value = st.session_state.get(key, cache)
+    return {
+        "value": value,
+        "key": key
+    }
+
 
 # 产品详情
-with tabs[0]:
+if st.session_state.current_tab == 0:
     st.subheader("产品详情")
-    st.session_state.multi_level_dict["product"]["productTitle"] = st.text_input("产品标题", st.session_state.multi_level_dict["product"]["productTitle"])
-    st.session_state.multi_level_dict["product"]["productSubtitle"] = st.text_input("产品副标题", st.session_state.multi_level_dict["product"]["productSubtitle"])
-    st.session_state.multi_level_dict["product"]["departureCityName"] = st.text_input("出发城市", st.session_state.multi_level_dict["product"]["departureCityName"])
-    st.session_state.multi_level_dict["product"]["returnCityName"] = st.text_input("返回城市", st.session_state.multi_level_dict["product"]["returnCityName"])
+    st.session_state.multi_level_dict["product"]["productTitle"] = st.text_input("产品标题",
+                                                                                 **get_default(
+                                                                                     st.session_state.multi_level_dict[
+                                                                                         "product"]["productTitle"],
+                                                                                     "productTitle"))
+    st.session_state.multi_level_dict["product"]["productSubtitle"] = st.text_input("产品副标题",
+                                                                                    **get_default(
+                                                                                        st.session_state.multi_level_dict[
+                                                                                            "product"][
+                                                                                            "productSubtitle"],
+                                                                                        "productSubtitle"))
+    st.session_state.multi_level_dict["product"]["departureCityName"] = st.text_input("出发城市",
+                                                                                      **get_default(
+                                                                                          st.session_state.multi_level_dict[
+                                                                                              "product"][
+                                                                                              "departureCityName"],
+                                                                                          "departureCityName"))
+    st.session_state.multi_level_dict["product"]["returnCityName"] = st.text_input("返回城市",
+                                                                                   **get_default(
+                                                                                       st.session_state.multi_level_dict[
+                                                                                           "product"][
+                                                                                           "returnCityName"],
+                                                                                       "returnCityName"))
     # 动态添加和删除列表输入框
-    st.subheader("目的地")
     dests = st.session_state.multi_level_dict["product"]["dests"]
 
     for i, dest in enumerate(dests):
+        st.subheader(f"目的地{i + 1}")
         col1, col2, col3, col4 = st.columns([3, 3, 1, 1])
         with col1:
-            dest["countryName"] = st.text_input(f"国家 {i + 1}", dest["countryName"])
+            dest["countryName"] = st.text_input(f"国家", **get_default(dest["countryName"], f"countryName{i}",
+                                                                       need_refresh=True))
         with col2:
-            dest["destCityName"] = st.text_input(f"城市 {i + 1}", dest["destCityName"])
+            dest["destProvinceName"] = st.text_input(f"省份",
+                                                     **get_default(dest["destProvinceName"], f"destProvinceName{i}",
+                                                                   need_refresh=True))
         with col3:
-            dest["destProvinceName"] = st.text_input(f"省份 {i + 1}", dest["destProvinceName"])
+            dest["destCityName"] = st.text_input(f"城市", **get_default(dest["destCityName"], f"destCityName{i}",
+                                                                        need_refresh=True))
         with col4:
             if st.button(f"删除 {i + 1}"):
                 if len(dests) > 1:
                     del dests[i]
                 else:
                     st.warning("至少需要一个目的地。")
-                st.experimental_rerun()
+                refresh()
 
     if st.button("添加目的地"):
         dests.append({"countryName": "", "destCityName": "", "destProvinceName": ""})
-        st.experimental_rerun()
+        st.rerun()
 
 # 线路信息
-with tabs[1]:
+if st.session_state.current_tab == 1:
     st.subheader("线路信息")
-    st.session_state.multi_level_dict["line"]["lineTitle"] = st.text_input("线路标题", st.session_state.multi_level_dict["line"]["lineTitle"])
-    st.session_state.multi_level_dict["line"]["lineSimpleTitle"] = st.text_input("线路简标题", st.session_state.multi_level_dict["line"]["lineSimpleTitle"])
-    st.session_state.multi_level_dict["line"]["tripDays"] = st.text_input("行程天数", st.session_state.multi_level_dict["line"]["tripDays"])
-    st.session_state.multi_level_dict["line"]["tripNight"] = st.text_input("行程夜数", st.session_state.multi_level_dict["line"]["tripNight"])
+    st.session_state.multi_level_dict["line"]["lineTitle"] = st.text_input("线路标题",
+                                                                           **get_default(
+                                                                               st.session_state.multi_level_dict[
+                                                                                   "line"]["lineTitle"],
+                                                                               "lineTitle"))
+    st.session_state.multi_level_dict["line"]["lineSimpleTitle"] = st.text_input("线路简标题",
+                                                                                 **get_default(
+                                                                                     st.session_state.multi_level_dict[
+                                                                                         "line"]["lineSimpleTitle"],
+                                                                                     "lineSimpleTitle"))
+    st.session_state.multi_level_dict["line"]["tripDays"] = st.text_input("行程天数",
+                                                                          **get_default(
+                                                                              st.session_state.multi_level_dict[
+                                                                                  "line"]["tripDays"],
+                                                                              "tripDays"))
+    st.session_state.multi_level_dict["line"]["tripNight"] = st.text_input("行程夜数",
+                                                                           **get_default(
+                                                                               st.session_state.multi_level_dict[
+                                                                                   "line"]["tripNight"],
+                                                                               "tripNight"))
 
 # 成团信息
-with tabs[2]:
+if st.session_state.current_tab == 2:
     st.subheader("成团信息")
-    st.session_state.multi_level_dict["cal"]["channelPut"]["adultSalePrice"] = st.text_input("成人销售价格", st.session_state.multi_level_dict["cal"]["channelPut"]["adultSalePrice"])
-    st.session_state.multi_level_dict["cal"]["channelPut"]["childSalePrice"] = st.text_input("儿童销售价格", st.session_state.multi_level_dict["cal"]["channelPut"]["childSalePrice"])
-    st.session_state.multi_level_dict["cal"]["departDate"] = st.text_input("出发日期", st.session_state.multi_level_dict["cal"]["departDate"])
+    st.session_state.multi_level_dict["cal"]["channelPut"]["adultSalePrice"] = st.text_input("成人销售价格",
+                                                                                             **get_default(
+                                                                                                 st.session_state.multi_level_dict[
+                                                                                                     "cal"][
+                                                                                                     "channelPut"][
+                                                                                                     "adultSalePrice"],
+                                                                                                 "adultSalePrice"))
+    st.session_state.multi_level_dict["cal"]["channelPut"]["childSalePrice"] = st.text_input("儿童销售价格",
+                                                                                             **get_default(
+                                                                                                 st.session_state.multi_level_dict[
+                                                                                                     "cal"][
+                                                                                                     "channelPut"][
+                                                                                                     "childSalePrice"],
+                                                                                                 "childSalePrice"))
+    st.session_state.multi_level_dict["cal"]["departDate"] = st.text_input("出发日期",
+                                                                           **get_default(
+                                                                               st.session_state.multi_level_dict[
+                                                                                   "cal"][
+                                                                                   "departDate"],
+                                                                               "departDate"))
 
 # 消费信息
-with tabs[3]:
+if st.session_state.current_tab == 3:
     st.subheader("消费信息")
-    st.session_state.multi_level_dict["cost"]["costInclude"] = st.text_area("费用包含", st.session_state.multi_level_dict["cost"]["costInclude"])
-    st.session_state.multi_level_dict["cost"]["costExclude"] = st.text_area("费用不包含", st.session_state.multi_level_dict["cost"]["costExclude"])
-    st.session_state.multi_level_dict["cost"]["bookRule"] = st.text_area("预订规则", st.session_state.multi_level_dict["cost"]["bookRule"])
+    st.session_state.multi_level_dict["cost"]["costInclude"] = st.text_area("费用包含",
+                                                                            **get_default(
+                                                                                st.session_state.multi_level_dict[
+                                                                                    "cost"][
+                                                                                    "costInclude"],
+                                                                                "costInclude"))
+    st.session_state.multi_level_dict["cost"]["costExclude"] = st.text_area("费用不包含",
+                                                                            **get_default(
+                                                                                st.session_state.multi_level_dict[
+                                                                                    "cost"][
+                                                                                    "costExclude"],
+                                                                                "costExclude"))
+    st.session_state.multi_level_dict["cost"]["bookRule"] = st.text_area("预订规则",
+                                                                         **get_default(
+                                                                             st.session_state.multi_level_dict[
+                                                                                 "cost"][
+                                                                                 "bookRule"],
+                                                                             "bookRule"))
 
-# 旅行信息
-with tabs[4]:
-    st.subheader("旅行信息")
-    st.session_state.multi_level_dict["trips"][0]["title"] = st.text_input("行程标题", st.session_state.multi_level_dict["trips"][0]["title"])
-    st.session_state.multi_level_dict["trips"][0]["content"] = st.text_area("行程内容", st.session_state.multi_level_dict["trips"][0]["content"])
-    st.session_state.multi_level_dict["trips"][0]["breakfast"] = st.checkbox("包含早餐", st.session_state.multi_level_dict["trips"][0]["breakfast"])
-    st.session_state.multi_level_dict["trips"][0]["lunch"] = st.checkbox("包含午餐", st.session_state.multi_level_dict["trips"][0]["lunch"])
-    st.session_state.multi_level_dict["trips"][0]["dinner"] = st.checkbox("包含晚餐", st.session_state.multi_level_dict["trips"][0]["dinner"])
+# 行程信息
+if st.session_state.current_tab == 4:
+    trips = st.session_state.multi_level_dict["trips"]
+    for i, trip in enumerate(trips):
+        st.subheader(f"第{i+1}天行程")
+        col1, col2, col3, col4 = st.columns([3, 3, 3, 1])
+        with col1:
+            trip["breakfast"] = st.checkbox(f"包含早餐", **get_default(trip["breakfast"], f"breakfast{i}",
+                                                                               need_refresh=True))
+        with col2:
+            trip["lunch"] = st.checkbox(f"包含午餐", **get_default(trip["lunch"], f"lunch{i}",
+                                                                           need_refresh=True))
+        with col3:
+            trip["dinner"] = st.checkbox(f"包含晚餐", **get_default(trip["dinner"], f"dinner{i}",
+                                                                            need_refresh=True))
+        with col4:
+            if st.button(f"删除行程 {i + 1}"):
+                if len(trips) > 1:
+                    del trips[i]
+                else:
+                    st.warning("至少需要一个行程。")
+                refresh()
+
+    if st.button("添加行程"):
+        trips.append({
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "",
+            "tripDay": 1
+        })
+        st.rerun()
+
+st.empty()
+st.divider()  # 插入一个水平分割线
+st.empty()
+
+col1, col2, col3 = st.columns([1, 5, 1])
+
+with col1:
+    if st.session_state.current_tab > 0:
+        if st.button("上一页"):
+            st.session_state.current_tab = st.session_state.current_tab - 1
+            st.rerun()
+
+with col3:
+    if st.session_state.current_tab < 4:
+        if st.button("下一页"):
+            st.session_state.current_tab = st.session_state.current_tab + 1
+            st.rerun()
+    else:
+        if st.button("完成"):
+            # TODO 上传逻辑
+            st.rerun()
 
 # 左侧显示 JSON 数据
 st.sidebar.json(st.session_state.multi_level_dict)
+
+st.session_state.refresh_event = False
