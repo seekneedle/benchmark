@@ -45,11 +45,11 @@ if 'multi_level_dict' not in st.session_state:
                     "destProvinceName": ""
                 }
             ],
-            "insurance": {
+            "insurance": [{
                 "content": "",
                 "name": "",
                 "typeName": ""
-            },
+            }],
             "insuranceIncluded": 0,
             "markets": [
                 {
@@ -237,20 +237,20 @@ class FormItemModel:
 # 产品详情
 if st.session_state.current_tab == 0:
     st.subheader("产品详情")
-    keys = [FormItemModel(key="productTitle", name="产品名称"),        
-            FormItemModel(key="productSubtitle", name="产品副标题"),
-            FormItemModel(key="departureCountryName", name="出发国家名字"),
-            FormItemModel(key="departureProvinceNam", name="出发省份"),
-            FormItemModel(key="departureCityName", name="出发城市名字"),
-            FormItemModel(key="returnCityName", name="返回城市名字"),
-            FormItemModel(key="childAgeBegin", name="儿童年龄标准区间开始值"),
+    keys = [FormItemModel(key="childAgeBegin", name="儿童年龄标准区间开始值"),
             FormItemModel(key="childAgeEnd", name="儿童年龄标准区间结束值"),
             FormItemModel(key="childHeightBegin", name="儿童身高标准区间开始值"),
             FormItemModel(key="childHeightEnd", name="儿童身高标准区间结束值"),
             FormItemModel(key="childHasTraffic", name="儿童价格是否含大交通", type="select"),
             FormItemModel(key="childHasBed", name="儿童价是否含床", type="select"),
             FormItemModel(key="childRule", name="儿童标准说明"),
-            FormItemModel(key="insuranceIncluded", name="是否包含保险", type="select")]
+            FormItemModel(key="insuranceIncluded", name="是否包含保险", type="select"),
+            FormItemModel(key="productTitle", name="产品名称"),        
+            FormItemModel(key="productSubtitle", name="产品副标题"),
+            FormItemModel(key="departureCountryName", name="出发国家名字"),
+            FormItemModel(key="departureProvinceNam", name="出发省份"),
+            FormItemModel(key="departureCityName", name="出发城市名字"),
+            FormItemModel(key="returnCityName", name="返回城市名字")]
     
     for item in keys:
         key_string = item.key
@@ -271,7 +271,6 @@ if st.session_state.current_tab == 0:
 
     # 动态添加和删除列表输入框
     dests = st.session_state.multi_level_dict["product"]["dests"]
-
     for i, dest in enumerate(dests):
         col1, col2 = st.columns(2)
         with col1:
@@ -294,9 +293,88 @@ if st.session_state.current_tab == 0:
         with col3:
             dest["destCityName"] = st.text_input(f"城市", **get_default(dest["destCityName"], f"destCityName{i}",
                                                                         need_refresh=True))
-        
     if st.button("添加目的地"):
         dests.append({"countryName": "", "destCityName": "", "destProvinceName": ""})
+        st.rerun()
+
+    insurances = st.session_state.multi_level_dict["product"]["insurance"]
+    for i, insurance in enumerate(insurances):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader(f"保险信息{i+1}")
+        with col2:
+            if st.button("❌", key=f"del_insurances{i}"):
+                if len(insurances) > 1:
+                    del insurances[i]
+                else:
+                    st.warning("至少需要一个保险信息。")
+                refresh()    
+        col1, col2, col3 = st.columns([3, 3, 1])
+        with col1:
+            insurance["content"] = st.text_input(f"保险内容", **get_default(insurance["content"], f"insurance_content{i}",
+                                                                       need_refresh=True))
+        with col2:
+            insurance["name"] = st.text_input(f"保险名称",  **get_default(insurance["name"], f"insurance_name{i}",
+                                                                   need_refresh=True))
+        with col3:
+            insurance["typeName"] = st.text_input(f"保险类型（境内外旅游险、航空险等）", **get_default(insurance["typeName"], f"insurance_typeName{i}",
+                                                                        need_refresh=True))
+    if st.button("添加保险信息"):
+        insurances.append({"content": "", "name": "", "typeName": ""})
+        st.rerun()
+    
+    themes = st.session_state.multi_level_dict["product"]["themes"]
+    for i, theme in enumerate(themes):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader(f"产品主题{i+1}")
+        with col2:
+            if st.button("❌", key=f"del_themes{i}"):
+                if len(themes) > 1:
+                    del themes[i]
+                else:
+                    st.warning("至少需要一个产品主题。")
+                refresh()    
+        theme["name"] = st.text_input(f"主题名称", **get_default(theme["name"], f"theme_name{i}",
+                                                                       need_refresh=True))
+    if st.button("添加产品主题"):
+        themes.append({"name": ""})
+        st.rerun()
+        
+    tags = st.session_state.multi_level_dict["product"]["tags"]
+    for i, tag in enumerate(tags):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader(f"产品标签{i+1}")
+        with col2:
+            if st.button("❌", key=f"del_tags{i}"):
+                if len(tags) > 1:
+                    del tags[i]
+                else:
+                    st.warning("至少需要一个产品主题。")
+                refresh()    
+        tag["name"] = st.text_input(f"标签名称", **get_default(tag["name"], f"tag_name{i}",
+                                                                       need_refresh=True))
+    if st.button("添加产品标签"):
+        tags.append({"name": ""})
+        st.rerun()
+    
+    markets = st.session_state.multi_level_dict["product"]["markets"]
+    for i, market in enumerate(markets):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader(f"营销标签{i+1}")
+        with col2:
+            if st.button("❌", key=f"del_markets{i}"):
+                if len(markets) > 1:
+                    del markets[i]
+                else:
+                    st.warning("至少需要一个产品主题。")
+                refresh()    
+        market["name"] = st.text_input(f"营销标签名称", **get_default(market["name"], f"market_name{i}",
+                                                                       need_refresh=True))
+    if st.button("添加营销标签"):
+        markets.append({"name": ""})
         st.rerun()
 
 # 线路信息
