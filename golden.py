@@ -228,35 +228,44 @@ def get_default(cache, key, need_refresh=False):
 # 产品详情
 if st.session_state.current_tab == 0:
     st.subheader("产品详情")
-    st.session_state.multi_level_dict["product"]["productTitle"] = st.text_input("产品标题",
+    keys = [ {"key": "productTitle", "name": "产品名称"}, 
+            {"key": "productSubtitle", "name": "产品副标题"},
+            {"key": "departureCountryName", "name": "出发国家名字"},
+            {"key": "departureProvinceNam", "name": "出发省份"},
+            {"key": "departureCityName", "name": "出发城市名字"},
+            {"key": "returnCityName", "name": "返回城市名字"},
+            {"key": "childAgeBegin", "name": "儿童年龄标准区间开始值"},
+            {"key": "childAgeEnd", "name": "儿童年龄标准区间结束值"},
+            {"key": "childHeightBegin", "name": "儿童身高标准区间开始值"},
+            {"key": "childHeightEnd", "name": "儿童身高标准区间结束值"},
+            {"key": "childHasTraffic", "name": "儿童价格是否含大交通"},
+            {"key": "childHasBed", "name": "儿童价是否含床"},
+            {"key": "childRule", "name": "儿童标准说明"},
+            {"key": "insuranceIncluded", "name": "是否包含保险"}
+        ]
+    
+    for key in keys:
+        st.session_state.multi_level_dict["product"][key['key']] = st.text_input(key['name'],
                                                                                  **get_default(
                                                                                      st.session_state.multi_level_dict[
-                                                                                         "product"]["productTitle"],
-                                                                                     "productTitle"))
-    st.session_state.multi_level_dict["product"]["productSubtitle"] = st.text_input("产品副标题",
-                                                                                    **get_default(
-                                                                                        st.session_state.multi_level_dict[
-                                                                                            "product"][
-                                                                                            "productSubtitle"],
-                                                                                        "productSubtitle"))
-    st.session_state.multi_level_dict["product"]["departureCityName"] = st.text_input("出发城市",
-                                                                                      **get_default(
-                                                                                          st.session_state.multi_level_dict[
-                                                                                              "product"][
-                                                                                              "departureCityName"],
-                                                                                          "departureCityName"))
-    st.session_state.multi_level_dict["product"]["returnCityName"] = st.text_input("返回城市",
-                                                                                   **get_default(
-                                                                                       st.session_state.multi_level_dict[
-                                                                                           "product"][
-                                                                                           "returnCityName"],
-                                                                                       "returnCityName"))
+                                                                                         "product"][key['key']],
+                                                                                     key['key']))
+
     # 动态添加和删除列表输入框
     dests = st.session_state.multi_level_dict["product"]["dests"]
 
     for i, dest in enumerate(dests):
-        st.subheader(f"目的地{i + 1}")
-        col1, col2, col3, col4 = st.columns([3, 3, 1, 1])
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader(f"目的地{i+1}")
+        with col2:
+            if st.button("❌", key=f"del_dests{i}"):
+                if len(dests) > 1:
+                    del dests[i]
+                else:
+                    st.warning("至少需要一个目的地。")
+                refresh()    
+        col1, col2, col3 = st.columns([3, 3, 1])
         with col1:
             dest["countryName"] = st.text_input(f"国家", **get_default(dest["countryName"], f"countryName{i}",
                                                                        need_refresh=True))
@@ -267,14 +276,7 @@ if st.session_state.current_tab == 0:
         with col3:
             dest["destCityName"] = st.text_input(f"城市", **get_default(dest["destCityName"], f"destCityName{i}",
                                                                         need_refresh=True))
-        with col4:
-            if st.button(f"删除 {i + 1}"):
-                if len(dests) > 1:
-                    del dests[i]
-                else:
-                    st.warning("至少需要一个目的地。")
-                refresh()
-
+        
     if st.button("添加目的地"):
         dests.append({"countryName": "", "destCityName": "", "destProvinceName": ""})
         st.rerun()
