@@ -224,32 +224,49 @@ def get_default(cache, key, need_refresh=False):
         "key": key
     }
 
+class FormItemModel:
+    def __init__(self, key, name, type="text"):
+        self.key = key
+        self.name = name
+        self.type = type
+
+    def __repr__(self):
+        return f"Model(key={self.key}, name={self.name}, type={self.type})"
 
 # 产品详情
 if st.session_state.current_tab == 0:
     st.subheader("产品详情")
-    keys = [ {"key": "productTitle", "name": "产品名称"}, 
-            {"key": "productSubtitle", "name": "产品副标题"},
-            {"key": "departureCountryName", "name": "出发国家名字"},
-            {"key": "departureProvinceNam", "name": "出发省份"},
-            {"key": "departureCityName", "name": "出发城市名字"},
-            {"key": "returnCityName", "name": "返回城市名字"},
-            {"key": "childAgeBegin", "name": "儿童年龄标准区间开始值"},
-            {"key": "childAgeEnd", "name": "儿童年龄标准区间结束值"},
-            {"key": "childHeightBegin", "name": "儿童身高标准区间开始值"},
-            {"key": "childHeightEnd", "name": "儿童身高标准区间结束值"},
-            {"key": "childHasTraffic", "name": "儿童价格是否含大交通"},
-            {"key": "childHasBed", "name": "儿童价是否含床"},
-            {"key": "childRule", "name": "儿童标准说明"},
-            {"key": "insuranceIncluded", "name": "是否包含保险"}
-        ]
+    keys = [FormItemModel(key="productTitle", name="产品名称"),        
+            FormItemModel(key="productSubtitle", name="产品副标题"),
+            FormItemModel(key="departureCountryName", name="出发国家名字"),
+            FormItemModel(key="departureProvinceNam", name="出发省份"),
+            FormItemModel(key="departureCityName", name="出发城市名字"),
+            FormItemModel(key="returnCityName", name="返回城市名字"),
+            FormItemModel(key="childAgeBegin", name="儿童年龄标准区间开始值"),
+            FormItemModel(key="childAgeEnd", name="儿童年龄标准区间结束值"),
+            FormItemModel(key="childHeightBegin", name="儿童身高标准区间开始值"),
+            FormItemModel(key="childHeightEnd", name="儿童身高标准区间结束值"),
+            FormItemModel(key="childHasTraffic", name="儿童价格是否含大交通", type="select"),
+            FormItemModel(key="childHasBed", name="儿童价是否含床", type="select"),
+            FormItemModel(key="childRule", name="儿童标准说明"),
+            FormItemModel(key="insuranceIncluded", name="是否包含保险", type="select")]
     
-    for key in keys:
-        st.session_state.multi_level_dict["product"][key['key']] = st.text_input(key['name'],
+    for item in keys:
+        key_string = item.key
+        key_name = item.name
+        key_type = item.type
+
+        if key_type is not None and key_type == "select":
+            st.session_state.multi_level_dict["product"][key_string] = st.radio(key_name,
+                                                                                options=["是", "否"],
+                                                                                index=0 if get_default(st.session_state.multi_level_dict["product"].get(key_string, None), key_string) == "是" else 1
+        ) 
+        else:
+            st.session_state.multi_level_dict["product"][key_string] = st.text_input(key_name,
                                                                                  **get_default(
                                                                                      st.session_state.multi_level_dict[
-                                                                                         "product"][key['key']],
-                                                                                     key['key']))
+                                                                                         "product"][key_string],
+                                                                                     key_string))
 
     # 动态添加和删除列表输入框
     dests = st.session_state.multi_level_dict["product"]["dests"]
