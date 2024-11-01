@@ -258,11 +258,10 @@ if st.session_state.current_tab == 0:
         key_type = item.type
         key_options = item.options
 
-        if key_type is not None and key_type == "select":
+        if key_type == "select":
             st.session_state.multi_level_dict["product"][key_string] = st.radio(key_name,
                                                                                 options=key_options,
-                                                                                index=0 if get_default(st.session_state.multi_level_dict["product"].get(key_string, None), key_string) == "是" else 1
-        ) 
+                                                                                index=0 if get_default(st.session_state.multi_level_dict["product"].get(key_string, None), key_string) == "是" else 1 ) 
         else:
             st.session_state.multi_level_dict["product"][key_string] = st.text_input(key_name,
                                                                                  **get_default(
