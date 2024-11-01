@@ -225,13 +225,14 @@ def get_default(cache, key, need_refresh=False):
     }
 
 class FormItemModel:
-    def __init__(self, key, name, type="text"):
+    def __init__(self, key, name, type="text", options=["是", "否"]):
         self.key = key
         self.name = name
         self.type = type
+        self.options = options
 
     def __repr__(self):
-        return f"Model(key={self.key}, name={self.name}, type={self.type})"
+        return f"Model(key={self.key}, name={self.name}, type={self.type}), options={self.options}"
 
 # 产品详情
 if st.session_state.current_tab == 0:
@@ -255,10 +256,11 @@ if st.session_state.current_tab == 0:
         key_string = item.key
         key_name = item.name
         key_type = item.type
+        key_options = item.options
 
         if key_type is not None and key_type == "select":
             st.session_state.multi_level_dict["product"][key_string] = st.radio(key_name,
-                                                                                options=["是", "否"],
+                                                                                options=key_options,
                                                                                 index=0 if get_default(st.session_state.multi_level_dict["product"].get(key_string, None), key_string) == "是" else 1
         ) 
         else:
