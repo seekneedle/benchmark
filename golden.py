@@ -224,6 +224,7 @@ def get_default(cache, key, need_refresh=False):
         "key": key
     }
 
+
 class FormItemModel:
     def __init__(self, key, name, type="text", options=["是", "否"]):
         self.key = key
@@ -233,6 +234,7 @@ class FormItemModel:
 
     def __repr__(self):
         return f"Model(key={self.key}, name={self.name}, type={self.type}), options={self.options}"
+
 
 # 产品详情
 if st.session_state.current_tab == 0:
@@ -251,7 +253,7 @@ if st.session_state.current_tab == 0:
             FormItemModel(key="departureProvinceNam", name="出发省份"),
             FormItemModel(key="departureCityName", name="出发城市名字"),
             FormItemModel(key="returnCityName", name="返回城市名字")]
-    
+
     for item in keys:
         key_string = item.key
         key_name = item.name
@@ -261,27 +263,31 @@ if st.session_state.current_tab == 0:
         if key_type == "select":
             st.session_state.multi_level_dict["product"][key_string] = st.radio(key_name,
                                                                                 options=key_options,
-                                                                                index=0 if get_default(st.session_state.multi_level_dict["product"].get(key_string, None), key_string) == "是" else 1 ) 
+                                                                                index=0 if get_default(
+                                                                                    st.session_state.multi_level_dict[
+                                                                                        "product"].get(key_string,
+                                                                                                       None),
+                                                                                    key_string) == "是" else 1)
         else:
             st.session_state.multi_level_dict["product"][key_string] = st.text_input(key_name,
-                                                                                 **get_default(
-                                                                                     st.session_state.multi_level_dict[
-                                                                                         "product"][key_string],
-                                                                                     key_string))
+                                                                                     **get_default(
+                                                                                         st.session_state.multi_level_dict[
+                                                                                             "product"][key_string],
+                                                                                         key_string))
 
     # 动态添加和删除列表输入框
     dests = st.session_state.multi_level_dict["product"]["dests"]
     for i, dest in enumerate(dests):
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader(f"目的地{i+1}")
+            st.subheader(f"目的地{i + 1}")
         with col2:
             if st.button("❌", key=f"del_dests{i}"):
-                if len(dests) > 1:
+                if len(dests) > 1 and i < len(dests):
                     del dests[i]
                 else:
                     st.warning("至少需要一个目的地。")
-                refresh()    
+                refresh()
         col1, col2, col3 = st.columns([3, 3, 1])
         with col1:
             dest["countryName"] = st.text_input(f"国家", **get_default(dest["countryName"], f"countryName{i}",
@@ -600,48 +606,436 @@ if st.session_state.current_tab == 2:
 
 # 消费信息
 if st.session_state.current_tab == 3:
+    keys = [FormItemModel(key="bookRule", name="订购规定"),
+            FormItemModel(key="otherRule", name="其他规定"),
+            FormItemModel(key="tipsContent", name="温馨提示"),
+            FormItemModel(key="costInclude", name="费用内包含"),
+            FormItemModel(key="costExclude", name="费用内不含")]
+
     st.subheader("消费信息")
-    st.session_state.multi_level_dict["cost"]["costInclude"] = st.text_area("费用包含",
-                                                                            **get_default(
-                                                                                st.session_state.multi_level_dict[
-                                                                                    "cost"][
-                                                                                    "costInclude"],
-                                                                                "costInclude"))
-    st.session_state.multi_level_dict["cost"]["costExclude"] = st.text_area("费用不包含",
-                                                                            **get_default(
-                                                                                st.session_state.multi_level_dict[
-                                                                                    "cost"][
-                                                                                    "costExclude"],
-                                                                                "costExclude"))
-    st.session_state.multi_level_dict["cost"]["bookRule"] = st.text_area("预订规则",
-                                                                         **get_default(
-                                                                             st.session_state.multi_level_dict[
-                                                                                 "cost"][
-                                                                                 "bookRule"],
-                                                                             "bookRule"))
+    for item in keys:
+        key_string = item.key
+        key_name = item.name
+
+        st.session_state.multi_level_dict["cost"][key_string] = st.text_input(key_name,
+                                                                             **get_default(
+                                                                                 st.session_state.multi_level_dict[
+                                                                                     "cost"][key_string],
+                                                                                 key_string))
+
+    key_string = "returnContent"
+    key_name = "退费规定"
+    st.session_state.multi_level_dict["cost"][key_string] = st.text_input(key_name,
+                                                                          **get_default(
+                                                                              st.session_state.multi_level_dict[
+                                                                                  "cost"][key_string],
+                                                                              key_string))
+    col1, col2 = st.columns([1, 30])
+    with col1:
+        st.empty()
+    with col2:
+        lineReturns = st.session_state.multi_level_dict["cost"]["lineReturns"]
+        for i, lineReturn in enumerate(lineReturns):
+            col1, col2, col3, col4 = st.columns([5, 5, 5, 1])
+            with col1:
+                key_string = "begin"
+                key_name = "开始时间段"
+                lineReturn[key_string] = st.text_input(key_name,
+                                             **get_default(
+                                                 lineReturn[key_string],
+                                                 f"return_{key_string}{i}",
+                                             need_refresh=True))
+            with col2:
+                key_string = "end"
+                key_name = "截止时间段"
+                lineReturn[key_string] = st.text_input(key_name,
+                                             **get_default(
+                                                 lineReturn[key_string],
+                                                 f"return_{key_string}{i}",
+                                             need_refresh=True))
+            with col3:
+                key_string = "cost"
+                key_name = "退费比例"
+                lineReturn[key_string] = st.text_input(key_name,
+                                             **get_default(
+                                                 lineReturn[key_string],
+                                                 f"return_{key_string}{i}",
+                                             need_refresh=True))
+            with col4:
+                if st.button("❌", key=f"del_return{i}"):
+                    if len(lineReturns) > 0 and i < len(lineReturns):
+                        del lineReturns[i]
+                    else:
+                        st.warning("没有可删除退费规则。")
+                    refresh()
+        if st.button("添加退费规则"):
+            lineReturns.append({
+                "begin": "",
+                "cost": "",
+                "end": ""
+            })
+            st.rerun()
+
+    key_string = "selfCostContent"
+    key_name = "自费项目介绍"
+    st.session_state.multi_level_dict["cost"][key_string] = st.text_input(key_name,
+                                                                          **get_default(
+                                                                              st.session_state.multi_level_dict[
+                                                                                  "cost"][key_string],
+                                                                              key_string))
+
+    col1, col2 = st.columns([1, 30])
+    with col1:
+        st.empty()
+    with col2:
+        selfCosts = st.session_state.multi_level_dict["cost"]["selfCosts"]
+        for i, selfCost in enumerate(selfCosts):
+            col1, col2, col3, col4, col5, col6 = st.columns([3, 3, 3, 3, 3, 1])
+            with col1:
+                key_string = "name"
+                key_name = "自费项目名称"
+                selfCost[key_string] = st.text_input(key_name,
+                                                       **get_default(
+                                                           selfCost[key_string],
+                                                           f"self_{key_string}{i}",
+                                                           need_refresh=True))
+            with col2:
+                key_string = "fee"
+                key_name = "自费项目费用"
+                selfCost[key_string] = st.text_input(key_name,
+                                                       **get_default(
+                                                           selfCost[key_string],
+                                                           f"self_{key_string}{i}",
+                                                           need_refresh=True))
+            with col3:
+                key_string = "stay"
+                key_name = "自费项目停留时间"
+                selfCost[key_string] = st.text_input(key_name,
+                                                       **get_default(
+                                                           selfCost[key_string],
+                                                           f"self_{key_string}{i}",
+                                                           need_refresh=True))
+            with col4:
+                key_string = "address"
+                key_name = "自费项目地址"
+                selfCost[key_string] = st.text_input(key_name,
+                                                       **get_default(
+                                                           selfCost[key_string],
+                                                           f"self_{key_string}{i}",
+                                                           need_refresh=True))
+            with col5:
+                key_string = "remark"
+                key_name = "自费项目备注"
+                selfCost[key_string] = st.text_input(key_name,
+                                                       **get_default(
+                                                           selfCost[key_string],
+                                                           f"self_{key_string}{i}",
+                                                           need_refresh=True))
+            with col6:
+                if st.button("❌", key=f"del_self{i}"):
+                    if len(selfCosts) > 0 and i < len(selfCosts):
+                        del selfCosts[i]
+                    else:
+                        st.warning("没有可删除自费项目。")
+                    refresh()
+        if st.button("添加自费项目"):
+            selfCosts.append({
+                "address": "",
+                "fee": "",
+                "name": "",
+                "remark": "",
+                "stay": ""
+            })
+            st.rerun()
+
+    key_string = "shopContent"
+    key_name = "购物项目介绍"
+    st.session_state.multi_level_dict["cost"][key_string] = st.text_input(key_name,
+                                                                          **get_default(
+                                                                              st.session_state.multi_level_dict[
+                                                                                  "cost"][key_string],
+                                                                              key_string))
+
+    col1, col2 = st.columns([1, 30])
+    with col1:
+        st.empty()
+    with col2:
+        shops = st.session_state.multi_level_dict["cost"]["shops"]
+        for i, shop in enumerate(shops):
+            col1, col2, col3, col4, col5, col6 = st.columns([3, 3, 3, 3, 3, 1])
+            with col1:
+                key_string = "shopName"
+                key_name = "购物项目名称"
+                shop[key_string] = st.text_input(key_name,
+                                                     **get_default(
+                                                         shop[key_string],
+                                                         f"shop_{key_string}{i}",
+                                                         need_refresh=True))
+            with col2:
+                key_string = "shopProduct"
+                key_name = "购物项目可选产品"
+                shop[key_string] = st.text_input(key_name,
+                                                     **get_default(
+                                                         shop[key_string],
+                                                         f"shop_{key_string}{i}",
+                                                         need_refresh=True))
+            with col3:
+                key_string = "stay"
+                key_name = "购物项目停留时间"
+                shop[key_string] = st.text_input(key_name,
+                                                     **get_default(
+                                                         shop[key_string],
+                                                         f"shop_{key_string}{i}",
+                                                         need_refresh=True))
+            with col4:
+                key_string = "address"
+                key_name = "购物项目地址"
+                shop[key_string] = st.text_input(key_name,
+                                                     **get_default(
+                                                         shop[key_string],
+                                                         f"shop_{key_string}{i}",
+                                                         need_refresh=True))
+            with col5:
+                key_string = "remark"
+                key_name = "购物项目备注"
+                shop[key_string] = st.text_input(key_name,
+                                                     **get_default(
+                                                         shop[key_string],
+                                                         f"shop_{key_string}{i}",
+                                                         need_refresh=True))
+            with col6:
+                if st.button("❌", key=f"del_shop{i}"):
+                    if len(shops) > 0 and i < len(shops):
+                        del shops[i]
+                    else:
+                        st.warning("没有可删除购物项目。")
+                    refresh()
+        if st.button("添加购物项目"):
+            shops.append({
+                "address": "",
+                "shopProduct": "",
+                "shopName": "",
+                "remark": "",
+                "stay": ""
+            })
+            st.rerun()
 
 # 行程信息
 if st.session_state.current_tab == 4:
+    keys = [FormItemModel(key="title", name="行程标题"),
+            FormItemModel(key="content", name="行程介绍")]
+
     trips = st.session_state.multi_level_dict["trips"]
     for i, trip in enumerate(trips):
-        st.subheader(f"第{i+1}天行程")
-        col1, col2, col3, col4 = st.columns([3, 3, 3, 1])
+        st.divider()
+        col1, col2 = st.columns(2)
         with col1:
-            trip["breakfast"] = st.checkbox(f"包含早餐", **get_default(trip["breakfast"], f"breakfast{i}",
-                                                                               need_refresh=True))
+            st.subheader(f"第{i + 1}天行程")
+            trip["tripDay"] = i + 1
         with col2:
-            trip["lunch"] = st.checkbox(f"包含午餐", **get_default(trip["lunch"], f"lunch{i}",
-                                                                           need_refresh=True))
-        with col3:
-            trip["dinner"] = st.checkbox(f"包含晚餐", **get_default(trip["dinner"], f"dinner{i}",
-                                                                            need_refresh=True))
-        with col4:
-            if st.button(f"删除行程 {i + 1}"):
-                if len(trips) > 1:
+            if st.button("❌", key=f"del_trip{i}"):
+                if len(trips) > 1 and i < len(trips):
                     del trips[i]
                 else:
                     st.warning("至少需要一个行程。")
                 refresh()
+
+        for item in keys:
+            key_string = item.key
+            key_name = item.name
+            trip[key_string] = st.text_input(key_name,
+                                             **get_default(
+                                                 trip[key_string],
+                                                 f"{key_string}{i}",
+                                                 need_refresh=True))
+
+        col1, col2, col3, col4 = st.columns([1, 1, 1, 3])
+        with col1:
+            key_string = "breakfast"
+            key_name = "包含早餐"
+            default_dict = get_default(trip[key_string], f"{key_string}{i}", need_refresh=True)
+            default_value = default_dict["value"]
+            if default_value == 1:
+                default_dict["value"] = True
+            else:
+                default_dict["value"] = False
+            checkbox_value = st.checkbox(key_name, **default_dict)
+            trip[key_string] = 1 if checkbox_value else 0
+        with col2:
+            key_string = "lunch"
+            key_name = "包含午餐"
+            default_dict = get_default(trip[key_string], f"{key_string}{i}", need_refresh=True)
+            default_value = default_dict["value"]
+            if default_value == 1:
+                default_dict["value"] = True
+            else:
+                default_dict["value"] = False
+            checkbox_value = st.checkbox(key_name, **default_dict)
+            trip[key_string] = 1 if checkbox_value else 0
+        with col3:
+            key_string = "dinner"
+            key_name = "包含晚餐"
+            default_dict = get_default(trip[key_string], f"{key_string}{i}", need_refresh=True)
+            default_value = default_dict["value"]
+            if default_value == 1:
+                default_dict["value"] = True
+            else:
+                default_dict["value"] = False
+            checkbox_value = st.checkbox(key_name, **default_dict)
+            trip[key_string] = 1 if checkbox_value else 0
+
+        col1, col2 = st.columns([1, 30])
+        with col1:
+            st.empty()
+        with col2:
+            hotels = trip["hotels"]
+            for j, hotel in enumerate(hotels):
+
+                col1, col2, col3 = st.columns([15, 15, 1])
+                with col1:
+                    key_string = "name"
+                    key_name = "酒店名称"
+                    hotel[key_string] = st.text_input(key_name,
+                                                      **get_default(
+                                                          hotel[key_string],
+                                                          f"hotel_{key_string}{i}{j}",
+                                                          need_refresh=True))
+                with col2:
+                    key_string = "star"
+                    key_name = "酒店星级(一星到五星)"
+                    hotel[key_string] = st.text_input(key_name,
+                                                      **get_default(
+                                                          hotel[key_string],
+                                                          f"hotel_{key_string}{i}{j}",
+                                                          need_refresh=True))
+                with col3:
+                    if st.button("❌", key=f"del_hotel{i}{j}"):
+                        if len(hotels) > 0 and j < len(hotels):
+                            del hotels[j]
+                        else:
+                            st.warning("没有可删除酒店。")
+                        refresh()
+
+            if st.button("添加酒店", key=f"add_hotel{i}"):
+                hotels.append({
+                    "name": "",
+                    "star": ""
+                })
+                st.rerun()
+
+        col1, col2 = st.columns([1, 30])
+        with col1:
+            st.empty()
+        with col2:
+            traffics = trip["scheduleTraffics"]
+            for j, traffic in enumerate(traffics):
+                col1, col2, col3, col4, col5, col6 = st.columns([6, 6, 6, 6, 6, 1])
+
+                with col1:
+                    key_string = "trafficType"
+                    key_name = "交通方式"
+                    traffic[key_string] = st.text_input(key_name,
+                                                        **get_default(
+                                                            traffic[key_string],
+                                                            f"traffic_{key_string}{i}{j}",
+                                                            need_refresh=True))
+
+                with col2:
+                    key_string = "departure"
+                    key_name = "出发地"
+                    traffic[key_string] = st.text_input(key_name,
+                                                        **get_default(
+                                                            traffic[key_string],
+                                                            f"traffic_{key_string}{i}{j}",
+                                                            need_refresh=True))
+                with col3:
+                    key_string = "departureTime"
+                    key_name = "出发时间"
+                    traffic[key_string] = st.text_input(key_name,
+                                                        **get_default(
+                                                            traffic[key_string],
+                                                            f"traffic_{key_string}{i}{j}",
+                                                            need_refresh=True))
+
+                with col4:
+                    key_string = "destination"
+                    key_name = "目的地"
+                    traffic[key_string] = st.text_input(key_name,
+                                                        **get_default(
+                                                            traffic[key_string],
+                                                            f"traffic_{key_string}{i}{j}",
+                                                            need_refresh=True))
+                with col5:
+                    key_string = "arrivalTime"
+                    key_name = "到达时间"
+                    traffic[key_string] = st.text_input(key_name,
+                                                        **get_default(
+                                                            traffic[key_string],
+                                                            f"traffic_{key_string}{i}{j}",
+                                                            need_refresh=True))
+                with col6:
+                    if st.button("❌", key=f"del_traffic{i}{j}"):
+                        if len(traffics) > 0 and j < len(traffics):
+                            del traffics[j]
+                        else:
+                            st.warning("没有可删除交通方式。")
+                        refresh()
+
+            if st.button("添加交通信息", key=f"add_traffic{i}"):
+                traffics.append({
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "arrivalTime": "",
+                    "trafficType": ""
+                })
+                st.rerun()
+
+        col1, col2 = st.columns([1, 30])
+        with col1:
+            st.empty()
+        with col2:
+            scenes = trip["scenes"]
+            for j, scene in enumerate(scenes):
+                col1, col2, col3, col4 = st.columns([10, 10, 10, 1])
+                with col1:
+                    key_string = "name"
+                    key_name = "景点名称"
+                    scene[key_string] = st.text_input(key_name,
+                                                      **get_default(
+                                                          scene[key_string],
+                                                          f"scene_{key_string}{i}{j}",
+                                                          need_refresh=True))
+                with col2:
+                    key_string = "consumingTime"
+                    key_name = "停留时间"
+                    scene[key_string] = st.text_input(key_name,
+                                                      **get_default(
+                                                          scene[key_string],
+                                                          f"scene_{key_string}{i}{j}",
+                                                          need_refresh=True))
+                with col3:
+                    key_string = "description"
+                    key_name = "景点介绍"
+                    scene[key_string] = st.text_input(key_name,
+                                                      **get_default(
+                                                          scene[key_string],
+                                                          f"scene_{key_string}{i}{j}",
+                                                          need_refresh=True))
+                with col4:
+                    if st.button("❌", key=f"del_scene{i}{j}"):
+                        if len(scenes) > 0 and j < len(scenes):
+                            del scenes[j]
+                        else:
+                            st.warning("没有可删除景点。")
+                        refresh()
+            if st.button("添加景点", key=f"add_scene{i}"):
+                scenes.append({
+                    "name": "",
+                    "description": "",
+                    "consumingTime": ""
+                })
+                st.rerun()
 
     if st.button("添加行程"):
         trips.append({
