@@ -380,26 +380,199 @@ if st.session_state.current_tab == 0:
 # 线路信息
 if st.session_state.current_tab == 1:
     st.subheader("线路信息")
-    st.session_state.multi_level_dict["line"]["lineTitle"] = st.text_input("线路标题",
-                                                                           **get_default(
-                                                                               st.session_state.multi_level_dict[
-                                                                                   "line"]["lineTitle"],
-                                                                               "lineTitle"))
-    st.session_state.multi_level_dict["line"]["lineSimpleTitle"] = st.text_input("线路简标题",
+    keys = [FormItemModel(key="backTransportName", name="返程交通名称"),
+            FormItemModel(key="goTransportName", name="去程交通名称"),
+            FormItemModel(key="hotelStarName", name="酒店星级"),
+            FormItemModel(key="lineFeature", name="线路特色"),
+            FormItemModel(key="lineSimpleTitle", name="线路简标题"),
+            FormItemModel(key="lineSortTitle", name="线路缩写"),
+            FormItemModel(key="lineTitle", name="线路名称"),
+            FormItemModel(key="needVisa", name="是否需要签证", type="select"),
+            FormItemModel(key="tripDays", name="总共几天"),        
+            FormItemModel(key="tripNight", name="总共几晚")]
+    for item in keys:
+        key_string = item.key
+        key_name = item.name
+        key_type = item.type
+        key_options = item.options
+
+        if key_type == "select":
+            st.session_state.multi_level_dict["line"][key_string] = st.radio(key_name,
+                                                                                options=key_options,
+                                                                                index=0 if get_default(st.session_state.multi_level_dict["line"].get(key_string, None), key_string) == "是" else 1 ) 
+        else:
+            st.session_state.multi_level_dict["line"][key_string] = st.text_input(key_name,
                                                                                  **get_default(
                                                                                      st.session_state.multi_level_dict[
-                                                                                         "line"]["lineSimpleTitle"],
-                                                                                     "lineSimpleTitle"))
-    st.session_state.multi_level_dict["line"]["tripDays"] = st.text_input("行程天数",
-                                                                          **get_default(
-                                                                              st.session_state.multi_level_dict[
-                                                                                  "line"]["tripDays"],
-                                                                              "tripDays"))
-    st.session_state.multi_level_dict["line"]["tripNight"] = st.text_input("行程夜数",
-                                                                           **get_default(
-                                                                               st.session_state.multi_level_dict[
-                                                                                   "line"]["tripNight"],
-                                                                               "tripNight"))
+                                                                                         "line"][key_string],
+                                                                                     key_string))
+
+    airports_keys = [FormItemModel(key="airlineCode", name="航空公司编码"),
+            FormItemModel(key="airlineName", name="航空公司名称"),
+            FormItemModel(key="arriveAirportName", name="到达机场名称"),
+            FormItemModel(key="arriveTime", name="到达时间"),
+            FormItemModel(key="days", name="日期差"),
+            FormItemModel(key="flightNo", name="航班号"),
+            FormItemModel(key="flightSort", name="航班顺序"),
+            FormItemModel(key="startAirportName", name="出发机场名称"),
+            FormItemModel(key="startTime", name="出发时间")]
+    default_airport_value = {
+            "airlineCode": "",
+            "airlineName": "",
+            "arriveAirportName": "",
+            "arriveTime": "",
+            "days": "",
+            "flightNo": "",
+            "flightSort": "",
+            "startAirportName": "",
+            "startTime": ""
+        }
+    num_columns = 5  # 你可以根据需要调整列数
+
+    backAirports = st.session_state.multi_level_dict["line"]["backAirports"]    
+    for i, airport in enumerate(backAirports):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader(f"返程航班信息{i+1}")
+        with col2:
+            if st.button("❌", key=f"del_backAirports{i}"):
+                if len(backAirports) > 1:
+                    del backAirports[i]
+                else:
+                    st.warning("至少需要一个返程航班信息。")
+                refresh()
+        columns = st.columns(num_columns)
+        for j, item in enumerate(airports_keys):
+            key_string = item.key
+            key_name = item.name
+            key_type = item.type
+            key_options = item.options
+
+            col_index = j % num_columns
+            with columns[col_index]:
+                airport[key_string] = st.text_input(key_name,
+                                                    **get_default(airport[key_string], f"backAirports_{key_name}{i}", need_refresh=True))
+                
+    if st.button("添加返程航班信息"):
+        backAirports.append(default_airport_value)
+        st.rerun()
+    
+    goAirports = st.session_state.multi_level_dict["line"]["goAirports"]
+    for i, airport in enumerate(goAirports):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader(f"去程航班信息{i+1}")
+        with col2:
+            if st.button("❌", key=f"del_goAirports{i}"):
+                if len(goAirports) > 1:
+                    del goAirports[i]
+                else:
+                    st.warning("至少需要一个去程航班信息。")
+                refresh()
+        columns = st.columns(num_columns)
+        for j, item in enumerate(airports_keys):
+            key_string = item.key
+            key_name = item.name
+            key_type = item.type
+            key_options = item.options
+
+            col_index = j % num_columns
+            with columns[col_index]:
+                airport[key_string] = st.text_input(key_name,
+                                                    **get_default(airport[key_string], f"goAirports_{key_name}{i}", need_refresh=True))
+                
+    if st.button("添加去程航班信息"):
+        goAirports.append(default_airport_value)
+        st.rerun()
+    
+    passCities_keys = [FormItemModel(key="countryName", name="途径国家名称"),
+            FormItemModel(key="provinceName", name="途径省份名称"),
+            FormItemModel(key="cityName", name="途径城市名称")]
+    default_passCities_value = {
+            "countryName": "",
+            "provinceName": "",
+            "cityName": ""}
+    passCities = st.session_state.multi_level_dict["line"]["passCities"]
+    for i, city in enumerate(passCities):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader(f"途经城市{i+1}")
+        with col2:
+            if st.button("❌", key=f"del_passCities{i}"):
+                if len(passCities) > 1:
+                    del passCities[i]
+                else:
+                    st.warning("至少需要一个途经城市。")
+                refresh()
+        passCities_num_columns = 3
+        columns = st.columns(passCities_num_columns)
+        for j, item in enumerate(passCities_keys):
+            key_string = item.key
+            key_name = item.name
+            key_type = item.type
+            key_options = item.options
+
+            col_index = j % passCities_num_columns
+            with columns[col_index]:
+                city[key_string] = st.text_input(key_name,
+                                                    **get_default(city[key_string], f"passCities_{key_name}{i}", need_refresh=True))
+                
+    if st.button("添加途经城市"):
+        passCities.append(default_passCities_value)
+        st.rerun()
+
+    visaBasicinfo = st.session_state.multi_level_dict["line"]["visaBasic"]
+
+    visa_info_keys = [FormItemModel(key="postAddress", name="签证邮寄地址"),
+            FormItemModel(key="postContact", name="签证邮寄人"),
+            FormItemModel(key="postPhone", name="签证邮件人手机")]
+    for item in visa_info_keys:
+        key_name = item.name
+        key_string = item.key
+        st.session_state.multi_level_dict["line"]["visaBasic"][key_string] = st.text_input(key_name,
+                                                                                 **get_default(
+                                                                                     st.session_state.multi_level_dict["line"]["visaBasic"][key_string],
+                                                                                     key_string))
+
+    visas_keys = [FormItemModel(key="content", name="签证及面签说明"),
+            FormItemModel(key="country", name="签证国家"),
+            FormItemModel(key="district", name="签证领区"),
+            FormItemModel(key="freeVisa", name="免签标志1:免签2:面签"),
+            FormItemModel(key="signPlace", name="送签地")]
+    default_visa_value = {
+            "content": "",
+            "country": "",
+            "district": "",
+            "freeVisa": "",
+            "signPlace": ""}
+    visas = st.session_state.multi_level_dict["line"]["visaBasic"]['visas']
+    for i, visa in enumerate(visas):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader(f"签证信息{i+1}")
+        with col2:
+            if st.button("❌", key=f"del_visa{i}"):
+                if len(visas) > 1:
+                    del visas[i]
+                else:
+                    st.warning("至少需要一个签证信息。")
+                refresh()
+        visas_num_columns = 3
+        columns = st.columns(visas_num_columns)
+        for j, item in enumerate(visas_keys):
+            key_string = item.key
+            key_name = item.name
+            key_type = item.type
+            key_options = item.options
+
+            col_index = j % visas_num_columns
+            with columns[col_index]:
+                visa[key_string] = st.text_input(key_name,
+                                                    **get_default(visa[key_string], f"visa_{key_name}{i}", need_refresh=True))
+
+    if st.button("添加签证信息"):
+        visas.append(default_visa_value)
+        st.rerun()
 
 # 成团信息
 if st.session_state.current_tab == 2:
