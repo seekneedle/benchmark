@@ -145,11 +145,11 @@ product_json = {
             }
         },
         "cal": {
-            "channelPut": {
+            "channelPut": [{
                 "adultSalePrice": "",
                 "childSalePrice": "",
                 "sellRemark": ""
-            },
+            }],
             "departDate": [
                 ""
             ]
@@ -317,12 +317,14 @@ if st.session_state.current_tab == 1:
                                                                                              "product"][key_string],
                                                                                          key_string))
 
+    st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
     # 动态添加和删除列表输入框
+    st.markdown( f"<h2 style='font-size: 20px; color: black;'>目的地信息</h2>", unsafe_allow_html=True )
     dests = st.session_state.multi_level_dict["product"]["dests"]
     for i, dest in enumerate(dests):
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader(f"目的地{i + 1}")
+            st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>目的地{i + 1}</h2>", unsafe_allow_html=True )
         with col2:
             if st.button("❌", key=f"del_dests{i}"):
                 if len(dests) > 1 and i < len(dests):
@@ -345,11 +347,14 @@ if st.session_state.current_tab == 1:
         dests.append({"countryName": "", "destCityName": "", "destProvinceName": ""})
         st.rerun()
 
+    st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
+    st.markdown( f"<h2 style='font-size: 20px; color: black;'>保险信息</h2>", unsafe_allow_html=True )
+
     insurances = st.session_state.multi_level_dict["product"]["insurance"]
     for i, insurance in enumerate(insurances):
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader(f"保险信息{i+1}")
+            st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>保险信息{i+1}</h2>", unsafe_allow_html=True )
         with col2:
             if st.button("❌", key=f"del_insurances{i}"):
                 if len(insurances) > 1:
@@ -370,12 +375,14 @@ if st.session_state.current_tab == 1:
     if st.button("添加保险信息"):
         insurances.append({"content": "", "name": "", "typeName": ""})
         st.rerun()
-    
+    st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
+    st.markdown( f"<h2 style='font-size: 20px; color: black;'>产品主题</h2>", unsafe_allow_html=True )
+
     themes = st.session_state.multi_level_dict["product"]["themes"]
     for i, theme in enumerate(themes):
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader(f"产品主题{i+1}")
+            st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>产品主题{i+1}</h2>", unsafe_allow_html=True )
         with col2:
             if st.button("❌", key=f"del_themes{i}"):
                 if len(themes) > 1:
@@ -388,12 +395,15 @@ if st.session_state.current_tab == 1:
     if st.button("添加产品主题"):
         themes.append({"name": ""})
         st.rerun()
-        
+
+    st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
+    st.markdown( f"<h2 style='font-size: 20px; color: black;'>产品标签</h2>", unsafe_allow_html=True )
+
     tags = st.session_state.multi_level_dict["product"]["tags"]
     for i, tag in enumerate(tags):
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader(f"产品标签{i+1}")
+            st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>产品标签{i+1}</h2>", unsafe_allow_html=True )
         with col2:
             if st.button("❌", key=f"del_tags{i}"):
                 if len(tags) > 1:
@@ -406,12 +416,14 @@ if st.session_state.current_tab == 1:
     if st.button("添加产品标签"):
         tags.append({"name": ""})
         st.rerun()
-    
+    st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
+    st.markdown( f"<h2 style='font-size: 20px; color: black;'>营销标签</h2>", unsafe_allow_html=True )
+
     markets = st.session_state.multi_level_dict["product"]["markets"]
     for i, market in enumerate(markets):
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader(f"营销标签{i+1}")
+            st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>营销标签{i+1}</h2>", unsafe_allow_html=True )
         with col2:
             if st.button("❌", key=f"del_markets{i}"):
                 if len(markets) > 1:
@@ -477,11 +489,13 @@ if st.session_state.current_tab == 2:
         }
     num_columns = 5  # 你可以根据需要调整列数
 
+    st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
+    st.markdown( f"<h2 style='font-size: 20px; color: black;'>返程航班</h2>", unsafe_allow_html=True )
     backAirports = st.session_state.multi_level_dict["line"]["backAirports"]    
     for i, airport in enumerate(backAirports):
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader(f"返程航班信息{i+1}")
+            st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>返程航班信息{i+1}</h2>", unsafe_allow_html=True )
         with col2:
             if st.button("❌", key=f"del_backAirports{i}"):
                 if len(backAirports) > 1:
@@ -505,11 +519,13 @@ if st.session_state.current_tab == 2:
         backAirports.append(default_airport_value)
         st.rerun()
     
+    st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
+    st.markdown( f"<h2 style='font-size: 20px; color: black;'>去程航班</h2>", unsafe_allow_html=True )
     goAirports = st.session_state.multi_level_dict["line"]["goAirports"]
     for i, airport in enumerate(goAirports):
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader(f"去程航班信息{i+1}")
+            st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>去程航班信息{i+1}</h2>", unsafe_allow_html=True )
         with col2:
             if st.button("❌", key=f"del_goAirports{i}"):
                 if len(goAirports) > 1:
@@ -533,6 +549,8 @@ if st.session_state.current_tab == 2:
         goAirports.append(default_airport_value)
         st.rerun()
     
+    st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
+    st.markdown( f"<h2 style='font-size: 20px; color: black;'>途经城市</h2>", unsafe_allow_html=True )
     passCities_keys = [FormItemModel(key="countryName", name="途径国家名称"),
             FormItemModel(key="provinceName", name="途径省份名称"),
             FormItemModel(key="cityName", name="途径城市名称")]
@@ -544,7 +562,7 @@ if st.session_state.current_tab == 2:
     for i, city in enumerate(passCities):
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader(f"途经城市{i+1}")
+            st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>途经城市{i+1}</h2>", unsafe_allow_html=True )
         with col2:
             if st.button("❌", key=f"del_passCities{i}"):
                 if len(passCities) > 1:
@@ -569,6 +587,8 @@ if st.session_state.current_tab == 2:
         passCities.append(default_passCities_value)
         st.rerun()
 
+    st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
+    st.markdown( f"<h2 style='font-size: 20px; color: black;'>签证邮递信息</h2>", unsafe_allow_html=True )
     visaBasicinfo = st.session_state.multi_level_dict["line"]["visaBasic"]
 
     visa_info_keys = [FormItemModel(key="postAddress", name="签证邮寄地址"),
@@ -593,11 +613,13 @@ if st.session_state.current_tab == 2:
             "district": "",
             "freeVisa": "",
             "signPlace": ""}
+    st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
+    st.markdown( f"<h2 style='font-size: 20px; color: black;'>签证信息</h2>", unsafe_allow_html=True )
     visas = st.session_state.multi_level_dict["line"]["visaBasic"]['visas']
     for i, visa in enumerate(visas):
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader(f"签证信息{i+1}")
+            st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>签证信息{i+1}</h2>", unsafe_allow_html=True )
         with col2:
             if st.button("❌", key=f"del_visa{i}"):
                 if len(visas) > 1:
@@ -625,26 +647,59 @@ if st.session_state.current_tab == 2:
 # 成团信息
 if st.session_state.current_tab == 3:
     st.subheader("成团信息")
-    st.session_state.multi_level_dict["cal"]["channelPut"]["adultSalePrice"] = st.text_input("成人销售价格",
-                                                                                             **get_default(
-                                                                                                 st.session_state.multi_level_dict[
-                                                                                                     "cal"][
-                                                                                                     "channelPut"][
-                                                                                                     "adultSalePrice"],
-                                                                                                 "adultSalePrice"))
-    st.session_state.multi_level_dict["cal"]["channelPut"]["childSalePrice"] = st.text_input("儿童销售价格",
-                                                                                             **get_default(
-                                                                                                 st.session_state.multi_level_dict[
-                                                                                                     "cal"][
-                                                                                                     "channelPut"][
-                                                                                                     "childSalePrice"],
-                                                                                                 "childSalePrice"))
-    st.session_state.multi_level_dict["cal"]["departDate"] = st.text_input("出发日期",
-                                                                           **get_default(
-                                                                               st.session_state.multi_level_dict[
-                                                                                   "cal"][
-                                                                                   "departDate"],
-                                                                               "departDate"))
+
+    channel_put_keys = [FormItemModel(key="adultSalePrice", name="成人零售价"),
+            FormItemModel(key="childSalePrice", name="儿童零售价"),
+            FormItemModel(key="sellRemark", name="销售说明")]
+    default_channel_put_value = {
+            "adultSalePrice": "",
+            "childSalePrice": "",
+            "sellRemark": ""}
+    st.markdown( f"<h2 style='font-size: 20px; color: black;'>投放信息</h2>", unsafe_allow_html=True )
+    channel_puts = st.session_state.multi_level_dict["cal"]["channelPut"]
+    for i, channel in enumerate(channel_puts):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>投放信息{i+1}</h2>", unsafe_allow_html=True )
+        with col2:
+            if st.button("❌", key=f"del_channel_put{i}"):
+                if len(channel_puts) > 1:
+                    del channel_puts[i]
+                else:
+                    st.warning("至少需要一个投放信息。")
+                refresh()
+        channels_num_columns = 3
+        columns = st.columns(channels_num_columns)
+        for j, item in enumerate(channel_put_keys):
+            key_string = item.key
+            key_name = item.name
+            col_index = j % channels_num_columns
+            with columns[col_index]:
+                channel[key_string] = st.text_input(key_name,
+                                                    **get_default(channel[key_string], f"channel_put_{key_name}{i}", need_refresh=True))
+    if st.button("添加投放信息"):
+        channel_puts.append(default_channel_put_value)
+        st.rerun()
+
+    st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
+    st.markdown( f"<h2 style='font-size: 20px; color: black;'>出团日期</h2>", unsafe_allow_html=True )        
+    departDates = st.session_state.multi_level_dict["cal"]["departDate"]
+    for i, departDate in enumerate(departDates):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>出团日期{i+1}</h2>", unsafe_allow_html=True )
+        with col2:
+            if st.button("❌", key=f"del_markets{i}"):
+                if len(departDates) > 1:
+                    del departDates[i]
+                else:
+                    st.warning("至少需要一个出团日期。")
+                refresh()    
+        # departDates["name"] = st.text_input(f"出团日期", **get_default(market["name"], f"market_name{i}",
+        #                                                                need_refresh=True))
+    # if st.button("添加营销标签"):
+    #     markets.append({"name": ""})
+    #     st.rerun()
 
 # 消费信息
 if st.session_state.current_tab == 4:
