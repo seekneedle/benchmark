@@ -695,11 +695,11 @@ if st.session_state.current_tab == 3:
                 else:
                     st.warning("至少需要一个出团日期。")
                 refresh()    
-        # departDates["name"] = st.text_input(f"出团日期", **get_default(market["name"], f"market_name{i}",
-        #                                                                need_refresh=True))
-    # if st.button("添加营销标签"):
-    #     markets.append({"name": ""})
-    #     st.rerun()
+        departDates[i] = st.text_input(f"出团日期", **get_default(departDate, f"depart_date{i}",
+                                                                       need_refresh=True))
+    if st.button("添加出团日期"):
+        departDates.append('')
+        st.rerun()
 
 # 消费信息
 if st.session_state.current_tab == 4:
