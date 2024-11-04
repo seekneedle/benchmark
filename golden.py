@@ -303,13 +303,11 @@ if st.session_state.current_tab == 1:
         key_options = item.options
 
         if key_type == "select":
-            st.session_state.multi_level_dict["product"][key_string] = st.radio(key_name,
-                                                                                options=key_options,
-                                                                                index=0 if get_default(
-                                                                                    st.session_state.multi_level_dict[
-                                                                                        "product"].get(key_string,
-                                                                                                       None),
-                                                                                    key_string) == "是" else 1)
+            current_value = st.session_state.multi_level_dict["product"].get(key_string, None) 
+            index = 0 if current_value == 1 else 1
+            st.session_state.multi_level_dict["product"][key_string] = st.radio( key_name, options=key_options, index=index )
+            selected_option = st.session_state.multi_level_dict["product"][key_string]
+            st.session_state.multi_level_dict["product"][key_string] = 1 if selected_option == "是" else 0
         else:
             st.session_state.multi_level_dict["product"][key_string] = st.text_input(key_name,
                                                                                      **get_default(
@@ -457,9 +455,11 @@ if st.session_state.current_tab == 2:
         key_options = item.options
 
         if key_type == "select":
-            st.session_state.multi_level_dict["line"][key_string] = st.radio(key_name,
-                                                                                options=key_options,
-                                                                                index=0 if get_default(st.session_state.multi_level_dict["line"].get(key_string, None), key_string) == "是" else 1 ) 
+            current_value = st.session_state.multi_level_dict["line"].get(key_string, None) 
+            index = 0 if current_value == 1 else 1
+            st.session_state.multi_level_dict["line"][key_string] = st.radio( key_name, options=key_options, index=index )
+            selected_option = st.session_state.multi_level_dict["line"][key_string]
+            st.session_state.multi_level_dict["line"][key_string] = 1 if selected_option == "是" else 0
         else:
             st.session_state.multi_level_dict["line"][key_string] = st.text_input(key_name,
                                                                                  **get_default(
