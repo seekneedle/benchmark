@@ -1224,6 +1224,7 @@ with col3:
                     st.session_state.refresh_event = False
                     st.session_state.current_tab = 0
                     st.session_state.uploaded_file = None
+                    st.session_state.rewrite = ""
                     st.rerun()
 
                 except Exception as e:
