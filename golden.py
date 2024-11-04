@@ -1,4 +1,7 @@
 import streamlit as st
+import os
+from pathlib import Path
+import json
 
 # 设置页面配置
 st.set_page_config(
@@ -18,15 +21,27 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+# 创建上传文件的目录
+upload_dir = Path(os.path.join('res', 'pdf'))
+upload_dir.mkdir(parents=True, exist_ok=True)
+
 if "refresh_event" not in st.session_state:
     st.session_state.refresh_event = False
 
 if "current_tab" not in st.session_state:
     st.session_state.current_tab = 0
 
-# 初始化 session state 中的多级字典
-if 'multi_level_dict' not in st.session_state:
-    st.session_state.multi_level_dict = {
+# 初始化 session_state 变量
+if 'uploaded_file' not in st.session_state:
+    st.session_state.uploaded_file = None
+
+if 'rewrite' not in st.session_state:
+    st.session_state.rewrite = ""
+
+if 'confirm' not in st.session_state:
+    st.session_state.confirm = False
+
+product_json = {
         "product": {
             "childAgeBegin": 0,
             "childAgeEnd": 0,
@@ -208,6 +223,10 @@ if 'multi_level_dict' not in st.session_state:
         ]
     }
 
+# 初始化 session state 中的多级字典
+if 'multi_level_dict' not in st.session_state:
+    st.session_state.multi_level_dict = product_json
+
 
 def refresh():
     st.session_state.refresh_event = True
@@ -236,8 +255,31 @@ class FormItemModel:
         return f"Model(key={self.key}, name={self.name}, type={self.type}), options={self.options}"
 
 
-# 产品详情
 if st.session_state.current_tab == 0:
+    # 创建一个文件上传器
+    uploaded_file = st.file_uploader("上传旅行产品 PDF 文件", type=["pdf"], accept_multiple_files=False)
+
+    if uploaded_file is not None:
+        # 获取文件名
+        file_name = uploaded_file.name
+
+        # 构建保存路径
+        save_path = upload_dir / file_name
+
+        if os.path.exists(save_path) and file_name != st.session_state.rewrite:
+            st.warning(f"旅行产品 {file_name} 已存在，是否覆盖？")
+            if st.button("覆盖"):
+                st.session_state.uploaded_file = uploaded_file
+                st.session_state.rewrite = file_name
+                st.rerun()
+        else:
+            st.session_state.uploaded_file = uploaded_file
+
+    if st.session_state.uploaded_file is not None:
+        st.write(f"已上传旅行产品：{st.session_state.uploaded_file.name}")
+
+# 产品详情
+if st.session_state.current_tab == 1:
     st.subheader("产品详情")
     keys = [FormItemModel(key="childAgeBegin", name="儿童年龄标准区间开始值"),
             FormItemModel(key="childAgeEnd", name="儿童年龄标准区间结束值"),
@@ -384,7 +426,7 @@ if st.session_state.current_tab == 0:
         st.rerun()
 
 # 线路信息
-if st.session_state.current_tab == 1:
+if st.session_state.current_tab == 2:
     st.subheader("线路信息")
     keys = [FormItemModel(key="backTransportName", name="返程交通名称"),
             FormItemModel(key="goTransportName", name="去程交通名称"),
@@ -581,7 +623,7 @@ if st.session_state.current_tab == 1:
         st.rerun()
 
 # 成团信息
-if st.session_state.current_tab == 2:
+if st.session_state.current_tab == 3:
     st.subheader("成团信息")
     st.session_state.multi_level_dict["cal"]["channelPut"]["adultSalePrice"] = st.text_input("成人销售价格",
                                                                                              **get_default(
@@ -605,7 +647,7 @@ if st.session_state.current_tab == 2:
                                                                                "departDate"))
 
 # 消费信息
-if st.session_state.current_tab == 3:
+if st.session_state.current_tab == 4:
     keys = [FormItemModel(key="bookRule", name="订购规定"),
             FormItemModel(key="otherRule", name="其他规定"),
             FormItemModel(key="tipsContent", name="温馨提示"),
@@ -821,7 +863,7 @@ if st.session_state.current_tab == 3:
             st.rerun()
 
 # 行程信息
-if st.session_state.current_tab == 4:
+if st.session_state.current_tab == 5:
     keys = [FormItemModel(key="title", name="行程标题"),
             FormItemModel(key="content", name="行程介绍")]
 
@@ -1083,14 +1125,55 @@ with col1:
             st.rerun()
 
 with col3:
-    if st.session_state.current_tab < 4:
+    if st.session_state.current_tab < 5:
         if st.button("下一页"):
-            st.session_state.current_tab = st.session_state.current_tab + 1
-            st.rerun()
+            if st.session_state.current_tab == 0 and st.session_state.uploaded_file is None:
+                st.error("请上传一个旅行产品 PDF 文件！")
+            else:
+                st.session_state.current_tab = st.session_state.current_tab + 1
+                st.rerun()
     else:
-        if st.button("完成"):
-            # TODO 上传逻辑
-            st.rerun()
+        if not st.session_state.confirm:
+            if st.button("完成"):
+                st.session_state.confirm = True
+                st.rerun()
+        else:
+            st.warning("确定要上传么？")
+            if st.button("确定"):
+                st.session_state.confirm = False
+                try:
+                    uploaded_file = st.session_state.uploaded_file
+                    # 获取文件名
+                    file_name = uploaded_file.name
+
+                    # 构建保存路径
+                    save_path = upload_dir / file_name
+
+                    json_file_name = file_name.split('.pdf')[0] + '.json'
+                    json_path = os.path.join('res', 'golden', json_file_name)
+
+                    # 将文件保存到指定目录
+                    with open(save_path, "wb") as f:
+                        f.write(uploaded_file.getbuffer())
+                    st.success(f'文件已成功覆盖并保存到 {save_path}')
+                    st.session_state.show_result = True
+
+                    # 将文件保存到指定目录
+                    with open(save_path, "wb") as f:
+                        f.write(uploaded_file.getbuffer())
+
+                    with open(json_path, 'w', encoding='utf-8') as json_file:
+                        json.dump(st.session_state.multi_level_dict, json_file, ensure_ascii=False, indent=4)
+
+                    st.session_state.multi_level_dict = product_json
+                    st.session_state.refresh_event = False
+                    st.session_state.current_tab = 0
+                    st.session_state.uploaded_file = None
+                    st.rerun()
+
+                except Exception as e:
+                    st.error(f"上传异常，请检查：{e}")
+
 
 # 左侧显示 JSON 数据
 st.sidebar.json(st.session_state.multi_level_dict)
