@@ -1,0 +1,185 @@
+{
+    "product": {
+        "childAgeBegin": "2",
+        "childAgeEnd": "12",
+        "childHasBed": 0,
+        "childHasTraffic": 1,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "测试",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "北京",
+        "dests": [
+            {
+                "countryName": "",
+                "destCityName": "昆明",
+                "destProvinceName": "云南"
+            }
+        ],
+        "insurance": [
+            {
+                "content": "太平洋意外险",
+                "name": "短途旅游意外保障",
+                "typeName": "意外"
+            }
+        ],
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "早鸟优惠"
+            }
+        ],
+        "productSubtitle": "这里是副标题",
+        "productTitle": "法意瑞10日",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "众信制造"
+            }
+        ],
+        "themes": [
+            {
+                "name": "亲子"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "国航",
+                "arriveAirportName": "罗马",
+                "arriveTime": "1800",
+                "days": "0",
+                "flightNo": "CA188",
+                "flightSort": "这个没懂",
+                "startAirportName": "北京",
+                "startTime": "1900"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "国航",
+                "arriveAirportName": "巴黎",
+                "arriveTime": "1800",
+                "days": "0",
+                "flightNo": "CA189",
+                "flightSort": "这个没懂",
+                "startAirportName": "北京",
+                "startTime": "1900"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "五星级",
+        "lineFeature": "好吃好喝",
+        "lineSimpleTitle": "读万卷书行万里路",
+        "lineSortTitle": "罗马进巴黎出",
+        "lineTitle": "线路名称",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "1",
+                "countryName": "1",
+                "provinceName": "1"
+            }
+        ],
+        "tripDays": "10",
+        "tripNight": "8",
+        "visaBasic": {
+            "postAddress": "北京朝阳公园",
+            "postContact": "张三",
+            "postPhone": "18812345678",
+            "visas": [
+                {
+                    "content": "2",
+                    "country": "2",
+                    "district": "2",
+                    "freeVisa": "0",
+                    "signPlace": "2"
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "18000",
+                "childSalePrice": "16000",
+                "sellRemark": "0"
+            }
+        ],
+        "departDate": [
+            "1-10"
+        ]
+    },
+    "cost": {
+        "bookRule": "3",
+        "costExclude": "3",
+        "costInclude": "3",
+        "lineReturns": [
+            {
+                "begin": "3",
+                "cost": "3",
+                "end": "3"
+            }
+        ],
+        "otherRule": "3",
+        "returnContent": "3",
+        "selfCostContent": "3",
+        "selfCosts": [
+            {
+                "address": "3",
+                "fee": "3",
+                "name": "3",
+                "remark": "3",
+                "stay": "3"
+            }
+        ],
+        "shopContent": "4",
+        "shops": [
+            {
+                "address": "4",
+                "remark": "4",
+                "shopName": "4",
+                "shopProduct": "4",
+                "stay": "4"
+            }
+        ],
+        "tipsContent": "3"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "",
+            "tripDay": 1
+        }
+    ]
+}

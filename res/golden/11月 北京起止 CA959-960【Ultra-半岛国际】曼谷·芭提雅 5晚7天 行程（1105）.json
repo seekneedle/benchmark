@@ -1,0 +1,185 @@
+{
+    "product": {
+        "childAgeBegin": "2-12",
+        "childAgeEnd": "2-12",
+        "childHasBed": 1,
+        "childHasTraffic": 1,
+        "childHeightBegin": "130cm",
+        "childHeightEnd": "130cm",
+        "childRule": "",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "北京",
+        "dests": [
+            {
+                "countryName": "泰国",
+                "destCityName": "曼谷",
+                "destProvinceName": "曼谷"
+            }
+        ],
+        "insurance": [
+            {
+                "content": "详见保单",
+                "name": "PICC",
+                "typeName": "境外旅游险"
+            }
+        ],
+        "insuranceIncluded": 0,
+        "markets": [
+            {
+                "name": ""
+            }
+        ],
+        "productSubtitle": "半岛国际",
+        "productTitle": "半岛国际",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": ""
+            }
+        ],
+        "themes": [
+            {
+                "name": ""
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "",
+                "days": "0",
+                "flightNo": "",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": ""
+            }
+        ],
+        "backTransportName": "",
+        "goAirports": [
+            {
+                "airlineCode": "",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "",
+                "days": "0",
+                "flightNo": "",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": ""
+            }
+        ],
+        "goTransportName": "",
+        "hotelStarName": "",
+        "lineFeature": "",
+        "lineSimpleTitle": "",
+        "lineSortTitle": "",
+        "lineTitle": "",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "",
+                "countryName": "",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "",
+        "tripNight": "",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "5999",
+                "childSalePrice": "5999",
+                "sellRemark": ""
+            }
+        ],
+        "departDate": [
+            "2024-11-30"
+        ]
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "",
+        "costInclude": "",
+        "lineReturns": [
+            {
+                "begin": "",
+                "cost": "",
+                "end": ""
+            }
+        ],
+        "otherRule": "",
+        "returnContent": "",
+        "selfCostContent": "",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "",
+                "name": "",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "",
+        "shops": [
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "",
+                "shopProduct": "",
+                "stay": ""
+            }
+        ],
+        "tipsContent": ""
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "",
+            "tripDay": 1
+        }
+    ]
+}

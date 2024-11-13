@@ -1,0 +1,201 @@
+{
+    "product": {
+        "childAgeBegin": "1",
+        "childAgeEnd": "6",
+        "childHasBed": 0,
+        "childHasTraffic": 1,
+        "childHeightBegin": "1",
+        "childHeightEnd": "100",
+        "childRule": "不占床95折，不含早",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "北京",
+        "dests": [
+            {
+                "countryName": "法国",
+                "destCityName": "巴黎",
+                "destProvinceName": "巴黎"
+            }
+        ],
+        "insurance": [
+            {
+                "content": "中国人保",
+                "name": "救援C",
+                "typeName": "境外旅游险"
+            }
+        ],
+        "insuranceIncluded": 0,
+        "markets": [
+            {
+                "name": "法意瑞"
+            },
+            {
+                "name": "王牌"
+            }
+        ],
+        "productSubtitle": "[U2][尊悦][3国][一价全含]【西欧常规】王·牌 CA国航 一价全含 法意瑞 3国12天 意大利六大世界遗产+少女峰+金色山口列车一等座 10晚12天（FCO-CDG）意签",
+        "productTitle": "王牌 法意瑞",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "王牌"
+            },
+            {
+                "name": "西欧三国"
+            }
+        ],
+        "themes": [
+            {
+                "name": "王牌"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "北京首都机场",
+                "arriveTime": "1225+1",
+                "days": "8",
+                "flightNo": "CA934 ",
+                "flightSort": "巴黎-北京",
+                "startAirportName": "巴黎戴高乐",
+                "startTime": " 2020"
+            }
+        ],
+        "backTransportName": "巴黎-北京",
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "罗马机场",
+                "arriveTime": "1750",
+                "days": "8",
+                "flightNo": " CA939",
+                "flightSort": "北京-罗马",
+                "startAirportName": "北京首都机场",
+                "startTime": "1330"
+            }
+        ],
+        "goTransportName": "北京-罗马",
+        "hotelStarName": "四星",
+        "lineFeature": "意大利六大世界遗产+少女峰+金色山口列车一等座 ",
+        "lineSimpleTitle": "王牌法意瑞",
+        "lineSortTitle": "法意瑞",
+        "lineTitle": "王牌法意瑞/罗巴",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "罗马",
+                "countryName": "意大利",
+                "provinceName": "罗马"
+            },
+            {
+                "countryName": "瑞士",
+                "provinceName": "因特拉肯",
+                "cityName": "因特拉肯"
+            },
+            {
+                "countryName": "法国",
+                "provinceName": "巴黎",
+                "cityName": "巴黎"
+            }
+        ],
+        "tripDays": "12",
+        "tripNight": "10",
+        "visaBasic": {
+            "postAddress": "朝阳公园西2门",
+            "postContact": "叶伟群",
+            "postPhone": "13301280789",
+            "visas": [
+                {
+                    "content": "意大利",
+                    "country": "意大利",
+                    "district": "北京",
+                    "freeVisa": "需按指纹",
+                    "signPlace": "北京"
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "29800",
+                "childSalePrice": "29800",
+                "sellRemark": "29800"
+            }
+        ],
+        "departDate": [
+            "2024-12-29"
+        ]
+    },
+    "cost": {
+        "bookRule": "提前45天取消无损",
+        "costExclude": "单房差9000元",
+        "costInclude": "机票，酒店，景点门票",
+        "lineReturns": [
+            {
+                "begin": "1月20",
+                "cost": "70",
+                "end": "2月20"
+            }
+        ],
+        "otherRule": "",
+        "returnContent": "45天内取消有损",
+        "selfCostContent": "无",
+        "selfCosts": [
+            {
+                "address": "无",
+                "fee": "无",
+                "name": "无",
+                "remark": "无",
+                "stay": "无"
+            }
+        ],
+        "shopContent": "无",
+        "shops": [
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "无",
+                "shopProduct": "",
+                "stay": ""
+            }
+        ],
+        "tipsContent": "每人每天带150欧元现金"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "其他:北京国际机场集合,召开出团前旅游说明会",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "巴黎美菊",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "北京",
+                    "departureTime": "CA933",
+                    "destination": "",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京巴黎",
+            "tripDay": 1
+        }
+    ]
+}
