@@ -1,0 +1,913 @@
+{
+    "product": {
+        "childAgeBegin": "0",
+        "childAgeEnd": "0",
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "北京",
+        "dests": [
+            {
+                "countryName": "美国",
+                "destCityName": "曼哈顿",
+                "destProvinceName": "纽约"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "新泽西",
+                "destProvinceName": "纽约"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "费城",
+                "destProvinceName": "纽约"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "华盛顿",
+                "destProvinceName": "纽约"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "法布罗",
+                "destProvinceName": "纽约"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "拉斯维加斯",
+                "destProvinceName": "纽约"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "洛杉矶",
+                "destProvinceName": "纽约"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "旧金山",
+                "destProvinceName": "纽约"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "",
+                "destProvinceName": "夏威夷"
+            }
+        ],
+        "insurance": [
+            {
+                "content": "",
+                "name": "旅行意外伤害险",
+                "typeName": ""
+            },
+            {
+                "content": "",
+                "name": "旅行境外救援保险",
+                "typeName": ""
+            }
+        ],
+        "insuranceIncluded": 0,
+        "markets": [
+            {
+                "name": "三大体验-融入地道北美生活"
+            },
+            {
+                "name": "四大美景-尽览北美风情"
+            },
+            {
+                "name": "五大必游-不虚此行"
+            },
+            {
+                "name": "六大特别安排-深度体验美国之美"
+            }
+        ],
+        "productSubtitle": "纽约深度+网红打卡+帝国大厦登顶+圣地亚哥+羚羊彩穴+马蹄湾+南峡+品牌酒店+无购物无自费",
+        "productTitle": "一价全含.美式心体验 美国东西海岸名城名校+旧金山+夏威夷16日",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "纽约深度+网红打卡+帝国大厦登顶+圣地亚哥+羚羊彩穴+马蹄湾+南峡+品牌酒店+无购物无自费"
+            }
+        ],
+        "themes": [
+            {
+                "name": "一价全含.美式心体验"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "",
+                "airlineName": "",
+                "arriveAirportName": "LCN",
+                "arriveTime": "17:45+1",
+                "days": "0",
+                "flightNo": "KE054",
+                "flightSort": "",
+                "startAirportName": "HNL",
+                "startTime": "12:35"
+            },
+            {
+                "airlineCode": "",
+                "airlineName": "",
+                "arriveAirportName": "PEK",
+                "arriveTime": "20:05",
+                "days": "",
+                "flightNo": "KE853",
+                "flightSort": "",
+                "startAirportName": "ICN",
+                "startTime": "18:40"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "",
+                "airlineName": "",
+                "arriveAirportName": "ICN",
+                "arriveTime": "16:30",
+                "days": "0",
+                "flightNo": "KE856",
+                "flightSort": "",
+                "startAirportName": "PEK",
+                "startTime": "13:30"
+            },
+            {
+                "airlineCode": "",
+                "airlineName": "",
+                "arriveAirportName": "JFK",
+                "arriveTime": "21:00",
+                "days": "",
+                "flightNo": "KE085",
+                "flightSort": "",
+                "startAirportName": "ICN",
+                "startTime": "19:30"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "品牌连锁酒店",
+        "lineFeature": "三 大体验，四大美景，五大必游，期待与你一起，用‘心’去体验美国之美。",
+        "lineSimpleTitle": "纽约深度+网红打卡+帝国大厦登顶+圣地亚哥+羚羊彩穴+马蹄湾+南峡+品牌酒店+无购物无自费",
+        "lineSortTitle": "",
+        "lineTitle": "",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "",
+                "countryName": "韩国",
+                "provinceName": "首尔"
+            }
+        ],
+        "tripDays": "16",
+        "tripNight": "",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "1. 根据美国大使馆新规定，组团社在预约签证面谈时必须向大使馆提供签证费收据号码，由大使馆预约中心决 定最终面试的日期和时间，因此随团办理签证的客人，旅游者需预约前向组团社支付签证费用于签证预约。 签证费用作为行前实际损失不予退还； 2. 随团办理签证的旅游者，请您务必在签证截止日前递交签证材料，签证材料送进使馆后，如遇拒签或行政复 议，未出票的旅游者必须承担签证费损失； 3. 如持非中华人民共和国护照的客人在国内参团往返，请务必自行确认是否免签及跟团出境后团队返回时能再 次入中国境内；如因客人原因不能出入境的，损失由客人自理; 4. 能否顺利获得签证、是否准予出、入境，为有关机关的行政权利。如因游客自身原因或因提供材料存在问题 不能及时办理签证而影响行程的，以及被有关机关拒发签证或不准出入境的，相关责任和费用由游客自行承 担；",
+                    "country": "美国",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            }
+        ],
+        "departDate": [
+            ""
+        ]
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "1. 美国签证费； 2. 护照费、申请签证中准备相关材料所需的制作、手续费，如未成年人所需的公证书、认证费； 3. 美国 EVUS（签证更新电子系统）费用 ; 4. 行李在航班托运期间所造成损坏的经济损失和责任； 5. 一切因个人原因所产生的费用，包括滞留，违法，通讯，机场和酒店行李搬运服务，以及自由活动期间的餐 食和交通费； 6. 由恶劣天气引起或间接性导致交通（航班，车辆，船只)的延误或故障，及由此发生的行程变更产生的经济损 失和责任；",
+        "costInclude": "1. 国际往返机票及美洲境内段机票（经济舱、含机场税）； 2. 中文领队兼导游服务； 3. 行程内所示境外旅游巴士（每人一正座）； 4. 行程内所示景点首道门票； 5. 行程内所示的早，午，晚餐；特色餐；早餐为酒店内、外或打包早餐（简餐或快餐）； 6. 行程内所标明的酒店或同级酒店，双人标准间酒店住宿； 7. 旅游意外险；",
+        "lineReturns": [
+            {
+                "begin": "",
+                "cost": "",
+                "end": ""
+            }
+        ],
+        "otherRule": "",
+        "returnContent": "由于团队行程中所有住宿、用车、景点门票等均为旅行社打包整体销售，因此若游客因自身原因未能游览参 观的则视为自动放弃，旅行社将无法退费用，请游客谅解；",
+        "selfCostContent": "",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "",
+                "name": "",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "闻名全球的纽约第五大道过去一年的租金上涨 38%，以年租 金 每平方米 7.4 万元人民币名列第一，成为全球最贵的购物街。尽管如此，还是有很多名牌企业设 法把 自己的分店开到这条纽约市最繁华的街道，向股东和潜在投资者展示着自己的实力。",
+        "shops": [
+            {
+                "address": "棕榈泉奥特莱斯",
+                "shopProduct": "有180家左右的商店，各种名牌应有尽有，其中包括阿玛尼休闲系列AXArmani，巴布瑞Burberry，BottegaVeneta（BV），潮流服饰CK，男女包Coach，精品鞋类ColeHaan，潮流品牌Diesel，杰尼亚Zegna，芬迪Fendi，乔治阿玛尼GiorgioArmani，古琦Gucci，潮流品牌Guess，法国鳄鱼Lacoste，九西NineWest，普拉达Prada，奢侈品牌SalvatoreFerragamo，奢侈品牌St.John，精品鞋类TOD’S，范思哲Versace等",
+                "shopName": "棕榈泉奥特莱斯DesertHillsPremiumOutlets购物活动",
+                "remark": "",
+                "stay": "约4小时"
+            }
+        ],
+        "tipsContent": ""
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "今日首都机场集合乘机经首尔转机飞往纽约，抵达后导游接机，然后入住酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "品牌连锁酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "16：30",
+                    "departure": "北京",
+                    "departureTime": "13：30",
+                    "destination": "首尔",
+                    "trafficType": "飞机"
+                },
+                {
+                    "departure": "首尔",
+                    "departureTime": "19：30",
+                    "destination": "纽约",
+                    "arrivalTime": "21：00",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京-首尔-纽约",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往纽约最繁华的曼哈顿区游览： 【自由女神像 环岛游船】（不上岛，约 1 个小时），女 神像高约 46 米是整个美国的象征，被列入世界 文化遗产。她位于哈德逊河口附近的自由岛，船上乘 客可以近距离看见屹立的女神高举自由火炬雕像。【漫步华尔街 & 纽约证券交易所 & 铜牛】（约 20 分钟），返回码头后步行游览华尔街，这里有纽约 证券交易所和金融铜牛，铜牛叫嚣着权力与金钱已 有近三十年，直至 2017 年无畏女孩雕塑的出现，直 视铜牛面无惧色，成为了纽约最新、最热门的 打卡地点。走在这片区域，别忘了纽约金色世界背后的复 杂、矛盾与挣扎。 【联合国总部大楼】（外 观，约 15 分钟）是世界上的一块“国际领土”，飘满各国国旗的广场上，打 结手枪雕塑寓意着世界 人民的和平心愿。 【大都会艺术博物馆】（入内，约 2 小时）是美国最大的艺术博物馆，也是世界著名博物馆。占地 13 万平方米，与英国伦敦的大英博物馆、法国巴黎的卢浮宫、俄罗斯圣彼得堡的列宁格勒美术馆齐名的 世 界四大美术馆之一，共收藏有 300 万件展品。现在是世界上首屈一指的大型博物馆。 【哥伦比亚大学】（入内，约 40 分钟）哥伦比亚大学是最早接受中国留学生的美国大学之一，闻一多， 徐志摩，李政道等著名学者在这里留下了青春的脚步。哥伦比亚大学的历届毕业生和教职员中累计共 有 96 名诺贝尔奖得奖者。 【第五大道】自由活动（约 1.5 小时）闻名全球的纽约第五大道过去一年的租金上涨 38%，以年租 金 每平方米 7.4 万元人民币名列第一，成为全球最贵的购物街。尽管如此，还是有很多名牌企业设 法把 自己的分店开到这条纽约市最繁华的街道，向股东和潜在投资者展示着自己的实力。 【登顶帝国大厦】（约 1 小时），如果您没有登上帝国大厦观景台等于没有看到真正的纽约。帝国大厦 观景台位于曼哈顿中心第五大道,每天早晨 8 点到凌晨 2 点全年开放.，86 层观景台距离地面 1,050 英 尺(320 米) ，室内外观景台使您无论在白天夜晚,阳光风雨都能 360 度欣赏纽约的旖旎多姿。近期斥 资 5.5 亿美金完成了整座建筑的能源结构升级, 使其成为现代建筑在节能和可持续发展的典范。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "品牌连锁酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "女神像高约 46 米是整个美国的象征，被列入世界 文化遗产。她位于哈德逊河口附近的自由岛，船上乘 客可以近距离看见屹立的女神高举自由火炬雕像。",
+                    "name": "自由女神像 环岛游船"
+                },
+                {
+                    "name": "漫步华尔街 & 纽约证券交易所 & 铜牛",
+                    "description": "返回码头后步行游览华尔街，这里有纽约 证券交易所和金融铜牛，铜牛叫嚣着权力与金钱已 有近三十年，直至 2017 年无畏女孩雕塑的出现，直 视铜牛面无惧色，成为了纽约最新、最热门的 打卡地点。走在这片区域，别忘了纽约金色世界背后的复 杂、矛盾与挣扎。",
+                    "consumingTime": "20分钟"
+                },
+                {
+                    "name": "联合国总部大楼",
+                    "description": "是世界上的一块“国际领土”，飘满各国国旗的广场上，打 结手枪雕塑寓意着世界 人民的和平心愿。 【大都会艺术博物馆】（",
+                    "consumingTime": "约 15 分钟"
+                },
+                {
+                    "name": "大都会艺术博物馆",
+                    "description": "是美国最大的艺术博物馆，也是世界著名博物馆。占地 13 万平方米，与英国伦敦的大英博物馆、法国巴黎的卢浮宫、俄罗斯圣彼得堡的列宁格勒美术馆齐名的 世 界四大美术馆之一，共收藏有 300 万件展品。现在是世界上首屈一指的大型博物馆。",
+                    "consumingTime": "约 2 小时"
+                },
+                {
+                    "name": "哥伦比亚大学",
+                    "description": "哥伦比亚大学是最早接受中国留学生的美国大学之一，闻一多， 徐志摩，李政道等著名学者在这里留下了青春的脚步。哥伦比亚大学的历届毕业生和教职员中累计共 有 96 名诺贝尔奖得奖者。",
+                    "consumingTime": "约 40 分钟"
+                },
+                {
+                    "name": "第五大道",
+                    "description": "闻名全球的纽约第五大道过去一年的租金上涨 38%，以年租 金 每平方米 7.4 万元人民币名列第一，成为全球最贵的购物街。尽管如此，还是有很多名牌企业设 法把 自己的分店开到这条纽约市最繁华的街道，向股东和潜在投资者展示着自己的实力。",
+                    "consumingTime": "1.5 小时"
+                },
+                {
+                    "name": "登顶帝国大厦",
+                    "description": "如果您没有登上帝国大厦观景台等于没有看到真正的纽约。帝国大厦 观景台位于曼哈顿中心第五大道,每天早晨 8 点到凌晨 2 点全年开放.，86 层观景台距离地面 1,050 英 尺(320 米) ，室内外观景台使您无论在白天夜晚,阳光风雨都能 360 度欣赏纽约的旖旎多姿。近期斥 资 5.5 亿美金完成了整座建筑的能源结构升级, 使其成为现代建筑在节能和可持续发展的典范。",
+                    "consumingTime": "约 1 小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "新泽西",
+                    "departureTime": "",
+                    "destination": "曼哈顿",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "纽约（新泽西）纽约（曼哈顿）纽约（新泽西）",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "品牌连锁酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 20 分钟",
+                    "description": "）这里是世界知名的车站之一，也是众多电影和美剧热衷的拍摄场景 之一，《黑衣人》《绝地战警》《教父》《绯闻女孩》《复仇者联盟》等都曾在这儿取景。气势恢宏的大理 石装饰、拱形玻璃、四面钟、上帝视角的星空穹顶，让您目不暇接。",
+                    "name": "纽约中央火车站"
+                },
+                {
+                    "name": "中央公园 Central Park",
+                    "description": "如果没有中央公园，纽约可能早已变成一部机器。 从 59 街 至 110 街，长方形的中央公园是纽约高空最容易辨别的地标，这里松鼠遍地，晨鸟鸣唱，小城堡点缀 在镜面的池边，城市的喧嚣瞬间被抛开在千里之外，唯有来往跑步运动的人默默地提醒着城市的心跳 仍在继续。",
+                    "consumingTime": "约 20 分钟"
+                },
+                {
+                    "name": "哈德逊园区",
+                    "description": "位于 Hudson Yards 景观通廊、广场中心和视觉焦点处的巨大构 筑物名为 Vessel（容器），它是一个蜂窝状的楼梯，网友们亲切的称它为“大松果”。从不同角度欣 赏建筑都能发现独特的美感，是您朋友圈打卡的理想地点。",
+                    "consumingTime": "约 10 分钟"
+                },
+                {
+                    "name": "高线公园",
+                    "description": "高线公园是一个位于纽约曼哈顿中城西侧的线型空中花园，全长 1.45 英 里，是在货运铁路线的基础上修建而成。狭长的人行步道穿梭在高楼之间，两旁布满了花草，漫步在 步道上、躺在草坪上聊天看书或晒太阳都是在纽约这座繁华都市中的片刻享受。",
+                    "consumingTime": "约 20 分钟"
+                },
+                {
+                    "name": "悬浮公园",
+                    "description": "于 2021 年正式向公众开放的悬浮公园，一经开放就成为纽约网红打卡的 必去之处，这里的设计小众而清新。支撑悬浮在哈德逊河上的公园是由 132 个不同高度的混凝土“郁 金香”支撑起来的，形成了 2.4 英亩的丘陵和蜿蜒的小径。岛上的每个角落都代表着不同的微小气候， 这取决于地形、日照和风环境。",
+                    "consumingTime": "约 20 分钟"
+                },
+                {
+                    "name": "布鲁克林 DUMBO 艺术区",
+                    "description": "位于纽约东河岸，如今的 DUMBO 是一个充满艺术活 力的区。而沿着河岸的布鲁克林公园，更是拥有观看纽约下城天际线及布鲁克林桥和曼哈顿大桥的观 景视野，那些刻意保存的石板路、红砖墙，和网紅旋转木马让这里充满韵味。 晚上入住纽约新泽西区酒店休息。",
+                    "consumingTime": "约 40 分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "纽约网红地打卡",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "品牌连锁酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 30 分钟",
+                    "description": "宾夕法尼亚大学，是一所私立研究型大学，常春藤盟校之一，大学创建于 1740 年， 是美国第五古老的高 等教育机构，也是美国第一所从事科学技术和人文教育的现代高等学校。该校的 创建者是美利坚合众国著 名开国元勋之一的本杰明·富兰克林。",
+                    "name": "宾夕法尼亚大学（University of Pennsylvania）"
+                },
+                {
+                    "name": "【独立宫】（外观）、早期国 会（外观）和独立广场",
+                    "description": "独立宫是美国著名历史纪念建筑，在费城国家独立历史公园内， 1732～1756年建造，是一座两层旧式红砖楼房，乳白色的门窗，乳白色的尖塔，正屋和塔之间镶嵌 着一座具有纪念意义的自由钟。",
+                    "consumingTime": "约15分钟"
+                },
+                {
+                    "name": "自由钟",
+                    "description": "自由钟是美国人的骄 傲，是为自由而奋斗不止的一种精神象征。它的钟体上刻有源于圣经《旧约》中一句话“向各地的所 有居民宣布自由”，自豪的表示着美国的伟大独立，意义深远。这口钟由宾夕法尼亚州议会用100英镑 的价格向伦敦White Chapel工厂订制，1752年完工后被安放在了费城。",
+                    "consumingTime": "约30分钟"
+                },
+                {
+                    "name": "华盛顿纪念碑",
+                    "description": "华盛顿纪念碑是为纪念美国首任总统乔治·华盛顿而建造的，全高169 米。华盛顿纪念碑约50米以上部分的白色大理石石色略深于下方，是两段相隔22年的建造过程留下的 痕迹。它位于华盛顿市中心，在国会大厦、林肯纪念堂的轴线上，是一座大理石方尖碑，高169米， 其内墙镶嵌着188块由私人、团体及全球各地捐赠的纪念石。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "林肯纪念堂",
+                    "description": "如遇特殊状 况改为外观），林肯纪念堂是一座仿古希腊巴特农神庙式的古典建筑，东西长118英尺，南北宽188英 尺，高80英尺，36根古朴的白色大理石圆柱支撑着纪念堂。",
+                    "consumingTime": "约15分钟"
+                },
+                {
+                    "name": "美国战争（韩战、越战）纪念建筑",
+                    "description": "越战纪念碑：又称越南战争纪念碑、越战将士纪念碑、越战阵亡将士纪念碑、越战墙等，位 于美国首都华盛顿中心区，坐落在离林肯纪念堂几百米的宪法公园的小树林里。",
+                    "consumingTime": "约 30分钟"
+                },
+                {
+                    "name": "国会大厦】（入内参 观，如遇特殊活动或假期国会关闭，则改为外观）",
+                    "description": "美国国会的办公大楼，建在一处高28米的国会山上。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "白宫",
+                    "description": "白宫是美国总统府，坐落在华盛顿市中心的宾夕法尼亚大街，与高耸的 华盛顿纪念碑相望，因其外墙为白色砂岩石，故而得名。",
+                    "consumingTime": "约15分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "纽约",
+                    "departureTime": "",
+                    "destination": "费城",
+                    "trafficType": "汽车"
+                },
+                {
+                    "departure": "费城",
+                    "departureTime": "",
+                    "destination": "华盛顿",
+                    "arrivalTime": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "纽约费城华盛顿",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "品牌连锁酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "瀑布位于加 拿大和美国交界的尼亚加拉河中段地区，有着世界七大奇景之一的美誉，同时也是世界三大瀑布之一。 它以宏伟的气势，丰沛而浩瀚的水汽，震撼了所有的游人。从伊利湖滚滚而来的尼亚加拉河水流经此 地，突然垂直跌落 51 米，巨大的水流以银河倾倒之势冲下断崖，声及数里之外，场面震人心魄，形成 了气势磅礴的大瀑布。",
+                    "name": "尼亚加拉大瀑布"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "华盛顿",
+                    "departureTime": "",
+                    "destination": "布法罗",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "华盛顿布法罗",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 0,
+            "content": "今日乘机飞往不夜赌城—拉斯维加斯，抵达后接机然后晚上安排拉斯维加斯夜游（约 2 小时）：拉斯维 加斯大街，以两侧分布着诸多巨型的高级酒店而闻名于世。您还可观赏耗资 116 亿世界最大的球星沉 浸式体验中心-拉斯新地标拉斯之眼（MSG Sphere）带来的视觉盛宴（外观）。 然后入住酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "拉斯大道酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "布法罗",
+                    "departureTime": "",
+                    "destination": "拉斯维加斯",
+                    "trafficType": "汽车  飞机"
+                }
+            ],
+            "title": "布法罗中转城市拉斯维加斯",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "小镇特色酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 1 小时",
+                    "description": "羚羊峡谷是地球上最著名的狭缝峡谷。由 于狭缝太小，光线常被岩壁两侧的凸岩阻断，游客在峡谷底永远看不到狭缝全貌，只能看到一个又一 个奇形怪状的光洞。由于没有任何人造灯光装置，游客的想象力没有约束，而且在不同季节、不同时 间可以看到不同的影像。 造物主赋予羚羊峡谷不可思议的魅力，羚羊峡谷给了来此的游人以出乎意料 的震撼、惊喜和想象力。然后继续驱车前往观赏",
+                    "name": "羚羊彩穴"
+                },
+                {
+                    "name": "马蹄湾",
+                    "description": "此为科罗拉多河在此 270 度大回转切割而成。马蹄湾是惊魂夺魄的，却又是让人屏息静气的。站在悬崖边俯瞰 300 米下的 科罗拉多河，不禁感叹造物主神奇的魅力！晚餐后入住酒店休息。",
+                    "consumingTime": "约 30 分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "拉斯维加斯",
+                    "departureTime": "",
+                    "destination": "羚羊彩穴",
+                    "trafficType": "汽车"
+                },
+                {
+                    "departure": "羚羊彩穴",
+                    "departureTime": "",
+                    "destination": "马蹄湾",
+                    "arrivalTime": "",
+                    "trafficType": ""
+                },
+                {
+                    "departure": "马蹄湾",
+                    "departureTime": "",
+                    "destination": "西部小镇",
+                    "arrivalTime": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "拉斯维加斯羚羊彩穴马蹄湾西部小镇",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "小镇特色酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 2 小时",
+                    "description": "其自然风光不容错过、您可将科罗 拉多大峡谷的壮阔景致尽收眼底。据说，这个大峡谷是在太空中俯瞰地球时唯一可见的自然景观，已 列入联合国世界自然遗产名录。1919 年，威尔逊总统将大峡谷地区辟为“大峡谷国家公园”，1980 年列入世界遗产名录。大峡谷山石多为红色，从谷底到顶部分布着从寒武纪到新生代各个时期的岩层， 层次清晰，色调各异，并且含有各个地质年代的代表性生物化石，又被称为“活的地质史教科书”。我 们将来到靠近访客中心的大峡谷的观景点",
+                    "name": "大峡谷国家公园-南峡"
+                },
+                {
+                    "name": "YavapaiPoint",
+                    "description": "站在峡谷的边缘，凝视大峡谷的宽广，给人一种平静与空旷的感觉，面对这造物主的鬼斧神工，游客们无不感慨万千、流连忘返。如果说上帝是大峡谷的缔造者，科罗拉多河则是雕刻大峡谷的艺术家，河流与峽谷耳鬓厮磨的恋情已经持续六百万年。旁边的亚瓦帕博特馆中还有大峡谷的立体模型，可以清楚地了解到大峡谷的全貌。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "金曼",
+                    "description": "由于地处交通要塞，这里也被称为66号公路的核心。66号公路的传奇不仅曾是美国东西交通的大动脉，还因为它在美国人开拓西部的历史上起到了重要作用。然后乘车前往“水上赌城”拉芙林。抵达后入住酒店休息。",
+                    "consumingTime": "约20分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "西部小镇",
+                    "departureTime": "",
+                    "destination": "拉芙琳",
+                    "trafficType": ""
+                }
+            ],
+            "title": "西部小镇大峡谷国家公园（南峡）66 号公路小镇金曼拉芙琳",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "品牌连锁酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约4小时",
+                    "description": "棕榈泉奥特莱斯坐落在一座雪山脚下，占地不小，环境很好，是大的名牌大卖场，共有180家左右的商店，各种名牌应有尽有，其中包括阿玛尼休闲系列AXArmani，巴布瑞Burberry，BottegaVeneta（BV），潮流服饰CK，男女包Coach，精品鞋类ColeHaan，潮流品牌Diesel，杰尼亚Zegna，芬迪Fendi，乔治阿玛尼GiorgioArmani，古琦Gucci，潮流品牌Guess，法国鳄鱼Lacoste，九西NineWest，普拉达Prada，奢侈品牌SalvatoreFerragamo，奢侈品牌St.John，精品鞋类TOD’S，范思哲Versace等。然后继续前往洛杉矶，抵达后入住酒店休息。美国西南部最",
+                    "name": "棕榈泉奥特莱斯DesertHillsPremiumOutlets购物活动"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "拉芙琳",
+                    "departureTime": "",
+                    "destination": "洛杉矶",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "拉芙琳棕榈泉奥特莱斯洛杉矶",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "洛杉矶市区游览",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "品牌连锁酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约45分钟",
+                    "description": "位于北美最大的都市公园——格利菲斯公园（GriffithPark）内。在这里可以俯瞰洛杉矶全景，远眺好莱坞的半山标志。每位游客第一次来到格里菲斯天文台，无论是对于天文节目或互动展品都会感到新奇，啧啧称赞。后前往游览好莱坞的心脏",
+                    "name": "格里菲斯天文台"
+                },
+                {
+                    "name": "星光大道",
+                    "description": "星光大道在1960年放置的第一颗星是为了乔安·伍德沃德。星光大这里的每颗星都表达了对电影，广播，电视，话剧行业作出贡献的两千多名艺术家的敬意道上已有2400多个明星在上面留下签名和手印，而且这个数字还在以每月一至两名的速度递增，",
+                    "consumingTime": "约15分钟"
+                },
+                {
+                    "name": "杜比剧院",
+                    "description": "原来的柯达剧院，说起“柯达剧院”，大家可能都有所熟悉，这是每年奥斯卡颁奖礼的专用剧场。它建成于2001年底，被选作是奥斯卡的永久举行地，但是因为柯达公司的破产，自 2012年5月起，剧院的新东家杜比公司将其正式改名为杜比剧院。",
+                    "consumingTime": "约10分钟"
+                },
+                {
+                    "name": "中国大剧院",
+                    "description": "中国戏院建立于1927年，戏院高27.5米，由两根珊瑚红色的巨柱型石狮。这里是许多传奇影片的首演场地。前院中的水泥地面上保留着好莱坞历代影星们手印、脚印挑起铜顶。戏院门前守侯着两只巨",
+                    "consumingTime": "约15分钟"
+                },
+                {
+                    "name": "圣塔莫尼卡海滩",
+                    "description": "这里是洛杉矶最出名的海滩之一。绵延的海岸线有2英里长，人们在这里玩沙滩排球，沿着海岸线悠闲地骑自行车，享受着海风迎面吹拂而来，或者徜徉在加利福尼亚热情的阳光下做个慵懒的日光浴。海岸边餐厅、电影院和度假酒店鳞次栉比，距离海滩不远处有一个颇具情调的步行街",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "第三街步行街",
+                    "description": "有许多售卖各种特色商品的店铺，还有许多时尚精品店，以及提供各式美食的餐厅。不管是平日还是周末，街上都很热闹，偶尔也会有一些著名的乐器大师来此献技。",
+                    "consumingTime": "约1小时"
+                },
+                {
+                    "name": "加州大学洛杉矶分校",
+                    "description": "是环太平洋大学联盟和国际公立大学论坛成员被誉为“公立常春藤为“全美最佳公立大学”第1位。UCLA连续六年（2017-22），被U.S.News美国最佳大学排”",
+                    "consumingTime": "30分钟"
+                },
+                {
+                    "name": "农夫市场",
+                    "description": "洛杉矶最佳餐饮场所之一",
+                    "consumingTime": "约1小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "洛杉矶",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "品牌连锁酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "圣地亚哥是美国太平洋舰队最大的军港，海军第11战区总部就设在这里，是航空母舰和核潜艇经常出没和停泊的地方。抵达后您可以看到第一艘钢构飞行甲板航空母舰---中途岛号航空母舰，这艘二战时期的海上霸主曾经驰骋沙场风光无限，如今，它静静地停靠在碧蓝海水围绕的百老汇码头，等候着人们的参观、并了解战时的点点滴滴。在航空母舰的南面，有个非常显眼的雕像－“世纪之吻”，雕像源自纽约时代广场的胜利之吻。因巧妙诠释二战结束后人们的狂喜心情而闻名于世，照片中水兵与女护士的深情一吻被誉为“世纪之吻”。",
+                    "name": "圣地亚哥港"
+                },
+                {
+                    "name": "巴尔波亚公园(BalboaPark）",
+                    "description": "位于圣地亚哥市中心北区,公园建于1910 年，有着“美国最大的城市文化公园”之称，可媲美纽约的中央公园。公园内拥有人类历史、摄影、艺术等15个主题的博物馆，以及著名的圣地亚哥动物园。除了博物馆，公园内还有多个风格迥异的花园，玫瑰园、热带植物温室、沙漠公园、仙人掌花园以及棕榈谷等，都能让你有惊喜的发现。公园分南北两大区域，北区以巴拿马广场为中心，许多博物馆是1915年巴拿马-加州博览会遗留下来的建筑群，带着浓厚的西班牙文艺复兴时期的色彩。南区以泛美广场为中心，围绕着建筑是1935年加州-太平洋国际博览会留下来的遗产，有着美国西南部的建筑风格。",
+                    "consumingTime": "约1小时"
+                },
+                {
+                    "name": "圣地亚哥老城",
+                    "description": "老城保留着十九世纪的古朴建筑和宁静风貌，同时小镇又充满着热烈浓郁的墨西哥风。",
+                    "consumingTime": "约30分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "洛杉矶",
+                    "departureTime": "",
+                    "destination": "圣地亚哥",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "洛杉矶圣地亚哥洛杉矶",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "品牌连锁酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "是旧金山艺术家和作家建造的一个美国上流社会，承载着美好梦想的乌托邦小城。那里始终保持着一种纯自然的状态，住宅风格典雅，是世界上最美的地区之一。虽然卡梅尔的整体风格、建筑设施让人感觉独树一帜，但在此购物依然能体会到大都会风情。最具鉴赏力的购物者，一定会在小镇石子铺成的小巷里或花饰屋顶的商店中发现极具吸引力的物品。",
+                    "name": "卡梅尔小镇"
+                },
+                {
+                    "name": "17英里海湾路",
+                    "description": "形态各异的松树顽强地植根于峭壁深处，其中有一棵著名的孤松海滩的标志松，甚至被认为是美国加利弗尼亚州的地标。长在海边悬崖上，在岩石中迎面大海，孤独地昂首挺立，率先迎接太阳从东方冉冉升起，再远目夕阳渐渐沉入太平洋。这棵孤柏已成为17英里",
+                    "consumingTime": "约30分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "洛杉矶",
+                    "departureTime": "",
+                    "destination": "旧金山",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "洛杉矶旧金山",
+            "tripDay": 12
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "BOOKING7.0酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "旧金山的骄傲与标志，是世界上最大的单孔吊桥之一，它的跨度有2.7公里之长，贯穿了整个旧金山湾和太平洋的金门海峡。",
+                    "name": "金门大桥"
+                },
+                {
+                    "name": "九曲花街",
+                    "description": "9个S形弯道通路，它是世界上最弯曲的街道，在花街的高处可以远眺海湾大桥和科伊特塔，车道两边的花坛里种满了玫瑰，街两边家家户户也都在门口养花种草，一年四季鲜花盛开，把街道点缀得花团锦簇，远远望去，简直美不胜收。",
+                    "consumingTime": "约30分钟"
+                },
+                {
+                    "name": "渔人码头",
+                    "description": "旧金山最充满欢乐气息的地方。这里琳琅满目的店铺，风味独特的餐厅和精彩的",
+                    "consumingTime": "约1小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "旧金山",
+                    "departureTime": "",
+                    "destination": "夏威夷",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "旧金山中转城市夏威夷",
+            "tripDay": 13
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "BOOKING7.0酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "远眺港中央凭吊被日军炸沉的“亚利桑那号”战舰遗骸以及一千多名阵亡将士纪念碑。珍珠港陈列区内还有各式导弹、鱼雷、飞机的模型展览以及珍珠港事件的陈列馆可供参观。乘车经过美国最早的中国城，唐人街，夏威夷州议会大厦以及小白宫州长官邸（车览外观）。夏威夷第一任国王塑像（外观）以及依兰尼皇宫（外观）。",
+                    "name": "珍珠港"
+                },
+                {
+                    "name": "威基基海滩",
+                    "description": "威基基黄金海岸线是夏威夷州的象征，这里的海水象碧玉一样清纯，金黄的海滩上，婆娑的椰子树下，不同肤色的人们，在恒温的夏威夷气候的轻拂下，感受着天堂般的时光。远观卡哈拉高级住宅区、钻石山头（车览外观）。千万美元的豪宅比比皆是。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "恐龙湾",
+                    "description": "她位于岛的东南边，有许多的珊瑚礁及鱼类，也是最佳的浮潜、潜水场所，整个海湾山势像似弯曲的大恐龙环抱海湾。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "大风口古战场",
+                    "description": "",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "夏威夷",
+            "tripDay": 14
+        },
+        {
+            "breakfast": 1,
+            "content": "今日乘车前往机场，您将乘坐国际航班经首尔转机返回温馨的家。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "夏威夷",
+                    "departureTime": "",
+                    "destination": "首尔",
+                    "trafficType": "汽车 飞机"
+                }
+            ],
+            "title": "夏威夷首尔",
+            "tripDay": 15
+        },
+        {
+            "breakfast": 0,
+            "content": "抵达北京，结束愉快的旅行",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "首尔",
+                    "departureTime": "",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "首尔北京",
+            "tripDay": 16
+        }
+    ]
+}

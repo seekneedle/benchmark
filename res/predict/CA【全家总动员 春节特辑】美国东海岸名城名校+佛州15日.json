@@ -1,0 +1,793 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "无特别说明",
+        "departureCityName": "北京市",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "美国",
+                "destCityName": "纽约",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "波士顿",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "华盛顿",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "奥兰多",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "迈阿密",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "建议游客额外选择和购买旅行意外伤害保险或旅行境外救援保险，但不包括游客自身带有的慢性疾病、参加保险公司认定的高风险项目如跳伞、滑雪、潜水等。不包括美国签证费、护照费、申请签证中准备相关材料所需的制作、手续费等。",
+            "name": "旅游意外险",
+            "typeName": "境内外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "哈佛深度游览"
+            },
+            {
+                "name": "大都会艺术博物馆含讲解"
+            },
+            {
+                "name": "帝国大厦登顶"
+            },
+            {
+                "name": "三晚迪士尼园区酒店"
+            },
+            {
+                "name": "迈阿密大沼泽游船体验"
+            }
+        ],
+        "productSubtitle": "这是一场集名校探访、文化体验、乐园畅玩于一体的综合旅行",
+        "productTitle": "【全家总动员】美东名城名校+奥兰多乐园+迈阿密15日游",
+        "returnCityName": "北京市",
+        "tags": [
+            {
+                "name": "名校探访"
+            },
+            {
+                "name": "文化体验"
+            },
+            {
+                "name": "乐园畅玩"
+            },
+            {
+                "name": "家庭友好"
+            }
+        ],
+        "themes": [
+            {
+                "name": "美东名校与乐园之旅"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "国际航班",
+        "goTransportName": "国际航班",
+        "hotelStarName": "-1",
+        "lineFeature": "名校探访（哈佛、MIT、耶鲁、宾大、哥大）、文化体验（大都会艺术博物馆、史密森尼国家自然历史博物馆、史密森尼国家航空航天博物馆）、乐园畅玩（迪士尼四大主题乐园、环球影城或冒险岛）",
+        "lineSimpleTitle": "美东名校乐园游",
+        "lineSortTitle": "MEML",
+        "lineTitle": "美东名校与乐园之旅",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "纽约",
+                "countryName": "美国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "波士顿",
+                "countryName": "美国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "华盛顿",
+                "countryName": "美国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "奥兰多",
+                "countryName": "美国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "迈阿密",
+                "countryName": "美国",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "15",
+        "tripNight": "14",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "随团办理签证的客人需在签证截止日前提交签证材料，如遇拒签或行政复议，未出票的旅游者需承担签证费损失。",
+                    "country": "美国",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        },
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "北京",
+                "arriveTime": "07:15",
+                "days": 0,
+                "flightNo": "CA982",
+                "flightSort": "回程",
+                "startAirportName": "纽约",
+                "startTime": "01:05"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空公司",
+                "arriveAirportName": "纽约",
+                "arriveTime": "22:05",
+                "days": 0,
+                "flightNo": "CA981",
+                "flightSort": "去程",
+                "startAirportName": "北京",
+                "startTime": "20:20"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": {
+            "adultSalePrice": "具体价格未提供，需咨询客服",
+            "childSalePrice": "具体价格未提供，需咨询客服",
+            "sellRemark": "费用包含国际往返机票、中文领队兼导游服务、境外旅游巴士、首道门票、餐食、酒店住宿、EVUS费用、旅游意外险；费用不含美国签证费、护照费、申请签证中准备相关材料所需的制作、手续费、全程境外服务费、行李托运费、个人消费、自由活动期间的餐食和交通费、因恶劣天气引起的额外费用等。"
+        },
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "出行前请确保自身身体条件能够完成旅游活动，建议游客额外选择和购买旅行意外伤害保险或旅行境外救援保险",
+        "costExclude": "美国签证费、护照费、申请签证中准备相关材料所需的制作、手续费、全程境外服务费（1500元/人）、行李托运费、个人消费、自由活动期间的餐食和交通费、因恶劣天气引起的额外费用等",
+        "costInclude": "国际往返机票及美洲境内段机票（经济舱、含机场税）、中文领队兼导游服务、行程内所示境外旅游巴士（每人一正座）、行程内所示景点首道门票、行程内所示的早、午、晚餐、特色餐、早餐为酒店内、外或打包早餐（简餐或快餐）、行程内所标明的酒店或同级酒店，双人标准间酒店住宿、美国EVUS费用、旅游意外险",
+        "lineReturns": [],
+        "otherRule": "美洲不同的国家有不同的酒店星级评判标准，大部分酒店没有星级的挂牌，但具备等同于行程中指定同级或同系列酒店的设施标准和接待能力",
+        "returnContent": "具体规则未提供，需咨询客服",
+        "selfCostContent": "无",
+        "selfCosts": [],
+        "shopContent": "行程内购物场所商品价格可能存在小价差，游客自行甄选，旅行社无法承担退换差价的责任",
+        "shops": [
+            {
+                "address": "纽约市曼哈顿区",
+                "remark": "世界著名的购物街，汇集了众多高端品牌",
+                "shopName": "第五大道",
+                "shopProduct": "国际知名品牌",
+                "stay": "120"
+            },
+            {
+                "address": "佛罗里达州劳德代尔堡",
+                "remark": "大型综合性购物中心，提供丰富的购物选择",
+                "shopName": "Sawgrass Mills购物中心",
+                "shopProduct": "各类时尚服饰、电子产品等",
+                "stay": "180"
+            }
+        ],
+        "tipsContent": "建议游客携带VISA、MASTER标志的国际信用卡，以便购物"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "今日乘坐中国国际航空公司客机直飞美国纽约，抵达后接机，晚上入住纽约新泽西区酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "纽约新泽西区酒店",
+                    "star": "3"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "22:05",
+                    "departure": "北京",
+                    "departureTime": "20:20",
+                    "destination": "纽约",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "从北京前往纽约",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后前往费城，参观独立宫（外观）、自由钟、独立广场，随后前往宾夕法尼亚大学。之后乘车前往华盛顿，游览华盛顿纪念碑、越战纪念碑、韩战纪念碑、反思池、白宫、国会山庄以及林肯纪念堂，晚餐后入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "美国独立革命战争时代的建筑，《独立宣言》和美国宪法的诞生地。",
+                    "name": "独立宫"
+                },
+                {
+                    "consumingTime": "约1小时",
+                    "description": "美国自由精神的象征。",
+                    "name": "自由钟"
+                },
+                {
+                    "consumingTime": "约1小时",
+                    "description": "",
+                    "name": "独立广场"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "常春藤盟校之一，创建于1740年，是美国第五古老的高等教育机构，也是美国第一所从事科学技术和人文教育的现代高等学校，创建者是本杰明·富兰克林。",
+                    "name": "宾夕法尼亚大学"
+                },
+                {
+                    "consumingTime": "约2小时",
+                    "description": "",
+                    "name": "华盛顿纪念碑"
+                },
+                {
+                    "consumingTime": "约2小时",
+                    "description": "",
+                    "name": "越战纪念碑"
+                },
+                {
+                    "consumingTime": "约2小时",
+                    "description": "",
+                    "name": "韩战纪念碑"
+                },
+                {
+                    "consumingTime": "约2小时",
+                    "description": "",
+                    "name": "反思池"
+                },
+                {
+                    "consumingTime": "约2小时",
+                    "description": "举世闻名的总统官邸。",
+                    "name": "白宫"
+                },
+                {
+                    "consumingTime": "约2小时",
+                    "description": "宏伟壮观。",
+                    "name": "国会山庄"
+                },
+                {
+                    "consumingTime": "约2小时",
+                    "description": "传奇神圣。",
+                    "name": "林肯纪念堂"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "约3小时后",
+                    "departure": "纽约（新泽西州）",
+                    "departureTime": "早餐后",
+                    "destination": "费城",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "约2.5小时后",
+                    "departure": "费城",
+                    "departureTime": "",
+                    "destination": "华盛顿",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "纽约（新泽西州）、费城、华盛顿之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后，乘车前往游览史密森尼国家航空航天博物馆和史密森尼国家自然历史博物馆，随后前往机场乘坐内陆航班飞奥兰多，抵达后前往迪士尼园区酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "Disney'sPortOrleansResort",
+                    "star": "5"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "世界上航空及航天技术领域藏品最丰富的博物馆，从原始飞行器、中国古代风筝和火箭模型等到二战时期军用战机等藏品应有尽有，还有体验设施。",
+                    "name": "史密森尼国家航空航天博物馆"
+                },
+                {
+                    "consumingTime": "约1小时",
+                    "description": "华盛顿地区最大的博物馆，拥有一亿两千万件藏品，从恐龙化石、人类起源早期文物到稀有动物标本等都有展出，有堪称“世界之最”物品，中央圆形大厅有高度还原的非洲象模型。",
+                    "name": "史密森尼国家自然历史博物馆（SmithsonianNationalMuseumNaturalHistory）"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "待定",
+                    "departure": "华盛顿",
+                    "departureTime": "早餐后",
+                    "destination": "奥兰多",
+                    "trafficType": "汽车、飞机"
+                }
+            ],
+            "title": "华盛顿至奥兰多之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 0,
+            "content": "今日尽情畅玩奥兰多迪士尼四大乐园（已包含2日多园门票），您可以根据自己需求选择主题乐园。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "Disney'sPortOrleansResort",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "迪斯尼动物王国是世界上最大的迪斯尼主题公园，占地面积超过500英亩（合2平方公里），也是第一个以动物及其保护为主题的公园。整个园区似乎就建设在一片原始森林之中，内有多个探险区域，王国绿洲，探索岛，非洲世界，亚洲世界，恐龙乐园以及正在加紧兴建中的潘多拉星球未来的阿凡达主题乐园。园区内各处都栖息各种野生动物，还可以乘坐越野车，到乞力马扎罗区来一次精彩的SAFARI之旅。亚洲区的新设施“珠穆朗马峰”，让人从60公尺高的悬崖倒栽葱似的坠落、翻滚，非常刺激！园内各时段还有动物主题表演，特别是非洲园区内的狮子王歌舞庆典，以迪斯尼都有的音乐方式重新演绎百老汇经典名剧狮子王。",
+                    "name": "迪斯尼动物王国DisneyAnimalKingdom"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "迪士尼好莱坞影城以好莱坞经典影片和影视娱乐、幕后制作为主题，以模拟拍摄电影展示电影的制作和特效，你可以观看4D电影、舞台剧和飞车特技表演，追求刺激可以体验这里的过山车和跳楼机内设好莱坞大道、回音湖、星球旅行、美国街头、动画坊、日落大道、惊魂古塔、乐与怒过山车等诸多区域，仿佛将游客带入了电影的世界中。此外，为了吸引更多孩子们的注意力，影城内还包含许多舞台剧。舞台剧运用了很多颇有规模的道具，引入了各种打斗方面的特效，并穿插了一些幽默元素，甚至让观众参与其中，加强了主题乐园与游客的互动性。",
+                    "name": "迪士尼好莱坞影城Disney‘s Hollywoodstudio"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "园区巴士"
+                }
+            ],
+            "title": "奥兰多迪士尼乐园畅玩之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 0,
+            "content": "今日尽情畅玩奥兰多迪士尼四大乐园（已包含2日多园门票），您可以根据自己需求选择主题乐园。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "Disney'sPortOrleansResort",
+                    "star": "5"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "对于全世界心怀梦想的人来说，魔术王国是一生之中至少要来一次的的梦想圣地，作为迪斯尼世界的核心，游乐设施最为丰富，如加勒比海盗宝藏之旅，七个小矮人矿车历险，美国总统宫，米老鼠交响乐盛宴，乡村熊俱乐部，星际过山车，史迪仔大逃亡，西部矿山探险，加勒比海盗等等。园区内还有机会和心目中的偶像合影留念，索要签名，如米奇老鼠，小熊维尼等。一天之内，多个时段，都有迪斯尼经典卡通人物花车大游行，城堡前的歌舞表演。当然，无论如何也不能错过晚上在灰姑娘城堡前举行的的烟火盛宴，绝对令您永生难忘。",
+                    "name": "奥兰多迪士尼魔幻王国DisneyMagicKingdom"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "未来世界分为二大部份，前半为未来世界(FutureWorld)，有地球能源馆，地球太空馆，海洋生物馆，大地馆，立体幻想之旅，动力世界地平线及生命探索馆。体验极速的碰撞试验，裸眼3D滑翔机。后半部份为世界之窗(WorldShowcase)，共有十一个不同格局特色建筑，包括有墨西哥，挪威，中国，德国，意大利，美国，日本，摩洛哥，法国，英国以及加拿大等国的文化，建筑，民俗表演，手工艺品，特产，特色餐厅充分展示各国的风情与特色。",
+                    "name": "奥兰多迪斯尼未来世界DisneyEpcotCenter"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "园区巴士"
+                }
+            ],
+            "title": "奥兰多迪士尼乐园畅玩",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 0,
+            "content": "前往奥兰多环球影城游玩，可根据喜好选择园区，体验精彩项目。晚上入住奥兰多酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "奥兰多酒店",
+                    "star": "3"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "一天",
+                    "description": "奥兰多环球影城分为三个园区，分别是环球影城、冒险岛和火山湾。环球影城和冒险岛是两个主题乐园，火山湾是一个水上乐园，环球影城曾多次被评为世界上最好玩的游乐园！环球影城的主题就是，提供无法想象的体验，让您身临其境，融入经典电影之中：变成小黄人和孩子们一起戏弄神偷奶爸，和辛普森全家乘坐4D模拟飞车畅游嘉年华，与怪物史莱克在'远得要命王国'一起营救费欧娜公主，同变形金刚一起捍卫地球。更有机会参与灾难电影作秀、成为电影中的主角。别忘了大型真人3D互动表演终结者，看史瓦辛格州长重新披挂上阵。最受欢迎的，是园区内最新，耗资高达数十亿美元兴建的哈利波特主题园对角巷(Diagon Alley)．比霍格莫德村更新。完全了哈利波特的魔法街道，在一间间魔法商店购买完道具之后，你就从麻瓜变成一个真正的巫师啦！在古灵阁银行金库里，与伏地魔大战，看看什么是真正的3D投影互动！如果您够胆量，还可以挑战奥兰多最高的过山车落基山飞车！",
+                    "name": "奥兰多环球影城UniversalStudios"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "奥兰多环球影城之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后，乘车前往 Sawgrass Mills 购物中心购物，停留不少于 4 个小时。为了不打扰购物，今日午餐自理。随后乘车前往迈阿密，抵达后入住酒店休息。温馨提示：奥兰多到迈阿密参考行车距离 380 公里，参考行车时间 4 小时。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "网评三星酒店",
+                    "star": "3"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "不少于 4 个小时",
+                    "description": "美国规模最大的奥特莱斯和零售商的聚集中心，主零售店、高端设计师品牌店、各种奥特莱斯店应有尽有。其中包括如 Nike、Tommy Hilfiger、Ralph Lauren 和 Gap 等品牌的工厂店，还有如 Saks Fifth Avenue OFF 5th、Bed Bath & Beyond、Marshalls 等折扣卖场，还有如 Target、BrandsMart USA 等日用和电器超市，一般说来，折扣普遍在 20%-30%左右，有的甚至达到 50%左右。",
+                    "name": "Sawgrass Mills 购物中心"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "4 小时后",
+                    "departure": "奥兰多",
+                    "departureTime": "早餐后",
+                    "destination": "迈阿密",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "奥兰多至迈阿密购物之旅",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后，乘车前往大沼泽国家公园，体验自然奇景和精彩表演。随后前往小哈瓦那，感受其文化和政治氛围。接着前往南沙滩，参观DECO街和范思哲故居。最后前往海湾市场。晚餐后入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "网评三星酒店",
+                    "star": "3"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "不少于1.5小时",
+                    "description": "佛州最西南角的位置，是美国本土上最大的亚热带野生动物保护地，公园内有鳄鱼、美洲鳄、海牛、佛罗里达黑豹和各种鸟类，湿地和沼泽地也被保护的很好。乘坐草上飞风力船穿梭在鳄鱼密布的沼泽河流，深入沼泽地体验自然奇景，看珍稀动物的精彩表演，以及最刺激的真人现场活捉鳄鱼，带您领略全新的探险之旅。",
+                    "name": "大沼泽国家公园"
+                },
+                {
+                    "consumingTime": "不少于1.5小时",
+                    "description": "小哈瓦那已经成为了古巴裔美国人的文化和政治中心。不仅仅是古巴人，越来越多的拉丁美洲人也选择生活在这里。这里也成了迈阿密社会、文化和政治活动的中心。",
+                    "name": "小哈瓦那"
+                },
+                {
+                    "consumingTime": "不少于1.5小时",
+                    "description": "参观号称美国南部第一街的DECO街，欣赏色彩斑斓的西班牙建筑和著名的意大利服装设计师【范思哲故居】（外观）。",
+                    "name": "南沙滩"
+                },
+                {
+                    "consumingTime": "不少于1.5小时",
+                    "description": "它是迈阿密市中心一座节日市场，坐落在比斯坎湾岸上。",
+                    "name": "海湾市场"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "迈阿密之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 0,
+            "content": "乘坐美国内陆航班飞往波士顿，抵达后市区参观波科普利广场三一教堂和漫步美国历史“自由之路”，晚上入住波士顿酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "网评三星酒店",
+                    "star": "3"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "尖塔特征玫瑰色砂岩的外观与铜雕大门，被选为美国十大建筑之一，这幢就好像从童话世界里走出来的建筑，被周围的高楼大厦，人流喧闹所包围的时候，你会在这现代文明环绕间，体验这座百年古城曾经的岁月痕迹。",
+                    "name": "波科普利广场三一教堂"
+                },
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "深入了解“倾茶事件”发生地—波士顿的历史。长约4公里的自由之路，沿路经过16处重要的历史古迹，又因其红砖铺就的道路和铜制地标而名扬海外。",
+                    "name": "漫步美国历史“自由之路”"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "迈阿密",
+                    "departureTime": "",
+                    "destination": "波士顿",
+                    "trafficType": "飞机/汽车"
+                }
+            ],
+            "title": "迈阿密前往波士顿之旅",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "参观麻省理工学院和哈佛大学，享用波士顿龙虾餐，游逛昆西市场，晚上入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "网评三星酒店",
+                    "star": "3"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "60 分钟以上",
+                    "description": "是美国一所综合性私立大学。连续十多年霸居 QS 世界大学排名 TOP1，2023 年 U.S.News 世界大学排名第二，在全美最佳研究生院排名中，MIT 也毫无悬念地拿到了榜一的位置。",
+                    "name": "麻省理工学院"
+                },
+                {
+                    "consumingTime": "60 分钟以上",
+                    "description": "大名鼎鼎的哈佛大学是来波士顿必须去的地方，这所大学有 8 位美国总统和众多诺贝尔获得者，被公认为是当今世界最顶尖的高等教育机构之一。参观【约翰·哈佛 JohnHarvard】的雕像，大家排队在雕像前拍照，据说这是每一位来到这里的学生必访之处，相传触摸约翰·哈佛的左脚会带来好运，所以这位著名捐赠人的左脚被摩擦地亮锃锃。行走在【HarvardYard】古老韵文的园区草坪树木小路，欣赏古老建筑，漂亮的钟楼，感受哈佛文化。",
+                    "name": "哈佛大学"
+                },
+                {
+                    "consumingTime": "约 2 个小时",
+                    "description": "市场的中央建筑内有许多的美食摊位，长长的一条走廊、橱窗里满是来自世界各地的美食，走进昆西市场就仿佛走进了一个吃货的美梦，在让眼睛饱餐一顿的同时，口水也迅速分泌。",
+                    "name": "昆西市场"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "波士顿之旅",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后前往纽黑文，抵达后参观耶鲁大学，游览结束后乘车前往纽约，抵达后入住新泽西区酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "3"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "耶鲁大学创建于1701年，是全美第三古老高等学府，也是著名的常春藤名校成员之一，至今产生了65位诺贝尔奖得主和五位美国总统。校园以哥特式建筑风格为主，无论整体还是细节，无一不彰显匠心品质。",
+                    "name": "耶鲁大学"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "波士顿",
+                    "departureTime": "",
+                    "destination": "纽黑文",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "纽黑文",
+                    "departureTime": "",
+                    "destination": "纽约（新泽西）",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "波士顿到纽约（新泽西）之旅",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往曼哈顿游览。上午游览大都会艺术博物馆，下午乘坐游船绕自由女神像航行，远观自由女神像，后前往华尔街、联合国总部大厦（外观）、时代广场，登顶帝国大厦观景台，随后前往第五大道自由活动，今日晚餐自理。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "网评三星酒店",
+                    "star": "3"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "入内 2 小时，含讲解",
+                    "description": "世界三大博物馆之一，1880 年开放，号称西半球最大的博物馆，与英国伦敦的大英博物馆、法国巴黎的卢浮宫、俄罗斯圣彼得堡的列宁格勒美术馆齐名的世界四大美术馆之一。艺术藏品跨越了从史前到现在的 5000 多年历史。被 TripAdvisor 评为 2015 年全球排名第一的博物馆，也是纽约最受欢迎的博物馆和景点。",
+                    "name": "大都会艺术博物馆"
+                },
+                {
+                    "consumingTime": "45 分钟",
+                    "description": "乘坐游船绕自由女神像航行，远观自由女神像，自由女神像的全称是“自由照耀世界之神”，今天她不仅是美国国家的纪念碑，更成为全世界自由和民主的象征。",
+                    "name": "自由女神像（游船）"
+                },
+                {
+                    "consumingTime": "30 分钟",
+                    "description": "金融界的华尔街，这里有纽约证券交易所，金融铜牛，您可以合影留念",
+                    "name": "华尔街"
+                },
+                {
+                    "consumingTime": "30 分钟",
+                    "description": "誉满全球的联合国总部大厦（外观）",
+                    "name": "联合国总部大厦（外观）"
+                },
+                {
+                    "consumingTime": "10 分钟",
+                    "description": "无论白天黑夜，街道两旁的霓虹广告和大屏幕宣传板都吸引着人们的眼球，反射着曼哈顿强烈的都市特性。",
+                    "name": "时代广场"
+                },
+                {
+                    "consumingTime": "无",
+                    "description": "纽约的地标建筑之一，从好莱坞大片《金刚》到爱情文艺片《西雅图不眠夜》，帝国大厦作为取景拍摄地，让我们感受到纽约这座城市的繁华、传奇和浪漫。",
+                    "name": "帝国大厦观景台（登顶）"
+                },
+                {
+                    "consumingTime": "约 2 小时",
+                    "description": "自由活动",
+                    "name": "第五大道"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "无",
+                    "departure": "纽约（新泽西州）",
+                    "departureTime": "早餐后",
+                    "destination": "纽约（曼哈顿）",
+                    "trafficType": "汽车"
+                },
+                {
+                    "arrivalTime": "无",
+                    "departure": "纽约（曼哈顿）",
+                    "departureTime": "无",
+                    "destination": "纽约（新泽西）",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "纽约曼哈顿之旅",
+            "tripDay": 12
+        },
+        {
+            "breakfast": 1,
+            "content": "今日特别安排纽约网红打卡一日游，依次游览哥伦比亚大学、纽约中央火车站、中央公园、哈德逊园区、高线公园、悬浮公园、布鲁克林DUMBO艺术区，然后乘车前往机场。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约40分钟",
+                    "description": "哥伦比亚大学是最早接受中国留学生的美国大学之一，闻一多，徐志摩，李政道等著名学者在这里留下了青春的脚步。哥伦比亚大学的历届毕业生和教职员中累计共有96名诺贝尔奖得奖者。",
+                    "name": "哥伦比亚大学"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "这里是世界知名的车站之一，也是众多电影和美剧热衷的拍摄场景之一，《黑衣人》《绝地战警》《教父》《绯闻女孩》《复仇者联盟》等都曾在这儿取景。气势恢宏的大理石装饰、拱形玻璃、四面钟、上帝视角的星空穹顶，让您目不暇接。",
+                    "name": "纽约中央火车站"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "如果没有中央公园，纽约可能早已变成一部机器。从59街至110街，长方形的中央公园是纽约高空最容易辨别的地标，这里松鼠遍地，晨鸟鸣唱，小城堡点缀在镜面的池边，城市的喧嚣瞬间被抛开在千里之外，唯有来往跑步运动的人默默地提醒着城市的心跳仍在继续。",
+                    "name": "中央公园CentralPark"
+                },
+                {
+                    "consumingTime": "约10分钟",
+                    "description": "位于HudsonYards景观通廊、广场中心和视觉焦点处的巨大构筑物名为Vessel（容器），它是一个蜂窝状的楼梯，网友们亲切的称它为“大松果”。从不同角度欣赏建筑都能发现独特的美感，是您朋友圈打卡的理想地点。",
+                    "name": "哈德逊园区"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "高线公园是一个位于纽约曼哈顿中城西侧的线型空中花园，全长1.45英里，是在货运铁路线的基础上修建而成。狭长的人行步道穿梭在高楼之间，两旁布满了花草，漫步在步道上、躺在草坪上聊天看书或晒太阳都是在纽约这座繁华都市中的片刻享受。",
+                    "name": "高线公园"
+                },
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "于2021年正式向公众开放的悬浮公园，一经开放就成为纽约网红打卡的必去之处，这里的设计小众而清新。支撑悬浮在哈德逊河上的公园是由132个不同高度的混凝土“郁金香”支撑起来的，形成了2.4英亩的丘陵和蜿蜒的小径。岛上的每个角落都代表着不同的微小气候，这取决于地形、日照和风环境。",
+                    "name": "悬浮公园"
+                },
+                {
+                    "consumingTime": "约40分钟",
+                    "description": "位于纽约东河岸，如今的DUMBO是一个充满艺术活力的区。而沿着河岸的布鲁克林公园，更是拥有观看纽约下城天际线及布鲁克林桥和曼哈顿大桥的观景视野，那些刻意保存的石板路、红砖墙，和网红旋转木马让这里充满韵味。",
+                    "name": "布鲁克林DUMBO艺术区"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "纽约网红打卡一日游",
+            "tripDay": 13
+        },
+        {
+            "breakfast": 0,
+            "content": "乘坐航班 CA982 从纽约 JFK 机场出发，于 01：05 起飞，直飞北京，预计 07：15 + 1 抵达。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "07：15 + 1",
+                    "departure": "纽约 JFK 机场",
+                    "departureTime": "01：05",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "从纽约返程北京",
+            "tripDay": 14
+        },
+        {
+            "breakfast": 1,
+            "content": "今日抵达北京，结束愉快的旅途。此行程仅供参考，由于接待条件有限，我公司有权根据当地酒店的接待情况调整行程的先后顺序，也有根据参团人数，航班，签证及目的地国临时变化等情况保留调整的权利。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "抵达北京，结束旅途",
+            "tripDay": 15
+        }
+    ]
+}
