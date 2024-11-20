@@ -995,7 +995,7 @@ if st.session_state.current_tab == 5:
                     hotel[key_string] = st.text_input(key_name,
                                                       **get_default(
                                                           hotel[key_string],
-                                                          f"hotel_{key_string}{i}{j}",
+                                                          f"hotel_{key_string}_{i}_{j}",
                                                           need_refresh=True))
                 with col2:
                     key_string = "star"
@@ -1003,10 +1003,10 @@ if st.session_state.current_tab == 5:
                     hotel[key_string] = st.text_input(key_name,
                                                       **get_default(
                                                           hotel[key_string],
-                                                          f"hotel_{key_string}{i}{j}",
+                                                          f"hotel_{key_string}_{i}_{j}",
                                                           need_refresh=True))
                 with col3:
-                    if st.button("❌", key=f"del_hotel{i}{j}"):
+                    if st.button("❌", key=f"del_hotel_{i}_{j}"):
                         if len(hotels) > 0 and j < len(hotels):
                             del hotels[j]
                         else:
@@ -1034,7 +1034,7 @@ if st.session_state.current_tab == 5:
                     traffic[key_string] = st.text_input(key_name,
                                                         **get_default(
                                                             traffic[key_string],
-                                                            f"traffic_{key_string}{i}{j}",
+                                                            f"traffic_{key_string}_{i}_{j}",
                                                             need_refresh=True))
 
                 with col2:
@@ -1043,7 +1043,7 @@ if st.session_state.current_tab == 5:
                     traffic[key_string] = st.text_input(key_name,
                                                         **get_default(
                                                             traffic[key_string],
-                                                            f"traffic_{key_string}{i}{j}",
+                                                            f"traffic_{key_string}_{i}_{j}",
                                                             need_refresh=True))
                 with col3:
                     key_string = "departureTime"
@@ -1051,7 +1051,7 @@ if st.session_state.current_tab == 5:
                     traffic[key_string] = st.text_input(key_name,
                                                         **get_default(
                                                             traffic[key_string],
-                                                            f"traffic_{key_string}{i}{j}",
+                                                            f"traffic_{key_string}_{i}_{j}",
                                                             need_refresh=True))
 
                 with col4:
@@ -1060,7 +1060,7 @@ if st.session_state.current_tab == 5:
                     traffic[key_string] = st.text_input(key_name,
                                                         **get_default(
                                                             traffic[key_string],
-                                                            f"traffic_{key_string}{i}{j}",
+                                                            f"traffic_{key_string}_{i}_{j}",
                                                             need_refresh=True))
                 with col5:
                     key_string = "arrivalTime"
@@ -1068,10 +1068,10 @@ if st.session_state.current_tab == 5:
                     traffic[key_string] = st.text_input(key_name,
                                                         **get_default(
                                                             traffic[key_string],
-                                                            f"traffic_{key_string}{i}{j}",
+                                                            f"traffic_{key_string}_{i}_{j}",
                                                             need_refresh=True))
                 with col6:
-                    if st.button("❌", key=f"del_traffic{i}{j}"):
+                    if st.button("❌", key=f"del_traffic_{i}_{j}"):
                         if len(traffics) > 0 and j < len(traffics):
                             del traffics[j]
                         else:
@@ -1101,7 +1101,7 @@ if st.session_state.current_tab == 5:
                     scene[key_string] = st.text_input(key_name,
                                                       **get_default(
                                                           scene[key_string],
-                                                          f"scene_{key_string}{i}{j}",
+                                                          f"scene_{key_string}_{i}_{j}",
                                                           need_refresh=True))
                 with col2:
                     key_string = "consumingTime"
@@ -1109,7 +1109,7 @@ if st.session_state.current_tab == 5:
                     scene[key_string] = st.text_input(key_name,
                                                       **get_default(
                                                           scene[key_string],
-                                                          f"scene_{key_string}{i}{j}",
+                                                          f"scene_{key_string}_{i}_{j}",
                                                           need_refresh=True))
                 with col3:
                     key_string = "description"
@@ -1117,10 +1117,10 @@ if st.session_state.current_tab == 5:
                     scene[key_string] = st.text_input(key_name,
                                                       **get_default(
                                                           scene[key_string],
-                                                          f"scene_{key_string}{i}{j}",
+                                                          f"scene_{key_string}_{i}_{j}",
                                                           need_refresh=True))
                 with col4:
-                    if st.button("❌", key=f"del_scene{i}{j}"):
+                    if st.button("❌", key=f"del_scene_{i}_{j}"):
                         if len(scenes) > 0 and j < len(scenes):
                             del scenes[j]
                         else:
