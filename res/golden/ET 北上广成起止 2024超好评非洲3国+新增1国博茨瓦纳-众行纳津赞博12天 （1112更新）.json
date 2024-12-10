@@ -1,0 +1,702 @@
+{
+    "product": {
+        "childAgeBegin": "0",
+        "childAgeEnd": "0",
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "纳米比亚",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "津巴布韦",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "博茨瓦纳",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "赞比亚",
+                "destCityName": "",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": [
+            {
+                "content": "",
+                "name": "旅行社责任险",
+                "typeName": ""
+            }
+        ],
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "迭代新升级"
+            },
+            {
+                "name": "津赞双国：维多利亚的秘密-祝您好事成双"
+            },
+            {
+                "name": "博茨瓦纳：2016 年孤独星球榜首目的地-祝您一帆风顺"
+            },
+            {
+                "name": "纳米比亚：8 大时空穿梭机-祝您八方来财"
+            },
+            {
+                "name": "美食篇：纳米比亚【Joes Beer House】猪肘西式餐&海鲜晚餐  津巴布韦：特色瞭望餐厅"
+            },
+            {
+                "name": "精选酒店：  纳米：连住 3 晚鲸湾（2 晚海边特色酒店+1 晚海边 4 星酒店）+2 晚豪华 4 星温得和克度假酒店+1 晚苏丝斯 黎红沙漠园外特色山庄  津巴布韦瀑布城 4 星+博茨瓦纳乔贝 4 星"
+            }
+        ],
+        "productSubtitle": "",
+        "productTitle": "2024 超好评非洲 3 国+1 国博茨瓦纳 众行纳津赞博 12 天之旅",
+        "returnCityName": "",
+        "tags": [
+            {
+                "name": ""
+            }
+        ],
+        "themes": [
+            {
+                "name": "2024 超好评非洲 3 国+1 国博茨瓦纳 众行纳津赞博 12 天之旅"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "ET",
+                "airlineName": "",
+                "arriveAirportName": "ADD",
+                "arriveTime": "21：40",
+                "days": "0",
+                "flightNo": "ET823",
+                "flightSort": "",
+                "startAirportName": "VFA",
+                "startTime": "13：05"
+            },
+            {
+                "airlineCode": "ET",
+                "airlineName": "",
+                "arriveAirportName": "PEK",
+                "arriveTime": "17：20",
+                "days": "",
+                "flightNo": "ET604",
+                "flightSort": "",
+                "startAirportName": "ADD",
+                "startTime": "01：15"
+            },
+            {
+                "airlineCode": "ET",
+                "airlineName": "",
+                "arriveAirportName": "CAN",
+                "arriveTime": "14：55+1",
+                "days": "1",
+                "flightNo": "ET606",
+                "flightSort": "",
+                "startAirportName": "ADD",
+                "startTime": "23：45"
+            },
+            {
+                "airlineCode": "ET",
+                "airlineName": "",
+                "arriveAirportName": "PVG",
+                "arriveTime": "15:45+1",
+                "days": "1",
+                "flightNo": "ET684",
+                "flightSort": "",
+                "startAirportName": "ADD",
+                "startTime": "23:00"
+            },
+            {
+                "airlineCode": "ET",
+                "airlineName": "",
+                "arriveAirportName": "TFU",
+                "arriveTime": "14:40",
+                "days": "",
+                "flightNo": "ET636",
+                "flightSort": "",
+                "startAirportName": "ADD",
+                "startTime": "00:25"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "ET",
+                "airlineName": "",
+                "arriveAirportName": "ADD",
+                "arriveTime": "06：40",
+                "days": "0",
+                "flightNo": "ET605",
+                "flightSort": "",
+                "startAirportName": "PEK",
+                "startTime": "00：10"
+            },
+            {
+                "airlineCode": "ET ",
+                "airlineName": "",
+                "arriveAirportName": "WDH",
+                "arriveTime": "13：20",
+                "days": "",
+                "flightNo": "ET 835",
+                "flightSort": "",
+                "startAirportName": "ADD",
+                "startTime": "08：35"
+            },
+            {
+                "airlineCode": "ET",
+                "airlineName": "",
+                "arriveAirportName": "ADD",
+                "arriveTime": "06：05",
+                "days": "",
+                "flightNo": "ET637",
+                "flightSort": "",
+                "startAirportName": "TFU",
+                "startTime": "01：50"
+            },
+            {
+                "airlineCode": "ET",
+                "airlineName": "",
+                "arriveAirportName": "ADD",
+                "arriveTime": "05：25",
+                "days": "",
+                "flightNo": "ET607",
+                "flightSort": "",
+                "startAirportName": "CAN",
+                "startTime": "00：30"
+            },
+            {
+                "airlineCode": "ET",
+                "airlineName": "",
+                "arriveAirportName": "ADD",
+                "arriveTime": "06：45",
+                "days": "",
+                "flightNo": "ET685",
+                "flightSort": "",
+                "startAirportName": "PVG",
+                "startTime": "00：20"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "四星",
+        "lineFeature": "",
+        "lineSimpleTitle": "纳米比亚、津巴布韦、赞比亚、博茨瓦纳",
+        "lineSortTitle": "   ",
+        "lineTitle": "",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "",
+                "countryName": "亚的斯亚贝巴",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "12",
+        "tripNight": "",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "旅游签证 （需要五个 工作日） 1.有效期 6 个月以上的护照原件（至少 6 个空白页，不能有污渍和钉孔）； 2.近期 2 寸白底彩色照片 2 张； 3.签证申请表一份； 4.退休人员需要提供退休证的复印件/电 子版； 5.动机函； 6.未成年人 18 岁以下需要提供: A:出生医学证明公证书,(必须是医院发的 出生医学证明绿本本去公证)； B:父母结婚证公证书； C:父母的身份证复印件； D:父母一方随同,另一方要写一个英文委 托书。 1.香港护照、澳门护照免签； 2.台湾护照旅游签证同上（需增加 1 返乡证复印件/电子版）。",
+                    "country": "纳米比亚",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                },
+                {
+                    "content": "落地签 1.有效期 6 个月以上的护照； 2.行程表+住宿表（旅行社提供） 1.单次落地签证 USD60/人，双次落 地签证 USD90/人，现付海关； 2.香港护照免签； 3.澳门护照为落地签资料同样； 3.台湾护照提前办理电子签证（护照 电子版+2 寸白底彩照，需提前支付 50 美金，预计 3 周时间，以实际为准， 落地再付 45 美金/双次入境）。",
+                    "country": "津巴布韦",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                },
+                {
+                    "content": "落地签 1.有效期 6 个月以上的护照； 2.两寸白底彩照 2 张； 3.行程表&住宿表（旅行社提供）； 4.入境卡。 1.单次落地签证 USD30/人（只支持 刷卡支付）； 2.香港护照免签，澳门护照、台湾护 照均为落地签资料同样。",
+                    "country": "博茨瓦纳",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                },
+                {
+                    "content": "免签 1.香港护照免签 2.澳门护照、台湾护照提前办理电子 签证（护照电子版+2 寸白底彩照，需 提前支付 50 美金，预计 3 周时间， 以实际为准）",
+                    "country": "",
+                    "district": "",
+                    "freeVisa": "1",
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            }
+        ],
+        "departDate": [
+            ""
+        ]
+    },
+    "cost": {
+        "bookRule": "1. 根据《旅游法》规定，旅行者不得脱团，如走行程中擅自脱团、离团、滞留等，旅行社将向公安机关、旅游主管 部门、我国驻外机构报告，由此产生的一切法律后果由旅游者承担； 2. 我社保留因地接旺季涨价、酒店变更、汇率变化或其他不可抗力原因而调整最终报价和行程的权利； 3. 行程中有部分景点，列明入内参观，如博物馆、神殿等，如遇事故、休息、关闭维修等导致未能入内参观，则退 回有关门票费用，客人不得在团归后争议投诉追讨； 4. 旺季出发（例如遇佛牙节、圣诞节等）将有附加费，请报名时查询； 5. 酒店大床房间数有限，若有需要请在预订时说明，大床房或标准间房型须依入住当日实际 Check In 情形而定； 6. 强烈建议客人自行购买“游客人身意外保险”，如旅行社出资为游客投保，如客人发生意外伤害事件，视事实情 况保险公司对此承担相应的法律责任，游客获得保险公司理赔金额后，相应免除旅行社的赔付责任。“游客人身意 外保险”的适用范围以及条件以“中国人民财产保险股份有限公司境外旅行意外伤害保险条款”为原则； 7.全程请游客注意人身及产品安全，不要前往不安全的地方，自由活动不要单独行动。老人、儿童需有家人陪伴及照 顾； 8.不要参加高风险活动。参加任何项目请您量力而行； 9.持外籍护照或任何非中国大陆居民护照的旅行成员，务必持有并携带有效中国多次往返签证和外籍护照原件及必备 的旅行证件； 10.贵重物品(现金，护照等)请随身携带或寄放在住宿饭店的保险箱内，絶不可放在车上或房间内等，如有遗失旅客 必须自行负责，与接待旅行社责任无关； 11.饭店游泳池如时间未开放及无救生人员在现场，请勿自入泳池内，否则如有意外发生须自行负责； 12.当地的自选项目经营公司繁多，鱼龙混杂，我社合作的接待社都是合法经营、保障齐全的资格社，为保证游客安 全，参团客人不能私自预定行程外的项目，如自行预定，则视为脱团行程，视为客人自愿放弃所有行程，未享用的 行程内项目，费用无法退回。",
+        "costExclude": "1.全程单房差 6000 元/人（温馨提示：非洲大部分酒店 1 人入住补单房差默认为入住一间大床房，且大 部分酒店不能安排 1 人入住一间双人房，敬请谅解）； 2.行程表以外费用； 3.纳米比亚旅游签证 1100、境外司机&向导服务费 1200（不含 RMB 2300/人，请报名时和团费一起结 算）；津巴布韦落地签证 90 美金/人及博茨瓦纳单次落地 30 美金/人（海关只支持刷卡，带现金的客人 可以交给向导统一刷卡）。 4.行李物品的搬运费、保管费及超重费；如行李或物品丢失、被盗等意外损失费用； 5.一切个人消费（如：电话、传真、电视付费频道、洗衣、饮料等）； 6.旅游者因违约、自身过错或自身疾病引起的人身和财产损失； 7.非我社所能控制因素下引起的额外费用，如：自然灾害、罢工、境外当地政策或民俗禁忌、景点维修等； 8.游客人身意外保险及客人往返出境口岸的一切费用。 9. 12 周岁以下，不占床按照成人 9.5 折，占床与成人同价（司导服务费不打折）；建议 1.4 米以上儿童 占床。",
+        "costInclude": "",
+        "lineReturns": [
+            {
+                "begin": "前 30 天",
+                "cost": "50%团款损失（机位定金+酒店损失）",
+                "end": "前 14 天"
+            },
+            {
+                "begin": "前 14 天",
+                "cost": "只可退 1000 元/人餐费和景点门票",
+                "end": "前 8 天"
+            },
+            {
+                "begin": "前 7 天",
+                "cost": "全款损失",
+                "end": "前0天"
+            }
+        ],
+        "otherRule": "1.本产品不接受 80 岁以上客人（包含）预定，敬请原谅； 2.65 岁以上老人参团，必须出示健康证明并由 20 岁以上成年亲属陪同，及签署免责协议书； 3.18 岁以下客人必须至少由一名成年亲属陪同方可报名，18 岁以下小童出境旅游，必须带齐户口本，出生证等证件， 以备在办理登机时航空公司检查； 4.孕妇客人参团，必须出示医院可乘机证明并有至少一名成年亲属陪同，及签署免责协议书； 5.本产品为散客拼团，凡单人或单数（例如三人）报名而未能安排同房，须缴纳单人房差或拼住二人、三人间或套房 （四人间），因酒店旺季房间紧张，我社有权力提前说明情况并调整夫妻及亲属的住宿安排，或调整安排三人间或 四人间住宿，请给予理解。",
+        "returnContent": "1、 以收到定金 10000 元/人为确认参团留位，如取消定金不退，并于出发前 14 天付清全款； 2、 团队出发前 30 天—14 天取消，游客需支付 50%团款损失（机位定金+酒店损失）； 3、 团队出发前 14 天—8 天取消，只可退 1000 元/人餐费和景点门票； 4、 团队出发 7 天内取消，全款损失。",
+        "selfCostContent": "",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "",
+                "name": "",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "",
+        "shops": [
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "",
+                "shopProduct": "",
+                "stay": ""
+            }
+        ],
+        "tipsContent": ""
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "下午：请各位贵宾出发当日下午于北京/上海/广州/成都国际机场集合，搭乘飞机飞往纳米比亚。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "飞机上",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京/上海/广州/成都",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "下午：抵达后我们将乘坐旅游车进行城市观光，参观骑者纪念碑, 德国古教堂, 国会大厦等地。 最著名的福音路德大教堂，这座超过 100 年历史的哥特式教堂被纳米比亚人视作珍宝，红色墙面和彩色玻璃依然 鲜明。国会花园位于纳米比亚国会前，风景如画。 【纳米比亚博物馆】(外观)是纳米比亚悠久历史的缩影，是承载了历史、经济、文化、民俗风情的万花筒，馆内 设有多个分馆，是历史文化爱好者向往的胜地（博物馆有时候会不提前预警的临时关闭, 博物馆是免费的，如关闭, 就取消此景点)。 入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "温得和克四星级酒店 windhoek country club 或同级酒店",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "北京/上海/广州/成都",
+                    "departureTime": "",
+                    "destination": "亚的斯亚贝巴",
+                    "trafficType": "飞机"
+                },
+                {
+                    "departure": "亚的斯亚贝巴",
+                    "departureTime": "",
+                    "destination": "温得和克",
+                    "arrivalTime": "",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京/上海/广州/成都亚的斯亚贝巴",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "上午：早餐后驱车前往【苏斯斯黎红沙漠】。 下午：抵达后入住酒店休息。 推荐自选自费：sundowner",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "园外特色山庄 Namib Desert Lodge 酒店或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "温得和克",
+                    "departureTime": "",
+                    "destination": "苏丝斯黎红沙漠",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "温得和克–苏丝斯黎红沙漠（车约 5 小时）",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "上午：早餐后安排前往【45 号沙丘】，它因为距离公园入口处 45 公里而得名。 乘坐四轮敞篷车参观全球最高的沙丘及奇景“死亡谷”（游览时间约 2-3 小时）。步行进入死亡谷观看千年古树 及壮观的红色沙丘, 还有机会攀登及观赏全球最高的沙丘, 在晨曦下它美丽得像海市蜃楼图画，金橘色的沙粒烁般 照耀大地。 下午：我们前往美丽的海滨城市鲸湾港。鲸湾港是纳米比亚也是整个西南非洲最大的港口，这里有南部非洲最大 火烈鸟栖息地泻湖，可以欣赏到火烈鸟优雅的身姿。途径废弃汽车和仙人掌组合成的【小镇 Solitaire】休息拍照， 途径南回归线标志打卡拍照。 入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "入住鲸湾海边特色酒店 Blue whale 或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "苏丝斯黎红沙漠",
+                    "departureTime": "",
+                    "destination": "鲸湾",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "苏丝斯黎红沙漠-鲸湾",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "鲸湾海边特色酒店 Blue whale 或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 3 小时",
+                    "description": "成千上万只的海豹生活在此地，还有海豚跟着船一同玩耍 跳跃,船只乘风破浪前往著名的景点-鹈鹕岬 (Pelican point), 在此享用鲜美的生蚝, 香槟酒及各式当地点心另人 心旷神怡，午餐船上享用。",
+                    "name": "鲸湾港口出海"
+                },
+                {
+                    "name": "三明治湾冲沙",
+                    "description": "特别安排搭乘越野车前往三明治湾沙漠巡游， 在此可以观 赏大西洋海岸倒沙入海的奇观。在沙漠中行驶会看到海市蜃楼的景象，令人感觉海上漫进了沙漠，难分沙海。 入住酒店休息。",
+                    "consumingTime": "约 3.5 小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "鲸湾",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "上午：早餐后，参观【沉船景点】，可以拍照打卡留念， 接着前往斯瓦克蒙德小镇市区观光，此城西临大西洋，而其他三面则被沙漠包围, 是一座具有浓厚德国风情的海滨 城市。此城常有大雾笼罩, 搭配沙漠及绵密的海岸线, 景色有如幻境一般。镇内悠闲的逛街, 享受当地悠闲的气氛。 下午：前往火烈鸟的聚集地-鲸湾【鸟天堂】，在这里您可以徒步进入，观看火烈鸟，鹈鹕，海鸥等鸟类。之后前 往泻湖拍摄火烈鸟日落。（温馨提示：火烈鸟的观赏受到自然因素影响，旅行社无法保证一定能观看到。） 晚餐：于海边【栈桥餐厅（The raft Restaurant）】享用西式晚餐，餐厅在泻湖延伸出去，视野非常好，白天可 以看到成群的海鸥，鹈鹕，在湖边超级可爱！",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "鲸湾海边四星酒店 Protea pelican 或同级",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "鲸湾",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "上午：早餐后驱车前往著名的【辛巴红人部落】（游览时间约 1 小时），辛巴部落 Himba 是纳米比亚最具特色 的传统部落，至今仍维持着 500 年前的生活方式，他们的生活方式和习俗都一往如昔，其独特的原始人文景观为 世人所惊艳。辛巴女人终年用红土混合黄油涂抹在皮肤上和头发上，因此一般称之为红人。 下午：随后返回首都温得和克。可以前往当地的露天手工艺品市场。选取心仪手办。 晚餐：于【乔的啤酒屋（Joes Beer House）】享用晚餐，这个鼎鼎大名的啤酒屋是温得和克必去的特色餐厅， 德国醇酿啤酒，招牌烤猪手，多样的鲜美野味，让每一个饕客赞不绝口。餐厅装修很有特色，郁郁葱葱的树下散 落着很多房间和酒吧间，到处摆放着老板乔收集的动物标本，不经意抬头就可能有猎豹或长颈鹿正看着你，栩栩 如生，给人一种在非洲丛林用餐的感觉。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "温得和克四星级酒店 windhoek country club 或同级酒店",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "鲸湾",
+                    "departureTime": "",
+                    "destination": "红泥人",
+                    "trafficType": "汽车"
+                },
+                {
+                    "departure": "红泥人",
+                    "departureTime": "",
+                    "destination": "温得和克",
+                    "arrivalTime": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "鲸湾-红泥人-温得和克",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "当地四星象山酒店或同级",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "前往参观有 1500 年历史的巨大的【猴子面包树】（游览约 20 分 钟），听听向导介绍这种树的神奇之所在。",
+                    "name": "瀑布城（津巴布韦）"
+                },
+                {
+                    "name": "赞比西河游船",
+                    "description": "倘佯于风景秀丽的非洲第四大河赞比西河上，寻找 隐藏于两岸丛林的各种珍禽异鸟，免费品尝各种酒水饮料，夕阳落下时的非洲大地的落日余晖，一定让您终身难 忘。",
+                    "consumingTime": "约 2 小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "温得和克",
+                    "departureTime": "",
+                    "destination": "瀑布城（津巴布韦）",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "温得和克瀑布城（津巴布韦）（待告）",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "上午：乘车前往【乔贝国家公园】（游览约 2 小时），抵达后乘坐专业吉普车（园区拼车），观赏野生动物！ 下午：【乘坐快艇游览乔贝河】，观赏野生动物！ 入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "四星 cresta mowana 或 Chobe Safari lodge 或同级",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "瀑布城（津巴布韦）",
+                    "departureTime": "",
+                    "destination": "乔贝（博茨瓦纳）",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "瀑布城（津巴布韦）-乔贝（博茨瓦纳）",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "上午：清晨再次乘坐越野吉普车 Safari（当地拼车），寻找非洲五霸。 早餐后乘车前往赞比亚利文斯通参观【利文斯通博物馆】（游览约 1 小时），之后前往观赏【赞比亚段大瀑布】 （游览约 1-1.5 小时）赞比亚段瀑布公园内观景点距离瀑布更近。站在园内应卡翁达提议于 1967 年凌空而建的 刀刃桥上，直面瀑布，人仿佛与瀑布融为一体。后乘车返回维多利亚瀑布城， 路上参观建于 1905 年的【维多利亚瀑布大桥】，从另一个角度欣赏波澜壮阔的峡谷以及大瀑布，幸运的话还可 以看到蹦极爱好者从 110 米的大桥上一跃而下。 下午：游览【维多利亚大瀑布津巴布韦段】（游览约 1.5-2 小时）。 维多利亚瀑布是世界三大瀑布之一，也是世 界上最壮观的单体瀑布，穿越风姿绰约的热带雨林，您将依次观赏到魔鬼瀑布，主瀑布，彩虹瀑布，马靴瀑布， 东方瀑布。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "当地 四星象山酒店或同级",
+                    "star": "实现"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "乔贝（博茨瓦纳）",
+                    "departureTime": "",
+                    "destination": "利文斯通（赞比亚）",
+                    "trafficType": "汽车"
+                },
+                {
+                    "departure": "利文斯通（赞比亚）",
+                    "departureTime": "",
+                    "destination": "瀑布城（津巴布韦）",
+                    "arrivalTime": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "乔贝（博茨瓦纳）-利文斯通（赞比亚）-瀑布城（津巴布韦）",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "上午：酒店早餐后，前往瀑布城（津巴布韦）机场，返回国内。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "飞机上",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "瀑布城（津巴布韦）",
+                    "departureTime": "",
+                    "destination": "亚的斯亚贝巴",
+                    "trafficType": "飞机"
+                },
+                {
+                    "departure": "亚的斯亚贝巴",
+                    "departureTime": "",
+                    "destination": "北京/上 海/广州/成都",
+                    "arrivalTime": "",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "瀑布城（津巴布韦） 亚的斯亚贝巴北京/上 海/广州/成都",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 0,
+            "content": "全天: 安全抵达北京/上海/广州/成都国际机场，结束难忘的四国旅程！",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京/上海/广州/成都",
+            "tripDay": 12
+        }
+    ]
+}

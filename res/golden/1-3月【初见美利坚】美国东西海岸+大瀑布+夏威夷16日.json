@@ -1,0 +1,792 @@
+{
+    "product": {
+        "childAgeBegin": "0",
+        "childAgeEnd": "0",
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "北京",
+        "dests": [
+            {
+                "countryName": "美国",
+                "destCityName": "",
+                "destProvinceName": "纽约"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "",
+                "destProvinceName": "费城"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "",
+                "destProvinceName": "华盛顿"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "",
+                "destProvinceName": "布法罗"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "",
+                "destProvinceName": "拉斯维加斯"
+            },
+            {
+                "countryName": "美国",
+                "destCityName": "",
+                "destProvinceName": "洛杉矶"
+            }
+        ],
+        "insurance": [
+            {
+                "content": "1. 出行前请确保自身身体条件能够完成旅游活动，旅行社建议游客在出行前根据自身实际情况自行额外选择和购买旅 行意外伤害保险或旅行境外救援保险； 2. 旅游意外伤害险或救援险承保范围不包括以下情况，（1）游客自身带有的慢性疾病；（2）参加保险公司认定的高 风险项目如跳伞、滑雪、潜水等；（3）妊娠、流产等保险公司规定的责任免除项目； 3. 我社所上境外旅游意外伤害保险为我社代投保项目，游客所涉及到的任何保险问题请直接与保险公司联系（咨询及 救援电话86-10-64105913）",
+                "name": "出境旅游境外意外伤害保险",
+                "typeName": ""
+            }
+        ],
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "行程特色"
+            },
+            {
+                "name": "多样购物"
+            },
+            {
+                "name": "特色美食"
+            }
+        ],
+        "productSubtitle": "",
+        "productTitle": "【初见美利坚】美国东西海岸+大瀑布+夏威夷16日",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": ""
+            }
+        ],
+        "themes": [
+            {
+                "name": "【初见美利坚】美国东西海岸+大瀑布+夏威夷16日"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "KE",
+                "airlineName": "",
+                "arriveAirportName": "ICN",
+                "arriveTime": "17:45+1",
+                "days": "1",
+                "flightNo": "KE054",
+                "flightSort": "",
+                "startAirportName": "HNL",
+                "startTime": "11:40 "
+            },
+            {
+                "airlineCode": "KE",
+                "airlineName": "",
+                "arriveAirportName": "PEK ",
+                "arriveTime": "22:15",
+                "days": "",
+                "flightNo": "KE853",
+                "flightSort": "",
+                "startAirportName": " ICN",
+                "startTime": "20:55"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "KE",
+                "airlineName": "",
+                "arriveAirportName": "ICN ",
+                "arriveTime": "17：35",
+                "days": "0",
+                "flightNo": "KE856",
+                "flightSort": "",
+                "startAirportName": " PEK",
+                "startTime": "14：15"
+            },
+            {
+                "airlineCode": "KE",
+                "airlineName": "",
+                "arriveAirportName": "JFK ",
+                "arriveTime": "19：30",
+                "days": "",
+                "flightNo": "KE085",
+                "flightSort": "",
+                "startAirportName": " ICN",
+                "startTime": "19：30"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "",
+        "lineFeature": "绝世美景-尼亚加拉大瀑布 ★近距离的观赏自由女神像—自由女神游船 ★美国最大的城市文化公园—巴尔波亚公园 ★充满墨西哥异域风情的城市—圣地亚哥 ★洛杉矶市区深度游;  ★摄影圣地—马蹄湾;  ★国会山庄入内 ★美国母亲之路—66号公路 ★夏威夷小环岛游 ★夏威夷珍珠港 ★美国名校-宾夕法尼亚大学/加州大学洛杉矶分校",
+        "lineSimpleTitle": "美国东西海岸+大瀑布+夏威夷",
+        "lineSortTitle": "",
+        "lineTitle": "",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "",
+                "countryName": "韩国",
+                "provinceName": "首尔"
+            }
+        ],
+        "tripDays": "16",
+        "tripNight": "",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "拒签风险的告知 1. 根据美国大使馆新规定，组团社在预约签证面谈时必须向大使馆提供签证费收据号码，由大使馆预约中心决定最终 面试的日期和时间，因此随团办理签证的客人，旅游者需预约前向组团社支付签证费用于签证预约。签证费用作为 行前实际损失不予退还； 2. 随团办理签证的旅游者，请您务必在签证截止日前递交签证材料，签证材料送进使馆后，如遇拒签或行政复议，未 出票的旅游者必须承担签证费损失； 3. 如持非中华人民共和国护照的客人在国内参团往返，请务必自行确认是否免签及跟团出境后团队返回时能再次入中 国境内；如因客人原因不能出入境的，损失由客人自理;  4. 能否顺利获得签证、是否准予出、入境，为有关机关的行政权利。如因游客自身原因或因提供材料存在问题不能及 时办理签证而影响行程的，以及被有关机关拒发签证或不准出入境的，相关责任和费用由游客自行承担；",
+                    "country": "美国",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            }
+        ],
+        "departDate": [
+            ""
+        ]
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "1. 美国签证费； 2. 护照费、申请签证中准备相关材料所需的制作、手续费，如未成年人所需的公证书、认证费； 3. 美国EVUS（签证更新电子系统）费用 ;  4. 全程境外服务费共计1600元/人； 5. 境外段航班行李托运费以及任何一件超出免费托运行李标准的费用，行李在航班托运期间所造成损坏的经济损失和 责任； 6. 一切因个人原因所产生的费用，包括滞留，违法，通讯，机场和酒店行李搬运服务，以及自由活动期间的餐食和交 通费； 7. 由恶劣天气引起或间接性导致交通（航班，车辆，船只)的延误或故障，及由此发生的行程变更产生的经济损失和 责任；",
+        "costInclude": "1. 国际往返机票及美洲境内段机票（经济舱、含机场税）； 2. 中文领队兼导游服务； 3. 行程内所示境外旅游巴士（每人一正座）； 4. 行程内所示景点首道门票； 5. 行程内所示的早，午，晚餐；特色餐；早餐为酒店内、外或打包早餐（简餐或快餐）； 6. 行程内所标明的酒店或同级酒店，双人标准间酒店住宿； 7. 出境旅游境外意外伤害保险。",
+        "lineReturns": [
+            {
+                "begin": "",
+                "cost": "",
+                "end": ""
+            }
+        ],
+        "otherRule": "参团预定提示（补充约定） 一．酒店星级与餐食标准 1. 美洲不同的国家有不同的酒店星级评判标准，大部分酒店没有星级的挂牌，但是这类酒店都具备等同于行程中指定 同级或同系列酒店的设施标准和接待能力； 2. 正餐以中式餐食为主（桌餐标准为十人一桌为六菜一汤、八人一桌为五菜一汤或中式自助餐） 3. 北美酒店早餐厅通常只提供面包、咖啡、茶、果汁等，相对其他目的地较为简单； 4. 北美中餐厅在规模和口味上与国内相比有很大的差距，中餐厅规模都比较小，环境不如国内，饭菜口味为了适应当 地的饮食习惯都已经比较西化，而且由于当地原材料和调料不够齐全，口味不纯正，故希望游客能够理解；",
+        "returnContent": "",
+        "selfCostContent": "1. 美洲各地区都具有深厚的文化底蕴，以下推荐的自费项目作为在旅途中时间充裕，游览闲暇之余，增长见识的补充。您可以在自 由活动期间，根据自己的喜好，自愿选择自费项目，相信美洲的自费活动会带给您不同的体验； 2. 所有自费项目绝不强迫，如达到自费项目对应的成行人数，且在时间、天气等因素允许的前提下，旅行社予以安排。如因行程安 排、天气、景区临时关闭等原因无法安排，请您理解； 3. 由于我们是一个团体，在活动时不一定事事都能达成一致，基于公平的原则，我们采取少数服从多数的原则，如果出现多数人参 加的情况，请少数不参加的人配合自费活动的安排，给您带来了不便还请谅解； 4. 自费项目参加与否，由旅游者根据自身需要和个人意志，自愿、自主决定，旅行社全程绝不强制参加自费项目。如旅游者不参加 自费项目的，将根据行程安排的内容进行活动。旅行社不会售卖此表格以外的任何自费项目，如果全体客人一致要求参加非推荐自 费项目，请全团客人签字同意，导游方可安排； 5. 自费项目为统一标价（如没有明确标明，则儿童与成人同价，年龄在12周岁以下的为儿童），简要内容参见本补充协议自费项 目的介绍，如您同意参加，须在表格上勾选后书面签字确认。一旦发生纠纷，我社将把您签字确认的文件作为处理依据，以保证您 的权益；此售价都是满足一定人数的优惠价（具体的人数要求详见下表），如果人数不足规定人数的话报价将会上涨，具体上涨多 少根据参加人数而定，或导游将取消此项自费活动的安排，请您谅解； 6. 请您在选择自费项目之前慎重考虑，一旦确认参加并付费后，导游将会进行预订，费用产生后旅游者取消的，将无法退还您费用。 7. 由于一些客观条件，领队可能无法陪同客人一起参加自费，请各位客人谅解。",
+        "selfCosts": [
+            {
+                "address": "夏威夷",
+                "fee": "成人： $125/人(10 人以上) 儿童价（2-11岁）： $95/人",
+                "name": "大环岛精华游",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "夏威夷",
+                "fee": "成人： $165/人(人数不限) 儿童价（2-11岁）： $79/人 儿童要求1米以上",
+                "name": "夏威夷亚特兰蒂 斯潜水艇",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "洛杉矶及 周边",
+                "fee": "$265/人(15 人以 上）",
+                "name": "环球影城",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "圣地亚哥",
+                "fee": "$90/人(15 人以上）",
+                "name": "美墨边境游",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "拉斯维加斯及周边",
+                "fee": "普通票 $128/人(10 人以上) 贵宾票 $178/人 (10人以上)",
+                "name": "Ka Show（大型 歌舞表演） 周四周五休息",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "拉斯维加 斯及周边",
+                "fee": "$80/人(15 人以上)",
+                "name": "拉斯赌城夜游",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "羚羊谷及周边",
+                "fee": "$265/人",
+                "name": "羚羊彩穴",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "科罗拉多大峡谷",
+                "fee": "$265/人",
+                "name": "科罗拉多大峡谷南峡",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "纽约及周 边",
+                "fee": "$80/人(15 人以上)",
+                "name": "北美最大的 Woodbury  Outlets 购物（中 文：伍德柏瑞奥 特莱斯）",
+                "remark": "",
+                "stay": "约4小时"
+            },
+            {
+                "address": "纽约及周 边",
+                "fee": " $65/人（全团）",
+                "name": "纽约曼哈顿夜游",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "纽约及周 边",
+                "fee": "$85/人",
+                "name": "帝国大厦登顶 或 洛克菲勒中心",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "纽约及周 边",
+                "fee": "$160/人(15人以上）",
+                "name": "大都会艺术博物 馆+纽约中央火 车站+航空母舰博物馆",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "布法罗",
+                "fee": "$180/人",
+                "name": "尼亚加拉瀑布 直升飞机",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "棕榈泉奥特莱斯坐落在一座雪山脚下，占地不小，环境很好，是美国西南部最 大的名牌大卖场，共有180家左右的商店，各种名牌应有尽有，其中包括阿玛尼休闲系列AXArmani， 巴布瑞Burberry， BottegaVeneta（BV），潮流服饰CK，男女包Coach，精品鞋类Cole Haan， 第09天 潮流品牌Diesel，杰尼亚Zegna，芬迪Fendi，乔治阿玛尼GiorgioArmani，古琦Gucci，潮流品牌 Guess，法国鳄鱼Lacoste，九西NineWest，普拉达Prada，奢侈品牌SalvatoreFerragamo，奢 侈品牌St.John，精品鞋类TOD’S，范思哲Versace等。然后继续前往洛杉矶，抵达后入住酒店休 息。",
+        "shops": [
+            {
+                "address": "棕榈泉奥特莱斯",
+                "remark": "",
+                "shopName": "棕榈泉奥特莱斯",
+                "shopProduct": "共有180家左右的商店，各种名牌应有尽有，其中包括阿玛尼休闲系列AXArmani， 巴布瑞Burberry， BottegaVeneta（BV），潮流服饰CK，男女包Coach，精品鞋类Cole Haan， 第09天 潮流品牌Diesel，杰尼亚Zegna，芬迪Fendi，乔治阿玛尼GiorgioArmani，古琦Gucci，潮流品牌 Guess，法国鳄鱼Lacoste，九西NineWest，普拉达Prada，奢侈品牌SalvatoreFerragamo，奢 侈品牌St.John，精品鞋类TOD’S，范思哲Versace等。",
+                "stay": "约4小时"
+            }
+        ],
+        "tipsContent": "1. 由于团队行程中所有住宿、用车、景点门票等均为旅行社打包整体销售，因此若游客因自身原因未能游览参观的则 视为自动放弃，旅行社将无法退费用，请游客谅解； 2. 领队会根据实际情况酌情安排部分景点入内参观；另外，行程中未标注入内参观的景点是不能够入内参观的，均为 参观外观； 3. 因不可抗拒的客观原因和非旅行社原因（如天灾、战争、罢工、政府行为等）或航空公司航班延误或取消、使领馆 签证延误等特殊情况，我公司有权取消或征得旅游者同意后变更行程，一切超出费用（如在外延期签证费、住、食 及交通费、国家航空运价调整等），旅行社有权追加差价；"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "今日首都机场集合乘机经首尔转机飞往纽约，抵达后接机，然后入住纽约新泽西州酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "17：35",
+                    "departure": "北京",
+                    "departureTime": "14：15",
+                    "destination": "首尔",
+                    "trafficType": "飞机、汽车"
+                },
+                {
+                    "departure": "首尔",
+                    "departureTime": "19：30",
+                    "destination": "纽约",
+                    "arrivalTime": "19：30",
+                    "trafficType": "飞机、汽车"
+                }
+            ],
+            "title": "北京首尔纽约（新泽西州）",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约1个小时",
+                    "description": "女神 像高约46米是整个美国的象征，被列入世界文化遗产。她位于哈德逊河口附近的自由岛，船上乘客可 以近距离看见屹立的女神高举自由火炬雕像。",
+                    "name": "自由女神像 环岛游船（不上岛）"
+                },
+                {
+                    "name": "华尔街 & 纽约证券交易所 & 铜牛",
+                    "description": "返 回码头后步行游览华尔街，这里有纽约证券交易所和金融铜牛，铜牛叫嚣着权力与金钱已有近三十年， 直至2017年无畏女孩雕塑的出现，直视铜牛面无惧色，成为了纽约最新、最热门的打卡地点。走在 这片区域，别忘了纽约金色世界背后的复杂、矛盾与挣扎。",
+                    "consumingTime": "约20分钟"
+                },
+                {
+                    "name": "联合国总部大楼】（外观）",
+                    "description": "是 世界上的一块“国际领土”，飘满各国国旗的广场上，打结手枪雕塑寓意着世界人民的和平心愿。",
+                    "consumingTime": "约15分钟"
+                },
+                {
+                    "name": "第五大道自由活动",
+                    "description": "为了便于您更充分的享受第五大道购物的乐趣，今日午餐在第 五大道自理）闻名全球的纽约第五大道过去一年的租金上涨38%，以年租金每平方米7.4万元人民币 名列第一，成为全球最贵的购物街。尽管如此，还是有很多名牌企业设法把自己的分店开到这条纽约 市最繁华的街道，向股东和潜在投资者展示着自己的实力。晚上入住新泽西州酒店休息。",
+                    "consumingTime": "约1.5小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "纽约（新泽西州）",
+                    "departureTime": "",
+                    "destination": "纽约（曼哈顿）",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "纽约（新泽西州）纽约（曼哈顿）纽约（新泽西州）",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "全天自由活动",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "纽约（新泽西州）",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往宾夕法尼亚州最大城市—费城，它是美国独立战争时的首都，为美国做出巨大贡献的 富兰克林的出生地。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 30 分钟",
+                    "description": "宾夕法尼亚大学，是一所私立研究型大学，常春藤盟校之一，大学创建于 1740 年，是美国第五古老的高等教育机构，也是美国第一所从事科学技术和人文教育的现代高等学校。该 校的创建者是美利坚合众国著名开国元勋之一的本杰明·富兰克林。",
+                    "name": "宾夕法尼亚大学"
+                },
+                {
+                    "name": "【独立宫】（外观）、早 期国会（外观）和独立广场",
+                    "description": "独立宫是美国著名历史纪念建筑，在费城国家独立历史公 园内，1732～1756年建造，是一座两层旧式红砖楼房，乳白色的门窗，乳白色的尖塔，正屋和塔之 间镶嵌着一座具有纪念意义的自由钟。",
+                    "consumingTime": "共约15分钟"
+                },
+                {
+                    "name": "自由钟",
+                    "description": "自由钟是美国 人的骄傲，是为自由而奋斗不止的一种精神象征。",
+                    "consumingTime": "约30分钟"
+                },
+                {
+                    "name": "白宫TheWhite Housre",
+                    "description": "可以说是世界最有权力的地方，因为里面住着美国总统，是美国总统的 居住和办公的地点。白宫是一幢白色的新古典风格砂岩建筑物，位于华盛顿哥伦比亚特区西北宾夕法 尼亚大道1600号。",
+                    "consumingTime": "约15分钟"
+                },
+                {
+                    "name": "华盛顿纪念碑（车览）",
+                    "description": "金子塔式小尖顶抜地而起高耸入云，丰碑高达555英尺无 论你以任何交通工具，从任何方向来到华盛顿时，首先映入你眼帘的就是这座用来纪念华盛顿伟业的 纪念碑.",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "林肯纪念堂",
+                    "description": "仿古希腊巴特农神庙式的大理石古典建筑。环绕着纪念堂 36根白 色的大理石圆形廊柱，象征林肯任总统时所拥有的36个州（",
+                    "consumingTime": "约15分钟"
+                },
+                {
+                    "name": "国会大厦(入内）",
+                    "description": "美国国会的办公大楼，建在一处高28米的国会山上。（如遇特殊活 动或假期国会关闭，则改为外观）",
+                    "consumingTime": "约30分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "纽约",
+                    "departureTime": "",
+                    "destination": "费城",
+                    "trafficType": "汽车"
+                },
+                {
+                    "departure": "费城",
+                    "departureTime": "",
+                    "destination": "华盛顿",
+                    "arrivalTime": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "纽约费城华盛顿",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往【尼亚加拉大瀑布】，瀑布位于加拿大和美国交界的尼亚加拉河中段地区，有着世界七 大奇景之一的美誉， 同时也是世界三大瀑布之一。它以宏伟的气势，丰沛而浩瀚的水汽，震撼了所有 的游人。从伊利湖滚滚而来的尼亚加拉河水流经此地，突然垂直跌落51米，巨大的水流以银河倾倒之 第05天 势冲下断崖，声及数里之外，场面震人心魄，形成了气势磅礴的大瀑布。抵达后在尼亚加布畔 自由活动（约1.5小时）。晚上入住酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "华盛顿",
+                    "departureTime": "",
+                    "destination": "布法罗",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "华盛顿布法罗",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "今日乘机飞往不夜赌城—拉斯维加斯，抵达后接机送至酒店休息，您可以自由活动。 晚上建议行程：夜游拉斯维加斯（约3小时） ： 参观世界第一大酒店威尼斯人酒店、音乐喷泉、火山爆发。素有不夜城之称的拉斯维加斯，最大的看 点是它的夜景。每当夜幕降临，华灯初上，那流动的灯光绚丽无比，映亮了整个夜空，尤以恺撒宫的 第06天 灯光最夺目，它由无数个霓虹灯组成，每半小时变化一次颜色，美轮美奂、五光十色，光控、声控等 现代高科技产品在这里云集，吸引着无数游客驻足观看。音乐喷泉的水景表演，又称水舞芭蕾，花10 亿美元造就的音乐喷泉，以其灵活多变的“姿态”，刚柔并济的演绎一首首动听的歌曲。拉斯维加斯老 城区 (Downtown)，顶部精彩绝伦的天幕灯光秀绝对是另人难以忘怀的。您还可观赏耗资116亿世界 最大的球星沉浸式体验中心-拉斯新地标拉斯之眼（MSGSphere）带来的视觉盛宴（外观）。 然后入住酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "布法罗",
+                    "departureTime": "",
+                    "destination": "拉斯维加斯",
+                    "trafficType": "汽车、飞机"
+                }
+            ],
+            "title": "布法罗中转城市拉斯维加斯 ",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往西部小镇，晚上入住酒店休息。 途中建议行程：自费前往观赏【羚羊彩穴】（游览约2小时） ，羚羊峡谷是地球上最著名的狭缝峡谷。 由于狭缝太小，光线常被岩壁两侧的凸岩阻断，游客在峡谷底永远看不到狭缝全貌，只能看到一个又 一个奇形怪状的光洞。由于没有任何人造灯光装置，游客的想象力没有约束，而且在不同季节、不同 时间可以看到不同的影像。造物主赋予羚羊峡谷不可思议的魅力，羚羊峡谷给了来此的游人以出乎意 料的震撼、惊喜和想象力。 然后继续驱车前往观赏【马蹄湾】（停留约30分钟），此为科罗拉多河在此270度大回转切割而成。 马蹄湾是惊魂夺魄的，却又是让人屏息静气的。站在悬崖边俯瞰300米下的科罗拉多河，不禁感叹造 物主神奇的魅力！晚餐后入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "西部小镇酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "拉斯维加斯马蹄湾西部小镇",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往“水上赌城”拉芙林。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "西部小镇66号公路小镇金曼拉芙琳",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往洛杉矶，中途特别安排：棕榈泉奥特莱斯DesertHills Premium Outlets购物活动。 （停留时间约4小时）棕榈泉奥特莱斯坐落在一座雪山脚下，占地不小，环境很好，是美国西南部最 大的名牌大卖场，共有180家左右的商店，各种名牌应有尽有，其中包括阿玛尼休闲系列AXArmani， 巴布瑞Burberry， BottegaVeneta（BV），潮流服饰CK，男女包Coach，精品鞋类Cole Haan，  潮流品牌Diesel，杰尼亚Zegna，芬迪Fendi，乔治阿玛尼GiorgioArmani，古琦Gucci，潮流品牌 Guess，法国鳄鱼Lacoste，九西NineWest，普拉达Prada，奢侈品牌SalvatoreFerragamo，奢 侈品牌St.John，精品鞋类TOD’S，范思哲Versace等。然后继续前往洛杉矶，抵达后入住酒店休 息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "拉芙琳",
+                    "departureTime": "",
+                    "destination": "棕榈泉奥特莱斯",
+                    "trafficType": "汽车"
+                },
+                {
+                    "departure": "棕榈泉奥特莱斯",
+                    "departureTime": "",
+                    "destination": "洛杉矶",
+                    "arrivalTime": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "拉芙琳棕榈泉奥特莱斯洛杉矶",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约45分钟",
+                    "description": "前往格里菲斯公园GriffithPark，在 这里进入洛杉矶地标天文台上俯瞰洛杉矶全景与好莱坞的半山标志【HOLLYWOOD】，甚至还能远观 太平洋。",
+                    "name": "格里菲斯天文台（入内）"
+                },
+                {
+                    "name": "星光大道",
+                    "description": "2400多个明星在上面留下签名和手印，这里的每颗星 都表达了对电影，广播，电视，话剧行业作出贡献的两千多名艺术家的敬意。",
+                    "consumingTime": "约15分钟"
+                },
+                {
+                    "name": "杜比剧院（外观）",
+                    "description": "有机会从剧院舞台正中央瞭望观众席上大腕明星们曾经坐过的席位， 神圣之感油然而生 实实在在体验一把奥斯卡金像奖得主在“红毯之上”的感受。",
+                    "consumingTime": "约10分钟"
+                },
+                {
+                    "name": "中国大剧院（外观）",
+                    "description": "众多传奇影片首演场地，前院水泥地面上保留着历代影星们手印 脚印。",
+                    "consumingTime": "约10分钟"
+                },
+                {
+                    "name": "UCLA 加州大学洛杉矶分校",
+                    "description": "下午您可以了解到在美国留学生的生活和美国留学大环 境。UCLA 是美国商业金融、高科技产业、电影艺术等专业人才的摇篮。它是加利福尼亚大学系统中 的第二所大学，与加州大学伯克利分校齐名，是美国最好的公立大学之一。",
+                    "consumingTime": "约 1 小时"
+                },
+                {
+                    "name": "圣塔莫尼卡海滩",
+                    "description": "，这里是洛杉矶最出名的海滩之一。绵延的海岸线有2英 里长，人们在这里玩沙滩排球，沿着海岸线悠闲地骑自行车，享受着海风迎面吹拂而来，或者徜徉在 加利福尼亚热情的阳光下做个慵懒的日光浴。海岸边餐厅、电影院和度假酒店鳞次栉比，",
+                    "consumingTime": "约1.5小时"
+                },
+                {
+                    "name": "第三街步行街",
+                    "description": "距离海滩不 远处有一个颇具情调的步行街【第三街步行街】有许多售卖各种特色商品的店铺，还有许多时尚精品 店，以及提供各式美食的餐厅。不管是平日还是周末，街上都很热闹，偶尔也会有一些著名的乐器大 师来此献技。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "农夫市场",
+                    "description": "它是洛杉矶最佳餐饮场所之一",
+                    "consumingTime": "约1小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "洛杉矶市区游览",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往加州最美丽海港城市",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "美国太平洋舰队最大的军港，海 军第11战区总部就设在这里，这里停靠着赫赫有名的中途岛号（CVB-41）航空母舰。",
+                    "name": "圣地亚哥军港"
+                },
+                {
+                    "name": "世纪之吻雕像",
+                    "description": "源自纽约时代广场的拥吻故事，因巧妙诠释二战结束后人们的狂喜心 情而闻名于世，照片中水兵与女护士的深情一吻被誉为“世纪之吻”。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "巴尔波亚公园BalboaPark",
+                    "description": "有“美国最大的城市文化公园”之称，可媲美 纽约的中央公园。公园内拥有人类历史、摄影、艺术等15个主题的博物馆。公园内还有多个风格迥异 的花园，玫瑰园、热带植物温室、沙漠公园、仙人掌花园以及棕榈谷等，都能让你有惊喜的发现。",
+                    "consumingTime": "约30分钟"
+                },
+                {
+                    "name": "圣地亚哥老城",
+                    "description": "老城保留着十九世纪的古朴建筑和宁静风 貌，同时小镇又充满着热烈浓郁的墨西哥风。",
+                    "consumingTime": "约30分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "洛杉矶",
+                    "departureTime": "",
+                    "destination": "圣地亚哥",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "洛杉矶圣地亚哥洛杉矶",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 1,
+            "content": "全天自由活动",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "洛杉矶",
+            "tripDay": 12
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车送往机场，乘内陆航班飞往夏威夷群岛的欧胡岛檀香山市，抵达后入住酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "洛杉矶",
+                    "departureTime": "",
+                    "destination": "夏威夷",
+                    "trafficType": "汽车、飞机"
+                }
+            ],
+            "title": "洛杉矶夏威夷",
+            "tripDay": 13
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后今日乘车前往二次世界大战著名的战场【珍珠港】，远眺港中央凭吊被日军炸沉的“亚利桑 那 号”战舰遗骸以及一千多名阵亡将士纪念碑。珍珠港陈列区内还有各式导弹、鱼雷、飞机的模 型展览 以及珍珠港事件的陈列馆可供参观。乘车经过美国最早的中国城，唐人街，夏威夷州议会大厦以及小 白宫州长官邸（车览外观）。夏威夷第一任国王塑像（外观）以及依兰尼皇宫（外观）。 车览举世闻名 的【威基基海滩】，威基基黄金海岸线是夏威夷州的象征，这里的海水象碧玉一样清 纯，金黄的海滩 第14天 上，婆娑的椰子树下，不同肤色的人们，在恒温的夏威夷气候的轻拂下，感受着 天堂般的时光。远观 卡哈拉高级住宅区、钻石山头（车览外观）。千万美元的豪宅比比皆是。车览风景优美的【恐龙湾】， 她位于岛的东南边，有许多的珊瑚礁及鱼类，也是最佳的浮潜、潜水场所， 整个海湾山势像似弯曲的 大恐龙环抱海湾。神秘的【大风口古战场】。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "舒适型酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "夏威夷",
+            "tripDay": 14
+        },
+        {
+            "breakfast": 0,
+            "content": "今日乘车前往机场，您将乘坐国际航班经首尔转机返回温馨的家。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车、飞机"
+                }
+            ],
+            "title": "夏威夷首尔",
+            "tripDay": 15
+        },
+        {
+            "breakfast": 0,
+            "content": "今日抵达北京，结束愉快的旅行。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "首尔北京",
+            "tripDay": 16
+        }
+    ]
+}

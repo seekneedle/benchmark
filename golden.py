@@ -227,10 +227,368 @@ product_json = {
 if 'multi_level_dict' not in st.session_state:
     st.session_state.multi_level_dict = product_json
 
+default_airport_value = {
+            "airlineCode": "",
+            "airlineName": "",
+            "arriveAirportName": "",
+            "arriveTime": "",
+            "days": "",
+            "flightNo": "",
+            "flightSort": "",
+            "startAirportName": "",
+            "startTime": ""
+        }
 
-def refresh():
-    st.session_state.refresh_event = True
-    st.rerun()
+default_passCities_value = {
+    "countryName": "",
+    "provinceName": "",
+    "cityName": ""}
+
+default_visa_value = {
+    "content": "",
+    "country": "",
+    "district": "",
+    "freeVisa": 0,
+    "signPlace": ""}
+
+default_channel_put_value = {
+    "adultSalePrice": "",
+    "childSalePrice": "",
+    "sellRemark": ""}
+
+
+def overlap(uploaded_file, file_name):
+    st.session_state.uploaded_file = uploaded_file
+    st.session_state.rewrite = file_name
+
+    json_file_name = file_name.split('.pdf')[0] + '.json'
+    json_path = os.path.join('res', 'golden', json_file_name)
+
+    try:
+        with open(json_path, 'r', encoding='utf-8') as file:
+            json_data = json.load(file)
+            st.session_state.multi_level_dict = json_data
+        print("JSON data loaded successfully.")
+    except FileNotFoundError:
+        print(f"File not found: {json_path}")
+    except json.JSONDecodeError:
+        print(f"Error decoding JSON from file: {json_path}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+# 定义上一页按钮点击函数
+def on_previous_page_click():
+    st.session_state.current_tab = st.session_state.current_tab - 1
+
+
+# 定义下一页按钮点击函数
+def on_next_page_click():
+    if st.session_state.current_tab == 0 and st.session_state.uploaded_file is None:
+        st.error("请上传一个旅行产品 PDF 文件！")
+    else:
+        st.session_state.current_tab = st.session_state.current_tab + 1
+
+
+# 定义完成按钮点击函数
+def on_finish_click():
+    st.session_state.confirm = True
+
+
+# 定义确定按钮点击函数
+def on_confirm_click():
+    st.session_state.confirm = False
+    try:
+        uploaded_file = st.session_state.uploaded_file
+        # 获取文件名
+        file_name = uploaded_file.name
+
+        # 构建保存路径
+        save_path = upload_dir / file_name
+
+        json_file_name = file_name.split('.pdf')[0] + '.json'
+        json_path = os.path.join('res', 'golden', json_file_name)
+
+        # 将文件保存到指定目录
+        with open(save_path, "wb") as f:
+            f.write(uploaded_file.getbuffer())
+        st.success(f'文件已成功覆盖并保存到 {save_path}')
+        st.session_state.show_result = True
+
+        # 将文件保存到指定目录
+        with open(save_path, "wb") as f:
+            f.write(uploaded_file.getbuffer())
+
+        with open(json_path, 'w', encoding='utf-8') as json_file:
+            json.dump(st.session_state.multi_level_dict, json_file, ensure_ascii=False, indent=4)
+
+        st.session_state.multi_level_dict = product_json
+        st.session_state.refresh_event = False
+        st.session_state.current_tab = 0
+        st.session_state.uploaded_file = None
+        st.session_state.rewrite = ""
+
+    except Exception as e:
+        st.error(f"上传异常，请检查：{e}")
+
+
+def add_dest():
+    st.session_state.multi_level_dict["product"]["dests"].append({"countryName": "", "destCityName": "", "destProvinceName": ""})
+
+
+def del_dest(i):
+    dests = st.session_state.multi_level_dict["product"]["dests"]
+    if len(dests) > 1 and i < len(dests):
+        st.session_state.refresh_event = True
+        del dests[i]
+
+
+def add_insure():
+    st.session_state.multi_level_dict["product"]["insurance"].append({"content": "", "name": "", "typeName": ""})
+
+
+def del_insure(i):
+    insurances = st.session_state.multi_level_dict["product"]["insurance"]
+    if len(insurances) > 1 and i < len(insurances):
+        st.session_state.refresh_event = True
+        del insurances[i]
+
+
+def add_theme():
+    st.session_state.multi_level_dict["product"]["themes"].append({"name": ""})
+
+
+def del_theme(i):
+    themes = st.session_state.multi_level_dict["product"]["themes"]
+    if len(themes) > 1 and i < len(themes):
+        st.session_state.refresh_event = True
+        del themes[i]
+
+
+def add_tag():
+    st.session_state.multi_level_dict["product"]["tags"].append({"name": ""})
+
+
+def del_tag(i):
+    tags = st.session_state.multi_level_dict["product"]["tags"]
+    if len(tags) > 1 and i < len(tags):
+        st.session_state.refresh_event = True
+        del tags[i]
+
+
+def add_market():
+    st.session_state.multi_level_dict["product"]["markets"].append({"name": ""})
+
+
+def del_market(i):
+    markets = st.session_state.multi_level_dict["product"]["markets"]
+    if len(markets) > 1 and i < len(markets):
+        st.session_state.refresh_event = True
+        del markets[i]
+
+
+def add_go_airport():
+    st.session_state.multi_level_dict["line"]["goAirports"].append(default_airport_value)
+
+
+def del_go_airport(i):
+    go_airports = st.session_state.multi_level_dict["line"]["goAirports"]
+    if len(go_airports) > 1 and i < len(go_airports):
+        st.session_state.refresh_event = True
+        del go_airports[i]
+
+
+def add_back_airport():
+    st.session_state.multi_level_dict["line"]["backAirports"].append(default_airport_value)
+
+
+def del_back_airport(i):
+    back_airports = st.session_state.multi_level_dict["line"]["backAirports"]
+    if len(back_airports) > 1 and i < len(back_airports):
+        st.session_state.refresh_event = True
+        del back_airports[i]
+
+
+def add_pass_city():
+    st.session_state.multi_level_dict["line"]["passCities"].append(default_passCities_value)
+
+
+def del_pass_city(i):
+    pass_cities = st.session_state.multi_level_dict["line"]["passCities"]
+    if len(pass_cities) > 1 and i < len(pass_cities):
+        st.session_state.refresh_event = True
+        del pass_cities[i]
+
+
+def add_visa():
+    st.session_state.multi_level_dict["line"]["visaBasic"]['visas'].append(default_visa_value)
+
+
+def del_visa(i):
+    visas = st.session_state.multi_level_dict["line"]["visaBasic"]['visas']
+    if len(visas) > 1 and i < len(visas):
+        st.session_state.refresh_event = True
+        del visas[i]
+
+
+def add_channel_put():
+    st.session_state.multi_level_dict["cal"]["channelPut"].append({
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            })
+
+
+def del_channel_put(i):
+    channelPuts = st.session_state.multi_level_dict["cal"]["channelPut"]
+    if len(channelPuts) > 1 and i < len(channelPuts):
+        st.session_state.refresh_event = True
+        del channelPuts[i]
+
+
+def add_depart_date():
+    st.session_state.multi_level_dict["cal"]["departDate"].append("")
+
+
+def del_depart_date(i):
+    departDates = st.session_state.multi_level_dict["cal"]["departDate"]
+    if len(departDates) > 1 and i < len(departDates):
+        st.session_state.refresh_event = True
+        del departDates[i]
+
+
+def add_return():
+    st.session_state.multi_level_dict["cost"]["lineReturns"].append({
+                "begin": "",
+                "cost": "",
+                "end": ""
+            })
+
+
+def del_return(i):
+    lineReturns = st.session_state.multi_level_dict["cost"]["lineReturns"]
+    if len(lineReturns) > 1 and i < len(lineReturns):
+        st.session_state.refresh_event = True
+        del lineReturns[i]
+
+
+def add_self_cost():
+    st.session_state.multi_level_dict["cost"]["selfCosts"].append({
+                "address": "",
+                "fee": "",
+                "name": "",
+                "remark": "",
+                "stay": ""
+            })
+
+
+def del_self_cost(i):
+    selfCosts = st.session_state.multi_level_dict["cost"]["selfCosts"]
+    if len(selfCosts) > 1 and i < len(selfCosts):
+        st.session_state.refresh_event = True
+        del selfCosts[i]
+
+
+def add_shop():
+    st.session_state.multi_level_dict["cost"]["shops"].append({
+                "address": "",
+                "shopProduct": "",
+                "shopName": "",
+                "remark": "",
+                "stay": ""
+            })
+
+
+def del_shop(i):
+    shops = st.session_state.multi_level_dict["cost"]["shops"]
+    if len(shops) > 1 and i < len(shops):
+        st.session_state.refresh_event = True
+        del shops[i]
+
+
+def add_hotel(i):
+    st.session_state.multi_level_dict["trips"][i]['hotels'].append({
+                    "name": "",
+                    "star": ""
+                })
+
+
+def del_hotel(i, j):
+    hotels = st.session_state.multi_level_dict["trips"][i]['hotels']
+    if len(hotels) > 1 and j < len(hotels):
+        st.session_state.refresh_event = True
+        del hotels[j]
+
+
+def add_traffic(i):
+    st.session_state.multi_level_dict["trips"][i]['scheduleTraffics'].append({
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "arrivalTime": "",
+                    "trafficType": ""
+                })
+
+
+def del_traffic(i, j):
+    scheduleTraffics = st.session_state.multi_level_dict["trips"][i]['scheduleTraffics']
+    if len(scheduleTraffics) > 1 and j < len(scheduleTraffics):
+        st.session_state.refresh_event = True
+        del scheduleTraffics[j]
+
+
+def add_scene(i):
+    st.session_state.multi_level_dict["trips"][i]['scenes'].append({
+                    "name": "",
+                    "description": "",
+                    "consumingTime": ""
+                })
+
+
+def del_scene(i, j):
+    scenes = st.session_state.multi_level_dict["trips"][i]['scenes']
+    if len(scenes) > 1 and j < len(scenes):
+        st.session_state.refresh_event = True
+        del scenes[j]
+
+
+def add_trip():
+    st.session_state.multi_level_dict["trips"].append({
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "",
+            "tripDay": 1
+        })
+
+
+def del_trip(i):
+    trips = st.session_state.multi_level_dict["trips"]
+    if len(trips) > 1 and i < len(trips):
+        st.session_state.refresh_event = True
+        del trips[i]
 
 
 def get_default(cache, key, need_refresh=False):
@@ -268,10 +626,7 @@ if st.session_state.current_tab == 0:
 
         if os.path.exists(save_path) and file_name != st.session_state.rewrite:
             st.warning(f"旅行产品 {file_name} 已存在，是否覆盖？")
-            if st.button("覆盖"):
-                st.session_state.uploaded_file = uploaded_file
-                st.session_state.rewrite = file_name
-                st.rerun()
+            st.button("覆盖", on_click=overlap, args=(uploaded_file, file_name))
         else:
             st.session_state.uploaded_file = uploaded_file
 
@@ -281,20 +636,19 @@ if st.session_state.current_tab == 0:
 # 产品详情
 if st.session_state.current_tab == 1:
     st.subheader("产品详情")
-    keys = [FormItemModel(key="childAgeBegin", name="儿童年龄标准区间开始值"),
+    keys = [FormItemModel(key="productTitle", name="产品名称"),        
+            FormItemModel(key="productSubtitle", name="产品副标题"),
+            FormItemModel(key="departureCountryName", name="出发国家名字"),
+            FormItemModel(key="departureProvinceNam", name="出发省份"),
+            FormItemModel(key="departureCityName", name="出发城市名字"),
+            FormItemModel(key="returnCityName", name="返回城市名字"),
+            FormItemModel(key="childAgeBegin", name="儿童年龄标准区间开始值"),
             FormItemModel(key="childAgeEnd", name="儿童年龄标准区间结束值"),
             FormItemModel(key="childHeightBegin", name="儿童身高标准区间开始值"),
             FormItemModel(key="childHeightEnd", name="儿童身高标准区间结束值"),
             FormItemModel(key="childHasTraffic", name="儿童价格是否含大交通", type="select"),
             FormItemModel(key="childHasBed", name="儿童价是否含床", type="select"),
-            FormItemModel(key="childRule", name="儿童标准说明"),
-            FormItemModel(key="insuranceIncluded", name="是否包含保险", type="select"),
-            FormItemModel(key="productTitle", name="产品名称"),        
-            FormItemModel(key="productSubtitle", name="产品副标题"),
-            FormItemModel(key="departureCountryName", name="出发国家名字"),
-            FormItemModel(key="departureProvinceNam", name="出发省份"),
-            FormItemModel(key="departureCityName", name="出发城市名字"),
-            FormItemModel(key="returnCityName", name="返回城市名字")]
+            FormItemModel(key="childRule", name="儿童标准说明")]
 
     for item in keys:
         key_string = item.key
@@ -324,12 +678,7 @@ if st.session_state.current_tab == 1:
         with col1:
             st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>目的地{i + 1}</h2>", unsafe_allow_html=True )
         with col2:
-            if st.button("❌", key=f"del_dests{i}"):
-                if len(dests) > 1 and i < len(dests):
-                    del dests[i]
-                else:
-                    st.warning("至少需要一个目的地。")
-                refresh()
+            st.button("❌", key=f"del_dests{i}", on_click=del_dest, args=(i,))
         col1, col2, col3 = st.columns([3, 3, 1])
         with col1:
             dest["countryName"] = st.text_input(f"国家", **get_default(dest["countryName"], f"countryName{i}",
@@ -341,25 +690,40 @@ if st.session_state.current_tab == 1:
         with col3:
             dest["destCityName"] = st.text_input(f"城市", **get_default(dest["destCityName"], f"destCityName{i}",
                                                                         need_refresh=True))
-    if st.button("添加目的地"):
-        dests.append({"countryName": "", "destCityName": "", "destProvinceName": ""})
-        st.rerun()
+
+    st.button("添加目的地", on_click=add_dest)
 
     st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
     st.markdown( f"<h2 style='font-size: 20px; color: black;'>保险信息</h2>", unsafe_allow_html=True )
 
+    keys = [FormItemModel(key="insuranceIncluded", name="是否包含保险", type="select")]
+
+    for item in keys:
+        key_string = item.key
+        key_name = item.name
+        key_type = item.type
+        key_options = item.options
+
+        if key_type == "select":
+            current_value = st.session_state.multi_level_dict["product"].get(key_string, None) 
+            index = 0 if current_value == 1 else 1
+            st.session_state.multi_level_dict["product"][key_string] = st.radio( key_name, options=key_options, index=index )
+            selected_option = st.session_state.multi_level_dict["product"][key_string]
+            st.session_state.multi_level_dict["product"][key_string] = 1 if selected_option == "是" else 0
+        else:
+            st.session_state.multi_level_dict["product"][key_string] = st.text_input(key_name,
+                                                                                     **get_default(
+                                                                                         st.session_state.multi_level_dict[
+                                                                                             "product"][key_string],
+                                                                                         key_string))
+            
     insurances = st.session_state.multi_level_dict["product"]["insurance"]
     for i, insurance in enumerate(insurances):
         col1, col2 = st.columns(2)
         with col1:
             st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>保险信息{i+1}</h2>", unsafe_allow_html=True )
         with col2:
-            if st.button("❌", key=f"del_insurances{i}"):
-                if len(insurances) > 1:
-                    del insurances[i]
-                else:
-                    st.warning("至少需要一个保险信息。")
-                refresh()    
+            st.button("❌", key=f"del_insurances{i}", on_click=del_insure, args=(i,))
         col1, col2, col3 = st.columns([3, 3, 1])
         with col1:
             insurance["content"] = st.text_input(f"保险内容", **get_default(insurance["content"], f"insurance_content{i}",
@@ -370,9 +734,8 @@ if st.session_state.current_tab == 1:
         with col3:
             insurance["typeName"] = st.text_input(f"保险类型（境内外旅游险、航空险等）", **get_default(insurance["typeName"], f"insurance_typeName{i}",
                                                                         need_refresh=True))
-    if st.button("添加保险信息"):
-        insurances.append({"content": "", "name": "", "typeName": ""})
-        st.rerun()
+    st.button("添加保险信息", on_click=add_insure)
+
     st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
     st.markdown( f"<h2 style='font-size: 20px; color: black;'>产品主题</h2>", unsafe_allow_html=True )
 
@@ -382,17 +745,10 @@ if st.session_state.current_tab == 1:
         with col1:
             st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>产品主题{i+1}</h2>", unsafe_allow_html=True )
         with col2:
-            if st.button("❌", key=f"del_themes{i}"):
-                if len(themes) > 1:
-                    del themes[i]
-                else:
-                    st.warning("至少需要一个产品主题。")
-                refresh()    
+            st.button("❌", key=f"del_themes{i}", on_click=del_theme, args=(i,))
         theme["name"] = st.text_input(f"主题名称", **get_default(theme["name"], f"theme_name{i}",
                                                                        need_refresh=True))
-    if st.button("添加产品主题"):
-        themes.append({"name": ""})
-        st.rerun()
+    st.button("添加产品主题", on_click=add_theme)
 
     st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
     st.markdown( f"<h2 style='font-size: 20px; color: black;'>产品标签</h2>", unsafe_allow_html=True )
@@ -403,17 +759,11 @@ if st.session_state.current_tab == 1:
         with col1:
             st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>产品标签{i+1}</h2>", unsafe_allow_html=True )
         with col2:
-            if st.button("❌", key=f"del_tags{i}"):
-                if len(tags) > 1:
-                    del tags[i]
-                else:
-                    st.warning("至少需要一个产品主题。")
-                refresh()    
+            st.button("❌", key=f"del_tags{i}", on_click=del_tag, args=(i,))
         tag["name"] = st.text_input(f"标签名称", **get_default(tag["name"], f"tag_name{i}",
                                                                        need_refresh=True))
-    if st.button("添加产品标签"):
-        tags.append({"name": ""})
-        st.rerun()
+    st.button("添加产品标签", on_click=add_tag)
+
     st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
     st.markdown( f"<h2 style='font-size: 20px; color: black;'>营销标签</h2>", unsafe_allow_html=True )
 
@@ -423,17 +773,10 @@ if st.session_state.current_tab == 1:
         with col1:
             st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>营销标签{i+1}</h2>", unsafe_allow_html=True )
         with col2:
-            if st.button("❌", key=f"del_markets{i}"):
-                if len(markets) > 1:
-                    del markets[i]
-                else:
-                    st.warning("至少需要一个产品主题。")
-                refresh()    
+            st.button("❌", key=f"del_markets{i}", on_click=del_market, args=(i,))
         market["name"] = st.text_input(f"营销标签名称", **get_default(market["name"], f"market_name{i}",
                                                                        need_refresh=True))
-    if st.button("添加营销标签"):
-        markets.append({"name": ""})
-        st.rerun()
+    st.button("添加营销标签", on_click=add_market)
 
 # 线路信息
 if st.session_state.current_tab == 2:
@@ -476,18 +819,33 @@ if st.session_state.current_tab == 2:
             FormItemModel(key="flightSort", name="航班顺序"),
             FormItemModel(key="startAirportName", name="出发机场名称"),
             FormItemModel(key="startTime", name="出发时间")]
-    default_airport_value = {
-            "airlineCode": "",
-            "airlineName": "",
-            "arriveAirportName": "",
-            "arriveTime": "",
-            "days": "",
-            "flightNo": "",
-            "flightSort": "",
-            "startAirportName": "",
-            "startTime": ""
-        }
+
     num_columns = 5  # 你可以根据需要调整列数
+
+    st.markdown("<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='font-size: 20px; color: black;'>去程航班</h2>", unsafe_allow_html=True)
+    goAirports = st.session_state.multi_level_dict["line"]["goAirports"]
+    for i, airport in enumerate(goAirports):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.markdown(f"<h2 style='font-size: 18px; color: #333333;'>去程航班信息{i + 1}</h2>",
+                        unsafe_allow_html=True)
+        with col2:
+            st.button("❌", key=f"del_goAirports{i}", on_click=del_go_airport, args=(i,))
+        columns = st.columns(num_columns)
+        for j, item in enumerate(airports_keys):
+            key_string = item.key
+            key_name = item.name
+            key_type = item.type
+            key_options = item.options
+
+            col_index = j % num_columns
+            with columns[col_index]:
+                airport[key_string] = st.text_input(key_name,
+                                                    **get_default(airport[key_string], f"goAirports_{key_name}{i}",
+                                                                  need_refresh=True))
+
+    st.button("添加去程航班信息", on_click=add_go_airport)
 
     st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
     st.markdown( f"<h2 style='font-size: 20px; color: black;'>返程航班</h2>", unsafe_allow_html=True )
@@ -497,12 +855,7 @@ if st.session_state.current_tab == 2:
         with col1:
             st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>返程航班信息{i+1}</h2>", unsafe_allow_html=True )
         with col2:
-            if st.button("❌", key=f"del_backAirports{i}"):
-                if len(backAirports) > 1:
-                    del backAirports[i]
-                else:
-                    st.warning("至少需要一个返程航班信息。")
-                refresh()
+            st.button("❌", key=f"del_backAirports{i}", on_click=del_back_airport, args=(i,))
         columns = st.columns(num_columns)
         for j, item in enumerate(airports_keys):
             key_string = item.key
@@ -515,61 +868,21 @@ if st.session_state.current_tab == 2:
                 airport[key_string] = st.text_input(key_name,
                                                     **get_default(airport[key_string], f"backAirports_{key_name}{i}", need_refresh=True))
                 
-    if st.button("添加返程航班信息"):
-        backAirports.append(default_airport_value)
-        st.rerun()
-    
-    st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
-    st.markdown( f"<h2 style='font-size: 20px; color: black;'>去程航班</h2>", unsafe_allow_html=True )
-    goAirports = st.session_state.multi_level_dict["line"]["goAirports"]
-    for i, airport in enumerate(goAirports):
-        col1, col2 = st.columns(2)
-        with col1:
-            st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>去程航班信息{i+1}</h2>", unsafe_allow_html=True )
-        with col2:
-            if st.button("❌", key=f"del_goAirports{i}"):
-                if len(goAirports) > 1:
-                    del goAirports[i]
-                else:
-                    st.warning("至少需要一个去程航班信息。")
-                refresh()
-        columns = st.columns(num_columns)
-        for j, item in enumerate(airports_keys):
-            key_string = item.key
-            key_name = item.name
-            key_type = item.type
-            key_options = item.options
+    st.button("添加返程航班信息", on_click=add_back_airport)
 
-            col_index = j % num_columns
-            with columns[col_index]:
-                airport[key_string] = st.text_input(key_name,
-                                                    **get_default(airport[key_string], f"goAirports_{key_name}{i}", need_refresh=True))
-                
-    if st.button("添加去程航班信息"):
-        goAirports.append(default_airport_value)
-        st.rerun()
-    
     st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
     st.markdown( f"<h2 style='font-size: 20px; color: black;'>途经城市</h2>", unsafe_allow_html=True )
     passCities_keys = [FormItemModel(key="countryName", name="途径国家名称"),
             FormItemModel(key="provinceName", name="途径省份名称"),
             FormItemModel(key="cityName", name="途径城市名称")]
-    default_passCities_value = {
-            "countryName": "",
-            "provinceName": "",
-            "cityName": ""}
+
     passCities = st.session_state.multi_level_dict["line"]["passCities"]
     for i, city in enumerate(passCities):
         col1, col2 = st.columns(2)
         with col1:
             st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>途经城市{i+1}</h2>", unsafe_allow_html=True )
         with col2:
-            if st.button("❌", key=f"del_passCities{i}"):
-                if len(passCities) > 1:
-                    del passCities[i]
-                else:
-                    st.warning("至少需要一个途经城市。")
-                refresh()
+            st.button("❌", key=f"del_passCities{i}", on_click=del_pass_city, args=(i,))
         passCities_num_columns = 3
         columns = st.columns(passCities_num_columns)
         for j, item in enumerate(passCities_keys):
@@ -583,9 +896,7 @@ if st.session_state.current_tab == 2:
                 city[key_string] = st.text_input(key_name,
                                                     **get_default(city[key_string], f"passCities_{key_name}{i}", need_refresh=True))
                 
-    if st.button("添加途经城市"):
-        passCities.append(default_passCities_value)
-        st.rerun()
+    st.button("添加途经城市", on_click=add_pass_city)
 
     st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
     st.markdown( f"<h2 style='font-size: 20px; color: black;'>签证邮递信息</h2>", unsafe_allow_html=True )
@@ -607,12 +918,7 @@ if st.session_state.current_tab == 2:
             FormItemModel(key="district", name="签证领区"),
             FormItemModel(key="freeVisa", name="免签标志1:免签2:面签"),
             FormItemModel(key="signPlace", name="送签地")]
-    default_visa_value = {
-            "content": "",
-            "country": "",
-            "district": "",
-            "freeVisa": "",
-            "signPlace": ""}
+
     st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
     st.markdown( f"<h2 style='font-size: 20px; color: black;'>签证信息</h2>", unsafe_allow_html=True )
     visas = st.session_state.multi_level_dict["line"]["visaBasic"]['visas']
@@ -621,12 +927,7 @@ if st.session_state.current_tab == 2:
         with col1:
             st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>签证信息{i+1}</h2>", unsafe_allow_html=True )
         with col2:
-            if st.button("❌", key=f"del_visa{i}"):
-                if len(visas) > 1:
-                    del visas[i]
-                else:
-                    st.warning("至少需要一个签证信息。")
-                refresh()
+            st.button("❌", key=f"del_visa{i}", on_click=del_visa, args=(i,))
         visas_num_columns = 3
         columns = st.columns(visas_num_columns)
         for j, item in enumerate(visas_keys):
@@ -640,9 +941,7 @@ if st.session_state.current_tab == 2:
                 visa[key_string] = st.text_input(key_name,
                                                     **get_default(visa[key_string], f"visa_{key_name}{i}", need_refresh=True))
 
-    if st.button("添加签证信息"):
-        visas.append(default_visa_value)
-        st.rerun()
+    st.button("添加签证信息", on_click=add_visa)
 
 # 成团信息
 if st.session_state.current_tab == 3:
@@ -651,10 +950,7 @@ if st.session_state.current_tab == 3:
     channel_put_keys = [FormItemModel(key="adultSalePrice", name="成人零售价"),
             FormItemModel(key="childSalePrice", name="儿童零售价"),
             FormItemModel(key="sellRemark", name="销售说明")]
-    default_channel_put_value = {
-            "adultSalePrice": "",
-            "childSalePrice": "",
-            "sellRemark": ""}
+
     st.markdown( f"<h2 style='font-size: 20px; color: black;'>投放信息</h2>", unsafe_allow_html=True )
     channel_puts = st.session_state.multi_level_dict["cal"]["channelPut"]
     for i, channel in enumerate(channel_puts):
@@ -662,12 +958,7 @@ if st.session_state.current_tab == 3:
         with col1:
             st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>投放信息{i+1}</h2>", unsafe_allow_html=True )
         with col2:
-            if st.button("❌", key=f"del_channel_put{i}"):
-                if len(channel_puts) > 1:
-                    del channel_puts[i]
-                else:
-                    st.warning("至少需要一个投放信息。")
-                refresh()
+            st.button("❌", key=f"del_channel_put{i}", on_click=del_channel_put, args=(i,))
         channels_num_columns = 3
         columns = st.columns(channels_num_columns)
         for j, item in enumerate(channel_put_keys):
@@ -677,9 +968,7 @@ if st.session_state.current_tab == 3:
             with columns[col_index]:
                 channel[key_string] = st.text_input(key_name,
                                                     **get_default(channel[key_string], f"channel_put_{key_name}{i}", need_refresh=True))
-    if st.button("添加投放信息"):
-        channel_puts.append(default_channel_put_value)
-        st.rerun()
+    st.button("添加投放信息", on_click=add_channel_put)
 
     st.markdown( "<hr style='border: 1px lightgrey solid; margin: 20px 0;'>", unsafe_allow_html=True )
     st.markdown( f"<h2 style='font-size: 20px; color: black;'>出团日期</h2>", unsafe_allow_html=True )        
@@ -689,17 +978,10 @@ if st.session_state.current_tab == 3:
         with col1:
             st.markdown( f"<h2 style='font-size: 18px; color: #333333;'>出团日期{i+1}</h2>", unsafe_allow_html=True )
         with col2:
-            if st.button("❌", key=f"del_markets{i}"):
-                if len(departDates) > 1:
-                    del departDates[i]
-                else:
-                    st.warning("至少需要一个出团日期。")
-                refresh()    
+            st.button("❌", key=f"del_depart_date{i}", on_click=del_depart_date, args=(i,))
         departDates[i] = st.text_input(f"出团日期", **get_default(departDate, f"depart_date{i}",
                                                                        need_refresh=True))
-    if st.button("添加出团日期"):
-        departDates.append('')
-        st.rerun()
+    st.button("添加出团日期", on_click=add_depart_date)
 
 # 消费信息
 if st.session_state.current_tab == 4:
@@ -759,19 +1041,8 @@ if st.session_state.current_tab == 4:
                                                  f"return_{key_string}{i}",
                                              need_refresh=True))
             with col4:
-                if st.button("❌", key=f"del_return{i}"):
-                    if len(lineReturns) > 0 and i < len(lineReturns):
-                        del lineReturns[i]
-                    else:
-                        st.warning("没有可删除退费规则。")
-                    refresh()
-        if st.button("添加退费规则"):
-            lineReturns.append({
-                "begin": "",
-                "cost": "",
-                "end": ""
-            })
-            st.rerun()
+                st.button("❌", key=f"del_return{i}", on_click=del_return, args=(i,))
+        st.button("添加退费规则", on_click=add_return)
 
     key_string = "selfCostContent"
     key_name = "自费项目介绍"
@@ -829,21 +1100,8 @@ if st.session_state.current_tab == 4:
                                                            f"self_{key_string}{i}",
                                                            need_refresh=True))
             with col6:
-                if st.button("❌", key=f"del_self{i}"):
-                    if len(selfCosts) > 0 and i < len(selfCosts):
-                        del selfCosts[i]
-                    else:
-                        st.warning("没有可删除自费项目。")
-                    refresh()
-        if st.button("添加自费项目"):
-            selfCosts.append({
-                "address": "",
-                "fee": "",
-                "name": "",
-                "remark": "",
-                "stay": ""
-            })
-            st.rerun()
+                st.button("❌", key=f"del_self{i}", on_click=del_self_cost, args=(i,))
+        st.button("添加自费项目", on_click=add_self_cost)
 
     key_string = "shopContent"
     key_name = "购物项目介绍"
@@ -901,21 +1159,8 @@ if st.session_state.current_tab == 4:
                                                          f"shop_{key_string}{i}",
                                                          need_refresh=True))
             with col6:
-                if st.button("❌", key=f"del_shop{i}"):
-                    if len(shops) > 0 and i < len(shops):
-                        del shops[i]
-                    else:
-                        st.warning("没有可删除购物项目。")
-                    refresh()
-        if st.button("添加购物项目"):
-            shops.append({
-                "address": "",
-                "shopProduct": "",
-                "shopName": "",
-                "remark": "",
-                "stay": ""
-            })
-            st.rerun()
+                st.button("❌", key=f"del_shop{i}", on_click=del_shop, args=(i,))
+        st.button("添加购物项目", on_click=add_shop)
 
 # 行程信息
 if st.session_state.current_tab == 5:
@@ -930,12 +1175,7 @@ if st.session_state.current_tab == 5:
             st.subheader(f"第{i + 1}天行程")
             trip["tripDay"] = i + 1
         with col2:
-            if st.button("❌", key=f"del_trip{i}"):
-                if len(trips) > 1 and i < len(trips):
-                    del trips[i]
-                else:
-                    st.warning("至少需要一个行程。")
-                refresh()
+            st.button("❌", key=f"del_trip{i}", on_click=del_trip, args=(i,))
 
         for item in keys:
             key_string = item.key
@@ -1006,19 +1246,9 @@ if st.session_state.current_tab == 5:
                                                           f"hotel_{key_string}_{i}_{j}",
                                                           need_refresh=True))
                 with col3:
-                    if st.button("❌", key=f"del_hotel_{i}_{j}"):
-                        if len(hotels) > 0 and j < len(hotels):
-                            del hotels[j]
-                        else:
-                            st.warning("没有可删除酒店。")
-                        refresh()
+                    st.button("❌", key=f"del_hotel_{i}_{j}", on_click=del_hotel, args=(i,j))
 
-            if st.button("添加酒店", key=f"add_hotel{i}"):
-                hotels.append({
-                    "name": "",
-                    "star": ""
-                })
-                st.rerun()
+            st.button("添加酒店", key=f"add_hotel{i}", on_click=add_hotel, args=(i,))
 
         col1, col2 = st.columns([1, 30])
         with col1:
@@ -1071,22 +1301,9 @@ if st.session_state.current_tab == 5:
                                                             f"traffic_{key_string}_{i}_{j}",
                                                             need_refresh=True))
                 with col6:
-                    if st.button("❌", key=f"del_traffic_{i}_{j}"):
-                        if len(traffics) > 0 and j < len(traffics):
-                            del traffics[j]
-                        else:
-                            st.warning("没有可删除交通方式。")
-                        refresh()
+                    st.button("❌", key=f"del_traffic_{i}_{j}", on_click=del_traffic, args=(i,j))
 
-            if st.button("添加交通信息", key=f"add_traffic{i}"):
-                traffics.append({
-                    "departure": "",
-                    "departureTime": "",
-                    "destination": "",
-                    "arrivalTime": "",
-                    "trafficType": ""
-                })
-                st.rerun()
+            st.button("添加交通信息", key=f"add_traffic{i}", on_click=add_traffic, args=(i,))
 
         col1, col2 = st.columns([1, 30])
         with col1:
@@ -1120,52 +1337,11 @@ if st.session_state.current_tab == 5:
                                                           f"scene_{key_string}_{i}_{j}",
                                                           need_refresh=True))
                 with col4:
-                    if st.button("❌", key=f"del_scene_{i}_{j}"):
-                        if len(scenes) > 0 and j < len(scenes):
-                            del scenes[j]
-                        else:
-                            st.warning("没有可删除景点。")
-                        refresh()
-            if st.button("添加景点", key=f"add_scene{i}"):
-                scenes.append({
-                    "name": "",
-                    "description": "",
-                    "consumingTime": ""
-                })
-                st.rerun()
+                    st.button("❌", key=f"del_scene_{i}_{j}", on_click=del_scene, args=(i,j))
+            st.button("添加景点", key=f"add_scene{i}", on_click=add_scene, args=(i,))
 
-    if st.button("添加行程"):
-        trips.append({
-            "breakfast": 0,
-            "content": "",
-            "dinner": 0,
-            "hotels": [
-                {
-                    "name": "",
-                    "star": ""
-                }
-            ],
-            "lunch": 0,
-            "scenes": [
-                {
-                    "consumingTime": "",
-                    "description": "",
-                    "name": ""
-                }
-            ],
-            "scheduleTraffics": [
-                {
-                    "arrivalTime": "",
-                    "departure": "",
-                    "departureTime": "",
-                    "destination": "",
-                    "trafficType": ""
-                }
-            ],
-            "title": "",
-            "tripDay": 1
-        })
-        st.rerun()
+    st.button("添加行程", on_click=add_trip)
+
 
 st.empty()
 st.divider()  # 插入一个水平分割线
@@ -1173,62 +1349,20 @@ st.empty()
 
 col1, col2, col3 = st.columns([1, 5, 1])
 
+# 根据点击状态执行对应操作
 with col1:
     if st.session_state.current_tab > 0:
-        if st.button("上一页"):
-            st.session_state.current_tab = st.session_state.current_tab - 1
-            st.rerun()
+        st.button("上一页", on_click=on_previous_page_click)
 
 with col3:
     if st.session_state.current_tab < 5:
-        if st.button("下一页"):
-            if st.session_state.current_tab == 0 and st.session_state.uploaded_file is None:
-                st.error("请上传一个旅行产品 PDF 文件！")
-            else:
-                st.session_state.current_tab = st.session_state.current_tab + 1
-                st.rerun()
+        st.button("下一页", on_click=on_next_page_click)
     else:
         if not st.session_state.confirm:
-            if st.button("完成"):
-                st.session_state.confirm = True
-                st.rerun()
+            st.button("完成", on_click=on_finish_click)
         else:
             st.warning("确定要上传么？")
-            if st.button("确定"):
-                st.session_state.confirm = False
-                try:
-                    uploaded_file = st.session_state.uploaded_file
-                    # 获取文件名
-                    file_name = uploaded_file.name
-
-                    # 构建保存路径
-                    save_path = upload_dir / file_name
-
-                    json_file_name = file_name.split('.pdf')[0] + '.json'
-                    json_path = os.path.join('res', 'golden', json_file_name)
-
-                    # 将文件保存到指定目录
-                    with open(save_path, "wb") as f:
-                        f.write(uploaded_file.getbuffer())
-                    st.success(f'文件已成功覆盖并保存到 {save_path}')
-                    st.session_state.show_result = True
-
-                    # 将文件保存到指定目录
-                    with open(save_path, "wb") as f:
-                        f.write(uploaded_file.getbuffer())
-
-                    with open(json_path, 'w', encoding='utf-8') as json_file:
-                        json.dump(st.session_state.multi_level_dict, json_file, ensure_ascii=False, indent=4)
-
-                    st.session_state.multi_level_dict = product_json
-                    st.session_state.refresh_event = False
-                    st.session_state.current_tab = 0
-                    st.session_state.uploaded_file = None
-                    st.session_state.rewrite = ""
-                    st.rerun()
-
-                except Exception as e:
-                    st.error(f"上传异常，请检查：{e}")
+            st.button("确定", on_click=on_confirm_click)
 
 
 # 左侧显示 JSON 数据

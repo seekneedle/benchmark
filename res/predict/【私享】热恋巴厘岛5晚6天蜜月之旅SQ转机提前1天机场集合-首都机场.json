@@ -1,0 +1,421 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 12,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "12 岁以下儿童可以不占床",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "印度尼西亚",
+                "destCityName": "巴厘岛",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "为确保人身安全，我司强烈建议每位游客购买“旅游人身意外伤害险”，具体收费标准和赔付细则以保险公司相关理赔条款为准。",
+            "name": "境外旅游意外险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "搭乘五星航空-新加坡航空转机飞往巴厘岛"
+            },
+            {
+                "name": "2 晚努沙杜瓦富人区私人海滩品牌国际五星巴厘岛君悦大酒店或同级"
+            },
+            {
+                "name": "3 晚独栋别墅 CROSS BALI BRFAKF 或同级（赠送别墅内一次漂浮早餐）"
+            },
+            {
+                "name": "网红达人：最美网红贝妮达岛出海，周杰伦的稻香 MV 取景地-网红梯田俱乐部"
+            },
+            {
+                "name": "精彩难忘：体验阿勇河漂流和 ATV 丛林越野车"
+            },
+            {
+                "name": "肆意畅玩：2 人成行，纯玩无购物，蜜月无忧，专属您的浪漫之旅"
+            },
+            {
+                "name": "舒心享受：特别升级 2 小时 lulur SPA 体验"
+            },
+            {
+                "name": "纯正美食：印尼特色金巴兰沙滩烧烤、脏鸭餐，莲花餐厅，水上餐厅"
+            },
+            {
+                "name": "自由自在：两天自由活动，畅享自在假期"
+            }
+        ],
+        "productSubtitle": "私享",
+        "productTitle": "热恋.巴厘岛5晚6天",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "蜜月"
+            },
+            {
+                "name": "浪漫"
+            },
+            {
+                "name": "海岛"
+            },
+            {
+                "name": "休闲"
+            }
+        ],
+        "themes": [
+            {
+                "name": "蜜月浪漫之旅"
+            },
+            {
+                "name": "热恋之旅"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "飞机（转机）",
+        "goTransportName": "飞机（转机）",
+        "hotelStarName": "5",
+        "lineFeature": "2晚努沙杜瓦富人区私人海滩品牌国际五星巴厘岛君悦大酒店或同级，3晚独栋别墅CROSS BALI BRFAKF或同级（赠送别墅内一次漂浮早餐），网红达人：最美网红贝妮达岛出海，周杰伦的稻香MV取景地-网红梯田俱乐部，精彩难忘：体验阿勇河漂流和ATV丛林越野车，肆意畅玩：2人成行，纯玩无购物，蜜月无忧，专属您的浪漫之旅，舒心享受：特别升级2小时lulur SPA体验，纯正美食：印尼特色金巴兰沙滩烧烤、脏鸭餐，莲花餐厅，水上餐厅，自由自在：两天自由活动，畅享自在假期",
+        "lineSimpleTitle": "巴厘岛5晚6天",
+        "lineSortTitle": "BLD56",
+        "lineTitle": "热恋.巴厘岛5晚6天",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "新加坡",
+                "countryName": "新加坡",
+                "provinceName": ""
+            },
+            {
+                "cityName": "巴厘岛",
+                "countryName": "印度尼西亚",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "6",
+        "tripNight": "5",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "印尼落地签费用（36美金/人），国际旅游税15万印尼盾",
+                    "country": "印度尼西亚",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        },
+        "backAirports": [
+            {
+                "airlineCode": "SQ",
+                "airlineName": "新加坡航空",
+                "arriveAirportName": "新加坡",
+                "arriveTime": "15:50",
+                "days": 0,
+                "flightNo": "SQ939",
+                "flightSort": "第一段",
+                "startAirportName": "巴厘岛",
+                "startTime": "13:05"
+            },
+            {
+                "airlineCode": "SQ",
+                "airlineName": "新加坡航空",
+                "arriveAirportName": "北京",
+                "arriveTime": "23:00",
+                "days": 0,
+                "flightNo": "SQ806",
+                "flightSort": "第二段",
+                "startAirportName": "新加坡",
+                "startTime": "16:50"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "SQ",
+                "airlineName": "新加坡航空",
+                "arriveAirportName": "新加坡",
+                "arriveTime": "06:20",
+                "days": 0,
+                "flightNo": "SQ801",
+                "flightSort": "第一段",
+                "startAirportName": "北京",
+                "startTime": "00:05"
+            },
+            {
+                "airlineCode": "SQ",
+                "airlineName": "新加坡航空",
+                "arriveAirportName": "巴厘岛",
+                "arriveTime": "11:00",
+                "days": 0,
+                "flightNo": "SQ936",
+                "flightSort": "第二段",
+                "startAirportName": "新加坡",
+                "startTime": "08:20"
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "请提前预订，以确保座位和酒店安排；护照有效期需在6个月以上；如遇航班变动，具体时间以出团通知为准",
+        "costExclude": "护照费、印尼落地签费用（36美金/人），国际旅游税15万印尼盾；印尼是小费制国家，服务性小费不含；单间差费用，12岁以下可以不占床；酒店住宿若出现单男单女，旅行社会按照报名先后的顺序安排同性客人同住，若客人不接受此种方式或经协调不能安排的，客人须在出发前补单房差费用；出入境的行李海关课税，超重行李的托运费、管理费等；旅游费用包含内容以外的所有费用：一切私人费用：例如交通工具上非免费餐饮费、转机/火车时用餐、洗衣、理发、电话、饮料、烟酒、付费电视、行李搬运、邮寄、购物、行程列明以外的用餐或宴请等；自由活动期间的餐食费及交通费；行程中未提到的其它费用：如特殊门票、游船（轮）、缆车、地铁票等费用；因个人原因滞留产生的一切费用；因气候或飞机、车辆、船只等交通工具发生故障导致时间延误或行程变更引起的经济损失和责任；行李在航班托运期间造成损坏的经济损失和责任",
+        "costInclude": "行程中所标明的5晚酒店或同级酒店双人标准间住宿；行程中所列餐食；司机导游服务费；行程所含景点首道门票；境外旅游意外险；国际间往返机票（经济舱）",
+        "lineReturns": [],
+        "otherRule": "以上行程中所列所有图片（包括酒店、景点等）仅供参考；以上行程时间表仅供您参考，有可能会因为境外期间特殊情况予以前后调整，如(堵车、恶劣天气、景点关门、突发事件等)；行程及航班为参考，最终以出团通知为准",
+        "returnContent": "如遇天气、战争、罢工、地震等人力不可抗力因素无法游览，我社将按照旅行社协议，退还未游览景点门票费用，但赠送项目费用不退；游客因个人原因临时自愿放弃游览，酒店住宿、餐、车等费用均不退还；如遇航空公司政策性调整机票价格，请按规定补交差价。机票价格为团队机票，不得改签换人退票；如果旅游目的地国家政策性调整门票或其他相关价格，请按规定补交差价",
+        "selfCostContent": "所有自费项目均为自愿参加，费用自理",
+        "selfCosts": [],
+        "shopContent": "无强制购物安排",
+        "shops": [],
+        "tipsContent": "请随身携带贵重物品，不要放在车上或房间内；请遵守当地法律法规，注意人身安全；请自备转换插头、防晒霜、太阳镜等；请尊重当地文化和宗教习俗"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "今日将满怀着快乐与期待飞往巴厘岛。抵达巴厘岛后，导游在机场热情迎接，之后体验传统 SPA。午餐后前往著名的库塔海滩、洋人街，这里有各式商场、饭店、餐厅、酒吧，大牌聚集，小店独具特色，也是冲浪爱好者的聚集地。您可以休闲自由地逛逛。午餐之后前往酒店办理入住，抵达酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "CROSSBALI BRFAKF 别墅",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "2 小时",
+                    "description": "巴厘岛 SPA 是一种结合五官的松弛法，环境、香熏、音乐，并利用古老的按摩手法和各式周到的服务来达到真正的放松，您不妨可以在安静的气氛中小睡一下，消除一天的旅途疲劳。",
+                    "name": "LULUSPA"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "这里有各式商场，大牌聚集，也有各式小店，独具特色。此外,饭店、餐厅、酒吧林立。库塔海滩，也是冲浪爱好者的聚集地。您可以休闲自由的逛逛。",
+                    "name": "库塔洋人街"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "06:20",
+                    "departure": "北京",
+                    "departureTime": "00:05",
+                    "destination": "新加坡",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "11:00",
+                    "departure": "新加坡",
+                    "departureTime": "08:20",
+                    "destination": "巴厘岛",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "当地用车"
+                }
+            ],
+            "title": "巴厘岛之旅第一天",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后开始今天丰富多彩的旅程，首先体验 ATV 越野，后前往最美的 AYUNG 河畔体验阿勇河漂流，之后前往位于风景秀丽的德格拉朗梯田的秋千俱乐部，然后前往乌布皇宫和乌布市场。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "CROSS BALIBRFAKF 别墅",
+                    "star": "未知"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "1 小时",
+                    "description": "山地车是一项不错的体验，戴上头盔，穿上靴子，驾驶 2500CC 排量的越野车，或走过宁静安详的乌布农村，或穿过杂草丛生的热带雨林，或骑过峡谷间的小溪流，或飞过浪花朵朵的黑沙滩。全程有着无限狂野刺激的乐趣，1 个小时的肆意野蛮驾驶，自由地开拓属于您自己的道路，发现沿途美景。如果是蓝天白云的晴天配上巴厘岛独特的热带丛林风光，风在耳边呼呼而过，别提有多自在惬意了",
+                    "name": "ATV 越野"
+                },
+                {
+                    "consumingTime": "未知",
+                    "description": "河岸高峻，植被繁茂，大部分河段水流都较平缓，游客可以安心饱览美景，沿河风景变幻无穷，热带雨林、田野、瀑布等景观令人赞叹。由经验丰富的舵手指导员带领大家展开活泼轻快、欢乐精彩之旅，穿上船家为您准备的泛舟装备，在湍急的河流上进行一趟冒险泛舟之旅，一路上山峦起伏、有险峻的河谷、梯田及小径人家，沿途景色优美层层相迭梯田和辽远的椰林，可见陡峭河谷、天然瀑布及枝叶浓密的热带雨林；您更可看到当地居民如何依靠河流生活，引水灌溉稻田，以及在河边沐浴洗衣的画面，让您惊叹不已，直呼过瘾，使您难以忘怀多姿多彩的旅程",
+                    "name": "阿勇河漂流"
+                },
+                {
+                    "consumingTime": "未知",
+                    "description": "是周杰伦的稻香 MV 和茱莉亚罗伯茨主演的《eat,pray,love》的取景地。园内一共有 4 座高低不同的秋千，高度从 10 米到 300 公尺不等（考虑到每人承受能力不同，因此我们团组包含的为 10 米高度秋千），而造型鸟巢更是多达 6 座之多。荡出去，梯田层层叠叠，仿佛山水画一般地美",
+                    "name": "网红 Alas Harum Bali 梯田秋千俱乐部"
+                },
+                {
+                    "consumingTime": "未知",
+                    "description": "未知",
+                    "name": "乌布皇宫"
+                },
+                {
+                    "consumingTime": "未知",
+                    "description": "未知",
+                    "name": "乌布市场"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "未知",
+                    "departure": "未知",
+                    "departureTime": "未知",
+                    "destination": "未知",
+                    "trafficType": "当地用车"
+                }
+            ],
+            "title": "巴厘岛精彩探险之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "全天在巴厘岛自由活动，放松身心，感受乌布的艺术氛围。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "CROSSBALI",
+                    "star": ""
+                },
+                {
+                    "name": "BRFAKF 别墅",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "全天",
+                    "description": "乌布是一个远离海滩的小镇，是巴厘岛的文化艺术中心，也是世界闻名的艺术村。大街小巷的工艺品商店和博物馆让乌布散发着无处不在的艺术气息，绘画、雕刻、音乐、舞蹈、纺织、摄影、建筑等艺术形式让人不由得沉浸其中。",
+                    "name": "乌布"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "当地用车"
+                }
+            ],
+            "title": "巴厘岛自由活动与乌布艺术探索",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "今早出发前往贝妮达岛，从巴厘岛搭乘快艇前往，船程大约 45 分钟。在贝妮达岛体验沙滩俱乐部的活动，参观多个网红景点，之后前往金巴兰边看日落边享受晚餐。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "Grand Hyatt Bali",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "浮潜，独木舟，泳池",
+                    "name": "贝妮达岛出海-沙滩俱乐部"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "拍照达人最爱",
+                    "name": "贝妮岛网红景点"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "以独特的地貌著名，水平视角是一个有半圆桥洞的桥，俯瞰角度是个圆形的大洞，也称之为“天仙裂痕”，这是一座天然形成的拱桥，由火山地壳运动而形成的天然奇观。",
+                    "name": "破碎沙滩"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "天然浴池是山体天然形成的小泳池，水面极其平静，就像是天神的泳池一般！",
+                    "name": "天神浴池"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "大自然海水拍打的礁岩，呈现出像卧倒沉睡中的小恐龙一般，另一个角度看又类似鲸鱼。",
+                    "name": "恐龙湾"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "夕阳下、烛光中、悠扬的印尼民歌、金巴兰海滩的魅力是无法令人抗拒的。海景落日、沙滩、歌手民谣、美食、点点烛光,无限浪漫。",
+                    "name": "金巴兰海滩观日落"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "巴厘岛",
+                    "departureTime": "",
+                    "destination": "贝妮达岛",
+                    "trafficType": "快艇"
+                }
+            ],
+            "title": "巴厘岛贝妮达岛之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "全天彻底放松，自由活动，随心所欲，畅享巴厘海岛悠闲时光。如需游玩可咨询导游（以自愿为原则）。温馨提示：出门在外安全至上，所有自费旅游活动必须经过专业安排及购买相关保险并承担相应责任，切勿参加任何非正式持牌旅行社、网络店铺或个人组织的旅游活动。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "Grand Hyatt Bali",
+                    "star": "5"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "巴厘岛自由活动日",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "送机用车，之后乘车前往机场，准备搭乘航班返回北京。参考航班：SQ939 13：05 - 15：50 转 SQ806 16：50 - 23：00。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "15：50",
+                    "departure": "巴厘岛",
+                    "departureTime": "13：05",
+                    "destination": "新加坡",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "23：00",
+                    "departure": "新加坡",
+                    "departureTime": "16：50",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "返程之旅",
+            "tripDay": 6
+        }
+    ]
+}

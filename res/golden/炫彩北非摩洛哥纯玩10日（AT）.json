@@ -1,0 +1,505 @@
+{
+    "product": {
+        "childAgeBegin": "0",
+        "childAgeEnd": "10",
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "",
+                "destCityName": "",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": [
+            {
+                "content": "",
+                "name": "",
+                "typeName": ""
+            }
+        ],
+        "insuranceIncluded": 0,
+        "markets": [
+            {
+                "name": "纯玩"
+            }
+        ],
+        "productSubtitle": "",
+        "productTitle": "炫彩摩洛哥魅力纯玩 10 日（AT）",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": ""
+            }
+        ],
+        "themes": [
+            {
+                "name": "摩洛哥"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "AT",
+                "airlineName": "摩洛哥皇家航空",
+                "arriveAirportName": "",
+                "arriveTime": "11:55",
+                "days": "+1",
+                "flightNo": "AT230",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "16:20"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "AT",
+                "airlineName": "摩洛哥皇家航空",
+                "arriveAirportName": "",
+                "arriveTime": "21:20",
+                "days": "0",
+                "flightNo": "AT231",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "13:55"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "四星",
+        "lineFeature": "",
+        "lineSimpleTitle": "",
+        "lineSortTitle": "",
+        "lineTitle": "",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "",
+                "countryName": "",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "10",
+        "tripNight": "8",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            }
+        ],
+        "departDate": [
+            ""
+        ]
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "1、护照费用（半年有效期以上且符合签证要求）； 2、全程司机导游服务费：200 美元/人（机场现付领队）； 3、酒店内电话、传真、洗熨、收费电视、饮料等费用； 4、因恶劣天气、政治活动、罢工、瘟疫等人力不可抗拒因素以及航空公司、船务公司、火车等第三方原 因导致行程取消或更改以及由此产生的额外费用； 5、行李在航班托运期间的造成损坏的经济损失和责任，行李物品保管费用及托运行李超重费、个人消费 及行程以外的自选项目等； 6、旅游意外伤害保险（建议自行购买）。 7、行程未列，其他费用。 8、骑骆驼，越野 4x4 司机，马车额外小费，建议每项 1-3 美金。",
+        "costInclude": "1、国内往返卡萨布兰卡经济舱国际机票及税金； 2、全程 6 晚四星酒店，舍夫沙万 1 晚特色民宿，1 晚沙漠帐篷特色酒店（双人标准间）； 3、行程内所列餐食（飞机餐及行程中注明的自理餐除外）； 4、当地中文导游服务； 5、空调旅游用车及车载 WIFI； 6、景点首道门票，以行程所注为准；",
+        "lineReturns": [
+            {
+                "begin": "",
+                "cost": "",
+                "end": ""
+            }
+        ],
+        "otherRule": "",
+        "returnContent": "",
+        "selfCostContent": "",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "",
+                "name": "",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "",
+        "shops": [
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "",
+                "shopProduct": "",
+                "stay": ""
+            }
+        ],
+        "tipsContent": "►以上行程推荐所列各景点停留时间仅供参考，以当日实际安排为准。当地导游有权根据航班、天气、交通 以及当地实际情况，在不删减景点的前提下安排行程内容的先后顺序和景点停留时间； ►团体机票如果去程不用，航空公司系统会将其它段航班自动作废，特此明确告知； ►个人旅行意外保险团费不含，强烈建议客人自行购买，如不购买纯属自愿放弃，特此警示； ►本产品所有的景点门票均为团队票，按均价计价，故长者、成人、儿童票价一致，没有差额； ►摩洛哥为小费国家，当地服务人员提供房间打扫、行李等服务建议付 5-10 元人民币或 1 美金小费； ►以上行程仅供参考，不作为合同附件，我社可根据具体航班做相应调整，具体行程以最后出团通知为准； ►如因第三方原因（如航空公司）导致行程取消或改变，我社有义务协调，但不承担由此产生的额外损失； ►旅游行程中客人房间的安排以两人一间房为标准，若出现单男/单女，优先接受我社的房间分配协调（拼住、 安排三人间或加床），如不能接受的，则需自行补单间差费用； ►凡持公务护照，请让客人自行到外事办公室或相关部门开具出国申请表或相关出国证明； ►及时给客人提供出团注意事项； ►机票为团队票，一旦出票不得签转、更改、改期或退票； ►行程标注参考航班时间仅供参考，以机票票面为准，机票如遇国家政策性调价，核收差价； ►请自愿购买个人旅行意外伤害保险（30RMB/人），该保险不包含，如不购买纯属个人放弃； ►游客应确保身体健康，能够顺利完成旅游活动； ►明确提示：孕妇不适合长途旅游，建议不要参团，如隐瞒或执意参团出现任何问题自行负责。"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "北京大兴机场集合，乘机前往卡萨布兰卡。抵达后入住酒店。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "hilton garden inn/ Best Western City Center 或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "21:20",
+                    "departure": "北京",
+                    "departureTime": "13:55",
+                    "destination": "卡萨布兰卡",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京-卡萨布兰卡",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "驱车前往马拉喀什游览，【巴西亚王宫】【马约海尔的私人花园】，逛【不眠广场】，乘坐马车巡游红城美 景。 特别安排皇家曼苏尔下午茶。 外观【库图比亚清真寺】 巴西亚王宫：一座典雅的宫殿，融合了摩尔、阿拉伯和安达卢西亚的设计元素，展示了摩洛哥建筑艺术的精 华。 马约海尔的私人花园：1980 年，法国时尚大师伊夫·圣·罗兰在马拉喀什旅行时无意间看到了这座世外花园， 从此便醉心于此，并获得“取之不尽的精神源泉”。 不眠广场：杰马夫纳广场（Djemaa el Fna）又称：不眠广场。位于马拉喀什，是全球唯一还在使用的被列 入世界文化遗产的广场，已有一千年历史。 （当天车程约 3 小时）",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "Hotel Ayoub/ Palm Menara 或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "一座典雅的宫殿，融合了摩尔、阿拉伯和安达卢西亚的设计元素，展示了摩洛哥建筑艺术的精 华。",
+                    "name": "巴西亚王宫"
+                },
+                {
+                    "name": "马约海尔的私人花园",
+                    "description": "1980 年，法国时尚大师伊夫·圣·罗兰在马拉喀什旅行时无意间看到了这座世外花园， 从此便醉心于此，并获得“取之不尽的精神源泉”。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "不眠广场",
+                    "description": "杰马夫纳广场（Djemaa el Fna）又称：不眠广场。位于马拉喀什，是全球唯一还在使用的被列 入世界文化遗产的广场，已有一千年历史。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "卡萨布兰卡-马拉喀什",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "瓦尔扎扎特游览，【电影城】前往并游览【阿伊本哈杜筑垒村】 电影城：建于 1983 年，是北非第一家影视基地，占地 20 公顷。先后有《角斗士》、《亚历山大》、《波 斯王子》等近百部电影在此拍摄。 阿伊本哈杜筑垒村：是一组由高墙围起来的土制建筑，这是一处典型的前撒哈拉居民聚居区。在防御墙内建 造有许多房屋，同时四周还有箭塔进行辅助防御。位于瓦尔扎扎特省的阿伊特·本·哈杜是摩洛哥南部建筑的 经典范例。于 1987 年列入世界文化遗产",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "Kenzi azghor hotel/ Karam Palace 或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "建于 1983 年，是北非第一家影视基地，占地 20 公顷。先后有《角斗士》、《亚历山大》、《波 斯王子》等近百部电影在此拍摄。",
+                    "name": "电影城"
+                },
+                {
+                    "name": "阿伊本哈杜筑垒村",
+                    "description": "是一组由高墙围起来的土制建筑，这是一处典型的前撒哈拉居民聚居区。在防御墙内建 造有许多房屋，同时四周还有箭塔进行辅助防御。位于瓦尔扎扎特省的阿伊特·本·哈杜是摩洛哥南部建筑的 经典范例。于 1987 年列入世界文化遗产",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "马拉喀什-阿伊本哈杜-瓦尔扎扎特",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "途径游览，【托德拉峡谷】抵达梅祖卡，安排四驱车进入撒哈拉沙漠，【骑骆驼】（根据具体到达时间调整） 【篝火晚会】 入住沙漠特色帐篷酒店",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "Caravanserai luxury desert camps 或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "托德拉峡谷地处大阿特拉斯山脉的东部，因四壁皆为 300 多米的陡峭红岩石直耸天际，举目 望去，窄窄的峡顶天开一线，仅容正午一缕阳光透射谷底，形成峡谷顶端峰壁金光闪闪的奇观，被誉为世界 上十大美妙峡谷之一，是进入撒哈拉沙漠的必经之地。",
+                    "name": "托德拉峡谷"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "瓦尔扎扎特-梅祖卡",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "途径游览，【伊弗兰小镇】，抵达菲斯。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "Hôtel l'Escale/ Menzeh Zalagh city center 或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "建筑风格独特，融合了欧洲和摩洛哥的元素，是著名的滑雪胜地，有“小瑞士”之称。",
+                    "name": "伊弗兰小镇"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "梅祖卡-菲斯",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "途径游览，【沃鲁比利斯】，菲斯游览，【菲斯古城】【神学院】 外观【卡拉维因大学（Qarqouiyyin）】【安达卢清真寺】",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "：Hotel Vancii/ Chao Parador 或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "一座因古罗马帝国遗址而被定为世界文化遗产的摩洛哥名城。透过现存遗址上的残垣断壁，依 然能清晰的分辩出当年古城的罗马教堂、国会大厦、广场（论坛）、凯旋门、园柱大厅、公共浴室等建筑遗 迹以及精美的马赛克镶嵌画",
+                    "name": "沃鲁比利斯"
+                },
+                {
+                    "name": "菲斯古城",
+                    "description": "千年皇城的独特魅力之旅。菲斯古城是摩洛哥四大皇城之一，也是其精神文化之都。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "菲斯-沃鲁比利斯-舍夫沙万",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "【舍夫沙万】游览， 丹吉尔游览，【“非洲之洞”】【卡斯巴灯塔】",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "Hotel Occidental/ Andalucia Golf& Spa Tanger 或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "摩洛哥西北部一个精致美丽的山城，清爽的空气，清新的蓝色，安静的小巷，淳朴的民风，仿似 童话般梦幻",
+                    "name": "舍夫沙万"
+                },
+                {
+                    "name": "非洲之洞",
+                    "description": "千百年来海浪冲击岩石自然形成的，“非洲之洞“已成为丹吉尔的一大自然景观。令人称奇的是， 这个洞穴的洞口竟酷似一幅反过来的非洲地图。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "卡斯巴灯塔",
+                    "description": "坐落在海拔 300 米的山坡上，位于摩洛哥丹吉尔西面直布罗陀入口处。灯塔塔身高耸，夜间 塔顶灯光透亮，为进出大西洋与地中海来往的船只指引航向。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "舍夫沙万-丹吉尔",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "驱车前往艾西拉游览，【艾西拉小镇】， 【乌达亚堡】【穆罕默德五世陵寝和哈桑塔】，之后前往卡萨布 兰卡",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "hilton garden inn/ Best Western City Center 或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "一座色彩绚丽的大西洋海滨小镇，其历史可追溯到公元前 1500 年 19 世纪成为海盗基地，后 来这里成为了一座色彩艳丽的涂鸦小镇，安静祥和又充满现代文艺气息",
+                    "name": "艾西拉小镇"
+                },
+                {
+                    "name": "乌达亚堡",
+                    "description": "古堡的街巷里，路面铺着碎石，房舍低矮，墙壁刷着白 灰，门窗一律呈天蓝色，屋顶放置着精 致的花盆，西班牙风格 的街灯和铁窗格外引人注目，被称为拉巴特的篮白小镇。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "穆罕默德五世陵寝和哈桑塔",
+                    "description": "两个景点在广场上相对，哈桑塔是当时规划建造的大清真寺的宣礼塔，穆罕默 德五世陵墓门口由皇家卫兵守护，和哈桑塔对望。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "丹吉尔-艾西拉-拉巴特-卡萨布兰卡",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "卡萨布兰卡-北京",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "其中三分之一面积建在海上，以纪念摩洛哥的阿拉伯人祖先自海上来。整个清真寺可同时 容纳 10 万人祈祷，是世界第三大清真寺。",
+                    "name": "哈桑二世清真寺"
+                },
+                {
+                    "name": "穆哈穆德五世广场",
+                    "description": "这座城市的中心，也是这座城市现代化的象征。广场上成千上万的象征自由和平的鸽子 自由飞翔，着白衣长袍的摩洛哥人在城市里穿行。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "哈桑二世广场",
+                    "description": "位于卡萨市区西北部大西洋海滨，占地总面积 9 公顷，三分之一面积建在海上，是卡萨布 兰卡的地标建筑。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "11:55",
+                    "departure": "卡萨布兰卡",
+                    "departureTime": "16:20",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "卡萨布兰卡-北京",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 0,
+            "content": "返回温馨的家。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "北京",
+            "tripDay": 10
+        }
+    ]
+}

@@ -1,0 +1,1064 @@
+{
+    "product": {
+        "childAgeBegin": "0",
+        "childAgeEnd": "0",
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "美国",
+                "destCityName": "",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": [
+            {
+                "content": "",
+                "name": "境外旅行意外伤害险。",
+                "typeName": ""
+            }
+        ],
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "11人vip精品团"
+            },
+            {
+                "name": "美国安排15座奔驰/福特的商务车接待"
+            },
+            {
+                "name": "特色餐食"
+            },
+            {
+                "name": "特色酒店"
+            },
+            {
+                "name": "独家安排夏威夷植物园"
+            },
+            {
+                "name": "美东城市文化之旅 "
+            },
+            {
+                "name": " 美西自然风光之旅"
+            },
+            {
+                "name": "夏威夷度假海岛休闲游"
+            }
+        ],
+        "productSubtitle": "美国东西海岸夏威夷+波士顿+旧金山+大瀑布21日",
+        "productTitle": "《全景美国》美国21日 ",
+        "returnCityName": "",
+        "tags": [
+            {
+                "name": "黄石&大峡谷&羚羊彩穴&马蹄湾+11名城+大瀑布+夏威夷"
+            }
+        ],
+        "themes": [
+            {
+                "name": "美国东西海岸夏威夷+波士顿+旧金山+大瀑布21日"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "KE",
+                "airlineName": "",
+                "arriveAirportName": "ICN",
+                "arriveTime": "17：45+1",
+                "days": "0",
+                "flightNo": "KE054",
+                "flightSort": "",
+                "startAirportName": " HNL",
+                "startTime": " 12：35"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "KE",
+                "airlineName": "",
+                "arriveAirportName": "JFK",
+                "arriveTime": "19：30",
+                "days": "0",
+                "flightNo": "KE085",
+                "flightSort": "",
+                "startAirportName": " ICN",
+                "startTime": "19:30"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "",
+        "lineFeature": "11 大名城：纽约·波士顿·布法罗·哈里斯堡·华盛顿·盐湖城·拉斯维加斯·洛杉矶·圣地亚哥·旧金山·夏 威夷 主要景点：夏威夷植物园·自由女神像·哈佛大学·麻省理工·大瀑布·白宫·黄石公园·大峡谷公园·羚羊彩 穴·马蹄湾·Sphere球·好莱坞星光大道·胜利之吻·金门大桥·威基基海滩 7个特色小镇：哈里斯堡·丹麦村·圣芭芭拉·蒙特雷·卡梅尔·拉芙林·66号公路小镇 团队人数：11人vip精品团·美国安排15座奔驰/福特的商务车接待",
+        "lineSimpleTitle": "黄石&大峡谷&羚羊彩穴&马蹄湾+11名城+大瀑布+夏威夷",
+        "lineSortTitle": "",
+        "lineTitle": "",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "",
+                "countryName": "",
+                "provinceName": "首尔"
+            }
+        ],
+        "tripDays": "21",
+        "tripNight": "",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "美国",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            }
+        ],
+        "departDate": [
+            ""
+        ]
+    },
+    "cost": {
+        "bookRule": "客人报名参团定金10000元/人，出团前30天收取尾款。 ★团队人数：11人vip精品团。",
+        "costExclude": "1、私人费用包括：洗衣、电话、传真、收费电视节目、宵夜、班的行李托运费，首件约40美金； 5、全程小费320美金/人，机场现付领队； 6、全程单间差：10000元/人（如果客人要求住单间需要补单间差），儿童不占床含早餐的旅游费用 可以减7000元/人； 7、美国签证相关费用及加急费用（可以代办美国签证）； 8、美洲酒店可能会收取入住押金（刷信用卡或者现金支付），请客人自理！ 9、其他行程中以及上述“报价包含”条款中未列明的一切额外费用。酒水、邮寄、行李搬运、夜间活动等； 2、航班托运行李超重费用和航空公司燃油附加费的临时增加(产生的行李托运费)； 3、游览期间的用车为早9点到晚7点，非日程安排引起的导游/司机超时服务费，境外现付； 4、境外航班飞行、候机或转机期间的用餐（美国内陆航班用餐大约为5-10美金/份）和美国内陆航",
+        "costInclude": "1、酒店：参考酒店或同等酒店，安排当地三星级酒店标准间住宿（拉斯维加斯主干道酒店，夏威夷 欧胡岛独家区域酒店靠近威基基海滩，黄石公园西黄石小镇酒店）； 2、用车：15座奔驰/福特商务车，包含油费、司机住宿补； 3、用餐：早餐（酒店内自助早餐，拉斯维加斯中式简早套餐送入房间）； 午餐、晚餐（中式自助餐/中式桌餐10人8菜1汤/西式快餐/当地特色餐）粤菜中式龙虾餐、布 法罗烤鸡翅餐、牛排餐、墨西哥卷饼Taco、美国IN&OUT汉堡，夏威夷虾饭； 4、导服：国内派领队全程服务； 5、机票：全程经济舱机票费用及相关燃油附加费； 6、每人每天1瓶饮用水； 7、首道景点门票：黄石国家公园、大提顿国家公园、大峡谷国家公园、羚羊彩穴、马蹄湾、自由女 神游船（不上岛）、大瀑布游船，珍珠港，17里湾，好时巧克力工厂； 8、境外旅行意外伤害险。",
+        "lineReturns": [
+            {
+                "begin": "出发前60天以上",
+                "cost": "退还参团定金",
+                "end": ""
+            },
+            {
+                "begin": "出发前60天（含60天）",
+                "cost": "扣除定金10000元/人",
+                "end": "出发前30天"
+            },
+            {
+                "begin": "出发前30天（含30天）内",
+                "cost": "扣除全部费用",
+                "end": ""
+            }
+        ],
+        "otherRule": "",
+        "returnContent": "此产品预定后，由于任何原因客人取消行程，按照下列条款执行",
+        "selfCostContent": "1. 自费项目参加与否，由旅游者根据自身需要和个人意志，自愿、自主决定，如旅游者不参加自费项目的，将 根据行程安排的内容进行活动。如果全体客人要求参加非推荐自费项目，需请全团客人签字同意，方可安排； 2. 请您在选择自费项目之前慎重考虑，一旦确认参加并付费后，导游将会进行预订，费用产生后旅游者取消的， 将无法退还您费用。 3. 此表格内的价格会受参加人数、出行季节、景点调价、车费调价等因素临时调整，请您根据自身需求自愿选 择参加推荐项目，如选择不参加推荐项目的客人可按照原计划自由活动！",
+        "selfCosts": [
+            {
+                "address": "拉斯及 周边",
+                "fee": "$80/人",
+                "name": "拉斯维加斯夜游",
+                "remark": "10人以上",
+                "stay": "约2.5小时"
+            },
+            {
+                "address": "拉斯及 周边",
+                "fee": "$260/人",
+                "name": "大峡谷直升飞机",
+                "remark": "",
+                "stay": " 约15分钟"
+            },
+            {
+                "address": "纽约 & 华盛顿",
+                "fee": "$80/人",
+                "name": "曼哈顿夜游 ",
+                "remark": "整团",
+                "stay": "约2小时"
+            },
+            {
+                "address": "纽约 & 华盛顿",
+                "fee": "$80/人",
+                "name": "帝国大厦或勒克菲勒大厦登顶",
+                "remark": "",
+                "stay": "约45分钟"
+            }
+        ],
+        "shopContent": "自由活动，奥莱专卖店约有130家 第十三天 左右",
+        "shops": [
+            {
+                "address": "棕榈泉沙漠奥特莱斯",
+                "remark": "",
+                "shopName": "棕榈泉沙漠奥特莱斯",
+                "shopProduct": "包括Coach、Dolce&Gabbana、Escada、GiorgioArmani、Gucci、MaxMara、PoloRalph  Lauren、Prada、Miu Miu等",
+                "stay": "约4小时"
+            }
+        ],
+        "tipsContent": "此行程为旅游合同不可分割之部分，我司将严格按照行程执行。在不减少任何景点的前提下，导游可 根据境外情况做顺序之调整，该调整不视为违约。当发生不可抗力、危及旅游者人身、财产安全，或者 非旅行社责任造成的意外情形导致的景点、交通、住宿地点的临时变动、修改或更换，以及旅行社不得 不调整或者变更旅游合同其他约定时,本公司会在事前向旅游者做出说明；确因客观情况无法在事前说明 的，亦会在事后做出说明。因不可抗拒的客观原因（如天灾、战争、罢工等）和旅行社人为不可控因素 （包含但不仅限于以下：如航空公司航班延误或取消、交通堵塞、个别客人因突发事故或疾病、人身伤害、 客人滞留、财产损失、物品遗失等影响行程、领馆签证延误等）导致的一切超出费用（如在外延期签证费、 食、宿及交通费、国家航空运价调整等）游客应将增加费用交付旅行社。"
+    },
+    "trips": [
+        {
+            "breakfast": 1,
+            "content": "游客可以选择就近口岸出发，领队从北京出发，在韩国首尔与所有游客汇合后，一起乘机前往纽约， 抵达后导游接机，入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "19：30",
+                    "departure": "首尔/",
+                    "departureTime": " 19：30",
+                    "destination": "纽约",
+                    "trafficType": "汽车+飞机"
+                }
+            ],
+            "title": "国内/首尔/纽约",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "游览乘船参观美国精神的象征",
+                    "name": "自由女神像"
+                },
+                {
+                    "name": "华尔街",
+                    "description": "这里是世界的经济中心",
+                    "consumingTime": "约30分钟"
+                },
+                {
+                    "name": "纽约证券交易所",
+                    "description": "是世界上第二大证券交易所",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "铜牛",
+                    "description": "是华尔街的标志，喻义着只要铜牛在，股市就能永保“牛”市；",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "三一教堂",
+                    "description": "是圣公会纽约教区的一 座古老的堂区教堂。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "归零地",
+                    "description": "9.11遗址所在地，昔日纽约地标性建筑世界贸易中心“双子大厦”  坐落于此。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "联邦大厅国家纪念堂（外观）",
+                    "description": "建于1700年，作为美国第一座国会大厦，第一届国会在 此召开；",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "联合国总部（外观）",
+                    "description": "会议大楼里有安全理事会会议厅、经济及社会理事会和托管理事会 会议厅；",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "洛克菲勒中心",
+                    "description": "一个包括十九幢大楼的建筑群，全国电视节播送基地；",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "时代广场",
+                    "description": "因 1904 年《纽约时代报》的总社迁移至此，因而得名；",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "第五大道",
+                    "description": "作为世界顶级购物 街，第五大道上的名店数不胜数，苹果、LV、FAO玩具店、百货公司等。",
+                    "consumingTime": "约1小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "纽约",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往波士顿",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "校内参观，哈佛坐落于美国马萨 诸塞州剑桥市，是一所享誉世。这里走出了8位美利 坚合众国总统，133位诺贝尔奖得主（世界第一）、18位菲尔兹奖得主（世界第一） 、13位图灵 奖得主（世界第四）界的私立研究型大学，是著名的常春藤盟校成员。",
+                    "name": "哈佛大学"
+                },
+                {
+                    "name": "麻省理工",
+                    "description": "于1861年始建，坐落于美国马萨诸塞州，是一 所世界著名私立研究型大学；",
+                    "consumingTime": "约1小时"
+                },
+                {
+                    "name": "昆西市场",
+                    "description": "市场内有很多特色小店和水果摊位，是深 受游客喜爱的观光场所。",
+                    "consumingTime": "约30分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "纽约",
+                    "departureTime": "",
+                    "destination": "波士顿",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "纽约-波士顿",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "位于加拿大和美国交界的尼亚加拉河中段地区，有 着世界七大奇景之一的美誉，同时也是世界三大瀑布之一。它以宏伟的气势，丰沛而浩瀚的水汽，震 撼了所有的游人。从伊利湖滚滚而来的尼亚加拉河水流经此地，突然垂直跌落51米，巨大的水流以 银河倾倒之势冲下断崖，声及数里之外，场面震人心魄，形成了气势磅礴的大瀑布。 抵达后布法罗城市观光。",
+                    "name": "尼亚加拉大瀑布"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "波士顿",
+                    "departureTime": "",
+                    "destination": "布法罗",
+                    "trafficType": "：汽车"
+                }
+            ],
+            "title": "波士顿-布法罗",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "穿梭于波涛起伏的瀑布间，水花迎面扑来，刺激紧张，更添加一 份震撼。",
+                    "name": "瀑布游船"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "布法罗",
+                    "departureTime": "",
+                    "destination": "哈里斯堡",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "布法罗-哈里斯堡",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "参观好时巧克力工厂，乘坐小火车参观巧克力制作 全过程，之后也可以为家人朋友选购甜蜜的礼物---好时巧克力。",
+                    "name": "好时巧克力工厂"
+                },
+                {
+                    "name": "华盛顿市 区",
+                    "description": "",
+                    "consumingTime": "约2小时"
+                },
+                {
+                    "name": "白宫（外观）",
+                    "description": "美国的权力中心，美国总统的官邸，美 国开国元勋乔治华盛顿对美国总统官邸的建造曾发表过他的观点：它决不能是一座宫殿，决不能豪华， 因为在这里工作的主人是国家仆人。于是他提出了建造总统府的三点要求：宽敞、坚固、典雅；",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "美 国财政部（外观）",
+                    "description": "处于华盛顿纪念碑北侧，是一个典型的希腊式建筑；",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "林肯纪念堂",
+                    "description": "（5元纸币背面）一座仿古希腊巴特农神庙式的古典建筑，36根古朴的白色大理石圆柱支撑 着纪念堂",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "【韩战纪念广场】、【越战纪念墙】",
+                    "description": "用于纪念韩战和越战时期服役战死的美国士兵和将领。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "哈里斯堡",
+                    "departureTime": "",
+                    "destination": "华盛顿",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "哈里斯堡-华盛顿",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "今日乘飞机前盐湖城，抵达后到乘车前往爱达荷瀑布市，入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "华盛顿",
+                    "departureTime": "",
+                    "destination": "爱达荷瀑布市",
+                    "trafficType": "汽车+飞机"
+                }
+            ],
+            "title": "华盛顿/盐湖城-爱达荷瀑布市",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约5小时",
+                    "description": "在峡谷内健行，眼前的黄石河 陡然变急，冲开四溅的水花，形成两道壮丽的瀑布，轰鸣着泄入峡谷。两道瀑布冲刷着峡谷岩石，可 如油彩般的色彩不会被冲刷褪色，反而在朝霞下更见鲜艳。峡谷区【ArtistPoint瞭望台】，风景优 美的瞭望台和交织的黄石峡谷边缘山路成为峡谷区（CanyonCountry）的主要亮点。离开峡谷区， 去观赏的【泥火山】(MudVolcano)，又是另一番景象，平静时如一潭死水，喷发时则泥浆涌动，酸 雾密布。这里是黄石硫磺浓度最高的区域，喷发的洞窟旁边，形成了一个个硫酸湖，湖边结着许多黄 色的硫磺结晶。最后前往最有名的是老忠实泉（OldFaithful）间歇泉，间歇泉区最好的表现了公园 的地热特征。前往【中途景区】(Midway)，游览【大棱镜泉】（GrandPrismatic Spring），是黄 石公园的标志性景点，也是众多彩池中最大的一个。开阔的水面因不同的温度和菌种，形成极其恣意 艳丽的颜色，仿佛是上帝的调色盘一般。",
+                    "name": "黄石国家公园【峡谷区】（CanyonCountry）"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "爱达荷瀑布市",
+                    "departureTime": "",
+                    "destination": "黄石国家公园-西黄石小镇",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "爱达荷瀑布市-黄石国家公园-西黄石小镇",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "今日继续进入黄石国家公园游览",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约20分钟",
+                    "description": "又是另一番 景象，平静时如一潭死水，喷发时则泥浆涌动，酸雾密布。这里是黄石硫磺浓度最高的区域，喷发的 洞窟旁边，形成了一个个硫酸湖，湖边结着许多黄色的硫磺结晶。",
+                    "name": "泥火山(MudVolcano)"
+                },
+                {
+                    "name": "大提顿国家公园",
+                    "description": "大提顿国家公园位于美国怀俄明州西北部的冰川山区，1929年建成，占地31万英亩， 享有“最秀丽的国家公园”的称号。高耸入云的山巅覆盖着千年不化的冰河，13000英尺的伟岸身 躯从杰克逊山谷拔地而起，使富士山在它的面前都难免自惭形秽，让您情不自禁地发出“会当临绝顶， 一览众山小”的感慨。难怪「派拉蒙」电影公司之片头山景便是以此峰为题。",
+                    "consumingTime": "约45分钟"
+                },
+                {
+                    "name": "西部小镇 ─杰克逊",
+                    "description": "这个哈理逊福特的故乡，正如他在「法柜奇兵」中的角色般的充满传奇 色彩。",
+                    "consumingTime": "约45分钟"
+                },
+                {
+                    "name": "鹿角公园",
+                    "description": "四千多人的小镇充满了各式特色商店，市中心的【鹿角公园】（约30分钟）您一定不能错过。",
+                    "consumingTime": "约30分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "黄石国家公园-大提顿国家公园-盐湖城",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "盐湖城市区游览",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约15分钟",
+                    "description": "这座艺术价值极高的建筑作品采用了 新古典主义建筑的风格，整座大楼外部由花岗岩建造，内部一色灰白天然大理石，穹顶画有早起开拓 者来此拓荒的壁画，不经意间流露出些许的摩门教色彩，整栋建筑恢弘壮阔、精致华丽，是犹他州的 显著地标，也是美国最壮观的州府山庄。",
+                    "name": "犹他州州政府大厦（外观）"
+                },
+                {
+                    "name": "圣殿广场（外观）",
+                    "description": "由摩门教姐妹带领参观，了解摩门教的历史与其独特的教规，盐湖城是1847年由杨百翰率领一批耶 稣基督后期圣徒教会（摩门教）的信徒在此拓荒所建成的一座城市。",
+                    "consumingTime": "约15分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "盐湖城",
+                    "departureTime": "",
+                    "destination": "佩吉",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "盐湖城-佩吉",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约45分钟",
+                    "description": "位于纳瓦霍印第安保留地，这里的红砂岩被山洪以巨大的力量冲击而 出，形成极其少见的狭缝型峡谷。在昏暗的谷中，一线天光从岩缝中射入，仿佛神祉的灵光一闪。谷 底铺着细腻的沙石，岩壁幽深冰冷。",
+                    "name": "羚羊谷"
+                },
+                {
+                    "name": "马蹄湾",
+                    "description": "是科罗拉多河在亚利桑那州境内的一 段U形的河道，河湾环绕巨形的岩石，从悬崖上看下去形似马蹄，所以被称为“马蹄湾”。",
+                    "consumingTime": "约30分钟"
+                },
+                {
+                    "name": "鲍威尔湖",
+                    "description": "褐红色的岩岸、峻峭的峡谷，靛蓝的湖面、纯净的天空构成的秀丽画面与粗砺的大漠夕照和谐地相互浸润。晚餐后入住酒店休息。",
+                    "consumingTime": "约30分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "佩吉",
+                    "departureTime": "",
+                    "destination": "亚利桑那州小镇",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "佩吉-亚利桑那州小镇",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约2小时",
+                    "description": "大峡谷的壮观不须费力解释，任何人都能看 出是经过亿万年的吞吐蕴酿，才留下这片沧桑。峡谷大体呈呈东西走向，全长350公里，平均谷深1600 米，科罗拉多河从谷底流过。",
+                    "name": "大峡谷国家公园（南峡）"
+                },
+                {
+                    "name": "塞利格曼",
+                    "description": "百米长 的街道布置的如同拍摄电影的片场，这里是66号公路上的一个重镇。",
+                    "consumingTime": "约30分钟"
+                },
+                {
+                    "name": "拉斯维加斯大道",
+                    "description": "上参观各式各样的豪华酒店和赌场，也可自行前往各大名牌商场，享受购 物乐趣。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "亚利桑那州小镇",
+                    "departureTime": "",
+                    "destination": "拉斯维加斯",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "亚利桑那州小镇-大峡谷国家公园&塞利格曼小镇-拉斯维加斯",
+            "tripDay": 12
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往洛杉矶",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约4小时",
+                    "description": "自由活动，奥莱专卖店约有130家 第十三天 左右，包括Coach、Dolce&Gabbana、Escada、GiorgioArmani、Gucci、MaxMara、PoloRalph  Lauren、Prada、Miu Miu等，其他像Burberry、Donna Karan等也相当受到消费者青睐。",
+                    "name": "棕榈泉沙漠奥特莱斯"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "拉斯维加斯",
+                    "departureTime": "",
+                    "destination": "洛杉矶",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "拉斯维加斯-洛杉矶",
+            "tripDay": 13
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "这有着温暖的气候、了无边际的沙滩、深海 港口和让人留恋往返的景点；",
+                    "name": "圣地亚哥"
+                },
+                {
+                    "name": "胜利之吻雕像",
+                    "description": "海军士兵在二次大战胜利之时与女友相见一吻的雕像， 后被视为二战结束的纪念象征之一；",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "中途岛号航母（外观）",
+                    "description": "“中途岛”号于1992年4月宣布退 役，是美国使用时间最久的航空母舰。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "巴尔波公园",
+                    "description": "独具西班牙特色的有“美国大城 市文化公园”之称，可媲美纽约中央公园；",
+                    "consumingTime": "约1小时"
+                },
+                {
+                    "name": "圣地亚哥老城",
+                    "description": "老城保留着十九世纪的古朴建筑和宁静风貌，同时小镇又充满着热烈浓郁的墨西哥风情。",
+                    "consumingTime": "约1小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "洛杉矶",
+                    "departureTime": "",
+                    "destination": "圣地亚哥",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "洛杉矶-圣地亚哥-洛杉矶",
+            "tripDay": 14
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "星光大道上已有2400多个明星在上面留下签名和手印； 第十五天 寻找自己喜爱的明星签名&足手印；",
+                    "name": "好莱坞星光大道"
+                },
+                {
+                    "name": "杜比剧院（外观）",
+                    "description": "这是每年奥斯卡颁奖礼的专用剧场。它建 成于2001年底，被选作是奥斯卡的永久举行地；",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "中国大剧院（外观）",
+                    "description": "）中国戏院建立于1927年， 戏院高27.5米，由两根珊瑚红色的巨柱挑起铜顶",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "农夫市场（约1小时）",
+                    "description": "）包含100多家专卖店、 食品摊贩及餐饮店，是当地居民和游客都喜爱的旅游景点。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "比弗利山庄",
+                    "description": "有“全世界最尊贵住宅区”称，聚集了无数的人气与灵气，世界各地的巨星们纷纷在此 购置房产，包括好莱坞电影明星，豪车满街、NBA篮球明星；",
+                    "consumingTime": "约1小时"
+                },
+                {
+                    "name": "圣莫妮卡海滩",
+                    "description": "是美 国66号公路的终点，同时这里是加州历史最久的美丽海港之一，而被海滨木板小道装点的威尼斯海 滩也值得一游。",
+                    "consumingTime": "约1小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "洛杉矶",
+            "tripDay": 15
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "这里的建筑物采用了早期西班牙殖民时期风格，并于 现代建筑学融合，使它拥有一种休闲优雅的风格，是能让游客体验南加州风情的最好去处之一。",
+                    "name": "圣塔芭芭拉"
+                },
+                {
+                    "name": "丹麦村",
+                    "description": "这个村镇的名称叫做Solvang，在丹麦语里表示“充满阳光的田园”。当你走 在街道上，会仿佛置身于19世纪的北欧，参观各类特色的北欧产品商店。",
+                    "consumingTime": "约30分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "洛杉矶",
+                    "departureTime": "",
+                    "destination": "加州小镇",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "洛杉矶-圣塔芭芭拉-丹麦村-加州小镇",
+            "tripDay": 16
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "山光水景、花繁意绿，是旧金山艺术家和作家建造的一个美 国上流社会，承载着美好梦想的乌托邦小城。那里始终保持着一种纯自然的状态，住宅风格典雅，是 世界上最美的地区之一，国画大师张大千曾在此生活。",
+                    "name": "卡梅尔小镇"
+                },
+                {
+                    "name": "黄金海岸17里湾",
+                    "description": "这段紧傍太平洋的私人公路，因其绝美的海岸风光、举世闻名的高尔夫球场、庭院深深的豪宅，历久不衰、百 看不厌。这里除了沿路海天一色外、还可看到最具代表性的孤寂柏树、槐树。",
+                    "consumingTime": "约1小时"
+                },
+                {
+                    "name": "蒙特雷小镇",
+                    "description": "老渔人码头和制罐厂大道滨水区处处体现着这座城市的风情，诺贝尔文学奖得主约翰斯 坦贝克就是在这里受到启发写下了美丽的故事",
+                    "consumingTime": "约 30分钟"
+                },
+                {
+                    "name": "【硅谷】苹果总部",
+                    "description": "也被称为“苹果公 园”。这是一个占地约26万平方米的大楼，外形呈椭圆形，类似于太空船，因此也被誉为“飞船总 部”。",
+                    "consumingTime": "约1小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "加州小镇",
+                    "departureTime": "",
+                    "destination": "旧金山",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "加州小镇-卡梅尔-蒙特雷-旧金山",
+            "tripDay": 17
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "旧金山的象征--气势磅礴，“雾锁金门”是小雾都的特有 景观，茫茫白雾和冷风常在金门湾的入海口汇聚，笼罩在湾区绵延起伏的群山怀抱中",
+                    "name": "金门大桥"
+                },
+                {
+                    "name": "旧金山市政 厅",
+                    "description": "堪称是美国西海岸的白宫，这可不仅仅因为它重要的政治地位，还因为它自身建筑的华 丽，金顶设计又是借鉴巴黎荣军院而造，据说动用了1吨的黄金修饰",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "九曲花街",
+                    "description": "世界上最弯曲的街道，也是旧金山最吸引人的一条街",
+                    "consumingTime": "约15分钟"
+                },
+                {
+                    "name": "渔人码头",
+                    "description": "是游客必到的地 方，可光顾售卖海鲜小吃的大小摊档，购买特色纪念品或观看街头卖艺者表演杂耍和各种乐器",
+                    "consumingTime": "约30分钟"
+                },
+                {
+                    "name": "艺 术宫",
+                    "description": "建造于1913年12月8日，当时是作为巴拿马太平洋国际博览会的会场；下 午乘机前往夏威夷的欧胡岛。",
+                    "consumingTime": "约30分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "旧金山",
+                    "departureTime": "",
+                    "destination": "夏威夷",
+                    "trafficType": "汽车+飞机"
+                }
+            ],
+            "title": "旧金山/夏威夷",
+            "tripDay": 18
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1小时",
+                    "description": "美国海军的基地和造船基地，眺望战役中沉没的亚利桑拿号的残 骸，感受战争带来的伤害；",
+                    "name": "珍珠港"
+                },
+                {
+                    "name": "伊奥拉尼王宫",
+                    "description": "这是美国本土上唯一一座王宫",
+                    "consumingTime": "约20分钟"
+                },
+                {
+                    "name": "卡美哈美哈国王铜像",
+                    "description": "树立在次，在美国五十个州里，只有夏威夷州有过国王的统治",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "夏威夷州长官邸 （华盛顿宫）",
+                    "description": "（车上看）历任夏威夷州长生活和居住的地方",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "钻石头山（远观）",
+                    "description": "最著名的库克 船长登岸地",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "夏威夷卡哈拉富豪住宅区（车上看）",
+                    "description": "是全欧胡岛居民最想居住的地区之一",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "恐龙湾",
+                    "description": "因远看像是一只趴着熟睡的恐龙而得名，这里海洋生物众多，是夏威夷最理想 的游泳及浮潜地之一。",
+                    "consumingTime": "约30分钟"
+                },
+                {
+                    "name": "夏威夷植物园",
+                    "description": "远处山脉层层叠叠，宛如画卷，植物园在雾气的萦绕下，伴 着细雨，让这里显得格外幽静神秘，这里是美国的侏罗纪公园。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "",
+                    "description": "",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "夏威夷",
+            "tripDay": 19
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后乘车前往机场，搭乘国际航班由首尔转机飞往北京。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "17:45+1",
+                    "departure": "夏威夷",
+                    "departureTime": " 12:35 ",
+                    "destination": "首尔",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "夏威夷/首尔",
+            "tripDay": 20
+        },
+        {
+            "breakfast": 0,
+            "content": "抵达国内，结束愉快的美国之行！",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "首尔/国内",
+            "tripDay": 21
+        }
+    ]
+}

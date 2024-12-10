@@ -1,0 +1,575 @@
+{
+    "product": {
+        "childAgeBegin": "0",
+        "childAgeEnd": "0",
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "12 岁以下小孩不占床价格为团费的 9.5 折（不包含导游司机服务费和签证费），占床与成人同价。建议身高 1.4 米以上儿童占床（酒店房间床较小，建议长的稍大的孩子按占床报名，以免房间内很拥挤）；",
+        "departureCityName": "",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "埃及",
+                "destCityName": "",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": [
+            {
+                "content": "",
+                "name": "旅行社责任险",
+                "typeName": ""
+            }
+        ],
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "春节升级大礼包"
+            },
+            {
+                "name": "“埃”上甄选 "
+            },
+            {
+                "name": "“埃”上飞行"
+            },
+            {
+                "name": "“埃”上住宿"
+            },
+            {
+                "name": "“埃”上美景"
+            }
+        ],
+        "productSubtitle": "四城联游，穿越古今：开罗丨亚历山大丨赫尔格达丨卢克索",
+        "productTitle": "一路向“埃” - 埃及陆地 10 天（0 购物）",
+        "returnCityName": "",
+        "tags": [
+            {
+                "name": "四城联游，穿越古今：开罗丨亚历山大丨赫尔格达丨卢克索"
+            }
+        ],
+        "themes": [
+            {
+                "name": "一路向“埃” - 埃及陆地 10 天（0 购物）"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "3U",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "05：20+1",
+                "days": "1",
+                "flightNo": "3U3866",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "14：00"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "3U",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "06：45",
+                "days": "0",
+                "flightNo": "3U3865",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "01：45"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "五星",
+        "lineFeature": "四城联游，穿越古今：开罗丨亚历山大丨赫尔格达丨卢克索",
+        "lineSimpleTitle": "开罗丨亚历山大丨赫尔格达丨卢克索",
+        "lineSortTitle": "埃及首都【开罗】，非洲及阿拉伯世界最大的城市，整个中东地区的政治经济、文化和交通中心  一半是火焰，一半是海水的【红海】，沙滩与海边的度假胜地  古城【卢克索】一日游，入内参观当地著名双神庙：【卡纳克神庙】【卢克索神庙】  地中海的新娘-【亚历山大】一日游，入内参观亚历山大图书馆，价值 150 美金/人  参观【埃及国家博物馆】，世界上最著名的博物馆之一，也是最大的古代埃及珍宝的馆藏地之一  游览【吉萨金字塔群】，被誉为当今最高的古代建筑物和世界八大奇迹之首，【狮身人面像】  乘坐【小帆船费卢卡畅游尼罗河】，欣赏尼罗河两岸风光，登陆【香蕉岛】，感受当地人生活  乘坐【马车游逛卢克索古城】，穿越当地集市，让您深入体会当地风土人情，品尝甘蔗汁  参观【丹达拉神庙】，埃及现存神庙里颜值的“天花板”，保留下了极为美丽的 Tiffany 蓝色  游览久负盛名的【汗哈利利集市】，14 世纪起开始营业，全埃及最著名的阿拉伯商品市场之一",
+        "lineTitle": "",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "",
+                "countryName": "",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "10",
+        "tripNight": "",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "埃及",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            }
+        ],
+        "departDate": [
+            ""
+        ]
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "护照费用  境外司机、中文导游（或英文导游+中文翻译）服务费￥1500/人。（请出发前结清）  签证费￥200/人。（请出发前结清）  全程单房差￥3000/人。  行程表中的自费项目及行程表以外行程费用。  行李物品的搬运费、保管费及超重费；如行李或物品丢失、被盗等意外损失费用。  一切个人消费（如：电话、传真、电视付费频道、洗衣、饮料等）。  旅游者因违约、自身过错或自身疾病引起的人身和财产损失。  非我社所能控制因素下引起的额外费用，如：自然灾害、罢工、境外当地政策或民俗禁忌、景点维修等。  游客人身意外保险及客人往返出境口岸的一切费用。",
+        "costInclude": "",
+        "lineReturns": [
+            {
+                "begin": "前 30 天",
+                "cost": "50%团款损失（机位定金+酒店损失）如已经送签，另需支付签证费",
+                "end": "前 14 天"
+            },
+            {
+                "begin": "前 14 天",
+                "cost": "退 1000 元/人餐费和景点门票",
+                "end": "前 8 天"
+            },
+            {
+                "begin": "7 天内",
+                "cost": "全款损失",
+                "end": ""
+            }
+        ],
+        "otherRule": "",
+        "returnContent": "以收到定金 5000 元/人为确认参团留位，如取消定金不退，并于出发前 14 天付清全款。  团队出发前 30 天—14 天取消，游客需支付 50%团款损失（机位定金+酒店损失）如已经送签，另需支付签证费。  团队出发前 14 天—8 天取消，只可退 1000 元/人餐费和景点门票。  团队出发 7 天内取消，全款损失。  如果发生签证被拒签，收取签证费用 RMB200 及酒店、机票及所有实际已发生费用。  以上损失明细为团队特殊约定，请签在合同附加条款中！",
+        "selfCostContent": "",
+        "selfCosts": [
+            {
+                "address": "开罗",
+                "fee": "USD80",
+                "name": "尼罗河游船+肚皮舞表演 +晚餐",
+                "remark": "",
+                "stay": "约 1.5 小时"
+            },
+            {
+                "address": "开罗",
+                "fee": "USD80",
+                "name": "登顶开罗塔+晚",
+                "remark": "",
+                "stay": "约 1.5 小时"
+            },
+            {
+                "address": "红海",
+                "fee": "USD80",
+                "name": "深海浮潜（红海出海）",
+                "remark": "",
+                "stay": "含路程约 4 小时"
+            },
+            {
+                "address": "红海",
+                "fee": "USD80",
+                "name": "红海玻璃船",
+                "remark": "",
+                "stay": "约 2 小时"
+            },
+            {
+                "address": "红海",
+                "fee": "USD105",
+                "name": "红海潜水艇",
+                "remark": "",
+                "stay": "约 4 小时"
+            },
+            {
+                "address": "红海",
+                "fee": "USD85",
+                "name": "红海探索贝都因人部落",
+                "remark": "",
+                "stay": "约 3-4 小时"
+            },
+            {
+                "address": "红海",
+                "fee": "USD70",
+                "name": "霍尔格达市区观光+海鲜餐",
+                "remark": "",
+                "stay": "约 2-3 小时"
+            },
+            {
+                "address": "卢克索",
+                "fee": "USD65",
+                "name": "卢克索卡纳克神庙声光秀",
+                "remark": "",
+                "stay": "约 1 小时"
+            },
+            {
+                "address": "卢克索",
+                "fee": "USD100",
+                "name": "帝王谷+女王庙",
+                "remark": "",
+                "stay": "约 2-3 小时"
+            },
+            {
+                "address": "",
+                "fee": "USD160",
+                "name": "卢克索热气球",
+                "remark": "",
+                "stay": "约 1 小时+1 小时车程"
+            }
+        ],
+        "shopContent": "",
+        "shops": [
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "",
+                "shopProduct": "",
+                "stay": ""
+            }
+        ],
+        "tipsContent": "本产品不接受 80 岁以上客人（包含）预定，敬请原谅。  70 岁以上老人参团，必须出示健康证明并由 20 岁以上成年亲属陪同，及签署免责协议书。  18 岁以下客人必须至少由一名成年亲属陪同方可报名，18 岁以下小童出境旅游，必须带齐户口本，出生证 等等证件，以备在办理登机时航空公司检查。  孕妇客人参团，必须出示医院可乘机证明并有至少一名成年亲属陪同，及签署免责协议书。  12 岁以下小孩不占床价格为团费的 9.5 折（不包含导游司机服务费和签证费），占床与成人同价。建议身高 1.4 米以上儿童占床（酒店房间床较小，建议长的稍大的孩子按占床报名，以免房间内很拥挤）；  本产品为散客拼团，凡单人或单数（例如三人）报名而未能安排同房，须缴纳单人房差或拼住二人、三人间 或套房（四人间），因酒店旺季房间紧张，我社有权力提前说明情况并调整夫妻及亲属的住宿安排，或调整 安排三人间或四人间住宿，请给予理解。"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "指定时间在成都天府国际机场 T1 航站楼集合，领队协助办理登机及行李托运手续，搭乘四川航空班机 前往埃及首都-【开罗】（埃及需要填写出入境卡，空乘人员统一发放入境卡，注意提前填好）",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "航班上",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "成都",
+                    "departureTime": "",
+                    "destination": "开罗",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "成都",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "抵达后，专业机场助理协助办理入境手续，特别安排鲜花接机，开始难忘的埃及之旅",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "当地五星级酒店 Tolilp Family Park/Tolip El Galaa Hotel 或同级",
+                    "star": "五星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 2 小时",
+                    "description": "宏伟华丽的博物馆藏有 63000 多件文物，每件闪耀着古老文明 的光彩，被誉为世界博物馆之明珠",
+                    "name": "埃及国家博物馆"
+                },
+                {
+                    "name": "9 Pyramid Lounge Restaurant",
+                    "description": "新晋网红打卡餐厅，小红书排名榜首， 拥有欣赏金字塔的绝佳位置，区别市场的普通景观餐厅，让您不枉此行",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "吉萨金字塔群",
+                    "description": "包括【胡夫金字塔】、【海芙拉金字塔】、【孟卡拉金字塔】（时间：约 90 分钟，如果需要进入最大的胡夫金字塔内看石棺需自行购票入大塔或小塔（约 200 埃磅），每天有 名额限制进入",
+                    "consumingTime": "约 90 分钟"
+                },
+                {
+                    "name": "狮身人面像",
+                    "description": "埃及著名古迹，与金字塔同 为古埃及文明最有代表性的遗迹。古埃及人常用狮子代表法老王，象征其无边的权力和无穷的力量，这 种法老王既是神又是人的观念，促使了狮身人面混合体的产生",
+                    "consumingTime": "约 0.5 小时"
+                },
+                {
+                    "name": "大埃及博物馆",
+                    "description": "2024 年 10 月 16 日起试运营，筹备近 20 年、耗资 10 亿美金，馆藏 超过 10 万件文物，世界上最大的考古博物馆。不仅收拢了埃及不同博物馆里最顶尖的藏品，还将展出 过去从未向公众公开的宝贵珍品，将向公众呈现 5 万多件文物，其中 3 万多件是首次对外展出",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "06：45",
+                    "departure": "成都",
+                    "departureTime": "01：45",
+                    "destination": "开罗",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "成都开罗",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "当地五星级酒店 Tolilp Family Park/Tolip El Galaa Hotel 或同级",
+                    "star": "五星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约 60 分钟",
+                    "description": "埃及末代国王法鲁克的行宫历代埃及国王的避暑 胜地，在花园内漫步感受地中海美景",
+                    "name": "蒙塔扎皇宫花园"
+                },
+                {
+                    "name": "凯特贝城堡",
+                    "description": "位于著名的亚历山大灯塔遗址，占据着亚历山大的东部港口，外观【灯塔遗址】， 世界著名的七大奇迹之一",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "庞贝柱",
+                    "description": "著名的历史遗迹，亚历山大城的标志，柱身全长 20．75 米， 由一整块红色花岗石雕凿而成，石料采自阿斯旺，再由平底船经尼河运往亚历山大",
+                    "consumingTime": "约 30 分钟"
+                },
+                {
+                    "name": "亚历山大图书馆",
+                    "description": "拥有最丰富的古籍收藏， 曾经同亚历山大灯塔一样驰名于世",
+                    "consumingTime": "约 30 分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "开罗",
+                    "departureTime": "",
+                    "destination": "亚历山大",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "开罗-亚历山大-开罗",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店自助后，驱车前往最理想的旅游度假胜地【赫尔格达】（车程：约 6 小时）  前往酒店办理入住，酒店含自助午餐和晚餐，让您充分享受悠闲时光以及红海特有的碧海蓝天",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "红海五星级海滨度假酒店 AMC Royal Hotel/Sea Star Beau Rivage 或同级",
+                    "star": "五星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "开罗",
+                    "departureTime": "",
+                    "destination": "赫尔格达（红海）",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "开罗-赫尔格达（红海）",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，驱车前往古城【卢克索】（车程：约 4 小时）  游览【卡纳克神庙】（入内：约 1 小时），古埃及帝国遗留最大的神庙，该神庙是供奉历代法老王陵墓 之地。神庙布局严谨，令人叹为观止，曾作为著名影片《尼罗河上的惨案》的外景地而名声大振  来到卢克索，乘坐马车是一定要尝试的，我们专门安排【乘坐马车游览古城】，穿越卢克索当地集市， 让您深入体会当地风土人情（注意个人人身安全），特别安排【品尝甘蔗汁】  乘坐【尼罗河三角帆船费卢卡】，畅游尼罗河欣赏两岸美景，登陆尼罗河畔上的原生态的【香蕉岛】， 体验原住居民的生活  夜游气势恢宏的【卢克索神庙】（入内），具有令人惊叹的雄伟气势，每一根柱子都代表法老的威严， 置身其中会使人暂时忘却时间的流逝，神思万千（时间：约 1 小时）",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "卢克索国际五星级 Steigenberger Achi/Steigenberger Palace/Sonesta 或同级",
+                    "star": "五星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "赫尔格达（红海）",
+                    "departureTime": "",
+                    "destination": "卢克索",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "赫尔格达（红海）-卢克索",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，乘车返回赫尔格达红海度假酒店（车程：约 4 小时）  途中参观【丹达拉神庙】，埃及现存神庙里颜值的“天花板”，保留下了极为美丽的 Tiffany 蓝色，距 离卢克索约 60 公里处，是一座托勒密时代的神庙，供奉哈索尔女神，哈索尔女神是整个古埃及历史之中 最重要和最受迎的女神之一，头衔众多，旅行者只要记得她是鹰神荷鲁斯的妻子，形象是一位长着牛耳 朵的美丽女子，美丽与音乐的女神就可以，传说丹达拉是她的诞生之地，此处是她的崇拜之地  抵达酒店自由活动（期间不含车导服务），让您充分享受悠闲时光以及红海特有的碧海蓝天",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "红海五星级海滨度假酒店 AMC Royal Hotel/Sea Star Beau Rivage 或同级",
+                    "star": "五星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "卢克索",
+                    "departureTime": "",
+                    "destination": "赫尔格达（红海）",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "卢克索-赫尔格达（红海）",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "全天自由活动（期间不含车导服务），让您充分享受悠闲时光以及红海特有的碧海蓝天",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "红海五星级海滨度假酒店 AMC Royal Hotel/Sea Star Beau Rivage 或同级",
+                    "star": "五星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "赫尔格达（红海）",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": " 酒店早餐后，乘车返回首都开罗，打包午餐于路途中享用（车程：约 6 小时）  抵达后，前往久负盛名的大市场【汗哈利利集市】，全埃及最著名的阿拉伯商品市场之一，该市场游人 如织，已有 800 年历史，是阿拉伯的著名的交易中心。如果逛累了，可以停下来喝上一杯，看看当地人 朴实的招揽生意方式也很有趣  参观【萨达特总统纪念碑】，萨达特总统被葬于他遇难的纳尔斯城胜利广场，他的墓地和埃及无名英雄 纪念碑紧紧相依在一起。在他的墓志铭上，写着：“萨达特总统，是战争中的英雄，是和平的使者，他 为和平而生，为原则而死”  特别安排【艾孜哈尔公园烤肉餐 Studio Misr Al-Azhar Park】，这里可以俯瞰开罗老城全景，醉美的 日落时分，感觉自己穿越到了另外一个世界  晚餐后，返回酒店休息",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "罗当地五星级酒店 Tolilp Family Park/Tolip El Galaa Hotel 或同级",
+                    "star": "五星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "赫尔格达（红海）",
+                    "departureTime": "",
+                    "destination": "开罗",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "赫尔格达（红海）-开罗",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后，游览【萨拉丁城堡】，位于开罗城东郊的穆盖塔姆山上，12 世纪时期萨工为抗击十字军 东信而建造，城堡分内城和外城，城内建有宫殿和寺庙，阿里清真寺的寺顶尖塔象是一把利剑高耸入云， 巨大的圆顶沐浴在阳光下熠熠生辉  游览【阿里雪花石清真寺】，全称穆罕默德·阿里清真寺，位于开罗旧城萨拉丁城堡内，寺西南有一黄铜 围栏为奥斯曼帝国统治时期的埃及总督穆罕默德·阿里的坟墓。他于 1849 年卒后葬此，故清真寺以其名 命之，寺内钟塔的吊钟是法国国王路易斯·菲利浦赠送的礼物。指定时间集合前往机场，乘机返回天府之国-成都",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "航班上",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "05：20+1",
+                    "departure": "开罗",
+                    "departureTime": "14：00",
+                    "destination": "成都",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "开罗成都",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 0,
+            "content": "抵达天府之国-成都，结束愉快的埃及 10 天之旅",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "成都",
+            "tripDay": 10
+        }
+    ]
+}

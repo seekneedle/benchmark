@@ -1,0 +1,820 @@
+{
+    "product": {
+        "childAgeBegin": "0",
+        "childAgeEnd": "0",
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "北京",
+        "dests": [
+            {
+                "countryName": "南非",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "赞比亚",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "纳米比亚",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "津巴布韦",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "博茨瓦纳",
+                "destCityName": "",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": [
+            {
+                "content": "",
+                "name": "",
+                "typeName": ""
+            }
+        ],
+        "insuranceIncluded": 0,
+        "markets": [
+            {
+                "name": ""
+            }
+        ],
+        "productSubtitle": "",
+        "productTitle": "南部非洲五国",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": ""
+            }
+        ],
+        "themes": [
+            {
+                "name": "南部非洲五国"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "ET",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "21：20",
+                "days": "0",
+                "flightNo": "ET834",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "14：30"
+            },
+            {
+                "airlineCode": "ET",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "17：20",
+                "days": "",
+                "flightNo": "ET604",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "01：50"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "0800+1",
+                "days": "1",
+                "flightNo": "CA867",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "1850"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "",
+        "lineFeature": "",
+        "lineSimpleTitle": "",
+        "lineSortTitle": "",
+        "lineTitle": "",
+        "needVisa": 0,
+        "passCities": [
+            {
+                "cityName": "",
+                "countryName": "",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "23",
+        "tripNight": "",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            }
+        ],
+        "departDate": [
+            ""
+        ]
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "",
+        "costInclude": "",
+        "lineReturns": [
+            {
+                "begin": "",
+                "cost": "",
+                "end": ""
+            }
+        ],
+        "otherRule": "",
+        "returnContent": "",
+        "selfCostContent": "自费项目是行程安排约定以外的游览项目，每位团员有权自愿选择是否参加。导游无权强迫推荐组织自费 项目。 以下推荐自费项目报价只适用于10人以上之团队，如果人数不够10人，将无法享受优惠团队价，具体价 格视参加人数而调整。旺季期间各项特色项目需提前预约，以免预定不到。",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "90/人",
+                "name": "约堡狮子园",
+                "remark": "",
+                "stay": "1小时敞篷 车"
+            },
+            {
+                "address": "饱揽稀有的古董汽车，摩托车，自行车。此博物馆主 人是南非第二大富豪约翰.鲁伯特，时任全球第二大 奢侈品集团—历峰集团主席，旗下品牌包括卡地亚， 40/人 司导服务费+门票费 用+预定费用 伯爵，江诗丹顿，万国，万宝龙等。",
+                "fee": "40/人",
+                "name": "老爷车博物馆",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "100/人",
+                "name": "开普敦无憾增项",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "180/人",
+                "name": "齐齐卡玛蹦极",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "60/人",
+                "name": "齐齐卡玛布劳克 朗斯大桥软梯",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "160/人",
+                "name": "出海观鲸 （赫曼努斯）",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "190",
+                "name": "非洲大象零距离",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "190",
+                "name": "与狮漫步",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "190",
+                "name": "遛豹子",
+                "remark": "",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "215",
+                "name": "空中俯瞰大瀑布",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "",
+        "shops": [
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "",
+                "shopProduct": "",
+                "stay": ""
+            }
+        ],
+        "tipsContent": "1请客人在出团当天务必保证手机的畅通，方便联系！ 2 境外消费全部用美金或国际信用卡,人民币在境外无法使用,请客人在出团前自行兑换美金，信用卡可用VISA或 MASTERCARD。银联卡可用来购买钻石。在当地消费，购买小饰品时请用南非兰特进行交易。 兑换兰特的地点：南非国际机场和酒店。在当地赌场也可以进行兰特的兑换。 请勿在南非当地购买动物皮毛，牙齿，菱角等制品"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "于北京首都机场三号航站楼集合。 搭乘中国航空航班经停深圳飞往南非约翰内斯堡。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "08：00+1",
+                    "departure": "北京",
+                    "departureTime": "18：50",
+                    "destination": "约堡",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京✈约堡",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "抵达后，导游机场接机 驱车前往南非行政首都-比勒陀利亚比勒陀利亚市内建筑揉合欧 洲各国不同形式而建，在此可参观古希腊建筑形式的联合大厦（途 径参观）、市政厅（途径参观）、教堂中心广场（途径参观）、 先民纪念馆等。（游览时间约50分钟） 午餐 返回约堡 晚餐享用南非茅草顶酒店特色百兽宴 入住特色茅草顶酒店（如遇展会及节假日期间满房。则更改为约 堡4星酒店）休息",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "特色茅草顶酒店",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "约堡",
+                    "departureTime": "",
+                    "destination": "比勒陀利亚",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "约堡-比勒陀 利亚-约堡",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "前往印度洋边的福尔斯湾（FalseBay），那里有一个小镇，叫西 蒙镇（SimonsTown），依山面海，面积不大，蔚蓝的大海，绿 色的植被，白的黄的鲜亮房子，干净整洁的街道，真是阳光灿灿， 宁静无哗。步行至伯德尔海滩〔BouldersBeach〕。这里，是非 洲企鹅的生态海滩，这里的企鹅是世界第二小的企鹅，人站在栈 道上可以近距离看到憨态可掬的它们。（游览时间约30分钟） 前往非洲大陆最南端的天之涯、海之角-好望角自然保护区；这里 依然保持着原始风貌，游人可乘坐旧式缆车登上238米高的开普 角山顶（单程上山缆车），纵览大西洋，印度洋交汇处，水天一 色，烟波浩渺。（游览时间约1.5小时）",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "约堡",
+                    "departureTime": "",
+                    "destination": "开普敦",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "约堡✈开普敦",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "市区观光，徜徉在被称为“世界最美城市之一”的别具特色的街 道中，令人心旷神怡",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约30分钟",
+                    "description": "前往开普敦的风景明信片勘普斯湾（CampsBay），这里是南非 著名顶级富豪区，宽阔的沙滩，笔挺的棕榈树，湛蓝的海水，细 白的沙滩，依山而建的别墅和灿烂的阳光组成的迷人风景更加吸 引了国外好多明星来此度假。",
+                    "name": "勘普斯湾（CampsBay）"
+                },
+                {
+                    "name": "豪特湾-海豹岛",
+                    "description": "驱车前往大西洋沿岸的豪特湾，乘游轮前往海豹岛（视天气情况 而定），游人可以观赏到汪洋中的礁石上栖息着数以万计的海豹 的壮观奇景",
+                    "consumingTime": "约1小时"
+                },
+                {
+                    "name": "桌山",
+                    "description": "乘坐360度旋转缆车登上桌山（此项目为赠送项目，如因天气原 因或维修原因桌山关闭，则改为登信号山，费用不退），站在山 顶俯瞰开普敦繁华都市，远观茫茫沧海，眺望巍巍群山。",
+                    "consumingTime": "约1小时"
+                },
+                {
+                    "name": "酒乡区",
+                    "description": "这里风景休息，绿树成荫，傍晚在这里闲庭信 步自然风光，也美不胜收。前往南非著名酒庄参观（含品酒，南 非盛产葡萄酒，酒园为南非之行必不可少的旅游景点，非旅行社 指定购物店！",
+                    "consumingTime": "约1小时"
+                },
+                {
+                    "name": "第二古老城市斯泰伦布什（大学城）",
+                    "description": "",
+                    "consumingTime": "约 15分钟"
+                },
+                {
+                    "name": "小镇弗朗斯亨克（Franschhoek）",
+                    "description": "",
+                    "consumingTime": "约10分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "开普敦-法国 小镇-酒乡区-开 普敦",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 前往位于开普敦东南方约150KM的赏鲸小镇，赫曼努斯 (Hermanus)，每年的7-11月，因为成群的南方露脊母鲸，带 领着初生的幼鲸回游至贺曼纽斯沿岸的海域。渡过其温暖的寒冬。 因而使赫曼努斯成为地欣赏鲸鱼嬉戏海中的盛况，即使不是观鲸 最佳时期，您也可欣赏到此座充满古朴民风，深具南非传统风情 特色的南方小镇迷人风光。（游览约30分钟） 午餐 驱车前往花园大道。这是南非著名的观景大道，坐落于东南一隅， 绵延数百公里，在山海迷蒙中时隐时现。之后的两天，将在这条 大道上持续发现惊奇：这里有欧式小镇闲适的午后阳光，有白浪 早 午 晚 花园大道 逐帆的静谧海港，也有轻舟荡漾于碧湖之上。悬崖、深谷、吊桥、 潟湖……一处处醉人的景色如珍珠般串联在一起。 前往摩挲弯，午餐 参观迪亚士博物馆，了解最初欧洲人发掘通往东方航道的起源和 艰辛。世界上最早的邮局-邮政树。（游览时间约45分钟） 晚餐后，入住花园大道度假式酒店休息.",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "departure": "斯泰伦布什（酒乡区）",
+                    "departureTime": "",
+                    "destination": "法国小镇",
+                    "arrivalTime": "",
+                    "trafficType": "汽车"
+                },
+                {
+                    "departure": "赫曼努斯",
+                    "departureTime": "",
+                    "destination": "奈斯那",
+                    "arrivalTime": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "酒乡区-赫曼 努斯-花园大 道",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 前往齐齐卡玛，南非唯一的海岸国家公园，茂密的原始森林，狭 长的海滩与河流，成为了鸟儿与水生动物的天堂。摇摆桥，徒步 道都是您能更近距离的接近大自然的选择。（游览时间约1.5小 时） 接下来“让我们在南非撒点野”，前往世界上最高的商业性的天 然蹦极点布劳克朗斯大桥BloukransBridge参加勇敢者的挑战---蹦极。苍山翠谷之间，布劳克朗斯大桥飞架南北，如巨人的钢 铁手臂把两边的峡谷陡然揪在一起。在这个大桥上，您要经历2 重考验：走悬空的软梯越过山涧返回；当然还有在桥上的极限蹦 极。在疯狂的音乐刺激下，身体的多巴胺加速分泌，让您变成无 敌的勇士！（以上自费项目，请您务必考虑自身身体条件）（若 不参加自费项目，游览时间约30分钟） 午餐后，驱车途径著名的–Plettenberg海滩（游览时间约20分 钟） 后返回奈斯那，乘船漫游湖中，仿佛置身于金色的世界；每年一 度的生蚝节，也吸引着全世界上各国的游客。（游览时间约50分 钟） 入住酒店休息",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "奈斯奈",
+                    "departureTime": "",
+                    "destination": "齐齐卡玛",
+                    "trafficType": "汽车"
+                },
+                {
+                    "departure": "齐齐卡玛",
+                    "departureTime": "",
+                    "destination": "乔治",
+                    "arrivalTime": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "花园大道",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 前往机场，搭乘航班飞往约堡 驱车前往南半球最大的娱乐中心-太阳城； 外观气度非凡的六星酒店-王宫饭店（若不住宿该酒店内则不允许 入内参观）、根据神话传说兴建的地震桥以及豪华赌场、著名的 早 午 晚 太阳城 建筑-失落城等。这里有清幽的湖光山色，无数的珍禽异草，游人 可漫步其中享受。（游览时间约3小时,入住园内依据客人需求安 排） 晚餐后，入住太阳城内豪华酒店，您可于太阳城内赌场大显身手",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "太阳城",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "约堡",
+                    "departureTime": "",
+                    "destination": "太阳城",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "乔治✈约堡-太阳城",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "约1.5小时",
+                    "description": "驱车前往比林斯堡国家公园，乘坐敞篷越野车进入南非第四大野 生动物园—比林斯堡国家公园内观赏野生动物活动，占地500多 平方公里，这里自由自在的生活着大量动物，如果幸运的话，游 客可看到在自然野生状态下的“非洲五霸”：大象、狮子、豹子、 野牛和河马等多种野生动物",
+                    "name": "比林斯堡国家公园"
+                },
+                {
+                    "name": "南非钻石加工厂",
+                    "description": "南非由于得天独厚的地理位置和地质 条件出产了无与伦比美丽钻石",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "太阳城",
+                    "departureTime": "",
+                    "destination": "比邻斯堡",
+                    "trafficType": "汽车"
+                },
+                {
+                    "departure": "比邻斯堡",
+                    "departureTime": "",
+                    "destination": "约堡",
+                    "arrivalTime": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "太阳城-比邻 斯堡- 比勒陀利亚",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 全天酒店自由活动，不含正餐",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "约堡",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 0,
+            "content": "酒店早餐（或打包早餐） 指定时间大堂集合，送往机场，飞往下一站瀑布城 抵达瀑布城后，联系非洲四国领队，领队航班预计12点10分抵 达瀑布城，汇合后办理落地签手续 下午市区观光，前往参观有1500年历史的巨大的猴子面包树（10 分钟），导游会向您介绍这种树的神奇之所在。特别赠送河畔纪 念碑，第一个抵达这里的欧洲人大卫.利文斯通沿赞比西河探险， 就是从这里上岸，发现了维多利亚瀑布；第一架欧洲飞过来的飞 机也是降落在赞比西河上，从这里登陆。 傍晚搭乘别具特色的赞比西河游船（2小时），倘佯于风景秀丽 的非洲第四大河赞比西河上，寻找隐藏于两岸丛林的各种珍禽异 鸟，免费品尝各种酒水饮料，夕阳落下时的非洲大地的落日余晖， X  X 晚 维多利亚瀑 布城 一定让您终身难忘。 维多利亚大瀑布酒店晚餐自助 晚餐后返回酒店休息",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "约堡✈维多 利亚瀑布城",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "置身其 中感受瀑布城100多年前的殖民历史。自由市场选购心仪的手工 艺品，也可自费乘直升飞机游览维多利亚瀑布。则是另外一种感 受，这是最激动人心的旅程，大瀑布的壮美，只有在高空才能充 分领略过！",
+                    "name": "维多利亚瀑布酒店（外观）"
+                },
+                {
+                    "name": "维多利亚大瀑布",
+                    "description": "维多利亚瀑布是世界三大瀑布之一，也是世界上最壮观的单体瀑 布，穿越风姿绰约的热带雨林，您将依次观赏到魔鬼瀑布，主瀑 布，彩虹瀑布，马靴瀑布，东方瀑布。",
+                    "consumingTime": "2小时左右"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "维多利亚瀑 布城",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 前往参观建于1905年的维多利亚瀑布大桥，从另一个角度欣赏 波澜壮阔的峡谷以及大瀑布，幸运的话还可以看到蹦极爱好者从 110米的大桥上一跃而下。后入境赞比亚利文斯通，然后驱车前 往利文斯通博物馆，了解赞比亚从远古到近代的人类进程和历史 的沧桑巨变。 傍晚欣赏维多利亚瀑布赞比亚段（1小时左右），更近距离欣赏 维多利亚瀑布的雄伟壮观，不留遗憾！",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "维多利亚瀑 布城-利文斯 通（赞比亚）",
+            "tripDay": 12
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 乘车1.5小时前往博茨瓦纳边境小镇卡萨内，抵达后入住酒店休 息，下午乘坐专业越野吉普车看动物Safari，傍晚乘坐快艇游览 乔贝河，继续我们独特的的河上Safari看动物之旅。 乔贝国家公园是南部非洲最著名的国家公园之一，以大象数量众 多闻名。除了常规的越野车Safari，乔贝河上的快艇Safari是让 众多非洲Safari爱好者惊叹的独特体验！",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "利文斯通-乔 贝国家公园",
+            "tripDay": 13
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 乘机飞往奥卡万戈三角洲的门户城市-马翁，抵达后午餐，入住酒 店休息。 下午市区观光，特别赠送参观特别赠送参观黑人原始村居 晚餐后，入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "13：10",
+                    "departure": "乔贝",
+                    "departureTime": "12：30",
+                    "destination": "马翁",
+                    "trafficType": "飞机或拉车"
+                }
+            ],
+            "title": "乔贝✈马翁",
+            "tripDay": 14
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 全天三角洲safari，水陆空三种方式不同角度追寻动物 搭乘直升飞机飞往奥卡万戈三角洲，飞行期间可以进行航拍，让 您从空中俯瞰奥卡万戈三角洲的壮美。奥卡万戈三角洲是世界上 公认的最大的内陆三角洲之一，也是非洲面积最大、风景最美的 绿洲。野生动物保护区是根据季节性迁徙规律，允许动物在三角 洲内自由活动。保护区以大型哺乳类动物聚集地为世人所熟知， 这里全年都可以看到野生动物。 飞机降落后搭乘当地传统的独木舟Mokoro游览奥卡万戈三角洲 （约1小时），观赏两岸丰富的植被和动物.  换乘敞篷游猎车带您进入广阔的野生世界里进行拍摄创作。 下午继续体验三角洲丰富的游猎活动，如敞篷越野车游猎或者快 艇游猎观光（根据三角洲水量大小选择活动内容）。 之后乘车返回酒店晚餐后休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "马翁-奥卡万 戈三角洲",
+            "tripDay": 15
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 乘车前往杭济。抵达后入住酒店休息。 下午前往参观布须曼人村落跟他们学习染布、狩猎、传统医药、 钻木取火等技艺，欣赏传统歌舞表演。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "奥卡万戈三角洲",
+                    "departureTime": "",
+                    "destination": "马翁",
+                    "trafficType": "汽车"
+                },
+                {
+                    "departure": "马翁",
+                    "departureTime": "",
+                    "destination": "杭济",
+                    "arrivalTime": "",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "马翁-杭济",
+            "tripDay": 16
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 驱车前往纳米比亚首都温得和克。温得和克位于纳米比亚海拔 1728米的中央高地上，也被称为山城。人口约20万，这是纳 米比亚最大的城市，也是全国的政治、经济、文化中心和交通枢 纽。 午餐享用打包餐； 抵达后入住酒店休息。 晚上在非洲最大的酒吧---乔的啤酒屋用餐。这个鼎鼎大名的啤酒 屋是温得和克必去的特色餐厅，德国醇酿啤酒，招牌烤猪手，多 样的鲜美野味，让每一个饕客赞不绝口。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "杭济",
+                    "departureTime": "",
+                    "destination": "温得和克（纳米比亚）",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "杭济-温得和 克（纳米比 亚）",
+            "tripDay": 17
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 市区观光游览，我们将乘坐旅游车进行城市观光，纳米比亚国家博 物馆是了解其历史过程，经济文化，民风民俗的最佳教科书，是了 解纳米比亚的胜地。还可以前往当地的露天手工艺品市场，纳米比 酒店早餐 当地午餐 酒店晚餐 苏丝斯黎 4星 Hammerst  einLodge 亚首都温得和克被誉为非洲最干净的花园首都，是非洲旅游行程中 少有的欧式风格较强的城市，花团锦簇中洋溢着浓郁的欧陆风情。 下午驱车前往苏斯斯黎—一个神秘而古老的土地，这里有全球最古 老的沙漠，全球最高的沙丘，全球唯一的红色沙海。它那庄严高耸 的沙丘及巨大的星形山脉是艺术家和摄影师所寻觅的主题，最大的 一个沙丘高达325米。这里也是非洲唯一有大象、犀牛、狮子栖息 的沙漠。 抵达后入住酒店休息",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "苏丝斯黎 4星 Hammerst  einLodge",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "温得和克-苏 斯斯黎红沙 漠",
+            "tripDay": 18
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 出发乘坐四轮敞篷车参观全球最高的沙丘及奇景“死亡谷”。抵 达后步行进入死亡谷观看千年古树及壮观的红色沙丘,还有机会 攀登及观赏全球最高的沙丘,在晨曦下它美丽得像海市蜃楼图画， 金橘色的沙粒烁般照耀大地，贴身观察沙漠最好的方式莫过于爬 沙丘了，最推荐的是45沙丘，它因为距离公园入口处45公里而 得名。 午餐后驱车前往鲸湾 中式海鲜晚餐，后入住酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "鲸湾Blue  Whale  Hotels或 同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "苏斯斯黎",
+                    "departureTime": "",
+                    "destination": "鲸湾",
+                    "trafficType": "汽车"
+                },
+                {
+                    "departure": "鲸湾",
+                    "departureTime": "",
+                    "destination": "斯瓦科蒙德",
+                    "arrivalTime": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "苏斯斯黎-鲸 湾-斯瓦科蒙 德",
+            "tripDay": 19
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 乘游艇参加出海游，海豚跟着双体船游动跳跃,调皮的海豹有时会 跳上船向水手讨食，海鸥在天空盘旋，偶尔有鹈鹕停在船头供游 客近距离观赏。船只乘风破浪前往著名的景点鹈鹕岬,在这篇沙 滩上有很多海狮、鹈鹕、火烈鸟和成群的海鸥。从鹈鹕岬返回的 航程,船长和水手为客人准备了海上午餐---鲜美的生蚝、香槟酒 及各式当地小点心让人大饱口福。下船后前往海边泄湖欣赏火烈 鸟。 下午特别安排搭乘越野车前往三明治湾沙漠巡游（约3小时),在 此可以观赏大西洋海岸倒沙入海的奇观。在沙漠中行驶会看到海 市蜃楼的景象，令人感觉海上漫进了沙漠，难分沙海。接着前往 斯瓦克蒙德，此城西临大西洋，而其他三面则被沙漠包围,是一座 具有浓厚德国风情的海滨城市。此城常有大雾笼罩,搭配沙漠及绵 密的海岸线,景色有如幻境一般。镇内悠闲的逛街,享受当地悠闲 的气氛，黄昏时前往历史长堤,欣赏美丽的海边日落。 晚餐特别安排在当地最具盛名的百年长堤海上餐厅JETTY1905 享用特色海鲜餐。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "鲸湾Blue  Whale  Hotels或 同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "斯瓦科蒙德",
+            "tripDay": 20
+        },
+        {
+            "breakfast": 0,
+            "content": "酒店早餐 驱车前往著名的辛巴红泥人村落。抵达后前往村落参观。辛巴部 酒店早餐 当地午餐 温得和克 落Himba是纳米比亚最具特色的传统部落,至今仍维持着500 年前的生活方式,他们的生活方式和习俗都一往如昔,其独特的 原始人文景观为世人所惊艳。辛巴女人终年用红土混合黄油涂抹 在皮肤上和头发上，因此一般称之为红人。 午餐后乘车返回首都温德和克。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "鲸湾港",
+                    "departureTime": "",
+                    "destination": "温德和克",
+                    "trafficType": "汽车"
+                }
+            ],
+            "title": "鲸湾港-温德 和克",
+            "tripDay": 21
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐 我们可以睡到自然醒，酒店早餐后驱车前往机场，将乘坐埃塞俄 比亚航空经埃塞俄比亚转机返回国内！",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "飞机上",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "温得和克",
+                    "departureTime": "",
+                    "destination": "亚的斯亚贝 巴（埃塞俄比 亚）",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "温得和克✈ 亚的斯亚贝 巴（埃塞俄比亚）",
+            "tripDay": 22
+        },
+        {
+            "breakfast": 0,
+            "content": "抵达北京，结束愉快的南部非洲之旅。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "亚的斯亚贝巴",
+                    "departureTime": "",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "亚的斯亚贝 巴✈北京",
+            "tripDay": 23
+        }
+    ]
+}

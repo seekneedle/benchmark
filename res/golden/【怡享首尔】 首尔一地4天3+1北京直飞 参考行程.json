@@ -1,0 +1,411 @@
+{
+    "product": {
+        "childAgeBegin": "0",
+        "childAgeEnd": "0",
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "韩国",
+                "destCityName": "",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": [
+            {
+                "content": "",
+                "name": "境外旅游人身伤害意外险",
+                "typeName": ""
+            }
+        ],
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": ""
+            }
+        ],
+        "productSubtitle": "正点航班 拒绝晚班机 3 天跟团+1 天自由活动 专业领队带团 安心省心 赠送旅游保险",
+        "productTitle": "怡享首尔.韩国首尔一地 4 天 3+1 半自助",
+        "returnCityName": "",
+        "tags": [
+            {
+                "name": "正点航班 拒绝晚班机 3 天跟团+1 天自由活动 专业领队带团 安心省心 赠送旅游保险"
+            }
+        ],
+        "themes": [
+            {
+                "name": "怡享首尔.韩国首尔一地 4 天 3+1 半自助"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "OZ",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "14:00",
+                "days": "0",
+                "flightNo": "OZ333",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "12:50"
+            },
+            {
+                "airlineCode": "CA",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "14:20",
+                "days": "",
+                "flightNo": "CA124",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "13:10"
+            },
+            {
+                "airlineCode": "MU",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "16:50",
+                "days": "",
+                "flightNo": "MU2074",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "15:40"
+            },
+            {
+                "airlineCode": "CZ",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "14:55",
+                "days": "",
+                "flightNo": "CZ318",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "13:30"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "OZ",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "13:50",
+                "days": "0",
+                "flightNo": "OZ3365",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "10:55"
+            },
+            {
+                "airlineCode": "CA",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "11:40",
+                "days": "",
+                "flightNo": "CA123",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "09:00"
+            },
+            {
+                "airlineCode": "MU",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "14:40",
+                "days": "",
+                "flightNo": "MU2073",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "11:40"
+            },
+            {
+                "airlineCode": "CZ",
+                "airlineName": "",
+                "arriveAirportName": "",
+                "arriveTime": "12:25",
+                "days": "",
+                "flightNo": "CZ317",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "09:15"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "",
+        "lineFeature": "正点航班 拒绝晚班机 3 天跟团+1 天自由活动 专业领队带团 安心省心 赠送旅游保险",
+        "lineSimpleTitle": "",
+        "lineSortTitle": "",
+        "lineTitle": "",
+        "needVisa": 0,
+        "passCities": [
+            {
+                "cityName": "",
+                "countryName": "",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "4",
+        "tripNight": "",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            }
+        ],
+        "departDate": [
+            ""
+        ]
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "个人护照办理费用； 韩国当地推荐的自费项目； 航空保险费 、行李保险费 、超重行李费； 酒店客房 、行李员 、餐馆等其它自愿支付小费； 各项私人额外费用如：洗衣 、长途电话 、酒水等消费； 行程外任何观光项目及自费活动(包括这些活动期间的用车 、导游和司机服务等费用)； 单人间房差:300 元/人/晚 因私人原因 、交通延阻 、罢工 、 台风或其它不可抗力因素而产生的额外费用。 本公司所不能控制之特殊情况下，如战争 、政治动荡 、天灾 、恶劣天气 、交通工具发生技术问题 、罢工及工业 行动等， 本公司有权在启程前或出发后取消或替换任何一个旅游项目，亦有权缩短或延长旅程 。而所引发之额 外支出或损失，概 与本公司无涉， 团员不得借故反对或退出。 行程中所安排之机票/船票/车票/酒店或观光项目，均属团体订位，一经出发前确认及订购后，不论任何情况下而未 能使用者 ，概不退回任何款项。",
+        "costInclude": "全程国际机票费用 、燃油附加税； 全程韩国五花特二酒店或同级酒店标准间住宿； 行程中所列旅游巴士； 全程中韩双语导游； 韩国 ADS 团队签证费用； 行程所列景点门票费用 境外旅游人身伤害意外险； 全程司导服务费共计 120 元/人；",
+        "lineReturns": [
+            {
+                "begin": "",
+                "cost": "",
+                "end": ""
+            }
+        ],
+        "otherRule": "1、我司保留调整行程游览顺序之权利 ，最终行程单以出团通知为准； 2、行程内航班信息均为参考航班，最终航班时间以机票出票信息为准； 3、根据住宿安排我社有权调整夫妻及亲属住宿安排，如有异议请提前告知自行补交单房差 ； 4、港澳台、外籍人士及朝鲜族人士参团 ，团费另计！",
+        "returnContent": "",
+        "selfCostContent": "",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "",
+                "name": "",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "",
+        "shops": [
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "",
+                "shopProduct": "",
+                "stay": ""
+            }
+        ],
+        "tipsContent": ""
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "青瓦台+景福宫+清溪川+好客空间《 HIKR》 +通仁市场",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "首尔市内五花特二酒店或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "青瓦台是韩国总统府 ， 一到青瓦台首先会看到的是主楼 的青瓦。青瓦台主楼背靠北岳山，青瓦与曲线型的房顶相映成趣，非常漂亮。就像青瓦台代表韩国一样，青瓦和 曲线型设计的房顶则代表着青瓦台。",
+                    "name": "韩国总统府-青瓦台（如预约成功 ，可入内参观）"
+                },
+                {
+                    "name": "景福宫",
+                    "description": "始建于 1395 年李朝时代的皇宫「景福宫」 ，共占地 12 万 6 千坪 ， 内有举行君王即位大典及文武 百官朝礼仪式的\"勤政殿\"，雄伟而富丽的殿阁，烘托出极尽荣华富贵的气派，祥瑞之喜鹊飞翔于宫内，那份宁谧 令人心旷神怡 ，有如置身于世外桃源。（根据实地情况可能换成德寿宫）",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "清溪川",
+                    "description": "在首尔的闹市里 ，有一条流水淙淙的小河。那儿有带着孩子的父母在徜徉漫步 ，有年轻的情侣把脚 浸在溪水里，坐在岸上谈天，轻松又自在。小河上方点缀着一座座形态各异的桥，和两岸鳞次栉比的摩天高楼相 映成趣。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "好客空间《HIKR》",
+                    "description": "在 5 楼好客休息区眺望 ，清溪川⻛光, 乐享休闲时光! 体验 K-Pop, 韩剧, 地区庆典等 丰富多彩的韩国旅游资源并 在 2 楼的“K-Pop 空间”创作 唯我独属的韩流旅游内容!",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "通仁市场",
+                    "description": "在韩国可以最开心品尝街头小吃的 300 米小吃自助街”。这是因为市场运营着使用朝鲜时代货 币---铜钱买便当的“盒饭咖啡店”。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "北京",
+                    "departureTime": "",
+                    "destination": "首尔",
+                    "trafficType": "飞机/大巴"
+                }
+            ],
+            "title": "北京-首尔 参考航班",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "韩国本土时尚化妆品+ 新罗免税+ 新罗爱宝客免税+现代免税+明洞步行街+涂鸦秀",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "首尔市内五花特二酒店或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "随着部分人群喜欢看韩剧 ，韩国化妆品慢慢也流行了。韩国的化妆品品牌数不胜数， 各种产品 更是应有尽有。",
+                    "name": "韩国本土时尚化妆品"
+                },
+                {
+                    "name": "新罗免税",
+                    "description": "坐落于新罗酒店所在地首尔市奖忠洞 ，首尔店除路易威登、香奈儿、爱马仕等国际品牌外 ，还 经销 MCM、雪花秀、兰芝等韩国国产优质品牌 ，全场品牌多达 550 余种。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "新罗爱宝客免税",
+                    "description": "致力于为顾客呈现国际化高品位的韩国免税店！爱宝客免税店汇聚国际大牌和韩国人气品 牌 ， 为顾客速递最新美妆产品和时尚潮流。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "现代免税",
+                    "description": "现代为韩国代表的免税店 ，这里拥有韩国最新的商品。在这里可以一次满足您购物的需要 ，可 称是世界流行重镇的免税店 ，提供便利舒适的购物空间。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "明洞商业街",
+                    "description": "明洞步行街为韩国首尔知名的商业街。明洞实际上就是一段街道 ，长约 1.5 公里 ，街道两 旁 布满了百货公司、商场、餐厅、酒店、戏院。另外还有一批超现代大型购物广场和商场、观光酒店、金融机 构。 新世界百货公司等主要大商场的总部设在此地 ，形成了一个大型购物休闲娱乐区。 明洞商业街很好地保存 着中国大使馆、明洞圣堂等韩国文物级建筑物 ， 同时也拥有超现代式大型购物广场、观光酒店、 100 多家金融 机构、数千家服装及服饰专卖店。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "HERO涂鸦秀",
+                    "description": "涂鸦秀是以绘画为素材重现了童年所憧憬的英雄人物 ，这里有帅气的演员，精湛的绘画手法 ，搞笑 的剧情，浪漫的爱情故事，这一切尽在涂鸦秀！就算你不懂一句韩语，照样也能看得津津有味的演出！ 演员精彩 绝伦的绘画手法，趣味十足的妆扮，风趣幽默的表演方式，再加上充满整个现场的音乐和透出的柔光 都会给你带 去无限的欢乐与震撼！添加轻松愉快的喜剧结合了精彩的舞蹈 ，是多彩的新概念艺术表演。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "大巴"
+                }
+            ],
+            "title": "首尔",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 0,
+            "content": "全天自由活动 ，享受一个没有 morning call 的早晨充分享受“动感之都”首尔的都市魅力。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "首尔市内五花特二酒店或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "北村韩屋村位于景福宫、 昌德宫、宗庙之间,是传统韩屋密集的地方,也是首尔最具代表性的传 统居住地,且到处都有很多史迹 、 文化遗产和民俗资料 。 因此,被称为城市中心的街道博物馆 。 在朝鲜时代 （ 1392 ~1910） ，统治阶级——两班们多在这里居住 ，遗留下许多传统房屋。现在的北村并非是供游客观赏修 建的民俗村，而是人们实际居住生活的村庄，包括 11 个洞 900 多座韩屋。随着韩屋画廊、传统作坊、韩屋餐厅 等的入驻，这里更成为一个倍受瞩目的新文化艺术区。游客来这里还能参观到“嘉会博物馆”、“韩尚洙刺绣博 物馆”、“韩国佛教美术博物馆”等韩国传统文化博物馆，在外国游客中也享有盛誉。北村韩屋村还是《冬季恋 歌》、《绅士的品格》和《她很漂亮》等韩剧拍摄地 ，如果你来到首尔 ，那这里是你必不可少的“打卡景点”。",
+                    "name": "北村韩屋村"
+                },
+                {
+                    "name": "益善洞",
+                    "description": "韩屋村是韩国年轻人偏好的聚会地点。 益善洞充满韩屋改造的咖啡厅、餐厅及文创小店, 融合了传 统韩屋与都会城市益善洞，这里当下聚集了多家热门网红打卡地，如清水堂、小夏盐田等。还有韩国网红运势扭 扭蛋及洋装拍照等众多特色体验。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "东大门",
+                    "description": "东大门市场已经发展成韩国最大规模的批发与零售市场 ，东大门市场是每天 24 小时营业 ，是年轻 人们的购物天堂，所以也形成了独特的消费文化氛围，只有身临其境，才会感觉到他的与众不同。被指定为服装 批发特别商街之后，发展速度更加惊人，20 多处大型建筑内的购物中心先后拔地而起。东大门的物品应有尽有， 从各种小的流行装饰品到男装、女装、鞋类，而且价格比其他地方都要便宜很多 ，因此这里总是簇拥着来自地方 城市的零售商和外国的商人和游客们。这里因深夜购物者众多而闻名，全国各地的批发商，职员，外国游客等形 成人山人海，华丽的灯火和拥挤的人群使得东大门市场夜景比白天更为绚丽。这里周边同时聚集了众多美食店铺 及小吃。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "弘大商业街",
+                    "description": "韩国年轻人经常说起的“弘大”不仅是“弘益大学”的简称 ，还代表了以弘益大学为中心的大 学街文化，这一独特的文化范畴深受大众的认可和喜爱，其名气要远远超过“弘益大学”本身。白天随处可见体 现自由、前卫的咖啡屋、时尚店铺、艺术涂鸦等；夜晚则有很多街头乐队的露天表演 ，以及尽情释放青春荷尔蒙 的特色 club——弘大 ，是一个邂逅浪漫 ，体验青春活力的魅力街区。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "南山公园+ N 首尔塔",
+                    "description": "南山公园海拔 265 米 ，位于韩国首尔。 山顶耸立着 236 米的首尔塔 ，登上高 塔可 俯瞰首尔中心地区，与生命大厦同为首尔的标志。除了首尔塔 ，山顶上还有八角亭、海洋水族馆、喷水池 ，半山 腰有植物园和南山图书馆等。 “南山公园”是首尔最大的公园。公园内分布和栖息着首尔数量最多的 树木和野 生动物。这里不仅散步路漂亮 ，还可以近距离观察到松鼠等野生动物。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "广藏市场",
+                    "description": "广藏市场是出售韩服、西服等布料的批发市场 ，已被韩国政府指定为世界观光地 ，因此很多外国 游客光顾这里。广藏市场的韩服店非常有名 ，出售小孩子穿的韩服，改良式韩服，韩服用绸带及与韩服配套的绣 花鞋等 ，各种华丽且精美的商品吸引人们来这里购物。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "首尔 全天自由活动",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "酒店早餐后 ，收拾好行李搭乘大巴前往机场途中前往 ★【紫菜博物馆+韩服体验】介绍韩国土产紫菜的发展和制作过程 ，可试穿韩服在古典式的场景下拍照 ，留下美 好的回忆。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "首尔",
+                    "departureTime": "",
+                    "destination": "北京",
+                    "trafficType": "大巴/飞机"
+                }
+            ],
+            "title": "首尔-北京",
+            "tripDay": 4
+        }
+    ]
+}

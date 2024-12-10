@@ -1,0 +1,683 @@
+{
+    "product": {
+        "childAgeBegin": 0,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京市",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "北京市",
+        "dests": [
+            {
+                "countryName": "西班牙",
+                "destCityName": "马德里",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "西班牙",
+                "destCityName": "塞戈维亚",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "西班牙",
+                "destCityName": "巴塞罗那",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "西班牙",
+                "destCityName": "帕尔马（马略卡岛）",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "法国",
+                "destCityName": "马赛",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "意大利",
+                "destCityName": "拉斯佩齐亚",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "意大利",
+                "destCityName": "罗马（奇维塔韦基亚）",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "意大利",
+                "destCityName": "那不勒斯",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "",
+                "destCityName": "海上航行",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "赠送 30 万保额的境外医疗保险，覆盖医疗救援、紧急撤离等。",
+            "name": "境外医疗保险",
+            "typeName": "境外旅游险"
+        },
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": "春季温暖气候"
+            },
+            {
+                "name": "避开暑期高峰"
+            },
+            {
+                "name": "景点宁静"
+            },
+            {
+                "name": "文化与美食体验丰富"
+            },
+            {
+                "name": "地中海自然风光如画"
+            },
+            {
+                "name": "豪华游轮体验"
+            }
+        ],
+        "productSubtitle": "西班牙、法国、意大利深度游",
+        "productTitle": "13 天西地中海之春之旅",
+        "returnCityName": "北京市",
+        "tags": [
+            {
+                "name": "春季"
+            },
+            {
+                "name": "浪漫"
+            },
+            {
+                "name": "历史文化"
+            },
+            {
+                "name": "美食"
+            },
+            {
+                "name": "自然风光"
+            }
+        ],
+        "themes": [
+            {
+                "name": "地中海风情体验"
+            },
+            {
+                "name": "春季地中海风情"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "意大利罗马 - 北京首都国际机场",
+        "goTransportName": "北京首都国际机场 - 西班牙马德里",
+        "hotelStarName": "-1",
+        "lineFeature": "春季温暖气候，避开暑期高峰，景点宁静，文化与美食体验丰富，地中海自然风光如画，豪华游轮体验",
+        "lineSimpleTitle": "西地中海之旅",
+        "lineSortTitle": "MDT",
+        "lineTitle": "13 天西地中海之春之旅",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "马德里",
+                "countryName": "西班牙",
+                "provinceName": ""
+            },
+            {
+                "cityName": "塞戈维亚",
+                "countryName": "西班牙",
+                "provinceName": ""
+            },
+            {
+                "cityName": "巴塞罗那",
+                "countryName": "西班牙",
+                "provinceName": ""
+            },
+            {
+                "cityName": "帕尔马（马略卡岛）",
+                "countryName": "西班牙",
+                "provinceName": ""
+            },
+            {
+                "cityName": "马赛",
+                "countryName": "法国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "拉斯佩齐亚",
+                "countryName": "意大利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "罗马（奇维塔韦基亚）",
+                "countryName": "意大利",
+                "provinceName": ""
+            },
+            {
+                "cityName": "那不勒斯",
+                "countryName": "意大利",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "13",
+        "tripNight": "12",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "西班牙",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                },
+                {
+                    "content": "",
+                    "country": "法国",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                },
+                {
+                    "content": "",
+                    "country": "意大利",
+                    "district": "",
+                    "freeVisa": 2,
+                    "signPlace": ""
+                }
+            ]
+        },
+        "backAirports": [
+            {
+                "airlineCode": "",
+                "airlineName": "",
+                "arriveAirportName": "北京，中国",
+                "arriveTime": "05:00",
+                "days": 0,
+                "flightNo": "",
+                "flightSort": "返程",
+                "startAirportName": "巴塞罗那，西班牙",
+                "startTime": ""
+            }
+        ],
+        "goAirports": []
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "1. 护照有效期需至少6个月以上\n2. 请提前准备好签证所需材料\n3. 请确保身体健康，适合长途旅行\n4. 请遵守当地法律法规，尊重当地文化和习俗\n5. 请随身携带必需的个人药品和日常用品\n6. 请保持手机畅通，以便联系\n7. 请妥善保管个人财物\n8. 请提前了解目的地天气情况，合理搭配衣物\n9. 请遵守邮轮公司的各项规定\n10. 请听从领队和导游的安排",
+        "costExclude": "1. 护照费，申请签证准备相关材料所需的制作费等\n2. 全程邮轮小费（需在船上支付，参考费用为18.50美金/晚，7晚总共129.50美金，具体以邮轮上账单为准）\n3. 出入境的行李海关课税，超重行李的托运费，管理费等\n4. 邮轮上非免费的餐厅，饮品，水疗按摩，洗衣，理发，电话，上网，付费电视，行李搬运等私人费用\n5. 国际间往返机票及税项\n6. 回程停留尾站或提升商务客位须缴附加费",
+        "costInclude": "1. 国际间往返机票及税项\n2. 行程中所标明的皇家加勒比海洋魅丽号7晚邮轮船票及港务税\n3. 欧洲申根签证费用\n4. 行程所列船前船后行程安排地接服务\n5. 行程中所列每个港口的岸上观光费用\n6. 西班牙当地四星级酒店3晚\n7. 行程中所列入内参观的景区景点首道门票费用\n8. 行程中所列包含的用餐\n9. 全程专业中文领队陪同服务\n10. 全程邮轮上三餐，下午茶，夜宵及所有免费娱乐设施\n11. 30万保额的境外医疗保险",
+        "lineReturns": [
+            {
+                "begin": "0",
+                "cost": "0",
+                "end": "30"
+            },
+            {
+                "begin": "15",
+                "cost": "20",
+                "end": "30"
+            },
+            {
+                "begin": "8",
+                "cost": "50",
+                "end": "14"
+            },
+            {
+                "begin": "1",
+                "cost": "80",
+                "end": "7"
+            },
+            {
+                "begin": "0",
+                "cost": "100",
+                "end": "0"
+            }
+        ],
+        "otherRule": "1. 单人拼房申请须知及流程详见团期信息\n2. 如因航空公司或邮轮公司增加或减少燃油附加费税项，外币汇率浮动等，客人须缴交或可取回差额。实数以出票时作准\n3. 所需额外安排之住宿、膳食、交通等费用全部由旅客负责，而放弃的余下行程将不会获得任何补偿或退款\n4. 航程路线、泊岸、启航时间、所有税项及餐膳安排均以邮轮公司最后更新安排为准\n5. 以上为参考行程，本社保留根据航班、签证、酒店位置及前往国当时情况调整行程的权利",
+        "returnContent": "1. 如因不可抗力因素（如自然灾害、政府政策等）导致行程取消或变更，旅行社将尽力协调处理，但不承担因此产生的额外费用\n2. 如因游客个人原因（如身体不适、个人事务等）导致行程取消或变更，相关费用按上述退改规则执行",
+        "selfCostContent": "1. 自费项目为游客自愿参加，不强制消费\n2. 请在报名时明确是否参加自费项目\n3. 自费项目费用需在出发前支付\n4. 如因天气或其他不可抗力因素导致自费项目无法进行，费用不予退还",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "50 欧元",
+                "name": "马德里皇宫深度游",
+                "remark": "深入参观马德里皇宫，了解西班牙王室历史",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "80 欧元",
+                "name": "巴塞罗那高迪建筑深度游",
+                "remark": "深入参观高迪建筑，了解高迪的设计理念",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "60 欧元",
+                "name": "罗马斗兽场深度游",
+                "remark": "深入参观罗马斗兽场，了解古罗马历史",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "70 欧元",
+                "name": "五渔村徒步游",
+                "remark": "徒步游览五渔村，欣赏美丽风光",
+                "stay": ""
+            }
+        ],
+        "shopContent": "1. 旅行中所有购物行为皆为游客自愿购买，请游客务必仔细地检查购买商品的质量\n2. 若回国后发现质量问题，旅行社不承担任何责任\n3. 在境外购买物品请按相关规定及时申报，所产生的相应费用需自行承担",
+        "shops": [
+            {
+                "address": "Passeig de Gràcia, 95, 08007 Barcelona, Spain",
+                "remark": "位于巴塞罗那著名购物街，提供各种高迪纪念品和西班牙特色手工艺品",
+                "shopName": "巴塞罗那纪念品店",
+                "shopProduct": "高迪纪念品、西班牙特色手工艺品",
+                "stay": "60"
+            },
+            {
+                "address": "Via Condotti, 93, 00187 Roma RM, Italy",
+                "remark": "位于罗马著名购物街，提供各种罗马历史纪念品和意大利特色手工艺品",
+                "shopName": "罗马纪念品店",
+                "shopProduct": "罗马历史纪念品、意大利特色手工艺品",
+                "stay": "60"
+            }
+        ],
+        "tipsContent": "1. 建议旅客出发前送达个人需要购买综合旅游保险\n2. 请提前了解目的地天气情况，合理搭配衣物\n3. 请随身携带必需的个人药品和日常用品\n4. 请保持手机畅通，以便联系\n5. 请妥善保管个人财物\n6. 请遵守当地法律法规，尊重当地文化和习俗\n7. 请听从领队和导游的安排"
+    },
+    "trips": [
+        {
+            "breakfast": 1,
+            "content": "今日早晨可以睡到自然醒，前往装扮一新的甲板上迎着海风享用一顿早餐。22万吨级海洋魅丽号拥有丰富多样的娱乐设施而著名。它拥有中央公园、多个滑水道、攀岩墙、多样化的餐饮选择、以及丰富的家庭友好活动，海洋魅丽号是一座大海上的度假胜地，让您在海上度过令人难忘的时光。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "海上航行",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 0,
+            "content": "抵达北京首都国际机场，结束愉快的邮轮之旅。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "结束邮轮之旅",
+            "tripDay": 13
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后跟随领队下船，乘车前往马略卡岛上的巴尔德莫萨小镇，之后返回帕尔马市区，参观贝利维尔城堡（外观）和帕尔马大教堂（外观），行程结束后，返回邮轮。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "海洋魅丽号",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "位于西班牙马略卡岛的西北部，被著名的Tramuntana山脉环绕着。由于它得天独厚的地理位置以及秀丽的景色，在2007年Tramuntana山脉被联合国教科文组织评为世界文化遗产。巴尔德莫萨的悠久历史可以追溯到公元前500年。整个小镇由狭窄的街道和石头房屋组成，还有许多花园和庭院。这个小镇以其14世纪古老的修道院而闻名，当然著名的作曲家肖邦和作家乔治桑的爱情也发生在这里。",
+                    "name": "巴尔德莫萨小镇"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "（外观）眺望整个帕尔马海港，留下美好的瞬间。",
+                    "name": "贝利维尔城堡"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "（外观）这座哥特式的建筑杰作从14世纪开始就屹立于帕尔马的海滨。在可以从当地专业导游那里得知这座教堂是如何从阿拉伯清真寺的遗址上拔地而起的。",
+                    "name": "帕尔马大教堂"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "马德里 - 巴塞罗那之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后跟随领队下船，乘车前往马略卡岛上风景优美的巴尔德莫萨小镇，之后返回帕尔马市区，参观贝利维尔城堡（外观）和帕尔马大教堂（外观），行程结束后，返回邮轮。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "海洋魅丽号",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "位于西班牙马略卡岛的西北部，被著名的Tramuntana山脉环绕着。由于它得天独厚的地理位置以及秀丽的景色，在2007年Tramuntana山脉被联合国教科文组织评为世界文化遗产。巴尔德莫萨的悠久历史可以追溯到公元前500年。整个小镇由狭窄的街道和石头房屋组成，还有许多花园和庭院。这个小镇以其14世纪古老的修道院而闻名，当然著名的作曲家肖邦和作家乔治桑的爱情也发生在这里。",
+                    "name": "巴尔德莫萨（Valldemossa)小镇"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "眺望整个帕尔马海港，留下美好的瞬间。",
+                    "name": "贝利维尔城堡（外观）"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "这座哥特式的建筑杰作从14世纪开始就屹立于帕尔马的海滨。在可以从当地专业导游那里得知这座教堂是如何从阿拉伯清真寺的遗址上拔地而起的。",
+                    "name": "帕尔马大教堂（外观）"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "马德里-巴塞罗那之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "在酒店享用早餐后，前往巴特略之家（外观）、米拉之家（外观）、哥伦布广场（外观），之后前往巴塞罗那国际邮轮码头，登上皇家加勒比游轮公司22万吨级的海洋魅丽号开始地中海梦幻之旅。之后来到马赛著名的旧港(Vieux Port)，感受这座法国第二大城市的繁华。艾克斯小镇虽小但充满魅力，其主要街道Mirabeau大道充满法式风情。",
+            "dinner": 1,
+            "hotels": [],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "它是高迪另一个著名的作品，但是与高迪设计的其他建筑不同，它的外墙全部是由蓝色和绿色的陶瓷装饰的，一种奇诡的颜色组合，远望去颇象印象派画家的调色盘，但色彩很和谐，萨尔瓦多·达利曾经将这面外墙比喻为“一片宁静的湖水”。",
+                    "name": "巴特略之家（外观）"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "它常常被叫做“采石场”，这座为米拉氏设计的住宅是巴塞罗那现代主义建筑的标志性作品之一，也是高迪的名作之一",
+                    "name": "米拉之家（外观）"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "是市内最大和最著名的广场之一，也是吸引游客的好地方，它紧邻着卡斯提尔大道，周围大厦林立，位处车水马龙的闹区。广场中央矗立著哥伦布的雕像，作为15世纪西班牙海上强国的标志。",
+                    "name": "哥伦布广场（外观）"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "巴塞罗那及周边城市游览与邮轮之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后跟随领队下船，乘车前往马略卡岛上风景优美的巴尔德莫萨小镇。之后返回帕尔马市区，先去到贝利维尔城堡眺望海港，之后参观帕尔马大教堂。行程结束后，返回邮轮。在酒店享用完早餐之后，前往巴特略之家、米拉之家、哥伦布广场。之后前往巴塞罗那国际邮轮码头，登上皇家加勒比游轮公司的海洋魅丽号开始此次7天的地中海梦幻之旅。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "海洋魅丽号",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "位于西班牙马略卡岛的西北部，被著名的Tramuntana山脉环绕着。由于它得天独厚的地理位置以及秀丽的景色，在2007年Tramuntana山脉被联合国教科文组织评为世界文化遗产。巴尔德莫萨的悠久历史可以追溯到公元前500年。整个小镇由狭窄的街道和石头房屋组成，还有许多花园和庭院。这个小镇以其14世纪古老的修道院而闻名，当然著名的作曲家肖邦和作家乔治桑的爱情也发生在这里。",
+                    "name": "巴尔德莫萨小镇"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "外观，眺望整个帕尔马海港，留下美好的瞬间。",
+                    "name": "贝利维尔城堡"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "外观，这座哥特式的建筑杰作从14世纪开始就屹立于帕尔马的海滨。在可以从当地专业导游那里得知这座教堂是如何从阿拉伯清真寺的遗址上拔地而起的。",
+                    "name": "帕尔马大教堂"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "外观，它是高迪另一个著名的作品，但是与高迪设计的其他建筑不同，它的外墙全部是由蓝色和绿色的陶瓷装饰的，一种奇诡的颜色组合，远望去颇象印象派画家的调色盘，但色彩很和谐，萨尔瓦多·达利曾经将这面外墙比喻为“一片宁静的湖水”。",
+                    "name": "巴特略之家"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "外观，它常常被叫做“采石场”，这座为米拉氏设计的住宅是巴塞罗那现代主义建筑的标志性作品之一，也是高迪的名作之一。",
+                    "name": "米拉之家"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "外观，是市内最大和最著名的广场之一，也是吸引游客的好地方，它紧邻着卡斯提尔大道，周围大厦林立，位处车水马龙的闹区。广场中央矗立著哥伦布的雕像，作为15世纪西班牙海上强国的标志。",
+                    "name": "哥伦布广场"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "地中海梦幻之旅",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "从邮轮码头出发，先乘坐火车前往五渔村，行程结束后乘坐火车返回拉斯佩齐亚的邮轮码头。在邮轮上享用完早餐后，乘坐大巴前往罗马，游览万神殿、西班牙广场、特莱维广场、罗马斗兽场（外观），行程结束后专车返回邮轮码头。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "海洋魅丽号",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "一天",
+                    "description": "岩石海湾、陡峭悬崖和壮光山脊是整个画面的背景。由5个悬崖边上的村镇组成，这些村庄坐落于意大利利古里亚海岸16公里的绵延地带。梯田葡萄园和橄榄园布满了大部分道路无法到达的山坡上。每个村镇五彩斑斓的房屋配上宝蓝色的海湾构成童话般的风景，被联合国教科文组织评为世界遗产。",
+                    "name": "五渔村"
+                },
+                {
+                    "consumingTime": "半天",
+                    "description": "古罗马的宏伟杰作，其壮丽的哥特式建筑和独特的历史价值，是人类建筑工程的杰出典范，永恒的灵感之源。其氛围和建筑让人不禁沉浸在古代罗马的壮丽之中，感受着历史的深刻魅力。",
+                    "name": "万神殿"
+                },
+                {
+                    "consumingTime": "半天",
+                    "description": "如同一幅宫廷绘画的活力画布，其壮观的巴洛克式喷泉、雕塑和建筑群构成了一幅迷人的城市景观，是罗马的文化和艺术之珠，充满着历史和视觉的奇迹。",
+                    "name": "西班牙广场"
+                },
+                {
+                    "consumingTime": "半天",
+                    "description": "在这里投掷硬币并许下愿望的仪式感令人陶醉，它见证了许许多多人生的梦想和希望，散发着一股神奇的氛围。",
+                    "name": "特莱维广场（罗马许愿池）"
+                },
+                {
+                    "consumingTime": "半天",
+                    "description": "这座令人叹为观止的建筑见证了古代角斗士战斗的壮丽场面，其回廊和座位排列如今仍能勾勒出曾经的光辉。",
+                    "name": "罗马斗兽场（外观）"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "拉斯佩齐亚码头",
+                    "departureTime": "",
+                    "destination": "五渔村",
+                    "trafficType": "火车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "五渔村",
+                    "departureTime": "",
+                    "destination": "拉斯佩齐亚码头",
+                    "trafficType": "火车"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "邮轮码头",
+                    "departureTime": "",
+                    "destination": "罗马",
+                    "trafficType": "大巴"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "罗马",
+                    "departureTime": "",
+                    "destination": "邮轮码头",
+                    "trafficType": "专车"
+                }
+            ],
+            "title": "意大利南部海岸和罗马之旅",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "在邮轮上享用早餐后，在领队的带领下乘坐大巴前往罗马。游览万神殿、西班牙广场、特莱维广场（罗马许愿池）、罗马斗兽场（外观）。在当地专业导游的带领下，一边听着几千年的罗马历史，一边领略这座永恒之城的魅力。行程结束后专车返回邮轮码头。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "古罗马的宏伟杰作，其壮丽的哥特式建筑和独特的历史价值，是人类建筑工程的杰出典范，永恒的灵感之源。其氛围和建筑让人不禁沉浸在古代罗马的壮丽之中，感受着历史的深刻魅力。",
+                    "name": "万神殿"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "如同一幅宫廷绘画的活力画布，其壮观的巴洛克式喷泉、雕塑和建筑群构成了一幅迷人的城市景观，是罗马的文化和艺术之珠，充满着历史和视觉的奇迹。",
+                    "name": "西班牙广场"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "在这里投掷硬币并许下愿望的仪式感令人陶醉，它见证了许许多多人生的梦想和希望，散发着一股神奇的氛围。",
+                    "name": "特莱维广场（罗马许愿池）"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "这座令人叹为观止的建筑见证了古代角斗士战斗的壮丽场面，其回廊和座位排列如今仍能勾勒出曾经的光辉。",
+                    "name": "罗马斗兽场（外观）"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "罗马",
+                    "trafficType": "大巴"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "罗马",
+                    "departureTime": "",
+                    "destination": "邮轮码头",
+                    "trafficType": "专车"
+                }
+            ],
+            "title": "罗马之旅",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "今日早晨可以睡到自然醒，前往装扮一新的甲板上迎着海风享用一顿早餐。22 万吨级海洋魅丽号拥有丰富多样的娱乐设施而著名。它拥有中央公园、多个滑水道、攀岩墙、多样化的餐饮选择、以及丰富的家庭友好活动，海洋魅丽号是一座大海上的度假胜地，让您在海上度过令人难忘的时光。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "海洋魅丽号",
+                    "star": "5"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "海洋魅丽号的海上度假时光",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 0,
+            "content": "飞机抵达北京首都国际机场，结束愉快的邮轮之旅！",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "05:00",
+                    "departure": "巴塞罗那，西班牙",
+                    "departureTime": "",
+                    "destination": "北京，中国",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "结束邮轮之旅并抵达北京",
+            "tripDay": 12
+        },
+        {
+            "breakfast": 0,
+            "content": "飞行机抵达北京首都国际机场，结束愉快的邮轮之旅！",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "05/05",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "北京首都国际机场",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "抵达北京结束邮轮之旅",
+            "tripDay": 13
+        }
+    ]
+}

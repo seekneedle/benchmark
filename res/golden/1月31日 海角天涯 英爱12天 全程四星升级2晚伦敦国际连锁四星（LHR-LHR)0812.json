@@ -1,0 +1,658 @@
+{
+    "product": {
+        "childAgeBegin": "0",
+        "childAgeEnd": "0",
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "英国",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "爱尔兰",
+                "destCityName": "",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "英国",
+                "destCityName": "",
+                "destProvinceName": "威尔士"
+            }
+        ],
+        "insurance": [
+            {
+                "content": "",
+                "name": "旅行社责任险",
+                "typeName": ""
+            },
+            {
+                "content": "我社所上境外旅游意外伤害险“大地团体境外游保险北京-2016-N款”，此保险为我社代投保项目， 游客涉及到的任何保险问题请直接与保险公司联系（24小时援助电话为86-10-64159749，国外拨 打86-10-64159749，国内拨打010-64159749）； b) 旅游意外伤害险不包括游客自身携带疾病、旧病复发及在出团日前180天内未经过治疗的疾病； （如心脏病复发、高血压、糖尿病并发症、移植手术复发、孕妇、精神病发作等）； c) 我社推荐客人根据自身情况额外补上医疗50万或70万的大额保险。 d) 如果您年龄在65岁以上，请咨询旅行社代您投保上适于您的险种。",
+                "name": "境外旅游意外伤害险",
+                "typeName": ""
+            }
+        ],
+        "insuranceIncluded": 1,
+        "markets": [
+            {
+                "name": ""
+            }
+        ],
+        "productSubtitle": "一价全含&推一罚十",
+        "productTitle": "海角天涯英国+爱尔兰+威尔士12天",
+        "returnCityName": "",
+        "tags": [
+            {
+                "name": "一价全含&推一罚十"
+            },
+            {
+                "name": "全程四星酒店&伦敦升级2晚国际连锁"
+            },
+            {
+                "name": "自助热早/伦敦半天自由活动"
+            }
+        ],
+        "themes": [
+            {
+                "name": "海角天涯英国+爱尔兰+威尔士12天"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": " CA",
+                "airlineName": "",
+                "arriveAirportName": "PEK",
+                "arriveTime": "14：25+1",
+                "days": "0",
+                "flightNo": "CA938",
+                "flightSort": "",
+                "startAirportName": " LHR",
+                "startTime": " 2025"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "",
+                "arriveAirportName": "LHR",
+                "arriveTime": "17：50",
+                "days": "0",
+                "flightNo": "CA937",
+                "flightSort": "",
+                "startAirportName": "PEK",
+                "startTime": "14：40"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "四星",
+        "lineFeature": "",
+        "lineSimpleTitle": "英国+爱尔兰+威尔士12天",
+        "lineSortTitle": "",
+        "lineTitle": "",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "",
+                "countryName": "",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "12",
+        "tripNight": "",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "1. 欧洲使馆规定，会抽查部分或全部客人回国后面试销签。抽到的客人须按照通知时间本人前往使馆。建 议返程机票订在回国当天下午或第二天；如遇回国抵达当天为周五六日，请订下周一下午或晚上的航班； 2. 部分使馆会在客人回国几天后才通知面试销签，此情况较难理解，但实属使馆现行做法。所有面试费用 由客人自理，请做好被通知面试销签准备； 3. 使馆规定，凡在旅行社办理团签的客人须在抵达首都机场时将护照、全程登机牌交回使馆（届时会有专 人收取），护照销签时间取决于使馆进度，因旺季或有大型活动等原因，使馆工作量大销签时间会长些， 请您理解； 4. 请保管好全程登机牌并核对姓名，若因客人原因丢失、缺损登机牌或姓名错误，请回国后配合旅行社第 一时间前往使馆面试销签；如果不能当即销签，使馆将会另行通知面试时间，由此产生的有费用由客人 承担； 5. 当您从欧洲离境时，一定检查海关是否给您的护照盖了清晰的离境章，它是您已经回到中国的唯一凭证。 如果没有盖章或者章不清晰无法辨认将会导致使馆要求您面试销签，由此造成不必要的损失，非常抱歉 只能由本人承担！ 请您谅解的同时也请您自己务必仔细留意！",
+                    "country": "英国",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                },
+                {
+                    "content": "",
+                    "country": "爱尔兰",
+                    "district": "",
+                    "freeVisa": "",
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            }
+        ],
+        "departDate": [
+            ""
+        ]
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "护照费； 签证相关费用：例如未成年人公证，认证等；酒店内一切私人消费，包括行李搬运费用服务项目未提到的其他一切费用游客因自身过错、自由活动期间造成的人身和财产 损失；单房差：75英镑每人每晚；；",
+        "costInclude": "中国至欧洲往返机票（团队经济舱 ）； 四星级酒店、升级2晚伦敦国际连锁 酒店（双人间 / 自 助热早餐）常规餐（六菜一汤）；特别升级一顿法炸鱼薯条； 特别升级一顿伦敦英式下午茶； 不含餐部分请自理； 境外旅游巴士及专业司机；行程中所列景点门票；英国ADS团队旅游签证费；旅行社责任险、境外旅游意外伤害险；因境外目的地文化需求，客人需支付的导游、司机及酒 店、餐厅服务员等综合服务费、城市税贴心好礼：欧洲转换插头、全程WIFI（2人/台） 备注：WIFI丢失，需补500RMB/台；；；",
+        "lineReturns": [
+            {
+                "begin": "",
+                "cost": "",
+                "end": ""
+            }
+        ],
+        "otherRule": "",
+        "returnContent": "e) 如遇天气、战争、罢工、地震等人力不可抗力因素无法游览，我社将按照旅行社协议，退还未游 览景点门票费用（赠送项目费用不退），其他费用因为提前预付已经发生无法退还； f) 游客因个人原因临时自愿放弃游览，酒店住宿、餐、车等费用均不退还； 8、其他说明：请您如实填写《客人评议表》，我社将以您填写的内容作为处理客诉的依据；",
+        "selfCostContent": "",
+        "selfCosts": [],
+        "shopContent": "聚集上百个欧洲知名品牌 （Burberry， Gucci， Prada， Vivienne Westwood， Bottega Veneta， Tod's， Mulberry,... 等） 的比斯 特折扣城Outlet，令人心动的折扣、琳瑯满目的商品， 让您尽情享受购物之乐。",
+        "shops": [
+            {
+                "address": "比斯特购物村",
+                "remark": "",
+                "shopName": "比斯特购物村",
+                "shopProduct": "（Burberry， Gucci， Prada， Vivienne Westwood， Bottega Veneta， Tod's， Mulberry,... 等）",
+                "stay": ""
+            }
+        ],
+        "tipsContent": ""
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "按照规定时间，在首都国际机场集合，由领队讲解出团注意事项，并协助客人办理登机及出关手 续。准备搭乘中国国际航空公司客机飞往-伦敦。期待已久的英国之旅离我们越来近。 抵达后，入住酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "四星级酒店",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": " 17：50",
+                    "departure": "北京",
+                    "departureTime": "14：40",
+                    "destination": "伦敦",
+                    "trafficType": "飞机/巴士"
+                }
+            ],
+            "title": "北京Beijing伦敦London",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": " 徐志摩笔下浪漫「撑篙游船」之旅+英国最古老「牛津 大学城」~",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "四星级酒店",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "1小时",
+                    "description": "在这学术名镇， 您可悠闲地漫步在各具特色、各拥风格的学院间：剑桥 大学最早建于13世纪，一群牛津大学的学者为了躲避牛 津市民针对学者的冲突而移居至剑桥。是全英国唯一能 与牛津大学并驾齐驱的权威性大学，诞生过26名英国首 相、牛顿、达尔文、霍金等也都是知名校友。 每一座学 院建筑风格各异，学院史背景也不同，但无疑都是极具 欣赏价值的建筑艺术精品;",
+                    "name": "剑桥"
+                },
+                {
+                    "name": "国王学院",
+                    "description": "剑桥大学最著名的学院，学院内的国王 礼 拜堂是剑桥建筑的一大代表，也是中世纪晚期英国建筑 的重要典范;",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "三一学院",
+                    "description": "剑桥大学最大的学院，现于三一礼拜堂外，还有一棵从牛顿家乡移植来的苹果树， 以纪念这位万有引力之父。 空闲之余，可循着徐志摩的足迹，漫游剑桥。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "剑桥撑篙游船",
+                    "description": "循着徐志摩的足迹，安排体验剑桥撑篙游船，撑一根长篙泛舟于诗意的剑 河上，留下值得一生收藏的回忆！ 英语世界中最古老的大学城-牛津，城里哥德式的尖塔林立，大学校区彼此隔着城镇建筑遥相呼应， 又与城镇互相依存; 没有围墙，城市街道从校园穿过，学校与城市融为一体。 在静谧的气氛中， 仿佛走进历史",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "基督教会学院（外观）",
+                    "description": "基督教会学院由亨利八世在此设立，是牛津大学规模最大的学院， 其最引以为傲之处就是在近代200年内产生了16位英国首相。 《爱丽丝梦游仙境》一书也是该 学院的数学教授于此学院写出的文学名著。 此学院更是知名的电影《哈利波特》拍摄地点之一， 与霍格华兹学院的教授的晚宴Dining room 的拍摄地，更是受麻瓜们推崇！",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "卡法斯塔+博德利图书馆",
+                    "description": "古老卡法斯塔的周围是牛津最热闹的行人徒步区，商店林立，是学 生们的最爱; 以及建于公元1378年全英格兰最古老的博德利图书馆。 牛津大学培养众多社会名 人，校友当中包括26位英国首相、69位诺贝尔奖得主。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士/游船"
+                }
+            ],
+            "title": "伦敦London剑桥Cambridge University牛津 Oxford",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "大文豪「莎士比亚」故乡探访之旅+ Outlet 「名牌折扣城」",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "四星级酒店",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "聚集上百个欧洲知名品牌 （Burberry， Gucci， Prada， Vivienne Westwood， Bottega Veneta， Tod's， Mulberry,... 等） 的比斯 特折扣城Outlet，令人心动的折扣、琳瑯满目的商品， 让您尽情享受购物之乐。",
+                    "name": "比斯特购物村"
+                },
+                {
+                    "name": "莎士比亚出生地",
+                    "description": "位于亚芳河畔、英国伟大的剧作 家莎士比亚的出生地-史特拉福，小镇内有许多与莎翁有 关的建筑：莎士比亚1564年出生于此，故居为一间二层 楼都铎式建筑的房子，内部重现了当时莎士比亚出生时 家里的整个格局和摆饰。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "莎士比亚故居-安妮之家（外观）",
+                    "description": "莎士比亚妻子故 居位在充满科玆沃乡村风情的小镇，安妮之家古色古香 的小屋，简单充满童话气息的木造建筑，屋顶覆盖约20 吨重芦苇草，屋内呈现500年前农舍摆设的原型。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "牛津 Oxford比斯特购物村Bicester Outlet史特拉福Stratford upon Avon温德米尔湖区 Windermere",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "绝美湖区国家公园「游船」之旅+英国皇室风情「爱丁堡城堡 + 圣路德皇宫」之旅",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "四星级酒店",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "搭乘游船漫游湖区，从湖上欣赏湖区迷 人的温德米尔湖（WindermereLake）风景。 一览英国女 作家暨插画家碧雅翠丝·波特（Helen Beatrix Potter） 手绘本-彼得兔童话世界诞生的地方，风光优美如画，湖 泊、河谷、山峰、海岸线和村落恣意组合成田园诗意景致。",
+                    "name": "湖区游船"
+                },
+                {
+                    "name": "爱丁堡城堡（入内参观）",
+                    "description": "矗立于嶙峋花岗岩上的 爱丁堡城堡，城堡里小巧的玛格丽特礼拜堂，是爱丁堡现 存最古老的建筑。 城堡从12世纪到16世纪一直是苏格 兰御用的皇家城堡，见证了苏格兰的多次大大小小的战 争。 三面断崖易守难攻的的爱丁堡城堡，不仅是爱丁堡 的地标，更是俯瞰爱丁堡全市景色的最佳位置。 每年8 月爱丁堡城堡前的空地举办的爱丁堡军乐节（Edinburgh  Military Tattoo）是爱丁堡夏季重要的国际节庆活动。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "皇家英里大道",
+                    "description": "全长一英里多的皇家大道是中世纪爱丁堡的主要街道，现为爱丁堡旧城区的 轴心街道，西起爱丁堡城堡（Edinbugh Castle） ，东至圣路德皇宫，最早专为皇室开辟的中古 石铺大道「皇家英里大道」。沿途的古老的房舍依地势高低起伏而建，凝聚了爱丁堡旧地的精华， 漫步其中，宛如阅读苏格兰的古老历史。每年八月份爱丁堡的军乐队游行（Tattoo）便在此举行。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "王子大街",
+                    "description": "王子大街又名“王子大道”，全长不过一里，华丽摩登的店铺林立，把爱丁堡分 为新旧二城。南侧是一片青翠的绿地，东端尽头是王子街花园，北面分为新城，南面为旧城。新， 旧两城之间有一座长条山丘，天然壁垒分明。王子街素有“全球景色最佳的马路”之称。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士/游船"
+                }
+            ],
+            "title": "温德米尔湖区Windermere爱丁堡Edinburgh格拉斯哥Glasgow",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "四星级酒店 ",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "17世纪时，苏格兰与爱尔兰的基督教长老教会信徒作为宗教信 仰中心发展开始，其百年历史的市政厅及大歌剧院，优雅的文艺复兴建筑，带给城市细腻的视觉 享受。",
+                    "name": "贝尔法斯特市政厅（外观）"
+                },
+                {
+                    "name": "泰坦尼克号纪念馆（入内参观）",
+                    "description": "贝尔法斯特亦是全球著名的船业大港，永无法被世人遗 忘的TITANIC 泰坦尼克号，便是在此地的哈南德. 沃尔夫造船厂制造诞生，特别安排参观泰坦尼 克体验馆。 《泰坦尼克体验馆》2016年世界旅游大奖（World Travel Awards）的评选中赢得欧 洲最佳景点大奖，一举打败其他入选景点如：西班牙圣家堂、英国白金汉宫、意大利罗马斗兽场 以及法国艾菲尔铁塔。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士/英爱渡轮"
+                }
+            ],
+            "title": "格拉斯哥Glasgow凯恩莱恩Cairnryan-英爱渡轮（大约2小时15分钟）-贝尔法斯特Belfast",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "四星级酒店",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "爱尔兰岛北部海岸线，充满传说的巨人堤 （Giant's Causeway），冰河时期活动而形成的玄武岩多 角柱集合体，紧密相邻如同步道，绵延于海岸边，共计 37000 支，于1986年被认定为联合国教科文组织的世界 自然遗产。饱览奇观之时请小心地滑，高底起伏的地势， 容易滑倒，请务必留意小心自身安全。",
+                    "name": "巨人堤"
+                },
+                {
+                    "name": "考西农场",
+                    "description": "考西农场（Causey Farm）是一家私人农场，由Murtagh 家族经营。这个家族在1000年前就已经生活在这里了，历经多次的瘟疫、饥荒、自然灾害后，依 然驻守在这里，并一直经营着这家农场。考西农场经常会对公众开放，并组织一些老少皆宜的农 场活动，让前来观光的人们切身体验到爱尔兰的乡村生活。与农场300多只牛羊亲密接触，观牧 羊犬管理羊群，效仿主人喂食奶牛，跟农场主人学跳爱尔兰传统舞蹈，跟农场主人学习爱尔兰传 统面包制作，最后享用地道的爱尔兰传统午餐。",
+                    "consumingTime": "约2小时"
+                },
+                {
+                    "name": "爱尔兰首都-都柏林",
+                    "description": "拥有千年辉煌历史的古都，留下许多18世纪乔治时期风格的建筑与广 场，加上绿意盎然的市区、 优美的海岸风光、新颖时尚的商店街，让都柏林呈现一种融合古典与 现代的迷人特质。 都柏林市内最大的圣帕特里克大教堂、茉莉马龙雕像（MollyMalone）所在的 行人徒步区更是一个车水马龙热闹的区域、以及爱尔兰摇滚乐文化的发源地Temple Bar，都是来 到都柏林必访的景点。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "贝尔法斯特Belfast巨人堤Giants Causeway考西农场Fordstown都柏林Dublin",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "四星级酒店",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "都柏林圣三一 学院是爱尔兰最古老的学院，由伊丽莎白一世建立。是一 座久负盛名的高等学院，多名诺贝尔奖得主都出自这里。 学院的建筑由两个方形庭院组成，古老的城墙围绕着石砖 建造的大楼，铺满碎石的小径、绿油油的草坪和高高的钟 楼让校园看起来既有浓郁的文化气息，又充满了自然风 采。",
+                    "name": "都柏林圣三一学院（入内参观）"
+                },
+                {
+                    "name": "圣三一图书馆（入内参观）",
+                    "description": "都柏林圣三一学院内的图书馆与英国的大英图书馆、牛津大 学图书馆齐名，被誉为“欧洲三大图书馆”。电影版《哈利波特与魔法石》正是在此取景拍摄， 图书馆内的长廊与高高的书架都充满着浓郁的魔幻色彩。图书馆还放置了爱尔兰国宝级文物《凯 尔经》，这是世界上最古老的手写巨作，也是爱尔兰历史上最完美的一部作品。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "利菲河畔",
+                    "description": "利菲河位于爱尔兰，是一条流经都柏林市中心的河流，沿河的景色宁静美丽，有 时候会有各种表演。利菲河供给了都柏林的大部分用水需求，沿河道有大量休闲、娱乐的空间。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "康奈尔大街",
+                    "description": "这条街上矗立着都柏林著名的尖塔、欧康奈尔雕像以及欧康奈尔 桥。",
+                    "consumingTime": "约30分钟"
+                },
+                {
+                    "name": "健力士啤酒厂",
+                    "description": "拥有250年历史的健力士（Guinness）啤酒，爱尔兰 国宝之一的健力士啤酒，号称全世界最棒的黑啤酒，深褐色的液体加上乳白色的绵密泡沫，让全 世界的黑啤酒爱好者为之疯狂。 除了参观啤酒的制造过程，当然也会让您品尝最新鲜的健力士啤 酒。",
+                    "consumingTime": "入内参观2小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "都柏林Dublin",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": " 四星级酒店",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "是英国的蜜月天堂，因威廉王子夫妇曾 在这里度蜜月而名声大振！其横跨海岸线的安格尔西岛海 岸步道全长125英里，95%的海岸线被认定为“杰出自然 风景区 “ 沿途风光美丽，地貌多样，有农田、沿海石楠 树丛、沙丘、盐沼地和悬崖等。",
+                    "name": "安格尔西岛"
+                },
+                {
+                    "name": " 世 界 上 名 字 最 长 的 火 车 站 Llanfairpwllgwyngyllgogerychwyrndrobwll-llantysiliogogogoch",
+                    "description": "意思是“湍急漩涡附近白榛 林山谷中的圣马利亚教堂和红岩洞附近的圣田西路教堂”。据传，这个长长的站名源自19世纪中 叶一当地的裁缝，当时他想把小村标到地图上而想出了这个名字。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "康威堡（外观）",
+                    "description": "康威城堡建于 1283-1289 年，是英格兰国王爱德华一世在北威尔士第二次 战役的一部分。1283年，爱德华一世正进攻威尔士，故提出了修建康威城堡的构思，该城堡最终 于1287年完成，共动用了1500名人力。康威城堡被设计成一个用作防御的城堡，因此城堡内部 互不相通，所以房间的门都以铁桥连接到地面，房间与房间至间不能互相进入，以收加强防御之 效。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "都柏林Dublin",
+                    "departureTime": "",
+                    "destination": "霍利黑德",
+                    "trafficType": "巴士/英爱渡轮"
+                }
+            ],
+            "title": "都柏林Dublin-英爱渡轮-霍利黑德安格尔西岛（波马利斯）康威堡 伯明翰/斯温顿",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 1,
+            "content": "英国皇室城堡之旅+ 英国「史前巨石阵」神秘之旅",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "伦敦国际连锁四星",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "关于史前巨石群存在原因 众说纷纭，一般估计史前巨石阵大约于4000多年前出现， 乍看毫无规则的巨石，其实有一定的规则，由光线的移 动可观察天体的运作。 据说神秘的史前巨石群每到夏 至，太阳会从中间那颗石头升起来，然后照射整个祭坛， 据以推断这是用来观测天象; 现为了保护这群史前巨 石，以绳索加以隔离，只能在外围观看。",
+                    "name": "巨石阵（入内参观）"
+                },
+                {
+                    "name": "英式下午茶",
+                    "description": "隆重的维多利亚式下午茶仪式可追溯自1840年，当时名流们每日只进用两顿 正餐，英国公爵夫人Anna Maria Russell经常在正装出席晚宴前请女仆准备甜点与茶饮，以消磨 漫长的午后时光，她也开始邀请好友共享午后茶点，如此的午茶活动逐渐在贵族间普及，成为正 装出席、礼节繁复的维多利亚午茶风尚。享受一次优雅的下午茶，成为造访英国旅途中必不可少 的体验项目。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "温莎古堡（入内参观）",
+                    "description": "雄踞泰晤士河岸山丘上，'征服者威廉'所建的一座木制防卫要塞 温莎古堡，因历代国王的整治，变成现今所见宏伟壮观的华丽宫殿; 现在的温莎古堡收藏着英国 王室的珍宝，如玛丽皇后娃娃屋，欣赏琳瑯满目的中世纪娃娃，还有留传自中世纪的家具和装饰 品，这里每一个房间如同一座小型的艺术展室。 而此古堡亦为英国女皇最喜爱的皇宫，成为世界 上有人居住的最大城堡之一。 时至今日，英国女皇和皇室成员们仍喜爱在夏天及其他的周末假日 到此小住。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "伯明翰/斯温顿巨石阵 Stonehenge温莎古堡 windsor castle伦敦 London",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 1,
+            "content": "大英博物馆」人类文明探索 + 英国皇室城堡之旅",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "伦敦国际连锁四星",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "是女王的官方宅邸，新古典主义的建筑风 格是国家庆典和王室欢迎礼举行场地之一。1863年始成 为英国历代君主的寝宫，是英皇权力的中心地，宫殿主体 是一座四方的灰色建筑物，四周围上栏杆，宫殿前的广场 上维多利亚-女王像上的金色天使雕像，代表皇室希望能 再创造维多利亚时代的光辉，若皇宫正上方飘扬着英国皇 帝旗帜时，则表示女王仍在宫中。 身穿黑帽红衣雄纠纠 气昂昂地站冈，更是吸引许多游客到此观赏。",
+                    "name": "白金汉宫"
+                },
+                {
+                    "name": "西敏寺",
+                    "description": "歌德式建筑的西敏寺教堂自13世纪以来举 行历代英国君王加冕典礼及皇室婚礼，近年来因《达文西 密码》一书、威廉王子与凯特王妃大婚、及2017获颁2 项金球奖的英国影集《王冠》而声名大噪。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "国会大厦+大笨钟",
+                    "description": "又称西敏宫，是英国国会上下议 院的所在地。 西敏宫坐落在泰晤士河西岸是哥德复兴式 建筑的代表作之一，1987年被列为世界文化遗产。 该建 筑包括约1，100个独立房间、100座楼梯和4.8公里长 的走廊、西北角的钟楼就是著名的大笨钟。 尽管今天的 宫殿基本上由19世纪重修而来，但依然保留了初建时的 许多历史遗迹。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "波罗市集（Borough Market）（入内参观）",
+                    "description": "伦敦规模最大、历史最悠久的美食市场，各式 欧洲美食：西班牙炖饭、欧风潜艇堡、各种起司、火腿腊肠、肉派、还有新鲜的生蚝、生鲜水果 及花卉，CNN更是评选为世界十大必逛的生鲜市集。 ",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "大英博物馆（入内参观）",
+                    "description": "大英博物馆（British Museum）与纽约的大 都会艺术博物馆、巴黎的卢浮宫同列为世界三大博物馆。 自1759年1月15日起对公众开放，至 今已有超过250年的历史共拥有1300多万件的藏品，是世界上规模最大、最著名的博物馆之一。 其中最著名的有埃及罗塞塔石碑RosettaStone、雅典帕德嫩神庙的大理石雕刻、拉美西斯二世头 像Ramesses、法老阿孟霍特普三世头像Amenhoten等。 内典藏世界各地人类文明的伟大遗产其文 物收藏之丰富令人难以想象，一提起大英博物馆，英国人总是骄傲的说：走一趟大英博物馆就等 于看到了全世界。",
+                    "consumingTime": "含讲解约1小时"
+                },
+                {
+                    "name": "伦敦塔",
+                    "description": "最初由威廉一世为控制整个伦敦城建于公元11世纪的防御城堡; 之后经过两代君主 的扩建和整修，成为皇家宫殿。 石砌的厚实城墙、穿着特别制服的伦敦塔守卫，都是伦敦最鲜明 的象征。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "伦敦塔桥",
+                    "description": "两端有两座仿哥德的高塔，远远望去有如两座天主教堂矗立在泰晤士河上，极为 雄伟壮阔。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "巴士"
+                }
+            ],
+            "title": "伦敦London",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "飞机上",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "哈利·波特前往魔法学 院专用的“9¾站台”所在地，也是伦敦最古老的火车站 之一。这里是英国铁路干线东海岸主干线的南端终点站， 它西侧紧靠着欧洲之星国际列车的终点站——圣潘可拉 斯站。为满足魔法迷，在火车站的第9和第10两站之间 的墙面上挂了“Platform 9¾” 的标牌，下边还放着一辆隐没在墙里的行李车，因此也成为哈利 波特迷追捧的热门观光地。",
+                    "name": "9¾站台|国王十字火车站"
+                },
+                {
+                    "name": "伦敦半天自由活动",
+                    "description": "建议行程：自然历史博物馆、维多利亚阿尔伯特博物馆、海德公园。 根据航班时间，乘车前往机场，办理登机手续，乘坐国际航班飞回国内。",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "14：25+1",
+                    "departure": "伦敦",
+                    "departureTime": "20：25",
+                    "destination": "北京",
+                    "trafficType": "巴士/飞机"
+                }
+            ],
+            "title": "伦敦London北京",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 0,
+            "content": "安抵北京结束愉快而浪漫的非凡欧洲经典之旅！ 请您保留好往返登机牌与护照一起交给领队拿回销签，也有可能请您前往使馆面试销签，在使馆 为您留下良好的记录便于您再次出国。谢谢配合！",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京",
+            "tripDay": 12
+        }
+    ]
+}

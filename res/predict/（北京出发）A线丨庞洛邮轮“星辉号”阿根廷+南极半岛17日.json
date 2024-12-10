@@ -1,0 +1,737 @@
+{
+    "product": {
+        "childAgeBegin": 6,
+        "childAgeEnd": 0,
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "不接受出发时不满6周岁的儿童预订申请，也不接受在航程开始时或航程进行中，会进入或已进入怀孕第24周的孕妇游客的预订申请，且每一个舱房内均必须有一人年满21周岁",
+        "departureCityName": "北京市",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "北京市",
+        "dests": [
+            {
+                "countryName": "阿根廷",
+                "destCityName": "布宜诺斯艾利斯",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "阿根廷",
+                "destCityName": "乌斯怀亚",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "",
+                "destCityName": "德雷克海峡",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "",
+                "destCityName": "南设得兰群岛",
+                "destProvinceName": ""
+            },
+            {
+                "countryName": "",
+                "destCityName": "南极半岛",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": {
+            "content": "旅游意外保险费不包含在费用中，强烈建议游客自行购买",
+            "name": "",
+            "typeName": ""
+        },
+        "insuranceIncluded": 0,
+        "markets": [
+            {
+                "name": "南极半岛探险"
+            },
+            {
+                "name": "豪华邮轮体验"
+            },
+            {
+                "name": "专业探险队服务"
+            },
+            {
+                "name": "极地冲锋衣赠送"
+            },
+            {
+                "name": "免费WiFi"
+            },
+            {
+                "name": "船长欢迎鸡尾酒&晚宴"
+            }
+        ],
+        "productSubtitle": "2025年1月30日北京出发",
+        "productTitle": "庞洛邮轮“星辉号”阿根廷+南极半岛17日【A线】",
+        "returnCityName": "北京市",
+        "tags": [
+            {
+                "name": "极地探险"
+            },
+            {
+                "name": "高端邮轮"
+            },
+            {
+                "name": "自然风光"
+            }
+        ],
+        "themes": [
+            {
+                "name": "南极探险"
+            },
+            {
+                "name": "豪华邮轮"
+            },
+            {
+                "name": "南极探险之旅"
+            }
+        ]
+    },
+    "line": {
+        "backTransportName": "飞机、邮轮",
+        "goTransportName": "飞机、邮轮",
+        "hotelStarName": "-1",
+        "lineFeature": "南极半岛探险、穿越德雷克海峡、南设得兰群岛巡游、乌斯怀亚城市观光、布宜诺斯艾利斯城市观光",
+        "lineSimpleTitle": "南极探险之旅",
+        "lineSortTitle": "南极17日",
+        "lineTitle": "庞洛邮轮“星辉号”阿根廷+南极半岛17日【A线】",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "北京",
+                "countryName": "中国",
+                "provinceName": ""
+            },
+            {
+                "cityName": "布宜诺斯艾利斯",
+                "countryName": "阿根廷",
+                "provinceName": ""
+            },
+            {
+                "cityName": "乌斯怀亚",
+                "countryName": "阿根廷",
+                "provinceName": ""
+            },
+            {
+                "cityName": "德雷克海峡",
+                "countryName": "",
+                "provinceName": ""
+            },
+            {
+                "cityName": "南设得兰群岛",
+                "countryName": "",
+                "provinceName": ""
+            },
+            {
+                "cityName": "南极半岛",
+                "countryName": "",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "17",
+        "tripNight": "16",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "持有有效的美国 B1/B2 签证可办理阿根廷电子签，无美签办理阿根廷贴纸签",
+                    "country": "阿根廷",
+                    "district": "",
+                    "freeVisa": 0,
+                    "signPlace": ""
+                }
+            ]
+        },
+        "backAirports": [
+            {
+                "airlineCode": "TK",
+                "airlineName": "土耳其航空公司",
+                "arriveAirportName": "北京首都国际机场",
+                "arriveTime": "16:15",
+                "days": 0,
+                "flightNo": "TK088",
+                "flightSort": "返程第一段",
+                "startAirportName": "伊斯坦布尔机场",
+                "startTime": "02:10"
+            },
+            {
+                "airlineCode": "ET",
+                "airlineName": "埃塞俄比亚航空公司",
+                "arriveAirportName": "北京首都国际机场",
+                "arriveTime": "17:10",
+                "days": 0,
+                "flightNo": "ET604",
+                "flightSort": "返程第二段",
+                "startAirportName": "亚的斯亚贝巴机场",
+                "startTime": "01:20"
+            }
+        ],
+        "goAirports": [
+            {
+                "airlineCode": "TK",
+                "airlineName": "土耳其航空公司",
+                "arriveAirportName": "伊斯坦布尔机场",
+                "arriveTime": "06:35",
+                "days": 0,
+                "flightNo": "TK089",
+                "flightSort": "第一段",
+                "startAirportName": "北京首都国际机场",
+                "startTime": "00:50"
+            },
+            {
+                "airlineCode": "TK",
+                "airlineName": "土耳其航空公司",
+                "arriveAirportName": "布宜诺斯艾利斯机场",
+                "arriveTime": "22:25",
+                "days": 0,
+                "flightNo": "TK015",
+                "flightSort": "第二段",
+                "startAirportName": "伊斯坦布尔机场",
+                "startTime": "10:05"
+            },
+            {
+                "airlineCode": "ET",
+                "airlineName": "埃塞俄比亚航空公司",
+                "arriveAirportName": "亚的斯亚贝巴机场",
+                "arriveTime": "07:15",
+                "days": 0,
+                "flightNo": "ET605",
+                "flightSort": "第一段",
+                "startAirportName": "北京首都国际机场",
+                "startTime": "00:10"
+            },
+            {
+                "airlineCode": "ET",
+                "airlineName": "埃塞俄比亚航空公司",
+                "arriveAirportName": "布宜诺斯艾利斯机场",
+                "arriveTime": "19:55",
+                "days": 0,
+                "flightNo": "ET506",
+                "flightSort": "第二段",
+                "startAirportName": "亚的斯亚贝巴机场",
+                "startTime": "09:50"
+            },
+            {
+                "airlineCode": "",
+                "airlineName": "",
+                "arriveAirportName": "乌斯怀亚",
+                "arriveTime": "",
+                "days": 0,
+                "flightNo": "",
+                "flightSort": "布宜诺斯艾利斯到乌斯怀亚",
+                "startAirportName": "布宜诺斯艾利斯",
+                "startTime": ""
+            }
+        ]
+    },
+    "cal": {
+        "channelPut": null,
+        "departDate": []
+    },
+    "cost": {
+        "bookRule": "提交报名表格及护照首页复印件，并交定金50000元/人到帐，定位以订金到账为准，签订旅游合同/确认单。阿根廷签证材料在2024年10月28日至2025年1月1日之间交齐。团费余款需在2024年10月28日前付清，否则舱位不予保留且已交的定金不退。",
+        "costExclude": "旅游意外保险费，船上单人住双人舱费用补差及升舱费用补差，全程邮轮小费96元/人/晚，总计10晚960元/人，司导领队服务费1200元/人，办理护照及准备签证资料过程中发生的费用，航程期间的各项自费项目及个人支出，行程中发生的旅游者个人费用，行李托运过程中因第三方原因导致延误、丢失、损害、找寻行李等费用，客户取消保险，旅游者自愿支付给导游、领队、司机、酒店服务生等服务人员的小费，旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失，因自然天气等不可抗力原因所致的额外费用，合同及旅游行程未约定由旅行社支付的费用",
+        "costInclude": "北京-布宜诺斯艾利斯往返机票（经济舱），布宜诺斯艾利斯-乌斯怀亚接机往返经济舱机票，行程中酒店住宿（布宜当地网评五钻酒店，乌斯怀亚当地网评四钻酒店），北京起止中文领队服务，行程中所标明的“星辉号”10晚11天南极航次的单人船票、港务税，航程期间船上的所有膳食，船长欢迎鸡尾酒&晚宴，航程期间船上优质探险队服务，航程期间船上组织的免费的登陆活动，航程期间船上提供的免费娱乐设施，航程期间船上提供的免费WiFi，靴子租赁（保证金除外），极地冲锋衣（成人尺码），阿根廷签证",
+        "lineReturns": [
+            {
+                "begin": "180",
+                "cost": "20%",
+                "end": "151"
+            },
+            {
+                "begin": "150",
+                "cost": "30%",
+                "end": "121"
+            },
+            {
+                "begin": "120",
+                "cost": "60%",
+                "end": "91"
+            },
+            {
+                "begin": "90",
+                "cost": "100%",
+                "end": "0"
+            }
+        ],
+        "otherRule": "",
+        "returnContent": "出发前180-151天取消行程，收取全部费用的20%作为违约金；出发前150-121天取消行程，收取全部费用的30%作为违约金；出发前120-91天取消行程，收取全部费用的60%作为违约金；出发前90天以内取消行程，收取全部费用的100%作为违约金；如双人入住一间舱房，若其中一位出行人取消将按以上条款承担业务损失费，另一位出行人需按单人报名收取费用；阿根廷签证拒签收签证费用2900元/人，退回定金余款；客人提供虚假签证资料导致拒签或未能入境，收取全部团款作为取消费",
+        "selfCostContent": "",
+        "selfCosts": [],
+        "shopContent": "",
+        "shops": [],
+        "tipsContent": "请确保本人护照必须自行程结束之日后还有6个月以上的有效期，如不足6个月，请换发新护照。由于极地天气的特殊性，具体安排由船方临时根据天气等因素决定，船方可能会根据实际航行中天气或其它原因改变行程。极地邮轮登陆活动有一定风险性，每位乘客必须遵循探险队员的要求登陆及活动。游轮中的舱房内，每位乘客必须占床，儿童价格与成人相同。游轮家庭房数量有限，如需预定三人间需提供出行人护照信息及付清全款方可预订。不接受出发时不满6周岁的儿童预订申请，也不接受在航程开始时或航程进行中，会进入或已进入怀孕第24周的孕妇游客的预订申请，且每一个舱房内均必须有一人年满21周岁。"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "正月初二在北京集合，于今晚 21:50 在北京首都集合准备出发。住宿在飞机上，餐食为飞机餐或自理，交通方式为飞机。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "北京首都",
+                    "departureTime": "21:50",
+                    "destination": "",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京集合出发",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 0,
+            "content": "乘坐参考航班 TK089（00:50 从北京出发，06:35 抵达伊斯坦布尔）转 TK015（10:05 从伊斯坦布尔出发，22:25 抵达布宜诺斯艾利斯）或 ET605（00:10 从北京出发，07:15 抵达亚的斯亚贝巴）转 ET506（09:50 从亚的斯亚贝巴出发，19:55 抵达布宜诺斯艾利斯），抵达阿根廷首都布宜诺斯艾利斯。布宜是阿根廷的首都南美洲第二大都会区，也是南美洲最具有欧洲风情的城市有‘南美巴黎’之称，阿根廷的特色艺术形式之一是探戈舞和探戈音乐，而布宜诺斯艾利斯正是这些艺术形式的发源地。每年，城市都会举办大规模的探戈节庆典，吸引国内外游客。布宜诺斯艾利斯以其丰富的美食而著称，其中包括阿根廷式烤肉（阿萨多）和马黛拉面条。城市中有许多餐厅和咖啡馆，提供当地和国际美食。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "06:35",
+                    "departure": "北京",
+                    "departureTime": "00:50",
+                    "destination": "伊斯坦布尔",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "22:25",
+                    "departure": "伊斯坦布尔",
+                    "departureTime": "10:05",
+                    "destination": "布宜诺斯艾利斯",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "07:15",
+                    "departure": "北京",
+                    "departureTime": "00:10",
+                    "destination": "亚的斯亚贝巴",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "19:55",
+                    "departure": "亚的斯亚贝巴",
+                    "departureTime": "09:50",
+                    "destination": "布宜诺斯艾利斯",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "布宜诺斯艾利斯之旅",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "您可以参观百年剧场改建而成的世界著名书店之一——雅典人（El Ateneo）。您将搭乘飞机前往阿根廷最南端的海港——乌斯怀亚。抵达后，您可以在市区和海滨自由活动，进行观光和摄影。乌斯怀亚环山三面，临海一侧曾是南极捕鲸基地和各探险队的出发点。市区拥有三、五条主要街道，坐落在斜坡上，充满活力，拥有高级旅馆、阿根廷著名的烧烤餐厅和各类礼品商店。由于飞机较小，可能需要分乘多个航班。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "这座建筑于1919年建成，最初是Teatro Grand Splendid大剧院，保留了其雄伟的氛围，包括天顶画、华丽雕刻和奢华的红色大幕布。",
+                    "name": "雅典人（El Ateneo）"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "布宜诺斯艾利斯",
+                    "departureTime": "",
+                    "destination": "乌斯怀亚",
+                    "trafficType": "飞机、大巴"
+                }
+            ],
+            "title": "布宜诺斯艾利斯至乌斯怀亚之旅",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "游览最南端的火地岛国家公园（含门票），进园后欣赏沿途美景，了解其丰富的生态。接着参观世界最南端邮局、泛美公路最南端起点标志和世界最南端火车站。下午登船，开启南极之旅。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "邮轮",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "全天",
+                    "description": "火地岛国家公园是世界南端的国家公园，充满大自然气息，进园后，沿途山明水秀、生机洋溢，还有多种野生动物和珍稀鸟类。这里雨水充沛，秋天时候山坡落叶一片火红；雪山、山脉、湖泊和原始森林点缀其间，极地风光无限，景色万分迷人。",
+                    "name": "火地岛国家公园"
+                },
+                {
+                    "consumingTime": "下午",
+                    "description": "",
+                    "name": "世界最南端邮局"
+                },
+                {
+                    "consumingTime": "下午",
+                    "description": "",
+                    "name": "泛美公路最南端起点标志"
+                },
+                {
+                    "consumingTime": "下午",
+                    "description": "",
+                    "name": "世界最南端火车站"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "大巴"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "邮轮"
+                }
+            ],
+            "title": "乌斯怀亚之旅",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "乘风破浪迎风朝南航行穿越魔鬼西风带，穿过南美洲大陆与南极半岛之间德雷克海峡。这个连接大洋的神秘通道蕴藏着丰富的海洋生物资源，为每一位航行者带来了一场视觉和心灵的盛宴。航行约600海里后浮冰、冰山，伴随着海鸟翱翔、鲸鱼探出水面，成为征程中美妙的序曲。船上的专家学者们将举办讲座，深入介绍南极的地理、生物和悠久的历史。与南极幅合带相遇时，冷热水在此交汇，形成水雾，空气中弥漫着南极独有的清新冷空气味道，让每一位航行者为之振奋，期盼即将呈现的南极特殊景观。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "邮轮",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "岛上的半月岛或艾秋岛上，企鹅筑巢群栖，与海鸟翱翔，勾勒出一幅如诗如画的画卷。群岛上罕见的两种植物——苔藓和地衣类，在短暂的夏季茂盛生长，为这片极地大地增添翠绿色。",
+                    "name": "南设特兰群岛"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "2月4日",
+                    "departure": "德雷克海峡乌斯怀亚",
+                    "departureTime": "2月3日",
+                    "destination": "南设特兰群岛、南极半岛",
+                    "trafficType": "邮轮"
+                }
+            ],
+            "title": "南极邮轮之旅",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "穿越德雷克海峡，专家学者举办讲座，深入介绍南极的地理、生物和悠久的历史。与南极幅合带相遇，感受冷热水交汇形成的水雾和独特空气味道。抵达南设特兰群岛，欣赏企鹅、海鸟和岛上植物。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "邮轮",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "岛上的半月岛或艾秋岛上，企鹅筑巢群栖，与海鸟翱翔，罕见的两种植物——苔藓和地衣类在短暂的夏季茂盛生长。",
+                    "name": "南设特兰群岛"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "2月4日",
+                    "departure": "乌斯怀亚",
+                    "departureTime": "2月3日",
+                    "destination": "南设特兰群岛",
+                    "trafficType": "邮轮"
+                }
+            ],
+            "title": "南极探险之旅",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 0,
+            "content": "在冰雪覆盖的南设得兰群岛和南极半岛间巡游，乘坐橡皮艇，与南极探险队员一同登陆，可能参观库佛维尔岛和纳克港。可参与知识讲座和报告，在观景大厅欣赏南极美景，观察极地动物，并与同伴分享旅途趣事。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "该岛屿是南极洲半岛上最大的巴布亚企鹅领地。此岛屿周围的浅水区经常导致浮冰搁浅，堆成壮观的冰山。来到巴布亚企鹅聚集的库佛维岛（南纬64度40分，西经62度37分），四周已是冰雪一片。实际上库佛维岛是一个黑色的岩石岛，它静静地躺在Ronge岛北部和阿克托斯基半岛之间的Errera水道中，在海水冲刷的岸缘可以看到黑色的礁石。",
+                    "name": "库佛维尔岛"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "纳克港（NekoHarbour）坐落于安沃尔湾（Andvord Bay），是尖凸企鹅的主要聚集地，同时也曾是阿根廷难民的",
+                    "name": "纳克港"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "南设特兰群岛和南极半岛巡游",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 8
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [],
+            "title": "",
+            "tripDay": 9
+        },
+        {
+            "breakfast": 0,
+            "content": "在冰雪覆盖的南设得兰群岛和南极半岛间巡游，乘坐橡皮艇与南极探险队员一同登陆库佛维尔岛和纳克港，探访宏伟的美景。期间可参与知识讲座和报告，或在观景大厅欣赏南极美景，观察极地动物，与同伴分享旅途趣事。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "该岛屿是南极洲半岛上最大的巴布亚企鹅领地。此岛屿周围的浅水区经常导致浮冰搁浅，堆成壮观的冰山。来到巴布亚企鹅聚集的库佛维岛（南纬64度40分，西经62度37分），四周已是冰雪一片。实际上库佛维岛是一个黑色的岩石岛，它静静地躺在Ronge岛北部和阿克托斯基半岛之间的Errera水道中，在海水冲刷的岸缘可以看到黑色的礁石。",
+                    "name": "库佛维尔岛"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "纳克港（NekoHarbour）坐落于安沃尔湾（Andvord Bay），是尖凸企鹅的主要聚集地，同时也曾是阿根廷难民的避难所。这宁静而安逸的港口，被陡峭的山峰环绕，而雄伟的冰川则构成了其自然的屏障。",
+                    "name": "纳克港"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "南设特兰群岛和南极半岛巡游",
+            "tripDay": 10
+        },
+        {
+            "breakfast": 0,
+            "content": "在冰雪覆盖的南设得兰群岛和南极半岛间巡游，乘坐橡皮艇，与南极探险队员一同登陆，探访宏伟的美景。参与由极地专家与经验丰富的探险队员准备的各种知识讲座和报告，或在观景大厅欣赏南极美景，观察极地动物，并与同伴分享旅途趣事。如果条件具备有选择的参观库佛维尔岛和纳克港。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "该岛屿是南极洲半岛上最大的巴布亚企鹅领地。此岛屿周围的浅水区经常导致浮冰搁浅，堆成壮观的冰山。来到巴布亚企鹅聚集的库佛维岛（南纬64度40分，西经62度37分），四周已是冰雪一片。实际上库佛维岛是一个黑色的岩石岛，它静静地躺在Ronge岛北部和阿克托斯基半岛之间的Errera水道中，在海水冲刷的岸缘可以看到黑色的礁石。",
+                    "name": "库佛维尔岛"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "纳克港（NekoHarbour）坐落于安沃尔湾（Andvord Bay），是尖凸企鹅的主要聚集地，同时也曾是阿根廷难民的避难所。这宁静而安逸的港口，被陡峭的山峰环绕，而雄伟的冰川则构成了其自然的屏障。",
+                    "name": "纳克港"
+                }
+            ],
+            "scheduleTraffics": [],
+            "title": "南设特兰群岛、南极半岛巡游之旅",
+            "tripDay": 11
+        },
+        {
+            "breakfast": 1,
+            "content": "向北航行穿越魔鬼西风带下的德雷克海峡，缓缓驶向乌斯怀亚，整理行李，满载着人生中最美好的回忆返航。浮生难得几日闲，此时何不静下来，仔细聆听大海的宁静，细腻感受豪华邮轮尊贵的休闲度假时光。每天的专家讲座将南极的各个方面生动叙述。在邮轮上举办会议、讲座、论坛等也是不错的选择。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "邮轮",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "邮轮"
+                }
+            ],
+            "title": "德雷克海峡之旅",
+            "tripDay": 12
+        },
+        {
+            "breakfast": 1,
+            "content": "向北航行穿越魔鬼西风带下的德雷克海峡，缓缓驶向乌斯怀亚，整理行李，满载着人生中最美好的回忆返航。浮生难得几日闲，此时何不静下来，仔细聆听大海的宁静，细腻感受豪华邮轮尊贵的休闲度假时光。每天的专家讲座将南极的各个方面生动叙述。在邮轮上举办会议、讲座、论坛等也是不错的选择。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "邮轮",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "邮轮"
+                }
+            ],
+            "title": "穿越德雷克海峡，享受邮轮休闲时光",
+            "tripDay": 13
+        },
+        {
+            "breakfast": 1,
+            "content": "南极探险之旅结束，在乌斯怀亚做短暂的休整和活动，之后乘坐飞机前往阿根廷首都布宜诺斯艾利斯。抵达布宜诺斯艾利斯后用晚餐，之后前往酒店休息。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "乌斯怀亚",
+                    "departureTime": "",
+                    "destination": "布宜诺斯艾利斯",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "从乌斯怀亚前往布宜诺斯艾利斯",
+            "tripDay": 14
+        },
+        {
+            "breakfast": 1,
+            "content": "早餐后，开始市区游览，参观科隆剧院、七九大道和方尖碑、国会广场、五月广场、布宜诺斯艾利斯大教堂、总统府，最后前往机场准备返回国内。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "飞机上",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "是座典型的文艺复兴式的庞然大物，仅次于纽约大都会歌剧院和米兰拉斯卡拉剧院的世界第三大歌剧院。",
+                    "name": "科隆剧院"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "这是城市的最重要标志之一。",
+                    "name": "七九大道和方尖碑"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "布宜诺斯艾利斯三大著名广场之一。",
+                    "name": "国会广场"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "探索布宜最早的中心地区，欣赏不同历史时期的建筑。",
+                    "name": "五月广场"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "殖民时期的市政厅和新古典派风格。",
+                    "name": "布宜诺斯艾利斯大教堂"
+                },
+                {
+                    "consumingTime": "",
+                    "description": "阿根廷国家的最高行政指挥中心，因其外墙涂成粉红色而被称为“玫瑰宫”。",
+                    "name": "总统府"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "布宜诺斯艾利斯",
+                    "departureTime": "",
+                    "destination": "伊斯坦布尔",
+                    "trafficType": "飞机"
+                },
+                {
+                    "arrivalTime": "",
+                    "departure": "布宜诺斯艾利斯",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": "大巴"
+                }
+            ],
+            "title": "布宜诺斯艾利斯市区游览",
+            "tripDay": 15
+        },
+        {
+            "breakfast": 0,
+            "content": "预计今日晚间抵达伊斯坦布尔机场，在此中转。",
+            "dinner": 0,
+            "hotels": [],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "晚间",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "伊斯坦布尔",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "伊斯坦布尔中转",
+            "tripDay": 16
+        },
+        {
+            "breakfast": 0,
+            "content": "乘坐航班从伊斯坦布尔返回北京，参考航班：TK088 IST-PEK 02:10-16:15 或 ET604 ADD-PEK 01:20-17:10，抵达国内，结束南极之旅。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "温馨的家",
+                    "star": "5"
+                }
+            ],
+            "lunch": 0,
+            "scenes": [],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "16:15 或 17:10",
+                    "departure": "伊斯坦布尔",
+                    "departureTime": "02:10 或 01:20",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "返程",
+            "tripDay": 17
+        }
+    ]
+}

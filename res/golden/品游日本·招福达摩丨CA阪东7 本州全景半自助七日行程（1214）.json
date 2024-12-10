@@ -1,0 +1,425 @@
+{
+    "product": {
+        "childAgeBegin": "0",
+        "childAgeEnd": "0",
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "",
+                "destCityName": "",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": [
+            {
+                "content": "",
+                "name": "",
+                "typeName": ""
+            }
+        ],
+        "insuranceIncluded": 0,
+        "markets": [
+            {
+                "name": "招福达摩"
+            }
+        ],
+        "productSubtitle": "",
+        "productTitle": "品游日本 · 招福达摩 东京、富士山、大阪、京都、奈良、镰仓丨本州全景半自助七日行程",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "东京"
+            },
+            {
+                "name": "富士山"
+            },
+            {
+                "name": "大阪"
+            },
+            {
+                "name": "京都"
+            },
+            {
+                "name": "奈良"
+            },
+            {
+                "name": "镰仓"
+            }
+        ],
+        "themes": [
+            {
+                "name": "品游日本 · 招福达摩"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空",
+                "arriveAirportName": "",
+                "arriveTime": "18:40",
+                "days": "0",
+                "flightNo": "CA926",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "15:15"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "CA",
+                "airlineName": "中国国际航空",
+                "arriveAirportName": "",
+                "arriveTime": "12:40",
+                "days": "0",
+                "flightNo": "CA927",
+                "flightSort": "",
+                "startAirportName": "",
+                "startTime": "08:45"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "",
+        "lineFeature": "",
+        "lineSimpleTitle": "",
+        "lineSortTitle": "",
+        "lineTitle": "",
+        "needVisa": 1,
+        "passCities": [
+            {
+                "cityName": "",
+                "countryName": "",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "7",
+        "tripNight": "6",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "",
+                    "district": "",
+                    "freeVisa": "0",
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            }
+        ],
+        "departDate": [
+            "2024.12.14"
+        ]
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "1、护照办理费用； 2、洗衣、理发、电话、传真、饮料、烟酒、洗熨、付费电视、行程外用餐、行李搬运等个人消费； 3、旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失； 4、服务包含项目未提到的其它一切费用； 5、旅游人身意外险 30 元/人，建议您报名时付费参加此保险。",
+        "costInclude": "1、往返国际机票团队经济舱费用，含机场建设税； 2、行程所列酒店； 3、行程所列用餐； 4、旅游巴士费用及日本司机服务（根据实际收客人数，适当调整车型）； 5、日本司导及领队服务费； 6、行程所列景点门票； 7、团队旅游签证费用。",
+        "lineReturns": [
+            {
+                "begin": "",
+                "cost": "",
+                "end": ""
+            }
+        ],
+        "otherRule": "1、本社有权根据景点关门时间或当地交通状况调整行程游览先后顺序； 2、日本同北京时间时差为一小时，日本上午九点，则北京为上午八点； 3、如遇天气、战争、罢工、地震等人力不可抗力因素无法游览，我社将按照旅行社协议，退还没有游览景 点门票费用，但赠送项目费用不退； 4、游客因个人原因临时自愿放弃游览，酒店住宿、餐、车等费用均不退还； 5、如遇航空公司政策性调整燃油税费价格，请按规定补交差价；包机机票不得改签换人退票； 6、如果旅游目的地国家政策性调整门票或其他相关价格，请按规定补交差价； 7、我社处理游客意见，以游客交回的《团队质量反馈表》为依据，请您秉着公平、公正、实事求是的原则 填写《团队质量反馈表》； 8、日本的酒店大堂和房间面积相比国内酒店较小，日本的酒店单人间一般为一张单人床，单房差是指用一 个单人间产生的差价而非双间单人利用的差价； 9、依照旅游业现行作业规定，我社有权依据最终出团人数情况，调整房间分房情况； 10、贵重物品可存放在房间或总台的保险柜里；住宿之后千万不要把酒店的睡袍带走，若被发现将严肃处 理；日本酒店房间分为禁烟房间和准吸烟房间，在禁烟房间是绝对禁止吸烟的，准吸烟房间可以吸烟， 但请注意安全；其他场合必须在有烟灰缸的地方才能吸烟；禁止厕所吸烟以及把烟头扔入马桶；若有 游客需要吸烟而不知当时场合能否吸烟时请及时询问导游，避免不必要的误会。",
+        "returnContent": "",
+        "selfCostContent": "",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "",
+                "name": "",
+                "remark": "",
+                "stay": ""
+            }
+        ],
+        "shopContent": "",
+        "shops": [
+            {
+                "address": "",
+                "remark": "",
+                "shopName": "",
+                "shopProduct": "",
+                "stay": ""
+            }
+        ],
+        "tipsContent": ""
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "乘飞机赴日本大阪，抵达后乘车前往酒店，办理入住，随后自由活动。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "参考大阪 Luxe 奢华酒店/大阪水晶酒店或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "12：40",
+                    "departure": "北京",
+                    "departureTime": "08:45",
+                    "destination": "大阪",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京首都国际机场 - 大阪关西国际机场",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "A 线：大阪全天自由活动。（自由活动期间不含用车、用餐、门票及导游服务） B 线：漫游古都奈良、拜访招福达摩。（无需另付费用） 【奈良公园】（停留约 30 分钟）囊括了由天平时代延续下来的东大寺、兴福寺以及正仓院等名胜古迹， 是一座规模雄伟、绿树成荫的历史公园。公园内有三五成群的鹿群，它们被看成是神的使者而受到人 们的悉心照顾。在这里，您可以与小鹿们亲密接触，感受人与自然和谐共存的美好。 【东大寺】（停留约 30 分钟）东大寺是世界现存最大的木建筑，是日本佛教的重要中心，也是日本文 化的重要象征，已有 1200 余年历史。东大寺主体建筑通体采用榫卯结构，其外观很大程度上吸收了我 国唐代建筑的风格，极具唐代遗风。站在庞大的古建筑面前，感受历史的厚重，游人也显得很渺小。 【胜尾寺】（停留约 60 分钟）建于 727 年的奈良时代末期，作为获胜之寺受到供奉已有 1300 年的历 史，拥有“胜运之寺”、“胜利达摩之寺”的赞誉，随处可见大大小小的达摩，不仅看起来可爱，更 是得到庇护、愿望达成的象征。胜尾寺的“胜”不是打败别人，而是“面对自己，战胜自己，更加强 大”的意思哦！许愿时在达摩左眼球画上眼睛，愿望达成后补上另一边，这种独特的形式，仿佛把幸 运保存在了一个个圆滚滚的达摩里。比起单纯的许愿，更是希望写下自己的愿望之后，怀着一颗去实 现它的心去付出实践。 【心斋桥、道顿堀】（停留约 90 分钟）自由活动。这里是大阪最繁华的商业区，集中了众多的精品屋 和专卖店，从早到晚熙熙攘攘，到处是市民和游客的人流。道顿崛坐落着很多美食店，不仅有日本菜， 还可以品尝到亚洲、美洲和欧洲等世界各个国家、各个地区不同的风味。 ",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "参考名古屋常滑春秋阳光酒店或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "大阪自由活动 / 漫游古都奈良、拜访招福达摩",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "参考名古屋常滑春秋阳光酒店或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "name": "二年坂、三年坂",
+                    "description": "具有京都独特风情的坡道，被列入了日本“重要传统的建造物 群保护地区”，是感受日本传统文化和风情的绝佳去处。石坂两侧是充满古老风韵的日式建筑，各种 美食、纸扇、人偶、筷子等日式手工艺品让人目不暇接。",
+                    "consumingTime": "停留约 30 分钟"
+                },
+                {
+                    "name": "清水寺",
+                    "description": "作为京都最古老的寺院，始建于 778 年的音羽山清水寺已经成了京都 的地标性景点，与金阁寺、二条城并称为京都三大名胜，1994 年列入世界文化遗产名录。",
+                    "consumingTime": "停留约 30 分钟"
+                },
+                {
+                    "name": "抹茶手作体验",
+                    "description": "来到京都，怎能不体验日本抹茶手作体验？由专业的抹茶老师带 领，学习如何制作抹茶及茶道礼仪，将研好的茶放入抹茶碗中，亲手制作，在寂静之中偶尔的声响、将 热水倒入杯中的声音以及搅拌抹茶时的声音，都可以感受到茶道的精神。",
+                    "consumingTime": "停留约 60 分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "大阪 - 京都 - 中部",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "参考富士山花园温泉酒店或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "停留约 60 分钟",
+                    "description": "日本国内的最高峰，也是世界上最大的活火山之一，主峰海拔高 达 3776 公尺。作为日本民族的象征之一，在全球都享有盛誉，被日本人民誉为“圣岳”，是日本民族 引以为傲的象征。（如遇天气或特殊情况五合目封山，将更改为一合目代替）",
+                    "name": "富士山五合目"
+                },
+                {
+                    "name": "忍野八海",
+                    "description": "因错落有致地散布着八个清泉而得名的涌泉群，被誉为\"日本九寨沟\"， 是富士山融化的雪水而成的，水质清冽甘甜，是忍野地区指定的国家自然风景区。为国家指定天然记 念物、名水百选、新富岳百景之一；天气晴朗时池水波光潾潾与美丽的富士山合为一体，美不胜收。",
+                    "consumingTime": "停留约 30 分钟"
+                },
+                {
+                    "name": "和牛日式烤肉自助",
+                    "description": "日本和牛，对全世界的美食家来说，都象征着最奢华的味蕾享受。细密分布与 牛肉间的脂肪给予和牛肉优越的口感和味道。烹调适当的牛肉嫩软味道鲜美，口感滑嫩。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "御殿场奥特莱斯",
+                    "description": "是日本品牌店最多的 Outlet 商场，也是日本最红火的商场之 一。整个商场就像一座山中花园，每当周末假日，逛街人潮络绎不绝。",
+                    "consumingTime": "停留约 60 分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "中部 - 富士山",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "参考东京 Daynice 酒店/Vessel 酒店或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "停留约 60 分钟",
+                    "description": "浅草寺的历史很悠久，它的起源据传是在 1370 年前，现在的浅草 观音寺建筑群是在二战后重建的。寺院的正门——雷门是通往浅草观音寺的入口处，门下挂了一个百 斤重，四米高的红色大灯笼，已成为该寺的标志之一。",
+                    "name": "浅草观音寺"
+                },
+                {
+                    "name": "皇居外苑",
+                    "description": "外观历代天皇及其家人的住所。皇居是江户幕府在 1657 年所建的城堡，1888 年才成为日本天皇的居所。皇居前广场是东京最中心的地方，遍植松柏，青翠如茵",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "“温野菜”日式自助火锅料理",
+                    "description": "日本 No.1 的涮涮锅品牌，经典的京都风格是温野菜的特色，典雅的 木作栅栏与日本竹帘，半开放式的座位。与亲朋好友在优雅意境中开怀聊天，品尝独特美味。",
+                    "consumingTime": ""
+                },
+                {
+                    "name": "银座",
+                    "description": "银座是东京中央区最主要商业区，是东京的地标，也是世界三大名街之一， 与巴黎的香榭丽舍大道，纽约的第五大道并列为世界三大繁华商业街",
+                    "consumingTime": "停留约 60 分钟"
+                },
+                {
+                    "name": "综合免税店",
+                    "description": "可自由选购各种日本国民之健康流行食品及各种日本人气杂货",
+                    "consumingTime": "停留约 60 分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "富士山 - 东京",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "今日行程可自选： A 线：东京全天自由活动。（自由活动期间不含用车、用餐、门票及导游服务） B 线：镰仓漫步最美湘南海岸。（无需另付费用） 【鹤岗八幡宫】（停留约 60 分钟）是设立在日本神奈川县镰仓市祭祀八幡神的神社。1063 年源赖义 向石清水八幡宫提出劝请，请求在镰仓由比乡鹤冈设立八幡宫。1180 年（治承四年）源赖朝入主镰仓， 将神社移往现在所在地，称鹤冈若宫，八幡神成为源氏的守护神。从鹤冈八幡宫笔直延伸的若宫大路 的西侧，是一条南北走向的道路小町街。 【江之岛】（停留约 60 分钟）位于神奈川县藤泽市，小岛之间桥段相衔接，走过上岛必经之路弁天桥， 就来到了弁財天仲見世商业街，这里经营着许多镰仓，湘南的传统工艺品小店。还有许多当地的名物 小吃店，可自行品尝美食、享用午餐，边吃边逛体验最淳朴的民情，运气好的话还能看到富士山雪顶！ 【乘坐江之电、游览灌篮高手取景地】电车经过镰仓高校前站，沿途观赏日本最美的湘南海岸线风光， 故事中男主角流川枫从这里骑单车经过，樱木花道在此遇到女主角晴子…… 【镰仓大佛】（停留约 30 分钟）古都镰仓被誉为“小京都”。镰仓大佛坐落在位于镰仓市的高德院内， 高德院是一间佛教净土宗的寺院，供奉的本尊阿弥陀佛一般人称为“镰仓大佛”，坐落于大异山。大 佛高达 13.35 米，重约 93 吨，是一座露天阿弥陀佛青铜塑像。",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "参考东京 Daynice 酒店/Vessel 酒店或同级",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "东京自由活动 / 镰仓漫步最美湘南海岸",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "乘车赴机场，搭乘国际航班返回，结束愉快旅程！",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "18:40",
+                    "departure": "东京",
+                    "departureTime": "15:15",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "东京成田国际机场 -北京首都国际机场",
+            "tripDay": 7
+        }
+    ]
+}

@@ -1,0 +1,564 @@
+{
+    "product": {
+        "childAgeBegin": "0",
+        "childAgeEnd": "0",
+        "childHasBed": 0,
+        "childHasTraffic": 0,
+        "childHeightBegin": "",
+        "childHeightEnd": "",
+        "childRule": "",
+        "departureCityName": "北京",
+        "departureCountryName": "中国",
+        "departureProvinceNam": "",
+        "dests": [
+            {
+                "countryName": "俄罗斯",
+                "destCityName": "",
+                "destProvinceName": ""
+            }
+        ],
+        "insurance": [
+            {
+                "content": "",
+                "name": "",
+                "typeName": "旅游意外险"
+            }
+        ],
+        "insuranceIncluded": 0,
+        "markets": [
+            {
+                "name": "惠享"
+            }
+        ],
+        "productSubtitle": "",
+        "productTitle": "曼妙俄罗斯双首都+金环小镇+双庄园 经典8日",
+        "returnCityName": "北京",
+        "tags": [
+            {
+                "name": "俄罗斯"
+            }
+        ],
+        "themes": [
+            {
+                "name": "曼妙俄罗斯"
+            }
+        ]
+    },
+    "line": {
+        "backAirports": [
+            {
+                "airlineCode": "HU",
+                "airlineName": "海南航空",
+                "arriveAirportName": "PEK",
+                "arriveTime": "08:50",
+                "days": "+1",
+                "flightNo": "HU7986",
+                "flightSort": "",
+                "startAirportName": "SVO",
+                "startTime": "19:55"
+            }
+        ],
+        "backTransportName": "飞机",
+        "goAirports": [
+            {
+                "airlineCode": "HU",
+                "airlineName": "海南航空",
+                "arriveAirportName": "SVO",
+                "arriveTime": "18:05",
+                "days": "0",
+                "flightNo": "HU7985",
+                "flightSort": "",
+                "startAirportName": "PEK",
+                "startTime": "14：35"
+            }
+        ],
+        "goTransportName": "飞机",
+        "hotelStarName": "四星",
+        "lineFeature": "",
+        "lineSimpleTitle": "",
+        "lineSortTitle": "",
+        "lineTitle": "",
+        "needVisa": 0,
+        "passCities": [
+            {
+                "cityName": "",
+                "countryName": "俄罗斯",
+                "provinceName": ""
+            }
+        ],
+        "tripDays": "8",
+        "tripNight": "6",
+        "visaBasic": {
+            "postAddress": "",
+            "postContact": "",
+            "postPhone": "",
+            "visas": [
+                {
+                    "content": "",
+                    "country": "",
+                    "district": "",
+                    "freeVisa": "1",
+                    "signPlace": ""
+                }
+            ]
+        }
+    },
+    "cal": {
+        "channelPut": [
+            {
+                "adultSalePrice": "",
+                "childSalePrice": "",
+                "sellRemark": ""
+            }
+        ],
+        "departDate": [
+            ""
+        ]
+    },
+    "cost": {
+        "bookRule": "",
+        "costExclude": "1、单间差费用：2000 元/人（全程）； 2、服务费：800 元/人； 3、护照办理费用； 4、航空延误险及航空意外险（建议游客自行购买）； 5、境内地面服务费用：如机场接送等；行李物品保管费及托运行李超重费； 6、酒店内电话、传真、洗熨、收费电视、饮料、理发、烟酒、行李搬运等私人费用； 7、服务项目未提到的其他一切费用，例如特种门票（博览会、缆车等）； 8、旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失； 9、交通延误、取消等意外事件或战争、罢工、自然灾害等不可抗力导致的额外费用； 10、航空公司燃油税上涨价格部份，如遇上涨则追补差价。",
+        "costInclude": "1、机票：北京/俄罗斯往返国际机票，团队经济舱，含机场建设税，团队机票确定后不可退改，航班信息最终以出 团通知为准； 2、签证：俄罗斯团队旅游免签名单； 3、酒店：行程所列当地四星级酒店双人间，散拼团无法指定酒店，无法保证房型，不保证夫妻住一间房，如有特 殊原因需要拼住，请配合领队工作，感谢您的理解与支持； 4、交通：境外旅游巴士及外籍司机；莫斯科/圣彼得堡往返四人包厢夜火车，火车票为团体出票，铺位以实际出票 为准，无法指定上下铺，无法保证同团人或家庭成员同一包厢，会有和外国人一包厢的情况，敬请理解； 5、导游：全程中文讲解，优秀中文领队陪同； 6、用餐：正餐：莫斯科、圣彼得堡为中餐用餐（正餐八菜一汤），十人一桌；谢镇为俄式简餐； 7、门票：行程中所列景点首道门票即：冬宫、夏宫花园、三圣大修道院、莫斯科地铁； 8、赠送：旅游意外险。",
+        "lineReturns": [
+            {
+                "begin": "",
+                "cost": "",
+                "end": ""
+            }
+        ],
+        "otherRule": "（1）根据国家旅游局相关规定以及俄罗斯使用团队免签，游客在旅游中途一律不允许脱团，若脱团旅行社有权利 终止后续服务，且费用旅行社不作退还，由此产生的一切后果由个人承担；（建议若有亲朋好友的相聚，最好安排 在每天的团体结束后，在酒店小聚，或安排在自由活动时间，切不可随意脱团，由此造成的任何损失，旅行社概不 负责。） （2）如客人系港澳台人士，或持外籍护照，请于出发前确认是否有再次进入中国的有效证件。 （3）我社处理游客意见，以游客交回的《团队质量反馈表》为依据，请您秉着公平、公正、实事求是的原则填写。",
+        "returnContent": " （1）如遇天气、战争、罢工、地震等人力不可抗力因素无法游览，我社将按照旅行社协议，退还未游览景点门票 费用； （2）游客因个人原因临时自愿放弃游览，酒店住宿、餐、车等费用均不退还； 5、补费说明： （1）如遇航空公司政策性调整机票及燃油税价格，请按规定补交差价。机票价格为团队机票，不得改签换人退票； （2）如果旅游目的地国家政性调整门票或其他相关价格，请按规定补交差价；",
+        "selfCostContent": "旅游者 ( 团队或个人)、旅行社：旅游者和旅行社双方本着诚实信用的原则，旅游者可选择参加的自费项目及 可选 择进入的购物场所，协商一致如下：",
+        "selfCosts": [
+            {
+                "address": "",
+                "fee": "500 元/人",
+                "name": "克里姆林宫",
+                "remark": "预订费+门票+导游服务费",
+                "stay": "不少于 1 小时"
+            },
+            {
+                "address": "",
+                "fee": "500 元/人",
+                "name": "俄罗斯马戏",
+                "remark": "预订费+门票+车费+司机、导游服务费",
+                "stay": "(不少于 1 小时)"
+            },
+            {
+                "address": "",
+                "fee": "200 元/人",
+                "name": "新圣女公墓",
+                "remark": "预订费+门票+车费+司机、导游服务费",
+                "stay": "不少于 30 分钟"
+            },
+            {
+                "address": "",
+                "fee": "500 元/人",
+                "name": "苏联记忆，赠送‘大国印象秀’",
+                "remark": "预订费+门票+车费+司机、导游服务费",
+                "stay": "(不少 于 1 小时"
+            },
+            {
+                "address": "",
+                "fee": "500 元/人",
+                "name": "民族歌舞",
+                "remark": "预订费+门票+车费+司机、导游服务费",
+                "stay": "不少于 1 小时"
+            },
+            {
+                "address": "",
+                "fee": "500 元/人",
+                "name": "涅瓦河游船",
+                "remark": "预订费+门票+车费+司机、导游服务费",
+                "stay": "(不少于 1.5 小时)"
+            },
+            {
+                "address": "",
+                "fee": "1500 元/人",
+                "name": "实弹射击",
+                "remark": "预订费+门票+车费+司机、导游服务费",
+                "stay": ""
+            },
+            {
+                "address": "",
+                "fee": "700 元/人",
+                "name": "叶卡捷林娜花园+宫殿",
+                "remark": "预订费+门票+车费+司机、导游服务费",
+                "stay": "不少于 1 小时)"
+            },
+            {
+                "address": "",
+                "fee": "550 元/人",
+                "name": "夏宫宫殿",
+                "remark": "预订费+门票+车费+司机、导游服务费",
+                "stay": "不少于 1 小时)"
+            },
+            {
+                "address": "",
+                "fee": "1300 元/人",
+                "name": "俄罗斯芭蕾舞",
+                "remark": "预订费+门票+车费+司机、导游服务费",
+                "stay": "不少于 1 小时)"
+            },
+            {
+                "address": "",
+                "fee": "400-600 元/人",
+                "name": "俄式大餐",
+                "remark": "餐费+车费+司机、导游服务费",
+                "stay": "(不少于 1 小时)"
+            }
+        ],
+        "shopContent": "",
+        "shops": [
+            {
+                "address": "",
+                "remark": "请理性消费， 并索要必要票据",
+                "shopName": "紫金店",
+                "shopProduct": "紫金制品",
+                "stay": "不超过 1 小时"
+            },
+            {
+                "address": "",
+                "shopProduct": "琥珀制品",
+                "shopName": "琥珀店",
+                "remark": "请理性消费， 并索要必要票据",
+                "stay": "不超过 1 小时"
+            },
+            {
+                "address": "",
+                "shopProduct": "俄罗斯套娃、蜜蜡、琥珀、望远镜、油画等",
+                "shopName": "工艺品商店",
+                "remark": "请理性消费， 并索要必要票据",
+                "stay": "不超过 1 小时"
+            }
+        ],
+        "tipsContent": "1、语言：俄罗斯通用语言为俄语。外语有法语、德语、英语等，但是应用不是很广泛。 2、货币：俄罗斯通用货币为卢布。美元在有些地方可以使用。现俄罗斯境内暂不支持微信、支付宝、万事达、visa 等支付方式，建议客人携带纯银联卡或自身携带 3 千民币的卢布。 3、出入境与海关： （1）出入境：需要填写入境和出境移民卡，可在飞机上向乘务员索取，入境时上交入境卡给边检人员，出境卡必 须妥善保管以便出境时上交。 （2）边防机构：是否准予出境和入境，为边防机构的行政权利。如因游客自身原因被边防机构拒绝出入境的，相 关责任和费用由游客自行承担。 （3）海关申报单：入境过海关，如有申报物品请填写申报单，并走红色通道，海关申报单请妥善保管。出境再填 出境申报单，与入境申报单一起交海关官员，申报单填报现金数目必须比入境时少。如现金不超过 10000 美元， 无需申报。无携带海关要求申报物品可走绿色通道。海关人员有时会清点和检查游客的现金数目和行李。当地的货 币、珍贵文物、古董木刻、二战勋章等均不能携带出境。尺寸较大的油画带出境外，须到俄罗斯文化部办理手续， 时间较长，故请谨慎购买。 4、气候与衣着：俄罗斯属于大陆性气 候，分为春夏秋冬四个季节。冬季寒 冷漫长，夏季凉爽短暂。冬季室内温 暖，外出需携带保暖的外套、棉鞋、 手套和帽子；夏季早晚温差大，中午 穿一件夏衣即可，早晚需加一件普通 外套，需携带雨伞、驱蚊器、轻便鞋等适用夏季出行的用品。 5、宾馆须知： （1）俄罗斯宾馆 24 小时备有冷热水，便于洗漱。但房间里无饮用开水，需要到走廊自取或者找楼层服务人员索要。 （2）酒店一般不配备牙刷、香皂、拖鞋、吹风机，以上物品请自备。 （3）插头全俄统一为圆插头，需自带电源转换插座（欧标），电压为 220 伏。喜欢喝茶的客人需自带加热器。 （4）宾馆软硬件设施比中国差一些、床较窄。由于环保、历史、欧洲气候较温和等原因，较多酒店无空调。 （5）房间内收费电视及酒水属个人自费项目，每离开一家酒店请尽早将个人的小帐结清，以便团队准时出发。 （6）不要把贵重物品和现金放在房间里，入睡前要插门。不要给陌生人开门。 （7）酒店住宿若出现单男或单女，旅行社会按照报名先后的顺序安排同性客人同住，若客人不接受此种方式或经 协调最终不能安排的，客人须在出发前补单房差入住单人房。 （8）大部分宾馆为无烟宾馆，吸烟客人需到酒店指定地点吸烟，否则会收到重罚。 6、文明旅游：文明出游是每个游客应尽的义务。 （1）公共场所禁止吸烟、大声喧哗、随地吐痰和乱扔垃圾，如有违反会收到法律惩罚。。 （2）应当注意的旅游目的地相关法律、法规和风俗习惯、宗教禁忌，依照中国法律不宜参加的活动等相关信息导 致的一切责任和后果，旅行社不承担责任。"
+    },
+    "trips": [
+        {
+            "breakfast": 0,
+            "content": "请贵宾于规定时间在北京首都国际机场集合，办理登机手续后搭乘国际航班飞往俄罗斯的首都莫斯科，抵达后 乘旅游大巴接机，前往酒店休息。",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "18:05",
+                    "departure": "北京",
+                    "departureTime": "14:35",
+                    "destination": "俄罗斯",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "北京-莫斯科",
+            "tripDay": 1
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "不少于 15 分钟",
+                    "description": "俯瞰莫斯科全景",
+                    "name": "观景台"
+                },
+                {
+                    "name": "莫斯科大学",
+                    "description": "位于莫斯科西南部的列宁山上， 中央主楼 32 层，高达 240 米，顶部是穗形环绕的五角星， 两翼为 18 层高大楼。",
+                    "consumingTime": "外观不少于 20 分钟"
+                },
+                {
+                    "name": "二战胜利广场",
+                    "description": "为了纪念反法西斯战争胜利 50 周年而建",
+                    "consumingTime": "不少于 30 分钟"
+                },
+                {
+                    "name": "凯旋门",
+                    "description": "高 28 米，是按照古罗马康斯坦 丁凯旋门样式建造",
+                    "consumingTime": "不少于 10 分钟"
+                },
+                {
+                    "name": "卡洛明斯科娅庄园",
+                    "description": "十四世纪，卡洛明斯科娅庄园开始成为沙皇的避 暑山庄，1532 年，修建了这座教堂庄园。",
+                    "consumingTime": "入内不少 于 1 小时"
+                },
+                {
+                    "name": "查理基诺庄园",
+                    "description": "1776 年为纪念俄国在第一次 俄土战争中的胜利，叶卡捷琳娜二世女皇下令修建了这座皇家建筑园林，建筑全部采用红砖并镶有白石刻的装饰， 是典型的哥特式建筑。晚餐后搭乘四人软卧包厢前往圣彼得堡。",
+                    "consumingTime": "入内不少于 1 小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "莫斯科/圣彼得堡",
+            "tripDay": 2
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "不少于 10 分钟",
+                    "description": "",
+                    "name": "狮身人面像"
+                },
+                {
+                    "name": "冬宫",
+                    "description": "音译艾尔米塔什博物馆，是 18 世纪中叶俄 国巴罗克式建筑的杰出典范，与伦敦的大英博物馆、巴黎卢浮 宫、纽约的大都会艺术博物馆一起称为世界四大博物馆。冬宫 宫殿以其宏伟的气势、非凡的想象、华丽的景观动人心魄。",
+                    "consumingTime": "入内 不少于 1.5 小时"
+                },
+                {
+                    "name": "斯莫尔尼宫建筑 群",
+                    "description": "它是俄罗斯的第一座为女子而建 的女子贵族中学，整体色彩和皇村的叶卡捷琳娜宫的色彩一样， 也是清爽干净的蓝白相间，是巴洛克风格和俄罗斯风格的融合。",
+                    "consumingTime": "外观不少于 30 分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "圣彼得堡",
+            "tripDay": 3
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "入内不少于 1.5 小时",
+                    "description": "它诞生于 18 世纪初，由 富丽堂皇的皇家宫殿、金碧辉煌的雕像喷泉、美丽奢华的公园 组成，被誉为“俄罗斯的凡尔赛宫”，是世界上最大的喷泉园林。",
+                    "name": "夏宫花园"
+                },
+                {
+                    "name": "伊萨基耶夫教堂",
+                    "description": "与梵蒂冈的 圣彼得大教堂、伦敦的圣保罗大教堂和佛罗伦萨的花之圣母大 教堂并称为世界四大教堂",
+                    "consumingTime": "外观不少于 20 分钟"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "圣彼得堡",
+            "tripDay": 4
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "不少于 40 分钟",
+                    "description": "坐落在市中心涅瓦 河右岸，该要塞于 1703 年由彼得大帝在兔子岛上奠基，它与 圣彼得堡同龄，是彼得堡著名的古建筑",
+                    "name": "彼得堡罗要塞"
+                },
+                {
+                    "name": "滴血教堂",
+                    "description": "也被称为复活教堂，轮廓美丽，装饰花花 绿绿，镶嵌有复杂、颜色艳丽的影像图案，用丰富的彩色图案 瓷砖、搪瓷青铜板装饰，教堂顶部还立着五光十色的洋葱头顶。",
+                    "consumingTime": "外 观不少于 20 分钟"
+                },
+                {
+                    "name": "喀山教堂",
+                    "description": "",
+                    "consumingTime": "外观不少于 10 分钟"
+                },
+                {
+                    "name": "涅瓦大街",
+                    "description": "涅瓦大街是圣彼得堡最热闹最繁华的街道，聚集了该市最大的书店、食品店、最大的百货商店和最昂贵的购物中心。 晚餐后搭乘四人软卧包厢前往莫斯科",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "圣彼得堡/莫斯科",
+            "tripDay": 5
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 1,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": "四星"
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "莫斯科的 卫星城市之一，是一座风景如画，建筑独特的城市，也是俄 罗斯金环城市之一。",
+                    "name": "谢尔盖耶夫镇"
+                },
+                {
+                    "name": "三圣大修道院",
+                    "description": "它是俄罗斯最古老的大修道院之一，亦译特罗伊察修 道院。1337 年一个名叫谢尔盖·拉多涅日斯基的僧侣在莫斯科 近郊谢尔盖耶夫(即今扎戈尔斯克)的偏僻森林里建立一座三 圣小教堂和小道房，为该修道院的前身。后来凡愿在此出家 的人，必须自造小道房并自辟膳食用地，由此发展而成为俄 罗斯最富有的大修道院。",
+                    "consumingTime": "约 1.5 小时"
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "莫斯科/谢镇/莫斯科",
+            "tripDay": 6
+        },
+        {
+            "breakfast": 1,
+            "content": "",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 1,
+            "scenes": [
+                {
+                    "consumingTime": "红场及周边",
+                    "description": "红场面 积 9.1 万平方米，地面全部由条石铺成，显得古老而神圣，古俄语 意为\"美丽的广场",
+                    "name": "红场及周边"
+                },
+                {
+                    "name": "无名英雄纪念碑】，【瓦西里大 教堂】,【亚历山大花园】",
+                    "description": "",
+                    "consumingTime": "共不少于15分钟"
+                },
+                {
+                    "name": "古姆商场",
+                    "description": "俄罗斯最大的百货公司",
+                    "consumingTime": "不少于 15 分钟"
+                },
+                {
+                    "name": "克里姆林宫",
+                    "description": "是俄罗斯的一组建筑群，位于莫斯科心脏地带，是俄罗斯联 邦的象征、俄罗斯总统府的所在地，曾是俄罗斯沙皇的居所之一。",
+                    "consumingTime": "外观不少于 10 分钟"
+                },
+                {
+                    "name": "莫斯科地铁",
+                    "description": "俄罗斯美丽的地下艺术殿堂",
+                    "consumingTime": "10 分钟"
+                },
+                {
+                    "name": "扎里季耶夫公园+空中栈道",
+                    "description": "",
+                    "consumingTime": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "08:50+1",
+                    "departure": "莫斯科",
+                    "departureTime": "19:55",
+                    "destination": "北京",
+                    "trafficType": "飞机"
+                }
+            ],
+            "title": "莫斯科-北京",
+            "tripDay": 7
+        },
+        {
+            "breakfast": 0,
+            "content": "",
+            "dinner": 0,
+            "hotels": [
+                {
+                    "name": "",
+                    "star": ""
+                }
+            ],
+            "lunch": 0,
+            "scenes": [
+                {
+                    "consumingTime": "",
+                    "description": "",
+                    "name": ""
+                }
+            ],
+            "scheduleTraffics": [
+                {
+                    "arrivalTime": "",
+                    "departure": "",
+                    "departureTime": "",
+                    "destination": "",
+                    "trafficType": ""
+                }
+            ],
+            "title": "北京",
+            "tripDay": 8
+        }
+    ]
+}
